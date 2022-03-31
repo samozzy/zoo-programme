@@ -1,0 +1,14 @@
+$zoo-brand: (
+	"slate": #282D30,
+	"black": #000000,
+	"white": #FFFFFF,
+	"background": #FBFBFB,
+	"black-text": #000000D9,
+	"blue": #21A8C4,
+	"magenta": #B25EA5,
+	"yellow": #F1D42B,
+	"orange": #F48847,
+);
+
+$primary: map-get($zoo-brand, "slate");
+$secondary: map-get($zoo-brand, "black");

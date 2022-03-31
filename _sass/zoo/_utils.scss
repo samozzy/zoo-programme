@@ -1,0 +1,7 @@
+.border-2px {
+  border-width: 2px !important;
+}
+
+.card { 
+  @extend .mb-2, .mb-md-0;
+}

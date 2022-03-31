@@ -1,0 +1,26 @@
+a.icon-animation {
+  .fa {
+    transition: padding, margin;
+    transition-duration: 200ms;
+    padding-left: 0.1rem;
+  }
+}
+a.related-event {
+  transition: opacity;
+  transition-duration: 150ms;
+  opacity: 0.75;
+  &:hover, &:focus, &:active, &:focus-within {
+    opacity: 1.0;
+    .fa {
+      padding-left: 0.4rem;
+    }
+  }
+}
+.icon-animation {
+  &:hover, &:focus, &:active, &:focus-within {
+    .fa {
+      margin-right: -0.5rem;
+      padding-left: 0.6rem;
+    }
+  }
+}

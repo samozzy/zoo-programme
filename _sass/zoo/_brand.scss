@@ -1,0 +1,130 @@
+@import "zoo/colours";
+
+@each $name, $color in $zoo-brand {
+  .text-zoo-#{$name} {
+    color: $color; 
+  }
+  a.text-zoo-#{$name}, a .text-zoo-#{$name} {
+    &:hover, &:focus, &:active {
+    	color: lighten($color, 15%);
+    }
+  }
+  .bg-zoo-#{$name} {
+    background-color: $color !important;
+  }
+  .border-zoo-#{$name} {
+    border-color: $color !important;
+  }
+  .btn-zoo-#{$name} {
+    border-color: $color !important;
+    background-color: $color !important;
+  }
+  .btn-zoo.outline-zoo-#{$name} {
+    border-color: $color !important;
+    background-color: transparent !important;
+    color: $color !important;
+    &:hover, &:focus, &:active {
+      background-color: $color !important;
+    }
+  }
+}
+
+body {
+  background-color: map-get($zoo-brand, "background");
+  color: map-get($zoo-brand, "black-text");
+}
+
+.btn-zoo {
+  @extend .btn, .px-4, .border-2px, .rounded;
+}
+.btn-zoo-pill {
+  @extend .btn-zoo, .rounded-pill;
+} 
+
+.btn-zoo.outline-zoo-white {
+  &:hover, &:focus, &:active {
+    color: map-get($zoo-brand, "black") !important;
+  }
+}
+
+// @each $name, $color in $categories {
+//   .text-category-#{$name} {
+//     color: $color; 
+//     &.link-category-#{$name} {
+//       text-decoration: none;
+//       &:hover, &:focus, &:active {
+//         text-decoration: underline;
+//         color: darken($color, 10%);
+//       }
+//     }
+//   }
+//   .bg-category-#{$name} {
+//     background-color: $color !important;
+//   }
+//   .border-category-#{$name} {
+//     border: 2px solid $color !important;
+//   }
+//   .btn-category-#{$name} {
+//     border-color: $color !important;
+//     background-color: $color !important;
+//     &:hover, &:focus, &:active {
+//       background-color: darken($color, 10%);
+//       border-color: darken($color, 10%);
+//     }
+//   }
+//   .btn.outline-category-#{$name} {
+//     border-color: $color !important;
+//     background-color: transparent !important;
+//     font-family: $headings-font-family;
+//     &:hover, &:focus, &:active {
+//       background-color: $color !important;
+//       @extend .text-light;
+//     }
+//   }
+//   .bg-category-#{$name}-fade {
+//   	background: linear-gradient(0deg, $color 0%, $color 8%, rgba(255,255,255,0) 50%) !important;
+//   }
+//   .bg-category-#{$name}-fade-ymal {
+//     background: linear-gradient(0deg, $color 0%, rgba(255,255,255,0) 35%) !important;
+//   }
+//   .header-category-wrapper {
+//     &:hover, &:active, &:focus, &:focus-within {
+//       .outline-category-#{$name} { 
+//         background-color: $color !important;
+//       }
+//     }
+//   }
+// }
+
+
+a.navbar-brand {
+  #navbar-logo {
+    box-shadow: none;
+    transition: box-shadow;
+    transition-duration: 300ms;
+    height: 85px;
+    width: auto;
+    // Below commented pending ensuring mobile responsiveness 15/07/21
+    // @media only screen and (max-width:576px){
+    //  width: 100%;
+    //  height: auto;
+    // }
+  }
+  &:hover, &:focus-within, &:active {
+    #navbar-logo {
+      box-shadow: 0px 7px map-get($zoo-brand, "orange");
+    }
+  }
+}
+.social-icon, .social-link {
+  color: map-get($zoo-brand, "white");
+}
+a.footer-link {
+  text-decoration: none;
+  @extend .text-muted;
+}
+.social-icon, .social-link, a.footer-link {
+  &:hover, &:focus, &:active {
+    color: map-get($zoo-brand, "orange") !important;
+  }
+}

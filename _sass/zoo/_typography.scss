@@ -1,0 +1,33 @@
+
+// TYPOGRAPHY
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$font-family-base: 'Roboto', Arial, sans-serif;
+$headings-font-family: "Bebas Neue", Arial, sans-serif;
+
+.lead, .bebas {
+	font-family: $headings-font-family;
+	letter-spacing: 1px;
+}
+
+.ymal {
+	@extend .px-3, .text-light, .fw-light;
+	font-size: 2rem !important;
+}
+.home-content p {
+	@extend .fw-light, .mb-0, .fs-5;
+	&.lead {
+		@extend .fs-1;
+	}
+}
+.inner-content h1:first-of-type {
+	@extend .display-5;
+}
+
+// Bootstrap Override
+@media (min-width: 1200px){
+	.display-1 {
+		font-size: 6rem;
+	}
+}

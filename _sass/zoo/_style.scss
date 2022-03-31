@@ -1,0 +1,132 @@
+
+// NAVIGATION
+
+#zoo-navbar {
+	.nav-logo {
+		@extend .order-1, .order-lg-1;
+	}
+	.nav-social {
+		@extend .order-4, .order-lg-2;
+	}
+	.nav-categories {
+		@extend .order-2, .order-lg-3;
+
+	}
+	.nav-navigation {
+		@extend .order-3, .order-lg-4;
+	}
+}
+
+.header-category-wrapper {
+	@extend .mx-2;
+	.header-category-button {
+		margin-top: 0.5rem;
+		transition: margin;
+		transition-duration: 300ms;
+	}
+	&:hover, &:focus, &:active, &:focus-within {
+		.header-category-button {
+			margin-top: 0;
+			margin-bottom: 0.5rem;
+		}
+	}
+	&:focus-within {
+		.header-category-button {
+			outline: 1px dashed grey;
+		}
+	}
+}
+.header-category-button {
+	@extend .btn-zoo, .shadow, .p-2;
+}
+
+.footer p {
+	@extend .mb-0;
+}
+
+// FEATURES 
+
+.row.homepage-row {
+	&:first-of-type {
+		@extend .mt-5;
+	}
+	@extend .mt-4, .mb-5, .mx-xl-5;
+	@extend .px-sm-4, .px-md-5;
+
+	div.category-image {
+		@extend .col-10, .col-sm-6, .col-md-5, .col-lg-4, .col-xxl-3;
+		@extend .mx-auto, .my-md-auto, .mt-2;
+	}
+	div.category-body {
+		@extend .col;
+	}
+
+}
+
+// CARDS 
+
+#available-today-body {
+	@media only screen and (min-width: 1200px){
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@media only screen and (min-width: 1400px){
+		width: 80%;
+	}
+}
+.card-body {
+	position: relative; // Override .ratio 
+}
+.card-image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 15rem;
+	--aspect-ratio: 85%;
+}
+.card.card-event {
+	@extend .rounded-0;
+}
+div.card-event {
+	.card-header, .card-footer, .card-body {
+		border: none;
+		outline: none;
+		border-radius: 0;
+	}
+}
+a.card-event, a.related-event {
+	text-decoration: none !important;
+}
+
+div.card-event-hover {
+	transition: all; // Catches the box-shadow as well as the scale
+	transition-duration: 0.35s;
+	@extend .shadow;
+}
+
+a.card-event-hover  {
+	&:hover, &:focus, &:focus-within, &:active {
+		div.card-event-hover {
+			transform: scale(1.03);
+			@extend .shadow-lg;
+		}
+	}
+}
+
+// ACCESSIBILITY 
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+	.card-event-hover {
+		&:hover, &:focus, &:focus-within, &:active {
+			> * {
+				transform: scale(1) !important;
+			}
+		}
+	}
+}
+
