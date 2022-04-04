@@ -4,7 +4,7 @@
   .text-zoo-#{$name} {
     color: $color; 
   }
-  a.text-zoo-#{$name}, a .text-zoo-#{$name} {
+  a.text-zoo-#{$name}, a.text-zoo-#{$name} {
     &:hover, &:focus, &:active {
     	color: lighten($color, 15%);
     }
@@ -14,6 +14,7 @@
   }
   .border-zoo-#{$name} {
     border-color: $color !important;
+    border-style: solid;
   }
   .btn-zoo-#{$name} {
     border-color: $color !important;
@@ -40,6 +41,9 @@ body {
 .btn-zoo-pill {
   @extend .btn-zoo, .rounded-pill;
 } 
+.btn-zoo-book {
+  @extend .btn, .bebas, .rounded-0, .shadow-sm, .border-2px;
+}
 
 .btn-zoo.outline-zoo-white {
   &:hover, &:focus, &:active {
