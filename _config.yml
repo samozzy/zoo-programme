@@ -8,6 +8,10 @@ twitter_username: zoovenues
 github_username:  samozzy
 timezone: Europe/London
 
+dates:
+  start: 2022-07-29
+  end: 2022-08-31
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
