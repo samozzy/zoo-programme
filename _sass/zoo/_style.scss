@@ -145,6 +145,37 @@ a.card-event-hover  {
 	}
 }
 
+.card-show {
+	@extend .card, .mb-4, .mb-lg-2, .ms-0;
+	@extend .rounded-0, .border-0;
+
+	h3 {
+		@include media-breakpoint-down(sm){
+			text-align:center;
+		}
+	}
+
+	.card-body {
+		@extend .m-0, .p-0;
+		.show-image {
+			@extend .me-3, .mb-2, .float-start, .d-flex, .flex-column;
+			max-width: 45%; 
+			@include media-breakpoint-up(lg) {
+				max-width: 40%;
+			}
+			@include media-breakpoint-up(sm) {
+				max-width: 30%;
+			}
+			img {
+				@extend .img-fluid, .mb-3, .shadow-sm;
+			}
+		}
+	}
+	.card-footer {
+		@extend .text-center, .p-0, .border-0;
+	}
+}
+
 // ACCESSIBILITY 
 
 @media (prefers-reduced-motion: reduce) {
