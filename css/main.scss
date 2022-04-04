@@ -16,13 +16,14 @@ $categories: (
 {% endfor %}
 
 @import "zoo/utils"; 
-@import "zoo/style";
 @import "zoo/brand";
 @import "zoo/animations";
 @import "zoo/typography";
+@import "bootstrap/mixins";
+
 @import "bootstrap_variables";
 
-
+@import "zoo/style";
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -35,7 +36,6 @@ $categories: (
 // Configuration
 @import "bootstrap/functions";
 @import "bootstrap/variables";
-@import "bootstrap/mixins";
 @import "bootstrap/utilities";
 
 // Layout & components
