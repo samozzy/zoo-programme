@@ -1,0 +1,51 @@
+{% assign show_dates = include.show.dates %}
+
+{% assign start_date = site.dates.start %}
+{% assign end_date = site.dates.end %}
+
+{% comment %}
+Keep adding a day to the start date until we reach the end date
+	If date is in show_dates, bold
+	Else, print 
+
+Work out the difference between the start and end dates so 
+we know how many days to iterate over.
+Assign the loop date to a string so that it can match the strings in 
+the show array.
+{% endcomment %}
+
+{% assign start_secs = start_date | date: "%s" %}
+{% assign end_secs = end_date | date: "%s" %}
+{% assign secs_diff = end_secs | minus: start_secs %}
+{% assign days_diff = secs_diff | divided_by: 86400 %}
+{% assign loop_date = start_date | date: "%Y-%m-%d" %}
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange">
+		<tr>
+			{% for day_diff in (0..days_diff) %}
+				<td {% if show_dates contains loop_date %}class="show-date"{% endif %}>
+					{{ loop_date | date: "%a" | slice: 0 }}
+				</td>
+				{% if loop_date == end_date %}
+					{% break %}
+				{% else %}
+					{% assign loop_date = loop_date | date: "%s" | plus: 86400 | date: "%Y-%m-%d" %}
+				{% endif %}
+			{% endfor %}
+		</tr>
+		<tr>
+			{% assign loop_date = start_date | date: "%Y-%m-%d" %}
+			{% for day_diff in (0..days_diff) %}
+				<td {% if show_dates contains loop_date %}class="show-date"{% endif %}>
+					{{ loop_date | date: "%d" }}
+				</td>
+				{% if loop_date == end_date %}
+					{% break %}
+				{% else %}
+					{% assign loop_date = loop_date | date: "%s" | plus: 86400 | date: "%Y-%m-%d" %}
+				{% endif %}
+			{% endfor %}
+		</tr>
+	</table>
+</div>

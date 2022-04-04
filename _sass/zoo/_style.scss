@@ -63,6 +63,37 @@
 
 }
 
+table.date-list {
+	td.show-date {
+		@extend .fw-bold, .text-zoo-orange;
+		opacity: 1;
+	}
+	@extend .text-muted, .small, .w-100, .shadow-sm;
+
+	td {
+		padding: 0.2rem;
+		opacity: 0.5;
+		@include media-breakpoint-only(lg) {
+			padding: 0.2rem 0.1rem;
+		}
+	}
+	font-size: 8px !important;
+	@include media-breakpoint-only(xxl) {
+		font-size: 11px !important;
+	}
+	@include media-breakpoint-only(xl) {
+		font-size: 9px !important;
+	}
+	@include media-breakpoint-only(md) {
+		font-size: 10px !important;
+	}
+	@include media-breakpoint-only(xs) {
+		font-size: 7px !important;
+	}
+}
+
+
+
 // CARDS 
 
 #available-today-body {
