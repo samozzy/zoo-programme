@@ -147,7 +147,7 @@ a.card-event-hover  {
 
 .card-show {
 	@extend .card, .mb-4, .mb-lg-2, .ms-0;
-	@extend .rounded-0, .border-0;
+	@extend .rounded-0, .border-0, .bg-transparent;
 
 	h3 {
 		@include media-breakpoint-down(sm){

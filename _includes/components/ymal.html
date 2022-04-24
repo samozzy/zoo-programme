@@ -1,0 +1,21 @@
+{% if include.show and include.show.related_shows %}
+	{% assign ymal = include.show.related_shows %}
+{% else %}
+	{% if include.show %}
+		{% assign this_show = include.show %}
+	{% else %}
+		{% assign this_show = page %}
+	{% endif %}
+	{% assign ymal = site.data.shows | where_exp:'show','show.title != this_show.title' %}
+{% endif %}
+{% assign ymal = ymal | random: 5 %}
+
+<div class="row row-cols-md-2">
+	{% for show in ymal %}
+		<div class="col">
+			{% include components/show-card-small.html show=show %}
+		</div>
+	{% endfor %}
+</div>
+
+
