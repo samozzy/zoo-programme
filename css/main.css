@@ -4,6 +4,11 @@
   border-width: 2px !important;
 }
 
+.fa-font {
+  font-family: 'Font Awesome 5 Free', 'Bebas Neue', Arial;
+  font-weight: 900 !important;
+}
+
 .text-zoo-slate {
   color: #282D30;
 }
@@ -8289,7 +8294,7 @@ textarea.form-control-lg {
   font-size: calc(1.3rem + 0.6vw) !important;
 }
 
-.fs-4 {
+.fs-4, .fa-font {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
 
@@ -8542,7 +8547,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-transparent {
+.bg-transparent, .card-show {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
 }
@@ -11142,7 +11147,7 @@ textarea.form-control-lg {
   .fs-3 {
     font-size: 1.75rem !important;
   }
-  .fs-4 {
+  .fs-4, .fa-font {
     font-size: 1.5rem !important;
   }
 }
