@@ -1,3 +1,9 @@
 .border-2px {
   border-width: 2px !important;
 }
+
+.fa-font {
+  font-family: 'Font Awesome 5 Free', 'Bebas Neue', Arial;
+  font-weight: 900 !important;
+  @extend .fs-4;
+}
