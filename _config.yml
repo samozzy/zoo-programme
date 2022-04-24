@@ -38,6 +38,7 @@ livereload: true
 
 plugins:
   - bootstrap 
+  - jekyll-datapage-generator
 
 sass:
     sass_dir: _sass
@@ -59,3 +60,10 @@ defaults:
       type: content
     values:
       layout: default
+
+page_gen-dirs: true 
+page_gen:
+  - data: 'shows'
+    template: 'show' 
+    name: 'title'  
+    dir: 'programme' 
