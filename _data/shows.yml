@@ -1,5 +1,18 @@
-- title: Five Encounters 
-  dates: 
+- title: Five Encounters on a Site Called Craigslist
+  duration: 1hr
+  blurb: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  start_time: "13:00"
+  price:
+    standard: £5
+    concession: £4
+  image: https://placekitten.com/400/400?image=3
+  performances: 
     - "2022-07-29"
     - "2022-08-01"
     - "2022-08-03"
@@ -7,8 +20,20 @@
     - "2022-08-21"
     - "2022-08-31"
 
-- title: Five Encounters 2
-  dates: 
+- title: It's all weird
+  image: https://placekitten.com/400/400?image=4
+  blurb: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  duration: 1hr30
+  start_time: "11:30"
+  price: 
+    standard: £5
+  performances: 
     - "2022-07-29"
     - "2022-08-01"
     - "2022-08-02"
