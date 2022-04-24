@@ -1,0 +1,26 @@
+{% assign show = include.show %}
+<div class="card-show my-4 py-4">
+	<div class="card-body">
+		<!-- <h3 class="display-4">{{ show.title }}</h3> -->
+		{% if show.image and show.image != empty %}
+		<div class="show-image">
+			<img src="{{ show.image }}" alt="{{ show.title }} icon">
+		</div>
+		{% endif %}
+		{% if show.start_time and show.start_time != empty %}
+			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
+		{% endif %}
+		{% if show.price and show.price.standard and show.price.standard != empty %}
+			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}({{ show.price.concession }}){% endif %}</p>
+		{% endif %}
+		{% if show.blurb and show.blurb != empty %}
+			{{ show.blurb | markdownify }}
+		{% endif %}
+		<div class="buttons mb-3 d-flex h-100">
+			<a class="btn-zoo-book btn-outline-info w-50 mx-auto mt-auto" role="button">Book Tickets</a>
+		</div>
+	</div>
+	<div class="card-footer bg-transparent">
+		{% include components/dates.html show=show %}
+	</div>
+</div>
