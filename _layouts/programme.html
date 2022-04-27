@@ -3,9 +3,9 @@ layout: page
 ---
 
 <div class="bg-primary container-fluid">
-	<div class="row px-5 py-3">
+	<div class="row px-5 py-5">
 		<div class="col-12 col-lg-10 offset-lg-1 d-flex justify-content-between px-5">
-			<button class="btn btn-lg btn-zoo-pill outline-zoo-white">Find something for you</button>
+			<button class="btn btn-lg btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button">Find something for you</button>
 			<button class="btn btn-lg btn-zoo-pill outline-zoo-white"><i class="fa fa-search"></i> Know what you're looking for? Search</button>
 			<button class="btn btn-lg btn-zoo-pill outline-zoo-white">Browse the full programme</button>
 		</div>
@@ -14,7 +14,7 @@ layout: page
 
 {{ content }}
 
-<div class="container-fluid bg-primary py-5 text-light" id="control-area"> 
+<div class="container-fluid bg-primary text-light" id="control-area"> 
 	<div class="container">
 		<div id="search-box" class="d-none row">
 			<div class="m-5 col-12">
@@ -22,33 +22,88 @@ layout: page
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2">
+		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
-				<p class="lead">On these dates</p>
-				<div id="litepicker">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
+						<p>On these dates <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="card-body collapse" id="filter-date">
+						<input id="datepicker" class="d-none" />
+					</div>
 				</div>
 			</div>
 			<div class="col">
-				<p class="lead">At these times</p>
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
+						<p>At these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="card-body collapse" id="filter-time">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col">
-				<p class="lead">Within this price range</p>
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
+						<p>Within this price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="card-body collapse" id="filter-price">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col">
-				<p class="lead">With this age rating</p>
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
+						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="card-body collapse" id="filter-age">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col">
-				<p class="lead">In these genres</p>
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
+						<p>In these genres <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="card-body collapse" id="filter-genre">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col w-100 text-center">
+				<button class="btn bebas text-center btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
 	</div>
 
 </div>
 
-
 <div class="container"> 
-	<div id="show-list" class="row row-cols-md-2">
+	<div id="show-list" class="row row-cols-md-2 py-5">
 		{% for show in site.data.shows %}
 			<div class="col">
 				{% include components/show-card-small.html show=show %}
