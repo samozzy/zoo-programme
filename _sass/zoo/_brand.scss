@@ -46,8 +46,11 @@ body {
 }
 
 .btn-zoo.outline-zoo-white {
-  &:hover, &:focus, &:active {
+  &:hover, &:focus, &:active, &.active {
     color: map-get($zoo-brand, "black") !important;
+  }
+  &.active {
+    background-color: map-get($zoo-brand, "white") !important;
   }
 }
 
