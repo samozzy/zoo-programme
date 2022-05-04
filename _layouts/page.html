@@ -5,7 +5,12 @@ layout: default
 <div class="container-fluid bg-black py-5 text-center">
 	<div class="row w-100">
 		<div class="col-12 col-md-6 my-auto text-start">
-			<h1 class="display-2 text-light">{{ page.title }}</h1>
+			<h1 class="display-2 text-light">
+				{{ page.title }}
+				{% if page.is_show and page.company and page.company != empty %}
+					<p class="display-4 bebas text-muted fw-lighter">{{ page.company }}</p>
+				{% endif %}
+			</h1>
 		</div>
 		<div class="col-12 col-md-6 my-auto text-end">
 			<a href="{% link _content/index.md %}"><img src="/static/img/zoo-logo.png" class="img-responsive" width="150px" height="auto" alt="ZOO"></a>
