@@ -144,21 +144,28 @@ a.card-event-hover  {
 		}
 	}
 }
-
-.card-show {
+.card-show, .card-show-slider {
 	@extend .card, .mb-4, .mb-lg-2, .ms-0;
-	@extend .rounded-0, .border-0, .bg-transparent;
+	@extend .rounded-0, .bg-transparent;
 
 	h3 {
 		@include media-breakpoint-down(sm){
 			text-align:center;
 		}
 	}
+}
+.card-show-slider {
+	@extend .border-2px;
+}
+
+.card-show {
+	@extend .border-0;
 
 	.card-body {
 		@extend .m-0, .p-0;
 		.show-image {
 			@extend .me-3, .mb-2, .float-start, .d-flex, .flex-column;
+			
 			max-width: 45%; 
 			@include media-breakpoint-up(lg) {
 				max-width: 40%;

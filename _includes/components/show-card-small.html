@@ -6,7 +6,8 @@
 			<img src="{{ show.image }}" alt="{{ show.title }} icon">
 		</div>
 		{% endif %}
-		<h3>{{ show.title }}</h3>
+		<h3 class="{% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</h3>
+		{% if show.company and show.company != empty %}<p class="fs-4 bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
 		{% if show.start_time and show.start_time != empty %}
 			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
 		{% endif %}

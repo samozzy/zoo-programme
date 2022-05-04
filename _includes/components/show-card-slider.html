@@ -1,0 +1,29 @@
+{% assign show = include.show %}
+<div class="card-show-slider h-100 mb-4">
+	<div class="card-header bg-transparent border-0 d-flex">
+		<div class="w-100 px-4 mx-5 py-3">
+			<img src="{{ show.image }}" alt="{{ show.title}} icon" width="100%" height="auto" class="mx-auto shadow-sm">
+		</div>
+	</div>
+	<div class="card-body mx-1 d-flex flex-column">
+		<div class="text-center">
+			<h3 class="{% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</h3>
+			{% if show.company and show.company != empty %}<p class="fs-4 bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
+		</div>
+		<div class="mx-auto">
+			{% if show.start_time and show.start_time != empty %}
+				<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
+			{% endif %}
+			{% if show.price and show.price.standard and show.price.standard != empty %}
+				<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}(£{{ show.price.concession }}){% endif %}</p>
+			{% endif %}
+			<p><i class="fa fa-calendar-alt fa-fw text-zoo-orange"></i> {% include components/date-text.html show=show %}</p>
+		</div>
+	</div>
+	<div class="card-footer bg-transparent border-0">
+		<div class="buttons mb-3 d-flex justify-content-around">
+			<a class="btn-zoo-book btn-outline-info w-50 m-1" role="button">Book Tickets</a>
+			<a class="btn-zoo-book btn-info w-50 m-1" role="button" href="/programme/{{ show.title | remove: "'" | slugify }}">Read more</a>
+		</div>
+	</div>
+</div>
