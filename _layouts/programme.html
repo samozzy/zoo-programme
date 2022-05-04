@@ -6,7 +6,7 @@ layout: page
 	<div class="row px-5 py-5">
 		<div class="col-12 col-lg-10 offset-lg-1 d-flex justify-content-between px-5">
 			<button class="btn btn-lg btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button">Find something for you</button>
-			<button class="btn btn-lg btn-zoo-pill outline-zoo-white"><i class="fa fa-search"></i> Know what you're looking for? Search</button>
+			<button class="btn btn-lg btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" onclick="focusSearch()"><i class="fa fa-search"></i> Know what you're looking for? Search</button>
 			<button class="btn btn-lg btn-zoo-pill outline-zoo-white">Browse the full programme</button>
 		</div>
 	</div>
@@ -16,13 +16,13 @@ layout: page
 
 <div class="container-fluid bg-primary text-light" id="control-area"> 
 	<div class="container">
-		<div id="search-box" class="d-none row">
-			<div class="m-5 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon" type="text" placeholder="&#xF002; Search" aria-label="Search for a show">
+		<div id="search-box" class="collapse pb-4 row">
+			<div class="px-5 py-4 col-12">
+				<input class="form-control form-control-lg fa-font search-box-icon" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
+		<div id="filter-box" class="row row-cols-md-2 collapse show pb-4">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
 				<div class="card-programme">
@@ -54,13 +54,28 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
 						<p>Within this price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-price">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="card-body collapse show" id="filter-price">
+
+						{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
+						{% assign highest_price = highest_priced_show.price.standard %}
+						{% assign price_int = highest_price | divided_by: 5 %}
+						{% assign price_float = highest_price | divided_by: 5.0 %}
+						{% if price_int == price_float %}
+							{% assign highest_five = price_int %}
+						{% else %}
+							{% assign highest_five = price_float | split: '.' | first | plus: 1 | times: 1 %}
+						{% endif %}
+						{% for given_price in (0..highest_five) %}
+							{% assign this_price = given_price | times: 5 %}
+							{% assign next_price = given_price | plus: 1 | times: 5 %}
+							<input type="checkbox" class="btn-check" id="price-filter-{{ given_price }}" autocomplete="off">
+							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-{{ given_price }}">£{{ this_price }} - £{{ next_price }}</label>
+						{% endfor %}
+
+						<div class="card-footer">
+							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -69,31 +84,41 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
 						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-age">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="card-body collapse open" id="filter-age">
+						<div class="d-flex flex-row">
+							{% for rating in site.data.age-ratings %}
+								<input type="checkbox" class="btn-check" id="age-rating-{{ rating | slugify }}" autocomplete="off">
+								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-{{ rating | slugify }}">{{ rating }}</label><br>
+							{% endfor %}
+						</div>
+						<div class="card-footer">
+							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+						</div>
 					</div>
 				</div>
 			</div>
+			{% assign genres_data = site.data.shows | map: "genre" | uniq  %}
+			{% assign genres = '' | split: ''  %}
+			{% for g in genres_data %}{% if g != nil %}{% assign genres = genres | push: g %}{% endif %}{% endfor %}
+			{% assign genres = genres | sort %}
+			{% unless genres.size <= 1 %}
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
 						<p>In these genres <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-genre">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="card-body collapse show" id="filter-genre">
+						{% for genre in genres %}
+							<input type="checkbox" class="btn-check" id="show-genre-{{ genre | slugify }}" autocomplete="off">
+							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-{{ genre | slugify }}">{{ genre }}</label>
+						{% endfor %}
+						<div class="card-footer">
+							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+						</div>
 					</div>
 				</div>
 			</div>
+			{% endunless %}
 			<div class="col w-100 text-center">
 				<button class="btn bebas text-center btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
