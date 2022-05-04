@@ -13,13 +13,7 @@
 
 
     
-      <script>
-        focusSearch = function getFocus() {
-          document.getElementById("search-input").focus();
-        }
-      </script>
-    
-    <title>Full 2022 Programme</title>
+    <title>Five Chance Gatherings</title>
   </head>
 
 	<body class="h-100 d-flex flex-column">
@@ -27,7 +21,9 @@
 	<div class="row w-100">
 		<div class="col-12 col-md-6 my-auto text-start">
 			<h1 class="display-2 text-light">
-				Full 2022 Programme
+				Five Chance Gatherings
+				
+					<p class="display-4 bebas text-muted fw-lighter">Three Pandas</p>
 				
 			</h1>
 		</div>
@@ -37,169 +33,551 @@
 	</div>
 </div>
 
-<div class="bg-primary container-fluid">
-	<div class="row px-5 py-5">
-		<div class="col-12 col-lg-10 offset-lg-1 d-flex justify-content-between px-5">
-			<button class="btn btn-lg btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button">Find something for you</button>
-			<button class="btn btn-lg btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" onclick="focusSearch()"><i class="fa fa-search"></i> Know what you're looking for? Search</button>
-			<button class="btn btn-lg btn-zoo-pill outline-zoo-white">Browse the full programme</button>
-		</div>
-	</div>
-</div>
+<div class="container">
 
 
-
-
-<div class="container-fluid bg-primary text-light" id="control-area"> 
-	<div class="container">
-		<div id="search-box" class="collapse pb-4 row">
-			<div class="px-5 py-4 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
-			</div>
-		</div>
-
-		<div id="filter-box" class="row row-cols-md-2 collapse show pb-4">
-			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
-			<div class="col">
-				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
-						<p>On these dates <i class="fa fa-chevron-down fa-fw float-end"></i></p>
-					</div>
-					<div class="card-body collapse" id="filter-date">
-						<input id="datepicker" class="d-none" />
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
-						<p>At these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
-					</div>
-					<div class="card-body collapse" id="filter-time">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
-					</div>
-					<div class="card-body collapse show" id="filter-price">
-
-						
-						
-						
-						
-						
-						
-							
-							
-							<input type="checkbox" class="btn-check" id="price-filter-0" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-0">£0 - £5</label>
-						
-							
-							
-							<input type="checkbox" class="btn-check" id="price-filter-1" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-1">£5 - £10</label>
-						
-							
-							
-							<input type="checkbox" class="btn-check" id="price-filter-2" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-2">£10 - £15</label>
-						
-							
-							
-							<input type="checkbox" class="btn-check" id="price-filter-3" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-3">£15 - £20</label>
-						
-
-						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
-						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
-					</div>
-					<div class="card-body collapse open" id="filter-age">
-						<div class="d-flex flex-row">
-							
-								<input type="checkbox" class="btn-check" id="age-rating-4" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-4">4+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-7" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-7">7+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-11" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-11">11+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-13" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-13">13+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-16" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-16">16+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-18" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-18">18+</label><br>
-							
-						</div>
-						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			<div class="col">
-				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p>In these genres <i class="fa fa-chevron-down fa-fw float-end"></i></p>
-					</div>
-					<div class="card-body collapse show" id="filter-genre">
-						
-							<input type="checkbox" class="btn-check" id="show-genre-comedy" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-comedy">comedy</label>
-						
-							<input type="checkbox" class="btn-check" id="show-genre-solo-show" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-solo-show">solo show</label>
-						
-							<input type="checkbox" class="btn-check" id="show-genre-stand-up" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-stand-up">stand-up</label>
-						
-						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col w-100 text-center">
-				<button class="btn bebas text-center btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-<div class="container"> 
-	<div id="show-list" class="row row-cols-md-2 py-5">
+<div class="card-show my-4 py-4">
+	<div class="card-body">
+		<!-- <h3 class="display-4">Five Chance Gatherings</h3> -->
 		
-			<div class="col">
+		<div class="show-image">
+			<img src="https://placekitten.com/400/400?image=5" alt="Five Chance Gatherings icon">
+		</div>
+		
+		
+			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;13:00 (1hr)</p>
+		
+		
+			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£2 (£4)</p>
+		
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		
+		<div class="buttons mb-3 d-flex h-100">
+			<a class="btn-zoo-book btn-outline-info w-50 mx-auto mt-auto" role="button">Book Tickets</a>
+		</div>
+	</div>
+	<div class="card-footer bg-transparent">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange">
+		<tr>
+			
+				<td >
+					F
+				</td>
 				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					29
+				</td>
+				
+					
+				
+			
+				<td >
+					30
+				</td>
+				
+					
+				
+			
+				<td >
+					31
+				</td>
+				
+					
+				
+			
+				<td >
+					01
+				</td>
+				
+					
+				
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td >
+					13
+				</td>
+				
+					
+				
+			
+				<td >
+					14
+				</td>
+				
+					
+				
+			
+				<td >
+					15
+				</td>
+				
+					
+				
+			
+				<td >
+					16
+				</td>
+				
+					
+				
+			
+				<td >
+					17
+				</td>
+				
+					
+				
+			
+				<td >
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td >
+					20
+				</td>
+				
+					
+				
+			
+				<td >
+					21
+				</td>
+				
+					
+				
+			
+				<td >
+					22
+				</td>
+				
+					
+				
+			
+				<td >
+					23
+				</td>
+				
+					
+				
+			
+				<td >
+					24
+				</td>
+				
+					
+				
+			
+				<td >
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+				<td >
+					27
+				</td>
+				
+					
+				
+			
+				<td >
+					28
+				</td>
+				
+					
+				
+			
+				<td >
+					29
+				</td>
+				
+					
+				
+			
+				<td >
+					30
+				</td>
+				
+					
+				
+			
+				<td >
+					31
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+
+
+</div>
+<div class="container-fluid bg-primary text-light py-4">
+	<h1 class="display-2">You may also like</h1>
+	
+
+
+<div class="row row-cols-md-2">
+	
+		<div class="col">
+			
 <div class="card-show my-4">
 	<div class="card-body">
 		
@@ -723,537 +1101,10 @@
 </div>
 	</div>
 </div>
-			</div>
-		
-			<div class="col">
-				
-<div class="card-show my-4">
-	<div class="card-body">
-		
-		<div class="show-image">
-			<img src="https://placekitten.com/400/400?image=5" alt="Five Chance Gatherings icon">
 		</div>
-		
-		<h3 class="mb-0">Five Chance Gatherings</h3>
-		<p class="fs-4 bebas text-muted fw-lighter">Three Pandas</p>
-		
-			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;13:00 (1hr)</p>
-		
-		
-			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£2 (£4)</p>
-		
-		<div class="buttons mb-3">
-			<a class="btn-zoo-book btn-outline-info w-25" role="button">Book Tickets</a>
-			<a class="btn-zoo-book btn-info w-25" role="button" href="/programme/five-chance-gatherings">Read more</a>
-		</div>
-	</div>
-	<div class="card-footer bg-transparent">
-		
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="table-responsive-sm">
-	<table class="date-list border-zoo-orange">
-		<tr>
+	
+		<div class="col">
 			
-				<td >
-					F
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					M
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					W
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td class="show-date">
-					F
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					M
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					W
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					F
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					M
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					W
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					F
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					M
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					W
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					F
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					S
-				</td>
-				
-					
-				
-			
-				<td >
-					M
-				</td>
-				
-					
-				
-			
-				<td >
-					T
-				</td>
-				
-					
-				
-			
-				<td >
-					W
-				</td>
-				
-					
-				
-			
-		</tr>
-		<tr>
-			
-			
-				<td >
-					29
-				</td>
-				
-					
-				
-			
-				<td >
-					30
-				</td>
-				
-					
-				
-			
-				<td >
-					31
-				</td>
-				
-					
-				
-			
-				<td >
-					01
-				</td>
-				
-					
-				
-			
-				<td >
-					02
-				</td>
-				
-					
-				
-			
-				<td >
-					03
-				</td>
-				
-					
-				
-			
-				<td >
-					04
-				</td>
-				
-					
-				
-			
-				<td class="show-date">
-					05
-				</td>
-				
-					
-				
-			
-				<td >
-					06
-				</td>
-				
-					
-				
-			
-				<td >
-					07
-				</td>
-				
-					
-				
-			
-				<td >
-					08
-				</td>
-				
-					
-				
-			
-				<td >
-					09
-				</td>
-				
-					
-				
-			
-				<td >
-					10
-				</td>
-				
-					
-				
-			
-				<td >
-					11
-				</td>
-				
-					
-				
-			
-				<td >
-					12
-				</td>
-				
-					
-				
-			
-				<td >
-					13
-				</td>
-				
-					
-				
-			
-				<td >
-					14
-				</td>
-				
-					
-				
-			
-				<td >
-					15
-				</td>
-				
-					
-				
-			
-				<td >
-					16
-				</td>
-				
-					
-				
-			
-				<td >
-					17
-				</td>
-				
-					
-				
-			
-				<td >
-					18
-				</td>
-				
-					
-				
-			
-				<td >
-					19
-				</td>
-				
-					
-				
-			
-				<td >
-					20
-				</td>
-				
-					
-				
-			
-				<td >
-					21
-				</td>
-				
-					
-				
-			
-				<td >
-					22
-				</td>
-				
-					
-				
-			
-				<td >
-					23
-				</td>
-				
-					
-				
-			
-				<td >
-					24
-				</td>
-				
-					
-				
-			
-				<td >
-					25
-				</td>
-				
-					
-				
-			
-				<td >
-					26
-				</td>
-				
-					
-				
-			
-				<td >
-					27
-				</td>
-				
-					
-				
-			
-				<td >
-					28
-				</td>
-				
-					
-				
-			
-				<td >
-					29
-				</td>
-				
-					
-				
-			
-				<td >
-					30
-				</td>
-				
-					
-				
-			
-				<td >
-					31
-				</td>
-				
-					
-				
-			
-		</tr>
-	</table>
-</div>
-	</div>
-</div>
-			</div>
-		
-			<div class="col">
-				
 <div class="card-show my-4">
 	<div class="card-body">
 		
@@ -1777,10 +1628,10 @@
 </div>
 	</div>
 </div>
-			</div>
-		
-			<div class="col">
-				
+		</div>
+	
+		<div class="col">
+			
 <div class="card-show my-4">
 	<div class="card-body">
 		
@@ -2304,19 +2155,13 @@
 </div>
 	</div>
 </div>
-			</div>
-		
-	</div>
+		</div>
+	
 </div>
 
-<script>
 
-	// When #activate-search onClick, remove .d-none from #search-box 
-	// SEARCH
-		// Fuzzy search on the entire data selection across title, company, blurb 
 
-</script>
-	
+</div>
  
 	</body>
 
@@ -2360,40 +2205,6 @@
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-        
-            <script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.7/dist/index.umd.min.js"></script>
-            <script src="/js/programme.js"></script>
-            <script>
-                const picker = new easepick.create({
-                    element: "#datepicker",
-                    css: [
-                        "https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.6/dist/index.css"
-                    ],
-                    zIndex: 10,
-                    calendars: 2,
-                    darkMode: true,
-                    readonly: false,
-                    inline: true,
-                    date: 2022-07-29,
-                    LockPlugin: {
-                        minDate: "2022-07-29T00:00:00.000Z",
-                        maxDate: "2022-08-31T00:00:00.000Z"
-                    },
-                    RangePlugin: {
-                        startDate: "2022-07-29T00:00:00.000Z",
-                    },
-                    AmpPlugin: {
-                        darkMode: true,
-                        resetButton: true,
-                    },
-                    plugins: [
-                        "AmpPlugin",
-                        "RangePlugin",
-                        "LockPlugin",
-                        // "PresetPlugin"
-                    ]
-                })
-            </script>
         
 
     </body>
