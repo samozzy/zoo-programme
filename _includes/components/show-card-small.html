@@ -12,7 +12,7 @@
 			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
 		{% endif %}
 		{% if show.price and show.price.standard and show.price.standard != empty %}
-			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}({{ show.price.concession }}){% endif %}</p>
+			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}(£{{ show.price.concession }}){% endif %}</p>
 		{% endif %}
 		<div class="buttons mb-3">
 			<a class="btn-zoo-book btn-outline-info w-25" role="button">Book Tickets</a>
