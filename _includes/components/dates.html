@@ -21,7 +21,7 @@ the show array.
 {% assign loop_date = start_date | date: "%Y-%m-%d" %}
 
 <div class="table-responsive-sm">
-	<table class="date-list border-zoo-orange">
+	<table class="date-list border-zoo-orange text-center {% if include.light %}date-list-light{% endif %}">
 		<tr>
 			{% for day_diff in (0..days_diff) %}
 				<td {% if show_dates contains loop_date %}class="show-date"{% endif %}>
