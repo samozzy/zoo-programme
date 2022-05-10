@@ -40,13 +40,9 @@ layout: default
 	</div>
 </div>
 <div class="container-fluid px-5 my-2 py-5">
-	<div class="row mb-4">
-		{% assign featured_shows = site.data.shows | random: 2 %}
-		{% for show in featured_shows %}
-		<div class="col-12 col-md-6 col-lg-4 mb-4">
-			{% include components/show-card-slider.html show=show %}
-		</div>
-		{% endfor %}
+	<div class="row">
+		{% assign featured_shows = site.data.shows | sample: 3 %}
+		{% include components/swiper.html shows=featured_shows full_programme_cta=true %}
 	</div>
 </div>
 

@@ -1,0 +1,10 @@
+.swiper-button-next, .swiper-button-prev {
+	color: map-get($zoo-brand, "orange") !important;
+}
+.swiper-pagination-progressbar-fill {
+	background-color: map-get($zoo-brand, "orange") !important;
+}
+.swiper-pagination-progressbar {
+	top: auto !important;
+	bottom: 0px !important;
+}

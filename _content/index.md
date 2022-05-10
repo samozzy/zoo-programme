@@ -2,6 +2,7 @@
 layout: home 
 permalink: / 
 title: Twenty-twenty-zoo
+use_swiper: true 
 ---
 
 # Hello, World.

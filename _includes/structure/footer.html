@@ -74,5 +74,41 @@
             </script>
         {% endif %}
 
+        {% if page.use_swiper == true %}
+            <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper("#homeShowSwiper", {
+                // slidesPerView: 3,
+                centeredSlides: false,
+                spaceBetween: 30,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev"
+                },
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'progressbar',
+                },
+                breakpoints: {
+                    480: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                    1400: {
+                        slidesPerView: 4,
+                    },
+                },
+              });
+            </script>
+        {% endif %}
     </body>
 </html>

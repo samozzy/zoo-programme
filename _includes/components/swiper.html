@@ -1,0 +1,26 @@
+		{% assign shows = include.shows %}
+		<div #swiperRef="" class="swiper" id="homeShowSwiper">
+			<div class="swiper-wrapper">
+				{% for show in shows %}
+				<div class="swiper-slide">
+					{% include components/show-card-slider.html show=show %}
+				</div>
+				{% endfor %}
+				{% if include.full_programme_cta %}
+					<div class="swiper-slide">
+						<div class="card-show-slider h-100 mb-4">
+							<div class="card-body text-center d-flex align-items-center mx-auto">
+								<div>
+									<p class="display-6 bebas">Like what you see?</p>
+									<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas shadow-sm rounded-0 icon-animation mb-4">Browse the full programme&nbsp;<i class="fa fa-book"></i></a>
+									<p class="small text-muted">(There's loads more)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
