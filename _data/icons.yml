@@ -1,0 +1,15 @@
+# Social Media 
+- type: twitter 
+  icon: fab fa-twitter 
+- type: facebook 
+  icon: fab fa-facebook 
+- type: instagram
+  icon: fab fa-instagram
+- type: youtube 
+  icon: fab fa-youtube 
+- type: tiktok
+  icon: fab fa-tiktok 
+
+# Content Warnings 
+- title: Strobe Lighting 
+  icon: fa fa-lightning 
