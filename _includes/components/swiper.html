@@ -1,5 +1,5 @@
 		{% assign shows = include.shows %}
-		<div #swiperRef="" class="swiper" id="homeShowSwiper">
+		<div #swiperRef="" class="swiper" id="{{ page.swiperID | default: 'homeShowSwiper' }}">
 			<div class="swiper-wrapper">
 				{% for show in shows %}
 				<div class="swiper-slide">

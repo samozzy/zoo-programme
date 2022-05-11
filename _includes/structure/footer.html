@@ -78,7 +78,7 @@
 
             <!-- Initialize Swiper -->
             <script>
-              var swiper = new Swiper("#homeShowSwiper", {
+              var swiper = new Swiper("#{{ page.swiperID | default: 'homeShowSwiper' }}", {
                 // slidesPerView: 3,
                 centeredSlides: false,
                 spaceBetween: 30,
