@@ -17,7 +17,7 @@
 			{% if show.price and show.price.standard and show.price.standard != empty %}
 				<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}(£{{ show.price.concession }}){% endif %}</p>
 			{% endif %}
-			<p><i class="fa fa-calendar-alt fa-fw text-zoo-orange"></i> {% include components/date-text.html show=show %}</p>
+			<p><i class="fa fa-calendar-alt fa-fw text-zoo-orange"></i> {% include text/date-text.html show=show %}</p>
 		</div>
 	</div>
 	<div class="card-footer bg-transparent border-0">
