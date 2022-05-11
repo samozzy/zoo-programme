@@ -66,7 +66,7 @@
 table.date-list {
 	td.show-date {
 		@extend .fw-bold, .text-zoo-orange;
-		opacity: 1;
+		opacity: 1 !important;
 	}
 	@extend .text-muted, .small, .w-100, .shadow-sm;
 
@@ -81,7 +81,7 @@ table.date-list {
 	&.date-list-light {
 		color: map-get($zoo-brand, "white") !important;
 		td:not(.show-date) {
-			opacity: 0.7;
+			opacity: 0.6;
 		}
 	}
 	font-size: 8px !important;
@@ -90,6 +90,9 @@ table.date-list {
 	}
 	@include media-breakpoint-only(xl) {
 		font-size: 9px !important;
+	}
+	@include media-breakpoint-only(lg) {
+		font-size: 10px !important;
 	}
 	@include media-breakpoint-only(md) {
 		font-size: 10px !important;
