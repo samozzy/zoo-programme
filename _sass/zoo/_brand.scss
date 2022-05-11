@@ -130,7 +130,7 @@ a.footer-link {
   text-decoration: none;
   @extend .text-muted;
 }
-.social-icon, .social-link, a.footer-link {
+.social-icon, .social-link, a.footer-link, .show-social-link {
   &:hover, &:focus, &:active {
     color: map-get($zoo-brand, "orange") !important;
   }

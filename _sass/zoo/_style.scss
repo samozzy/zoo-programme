@@ -170,26 +170,53 @@ a.card-event-hover  {
 
 .card-show {
 	@extend .border-0;
-
 	.card-body {
 		@extend .m-0, .p-0;
-		.show-image {
-			@extend .me-3, .mb-2, .float-start, .d-flex, .flex-column;
-			
-			max-width: 45%; 
-			@include media-breakpoint-up(lg) {
-				max-width: 40%;
-			}
-			@include media-breakpoint-up(sm) {
-				max-width: 30%;
-			}
-			img {
-				@extend .img-fluid, .mb-3, .shadow-sm;
-			}
-		}
 	}
 	.card-footer {
 		@extend .text-center, .p-0, .border-0;
+	}
+	.show-image {
+		@extend .me-3, .mb-2;
+		img {
+			@extend .mb-3, .shadow-sm;
+		}
+	}
+}
+
+.show-image {
+	@extend .float-start, .d-flex, .flex-column;
+	
+	max-width: 45%; 
+	@include media-breakpoint-up(lg) {
+		max-width: 40%;
+	}
+	@include media-breakpoint-up(sm) {
+		max-width: 30%;
+	}
+	img {
+		@extend .img-fluid;
+	}
+}
+
+// SHOW PAGE
+
+.show-details {
+	h3 {
+		letter-spacing: 1px;
+		@extend .fs-4;
+	}
+	hr {
+		height: 2px !important;
+		@extend .text-zoo-orange, .w-75, .mx-auto;
+	}
+	
+	.show-blurb {
+		@extend .mb-3;
+
+		p:first-of-type {
+			@extend .fs-5, .fw-bold;
+		}
 	}
 }
 
