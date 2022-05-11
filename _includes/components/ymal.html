@@ -10,12 +10,11 @@
 {% endif %}
 {% assign ymal = ymal | random: 5 %}
 
-<div class="row row-cols-md-2">
-	{% for show in ymal %}
-		<div class="col">
-			{% include components/show-card-small.html show=show %}
-		</div>
-	{% endfor %}
+<div class="row">
+	{% include components/swiper.html shows=ymal %}
 </div>
-
-
+<div class="row mt-4">
+	<div class="col-12 col-md-6 offset-md-3 text-center">
+		<a class="btn-zoo-book btn-outline-info btn-lg w-100 icon-animation" role="button" href="{% link _content/programme.md %}">Or browse the full programme <i class="fa fa-fw fa-book"></i></a>
+	</div>
+</div>
