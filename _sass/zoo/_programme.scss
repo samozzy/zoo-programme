@@ -5,3 +5,11 @@
 		@extend .lead, .fs-4, .mb-0;
 	}
 }
+
+.filtered-out {
+	@extend .d-none;
+}
+
+.filtered-out-by-search, .filtered-out-by-price, .filtered-out-by-genre, .filtered-out-by-date, .filtered-out-by-time, .filtered-out-by-age {
+	@extend .d-none; 
+}
