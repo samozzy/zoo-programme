@@ -18,11 +18,12 @@ layout: page
 	<div class="container">
 		<div id="search-box" class="collapse pb-4 row">
 			<div class="px-5 py-4 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<input class="form-control form-control-lg fa-font search-box-icon bg-dark text-light" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<p><span class="small text-muted d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2 collapse show pb-4">
+		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
 				<div class="card-programme">
@@ -52,9 +53,9 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse show" id="filter-price">
+					<div class="card-body collapse" id="filter-price">
 
 						{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
 						{% assign highest_price = highest_priced_show.price.standard %}
@@ -68,12 +69,12 @@ layout: page
 						{% for given_price in (0..highest_five) %}
 							{% assign this_price = given_price | times: 5 %}
 							{% assign next_price = given_price | plus: 1 | times: 5 %}
-							<input type="checkbox" class="btn-check" id="price-filter-{{ given_price }}" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-{{ given_price }}">£{{ this_price }} - £{{ next_price }}</label>
+							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-{{ given_price }}" autocomplete="off" value="{{ this_price }},{{ next_price }}">
+							<label id="btn-price-{{this_price}}-{{next_price}}" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-{{ given_price }}">£{{ this_price }} - £{{ next_price }}</label>
 						{% endfor %}
 
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="text-end small text-muted"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 
 					</div>
@@ -105,15 +106,15 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p>In these genres <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse show" id="filter-genre">
+					<div class="card-body collapse" id="filter-genre">
 						{% for genre in genres %}
-							<input type="checkbox" class="btn-check" id="show-genre-{{ genre | slugify }}" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-{{ genre | slugify }}">{{ genre }}</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-{{ genre | slugify }}" autocomplete="off" value="{{genre | slugify}}">
+							<label id="btn-genre-{{genre|slugify}}" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-{{ genre | slugify }}">{{ genre }}</label>
 						{% endfor %}
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="text-end small text-muted"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -129,8 +130,11 @@ layout: page
 
 <div class="container"> 
 	<div id="show-list" class="row row-cols-md-2 py-5">
+		<div class="d-none col w-100 text-center no-results" id="no-result-text">
+			<p class="lead"><em>No results for this set of filters</em></p>
+		</div>
 		{% for show in site.data.shows %}
-			<div class="col">
+			<div class="col programme-show-container d-block" data-search="{{ show.title | downcase | remove: ' ' }} {{ show.company | downcase | remove: ' ' }}" data-price={{ show.price.concession | default: show.price.standard }} data-genre="{{ show.genre | join:',' | slugify }}" id="{{ show.title | slugify }}">
 				{% include components/show-card-small.html show=show %}
 			</div>
 		{% endfor %}
