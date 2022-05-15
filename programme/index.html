@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202205111059">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202205151812">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -58,11 +58,12 @@
 	<div class="container">
 		<div id="search-box" class="collapse pb-4 row">
 			<div class="px-5 py-4 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<input class="form-control form-control-lg fa-font search-box-icon bg-dark text-light" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<p><span class="small text-muted d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2 collapse show pb-4">
+		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
 				<div class="card-programme">
@@ -92,9 +93,9 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse show" id="filter-price">
+					<div class="card-body collapse" id="filter-price">
 
 						
 						
@@ -104,27 +105,27 @@
 						
 							
 							
-							<input type="checkbox" class="btn-check" id="price-filter-0" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-0">£0 - £5</label>
+							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-0" autocomplete="off" value="0,5">
+							<label id="btn-price-0-5" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-0">£0 - £5</label>
 						
 							
 							
-							<input type="checkbox" class="btn-check" id="price-filter-1" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-1">£5 - £10</label>
+							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-1" autocomplete="off" value="5,10">
+							<label id="btn-price-5-10" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-1">£5 - £10</label>
 						
 							
 							
-							<input type="checkbox" class="btn-check" id="price-filter-2" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-2">£10 - £15</label>
+							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-2" autocomplete="off" value="10,15">
+							<label id="btn-price-10-15" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-2">£10 - £15</label>
 						
 							
 							
-							<input type="checkbox" class="btn-check" id="price-filter-3" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="price-filter-3">£15 - £20</label>
+							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-3" autocomplete="off" value="15,20">
+							<label id="btn-price-15-20" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-3">£15 - £20</label>
 						
 
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="text-end small text-muted"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 
 					</div>
@@ -171,33 +172,33 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p>In these genres <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse show" id="filter-genre">
+					<div class="card-body collapse" id="filter-genre">
 						
-							<input type="checkbox" class="btn-check" id="show-genre-audience-participation" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-audience-participation">audience participation</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-audience-participation" autocomplete="off" value="audience-participation">
+							<label id="btn-genre-audience-participation" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-audience-participation">audience participation</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-dance" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-dance">dance</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-dance" autocomplete="off" value="dance">
+							<label id="btn-genre-dance" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-dance">dance</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-drama" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-drama">drama</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-drama" autocomplete="off" value="drama">
+							<label id="btn-genre-drama" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-drama">drama</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-genre-defying" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-genre-defying">genre-defying</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-genre-defying" autocomplete="off" value="genre-defying">
+							<label id="btn-genre-genre-defying" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-genre-defying">genre-defying</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-new-writing" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-new-writing">new writing</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
+							<label id="btn-genre-new-writing" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-new-writing">new writing</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-solo-show" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-solo-show">solo show</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
+							<label id="btn-genre-solo-show" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-solo-show">solo show</label>
 						
-							<input type="checkbox" class="btn-check" id="show-genre-weird" autocomplete="off">
-							<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="show-genre-weird">weird</label>
+							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-weird" autocomplete="off" value="weird">
+							<label id="btn-genre-weird" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-weird">weird</label>
 						
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="text-end small text-muted"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -213,8 +214,11 @@
 
 <div class="container"> 
 	<div id="show-list" class="row row-cols-md-2 py-5">
+		<div class="d-none col w-100 text-center no-results" id="no-result-text">
+			<p class="lead"><em>No results for this set of filters</em></p>
+		</div>
 		
-			<div class="col">
+			<div class="col programme-show-container d-block" data-search="fiveencountersonasitecalledcraigslist yesyesnono" data-price=4 data-genre="solo-show-new-writing-audience-participation" id="five-encounters-on-a-site-called-craigslist">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -741,7 +745,7 @@
 </div>
 			</div>
 		
-			<div class="col">
+			<div class="col programme-show-container d-block" data-search="beam heathermorgan" data-price=6 data-genre="new-writing-drama" id="beam">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -751,7 +755,7 @@
 		</div>
 		
 		<h3 class="mb-0">BEAM</h3>
-		<p class="fs-4 bebas text-muted fw-lighter">Heahter Morgan</p>
+		<p class="fs-4 bebas text-muted fw-lighter">Heather Morgan</p>
 		
 			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;19:00 (45mins)</p>
 		
@@ -1268,7 +1272,7 @@
 </div>
 			</div>
 		
-			<div class="col">
+			<div class="col programme-show-container d-block" data-search="actionatadistance argonaut" data-price=10 data-genre="new-writing-dance" id="action-at-a-distance">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -1795,7 +1799,7 @@
 </div>
 			</div>
 		
-			<div class="col">
+			<div class="col programme-show-container d-block" data-search="anyone'sguesshowwegothere barrelorgan" data-price=8 data-genre="new-writing-weird-genre-defying" id="anyone-s-guess-how-we-got-here">
 				
 <div class="card-show my-4">
 	<div class="card-body">
