@@ -16,11 +16,24 @@ a.related-event {
     }
   }
 }
-.icon-animation {
+.icon-animation-end {
   &:hover, &:focus, &:active, &:focus-within {
     .fa {
       margin-right: -0.5rem;
       padding-left: 0.6rem;
+    }
+  }
+}
+.icon-animation-down {
+  .fa {
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    padding: 0.5rem 0rem;
+  }
+  &:hover, &:focus, &:active, &:focus-within {
+    .fa {
+      margin-top: 0.5rem;
+      margin-bottom: 0rem;
     }
   }
 }
