@@ -19,7 +19,6 @@ layout: default
 	<div class="row w-100">
 		<div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 d-lg-flex flex-row justify-content-evenly">
 			<a class="bebas text-decoration-none icon-animation icon-animation-down" href="#top-of-content"><i class="fa fa-chevron-down"></i></a>
-			<a class="btn-zoo-pill btn-primary btn-lg bebas" href="#top-of-content">Take me to the shows <i class="fa fa-arrow-down"></i></a>
 		</div>
 	</div>
 </div>
@@ -34,10 +33,12 @@ layout: default
 		</div>
 	</div>
 </div>
-<div class="container-fluid px-5 my-2 py-5">
+<div class="container-fluid px-5 my-2 py-4">
 	<div class="row">
-		{% assign featured_shows = site.data.shows | sample: 3 %}
-		{% include components/swiper.html shows=featured_shows full_programme_cta=true %}
+		<div class="col-12 d-flex px-0">
+			{% assign featured_shows = site.data.shows | sample: 3 %}
+			{% include components/swiper.html shows=featured_shows full_programme_cta=true %}
+		</div>
 	</div>
 </div>
 
