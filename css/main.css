@@ -354,9 +354,20 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   padding-left: 0.4rem;
 }
 
-.icon-animation:hover .fa, .icon-animation:focus .fa, .icon-animation:active .fa, .icon-animation:focus-within .fa {
+.icon-animation-end:hover .fa, .icon-animation-end:focus .fa, .icon-animation-end:active .fa, .icon-animation-end:focus-within .fa {
   margin-right: -0.5rem;
   padding-left: 0.6rem;
+}
+
+.icon-animation-down .fa {
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+  padding: 0.5rem 0rem;
+}
+
+.icon-animation-down:hover .fa, .icon-animation-down:focus .fa, .icon-animation-down:active .fa, .icon-animation-down:focus-within .fa {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .lead, .card-programme .card-header p, .bebas, .btn-zoo-book {
