@@ -4,6 +4,11 @@
 	.card-header p {
 		@extend .lead, .fs-4, .mb-0;
 	}
+.helper-text {
+	@extend .small, .text-zoo-orange, .mb-1;
+}
+.close-button {
+	@extend .btn, .bebas, .text-center, .btn-zoo-pill, .btn-outline-info, .btn-lg;
 }
 
 .filtered-out {
