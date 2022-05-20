@@ -28,6 +28,11 @@
       background-color: $color !important;
     }
   }
+  .outline-zoo-#{$name} {
+    border-color: $color !important;
+    border-width: 1px;
+    background-color: transparent;
+  }
 }
 
 body {
