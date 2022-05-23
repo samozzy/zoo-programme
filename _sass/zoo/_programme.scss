@@ -1,9 +1,18 @@
 .card-programme {
-	@extend .card, .outline-zoo-white, .bg-dark, .mb-4, .rounded-0, .shadow;
+	@extend .card, .outline-zoo-orange, .mb-4, .rounded-0, .shadow;
 
-	.card-header p {
-		@extend .lead, .fs-4, .mb-0;
+	.card-header {
+		p {
+			@extend .lead, .fs-4, .mb-0;
+		}
+		.fa {
+			@extend .text-zoo-orange;
+		}
 	}
+	.btn-filter {
+		@extend .btn, .btn-outline-info, .btn-zoo, .m-1, .bebas;
+	}
+}
 .helper-text {
 	@extend .small, .text-zoo-orange, .mb-1;
 }
