@@ -7,10 +7,10 @@
 
 	.card-header {
 		p {
-			@extend .lead, .fs-4, .mb-0;
+			@extend .lead, .fs-4, .mb-0, .d-flex, .justify-content-between;
 		}
 		.fa {
-			@extend .text-zoo-orange;
+			@extend .text-zoo-orange, .my-auto;
 		}
 	}
 	.btn-filter {
