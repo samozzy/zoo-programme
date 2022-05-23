@@ -1,139 +1,192 @@
+---
 - title: Five Encounters on a Site Called Craigslist
   company: YESYESNONO
   venue: Zoo Southside
-  start_time: "14:00"
+  start_time: '14:00'
   duration: 1hr
-  performances: 
-    - "2022-07-29"
-    - "2022-08-01"
-    - "2022-08-03"
-    - "2022-08-05"
-    - "2022-08-21"
-    - "2022-08-31"
+  performances:
+  - '2022-07-29'
+  - '2022-08-01'
+  - '2022-08-03'
+  - '2022-08-05'
+  - '2022-08-21'
+  - '2022-08-31'
   price:
     standard: 5
     concession: 4
-  ticket_deals: 
-    - "Half Price Hut"
+  ticket_deals:
+  - Half Price Hut
   genre:
-    - solo show
-    - new writing 
-    - audience participation 
-  content_warnings: 
-    - strobe lighting
-    - strong language 
+  - solo show
+  - new writing
+  - audience participation
+  content_warnings:
+  - strobe lighting
+  - strong language
   image: https://placekitten.com/400/400?image=3
   video_embeds:
-    - title: Trailer 
-      # embed_code: 
-  links: 
-    - title: "@yesyesnonotheat"
-      link: https://twitter.com/yesyesnonotheat
-      platform: twitter 
+  - title: Trailer
+    embed_code: ''
+  links:
+  - title: "@yesyesnonotheat"
+    link: https://twitter.com/yesyesnonotheat
+    platform: twitter
   reviews:
-    - publisher: Broadway Baby 
-      quote: "Stunning!"
-      stars: 4
-  copy_short: |
-    id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque
-  copy_long: |
-    velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed
-  trailer: '<img src="https://via.placeholder.com/1920x1080?text=Show+trailer" alt="Placeholder trailer embed">'
+  - publisher: Broadway Baby
+    quote: Stunning!
+    stars: 4
+    Publisher: ''
+  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
+    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
+    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
+    neque
 
+    '
+  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
+    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
+    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
+    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
+    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
+    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
+    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
+    quam id leo in vitae turpis massa sed elementum tempus egestas sed
+
+    '
+  trailer: <img src="https://via.placeholder.com/1920x1080?text=Show+trailer" alt="Placeholder
+    trailer embed">
+  image_alt: ''
 - title: BEAM
-  company: Heather Morgan 
+  company: Heather Morgan
   venue: Zoo Southside
-  start_time: "19:00"
+  start_time: '19:00'
   duration: 45mins
-  performances: 
-    - "2022-08-01"
-    - "2022-08-02"
-    - "2022-08-03"
-    - "2022-08-04"
-    - "2022-08-05"
+  performances:
+  - '2022-08-01'
+  - '2022-08-02'
+  - '2022-08-03'
+  - '2022-08-04'
+  - '2022-08-05'
   price:
     standard: 8
     concession: 6
-  # ticket_deals: 
-  #   - "Half Price Hut"
   genre:
-    - new writing 
-    - drama  
+  - new writing
+  - drama
   image: https://placekitten.com/400/400?image=4
-  copy_short: |
-    id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque
-  copy_long: |
-    velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed
+  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
+    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
+    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
+    neque
 
-- title: Action at a Distance 
-  company: Argonaut 
+    '
+  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
+    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
+    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
+    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
+    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
+    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
+    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
+    quam id leo in vitae turpis massa sed elementum tempus egestas sed
+
+    '
+  ticket_deals: []
+  content_warnings: []
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+- title: Action at a Distance
+  company: Argonaut
   venue: Zoo Southside
-  start_time: "10:10"
+  start_time: '10:10'
   duration: 1hr
-  performances: 
-    - "2022-08-02"
-    - "2022-08-04"
-    - "2022-08-06"
-    - "2022-08-07"
-    - "2022-08-08"
-    - "2022-08-09"
-    - "2022-08-10"
-    - "2022-08-12"
+  performances:
+  - '2022-08-02'
+  - '2022-08-04'
+  - '2022-08-06'
+  - '2022-08-07'
+  - '2022-08-08'
+  - '2022-08-09'
+  - '2022-08-10'
+  - '2022-08-12'
   price:
     standard: 10
     concession: 10
   genre:
-    - new writing 
-    - dance 
-  content_warnings: 
-    - distressing themes 
+  - new writing
+  - dance
+  content_warnings:
+  - distressing themes
   image: https://placekitten.com/400/400?image=5
-  # video_embeds:
-  #   - title: Trailer 
-  #     # embed_code: 
-  # links: 
-  #   - title: "@yesyesnonotheat"
-  #     link: https://twitter.com/yesyesnonotheat
-  #     type: social 
-  #     platform: twitter 
-  copy_short: |
-    id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque
-  copy_long: |
-    velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed
+  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
+    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
+    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
+    neque
 
+    '
+  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
+    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
+    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
+    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
+    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
+    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
+    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
+    quam id leo in vitae turpis massa sed elementum tempus egestas sed
+
+    '
+  ticket_deals: []
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
 - title: Anyone's Guess How We Got Here
-  company: Barrel Organ 
+  company: Barrel Organ
   venue: Zoo Southside
-  start_time: "12:45"
+  start_time: '12:45'
   duration: 1hr
-  performances: 
-    - "2022-07-29"
-    - "2022-08-01"
-    - "2022-08-03"
-    - "2022-08-05"
-    - "2022-08-21"
-    - "2022-08-31"
+  performances:
+  - '2022-07-29'
+  - '2022-08-01'
+  - '2022-08-03'
+  - '2022-08-05'
+  - '2022-08-21'
+  - '2022-08-31'
   price:
     standard: 12
     concession: 8
-  ticket_deals: 
-    - "Buy One Get One Free"
+  ticket_deals:
+  - Buy One Get One Free
   genre:
-    - new writing 
-    - weird
-    - genre-defying
+  - new writing
+  - weird
+  - genre-defying
   image: https://placekitten.com/400/400?image=7
   video_embeds:
-    - title: Trailer 
-      # embed_code: 
-  links: 
-    - title: "@barrelorgan"
-      link: https://twitter.com/barrelorgan
-      platform: twitter 
-    - title: "@barrelorgan"
-      link: https://instagram.com/barrelorgan
-      platform: instagram 
-  copy_short: |
-    id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque
-  copy_long: |
-    velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed
+  - title: Trailer
+    embed_code: ''
+  links:
+  - title: "@barrelorgan"
+    link: https://twitter.com/barrelorgan
+    platform: twitter
+  - title: "@barrelorgan"
+    link: https://instagram.com/barrelorgan
+    platform: instagram
+  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
+    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
+    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
+    neque
+
+    '
+  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
+    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
+    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
+    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
+    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
+    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
+    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
+    quam id leo in vitae turpis massa sed elementum tempus egestas sed
+
+    '
+  content_warnings: []
+  image_alt: ''
+  reviews: []
