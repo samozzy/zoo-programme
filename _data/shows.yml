@@ -1,4 +1,23 @@
 ---
+- venue: ''
+  genre: []
+  title: ''
+  company: ''
+  start_time: ''
+  duration: ''
+  performances: []
+  price:
+    standard: 
+    concession: 
+  ticket_deals: []
+  content_warnings: []
+  image: ''
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: ''
+  copy_long: ''
 - title: Five Encounters on a Site Called Craigslist
   company: YESYESNONO
   venue: Zoo Southside
