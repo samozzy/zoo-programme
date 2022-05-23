@@ -136,3 +136,5 @@ fields:
   - type: textarea
     name: copy_long
     label: Copy (Long)
+pages:
+- _data/shows.yml
