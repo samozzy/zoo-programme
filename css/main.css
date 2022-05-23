@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.border-2px, .card-show-slider, .btn-zoo-book, .btn-zoo, .header-category-button, .btn-zoo-pill {
+.border-2px, .card-show-slider, .btn-zoo-book, .btn-zoo, .header-category-button, .card-programme .btn-filter, .btn-zoo-pill, .close-button {
   border-width: 2px !important;
 }
 
@@ -31,14 +31,20 @@ a.text-zoo-slate:hover, a.text-zoo-slate:focus, a.text-zoo-slate:active, a.text-
   background-color: #282D30 !important;
 }
 
-.btn-zoo.outline-zoo-slate, .outline-zoo-slate.header-category-button, .outline-zoo-slate.btn-zoo-pill {
+.btn-zoo.outline-zoo-slate, .outline-zoo-slate.header-category-button, .card-programme .outline-zoo-slate.btn-filter, .outline-zoo-slate.btn-zoo-pill, .outline-zoo-slate.close-button {
   border-color: #282D30 !important;
   background-color: transparent !important;
   color: #282D30 !important;
 }
 
-.btn-zoo.outline-zoo-slate:hover, .outline-zoo-slate.header-category-button:hover, .outline-zoo-slate.btn-zoo-pill:hover, .btn-zoo.outline-zoo-slate:focus, .outline-zoo-slate.header-category-button:focus, .outline-zoo-slate.btn-zoo-pill:focus, .btn-zoo.outline-zoo-slate:active, .outline-zoo-slate.header-category-button:active, .outline-zoo-slate.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-slate:hover, .outline-zoo-slate.header-category-button:hover, .card-programme .outline-zoo-slate.btn-filter:hover, .outline-zoo-slate.btn-zoo-pill:hover, .outline-zoo-slate.close-button:hover, .btn-zoo.outline-zoo-slate:focus, .outline-zoo-slate.header-category-button:focus, .card-programme .outline-zoo-slate.btn-filter:focus, .outline-zoo-slate.btn-zoo-pill:focus, .outline-zoo-slate.close-button:focus, .btn-zoo.outline-zoo-slate:active, .outline-zoo-slate.header-category-button:active, .card-programme .outline-zoo-slate.btn-filter:active, .outline-zoo-slate.btn-zoo-pill:active, .outline-zoo-slate.close-button:active {
   background-color: #282D30 !important;
+}
+
+.outline-zoo-slate {
+  border-color: #282D30 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-black {
@@ -63,14 +69,20 @@ a.text-zoo-black:hover, a.text-zoo-black:focus, a.text-zoo-black:active, a.text-
   background-color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-black, .outline-zoo-black.header-category-button, .outline-zoo-black.btn-zoo-pill {
+.btn-zoo.outline-zoo-black, .outline-zoo-black.header-category-button, .card-programme .outline-zoo-black.btn-filter, .outline-zoo-black.btn-zoo-pill, .outline-zoo-black.close-button {
   border-color: #000000 !important;
   background-color: transparent !important;
   color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-black:hover, .outline-zoo-black.header-category-button:hover, .outline-zoo-black.btn-zoo-pill:hover, .btn-zoo.outline-zoo-black:focus, .outline-zoo-black.header-category-button:focus, .outline-zoo-black.btn-zoo-pill:focus, .btn-zoo.outline-zoo-black:active, .outline-zoo-black.header-category-button:active, .outline-zoo-black.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-black:hover, .outline-zoo-black.header-category-button:hover, .card-programme .outline-zoo-black.btn-filter:hover, .outline-zoo-black.btn-zoo-pill:hover, .outline-zoo-black.close-button:hover, .btn-zoo.outline-zoo-black:focus, .outline-zoo-black.header-category-button:focus, .card-programme .outline-zoo-black.btn-filter:focus, .outline-zoo-black.btn-zoo-pill:focus, .outline-zoo-black.close-button:focus, .btn-zoo.outline-zoo-black:active, .outline-zoo-black.header-category-button:active, .card-programme .outline-zoo-black.btn-filter:active, .outline-zoo-black.btn-zoo-pill:active, .outline-zoo-black.close-button:active {
   background-color: #000000 !important;
+}
+
+.outline-zoo-black {
+  border-color: #000000 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-white {
@@ -95,14 +107,20 @@ a.text-zoo-white:hover, a.text-zoo-white:focus, a.text-zoo-white:active, a.text-
   background-color: #FFFFFF !important;
 }
 
-.btn-zoo.outline-zoo-white, .outline-zoo-white.header-category-button, .btn-zoo.card-programme, .card-programme.header-category-button, .outline-zoo-white.btn-zoo-pill, .btn-zoo-pill.card-programme {
+.btn-zoo.outline-zoo-white, .outline-zoo-white.header-category-button, .card-programme .outline-zoo-white.btn-filter, .outline-zoo-white.btn-zoo-pill, .outline-zoo-white.close-button {
   border-color: #FFFFFF !important;
   background-color: transparent !important;
   color: #FFFFFF !important;
 }
 
-.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .btn-zoo.card-programme:hover, .card-programme.header-category-button:hover, .outline-zoo-white.btn-zoo-pill:hover, .btn-zoo-pill.card-programme:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .btn-zoo.card-programme:focus, .card-programme.header-category-button:focus, .outline-zoo-white.btn-zoo-pill:focus, .btn-zoo-pill.card-programme:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .btn-zoo.card-programme:active, .card-programme.header-category-button:active, .outline-zoo-white.btn-zoo-pill:active, .btn-zoo-pill.card-programme:active {
+.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.btn-zoo-pill:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.btn-zoo-pill:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.btn-zoo-pill:active, .outline-zoo-white.close-button:active {
   background-color: #FFFFFF !important;
+}
+
+.outline-zoo-white {
+  border-color: #FFFFFF !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-background {
@@ -127,14 +145,20 @@ a.text-zoo-background:hover, a.text-zoo-background:focus, a.text-zoo-background:
   background-color: #FBFBFB !important;
 }
 
-.btn-zoo.outline-zoo-background, .outline-zoo-background.header-category-button, .outline-zoo-background.btn-zoo-pill {
+.btn-zoo.outline-zoo-background, .outline-zoo-background.header-category-button, .card-programme .outline-zoo-background.btn-filter, .outline-zoo-background.btn-zoo-pill, .outline-zoo-background.close-button {
   border-color: #FBFBFB !important;
   background-color: transparent !important;
   color: #FBFBFB !important;
 }
 
-.btn-zoo.outline-zoo-background:hover, .outline-zoo-background.header-category-button:hover, .outline-zoo-background.btn-zoo-pill:hover, .btn-zoo.outline-zoo-background:focus, .outline-zoo-background.header-category-button:focus, .outline-zoo-background.btn-zoo-pill:focus, .btn-zoo.outline-zoo-background:active, .outline-zoo-background.header-category-button:active, .outline-zoo-background.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-background:hover, .outline-zoo-background.header-category-button:hover, .card-programme .outline-zoo-background.btn-filter:hover, .outline-zoo-background.btn-zoo-pill:hover, .outline-zoo-background.close-button:hover, .btn-zoo.outline-zoo-background:focus, .outline-zoo-background.header-category-button:focus, .card-programme .outline-zoo-background.btn-filter:focus, .outline-zoo-background.btn-zoo-pill:focus, .outline-zoo-background.close-button:focus, .btn-zoo.outline-zoo-background:active, .outline-zoo-background.header-category-button:active, .card-programme .outline-zoo-background.btn-filter:active, .outline-zoo-background.btn-zoo-pill:active, .outline-zoo-background.close-button:active {
   background-color: #FBFBFB !important;
+}
+
+.outline-zoo-background {
+  border-color: #FBFBFB !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-black-text {
@@ -159,14 +183,20 @@ a.text-zoo-black-text:hover, a.text-zoo-black-text:focus, a.text-zoo-black-text:
   background-color: #000000D9 !important;
 }
 
-.btn-zoo.outline-zoo-black-text, .outline-zoo-black-text.header-category-button, .outline-zoo-black-text.btn-zoo-pill {
+.btn-zoo.outline-zoo-black-text, .outline-zoo-black-text.header-category-button, .card-programme .outline-zoo-black-text.btn-filter, .outline-zoo-black-text.btn-zoo-pill, .outline-zoo-black-text.close-button {
   border-color: #000000D9 !important;
   background-color: transparent !important;
   color: #000000D9 !important;
 }
 
-.btn-zoo.outline-zoo-black-text:hover, .outline-zoo-black-text.header-category-button:hover, .outline-zoo-black-text.btn-zoo-pill:hover, .btn-zoo.outline-zoo-black-text:focus, .outline-zoo-black-text.header-category-button:focus, .outline-zoo-black-text.btn-zoo-pill:focus, .btn-zoo.outline-zoo-black-text:active, .outline-zoo-black-text.header-category-button:active, .outline-zoo-black-text.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-black-text:hover, .outline-zoo-black-text.header-category-button:hover, .card-programme .outline-zoo-black-text.btn-filter:hover, .outline-zoo-black-text.btn-zoo-pill:hover, .outline-zoo-black-text.close-button:hover, .btn-zoo.outline-zoo-black-text:focus, .outline-zoo-black-text.header-category-button:focus, .card-programme .outline-zoo-black-text.btn-filter:focus, .outline-zoo-black-text.btn-zoo-pill:focus, .outline-zoo-black-text.close-button:focus, .btn-zoo.outline-zoo-black-text:active, .outline-zoo-black-text.header-category-button:active, .card-programme .outline-zoo-black-text.btn-filter:active, .outline-zoo-black-text.btn-zoo-pill:active, .outline-zoo-black-text.close-button:active {
   background-color: #000000D9 !important;
+}
+
+.outline-zoo-black-text {
+  border-color: #000000D9 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-blue {
@@ -191,14 +221,20 @@ a.text-zoo-blue:hover, a.text-zoo-blue:focus, a.text-zoo-blue:active, a.text-zoo
   background-color: #21A8C4 !important;
 }
 
-.btn-zoo.outline-zoo-blue, .outline-zoo-blue.header-category-button, .outline-zoo-blue.btn-zoo-pill {
+.btn-zoo.outline-zoo-blue, .outline-zoo-blue.header-category-button, .card-programme .outline-zoo-blue.btn-filter, .outline-zoo-blue.btn-zoo-pill, .outline-zoo-blue.close-button {
   border-color: #21A8C4 !important;
   background-color: transparent !important;
   color: #21A8C4 !important;
 }
 
-.btn-zoo.outline-zoo-blue:hover, .outline-zoo-blue.header-category-button:hover, .outline-zoo-blue.btn-zoo-pill:hover, .btn-zoo.outline-zoo-blue:focus, .outline-zoo-blue.header-category-button:focus, .outline-zoo-blue.btn-zoo-pill:focus, .btn-zoo.outline-zoo-blue:active, .outline-zoo-blue.header-category-button:active, .outline-zoo-blue.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-blue:hover, .outline-zoo-blue.header-category-button:hover, .card-programme .outline-zoo-blue.btn-filter:hover, .outline-zoo-blue.btn-zoo-pill:hover, .outline-zoo-blue.close-button:hover, .btn-zoo.outline-zoo-blue:focus, .outline-zoo-blue.header-category-button:focus, .card-programme .outline-zoo-blue.btn-filter:focus, .outline-zoo-blue.btn-zoo-pill:focus, .outline-zoo-blue.close-button:focus, .btn-zoo.outline-zoo-blue:active, .outline-zoo-blue.header-category-button:active, .card-programme .outline-zoo-blue.btn-filter:active, .outline-zoo-blue.btn-zoo-pill:active, .outline-zoo-blue.close-button:active {
   background-color: #21A8C4 !important;
+}
+
+.outline-zoo-blue {
+  border-color: #21A8C4 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-magenta {
@@ -223,14 +259,20 @@ a.text-zoo-magenta:hover, a.text-zoo-magenta:focus, a.text-zoo-magenta:active, a
   background-color: #B25EA5 !important;
 }
 
-.btn-zoo.outline-zoo-magenta, .outline-zoo-magenta.header-category-button, .outline-zoo-magenta.btn-zoo-pill {
+.btn-zoo.outline-zoo-magenta, .outline-zoo-magenta.header-category-button, .card-programme .outline-zoo-magenta.btn-filter, .outline-zoo-magenta.btn-zoo-pill, .outline-zoo-magenta.close-button {
   border-color: #B25EA5 !important;
   background-color: transparent !important;
   color: #B25EA5 !important;
 }
 
-.btn-zoo.outline-zoo-magenta:hover, .outline-zoo-magenta.header-category-button:hover, .outline-zoo-magenta.btn-zoo-pill:hover, .btn-zoo.outline-zoo-magenta:focus, .outline-zoo-magenta.header-category-button:focus, .outline-zoo-magenta.btn-zoo-pill:focus, .btn-zoo.outline-zoo-magenta:active, .outline-zoo-magenta.header-category-button:active, .outline-zoo-magenta.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-magenta:hover, .outline-zoo-magenta.header-category-button:hover, .card-programme .outline-zoo-magenta.btn-filter:hover, .outline-zoo-magenta.btn-zoo-pill:hover, .outline-zoo-magenta.close-button:hover, .btn-zoo.outline-zoo-magenta:focus, .outline-zoo-magenta.header-category-button:focus, .card-programme .outline-zoo-magenta.btn-filter:focus, .outline-zoo-magenta.btn-zoo-pill:focus, .outline-zoo-magenta.close-button:focus, .btn-zoo.outline-zoo-magenta:active, .outline-zoo-magenta.header-category-button:active, .card-programme .outline-zoo-magenta.btn-filter:active, .outline-zoo-magenta.btn-zoo-pill:active, .outline-zoo-magenta.close-button:active {
   background-color: #B25EA5 !important;
+}
+
+.outline-zoo-magenta {
+  border-color: #B25EA5 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 .text-zoo-yellow {
@@ -255,21 +297,27 @@ a.text-zoo-yellow:hover, a.text-zoo-yellow:focus, a.text-zoo-yellow:active, a.te
   background-color: #F1D42B !important;
 }
 
-.btn-zoo.outline-zoo-yellow, .outline-zoo-yellow.header-category-button, .outline-zoo-yellow.btn-zoo-pill {
+.btn-zoo.outline-zoo-yellow, .outline-zoo-yellow.header-category-button, .card-programme .outline-zoo-yellow.btn-filter, .outline-zoo-yellow.btn-zoo-pill, .outline-zoo-yellow.close-button {
   border-color: #F1D42B !important;
   background-color: transparent !important;
   color: #F1D42B !important;
 }
 
-.btn-zoo.outline-zoo-yellow:hover, .outline-zoo-yellow.header-category-button:hover, .outline-zoo-yellow.btn-zoo-pill:hover, .btn-zoo.outline-zoo-yellow:focus, .outline-zoo-yellow.header-category-button:focus, .outline-zoo-yellow.btn-zoo-pill:focus, .btn-zoo.outline-zoo-yellow:active, .outline-zoo-yellow.header-category-button:active, .outline-zoo-yellow.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-yellow:hover, .outline-zoo-yellow.header-category-button:hover, .card-programme .outline-zoo-yellow.btn-filter:hover, .outline-zoo-yellow.btn-zoo-pill:hover, .outline-zoo-yellow.close-button:hover, .btn-zoo.outline-zoo-yellow:focus, .outline-zoo-yellow.header-category-button:focus, .card-programme .outline-zoo-yellow.btn-filter:focus, .outline-zoo-yellow.btn-zoo-pill:focus, .outline-zoo-yellow.close-button:focus, .btn-zoo.outline-zoo-yellow:active, .outline-zoo-yellow.header-category-button:active, .card-programme .outline-zoo-yellow.btn-filter:active, .outline-zoo-yellow.btn-zoo-pill:active, .outline-zoo-yellow.close-button:active {
   background-color: #F1D42B !important;
 }
 
-.text-zoo-orange, .show-details hr, table.date-list td.show-date {
+.outline-zoo-yellow {
+  border-color: #F1D42B !important;
+  border-width: 1px;
+  background-color: transparent;
+}
+
+.text-zoo-orange, .show-details hr, table.date-list td.show-date, .helper-text, .card-programme .card-header .fa {
   color: #F48847;
 }
 
-a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active, a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active {
+a.text-zoo-orange:hover, a.helper-text:hover, .card-programme .card-header a.fa:hover, a.text-zoo-orange:focus, a.helper-text:focus, .card-programme .card-header a.fa:focus, a.text-zoo-orange:active, a.helper-text:active, .card-programme .card-header a.fa:active, a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active {
   color: #f8b78f;
 }
 
@@ -287,14 +335,20 @@ a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active, a.te
   background-color: #F48847 !important;
 }
 
-.btn-zoo.outline-zoo-orange, .outline-zoo-orange.header-category-button, .outline-zoo-orange.btn-zoo-pill {
+.btn-zoo.outline-zoo-orange, .outline-zoo-orange.header-category-button, .card-programme .outline-zoo-orange.btn-filter, .btn-zoo.card-programme, .card-programme.header-category-button, .card-programme .card-programme.btn-filter, .outline-zoo-orange.btn-zoo-pill, .outline-zoo-orange.close-button, .btn-zoo-pill.card-programme, .card-programme.close-button {
   border-color: #F48847 !important;
   background-color: transparent !important;
   color: #F48847 !important;
 }
 
-.btn-zoo.outline-zoo-orange:hover, .outline-zoo-orange.header-category-button:hover, .outline-zoo-orange.btn-zoo-pill:hover, .btn-zoo.outline-zoo-orange:focus, .outline-zoo-orange.header-category-button:focus, .outline-zoo-orange.btn-zoo-pill:focus, .btn-zoo.outline-zoo-orange:active, .outline-zoo-orange.header-category-button:active, .outline-zoo-orange.btn-zoo-pill:active {
+.btn-zoo.outline-zoo-orange:hover, .outline-zoo-orange.header-category-button:hover, .card-programme .outline-zoo-orange.btn-filter:hover, .btn-zoo.card-programme:hover, .card-programme.header-category-button:hover, .card-programme .card-programme.btn-filter:hover, .outline-zoo-orange.btn-zoo-pill:hover, .outline-zoo-orange.close-button:hover, .btn-zoo-pill.card-programme:hover, .card-programme.close-button:hover, .btn-zoo.outline-zoo-orange:focus, .outline-zoo-orange.header-category-button:focus, .card-programme .outline-zoo-orange.btn-filter:focus, .btn-zoo.card-programme:focus, .card-programme.header-category-button:focus, .card-programme .card-programme.btn-filter:focus, .outline-zoo-orange.btn-zoo-pill:focus, .outline-zoo-orange.close-button:focus, .btn-zoo-pill.card-programme:focus, .card-programme.close-button:focus, .btn-zoo.outline-zoo-orange:active, .outline-zoo-orange.header-category-button:active, .card-programme .outline-zoo-orange.btn-filter:active, .btn-zoo.card-programme:active, .card-programme.header-category-button:active, .card-programme .card-programme.btn-filter:active, .outline-zoo-orange.btn-zoo-pill:active, .outline-zoo-orange.close-button:active, .btn-zoo-pill.card-programme:active, .card-programme.close-button:active {
   background-color: #F48847 !important;
+}
+
+.outline-zoo-orange, .card-programme {
+  border-color: #F48847 !important;
+  border-width: 1px;
+  background-color: transparent;
 }
 
 body {
@@ -302,11 +356,11 @@ body {
   color: #000000D9;
 }
 
-.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .btn-zoo.card-programme:hover, .card-programme.header-category-button:hover, .outline-zoo-white.btn-zoo-pill:hover, .btn-zoo-pill.card-programme:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .btn-zoo.card-programme:focus, .card-programme.header-category-button:focus, .outline-zoo-white.btn-zoo-pill:focus, .btn-zoo-pill.card-programme:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .btn-zoo.card-programme:active, .card-programme.header-category-button:active, .outline-zoo-white.btn-zoo-pill:active, .btn-zoo-pill.card-programme:active, .btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .btn-zoo.active.card-programme, .active.card-programme.header-category-button, .outline-zoo-white.active.btn-zoo-pill, .active.btn-zoo-pill.card-programme {
+.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.btn-zoo-pill:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.btn-zoo-pill:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.btn-zoo-pill:active, .outline-zoo-white.close-button:active, .btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.btn-zoo-pill, .active.close-button {
   color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .btn-zoo.active.card-programme, .active.card-programme.header-category-button, .outline-zoo-white.active.btn-zoo-pill, .active.btn-zoo-pill.card-programme {
+.btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.btn-zoo-pill, .active.close-button {
   background-color: #FFFFFF !important;
 }
 
@@ -370,7 +424,7 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   margin-bottom: 0rem;
 }
 
-.lead, .card-programme .card-header p, .bebas, .btn-zoo-book {
+.lead, .card-programme .card-header p, .bebas, .close-button, .card-programme .btn-filter, .btn-zoo-book {
   font-family: "Bebas Neue", Arial, sans-serif;
   letter-spacing: 1px;
 }
@@ -763,7 +817,7 @@ strong {
   font-weight: bolder;
 }
 
-small, .small, table.date-list {
+small, .small, .helper-text, table.date-list {
   font-size: 0.875em;
 }
 
@@ -2917,7 +2971,7 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 
-.btn-check[disabled] + .btn, .btn-check[disabled] + .btn-zoo, .btn-check[disabled] + .btn-zoo-pill, .btn-check[disabled] + .btn-zoo-book, .btn-check[disabled] + .header-category-button, .btn-check:disabled + .btn, .btn-check:disabled + .btn-zoo, .btn-check:disabled + .btn-zoo-pill, .btn-check:disabled + .btn-zoo-book, .btn-check:disabled + .header-category-button {
+.btn-check[disabled] + .btn, .btn-check[disabled] + .btn-zoo, .btn-check[disabled] + .btn-zoo-pill, .btn-check[disabled] + .btn-zoo-book, .card-programme .btn-check[disabled] + .btn-filter, .btn-check[disabled] + .close-button, .btn-check[disabled] + .header-category-button, .btn-check:disabled + .btn, .btn-check:disabled + .btn-zoo, .btn-check:disabled + .btn-zoo-pill, .btn-check:disabled + .btn-zoo-book, .card-programme .btn-check:disabled + .btn-filter, .btn-check:disabled + .close-button, .btn-check:disabled + .header-category-button {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
@@ -3104,12 +3158,12 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
-.input-group .btn, .input-group .btn-zoo, .input-group .btn-zoo-pill, .input-group .btn-zoo-book, .input-group .header-category-button {
+.input-group .btn, .input-group .btn-zoo, .input-group .btn-zoo-pill, .input-group .btn-zoo-book, .input-group .card-programme .btn-filter, .card-programme .input-group .btn-filter, .input-group .close-button, .input-group .header-category-button {
   position: relative;
   z-index: 2;
 }
 
-.input-group .btn:focus, .input-group .btn-zoo:focus, .input-group .btn-zoo-pill:focus, .input-group .btn-zoo-book:focus, .input-group .header-category-button:focus {
+.input-group .btn:focus, .input-group .btn-zoo:focus, .input-group .btn-zoo-pill:focus, .input-group .btn-zoo-book:focus, .input-group .card-programme .btn-filter:focus, .card-programme .input-group .btn-filter:focus, .input-group .close-button:focus, .input-group .header-category-button:focus {
   z-index: 3;
 }
 
@@ -3135,6 +3189,8 @@ textarea.form-control-lg {
 .input-group-lg > .btn-zoo,
 .input-group-lg > .btn-zoo-pill,
 .input-group-lg > .btn-zoo-book,
+.card-programme .input-group-lg > .btn-filter,
+.input-group-lg > .close-button,
 .input-group-lg > .header-category-button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -3148,6 +3204,8 @@ textarea.form-control-lg {
 .input-group-sm > .btn-zoo,
 .input-group-sm > .btn-zoo-pill,
 .input-group-sm > .btn-zoo-book,
+.card-programme .input-group-sm > .btn-filter,
+.input-group-sm > .close-button,
 .input-group-sm > .header-category-button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
@@ -3365,7 +3423,7 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
-.btn, .btn-zoo, .btn-zoo-pill, .btn-zoo-book, .header-category-button {
+.btn, .btn-zoo, .btn-zoo-pill, .btn-zoo-book, .card-programme .btn-filter, .close-button, .header-category-button {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
@@ -3384,21 +3442,21 @@ textarea.form-control-lg {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .btn, .btn-zoo, .btn-zoo-pill, .btn-zoo-book, .header-category-button {
+  .btn, .btn-zoo, .btn-zoo-pill, .btn-zoo-book, .card-programme .btn-filter, .close-button, .header-category-button {
     transition: none;
   }
 }
 
-.btn:hover, .btn-zoo:hover, .btn-zoo-pill:hover, .btn-zoo-book:hover, .header-category-button:hover {
+.btn:hover, .btn-zoo:hover, .btn-zoo-pill:hover, .btn-zoo-book:hover, .card-programme .btn-filter:hover, .close-button:hover, .header-category-button:hover {
   color: #212529;
 }
 
-.btn-check:focus + .btn, .btn-check:focus + .btn-zoo, .btn-check:focus + .btn-zoo-pill, .btn-check:focus + .btn-zoo-book, .btn-check:focus + .header-category-button, .btn:focus, .btn-zoo:focus, .btn-zoo-pill:focus, .btn-zoo-book:focus, .header-category-button:focus {
+.btn-check:focus + .btn, .btn-check:focus + .btn-zoo, .btn-check:focus + .btn-zoo-pill, .btn-check:focus + .btn-zoo-book, .card-programme .btn-check:focus + .btn-filter, .btn-check:focus + .close-button, .btn-check:focus + .header-category-button, .btn:focus, .btn-zoo:focus, .btn-zoo-pill:focus, .btn-zoo-book:focus, .card-programme .btn-filter:focus, .close-button:focus, .header-category-button:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(40, 45, 48, 0.25);
 }
 
-.btn:disabled, .btn-zoo:disabled, .btn-zoo-pill:disabled, .btn-zoo-book:disabled, .header-category-button:disabled, .btn.disabled, .disabled.btn-zoo, .disabled.btn-zoo-pill, .disabled.btn-zoo-book, .disabled.header-category-button, fieldset:disabled .btn, fieldset:disabled .btn-zoo, fieldset:disabled .btn-zoo-pill, fieldset:disabled .btn-zoo-book, fieldset:disabled .header-category-button {
+.btn:disabled, .btn-zoo:disabled, .btn-zoo-pill:disabled, .btn-zoo-book:disabled, .card-programme .btn-filter:disabled, .close-button:disabled, .header-category-button:disabled, .btn.disabled, .disabled.btn-zoo, .disabled.btn-zoo-pill, .disabled.btn-zoo-book, .card-programme .disabled.btn-filter, .disabled.close-button, .disabled.header-category-button, fieldset:disabled .btn, fieldset:disabled .btn-zoo, fieldset:disabled .btn-zoo-pill, fieldset:disabled .btn-zoo-book, fieldset:disabled .card-programme .btn-filter, .card-programme fieldset:disabled .btn-filter, fieldset:disabled .close-button, fieldset:disabled .header-category-button {
   pointer-events: none;
   opacity: 0.65;
 }
@@ -3773,32 +3831,32 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
-.btn-outline-info {
+.btn-outline-info, .card-programme .btn-filter, .close-button {
   color: #F48847;
   border-color: #F48847;
 }
 
-.btn-outline-info:hover {
+.btn-outline-info:hover, .card-programme .btn-filter:hover, .close-button:hover {
   color: #000;
   background-color: #F48847;
   border-color: #F48847;
 }
 
-.btn-check:focus + .btn-outline-info, .btn-outline-info:focus {
+.btn-check:focus + .btn-outline-info, .card-programme .btn-check:focus + .btn-filter, .btn-check:focus + .close-button, .btn-outline-info:focus, .card-programme .btn-filter:focus, .close-button:focus {
   box-shadow: 0 0 0 0.25rem rgba(244, 136, 71, 0.5);
 }
 
-.btn-check:checked + .btn-outline-info, .btn-check:active + .btn-outline-info, .btn-outline-info:active, .btn-outline-info.active, .btn-outline-info.dropdown-toggle.show {
+.btn-check:checked + .btn-outline-info, .card-programme .btn-check:checked + .btn-filter, .btn-check:checked + .close-button, .btn-check:active + .btn-outline-info, .card-programme .btn-check:active + .btn-filter, .btn-check:active + .close-button, .btn-outline-info:active, .card-programme .btn-filter:active, .close-button:active, .btn-outline-info.active, .card-programme .active.btn-filter, .active.close-button, .btn-outline-info.dropdown-toggle.show, .card-programme .dropdown-toggle.show.btn-filter, .dropdown-toggle.show.close-button {
   color: #000;
   background-color: #F48847;
   border-color: #F48847;
 }
 
-.btn-check:checked + .btn-outline-info:focus, .btn-check:active + .btn-outline-info:focus, .btn-outline-info:active:focus, .btn-outline-info.active:focus, .btn-outline-info.dropdown-toggle.show:focus {
+.btn-check:checked + .btn-outline-info:focus, .card-programme .btn-check:checked + .btn-filter:focus, .btn-check:checked + .close-button:focus, .btn-check:active + .btn-outline-info:focus, .card-programme .btn-check:active + .btn-filter:focus, .btn-check:active + .close-button:focus, .btn-outline-info:active:focus, .card-programme .btn-filter:active:focus, .close-button:active:focus, .btn-outline-info.active:focus, .card-programme .active.btn-filter:focus, .active.close-button:focus, .btn-outline-info.dropdown-toggle.show:focus, .card-programme .dropdown-toggle.show.btn-filter:focus, .dropdown-toggle.show.close-button:focus {
   box-shadow: 0 0 0 0.25rem rgba(244, 136, 71, 0.5);
 }
 
-.btn-outline-info:disabled, .btn-outline-info.disabled {
+.btn-outline-info:disabled, .card-programme .btn-filter:disabled, .close-button:disabled, .btn-outline-info.disabled, .card-programme .disabled.btn-filter, .disabled.close-button {
   color: #F48847;
   background-color: transparent;
 }
@@ -3937,13 +3995,13 @@ textarea.form-control-lg {
   color: #6c757d;
 }
 
-.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .btn-zoo, .btn-group-lg > .btn-zoo-pill, .btn-group-lg > .btn-zoo-book, .btn-group-lg > .header-category-button {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .btn-zoo, .btn-group-lg > .btn-zoo-pill, .btn-group-lg > .btn-zoo-book, .card-programme .btn-group-lg > .btn-filter, .btn-group-lg > .close-button, .btn-group-lg > .header-category-button, .close-button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
-.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .btn-zoo, .btn-group-sm > .btn-zoo-pill, .btn-group-sm > .btn-zoo-book, .btn-group-sm > .header-category-button {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .btn-zoo, .btn-group-sm > .btn-zoo-pill, .btn-group-sm > .btn-zoo-book, .card-programme .btn-group-sm > .btn-filter, .btn-group-sm > .close-button, .btn-group-sm > .header-category-button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
@@ -4329,71 +4387,95 @@ textarea.form-control-lg {
   vertical-align: middle;
 }
 
-.btn-group > .btn, .btn-group > .btn-zoo, .btn-group > .btn-zoo-pill, .btn-group > .btn-zoo-book, .btn-group > .header-category-button,
+.btn-group > .btn, .btn-group > .btn-zoo, .btn-group > .btn-zoo-pill, .btn-group > .btn-zoo-book, .card-programme .btn-group > .btn-filter, .btn-group > .close-button, .btn-group > .header-category-button,
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-zoo,
 .btn-group-vertical > .btn-zoo-pill,
 .btn-group-vertical > .btn-zoo-book,
+.card-programme .btn-group-vertical > .btn-filter,
+.btn-group-vertical > .close-button,
 .btn-group-vertical > .header-category-button {
   position: relative;
   flex: 1 1 auto;
 }
 
-.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .btn-zoo, .btn-group > .btn-check:checked + .btn-zoo-pill, .btn-group > .btn-check:checked + .btn-zoo-book, .btn-group > .btn-check:checked + .header-category-button,
+.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .btn-zoo, .btn-group > .btn-check:checked + .btn-zoo-pill, .btn-group > .btn-check:checked + .btn-zoo-book, .card-programme .btn-group > .btn-check:checked + .btn-filter, .btn-group > .btn-check:checked + .close-button, .btn-group > .btn-check:checked + .header-category-button,
 .btn-group > .btn-check:focus + .btn,
 .btn-group > .btn-check:focus + .btn-zoo,
 .btn-group > .btn-check:focus + .btn-zoo-pill,
 .btn-group > .btn-check:focus + .btn-zoo-book,
+.card-programme .btn-group > .btn-check:focus + .btn-filter,
+.btn-group > .btn-check:focus + .close-button,
 .btn-group > .btn-check:focus + .header-category-button,
 .btn-group > .btn:hover,
 .btn-group > .btn-zoo:hover,
 .btn-group > .btn-zoo-pill:hover,
 .btn-group > .btn-zoo-book:hover,
+.card-programme .btn-group > .btn-filter:hover,
+.btn-group > .close-button:hover,
 .btn-group > .header-category-button:hover,
 .btn-group > .btn:focus,
 .btn-group > .btn-zoo:focus,
 .btn-group > .btn-zoo-pill:focus,
 .btn-group > .btn-zoo-book:focus,
+.card-programme .btn-group > .btn-filter:focus,
+.btn-group > .close-button:focus,
 .btn-group > .header-category-button:focus,
 .btn-group > .btn:active,
 .btn-group > .btn-zoo:active,
 .btn-group > .btn-zoo-pill:active,
 .btn-group > .btn-zoo-book:active,
+.card-programme .btn-group > .btn-filter:active,
+.btn-group > .close-button:active,
 .btn-group > .header-category-button:active,
 .btn-group > .btn.active,
 .btn-group > .active.btn-zoo,
 .btn-group > .active.btn-zoo-pill,
 .btn-group > .active.btn-zoo-book,
+.card-programme .btn-group > .active.btn-filter,
+.btn-group > .active.close-button,
 .btn-group > .active.header-category-button,
 .btn-group-vertical > .btn-check:checked + .btn,
 .btn-group-vertical > .btn-check:checked + .btn-zoo,
 .btn-group-vertical > .btn-check:checked + .btn-zoo-pill,
 .btn-group-vertical > .btn-check:checked + .btn-zoo-book,
+.card-programme .btn-group-vertical > .btn-check:checked + .btn-filter,
+.btn-group-vertical > .btn-check:checked + .close-button,
 .btn-group-vertical > .btn-check:checked + .header-category-button,
 .btn-group-vertical > .btn-check:focus + .btn,
 .btn-group-vertical > .btn-check:focus + .btn-zoo,
 .btn-group-vertical > .btn-check:focus + .btn-zoo-pill,
 .btn-group-vertical > .btn-check:focus + .btn-zoo-book,
+.card-programme .btn-group-vertical > .btn-check:focus + .btn-filter,
+.btn-group-vertical > .btn-check:focus + .close-button,
 .btn-group-vertical > .btn-check:focus + .header-category-button,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .btn-zoo:hover,
 .btn-group-vertical > .btn-zoo-pill:hover,
 .btn-group-vertical > .btn-zoo-book:hover,
+.card-programme .btn-group-vertical > .btn-filter:hover,
+.btn-group-vertical > .close-button:hover,
 .btn-group-vertical > .header-category-button:hover,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .btn-zoo:focus,
 .btn-group-vertical > .btn-zoo-pill:focus,
 .btn-group-vertical > .btn-zoo-book:focus,
+.card-programme .btn-group-vertical > .btn-filter:focus,
+.btn-group-vertical > .close-button:focus,
 .btn-group-vertical > .header-category-button:focus,
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .btn-zoo:active,
 .btn-group-vertical > .btn-zoo-pill:active,
 .btn-group-vertical > .btn-zoo-book:active,
+.card-programme .btn-group-vertical > .btn-filter:active,
+.btn-group-vertical > .close-button:active,
 .btn-group-vertical > .header-category-button:active,
 .btn-group-vertical > .btn.active,
 .btn-group-vertical > .active.btn-zoo,
 .btn-group-vertical > .active.btn-zoo-pill,
 .btn-group-vertical > .active.btn-zoo-book,
+.card-programme .btn-group-vertical > .active.btn-filter,
+.btn-group-vertical > .active.close-button,
 .btn-group-vertical > .active.header-category-button {
   z-index: 1;
 }
@@ -4408,31 +4490,37 @@ textarea.form-control-lg {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .btn-group > .btn-zoo:not(:first-child), .btn-group > .btn-zoo-pill:not(:first-child), .btn-group > .btn-zoo-book:not(:first-child), .btn-group > .header-category-button:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > .btn-zoo:not(:first-child), .btn-group > .btn-zoo-pill:not(:first-child), .btn-group > .btn-zoo-book:not(:first-child), .card-programme .btn-group > .btn-filter:not(:first-child), .btn-group > .close-button:not(:first-child), .btn-group > .header-category-button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo-pill:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo-book:not(:last-child):not(.dropdown-toggle), .btn-group > .header-category-button:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo-pill:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-zoo-book:not(:last-child):not(.dropdown-toggle), .card-programme .btn-group > .btn-filter:not(:last-child):not(.dropdown-toggle), .btn-group > .close-button:not(:last-child):not(.dropdown-toggle), .btn-group > .header-category-button:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
 .btn-group > .btn-group:not(:last-child) > .btn-zoo,
 .btn-group > .btn-group:not(:last-child) > .btn-zoo-pill,
 .btn-group > .btn-group:not(:last-child) > .btn-zoo-book,
+.card-programme .btn-group > .btn-group:not(:last-child) > .btn-filter,
+.btn-group > .btn-group:not(:last-child) > .close-button,
 .btn-group > .btn-group:not(:last-child) > .header-category-button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.btn-group > .btn:nth-child(n + 3), .btn-group > .btn-zoo:nth-child(n + 3), .btn-group > .btn-zoo-pill:nth-child(n + 3), .btn-group > .btn-zoo-book:nth-child(n + 3), .btn-group > .header-category-button:nth-child(n + 3),
+.btn-group > .btn:nth-child(n + 3), .btn-group > .btn-zoo:nth-child(n + 3), .btn-group > .btn-zoo-pill:nth-child(n + 3), .btn-group > .btn-zoo-book:nth-child(n + 3), .card-programme .btn-group > .btn-filter:nth-child(n + 3), .btn-group > .close-button:nth-child(n + 3), .btn-group > .header-category-button:nth-child(n + 3),
 .btn-group > :not(.btn-check) + .btn,
 .btn-group > :not(.btn-check) + .btn-zoo,
 .btn-group > :not(.btn-check) + .btn-zoo-pill,
 .btn-group > :not(.btn-check) + .btn-zoo-book,
+.card-programme .btn-group > :not(.btn-check) + .btn-filter,
+.btn-group > :not(.btn-check) + .close-button,
 .btn-group > :not(.btn-check) + .header-category-button,
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn-group:not(:first-child) > .btn-zoo,
 .btn-group > .btn-group:not(:first-child) > .btn-zoo-pill,
 .btn-group > .btn-group:not(:first-child) > .btn-zoo-book,
+.card-programme .btn-group > .btn-group:not(:first-child) > .btn-filter,
+.btn-group > .btn-group:not(:first-child) > .close-button,
 .btn-group > .btn-group:not(:first-child) > .header-category-button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -4451,12 +4539,12 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .btn-zoo + .dropdown-toggle-split, .btn-group-sm > .btn-zoo-pill + .dropdown-toggle-split, .btn-group-sm > .btn-zoo-book + .dropdown-toggle-split, .btn-group-sm > .header-category-button + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .btn-zoo + .dropdown-toggle-split, .btn-group-sm > .btn-zoo-pill + .dropdown-toggle-split, .btn-group-sm > .btn-zoo-book + .dropdown-toggle-split, .card-programme .btn-group-sm > .btn-filter + .dropdown-toggle-split, .btn-group-sm > .close-button + .dropdown-toggle-split, .btn-group-sm > .header-category-button + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .btn-zoo + .dropdown-toggle-split, .btn-group-lg > .btn-zoo-pill + .dropdown-toggle-split, .btn-group-lg > .btn-zoo-book + .dropdown-toggle-split, .btn-group-lg > .header-category-button + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .close-button + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .btn-zoo + .dropdown-toggle-split, .btn-group-lg > .btn-zoo-pill + .dropdown-toggle-split, .btn-group-lg > .btn-zoo-book + .dropdown-toggle-split, .card-programme .btn-group-lg > .btn-filter + .dropdown-toggle-split, .btn-group-lg > .close-button + .dropdown-toggle-split, .btn-group-lg > .header-category-button + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -4467,31 +4555,35 @@ textarea.form-control-lg {
   justify-content: center;
 }
 
-.btn-group-vertical > .btn, .btn-group-vertical > .btn-zoo, .btn-group-vertical > .btn-zoo-pill, .btn-group-vertical > .btn-zoo-book, .btn-group-vertical > .header-category-button,
+.btn-group-vertical > .btn, .btn-group-vertical > .btn-zoo, .btn-group-vertical > .btn-zoo-pill, .btn-group-vertical > .btn-zoo-book, .card-programme .btn-group-vertical > .btn-filter, .btn-group-vertical > .close-button, .btn-group-vertical > .header-category-button,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
 
-.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-zoo:not(:first-child), .btn-group-vertical > .btn-zoo-pill:not(:first-child), .btn-group-vertical > .btn-zoo-book:not(:first-child), .btn-group-vertical > .header-category-button:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-zoo:not(:first-child), .btn-group-vertical > .btn-zoo-pill:not(:first-child), .btn-group-vertical > .btn-zoo-book:not(:first-child), .card-programme .btn-group-vertical > .btn-filter:not(:first-child), .btn-group-vertical > .close-button:not(:first-child), .btn-group-vertical > .header-category-button:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px;
 }
 
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo-pill:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo-book:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .header-category-button:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo-pill:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-zoo-book:not(:last-child):not(.dropdown-toggle), .card-programme .btn-group-vertical > .btn-filter:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .close-button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .header-category-button:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-zoo,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-zoo-pill,
 .btn-group-vertical > .btn-group:not(:last-child) > .btn-zoo-book,
+.card-programme .btn-group-vertical > .btn-group:not(:last-child) > .btn-filter,
+.btn-group-vertical > .btn-group:not(:last-child) > .close-button,
 .btn-group-vertical > .btn-group:not(:last-child) > .header-category-button {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .btn-zoo ~ .btn, .btn-group-vertical > .btn-zoo-pill ~ .btn, .btn-group-vertical > .btn-zoo-book ~ .btn, .btn-group-vertical > .header-category-button ~ .btn, .btn-group-vertical > .btn ~ .btn-zoo, .btn-group-vertical > .btn-zoo ~ .btn-zoo, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo, .btn-group-vertical > .header-category-button ~ .btn-zoo, .btn-group-vertical > .btn ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo-pill, .btn-group-vertical > .header-category-button ~ .btn-zoo-pill, .btn-group-vertical > .btn ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo-book, .btn-group-vertical > .header-category-button ~ .btn-zoo-book, .btn-group-vertical > .btn ~ .header-category-button, .btn-group-vertical > .btn-zoo ~ .header-category-button, .btn-group-vertical > .btn-zoo-pill ~ .header-category-button, .btn-group-vertical > .btn-zoo-book ~ .header-category-button, .btn-group-vertical > .header-category-button ~ .header-category-button,
+.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .btn-zoo ~ .btn, .btn-group-vertical > .btn-zoo-pill ~ .btn, .btn-group-vertical > .btn-zoo-book ~ .btn, .card-programme .btn-group-vertical > .btn-filter ~ .btn, .btn-group-vertical > .close-button ~ .btn, .btn-group-vertical > .header-category-button ~ .btn, .btn-group-vertical > .btn ~ .btn-zoo, .btn-group-vertical > .btn-zoo ~ .btn-zoo, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo, .card-programme .btn-group-vertical > .btn-filter ~ .btn-zoo, .btn-group-vertical > .close-button ~ .btn-zoo, .btn-group-vertical > .header-category-button ~ .btn-zoo, .btn-group-vertical > .btn ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo-pill, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo-pill, .card-programme .btn-group-vertical > .btn-filter ~ .btn-zoo-pill, .btn-group-vertical > .close-button ~ .btn-zoo-pill, .btn-group-vertical > .header-category-button ~ .btn-zoo-pill, .btn-group-vertical > .btn ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo-pill ~ .btn-zoo-book, .btn-group-vertical > .btn-zoo-book ~ .btn-zoo-book, .card-programme .btn-group-vertical > .btn-filter ~ .btn-zoo-book, .btn-group-vertical > .close-button ~ .btn-zoo-book, .btn-group-vertical > .header-category-button ~ .btn-zoo-book, .card-programme .btn-group-vertical > .btn ~ .btn-filter, .card-programme .btn-group-vertical > .btn-zoo ~ .btn-filter, .card-programme .btn-group-vertical > .btn-zoo-pill ~ .btn-filter, .card-programme .btn-group-vertical > .btn-zoo-book ~ .btn-filter, .card-programme .btn-group-vertical > .btn-filter ~ .btn-filter, .card-programme .btn-group-vertical > .close-button ~ .btn-filter, .card-programme .btn-group-vertical > .header-category-button ~ .btn-filter, .btn-group-vertical > .btn ~ .close-button, .btn-group-vertical > .btn-zoo ~ .close-button, .btn-group-vertical > .btn-zoo-pill ~ .close-button, .btn-group-vertical > .btn-zoo-book ~ .close-button, .card-programme .btn-group-vertical > .btn-filter ~ .close-button, .btn-group-vertical > .close-button ~ .close-button, .btn-group-vertical > .header-category-button ~ .close-button, .btn-group-vertical > .btn ~ .header-category-button, .btn-group-vertical > .btn-zoo ~ .header-category-button, .btn-group-vertical > .btn-zoo-pill ~ .header-category-button, .btn-group-vertical > .btn-zoo-book ~ .header-category-button, .card-programme .btn-group-vertical > .btn-filter ~ .header-category-button, .btn-group-vertical > .close-button ~ .header-category-button, .btn-group-vertical > .header-category-button ~ .header-category-button,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-zoo,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-zoo-pill,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn-zoo-book,
+.card-programme .btn-group-vertical > .btn-group:not(:first-child) > .btn-filter,
+.btn-group-vertical > .btn-group:not(:first-child) > .close-button,
 .btn-group-vertical > .btn-group:not(:first-child) > .header-category-button {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -5569,7 +5661,7 @@ textarea.form-control-lg {
   display: none;
 }
 
-.btn .badge, .btn-zoo .badge, .btn-zoo-pill .badge, .btn-zoo-book .badge, .header-category-button .badge {
+.btn .badge, .btn-zoo .badge, .btn-zoo-pill .badge, .btn-zoo-book .badge, .card-programme .btn-filter .badge, .close-button .badge, .header-category-button .badge {
   position: relative;
   top: -1px;
 }
@@ -7126,7 +7218,7 @@ textarea.form-control-lg {
   opacity: 0.5;
 }
 
-.placeholder.btn::before, .placeholder.btn-zoo::before, .placeholder.btn-zoo-pill::before, .placeholder.btn-zoo-book::before, .placeholder.header-category-button::before {
+.placeholder.btn::before, .placeholder.btn-zoo::before, .placeholder.btn-zoo-pill::before, .placeholder.btn-zoo-book::before, .card-programme .placeholder.btn-filter::before, .placeholder.close-button::before, .placeholder.header-category-button::before {
   display: inline-block;
   content: "";
 }
@@ -7952,7 +8044,7 @@ textarea.form-control-lg {
   margin: 0 !important;
 }
 
-.m-1 {
+.m-1, .card-programme .btn-filter {
   margin: 0.25rem !important;
 }
 
@@ -8106,7 +8198,7 @@ textarea.form-control-lg {
   margin-bottom: 0 !important;
 }
 
-.mb-1 {
+.mb-1, .helper-text {
   margin-bottom: 0.25rem !important;
 }
 
@@ -8202,7 +8294,7 @@ textarea.form-control-lg {
   padding-left: 1rem !important;
 }
 
-.px-4, .btn-zoo, .btn-zoo-pill, .header-category-button {
+.px-4, .btn-zoo, .btn-zoo-pill, .card-programme .btn-filter, .header-category-button {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
 }
@@ -8418,7 +8510,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center, .card-show .card-footer {
+.text-center, .close-button, .card-show .card-footer {
   text-align: center !important;
 }
 
@@ -8587,7 +8679,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-dark, .card-programme {
+.bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
@@ -8656,7 +8748,7 @@ textarea.form-control-lg {
   pointer-events: auto !important;
 }
 
-.rounded, .btn-zoo, .btn-zoo-pill, .header-category-button {
+.rounded, .btn-zoo, .btn-zoo-pill, .card-programme .btn-filter, .header-category-button {
   border-radius: 0.25rem !important;
 }
 
@@ -8680,7 +8772,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .btn-zoo-pill {
+.rounded-pill, .btn-zoo-pill, .close-button {
   border-radius: 50rem !important;
 }
 
