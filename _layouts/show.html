@@ -6,19 +6,19 @@ use_swiper: true
 
 {% assign show = page %}
 
-<div class="container-fluid bg-zoo-white pt-5 pb-4">
-	<div class="row w-100 mb-4">
-		<div class="col-12 col-lg-4 text-end d-flex flex-column order-lg-2">
+<div class="container-fluid bg-zoo-white pt-5 ps-lg-5">
+	<div class="row mb-lg-5 mb-md-4">
+		<div class="col-12 col-lg-4 col-xl-3 text-center text-lg-end d-flex flex-column order-lg-2">
 			<a href="{% link _content/index.md %}"><img src="/static/img/zoo/zoo-logo-black.png" class="img-fluid" width="100px" height="auto" alt="ZOO"></a><br>
 		</div>
-		<div class="col-12 col-lg-8 ps-md-5 my-auto text-start d-flex flex-row order-lg-1">
+		<div class="col-12 col-lg-8 col-xl-9 px-5 px-lg-0 my-auto d-flex flex-row order-lg-1">
 			{% if show.image and show.image != empty %}
 				<div class="show-image d-none d-md-block mt-2">
 					<img src="{{ show.image }}" alt="{{ show.title}} icon" height="auto" class='shadow-sm'>
 				</div>
 			{% endif %}
-			<div class="ms-4 d-flex flex-column">
-				<h1 class="display-2 text-zoo-black">
+			<div class="ms-md-4 d-flex flex-column">
+				<h1 class="display-2 text-zoo-black text-center text-md-start">
 					{{ show.title }}
 					{% if show.company and show.company != empty %}
 						<p class="display-4 bebas text-muted fw-lighter">{{ show.company }}</p>
@@ -29,45 +29,45 @@ use_swiper: true
 						<img src="{{ show.image }}" alt="{{ show.title}} icon" class="img-fluid" height="auto">
 					</div>
 				{% endif %}
-				<div class="buttons mt-auto d-flex justify-content-around">
-					<a class="btn-zoo-book btn-info w-50 m-1" role="button">Book Tickets</a>
-					<a class="btn-zoo-book btn-outline-info w-50 m-1" role="button" href="#show-details">Keep reading</a>
+				<div class="fs-5 text-center">
+					<div class="row row-cols-2 row-cols-sm-4 d-flex justify-content-around">
+						{% if show.price.standard and show.price.standard != empty %}
+							<div class="col mb-4 mb-md-0">
+								<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"></i><br>
+								£{{ show.price.standard }}<br>
+								{% if show.price.concession and show.price.concession != empty and show.price.concession != show.price.standard %}
+									(£{{ show.price.concession }})
+								{% endif %}
+							</div>
+						{% endif %}
+						{% if show.start_time and show.start_time != empty %}
+							<div class="col mb-4 mb-md-0">
+								<i class="fa fa-fw text-zoo-orange fa-clock fs-2"></i><br>
+								{{ show.start_time }}
+								{% if show.duration and show.duration != empty %}
+									<br>({{ show.duration }})
+								{% endif %}
+							</div>
+						{% endif %}
+						{% if show.venue and show.venue != empty %}
+							<div class="col mb-4 mb-md-0">
+								<i class="fa fa-fw text-zoo-orange fa-map fs-2"></i><br>
+								{{ show.venue }}
+							</div>
+						{% endif %}
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="container-fluid bg-zoo-slate text-light fs-4 text-center py-4">
-	<div class="row row-cols-1 row-cols-md-4 d-flex justify-content-around">
-		{% if show.price.standard and show.price.standard != empty %}
-			<div class="col mb-4 mb-md-0">
-				<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-1"></i><br>
-				£{{ show.price.standard }}<br>
-				{% if show.price.concession and show.price.concession != empty and show.price.concession != show.price.standard %}
-					(£{{ show.price.concession }})
-				{% endif %}
-			</div>
-		{% endif %}
-		{% if show.start_time and show.start_time != empty %}
-			<div class="col mb-4 mb-md-0">
-				<i class="fa fa-fw text-zoo-orange fa-clock fs-1"></i><br>
-				{{ show.start_time }}
-				{% if show.duration and show.duration != empty %}
-					<br>({{ show.duration }})
-				{% endif %}
-			</div>
-		{% endif %}
-		{% if show.venue and show.venue != empty %}
-			<div class="col mb-4 mb-md-0">
-				<i class="fa fa-fw text-zoo-orange fa-map fs-1"></i><br>
-				{{ show.venue }}
-			</div>
-		{% endif %}
+<div class="container-md">
+	<div class="row mb-4">
+		{% include components/dates.html show=show %}
 	</div>
-	<div class="row mt-4">
-		<div class="col-12 col-xl-10 offset-xl-1">
-			{% include components/dates.html show=show light=true %}
-		</div>
+	<div class="d-flex justify-content-around flex-row mx-n1">
+		<a class="btn-zoo-book btn-info w-50 m-1 btn-lg" role="button">Book Tickets</a>
+		<a class="btn-zoo-book btn-outline-info w-50 m-1 btn-lg" role="button" href="#show-details">Keep reading</a>
 	</div>
 </div>
 <div class="container py-4">
