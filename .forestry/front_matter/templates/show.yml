@@ -66,14 +66,21 @@ fields:
       use_select: false
   - type: list
     name: genre
-    label: genre
+    label: Tags
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: tags
   - type: list
     name: content_warnings
-    label: content_warnings
-  - type: text
-    name: image
+    label: Content Warnings
+  - name: image
+    type: file
+    config:
+      maxSize: 64
     label: Image
-    description: Show image. Must be square. Will feature basically everywhere.
+    description: Show image. Must be square.
   - name: image_alt
     type: text
     config:
