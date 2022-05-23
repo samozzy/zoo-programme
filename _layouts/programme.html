@@ -40,13 +40,18 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
 						<p>At these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-time">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="collapse" id="filter-time">
+						<div class="card-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearTimeCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -55,28 +60,28 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
 						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-price">
+					<div class="collapse" id="filter-price">
+						<div class="card-body">
 
-						{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
-						{% assign highest_price = highest_priced_show.price.standard %}
-						{% assign price_int = highest_price | divided_by: 5 %}
-						{% assign price_float = highest_price | divided_by: 5.0 %}
-						{% if price_int == price_float %}
-							{% assign highest_five = price_int %}
-						{% else %}
-							{% assign highest_five = price_float | split: '.' | first | plus: 1 | times: 1 %}
-						{% endif %}
-						{% for given_price in (0..highest_five) %}
-							{% assign this_price = given_price | times: 5 %}
-							{% assign next_price = given_price | plus: 1 | times: 5 %}
-							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-{{ given_price }}" autocomplete="off" value="{{ this_price }},{{ next_price }}">
-							<label id="btn-price-{{this_price}}-{{next_price}}" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-{{ given_price }}">£{{ this_price }} - £{{ next_price }}</label>
-						{% endfor %}
-
-						<div class="card-footer">
-							<p class="text-end small text-muted"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
+							{% assign highest_price = highest_priced_show.price.standard %}
+							{% assign price_int = highest_price | divided_by: 5 %}
+							{% assign price_float = highest_price | divided_by: 5.0 %}
+							{% if price_int == price_float %}
+								{% assign highest_five = price_int %}
+							{% else %}
+								{% assign highest_five = price_float | split: '.' | first | plus: 1 | times: 1 %}
+							{% endif %}
+							{% for given_price in (0..highest_five) %}
+								{% assign this_price = given_price | times: 5 %}
+								{% assign next_price = given_price | plus: 1 | times: 5 %}
+								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-{{ given_price }}" autocomplete="off" value="{{ this_price }},{{ next_price }}">
+								<label id="btn-price-{{this_price}}-{{next_price}}" class="btn-filter btn-price" for="filter-price-{{ given_price }}">£{{ this_price }} - £{{ next_price }}</label>
+							{% endfor %}
 						</div>
-
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -85,15 +90,17 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
 						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse open" id="filter-age">
-						<div class="d-flex flex-row">
-							{% for rating in site.data.age-ratings %}
-								<input type="checkbox" class="btn-check" id="age-rating-{{ rating | slugify }}" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-{{ rating | slugify }}">{{ rating }}</label><br>
-							{% endfor %}
+					<div class="collapse" id="filter-age">
+						<div class="card-body">
+							<div class="d-flex flex-row">
+								{% for rating in site.data.age-ratings %}
+									<input type="checkbox" class="btn-check" id="age-rating-{{ rating | slugify }}" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-{{ rating | slugify }}">{{ rating }}</label><br>
+								{% endfor %}
+							</div>
 						</div>
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="helper-text text-end"><a onclick=clearAgeCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -108,28 +115,52 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
 						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-genre">
-						{% for genre in genres %}
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-{{ genre | slugify }}" autocomplete="off" value="{{genre | slugify}}">
-							<label id="btn-genre-{{genre|slugify}}" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-{{ genre | slugify }}">{{ genre }}</label>
-						{% endfor %}
+					<div class="collapse" id="filter-genre">
+						<div class="card-body">
+							{% for genre in genres %}
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-{{ genre | slugify }}" autocomplete="off" value="{{genre | slugify}}">
+								<label id="btn-genre-{{genre|slugify}}" class="btn-filter btn-genre" for="filter-genre-{{ genre | slugify }}">{{ genre }}</label>
+							{% endfor %}
+						</div>
 						<div class="card-footer">
-							<p class="text-end small text-muted"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 			{% endunless %}
+			<div class="col">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
+						<p>With these access provisions <span id="filter-access-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="collapse" id="filter-access">
+						<div class="card-body">
+							<p class="lead">Access</p>
+							<span>Captions; BSL; Relaxed</span>
+							<hr class="w-100">
+							<p class="lead">Content Warnings</p>
+							<span>Strobe; Strong language</span>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearAccessCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col w-100 text-center">
-				<button class="btn bebas text-center btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
+				<button class="close-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
 	</div>
-
 </div>
 
+
+
+{{ content }}
+
 <div class="container"> 
-	<div id="show-list" class="row row-cols-md-2 py-5">
+	<div id="show-list" class="row row-cols-md-2 mb-5">
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
