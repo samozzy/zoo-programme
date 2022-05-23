@@ -2,15 +2,16 @@
 layout: page
 ---
 
-<div class="bg-primary container-fluid">
-	<div class="row px-5 py-5">
-		<div class="col-12 col-lg-10 offset-lg-1 d-flex justify-content-between px-5">
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button"><i class="fa fa-fw fa-star"></i>&nbsp;Find something for you</button>
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" onclick="focusSearch()"><i class="fa fa-search"></i>&nbsp;Search for what you're looking for</button>
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</button>
+<div class="container my-4 p-4 border-2px border-zoo-orange shadow">
+	<div class="row">
+		<div class="col-12">
+			<div class="d-flex justify-content-between">
+				<button class="programme-menu active" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button"><i class="fa fa-fw fa-star"></i>&nbsp;Find something for you</button>
+				<button class="programme-menu" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" id="search-box-button" onclick="focusSearch()"><i class="fa fa-search"></i>&nbsp;Search for what you're looking for</button>
+				<button class="programme-menu"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</button>
+			</div>
 		</div>
 	</div>
-</div>
 
 {{ content }}
 
