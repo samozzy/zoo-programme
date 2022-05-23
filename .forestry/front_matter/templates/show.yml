@@ -1,0 +1,90 @@
+---
+label: Show
+hide_body: true
+fields:
+- type: field_group_list
+  name: Shows
+  label: Shows
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: company
+    label: company
+  - type: text
+    name: venue
+    label: venue
+  - type: text
+    name: start_time
+    label: start_time
+  - type: text
+    name: duration
+    label: duration
+  - type: list
+    name: performances
+    label: performances
+  - type: field_group
+    name: price
+    label: price
+    fields:
+    - type: number
+      name: standard
+      label: standard
+    - type: number
+      name: concession
+      label: concession
+  - type: list
+    name: ticket_deals
+    label: ticket_deals
+  - type: list
+    name: genre
+    label: genre
+  - type: list
+    name: content_warnings
+    label: content_warnings
+  - type: text
+    name: image
+    label: image
+  - type: field_group_list
+    name: video_embeds
+    label: video_embeds
+    fields:
+    - type: text
+      name: title
+      label: title
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: link
+      label: link
+    - type: text
+      name: platform
+      label: platform
+  - type: field_group_list
+    name: reviews
+    label: reviews
+    fields:
+    - type: text
+      name: publisher
+      label: publisher
+    - type: text
+      name: quote
+      label: quote
+    - type: number
+      name: stars
+      label: stars
+  - type: textarea
+    name: copy_short
+    label: copy_short
+  - type: textarea
+    name: copy_long
+    label: copy_long
+  - type: text
+    name: trailer
+    label: trailer
