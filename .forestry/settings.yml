@@ -4,11 +4,20 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/shows.yml
+  label: Shows
+  match: "**/*"
+- type: document
+  path: _data/tags.yml
+  label: Tags
+  match: "**/*"
+- type: document
+  path: _data/age-ratings.yml
+  label: Age Ratings
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
   create: all
 - type: directory
   path: _content
