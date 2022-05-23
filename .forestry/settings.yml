@@ -1,15 +1,12 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
   path: _data/shows.yml
   label: Shows
-- type: document
-  path: _data/tags.yml
-  label: Tags
 - type: document
   path: _data/age-ratings.yml
   label: Age Ratings
