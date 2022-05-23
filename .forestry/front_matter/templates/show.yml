@@ -70,8 +70,9 @@ fields:
     config:
       use_select: true
       source:
-        type: pages
+        type: documents
         section: tags
+        file: _data/tags.yml
   - type: list
     name: content_warnings
     label: Content Warnings
