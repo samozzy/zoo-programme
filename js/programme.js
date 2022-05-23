@@ -1,15 +1,32 @@
 var filterBoxElement = document.getElementById('filter-box')
-filterBoxElement.addEventListener('show.bs.collapse', function () {
+var filterBoxButton = document.getElementById('filter-box-button')
+var searchBoxElement = document.getElementById('search-box')
+var searchBoxButton = document.getElementById('search-box-button')
+filterBoxElement.addEventListener('show.bs.collapse', function (e) {
 	// toggle class 'active' of #filter-box-button 
-	document.getElementById('filter-box-button').classList.add('active');
-	console.log('added');
+	if (e.target.id == 'filter-box'){
+		filterBoxButton.classList.add('active');
+	}
 })
-filterBoxElement.addEventListener('hide.bs.collapse', function () {
-	document.getElementById('filter-box-button').classList.remove('active');
-	console.log('removed');
+filterBoxElement.addEventListener('hide.bs.collapse', function (e) {
+	if (e.target.id == 'filter-box') {
+		filterBoxButton.classList.remove('active');
+		filterBoxButton.blur();
+	}
 })
-// TODO: This needs a narrower scope as it currently activates on *any* show.bs or hide.bs, as though
-// it's not quite listening to only events on filterBoxElement.
+
+searchBoxElement.addEventListener('show.bs.collapse', function (e) {
+	// toggle class 'active' of #search-box-button 
+	if (e.target.id == 'search-box'){
+		searchBoxButton.classList.add('active');
+	}
+})
+searchBoxElement.addEventListener('hide.bs.collapse', function (e) {
+	if (e.target.id == 'search-box') {
+		searchBoxButton.classList.remove('active');
+		searchBoxButton.blur();
+	}
+})
 
 // Set up for filter pickers 
 the_shows = document.getElementsByClassName('programme-show-container');
