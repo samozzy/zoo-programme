@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202205231612">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202205232355">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -40,29 +40,28 @@
 	
 </div>
 
-<div class="bg-primary container-fluid">
-	<div class="row px-5 py-5">
-		<div class="col-12 col-lg-10 offset-lg-1 d-flex justify-content-between px-5">
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button"><i class="fa fa-fw fa-star"></i>&nbsp;Find something for you</button>
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" onclick="focusSearch()"><i class="fa fa-search"></i>&nbsp;Search for what you're looking for</button>
-			<button class="btn-zoo rounded-0 btn-lg bebas fs-4 outline-zoo-white"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</button>
+<div class="container my-4 p-4 border-2px border-zoo-orange shadow">
+	<div class="row">
+		<div class="col-12">
+			<div class="d-flex justify-content-between">
+				<button class="programme-menu active" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button"><i class="fa fa-fw fa-star"></i>&nbsp;Find something for you</button>
+				<button class="programme-menu" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" id="search-box-button" onclick="focusSearch()"><i class="fa fa-search"></i>&nbsp;Search for what you're looking for</button>
+				<button class="programme-menu"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</button>
+			</div>
 		</div>
 	</div>
-</div>
-
-
-
-
-<div class="container-fluid bg-primary text-light" id="control-area"> 
-	<div class="container">
-		<div id="search-box" class="collapse pb-4 row">
-			<div class="px-5 py-4 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon bg-dark text-light" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
-				<p><span class="small text-muted d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
+	<div class="mx-4" id="control-area"> 
+		<div id="search-box" class="collapse mt-5 row">
+			<div class="col-12">
+				<input class="form-control form-control-lg fa-font search-box-icon border-zoo-orange" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<p class="mt-2"><span class="helper-text d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
+			</div>
+			<div class="col w-100 text-center">
+				<button class="close-button" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
+		<div id="filter-box" class="collapse mt-4 row row-cols-md-2 show">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
 				<div class="card-programme">
@@ -79,13 +78,18 @@
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
 						<p>At these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-time">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="collapse" id="filter-time">
+						<div class="card-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearTimeCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -94,39 +98,39 @@
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
 						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-price">
+					<div class="collapse" id="filter-price">
+						<div class="card-body">
 
-						
-						
-						
-						
-						
-						
 							
 							
-							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-0" autocomplete="off" value="0,5">
-							<label id="btn-price-0-5" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-0">£0 - £5</label>
-						
 							
 							
-							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-1" autocomplete="off" value="5,10">
-							<label id="btn-price-5-10" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-1">£5 - £10</label>
-						
 							
 							
-							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-2" autocomplete="off" value="10,15">
-							<label id="btn-price-10-15" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-2">£10 - £15</label>
-						
+								
+								
+								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-0" autocomplete="off" value="0,5">
+								<label id="btn-price-0-5" class="btn-filter btn-price" for="filter-price-0">£0 - £5</label>
 							
+								
+								
+								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-1" autocomplete="off" value="5,10">
+								<label id="btn-price-5-10" class="btn-filter btn-price" for="filter-price-1">£5 - £10</label>
 							
-							<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-3" autocomplete="off" value="15,20">
-							<label id="btn-price-15-20" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-price" for="filter-price-3">£15 - £20</label>
-						
-
-						<div class="card-footer">
-							<p class="text-end small text-muted"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+								
+								
+								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-2" autocomplete="off" value="10,15">
+								<label id="btn-price-10-15" class="btn-filter btn-price" for="filter-price-2">£10 - £15</label>
+							
+								
+								
+								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-3" autocomplete="off" value="15,20">
+								<label id="btn-price-15-20" class="btn-filter btn-price" for="filter-price-3">£15 - £20</label>
+							
 						</div>
-
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -135,30 +139,32 @@
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
 						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse open" id="filter-age">
-						<div class="d-flex flex-row">
-							
-								<input type="checkbox" class="btn-check" id="age-rating-4" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-4">4+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-7" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-7">7+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-11" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-11">11+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-13" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-13">13+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-16" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-16">16+</label><br>
-							
-								<input type="checkbox" class="btn-check" id="age-rating-18" autocomplete="off">
-								<label class="btn btn-outline-info btn-zoo text-light m-1 bebas" for="age-rating-18">18+</label><br>
-							
+					<div class="collapse" id="filter-age">
+						<div class="card-body">
+							<div class="d-flex flex-row">
+								
+									<input type="checkbox" class="btn-check" id="age-rating-4" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-4">4+</label><br>
+								
+									<input type="checkbox" class="btn-check" id="age-rating-7" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-7">7+</label><br>
+								
+									<input type="checkbox" class="btn-check" id="age-rating-11" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-11">11+</label><br>
+								
+									<input type="checkbox" class="btn-check" id="age-rating-13" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-13">13+</label><br>
+								
+									<input type="checkbox" class="btn-check" id="age-rating-16" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-16">16+</label><br>
+								
+									<input type="checkbox" class="btn-check" id="age-rating-18" autocomplete="off">
+									<label class="btn-filter btn-age" for="age-rating-18">18+</label><br>
+								
+							</div>
 						</div>
 						<div class="card-footer">
-							<p class="text-end small text-muted"><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</p>
+							<p class="helper-text text-end"><a onclick=clearAgeCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -173,46 +179,71 @@
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
 						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-genre">
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-audience-participation" autocomplete="off" value="audience-participation">
-							<label id="btn-genre-audience-participation" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-audience-participation">audience participation</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-dance" autocomplete="off" value="dance">
-							<label id="btn-genre-dance" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-dance">dance</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-drama" autocomplete="off" value="drama">
-							<label id="btn-genre-drama" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-drama">drama</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-genre-defying" autocomplete="off" value="genre-defying">
-							<label id="btn-genre-genre-defying" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-genre-defying">genre-defying</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
-							<label id="btn-genre-new-writing" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-new-writing">new writing</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
-							<label id="btn-genre-solo-show" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-solo-show">solo show</label>
-						
-							<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-weird" autocomplete="off" value="weird">
-							<label id="btn-genre-weird" class="btn btn-outline-info btn-zoo text-light m-1 bebas btn-genre" for="filter-genre-weird">weird</label>
-						
+					<div class="collapse" id="filter-genre">
+						<div class="card-body">
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-audience-participation" autocomplete="off" value="audience-participation">
+								<label id="btn-genre-audience-participation" class="btn-filter btn-genre" for="filter-genre-audience-participation">audience participation</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-dance" autocomplete="off" value="dance">
+								<label id="btn-genre-dance" class="btn-filter btn-genre" for="filter-genre-dance">dance</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-drama" autocomplete="off" value="drama">
+								<label id="btn-genre-drama" class="btn-filter btn-genre" for="filter-genre-drama">drama</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-genre-defying" autocomplete="off" value="genre-defying">
+								<label id="btn-genre-genre-defying" class="btn-filter btn-genre" for="filter-genre-genre-defying">genre-defying</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
+								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">new writing</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
+								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">solo show</label>
+							
+								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-weird" autocomplete="off" value="weird">
+								<label id="btn-genre-weird" class="btn-filter btn-genre" for="filter-genre-weird">weird</label>
+							
+						</div>
 						<div class="card-footer">
-							<p class="text-end small text-muted"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearGenreCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 			
+			<div class="col">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
+						<p>With these access provisions <span id="filter-access-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="collapse" id="filter-access">
+						<div class="card-body">
+							<p class="lead">Access</p>
+							<span>Captions; BSL; Relaxed</span>
+							<hr class="w-100">
+							<p class="lead">Content Warnings</p>
+							<span>Strobe; Strong language</span>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearAccessCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col w-100 text-center">
-				<button class="btn bebas text-center btn-zoo-pill outline-zoo-white" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
+				<button class="close-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
 	</div>
-
 </div>
 
+
+
+
+
+
 <div class="container"> 
-	<div id="show-list" class="row row-cols-md-2 py-5">
+	<div id="show-list" class="row row-cols-md-2 mb-5">
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
