@@ -12,19 +12,18 @@ layout: page
 			</div>
 		</div>
 	</div>
-
-{{ content }}
-
-<div class="container-fluid bg-primary text-light" id="control-area"> 
-	<div class="container">
-		<div id="search-box" class="collapse pb-4 row">
-			<div class="px-5 py-4 col-12">
-				<input class="form-control form-control-lg fa-font search-box-icon bg-dark text-light" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
-				<p><span class="small text-muted d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
+	<div class="mx-4" id="control-area"> 
+		<div id="search-box" class="collapse mt-5 row">
+			<div class="col-12">
+				<input class="form-control form-control-lg fa-font search-box-icon border-zoo-orange" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
+				<p class="mt-2"><span class="helper-text d-none" id="search-hint">(Give us a bit more please)</span>&nbsp;</p>
+			</div>
+			<div class="col w-100 text-center">
+				<button class="close-button" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
 
-		<div id="filter-box" class="row row-cols-md-2 collapse pb-4">
+		<div id="filter-box" class="collapse mt-4 row row-cols-md-2 show">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<div class="col">
 				<div class="card-programme">
