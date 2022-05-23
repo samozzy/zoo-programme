@@ -1,3 +1,7 @@
+.programme-menu {
+	@extend .btn-zoo, .rounded-0, .shadow, .btn-lg, .bebas, .fs-4, .btn-outline-info;
+}
+
 .card-programme {
 	@extend .card, .outline-zoo-orange, .mb-4, .rounded-0, .shadow;
 
