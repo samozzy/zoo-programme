@@ -8,35 +8,62 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
+    description: The show title
   - type: text
     name: company
-    label: company
-  - type: text
-    name: venue
-    label: venue
+    label: Company
+    description: The company bringing the show (may be just the writer or lead artist
+      in some cases)
+  - name: venue
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Zoo Southside
+      - Zoo Playground
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Venue
+    description: 'Which Zoo building is the show in? '
   - type: text
     name: start_time
-    label: start_time
+    label: Start Time
+    description: When does the performance start? <br>(Assumes all performances will
+      start at the same time)
   - type: text
     name: duration
-    label: duration
+    label: Duration
+    description: How long is the performance?<br>Use mins <em>or</em> hours, eg. 45mins;
+      1hr45
   - type: list
     name: performances
-    label: performances
+    label: Performance Dates
+    config:
+      use_select: false
+    description: List all performance dates for the show
   - type: field_group
     name: price
-    label: price
+    label: Pricing
     fields:
     - type: number
       name: standard
-      label: standard
+      label: Standard
+      description: Just the number, no currency please.
     - type: number
       name: concession
-      label: concession
+      label: Concession
+      description: "(Optional) Just the number, no currency please."
   - type: list
     name: ticket_deals
-    label: ticket_deals
+    label: Ticket Deals
+    description: Any ticket deals this show has, eg BOGOF, half price hut, etc.
+    config:
+      use_select: false
   - type: list
     name: genre
     label: genre
@@ -45,34 +72,56 @@ fields:
     label: content_warnings
   - type: text
     name: image
-    label: image
+    label: Image
+    description: Show image. Must be square. Will feature basically everywhere.
+  - name: image_alt
+    type: text
+    config:
+      required: false
+    label: Image alt text
+    description: Textual description of the show image
   - type: field_group_list
     name: video_embeds
-    label: video_embeds
+    label: Video Embed
     fields:
     - type: text
       name: title
-      label: title
+      label: Title
+      description: 'The title of this video. Eg: "Trailer".'
+    - name: embed_code
+      type: text
+      config:
+        required: false
+      label: Embed Code
+      description: The video embed code from Vimeo
+    description: An embedded video for the show, typically a trailer.
+    config:
+      labelField: title
   - type: field_group_list
     name: links
-    label: links
+    label: Links
     fields:
     - type: text
       name: title
-      label: title
+      label: Title
+      description: What the link should say<br>(If it's a social media link, the icon
+        will take precedence)
     - type: text
       name: link
-      label: link
+      label: Link
     - type: text
       name: platform
-      label: platform
+      label: Platform
+      description: If it's Twitter, Facebook, Instagram, YouTube, or TikTok, an icon
+        will appear instead of the name
   - type: field_group_list
     name: reviews
-    label: reviews
+    label: Reviews
     fields:
     - type: text
-      name: publisher
+      name: Publisher
       label: publisher
+      description: 'This could be the publication or the author '
     - type: text
       name: quote
       label: quote
@@ -81,10 +130,9 @@ fields:
       label: stars
   - type: textarea
     name: copy_short
-    label: copy_short
+    label: Copy (Short)
+    config:
+      max: 
   - type: textarea
     name: copy_long
-    label: copy_long
-  - type: text
-    name: trailer
-    label: trailer
+    label: Copy (Long)
