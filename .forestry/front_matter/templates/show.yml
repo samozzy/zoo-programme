@@ -68,10 +68,10 @@ fields:
     name: genre
     label: Tags
     config:
-      use_select: true
+      use_select: false
       source:
         type: documents
-        section: tags
+        section: ''
         file: _data/tags.yml
   - type: list
     name: content_warnings
