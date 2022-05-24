@@ -1,0 +1,9 @@
+{% assign access_item = include.access_item %}
+
+{% assign matching_item = site.data.icons | where: "title", access_item | first %}
+
+{% if matching_item and matching_item != empty %}
+	<i class="{{ matching_item.icon }} {% if include.large %}fa-lg{% endif %}" data-bs-toggle="tooltip" title="{{ matching_item.long_title | default: matching_item.title }}"></i>
+{% else %}
+	{{ access_item | capitalize }} 
+{% endif %}

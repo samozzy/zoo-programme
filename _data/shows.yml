@@ -23,6 +23,10 @@
   content_warnings:
   - strobe lighting
   - strong language
+  access:
+  - bsl 
+  - captions 
+  access_details: "Performances on the 1st, 3rd, and 5th will be BSL interpreted"
   image: https://placekitten.com/400/400?image=3
   video_embeds:
   - title: Trailer

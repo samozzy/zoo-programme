@@ -13,3 +13,10 @@
 # Content Warnings 
 - title: Strobe Lighting 
   icon: fa fa-lightning 
+
+# Access 
+- title: bsl 
+  long_title: BSL Interpreted 
+  icon: fa fa-sign-language 
+- title: captions 
+  icon: far fa-closed-captioning
