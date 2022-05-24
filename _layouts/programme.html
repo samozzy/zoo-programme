@@ -8,11 +8,12 @@ layout: page
 			<div class="d-flex justify-content-between">
 				<button class="programme-menu active" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button"><i class="fa fa-fw fa-star"></i>&nbsp;Find something for you</button>
 				<button class="programme-menu" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" id="search-box-button" onclick="focusSearch()"><i class="fa fa-search"></i>&nbsp;Search for what you're looking for</button>
-				<button class="programme-menu"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</button>
+				<a role="button" data-bs-toggle="tooltip" title="Clear all filters and search queries" class="programme-menu" href="#show-list"><i class="fa fa-fw fa-book"></i>&nbsp;Browse the full programme</a>
 			</div>
 		</div>
 	</div>
 	<div class="mx-4" id="control-area"> 
+		<!-- Search Box -->
 		<div id="search-box" class="collapse mt-5 row" data-bs-parent="#control-area">
 			<div class="col-12">
 				<input class="form-control form-control-lg fa-font search-box-icon border-zoo-orange" type="text" placeholder="&#xF002; Search" aria-label="Search for a show" id="search-input">
@@ -22,9 +23,10 @@ layout: page
 				<button class="close-button" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box">Close this <i class="fa fa-chevron-up fa-fw"></i></button>
 			</div>
 		</div>
-
+		<!-- Filter Menu Box -->
 		<div id="filter-box" class="collapse mt-4 row row-cols-md-2 show" data-bs-parent="#control-area">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
+			<!-- Dates -->
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
@@ -35,6 +37,7 @@ layout: page
 					</div>
 				</div>
 			</div>
+			<!-- Times -->
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
@@ -55,6 +58,7 @@ layout: page
 					</div>
 				</div>
 			</div>
+			<!-- Prices -->
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
@@ -85,6 +89,7 @@ layout: page
 					</div>
 				</div>
 			</div>
+			<!-- Age Ratings -->
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
@@ -105,6 +110,7 @@ layout: page
 					</div>
 				</div>
 			</div>
+			<!-- Genres -->
 			{% assign genres_data = site.data.shows | map: "genre" | uniq  %}
 			{% assign genres = '' | split: ''  %}
 			{% for g in genres_data %}{% if g != nil %}{% assign genres = genres | push: g %}{% endif %}{% endfor %}
