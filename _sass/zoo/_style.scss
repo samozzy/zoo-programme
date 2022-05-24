@@ -215,7 +215,8 @@ a.card-event-hover  {
 		@extend .mb-3;
 
 		p:first-of-type {
-			@extend .fs-5, .fw-bold;
+			@extend .fs-5;
+			font-weight: 500;
 		}
 	}
 }
