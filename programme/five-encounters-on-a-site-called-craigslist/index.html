@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202205240009">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202205242347">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -71,6 +71,30 @@
 							<div class="col mb-4 mb-md-0">
 								<i class="fa fa-fw text-zoo-orange fa-map fs-2"></i><br>
 								Zoo Southside
+							</div>
+						
+						
+							<div class="col mb-4 mb-md-0">
+								<i class="fa fa-fw text-zoo-orange fa-universal-access fs-2"></i><br>
+								<div class="text-zoo-slate d-flex flex-row justify-content-evenly pt-1">
+									
+										
+
+
+
+
+	<i class="fa fa-sign-language fa-lg" data-bs-toggle="tooltip" title="BSL Interpreted"></i>
+
+									
+										
+
+
+
+
+	<i class="far fa-closed-captioning fa-lg" data-bs-toggle="tooltip" title="captions"></i>
+
+									
+								</div>
 							</div>
 						
 					</div>
@@ -582,6 +606,11 @@
 	</table>
 </div>
 	</div>
+	
+		<div class="row my-2">
+			<p><i class="fa fa-fw fa-lg fa-universal-access text-zoo-orange"></i>&nbsp;<strong>Access information:</strong> Performances on the 1st, 3rd, and 5th will be BSL interpreted</p>
+		</div>
+	
 	<div class="d-flex justify-content-around flex-row mx-n1">
 		<a class="btn-zoo-book btn-info w-50 m-1 btn-lg" role="button">Book Tickets</a>
 		<a class="btn-zoo-book btn-outline-info w-50 m-1 btn-lg" role="button" href="#show-details">Keep reading</a>
@@ -1438,6 +1467,11 @@ From 29 Jul to 31 Aug 2022</p>
 
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
 
         
 

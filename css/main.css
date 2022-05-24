@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 .border-2px, .card-show-slider, .btn-zoo-book, .btn-zoo, .header-category-button, .card-programme .btn-filter, .programme-menu, .btn-zoo-pill, .close-button {
   border-width: 2px !important;
 }
@@ -597,6 +597,10 @@ a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card
 
 .show-details hr {
   height: 2px !important;
+}
+
+.show-details .show-blurb p:first-of-type {
+  font-weight: 500;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -8658,7 +8662,7 @@ textarea.form-control-lg {
   font-weight: 400 !important;
 }
 
-.fw-bold, table.date-list td.show-date, .show-details .show-blurb p:first-of-type {
+.fw-bold, table.date-list td.show-date {
   font-weight: 700 !important;
 }
 
