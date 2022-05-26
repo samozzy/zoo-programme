@@ -12,6 +12,11 @@
 		.fa {
 			@extend .text-zoo-orange, .my-auto;
 		}
+		&[aria-expanded="true"] {
+			.fa {
+				transform: rotate(180deg);
+			}
+		}
 	}
 	.btn-filter {
 		@extend .btn, .btn-outline-info, .btn-zoo, .m-1, .bebas;

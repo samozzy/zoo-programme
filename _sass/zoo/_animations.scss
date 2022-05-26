@@ -5,6 +5,10 @@ a.icon-animation {
     padding-left: 0.1rem;
   }
 }
+.card-header .fa {
+  transition: transform; 
+  transition-duration: 100ms;
+}
 a.related-event {
   transition: opacity;
   transition-duration: 150ms;
