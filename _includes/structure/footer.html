@@ -56,17 +56,18 @@
                         "https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.6/dist/index.css"
                     ],
                     zIndex: 10,
+                    datePicked: [new Date({{ site.dates.start | date: "%Y-%m-%d" }}),new Date({{ site.dates.end | date: "%Y-%m-%d" }})],
                     calendars: 2,
                     darkMode: true,
                     readonly: false,
                     inline: true,
-                    date: {{ site.dates.start | date: "%Y-%m-%d" }},
+                    date: new Date("{{ site.dates.start | date: "%Y-%m-%d" }}T00:00:00.000Z"),
                     LockPlugin: {
-                        minDate: "{{ site.dates.start | date: "%Y-%m-%d" }}T00:00:00.000Z",
-                        maxDate: "{{ site.dates.end | date: "%Y-%m-%d" }}T00:00:00.000Z"
+                        minDate: new Date("{{ site.dates.start | date: "%Y-%m-%d" }}T00:00:00.000Z"),
+                        maxDate: new Date("{{ site.dates.end | date: "%Y-%m-%d" }}T00:00:00.000Z"),
                     },
                     RangePlugin: {
-                        startDate: "{{ site.dates.start | date: "%Y-%m-%d" }}T00:00:00.000Z",
+                        startDate: new Date("{{ site.dates.start | date: "%Y-%m-%d" }}T00:00:00.000Z"),
                     },
                     AmpPlugin: {
                         darkMode: true,
@@ -76,7 +77,6 @@
                         "AmpPlugin",
                         "RangePlugin",
                         "LockPlugin",
-                        // "PresetPlugin"
                     ]
                 })
             </script>
