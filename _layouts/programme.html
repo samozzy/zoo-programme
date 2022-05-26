@@ -32,8 +32,13 @@ layout: page
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
 						<p>On these dates <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="card-body collapse" id="filter-date">
-						<input id="datepicker" class="d-none" />
+					<div class="collapse" id="filter-date">
+						<div class="card-body">
+							<input id="datepicker" class="d-none"/>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=picker.clear()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
