@@ -394,6 +394,11 @@ a.icon-animation .fa {
   padding-left: 0.1rem;
 }
 
+.card-header .fa {
+  transition: transform;
+  transition-duration: 100ms;
+}
+
 a.related-event {
   transition: opacity;
   transition-duration: 150ms;
@@ -437,6 +442,10 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   .display-1 {
     font-size: 6rem;
   }
+}
+
+.card-programme .card-header[aria-expanded="true"] .fa {
+  transform: rotate(180deg);
 }
 
 .swiper-button-next, .swiper-button-prev {
