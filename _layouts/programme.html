@@ -46,16 +46,23 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
-						<p>At these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>From these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-time">
 						<div class="card-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							 {% assign earliest_secs = site.earliest_time | date: "%s" %}
+							 {% assign latest_secs = site.latest_time | date: "%s" %}
+
+							 {% assign hours_different = latest_secs | minus: earliest_secs | date: "%H" | minus: 1 %}
+							 {% for i in (0..hours_different) %}
+							 	{% assign diff = i | times: 3600 %}
+							 	{% assign this_time = earliest_secs | plus: diff | date: "%H:%M" %}
+
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-{{ this_time }}" autocomplete="off" value="{{ this_time }}">
+								<label id="btn-price-{{this_time}}" class="btn-filter btn-price" for="filter-price-{{ this_time }}">{{ this_time }}</label>
+							 {% endfor %}
+
+
 						</div>
 						<div class="card-footer">
 							<p class="helper-text text-end"><a onclick=clearTimeCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>

@@ -12,6 +12,9 @@ dates:
   start: 2022-07-29
   end: 2022-08-31
 
+earliest_time: 2022-08-01 09:00 
+latest_time: 2022-08-01 23:00 
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
