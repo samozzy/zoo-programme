@@ -1,0 +1,14 @@
+---
+---
+
+@import "zoo/colours"; 
+
+:host {
+  // --color-bg-default: #3f51b5;
+  --color-fg-primary: #{map-get($zoo-brand, "orange")}; // Zoo orange 
+  // --color-fg-default: #fff; 
+  --color-fg-accent: #{map-get($zoo-brand, "orange")}; // Zoo orange 
+  --color-bg-inrange: #ddd;	// Zoo slate? 
+  // --day-width: 35px;
+  // --day-height: 30px;
+}

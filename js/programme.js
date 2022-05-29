@@ -79,8 +79,79 @@ search_box.addEventListener('input', (event) => {
 
 });
 
+//
+// Date Picker //
+//
+var date_picker = document.getElementById('datepicker');
+var filter_date_counter = document.getElementById('filter-date-counter');
+function clearDatePick() {
+	// Reset the datepicker
+	picker.clear(); 
+	// Show all the shows filtered by price (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-date');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_date_counter.innerHTML = '';
+}
 
-// Price Filter 
+picker.on('select',e => {
+	console.log(date_picker.value);
+	picked_value = date_picker.value 
+	// Bonus: Recolour the picker to be in zoo-orange 
+
+  if (picked_value == 0) {
+		for (i=0; i< the_shows.length; i++ ) {
+			if (the_shows[i].classList.contains('filtered-out-by-date')) {
+				the_shows[i].classList.remove('filtered-out-by-date');
+			}
+		}
+		filter_date_counter.innerHTML = '';
+		no_results_text.classList.add('d-none')
+  }
+  else {
+  	// Assuming something is ticked, filter the shows appropriately. 
+  	// Have to account for the picker. dates being at midnight with a timezone offset 
+  	const tz_offset = picker.getStartDate().getTimezoneOffset() * 60 * 1000 
+		picked_start_date = new Date(picker.getStartDate() - tz_offset).toISOString().split('T')[0]
+		picked_end_date = new Date(picker.getEndDate() - tz_offset).toISOString().split('T')[0]
+
+		// Get full list of dates in YYYY-MM-DD format 
+		// Reuse the picker.getStartDate here to get a date object rather than a string
+		days_to_count = (picker.getEndDate() - picker.getStartDate())/(86400000)+1;
+		all_days = [] 
+		for (let i=0; i < days_to_count; i++) {
+			next_day = picker.getStartDate()
+			next_day.setDate(next_day.getDate() + i)
+			next_day = new Date(next_day - tz_offset).toISOString().split('T')[0]
+			all_days.push(next_day)
+		}
+
+  	// Hide all of them 
+  	for (const show of the_shows) {
+  		show.classList.add('filtered-out-by-date');
+
+  		if (show.dataset.date_end >= picked_start_date && show.dataset.date_start <= picked_end_date){
+  			// If the show has performances within the date range, 
+  			// Verify if there is an actual performance within the date range
+  			for (const day of all_days){
+  				if (show.dataset.performances.includes(day)){
+		  			show.classList.remove('filtered-out-by-date');
+  				}
+  			}
+  		}
+  	}
+  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-date').length
+  	filter_date_counter.innerHTML = '(' + number_remaining + ')';
+  }
+
+})
+
+//
+// Price Filter //
+//
 var price_checkboxes = document.querySelectorAll('input[name="filter-price-item"]');
 let picked_prices = [] 
 var filter_price_counter = document.getElementById('filter-price-counter');
