@@ -163,26 +163,26 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
-						<p>With these access provisions <span id="filter-access-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>With these access provisions <span id="filter-access-content-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-access">
 						<div class="card-body">
 							<p class="lead">Access</p>
 							{% for access_item in access %}
 								{% assign matching_icon = site.data.icons | where: "title", access_item | first %}
-								<input type="checkbox" name="filter-access_item-item" class="btn-check" id="filter-access_item-{{ access_item | slugify }}" autocomplete="off" value="{{access_item | slugify}}">
-								<label id="btn-access_item-{{access_item|slugify}}" class="btn-filter btn-access_item" for="filter-access_item-{{ access_item | slugify }}">{% if matching_icon %}<i class="{{ matching_icon.icon }}"></i>&nbsp;{% endif %}{{ access_item }}</label>
+								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-{{ access_item | slugify }}" autocomplete="off" value="{{access_item | slugify}}">
+								<label id="btn-access-{{access_item|slugify}}" class="btn-filter btn-access" for="filter-access-{{ access_item | slugify }}">{% if matching_icon %}<i class="{{ matching_icon.icon }}"></i>&nbsp;{% endif %}{{ access_item }}</label>
 							{% endfor %}
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							{% for cw in content_warnings %}
-								<input type="checkbox" name="filter-cw-item" class="btn-check" id="filter-cw-{{ cw | slugify }}" autocomplete="off" value="{{cw | slugify}}" checked>
-								<label id="btn-cw-{{cw|slugify}}" class="btn-filter btn-cw" for="filter-cw-{{ cw | slugify }}">{{ cw }}</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-{{ cw | slugify }}" autocomplete="off" value="{{cw | slugify}}" checked>
+								<label id="btn-content-warning-{{cw|slugify}}" class="btn-filter btn-cw" for="filter-content-warning-{{ cw | slugify }}">{{ cw }}</label>
 							{% endfor %}
 							<p class="helper-text text-muted ms-2 mt-1"><em><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</em></p>
 						</div>
 						<div class="card-footer">
-							<p class="helper-text text-end"><a onclick=clearAccessCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearAccessContentCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Reset</a></p>
 						</div>
 					</div>
 				</div>
