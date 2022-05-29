@@ -211,9 +211,14 @@ layout: page
 				data-search="{{ show.title | downcase | remove: ' ' }} {{ show.company | downcase | remove: ' ' }}" 
 				data-date_start="{{ first_performance | date: '%Y-%m-%d' }}" 
 				data-date_end="{{ last_performance | date: '%Y-%m-%d' }}" 
+				data-time="{{ show.start_time | split: ':' | first }}"
 				data-performances='{{ show.performances | join: "," }}'
 				data-price={{ show.price.concession | default: show.price.standard }} 
-				data-genre="{{ show.genre | join:',' | slugify }}" id="{{ show.title | slugify }}">
+				data-genre="{{ show.genre | join:',' | slugify }}"
+				data-access="{{ show.access | join: ',' | default: '' }}"
+				data-content_warnings="{% if show.content_warnings and show.content_warnings != empty %}{{ show.content_warnings | join: ',' | slugify }}{% endif %}"
+				id="{{ show.title | slugify }}"
+				>
 				{% include components/show-card-small.html show=show %}
 			</div>
 		{% endfor %}
