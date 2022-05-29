@@ -150,6 +150,92 @@ picker.on('select',e => {
 })
 
 //
+// Time Filter //
+//
+var time_checkboxes = document.querySelectorAll('input[name="filter-time-item"]');
+let picked_times = [] 
+var filter_time_counter = document.getElementById('filter-time-counter');
+var time_buttons = document.getElementsByClassName('btn-time');
+
+function clearTimeCheckboxes() {
+	// Reset the checkboxes
+	for (const cbox in time_checkboxes) {
+		time_checkboxes[cbox].checked = false; 
+	}
+	// Show all the shows filtered by time (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-time');
+	}
+	// Deactivate the buttons 
+	for (b=0; b< time_buttons.length; b++){
+		time_buttons[b].classList.remove('active');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_time_counter.innerHTML = '';
+}
+
+time_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_times = 
+      Array.from(time_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_times.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-time')) {
+					the_shows[i].classList.remove('filtered-out-by-time');
+				}
+			}
+			filter_time_counter.innerHTML = '';
+			no_results_text.classList.add('d-none')
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-time');
+    	}
+    	// Iterate over the picked times and display shows that match
+    	for (p=0; p < picked_times.length; p++) {
+    		// STEP 1: Apply the filter to the show classes
+    		console.log(picked_times);
+    		for (s=0; s < the_shows.length; s++) {
+    			if (the_shows[s].dataset.time.includes(picked_times[p])) {
+						// If the ticket price is in range, display the show 
+						if (the_shows[s].classList.contains('filtered-out-by-time')) the_shows[s].classList.remove('filtered-out-by-time');
+					}
+				}
+    	}
+	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-time').length
+	  	filter_time_counter.innerHTML = '(' + number_remaining + ')';
+    }
+
+	  // No results label
+    if (document.getElementsByClassName('filtered-out-by-time').length == the_shows.length) {
+    	// Everything filtered out 
+	    no_results_text.classList.remove('d-none');
+    }
+    else {
+    	no_results_text.classList.add('d-none');
+    }
+
+    // Make the button .active status follow the checkbox checked status explicitly 
+    var this_button = document.getElementById(this.id)
+    if (this_button.checked) {
+    	this.labels[0].classList.add('active');
+    }
+    else {
+    	this.labels[0].classList.remove('active');
+    }
+  })
+});
+
+//
 // Price Filter //
 //
 var price_checkboxes = document.querySelectorAll('input[name="filter-price-item"]');
