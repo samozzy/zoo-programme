@@ -173,13 +173,14 @@ layout: page
 								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-{{ access_item | slugify }}" autocomplete="off" value="{{access_item | slugify}}">
 								<label id="btn-access-{{access_item|slugify}}" class="btn-filter btn-access" for="filter-access-{{ access_item | slugify }}">{% if matching_icon %}<i class="{{ matching_icon.icon }}"></i>&nbsp;{% endif %}{{ access_item }}</label>
 							{% endfor %}
+							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are fully wheelchair accessible.</p>
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							{% for cw in content_warnings %}
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-{{ cw | slugify }}" autocomplete="off" value="{{cw | slugify}}" checked>
 								<label id="btn-content-warning-{{cw|slugify}}" class="btn-filter btn-cw" for="filter-content-warning-{{ cw | slugify }}">{{ cw }}</label>
 							{% endfor %}
-							<p class="helper-text text-muted ms-2 mt-1"><em><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</em></p>
+							<p class="helper-text text-muted ms-1 mt-1"><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</p>
 						</div>
 						<div class="card-footer">
 							<p class="helper-text text-end"><a onclick=clearAccessContentCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Reset</a></p>
