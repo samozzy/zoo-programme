@@ -15,4 +15,6 @@
 	{% assign last_performance = first_performance %}
 {% endif %}
 
+{% unless include.no_output %}
 {% if first_performance != last_performance %}From {{ first_performance | date: "%e" }} {{ first_month_text | append: ' ' }}to {{ last_performance | date_to_string }}{% else %}{{ first_performance | date_to_string }}{% endif %}
+{% endunless %}
