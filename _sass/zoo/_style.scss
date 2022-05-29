@@ -116,6 +116,9 @@ table.date-list {
 		width: 80%;
 	}
 }
+.card-header[data-bs-toggle="collapse"]{
+	@extend .clickme;
+}
 .card-body {
 	position: relative; // Override .ratio 
 }

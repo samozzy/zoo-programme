@@ -24,6 +24,9 @@
 }
 .helper-text {
 	@extend .small, .text-zoo-orange, .mb-1;
+	a {
+		@extend .clickme, .text-decoration-none;
+	}
 }
 .close-button {
 	@extend .btn, .bebas, .text-center, .btn-zoo-pill, .btn-outline-info, .btn-lg;
