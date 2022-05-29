@@ -444,6 +444,10 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   }
 }
 
+.clickme, .card-header[data-bs-toggle="collapse"], .helper-text a {
+  cursor: pointer !important;
+}
+
 .card-programme .card-header[aria-expanded="true"] .fa {
   transform: rotate(180deg);
 }
@@ -7627,7 +7631,10 @@ textarea.form-control-lg {
   display: inline-flex !important;
 }
 
-.d-none, .filtered-out, .filtered-out-by-search, .filtered-out-by-price, .filtered-out-by-genre, .filtered-out-by-date, .filtered-out-by-time, .filtered-out-by-age {
+.d-none, .filtered-out, .filtered-out-by-search, .filtered-out-by-price,
+.filtered-out-by-genre, .filtered-out-by-date,
+.filtered-out-by-time, .filtered-out-by-age,
+.filtered-out-by-access, .filtered-out-by-content-warning {
   display: none !important;
 }
 
@@ -8707,7 +8714,7 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
-.text-decoration-none {
+.text-decoration-none, .helper-text a {
   text-decoration: none !important;
 }
 

@@ -79,8 +79,165 @@ search_box.addEventListener('input', (event) => {
 
 });
 
+//
+// Date Picker //
+//
+var date_picker = document.getElementById('datepicker');
+var filter_date_counter = document.getElementById('filter-date-counter');
+function clearDatePick() {
+	// Reset the datepicker
+	picker.clear(); 
+	// Show all the shows filtered by price (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-date');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_date_counter.innerHTML = '';
+}
 
-// Price Filter 
+picker.on('select',e => {
+	console.log(date_picker.value);
+	picked_value = date_picker.value 
+	// Bonus: Recolour the picker to be in zoo-orange 
+
+  if (picked_value == 0) {
+		for (i=0; i< the_shows.length; i++ ) {
+			if (the_shows[i].classList.contains('filtered-out-by-date')) {
+				the_shows[i].classList.remove('filtered-out-by-date');
+			}
+		}
+		filter_date_counter.innerHTML = '';
+		no_results_text.classList.add('d-none')
+  }
+  else {
+  	// Assuming something is ticked, filter the shows appropriately. 
+  	// Have to account for the picker. dates being at midnight with a timezone offset 
+  	const tz_offset = picker.getStartDate().getTimezoneOffset() * 60 * 1000 
+		picked_start_date = new Date(picker.getStartDate() - tz_offset).toISOString().split('T')[0]
+		picked_end_date = new Date(picker.getEndDate() - tz_offset).toISOString().split('T')[0]
+
+		// Get full list of dates in YYYY-MM-DD format 
+		// Reuse the picker.getStartDate here to get a date object rather than a string
+		days_to_count = (picker.getEndDate() - picker.getStartDate())/(86400000)+1;
+		all_days = [] 
+		for (let i=0; i < days_to_count; i++) {
+			next_day = picker.getStartDate()
+			next_day.setDate(next_day.getDate() + i)
+			next_day = new Date(next_day - tz_offset).toISOString().split('T')[0]
+			all_days.push(next_day)
+		}
+
+  	// Hide all of them 
+  	for (const show of the_shows) {
+  		show.classList.add('filtered-out-by-date');
+
+  		if (show.dataset.date_end >= picked_start_date && show.dataset.date_start <= picked_end_date){
+  			// If the show has performances within the date range, 
+  			// Verify if there is an actual performance within the date range
+  			for (const day of all_days){
+  				if (show.dataset.performances.includes(day)){
+		  			show.classList.remove('filtered-out-by-date');
+  				}
+  			}
+  		}
+  	}
+  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-date').length
+  	filter_date_counter.innerHTML = '(' + number_remaining + ')';
+  }
+
+})
+
+//
+// Time Filter //
+//
+var time_checkboxes = document.querySelectorAll('input[name="filter-time-item"]');
+let picked_times = [] 
+var filter_time_counter = document.getElementById('filter-time-counter');
+var time_buttons = document.getElementsByClassName('btn-time');
+
+function clearTimeCheckboxes() {
+	// Reset the checkboxes
+	for (const cbox in time_checkboxes) {
+		time_checkboxes[cbox].checked = false; 
+	}
+	// Show all the shows filtered by time (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-time');
+	}
+	// Deactivate the buttons 
+	for (b=0; b< time_buttons.length; b++){
+		time_buttons[b].classList.remove('active');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_time_counter.innerHTML = '';
+}
+
+time_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_times = 
+      Array.from(time_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_times.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-time')) {
+					the_shows[i].classList.remove('filtered-out-by-time');
+				}
+			}
+			filter_time_counter.innerHTML = '';
+			no_results_text.classList.add('d-none')
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-time');
+    	}
+    	// Iterate over the picked times and display shows that match
+    	for (p=0; p < picked_times.length; p++) {
+    		// STEP 1: Apply the filter to the show classes
+    		console.log(picked_times);
+    		for (s=0; s < the_shows.length; s++) {
+    			if (the_shows[s].dataset.time.includes(picked_times[p])) {
+						// If the ticket price is in range, display the show 
+						if (the_shows[s].classList.contains('filtered-out-by-time')) the_shows[s].classList.remove('filtered-out-by-time');
+					}
+				}
+    	}
+	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-time').length
+	  	filter_time_counter.innerHTML = '(' + number_remaining + ')';
+    }
+
+	  // No results label
+    if (document.getElementsByClassName('filtered-out-by-time').length == the_shows.length) {
+    	// Everything filtered out 
+	    no_results_text.classList.remove('d-none');
+    }
+    else {
+    	no_results_text.classList.add('d-none');
+    }
+
+    // Make the button .active status follow the checkbox checked status explicitly 
+    var this_button = document.getElementById(this.id)
+    if (this_button.checked) {
+    	this.labels[0].classList.add('active');
+    }
+    else {
+    	this.labels[0].classList.remove('active');
+    }
+  })
+});
+
+//
+// Price Filter //
+//
 var price_checkboxes = document.querySelectorAll('input[name="filter-price-item"]');
 let picked_prices = [] 
 var filter_price_counter = document.getElementById('filter-price-counter');
@@ -248,3 +405,177 @@ genre_checkboxes.forEach(function(checkbox) {
   })
 });
 
+//
+// Content Warning Filter //
+//
+var content_warning_checkboxes = document.querySelectorAll('input[name="filter-content-warning-item"]');
+let picked_content_warnings = content_warning_checkboxes 
+var filter_content_warning_counter = document.getElementById('filter-access-content-counter');
+var content_warning_buttons = document.getElementsByClassName('btn-content_warning');
+
+function clearContentWarningCheckboxes() {
+	// Reset the checkboxes (ALL ticked!)
+	for (const cbox in content_warning_checkboxes) {
+		content_warning_checkboxes[cbox].checked = true; 
+	}
+	// Show all the shows filtered by content_warning (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-content-warning');
+	}
+	// Activate all the buttons
+	for (b=0; b< content_warning_buttons.length; b++){
+		content_warning_buttons[b].classList.add('active');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_content_warning_counter.innerHTML = '';
+}
+
+content_warning_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_content_warnings = 
+      Array.from(content_warning_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked == false) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_content_warnings.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-content-warning')) {
+					the_shows[i].classList.remove('filtered-out-by-content-warning');
+				}
+			}
+			filter_content_warning_counter.innerHTML = '';
+			no_results_text.classList.add('d-none')
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+    	console.log(picked_content_warnings);
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-content-warning');
+    		let has_warning = 0;
+    		for (const cw of picked_content_warnings) {
+    			if (show.dataset.content_warnings.includes(cw)){
+    				has_warning++;
+    			}
+    		}
+    		if (has_warning == 0){
+    			show.classList.remove('filtered-out-by-content-warning');
+    		}
+    	}
+	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-content-warning').length
+	  	filter_content_warning_counter.innerHTML = '(' + number_remaining + ')';
+    }
+
+	  // No results label
+    if (document.getElementsByClassName('filtered-out-by-content-warning').length == the_shows.length) {
+    	// Everything filtered out 
+	    no_results_text.classList.remove('d-none');
+    }
+    else {
+    	no_results_text.classList.add('d-none');
+    }
+
+    // Make the button .active status follow the checkbox checked status explicitly 
+    var this_button = document.getElementById(this.id)
+    if (this_button.checked) {
+    	this.labels[0].classList.add('active');
+    }
+    else {
+    	this.labels[0].classList.remove('active');
+    }
+  })
+});
+
+//
+// Access Filter //
+//
+var access_checkboxes = document.querySelectorAll('input[name="filter-access-item"]');
+let picked_accesss = [] 
+var filter_access_counter = document.getElementById('filter-access-content-counter');
+var access_buttons = document.getElementsByClassName('btn-access');
+
+function clearAccessCheckboxes() {
+	// Reset the checkboxes
+	for (const cbox in access_checkboxes) {
+		access_checkboxes[cbox].checked = false; 
+	}
+	// Show all the shows filtered by access (only)
+	for (i=0; i< the_shows.length; i++ ){
+		the_shows[i].classList.remove('filtered-out-by-access');
+	}
+	// Deactivate the buttons 
+	for (b=0; b< access_buttons.length; b++){
+		access_buttons[b].classList.remove('active');
+	}
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_access_counter.innerHTML = '';
+}
+
+access_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_access = 
+      Array.from(access_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_access.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-access')) {
+					the_shows[i].classList.remove('filtered-out-by-access');
+				}
+			}
+			filter_access_counter.innerHTML = '';
+			no_results_text.classList.add('d-none')
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-access');
+    	}
+    	// Iterate over the picked accesss and display shows that match
+    	for (p=0; p < picked_access.length; p++) {
+    		// STEP 1: Apply the filter to the show classes
+    		console.log(picked_access);
+    		for (s=0; s < the_shows.length; s++) {
+    			if (the_shows[s].dataset.access.includes(picked_access[p])) {
+						// If the ticket price is in range, display the show 
+						if (the_shows[s].classList.contains('filtered-out-by-access')) the_shows[s].classList.remove('filtered-out-by-access');
+					}
+				}
+    	}
+	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-access').length
+	  	filter_access_counter.innerHTML = '(' + number_remaining + ')';
+    }
+
+	  // No results label
+    if (document.getElementsByClassName('filtered-out-by-access').length == the_shows.length) {
+    	// Everything filtered out 
+	    no_results_text.classList.remove('d-none');
+    }
+    else {
+    	no_results_text.classList.add('d-none');
+    }
+
+    // Make the button .active status follow the checkbox checked status explicitly 
+    var this_button = document.getElementById(this.id)
+    if (this_button.checked) {
+    	this.labels[0].classList.add('active');
+    }
+    else {
+    	this.labels[0].classList.remove('active');
+    }
+  })
+});
+
+function clearAccessContentCheckboxes(){
+	clearContentWarningCheckboxes();
+	clearAccessCheckboxes();
+}

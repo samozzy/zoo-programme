@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202205261606">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202205292023">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -68,14 +68,14 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
-						<p>On these dates <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>On these dates <span id="filter-date-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-date">
-						<div class="card-body">
+						<div class="card-body d-flex justify-content-around">
 							<input id="datepicker" class="d-none"/>
 						</div>
 						<div class="card-footer">
-							<p class="helper-text text-end"><a onclick=picker.clear()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearDatePick()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
-						<p>From these times <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>At these times <span id="filter-time-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-time">
 						<div class="card-body">
@@ -95,93 +95,108 @@
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-09:00" autocomplete="off" value="09:00">
-								<label id="btn-price-09:00" class="btn-filter btn-price" for="filter-price-09:00">09:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-09" autocomplete="off" value="09">
+								<label id="btn-time-09" class="btn-filter btn-time" for="filter-time-09">09:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-10:00" autocomplete="off" value="10:00">
-								<label id="btn-price-10:00" class="btn-filter btn-price" for="filter-price-10:00">10:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-10" autocomplete="off" value="10">
+								<label id="btn-time-10" class="btn-filter btn-time" for="filter-time-10">10:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-11:00" autocomplete="off" value="11:00">
-								<label id="btn-price-11:00" class="btn-filter btn-price" for="filter-price-11:00">11:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-11" autocomplete="off" value="11">
+								<label id="btn-time-11" class="btn-filter btn-time" for="filter-time-11">11:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-12:00" autocomplete="off" value="12:00">
-								<label id="btn-price-12:00" class="btn-filter btn-price" for="filter-price-12:00">12:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-12" autocomplete="off" value="12">
+								<label id="btn-time-12" class="btn-filter btn-time" for="filter-time-12">12:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-13:00" autocomplete="off" value="13:00">
-								<label id="btn-price-13:00" class="btn-filter btn-price" for="filter-price-13:00">13:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-13" autocomplete="off" value="13">
+								<label id="btn-time-13" class="btn-filter btn-time" for="filter-time-13">13:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-14:00" autocomplete="off" value="14:00">
-								<label id="btn-price-14:00" class="btn-filter btn-price" for="filter-price-14:00">14:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-14" autocomplete="off" value="14">
+								<label id="btn-time-14" class="btn-filter btn-time" for="filter-time-14">14:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-15:00" autocomplete="off" value="15:00">
-								<label id="btn-price-15:00" class="btn-filter btn-price" for="filter-price-15:00">15:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-15" autocomplete="off" value="15">
+								<label id="btn-time-15" class="btn-filter btn-time" for="filter-time-15">15:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-16:00" autocomplete="off" value="16:00">
-								<label id="btn-price-16:00" class="btn-filter btn-price" for="filter-price-16:00">16:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-16" autocomplete="off" value="16">
+								<label id="btn-time-16" class="btn-filter btn-time" for="filter-time-16">16:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-17:00" autocomplete="off" value="17:00">
-								<label id="btn-price-17:00" class="btn-filter btn-price" for="filter-price-17:00">17:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-17" autocomplete="off" value="17">
+								<label id="btn-time-17" class="btn-filter btn-time" for="filter-time-17">17:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-18:00" autocomplete="off" value="18:00">
-								<label id="btn-price-18:00" class="btn-filter btn-price" for="filter-price-18:00">18:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-18" autocomplete="off" value="18">
+								<label id="btn-time-18" class="btn-filter btn-time" for="filter-time-18">18:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-19:00" autocomplete="off" value="19:00">
-								<label id="btn-price-19:00" class="btn-filter btn-price" for="filter-price-19:00">19:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-19" autocomplete="off" value="19">
+								<label id="btn-time-19" class="btn-filter btn-time" for="filter-time-19">19:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-20:00" autocomplete="off" value="20:00">
-								<label id="btn-price-20:00" class="btn-filter btn-price" for="filter-price-20:00">20:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-20" autocomplete="off" value="20">
+								<label id="btn-time-20" class="btn-filter btn-time" for="filter-time-20">20:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-21:00" autocomplete="off" value="21:00">
-								<label id="btn-price-21:00" class="btn-filter btn-price" for="filter-price-21:00">21:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-21" autocomplete="off" value="21">
+								<label id="btn-time-21" class="btn-filter btn-time" for="filter-time-21">21:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-22:00" autocomplete="off" value="22:00">
-								<label id="btn-price-22:00" class="btn-filter btn-price" for="filter-price-22:00">22:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-22" autocomplete="off" value="22">
+								<label id="btn-time-22" class="btn-filter btn-time" for="filter-time-22">22:00</label>
 							 
 							 	
 							 	
+							 	
 
-							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-23:00" autocomplete="off" value="23:00">
-								<label id="btn-price-23:00" class="btn-filter btn-price" for="filter-price-23:00">23:00</label>
+							 	<input type="checkbox" name="filter-time-item" class="btn-check" id="filter-time-23" autocomplete="off" value="23">
+								<label id="btn-time-23" class="btn-filter btn-time" for="filter-time-23">23:00</label>
 							 
 
 
@@ -328,36 +343,36 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
-						<p>With these access provisions <span id="filter-access-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>With these access provisions <span id="filter-access-content-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-access">
 						<div class="card-body">
 							<p class="lead">Access</p>
 							
 								
-								<input type="checkbox" name="filter-access_item-item" class="btn-check" id="filter-access_item-bsl" autocomplete="off" value="bsl">
-								<label id="btn-access_item-bsl" class="btn-filter btn-access_item" for="filter-access_item-bsl"><i class="fa fa-sign-language"></i>&nbsp;bsl</label>
+								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-bsl" autocomplete="off" value="bsl">
+								<label id="btn-access-bsl" class="btn-filter btn-access" for="filter-access-bsl"><i class="fa fa-sign-language"></i>&nbsp;bsl</label>
 							
 								
-								<input type="checkbox" name="filter-access_item-item" class="btn-check" id="filter-access_item-captions" autocomplete="off" value="captions">
-								<label id="btn-access_item-captions" class="btn-filter btn-access_item" for="filter-access_item-captions"><i class="far fa-closed-captioning"></i>&nbsp;captions</label>
+								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-captions" autocomplete="off" value="captions">
+								<label id="btn-access-captions" class="btn-filter btn-access" for="filter-access-captions"><i class="far fa-closed-captioning"></i>&nbsp;captions</label>
 							
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							
-								<input type="checkbox" name="filter-cw-item" class="btn-check" id="filter-cw-distressing-themes" autocomplete="off" value="distressing-themes" checked>
-								<label id="btn-cw-distressing-themes" class="btn-filter btn-cw" for="filter-cw-distressing-themes">distressing themes</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-distressing-themes" autocomplete="off" value="distressing-themes" checked>
+								<label id="btn-content-warning-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-distressing-themes">distressing themes</label>
 							
-								<input type="checkbox" name="filter-cw-item" class="btn-check" id="filter-cw-strobe-lighting" autocomplete="off" value="strobe-lighting" checked>
-								<label id="btn-cw-strobe-lighting" class="btn-filter btn-cw" for="filter-cw-strobe-lighting">strobe lighting</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strobe-lighting" autocomplete="off" value="strobe-lighting" checked>
+								<label id="btn-content-warning-strobe-lighting" class="btn-filter btn-cw" for="filter-content-warning-strobe-lighting">strobe lighting</label>
 							
-								<input type="checkbox" name="filter-cw-item" class="btn-check" id="filter-cw-strong-language" autocomplete="off" value="strong-language" checked>
-								<label id="btn-cw-strong-language" class="btn-filter btn-cw" for="filter-cw-strong-language">strong language</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language" autocomplete="off" value="strong-language" checked>
+								<label id="btn-content-warning-strong-language" class="btn-filter btn-cw" for="filter-content-warning-strong-language">strong language</label>
 							
 							<p class="helper-text text-muted ms-2 mt-1"><em><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</em></p>
 						</div>
 						<div class="card-footer">
-							<p class="helper-text text-end"><a onclick=clearAccessCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearAccessContentCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Reset</a></p>
 						</div>
 					</div>
 				</div>
@@ -382,7 +397,20 @@
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
 		
-			<div class="col programme-show-container d-block" data-search="fiveencountersonasitecalledcraigslist yesyesnono" data-price=4 data-genre="solo-show-new-writing-audience-participation" id="five-encounters-on-a-site-called-craigslist">
+			
+
+
+
+
+
+
+			<div class="col programme-show-container d-block" 
+				data-search="fiveencountersonasitecalledcraigslist yesyesnono" 
+				data-date_start="2022-07-29" 
+				data-date_end="2022-08-31" 
+				data-performances='2022-07-29,2022-08-01,2022-08-03,2022-08-05,2022-08-21,2022-08-31'
+				data-price=4 
+				data-genre="solo-show-new-writing-audience-participation" id="five-encounters-on-a-site-called-craigslist">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -909,7 +937,20 @@
 </div>
 			</div>
 		
-			<div class="col programme-show-container d-block" data-search="beam heathermorgan" data-price=6 data-genre="new-writing-drama" id="beam">
+			
+
+
+
+
+
+
+			<div class="col programme-show-container d-block" 
+				data-search="beam heathermorgan" 
+				data-date_start="2022-08-01" 
+				data-date_end="2022-08-05" 
+				data-performances='2022-08-01,2022-08-02,2022-08-03,2022-08-04,2022-08-05'
+				data-price=6 
+				data-genre="new-writing-drama" id="beam">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -1436,7 +1477,20 @@
 </div>
 			</div>
 		
-			<div class="col programme-show-container d-block" data-search="actionatadistance argonaut" data-price=10 data-genre="new-writing-dance" id="action-at-a-distance">
+			
+
+
+
+
+
+
+			<div class="col programme-show-container d-block" 
+				data-search="actionatadistance argonaut" 
+				data-date_start="2022-08-02" 
+				data-date_end="2022-08-12" 
+				data-performances='2022-08-02,2022-08-04,2022-08-06,2022-08-07,2022-08-08,2022-08-09,2022-08-10,2022-08-12'
+				data-price=10 
+				data-genre="new-writing-dance" id="action-at-a-distance">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -1963,7 +2017,20 @@
 </div>
 			</div>
 		
-			<div class="col programme-show-container d-block" data-search="anyone'sguesshowwegothere barrelorgan" data-price=8 data-genre="new-writing-weird-genre-defying" id="anyone-s-guess-how-we-got-here">
+			
+
+
+
+
+
+
+			<div class="col programme-show-container d-block" 
+				data-search="anyone'sguesshowwegothere barrelorgan" 
+				data-date_start="2022-07-29" 
+				data-date_end="2022-08-31" 
+				data-performances='2022-07-29,2022-08-01,2022-08-03,2022-08-05,2022-08-21,2022-08-31'
+				data-price=8 
+				data-genre="new-writing-weird-genre-defying" id="anyone-s-guess-how-we-got-here">
 				
 <div class="card-show my-4">
 	<div class="card-body">
@@ -2554,12 +2621,12 @@
 
         
             <script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.7/dist/index.umd.min.js"></script>
-            <script src="/js/programme.js"></script>
             <script>
                 const picker = new easepick.create({
                     element: "#datepicker",
                     css: [
-                        "https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.6/dist/index.css"
+                        "https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.6/dist/index.css",
+                        "/css/calendar.css",
                     ],
                     zIndex: 10,
                     datePicked: [new Date(2022-07-29),new Date(2022-08-31)],
@@ -2586,6 +2653,7 @@
                     ]
                 })
             </script>
+            <script src="/js/programme.js"></script>
         
 
         

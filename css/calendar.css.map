@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "calendar.css",
+	"sources": [
+		"calendar.scss",
+		"_sass/zoo/_colours.scss"
+	],
+	"sourcesContent": [
+		"@import \"zoo/colours\"; \n\n:host {\n  // --color-bg-default: #3f51b5;\n  --color-fg-primary: #{map-get($zoo-brand, \"orange\")}; // Zoo orange \n  // --color-fg-default: #fff; \n  --color-fg-accent: #{map-get($zoo-brand, \"orange\")}; // Zoo orange \n  --color-bg-inrange: #ddd;\t// Zoo slate? \n  // --day-width: 35px;\n  // --day-height: 30px;\n}",
+		"$zoo-brand: (\n\t\"slate\": #282D30,\n\t\"black\": #000000,\n\t\"white\": #FFFFFF,\n\t\"background\": #FBFBFB,\n\t\"black-text\": #000000D9,\n\t\"blue\": #21A8C4,\n\t\"magenta\": #B25EA5,\n\t\"yellow\": #F1D42B,\n\t\"orange\": #F48847,\n);\n\n$primary: map-get($zoo-brand, \"slate\");\n$secondary: map-get($zoo-brand, \"black\");\n$info: map-get($zoo-brand, \"orange\");"
+	],
+	"names": [],
+	"mappings": "CAEC,AAAD,IAAK,CAAC;EAEJ,kBAAkB,CAAA,QAAC;EAEnB,iBAAiB,CAAA,QAAC;EAClB,kBAAkB,CAAA,KAAC;CAGpB"
+}
