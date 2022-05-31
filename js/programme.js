@@ -38,6 +38,36 @@ the_shows = document.getElementsByClassName('programme-show-container');
 var no_results_text = document.getElementById('no-result-text');
 
 //
+// Utility Functions // 
+//
+function clearFilteredOutClass(
+	className, 
+	checkboxes=null, checkbox_default_state=false, 
+	filter_buttons=null, filter_button_default_class=null){
+	// Remove the `filtered-out-by-xxx` class from the shows
+	for (const show of the_shows){
+		show.classList.remove(className);
+	}
+	// Reinstate the checkboxes to their default state (default: unchecked)
+	if (checkboxes!=null){
+		for (const cbox of checkboxes){
+			cbox.checked = checkbox_default_state;
+		}
+	}
+	// Reset the filter buttons to their default state (default: not `.active`)
+	if (filter_buttons!=null){
+		for (const btn of filter_buttons){
+			if (filter_button_default_class!=null) {
+				filter_buttons[btn].classList.add(filter_button_default_class)
+			}
+			else {
+				btn.classList.remove('active');
+			}
+		}
+	}
+}
+
+//
 // Search // 
 //
 search_box = document.getElementById('search-input')
@@ -65,11 +95,11 @@ search_box.addEventListener('input', (event) => {
 
 	}
 	else {
+		// If the search string isn't long enough, give up
 		no_results_text.classList.add('d-none');
-		for (i=0; i<the_shows.length; i++){
-			the_shows[i].classList.remove('filtered-out-by-search');
-		}
+		clearFilteredOutClass('filtered-out-by-search');
 		function showHint() {
+			// The Help Text Script
 			if (search_term.length > 1 && search_term.length <= 3){ 
 				search_hint.classList.remove('d-none');
 			}
@@ -94,10 +124,7 @@ var filter_date_counter = document.getElementById('filter-date-counter');
 function clearDatePick() {
 	// Reset the datepicker
 	picker.clear(); 
-	// Show all the shows filtered by price (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-date');
-	}
+	clearFilteredOutClass('filtered-out-by-price');
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -163,18 +190,9 @@ var filter_time_counter = document.getElementById('filter-time-counter');
 var time_buttons = document.getElementsByClassName('btn-time');
 
 function clearTimeCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in time_checkboxes) {
-		time_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by time (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-time');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< time_buttons.length; b++){
-		time_buttons[b].classList.remove('active');
-	}
+	// Reset the checkboxes and remove the filter from the shows 
+	clearFilteredOutClass('filtered-out-by-time',time_checkboxes,false,time_buttons)
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -249,18 +267,8 @@ var filter_price_counter = document.getElementById('filter-price-counter');
 var price_buttons = document.getElementsByClassName('btn-price');
 
 function clearPriceCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in price_checkboxes) {
-		price_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by price (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-price');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< price_buttons.length; b++){
-		price_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-price', price_checkboxes, false, price_buttons)
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -335,18 +343,8 @@ var filter_genre_counter = document.getElementById('filter-genre-counter');
 var genre_buttons = document.getElementsByClassName('btn-genre');
 
 function clearGenreCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in genre_checkboxes) {
-		genre_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by genre (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-genre');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< genre_buttons.length; b++){
-		genre_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-genre', genre_checkboxes, false, genre_buttons);
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -422,17 +420,8 @@ var content_warning_buttons = document.getElementsByClassName('btn-content_warni
 
 function clearContentWarningCheckboxes() {
 	// Reset the checkboxes (ALL ticked!)
-	for (const cbox in content_warning_checkboxes) {
-		content_warning_checkboxes[cbox].checked = true; 
-	}
-	// Show all the shows filtered by content_warning (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-content-warning');
-	}
-	// Activate all the buttons
-	for (b=0; b< content_warning_buttons.length; b++){
-		content_warning_buttons[b].classList.add('active');
-	}
+	clearFilteredOutClass('filtered-out-by-content-warning', content_warning_checkboxes, true, content_warning_buttons, 'active');
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -505,18 +494,8 @@ var filter_access_counter = document.getElementById('filter-access-content-count
 var access_buttons = document.getElementsByClassName('btn-access');
 
 function clearAccessCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in access_checkboxes) {
-		access_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by access (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-access');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< access_buttons.length; b++){
-		access_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-access',access_checkboxes,false,access_buttons);
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
