@@ -48,12 +48,12 @@ search_box.addEventListener('input', (event) => {
 	// Do the search! 
 	if (search_term.length > 3){
 		search_hint.classList.add('d-none');
-		for (i=0; i<the_shows.length; i++){
-			if (!the_shows[i].dataset.search.includes(search_term)) {
-				the_shows[i].classList.add('filtered-out-by-search');
+		for (const show of the_shows){
+			if (!show.dataset.search.includes(search_term)) {
+				show.classList.add('filtered-out-by-search');
 			}
 			else {
-				the_shows[i].classList.remove('filtered-out-by-search');
+				show.classList.remove('filtered-out-by-search');
 			}
 		}
 		if (document.querySelectorAll('.filtered-out-by-search').length == the_shows.length){
