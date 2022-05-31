@@ -1,9 +1,14 @@
+//
+// Navigation Dropdowns
+//
+
 var filterBoxElement = document.getElementById('filter-box')
 var filterBoxButton = document.getElementById('filter-box-button')
 var searchBoxElement = document.getElementById('search-box')
 var searchBoxButton = document.getElementById('search-box-button')
+
+// toggle class 'active' of #filter-box-button 
 filterBoxElement.addEventListener('show.bs.collapse', function (e) {
-	// toggle class 'active' of #filter-box-button 
 	if (e.target.id == 'filter-box'){
 		filterBoxButton.classList.add('active');
 	}
@@ -15,8 +20,8 @@ filterBoxElement.addEventListener('hide.bs.collapse', function (e) {
 	}
 })
 
+// toggle class 'active' of #search-box-button 
 searchBoxElement.addEventListener('show.bs.collapse', function (e) {
-	// toggle class 'active' of #search-box-button 
 	if (e.target.id == 'search-box'){
 		searchBoxButton.classList.add('active');
 	}
@@ -28,11 +33,43 @@ searchBoxElement.addEventListener('hide.bs.collapse', function (e) {
 	}
 })
 
-// Set up for filter pickers 
+// Define the shows for filter pickers 
 the_shows = document.getElementsByClassName('programme-show-container');
 var no_results_text = document.getElementById('no-result-text');
 
-// Search
+//
+// Utility Functions // 
+//
+function clearFilteredOutClass(
+	className, 
+	checkboxes=null, checkbox_default_state=false, 
+	filter_buttons=null, filter_button_default_class=null){
+	// Remove the `filtered-out-by-xxx` class from the shows
+	for (const show of the_shows){
+		show.classList.remove(className);
+	}
+	// Reinstate the checkboxes to their default state (default: unchecked)
+	if (checkboxes!=null){
+		for (const cbox of checkboxes){
+			cbox.checked = checkbox_default_state;
+		}
+	}
+	// Reset the filter buttons to their default state (default: not `.active`)
+	if (filter_buttons!=null){
+		for (const btn of filter_buttons){
+			if (filter_button_default_class!=null) {
+				filter_buttons[btn].classList.add(filter_button_default_class)
+			}
+			else {
+				btn.classList.remove('active');
+			}
+		}
+	}
+}
+
+//
+// Search // 
+//
 search_box = document.getElementById('search-input')
 search_box.addEventListener('input', (event) => {
 	// Sanitise text input 
@@ -41,12 +78,12 @@ search_box.addEventListener('input', (event) => {
 	// Do the search! 
 	if (search_term.length > 3){
 		search_hint.classList.add('d-none');
-		for (i=0; i<the_shows.length; i++){
-			if (!the_shows[i].dataset.search.includes(search_term)) {
-				the_shows[i].classList.add('filtered-out-by-search');
+		for (const show of the_shows){
+			if (!show.dataset.search.includes(search_term)) {
+				show.classList.add('filtered-out-by-search');
 			}
 			else {
-				the_shows[i].classList.remove('filtered-out-by-search');
+				show.classList.remove('filtered-out-by-search');
 			}
 		}
 		if (document.querySelectorAll('.filtered-out-by-search').length == the_shows.length){
@@ -58,18 +95,18 @@ search_box.addEventListener('input', (event) => {
 
 	}
 	else {
+		// If the search string isn't long enough, give up
 		no_results_text.classList.add('d-none');
-		for (i=0; i<the_shows.length; i++){
-			the_shows[i].classList.remove('filtered-out-by-search');
-		}
+		clearFilteredOutClass('filtered-out-by-search');
 		function showHint() {
+			// The Help Text Script
 			if (search_term.length > 1 && search_term.length <= 3){ 
 				search_hint.classList.remove('d-none');
 			}
 		}
 		if (search_term.length > 1 && search_term.length <= 3){
-			// Wait a moment, then run the show script 
-			// The show script also runs an if to see if the value still matches
+			// Wait a moment, then run the help text script script 
+			// The help text script also runs an if to see if the value still matches
 			let hintTimeout = setTimeout(showHint, 2000)
 		}
 		else {
@@ -87,10 +124,7 @@ var filter_date_counter = document.getElementById('filter-date-counter');
 function clearDatePick() {
 	// Reset the datepicker
 	picker.clear(); 
-	// Show all the shows filtered by price (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-date');
-	}
+	clearFilteredOutClass('filtered-out-by-price');
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -98,9 +132,7 @@ function clearDatePick() {
 }
 
 picker.on('select',e => {
-	console.log(date_picker.value);
 	picked_value = date_picker.value 
-	// Bonus: Recolour the picker to be in zoo-orange 
 
   if (picked_value == 0) {
 		for (i=0; i< the_shows.length; i++ ) {
@@ -158,18 +190,9 @@ var filter_time_counter = document.getElementById('filter-time-counter');
 var time_buttons = document.getElementsByClassName('btn-time');
 
 function clearTimeCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in time_checkboxes) {
-		time_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by time (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-time');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< time_buttons.length; b++){
-		time_buttons[b].classList.remove('active');
-	}
+	// Reset the checkboxes and remove the filter from the shows 
+	clearFilteredOutClass('filtered-out-by-time',time_checkboxes,false,time_buttons)
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -244,18 +267,8 @@ var filter_price_counter = document.getElementById('filter-price-counter');
 var price_buttons = document.getElementsByClassName('btn-price');
 
 function clearPriceCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in price_checkboxes) {
-		price_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by price (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-price');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< price_buttons.length; b++){
-		price_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-price', price_checkboxes, false, price_buttons)
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -321,25 +334,17 @@ price_checkboxes.forEach(function(checkbox) {
   })
 });
 
-// Genre Filter 
+//
+// Genre Filter //
+//
 var genre_checkboxes = document.querySelectorAll('input[name="filter-genre-item"]');
 let picked_genres = [] 
 var filter_genre_counter = document.getElementById('filter-genre-counter');
 var genre_buttons = document.getElementsByClassName('btn-genre');
 
 function clearGenreCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in genre_checkboxes) {
-		genre_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by genre (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-genre');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< genre_buttons.length; b++){
-		genre_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-genre', genre_checkboxes, false, genre_buttons);
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -415,17 +420,8 @@ var content_warning_buttons = document.getElementsByClassName('btn-content_warni
 
 function clearContentWarningCheckboxes() {
 	// Reset the checkboxes (ALL ticked!)
-	for (const cbox in content_warning_checkboxes) {
-		content_warning_checkboxes[cbox].checked = true; 
-	}
-	// Show all the shows filtered by content_warning (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-content-warning');
-	}
-	// Activate all the buttons
-	for (b=0; b< content_warning_buttons.length; b++){
-		content_warning_buttons[b].classList.add('active');
-	}
+	clearFilteredOutClass('filtered-out-by-content-warning', content_warning_checkboxes, true, content_warning_buttons, 'active');
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -498,18 +494,8 @@ var filter_access_counter = document.getElementById('filter-access-content-count
 var access_buttons = document.getElementsByClassName('btn-access');
 
 function clearAccessCheckboxes() {
-	// Reset the checkboxes
-	for (const cbox in access_checkboxes) {
-		access_checkboxes[cbox].checked = false; 
-	}
-	// Show all the shows filtered by access (only)
-	for (i=0; i< the_shows.length; i++ ){
-		the_shows[i].classList.remove('filtered-out-by-access');
-	}
-	// Deactivate the buttons 
-	for (b=0; b< access_buttons.length; b++){
-		access_buttons[b].classList.remove('active');
-	}
+	clearFilteredOutClass('filtered-out-by-access',access_checkboxes,false,access_buttons);
+
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
