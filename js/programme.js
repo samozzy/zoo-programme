@@ -1,9 +1,14 @@
+//
+// Navigation Dropdowns
+//
+
 var filterBoxElement = document.getElementById('filter-box')
 var filterBoxButton = document.getElementById('filter-box-button')
 var searchBoxElement = document.getElementById('search-box')
 var searchBoxButton = document.getElementById('search-box-button')
+
+// toggle class 'active' of #filter-box-button 
 filterBoxElement.addEventListener('show.bs.collapse', function (e) {
-	// toggle class 'active' of #filter-box-button 
 	if (e.target.id == 'filter-box'){
 		filterBoxButton.classList.add('active');
 	}
@@ -15,8 +20,8 @@ filterBoxElement.addEventListener('hide.bs.collapse', function (e) {
 	}
 })
 
+// toggle class 'active' of #search-box-button 
 searchBoxElement.addEventListener('show.bs.collapse', function (e) {
-	// toggle class 'active' of #search-box-button 
 	if (e.target.id == 'search-box'){
 		searchBoxButton.classList.add('active');
 	}
@@ -28,11 +33,13 @@ searchBoxElement.addEventListener('hide.bs.collapse', function (e) {
 	}
 })
 
-// Set up for filter pickers 
+// Define the shows for filter pickers 
 the_shows = document.getElementsByClassName('programme-show-container');
 var no_results_text = document.getElementById('no-result-text');
 
-// Search
+//
+// Search // 
+//
 search_box = document.getElementById('search-input')
 search_box.addEventListener('input', (event) => {
 	// Sanitise text input 
@@ -68,8 +75,8 @@ search_box.addEventListener('input', (event) => {
 			}
 		}
 		if (search_term.length > 1 && search_term.length <= 3){
-			// Wait a moment, then run the show script 
-			// The show script also runs an if to see if the value still matches
+			// Wait a moment, then run the help text script script 
+			// The help text script also runs an if to see if the value still matches
 			let hintTimeout = setTimeout(showHint, 2000)
 		}
 		else {
@@ -98,9 +105,7 @@ function clearDatePick() {
 }
 
 picker.on('select',e => {
-	console.log(date_picker.value);
 	picked_value = date_picker.value 
-	// Bonus: Recolour the picker to be in zoo-orange 
 
   if (picked_value == 0) {
 		for (i=0; i< the_shows.length; i++ ) {
@@ -321,7 +326,9 @@ price_checkboxes.forEach(function(checkbox) {
   })
 });
 
-// Genre Filter 
+//
+// Genre Filter //
+//
 var genre_checkboxes = document.querySelectorAll('input[name="filter-genre-item"]');
 let picked_genres = [] 
 var filter_genre_counter = document.getElementById('filter-genre-counter');
