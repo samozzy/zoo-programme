@@ -17,7 +17,8 @@
   price:
     standard: 13
     concession: 11
-  ticket_deals: []
+  ticket_deals:
+  - 'Preview Tickets £10 on Aug 5 '
   genre: []
   access:
   - BSL
