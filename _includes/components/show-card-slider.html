@@ -2,7 +2,7 @@
 <div class="card-show-slider h-100 mb-4">
 	<div class="card-header bg-transparent border-0 d-flex">
 		<div class="w-100 px-4 mx-5 py-3">
-			<img src="{{ show.image }}" alt="{{ show.title}} icon" width="100%" height="auto" class="mx-auto shadow-sm">
+			{% include show/show-image.html show=show slider=true %}
 		</div>
 	</div>
 	<div class="card-body mx-1 d-flex flex-column">

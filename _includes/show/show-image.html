@@ -1,0 +1,18 @@
+{% assign the_image = include.show.image %}
+{% unless include.slider %}
+	{% if the_image and the_image != empty %}
+		<div class="show-image">
+			<img src="{{ the_image }}" alt="{{ include.show.title }} icon">
+		</div>
+	{% else %}
+		<div class="show-image show-image-placeholder">
+			<img src="{% link static/img/zoo-placeholder-show.png %}" alt="Placeholder image">
+		</div>
+	{% endif %}
+{% else %}
+	{% if the_image and the_image != empty %}
+		<img src="{{ show.image }}" alt="{{ show.title}} icon" width="100%" height="auto" class="mx-auto shadow-sm">
+	{% else %}
+		<img src="{% link static/img/zoo-placeholder-show.png %}" alt="Placeholder image" width="100%" height="auto" class="mx-auto shadow-sm">
+	{% endif %}
+{% endunless %}

@@ -2,11 +2,8 @@
 <div class="card-show my-4 py-4">
 	<div class="card-body">
 		<!-- <h3 class="display-4">{{ show.title }}</h3> -->
-		{% if show.image and show.image != empty %}
-		<div class="show-image">
-			<img src="{{ show.image }}" alt="{{ show.title }} icon">
-		</div>
-		{% endif %}
+		{% include show/show-image.html show=show %}
+
 		{% if show.start_time and show.start_time != empty %}
 			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
 		{% endif %}

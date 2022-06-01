@@ -1,11 +1,8 @@
 {% assign show = include.show %}
 <div class="card-show my-4">
 	<div class="card-body">
-		{% if show.image and show.image != empty %}
-		<div class="show-image">
-			<img src="{{ show.image }}" alt="{{ show.title }} icon">
-		</div>
-		{% endif %}
+		{% include show/show-image.html show=show %}
+		
 		<h3 class="{% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</h3>
 		{% if show.company and show.company != empty %}<p class="fs-4 bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
 		{% if show.start_time and show.start_time != empty %}

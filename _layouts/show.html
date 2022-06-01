@@ -12,11 +12,7 @@ use_swiper: true
 			<a href="{% link _content/index.md %}"><img src="/static/img/zoo/zoo-logo-black.png" class="img-fluid" width="125px" height="auto" alt="ZOO"></a><br>
 		</div>
 		<div class="col-12 col-lg-8 col-xl-9 px-5 pe-lg-0 my-auto d-flex flex-row order-lg-1">
-			{% if show.image and show.image != empty %}
-				<div class="show-image d-none d-md-block mt-2">
-					<img src="{{ show.image }}" alt="{{ show.title}} icon" height="auto" class='shadow-sm'>
-				</div>
-			{% endif %}
+			{% include show/show-image.html show=show %}
 			<div class="ms-md-4 d-flex flex-column">
 				<h1 class="display-2 text-zoo-black text-center text-md-start">
 					{{ show.title }}
