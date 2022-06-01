@@ -73,17 +73,17 @@ fields:
         type: documents
         section: ''
         file: _data/tags.yml
-  - type: list 
-    name: access 
+  - type: list
+    name: access
     label: Access Provisions
-    description: Eg. BSL, Captions 
-  - type: text 
-    name: access_details 
+    description: Eg. BSL, Captions
+  - type: text
+    name: access_details
     label: Detailed access info, eg. which performances have BSL interpretation
   - type: list
     name: content_warnings
     label: Content Warnings
-    description: Eg. Strobe lighting, strong language 
+    description: Eg. Strobe lighting, strong language
   - name: image
     type: file
     config:
