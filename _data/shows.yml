@@ -5,29 +5,33 @@
   start_time: '11:30'
   duration: 55mins
   performances:
-  - Aug 13
-  - Aug 12
-  - Aug 10
-  - Aug 11
-  - Aug 9
-  - 'Aug 8 '
-  - Aug 7
-  - Aug 6
-  - Aug 5
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
   price:
     standard: 13
     concession: 11
   ticket_deals:
-  - 'Preview Tickets £10 on Aug 5 '
+  - Preview Tickets £10 on 5th August 2022
   genre: []
   access:
   - BSL
-  access_details: 'BSL on Wednesday 10th August '
-  content_warnings: []
+  access_details: The performance on Wednesday 10th August will be BSL interpreted
+  content_warnings:
+  - 'Contains Distressing Themes '
   image: "/static/04-02-2022-150014-9058.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: ''
+    link: "@RedAlert_Cancer"
+    platform: Twitter
   reviews: []
   copy_short: |-
     Red Alert – Cancer! Meet the Wilsons, five children, three with
