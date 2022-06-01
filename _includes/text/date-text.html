@@ -1,10 +1,10 @@
 {% assign show = include.show %}
 
 {% assign show_dates = show.performances | sort %}
-{% assign first_performance = show.performances[0] %}
-{% if show.performances[1] %}
-	{% assign last_date = show.performances | size | minus: 1 %}
-	{% assign last_performance = show.performances[last_date] %}
+{% assign first_performance = show_dates[0] %}
+{% if show_dates[1] %}
+	{% assign last_date = show_dates | size | minus: 1 %}
+	{% assign last_performance = show_dates[last_date] %}
 
 	{% assign first_month = first_performance | date: "%m" %}
 	{% assign last_month = last_performance | date: "%m" %}
