@@ -1,4 +1,49 @@
 ---
+- title: Red Alert - Cancer!
+  company: Allan Wilson
+  venue: Zoo Playground
+  start_time: '11:30'
+  duration: 55mins
+  performances:
+  - Aug 13
+  - Aug 12
+  - Aug 10
+  - Aug 11
+  - Aug 9
+  - 'Aug 8 '
+  - Aug 7
+  - Aug 6
+  - Aug 5
+  price:
+    standard: 13
+    concession: 11
+  ticket_deals: []
+  genre: []
+  access:
+  - BSL
+  access_details: 'BSL on Wednesday 10th August '
+  content_warnings: []
+  image: "/static/04-02-2022-150014-9058.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Red Alert – Cancer! Meet the Wilsons, five children, three with
+    red hair. The redheads, Iain, Heather and Allan, all developed
+    cancer in their 50s. Prepare for sadness and laughter as Allan
+    tells their story.
+  copy_long: |-
+    Red Alert – Cancer! Meet the Wilsons, five children, three
+    with red hair, who came to Scotland in 1959. The redheads,
+    Iain, Heather and Allan, developed cancer in their 50s. There
+    will be sadness and laughter as Allan tells their story. This
+    show will move you and intrigue you about possible
+    connections between cancer and red hair. If you love Mark
+    Thomas, Bryony Kimmings and the NHS, we are sure you'll
+    also enjoy Red Alert - Cancer! Directed by Kolbrún Björt
+    Sigfúsdóttir (Hang, Me and My Sister Tell Each Other
+    Everything, Maryland, Deliverance).
 - title: Five Encounters on a Site Called Craigslist
   company: YESYESNONO
   venue: Zoo Southside
@@ -24,9 +69,9 @@
   - strobe lighting
   - strong language
   access:
-  - bsl 
-  - captions 
-  access_details: "Performances on the 1st, 3rd, and 5th will be BSL interpreted"
+  - bsl
+  - captions
+  access_details: Performances on the 1st, 3rd, and 5th will be BSL interpreted
   image: https://placekitten.com/400/400?image=3
   video_embeds:
   - title: Trailer
@@ -99,6 +144,8 @@
   video_embeds: []
   links: []
   reviews: []
+  access: []
+  access_details: ''
 - title: Action at a Distance
   company: Argonaut
   venue: Zoo Southside
@@ -143,6 +190,8 @@
   video_embeds: []
   links: []
   reviews: []
+  access: []
+  access_details: ''
 - title: Anyone's Guess How We Got Here
   company: Barrel Organ
   venue: Zoo Southside
@@ -194,3 +243,5 @@
   content_warnings: []
   image_alt: ''
   reviews: []
+  access: []
+  access_details: ''
