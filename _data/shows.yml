@@ -17,10 +17,13 @@
   price:
     standard: 
     concession: 
-  ticket_deals:
-  - Preview Tickets £10 on 5th August 2022
-  genre: []
+  ticket_deals: []
+  genre:
+  - True-life
+  - Solo show
+  - Theatre
   access:
+  - 'Wheelchair Accessible '
   - BSL
   access_details: The performance on Wednesday 10th August will be BSL interpreted
   content_warnings:
