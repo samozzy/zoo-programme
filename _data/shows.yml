@@ -1,4 +1,26 @@
 ---
+- title: '52 Souls '
+  company: 'Chronic Insanity '
+  venue: Zoo Playground
+  start_time: '15:55'
+  duration: "50"
+  performances:
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_deals: []
+  genre: []
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: ''
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: ''
+  copy_long: ''
 - title: Red Alert - Cancer!
   company: Allan Wilson
   venue: Zoo Playground
