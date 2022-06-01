@@ -15,8 +15,8 @@
   - '2022-08-06'
   - '2022-08-05'
   price:
-    standard: 13
-    concession: 11
+    standard: 
+    concession: 
   ticket_deals:
   - Preview Tickets £10 on 5th August 2022
   genre: []
