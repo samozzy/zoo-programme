@@ -13,7 +13,7 @@
 		{% endif %}
 		<div class="buttons mb-3">
 			<a class="btn-zoo-book btn-outline-info w-25" role="button">Book Tickets</a>
-			<a class="btn-zoo-book btn-info w-25" role="button" href="/programme/{{ show.title | remove: "'" | slugify }}">Read more</a>
+			<a class="btn-zoo-book btn-info w-25" role="button" href="/{{ show.title | datapage_url: 'programme' }}">Read more</a>
 		</div>
 	</div>
 	<div class="card-footer bg-transparent">

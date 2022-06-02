@@ -23,7 +23,7 @@
 	<div class="card-footer bg-transparent border-0">
 		<div class="buttons mb-3 d-flex justify-content-around">
 			<a class="btn-zoo-book btn-outline-info w-50 m-1" role="button">Book Tickets</a>
-			<a class="btn-zoo-book btn-info w-50 m-1" role="button" href="/programme/{{ show.title | remove: "'" | slugify }}">Read more</a>
+			<a class="btn-zoo-book btn-info w-50 m-1" role="button" href="/{{ show.title | datapage_url: 'programme' }}">Read more</a>
 		</div>
 	</div>
 </div>
