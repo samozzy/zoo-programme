@@ -203,6 +203,53 @@ layout: page
 
 <div class="container"> 
 	<div id="show-list" class="row row-cols-md-2 mb-5">
+		<div class="col w-100">
+			<div id="filter-badge-container" class="filter-badge-container d-none">
+				<span class="lead">Active filters:</span> 
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearDatePick()" id="active-filter-date">
+					<span>Date<span id="active-filter-date-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearTimeCheckboxes()" id="active-filter-time">
+					<span>Time<span id="active-filter-time-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+					<span>Price<span id="active-filter-price-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearGenreCheckboxes()" id="active-filter-genre">
+					<span>Genre<span id="active-filter-genre-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearContentWarningCheckboxes()" id="active-filter-content-warning">
+					<span>Excluding Content Warnings<span id="active-filter-content-warning-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAccessCheckboxes()" id="active-filter-access">
+					<span>Access<span id="active-filter-access-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+			</div>
+		</div>
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>

@@ -65,6 +65,49 @@ function clearFilteredOutClass(
 			}
 		}
 	}
+	hideActiveFilter(className.replace('filtered-out-by-',''))
+}
+
+//
+// Active Filter Buttons
+//
+function showActiveFilter(btn_id, looking_for_checked=true){
+	// Show the filter buttons! 
+	document.getElementById('filter-badge-container').classList.remove('d-none');
+	document.getElementById('active-filter-' + btn_id).classList.remove('d-none');
+	filter_query = 'filter-' + btn_id + '-item'
+	inner_text = [];
+	if (btn_id == 'date'){
+		// Do something different!! 
+	}
+	else { 
+		if (looking_for_checked == true){
+			document.querySelectorAll('[name="'+filter_query+'"]:checked').forEach(filter_btn => 
+				inner_text.push(filter_btn.labels[0].innerText)
+			);
+		}
+		else {
+			// Special case for content warnings where we click to hide rather than additive 
+			document.querySelectorAll('[name="'+filter_query+'"]:not(:checked)').forEach(filter_btn => {
+				console.log(filter_btn.labels[0].innerText)
+				inner_text.push(filter_btn.labels[0].innerText)
+				console.log(inner_text)
+			});
+		}
+	}
+	filter_button_inner_text = document.getElementById('active-filter-' + btn_id + '-list')
+	filter_button_inner_text.innerText = ': ' + inner_text.join('; ');
+}
+
+function hideActiveFilter(btn_id){
+	filter_container = document.getElementById('filter-badge-container')
+	document.getElementById('active-filter-' + btn_id).classList.add('d-none');
+	document.getElementById('active-filter-' + btn_id + '-list').innerText = '';
+
+	// If all of the filters have been hidden, hide the container 
+	if (filter_container.querySelectorAll('button').length == filter_container.querySelectorAll('button.d-none').length){
+		filter_container.classList.add('d-none');
+	}
 }
 
 //
@@ -251,9 +294,12 @@ time_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
+    	showActiveFilter('time');
+
     }
     else {
     	this.labels[0].classList.remove('active');
+    	hideActiveFilter('time');
     }
   })
 });
@@ -327,9 +373,11 @@ price_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
+    	showActiveFilter('price');
     }
     else {
     	this.labels[0].classList.remove('active');
+    	hideActiveFilter('price');
     }
   })
 });
@@ -403,9 +451,11 @@ genre_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
+    	showActiveFilter('genre')
     }
     else {
     	this.labels[0].classList.remove('active');
+    	hideActiveFilter('genre')
     }
   })
 });
@@ -478,9 +528,11 @@ content_warning_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
+    	hideActiveFilter('content-warning');
     }
     else {
     	this.labels[0].classList.remove('active');
+    	showActiveFilter('content-warning', false)
     }
   })
 });
@@ -554,9 +606,11 @@ access_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
+    	showActiveFilter('access');
     }
     else {
     	this.labels[0].classList.remove('active');
+    	hideActiveFilter('access');
     }
   })
 });

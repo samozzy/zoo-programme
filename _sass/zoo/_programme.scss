@@ -42,3 +42,24 @@
 .filtered-out-by-access, .filtered-out-by-content-warning {
 	@extend .d-none; 
 }
+
+.filter-badge-container {
+	.filter-badge {
+		@extend .btn-zoo-pill;
+		@extend .py-1, .px-2;
+		.icons {
+			@extend .ms-3;
+		}
+		i.fa {
+			display:none;
+		}
+		&:hover, &:active, &:focus-within {
+			i.far {
+				display:none;
+			}
+			i.fa {
+				display:inline;
+			}
+		}
+	}
+}
