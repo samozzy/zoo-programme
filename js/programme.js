@@ -88,6 +88,11 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 			inner_text.push('On ' + picked_start_date)
 		}
 	}
+	else if (btn_id == 'search'){
+		if (typeof(looking_for_checked)=='string'){
+			inner_text.push(looking_for_checked);
+		}
+	}
 	else { 
 		if (looking_for_checked == true){
 			document.querySelectorAll('[name="'+filter_query+'"]:checked').forEach(filter_btn => 
@@ -122,6 +127,12 @@ function hideActiveFilter(btn_id){
 // Search // 
 //
 search_box = document.getElementById('search-input')
+function clearSearch(){
+	search_box.value = '';
+	clearFilteredOutClass('filtered-out-by-search')
+	hideActiveFilter('search')
+	no_results_text.classList.add('d-none')
+}
 search_box.addEventListener('input', (event) => {
 	// Sanitise text input 
 	search_term = search_box.value.toLowerCase().replace(' ', '');
@@ -136,6 +147,7 @@ search_box.addEventListener('input', (event) => {
 			else {
 				show.classList.remove('filtered-out-by-search');
 			}
+			showActiveFilter('search',search_box.value)
 		}
 		if (document.querySelectorAll('.filtered-out-by-search').length == the_shows.length){
 			no_results_text.classList.remove('d-none');
@@ -143,12 +155,12 @@ search_box.addEventListener('input', (event) => {
 		else {
 			no_results_text.classList.add('d-none');
 		}
-
 	}
 	else {
 		// If the search string isn't long enough, give up
 		no_results_text.classList.add('d-none');
 		clearFilteredOutClass('filtered-out-by-search');
+		hideActiveFilter('search')
 		function showHint() {
 			// The Help Text Script
 			if (search_term.length > 1 && search_term.length <= 3){ 
