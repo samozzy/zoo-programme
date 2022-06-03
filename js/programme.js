@@ -135,7 +135,7 @@ function clearSearch(){
 }
 search_box.addEventListener('input', (event) => {
 	// Sanitise text input 
-	search_term = search_box.value.toLowerCase().replace(' ', '');
+	search_term = search_box.value.toLowerCase().replaceAll(' ', '');
 	search_hint = document.getElementById('search-hint');
 	// Do the search! 
 	if (search_term.length > 3){
