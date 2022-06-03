@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-.border-2px, .card-show-slider, .btn-zoo-book, .btn-zoo, .header-category-button, .card-programme .btn-filter, .programme-menu, .btn-zoo-pill, .close-button {
+.border-2px, .card-show-slider, .btn-zoo-book, .btn-zoo, .header-category-button, .card-programme .btn-filter, .programme-menu, .btn-zoo-pill, .filter-badge-container .filter-badge, .close-button {
   border-width: 2px !important;
 }
 
@@ -31,13 +31,13 @@ a.text-zoo-slate:hover, a.text-zoo-slate:focus, a.text-zoo-slate:active, a.text-
   background-color: #282D30 !important;
 }
 
-.btn-zoo.outline-zoo-slate, .outline-zoo-slate.header-category-button, .card-programme .outline-zoo-slate.btn-filter, .outline-zoo-slate.programme-menu, .outline-zoo-slate.btn-zoo-pill, .outline-zoo-slate.close-button {
+.btn-zoo.outline-zoo-slate, .outline-zoo-slate.header-category-button, .card-programme .outline-zoo-slate.btn-filter, .outline-zoo-slate.programme-menu, .outline-zoo-slate.btn-zoo-pill, .filter-badge-container .outline-zoo-slate.filter-badge, .outline-zoo-slate.close-button {
   border-color: #282D30 !important;
   background-color: transparent !important;
   color: #282D30 !important;
 }
 
-.btn-zoo.outline-zoo-slate:hover, .outline-zoo-slate.header-category-button:hover, .card-programme .outline-zoo-slate.btn-filter:hover, .outline-zoo-slate.programme-menu:hover, .outline-zoo-slate.btn-zoo-pill:hover, .outline-zoo-slate.close-button:hover, .btn-zoo.outline-zoo-slate:focus, .outline-zoo-slate.header-category-button:focus, .card-programme .outline-zoo-slate.btn-filter:focus, .outline-zoo-slate.programme-menu:focus, .outline-zoo-slate.btn-zoo-pill:focus, .outline-zoo-slate.close-button:focus, .btn-zoo.outline-zoo-slate:active, .outline-zoo-slate.header-category-button:active, .card-programme .outline-zoo-slate.btn-filter:active, .outline-zoo-slate.programme-menu:active, .outline-zoo-slate.btn-zoo-pill:active, .outline-zoo-slate.close-button:active {
+.btn-zoo.outline-zoo-slate:hover, .outline-zoo-slate.header-category-button:hover, .card-programme .outline-zoo-slate.btn-filter:hover, .outline-zoo-slate.programme-menu:hover, .outline-zoo-slate.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-slate.filter-badge:hover, .outline-zoo-slate.close-button:hover, .btn-zoo.outline-zoo-slate:focus, .outline-zoo-slate.header-category-button:focus, .card-programme .outline-zoo-slate.btn-filter:focus, .outline-zoo-slate.programme-menu:focus, .outline-zoo-slate.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-slate.filter-badge:focus, .outline-zoo-slate.close-button:focus, .btn-zoo.outline-zoo-slate:active, .outline-zoo-slate.header-category-button:active, .card-programme .outline-zoo-slate.btn-filter:active, .outline-zoo-slate.programme-menu:active, .outline-zoo-slate.btn-zoo-pill:active, .filter-badge-container .outline-zoo-slate.filter-badge:active, .outline-zoo-slate.close-button:active {
   background-color: #282D30 !important;
 }
 
@@ -69,13 +69,13 @@ a.text-zoo-black:hover, a.text-zoo-black:focus, a.text-zoo-black:active, a.text-
   background-color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-black, .outline-zoo-black.header-category-button, .card-programme .outline-zoo-black.btn-filter, .outline-zoo-black.programme-menu, .outline-zoo-black.btn-zoo-pill, .outline-zoo-black.close-button {
+.btn-zoo.outline-zoo-black, .outline-zoo-black.header-category-button, .card-programme .outline-zoo-black.btn-filter, .outline-zoo-black.programme-menu, .outline-zoo-black.btn-zoo-pill, .filter-badge-container .outline-zoo-black.filter-badge, .outline-zoo-black.close-button {
   border-color: #000000 !important;
   background-color: transparent !important;
   color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-black:hover, .outline-zoo-black.header-category-button:hover, .card-programme .outline-zoo-black.btn-filter:hover, .outline-zoo-black.programme-menu:hover, .outline-zoo-black.btn-zoo-pill:hover, .outline-zoo-black.close-button:hover, .btn-zoo.outline-zoo-black:focus, .outline-zoo-black.header-category-button:focus, .card-programme .outline-zoo-black.btn-filter:focus, .outline-zoo-black.programme-menu:focus, .outline-zoo-black.btn-zoo-pill:focus, .outline-zoo-black.close-button:focus, .btn-zoo.outline-zoo-black:active, .outline-zoo-black.header-category-button:active, .card-programme .outline-zoo-black.btn-filter:active, .outline-zoo-black.programme-menu:active, .outline-zoo-black.btn-zoo-pill:active, .outline-zoo-black.close-button:active {
+.btn-zoo.outline-zoo-black:hover, .outline-zoo-black.header-category-button:hover, .card-programme .outline-zoo-black.btn-filter:hover, .outline-zoo-black.programme-menu:hover, .outline-zoo-black.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-black.filter-badge:hover, .outline-zoo-black.close-button:hover, .btn-zoo.outline-zoo-black:focus, .outline-zoo-black.header-category-button:focus, .card-programme .outline-zoo-black.btn-filter:focus, .outline-zoo-black.programme-menu:focus, .outline-zoo-black.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-black.filter-badge:focus, .outline-zoo-black.close-button:focus, .btn-zoo.outline-zoo-black:active, .outline-zoo-black.header-category-button:active, .card-programme .outline-zoo-black.btn-filter:active, .outline-zoo-black.programme-menu:active, .outline-zoo-black.btn-zoo-pill:active, .filter-badge-container .outline-zoo-black.filter-badge:active, .outline-zoo-black.close-button:active {
   background-color: #000000 !important;
 }
 
@@ -107,13 +107,13 @@ a.text-zoo-white:hover, a.text-zoo-white:focus, a.text-zoo-white:active, a.text-
   background-color: #FFFFFF !important;
 }
 
-.btn-zoo.outline-zoo-white, .outline-zoo-white.header-category-button, .card-programme .outline-zoo-white.btn-filter, .outline-zoo-white.programme-menu, .outline-zoo-white.btn-zoo-pill, .outline-zoo-white.close-button {
+.btn-zoo.outline-zoo-white, .outline-zoo-white.header-category-button, .card-programme .outline-zoo-white.btn-filter, .outline-zoo-white.programme-menu, .outline-zoo-white.btn-zoo-pill, .filter-badge-container .outline-zoo-white.filter-badge, .outline-zoo-white.close-button {
   border-color: #FFFFFF !important;
   background-color: transparent !important;
   color: #FFFFFF !important;
 }
 
-.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.programme-menu:hover, .outline-zoo-white.btn-zoo-pill:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.programme-menu:focus, .outline-zoo-white.btn-zoo-pill:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.programme-menu:active, .outline-zoo-white.btn-zoo-pill:active, .outline-zoo-white.close-button:active {
+.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.programme-menu:hover, .outline-zoo-white.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-white.filter-badge:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.programme-menu:focus, .outline-zoo-white.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-white.filter-badge:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.programme-menu:active, .outline-zoo-white.btn-zoo-pill:active, .filter-badge-container .outline-zoo-white.filter-badge:active, .outline-zoo-white.close-button:active {
   background-color: #FFFFFF !important;
 }
 
@@ -145,13 +145,13 @@ a.text-zoo-background:hover, a.text-zoo-background:focus, a.text-zoo-background:
   background-color: #FBFBFB !important;
 }
 
-.btn-zoo.outline-zoo-background, .outline-zoo-background.header-category-button, .card-programme .outline-zoo-background.btn-filter, .outline-zoo-background.programme-menu, .outline-zoo-background.btn-zoo-pill, .outline-zoo-background.close-button {
+.btn-zoo.outline-zoo-background, .outline-zoo-background.header-category-button, .card-programme .outline-zoo-background.btn-filter, .outline-zoo-background.programme-menu, .outline-zoo-background.btn-zoo-pill, .filter-badge-container .outline-zoo-background.filter-badge, .outline-zoo-background.close-button {
   border-color: #FBFBFB !important;
   background-color: transparent !important;
   color: #FBFBFB !important;
 }
 
-.btn-zoo.outline-zoo-background:hover, .outline-zoo-background.header-category-button:hover, .card-programme .outline-zoo-background.btn-filter:hover, .outline-zoo-background.programme-menu:hover, .outline-zoo-background.btn-zoo-pill:hover, .outline-zoo-background.close-button:hover, .btn-zoo.outline-zoo-background:focus, .outline-zoo-background.header-category-button:focus, .card-programme .outline-zoo-background.btn-filter:focus, .outline-zoo-background.programme-menu:focus, .outline-zoo-background.btn-zoo-pill:focus, .outline-zoo-background.close-button:focus, .btn-zoo.outline-zoo-background:active, .outline-zoo-background.header-category-button:active, .card-programme .outline-zoo-background.btn-filter:active, .outline-zoo-background.programme-menu:active, .outline-zoo-background.btn-zoo-pill:active, .outline-zoo-background.close-button:active {
+.btn-zoo.outline-zoo-background:hover, .outline-zoo-background.header-category-button:hover, .card-programme .outline-zoo-background.btn-filter:hover, .outline-zoo-background.programme-menu:hover, .outline-zoo-background.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-background.filter-badge:hover, .outline-zoo-background.close-button:hover, .btn-zoo.outline-zoo-background:focus, .outline-zoo-background.header-category-button:focus, .card-programme .outline-zoo-background.btn-filter:focus, .outline-zoo-background.programme-menu:focus, .outline-zoo-background.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-background.filter-badge:focus, .outline-zoo-background.close-button:focus, .btn-zoo.outline-zoo-background:active, .outline-zoo-background.header-category-button:active, .card-programme .outline-zoo-background.btn-filter:active, .outline-zoo-background.programme-menu:active, .outline-zoo-background.btn-zoo-pill:active, .filter-badge-container .outline-zoo-background.filter-badge:active, .outline-zoo-background.close-button:active {
   background-color: #FBFBFB !important;
 }
 
@@ -183,13 +183,13 @@ a.text-zoo-black-text:hover, a.text-zoo-black-text:focus, a.text-zoo-black-text:
   background-color: #000000D9 !important;
 }
 
-.btn-zoo.outline-zoo-black-text, .outline-zoo-black-text.header-category-button, .card-programme .outline-zoo-black-text.btn-filter, .outline-zoo-black-text.programme-menu, .outline-zoo-black-text.btn-zoo-pill, .outline-zoo-black-text.close-button {
+.btn-zoo.outline-zoo-black-text, .outline-zoo-black-text.header-category-button, .card-programme .outline-zoo-black-text.btn-filter, .outline-zoo-black-text.programme-menu, .outline-zoo-black-text.btn-zoo-pill, .filter-badge-container .outline-zoo-black-text.filter-badge, .outline-zoo-black-text.close-button {
   border-color: #000000D9 !important;
   background-color: transparent !important;
   color: #000000D9 !important;
 }
 
-.btn-zoo.outline-zoo-black-text:hover, .outline-zoo-black-text.header-category-button:hover, .card-programme .outline-zoo-black-text.btn-filter:hover, .outline-zoo-black-text.programme-menu:hover, .outline-zoo-black-text.btn-zoo-pill:hover, .outline-zoo-black-text.close-button:hover, .btn-zoo.outline-zoo-black-text:focus, .outline-zoo-black-text.header-category-button:focus, .card-programme .outline-zoo-black-text.btn-filter:focus, .outline-zoo-black-text.programme-menu:focus, .outline-zoo-black-text.btn-zoo-pill:focus, .outline-zoo-black-text.close-button:focus, .btn-zoo.outline-zoo-black-text:active, .outline-zoo-black-text.header-category-button:active, .card-programme .outline-zoo-black-text.btn-filter:active, .outline-zoo-black-text.programme-menu:active, .outline-zoo-black-text.btn-zoo-pill:active, .outline-zoo-black-text.close-button:active {
+.btn-zoo.outline-zoo-black-text:hover, .outline-zoo-black-text.header-category-button:hover, .card-programme .outline-zoo-black-text.btn-filter:hover, .outline-zoo-black-text.programme-menu:hover, .outline-zoo-black-text.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-black-text.filter-badge:hover, .outline-zoo-black-text.close-button:hover, .btn-zoo.outline-zoo-black-text:focus, .outline-zoo-black-text.header-category-button:focus, .card-programme .outline-zoo-black-text.btn-filter:focus, .outline-zoo-black-text.programme-menu:focus, .outline-zoo-black-text.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-black-text.filter-badge:focus, .outline-zoo-black-text.close-button:focus, .btn-zoo.outline-zoo-black-text:active, .outline-zoo-black-text.header-category-button:active, .card-programme .outline-zoo-black-text.btn-filter:active, .outline-zoo-black-text.programme-menu:active, .outline-zoo-black-text.btn-zoo-pill:active, .filter-badge-container .outline-zoo-black-text.filter-badge:active, .outline-zoo-black-text.close-button:active {
   background-color: #000000D9 !important;
 }
 
@@ -221,13 +221,13 @@ a.text-zoo-blue:hover, a.text-zoo-blue:focus, a.text-zoo-blue:active, a.text-zoo
   background-color: #21A8C4 !important;
 }
 
-.btn-zoo.outline-zoo-blue, .outline-zoo-blue.header-category-button, .card-programme .outline-zoo-blue.btn-filter, .outline-zoo-blue.programme-menu, .outline-zoo-blue.btn-zoo-pill, .outline-zoo-blue.close-button {
+.btn-zoo.outline-zoo-blue, .outline-zoo-blue.header-category-button, .card-programme .outline-zoo-blue.btn-filter, .outline-zoo-blue.programme-menu, .outline-zoo-blue.btn-zoo-pill, .filter-badge-container .outline-zoo-blue.filter-badge, .outline-zoo-blue.close-button {
   border-color: #21A8C4 !important;
   background-color: transparent !important;
   color: #21A8C4 !important;
 }
 
-.btn-zoo.outline-zoo-blue:hover, .outline-zoo-blue.header-category-button:hover, .card-programme .outline-zoo-blue.btn-filter:hover, .outline-zoo-blue.programme-menu:hover, .outline-zoo-blue.btn-zoo-pill:hover, .outline-zoo-blue.close-button:hover, .btn-zoo.outline-zoo-blue:focus, .outline-zoo-blue.header-category-button:focus, .card-programme .outline-zoo-blue.btn-filter:focus, .outline-zoo-blue.programme-menu:focus, .outline-zoo-blue.btn-zoo-pill:focus, .outline-zoo-blue.close-button:focus, .btn-zoo.outline-zoo-blue:active, .outline-zoo-blue.header-category-button:active, .card-programme .outline-zoo-blue.btn-filter:active, .outline-zoo-blue.programme-menu:active, .outline-zoo-blue.btn-zoo-pill:active, .outline-zoo-blue.close-button:active {
+.btn-zoo.outline-zoo-blue:hover, .outline-zoo-blue.header-category-button:hover, .card-programme .outline-zoo-blue.btn-filter:hover, .outline-zoo-blue.programme-menu:hover, .outline-zoo-blue.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-blue.filter-badge:hover, .outline-zoo-blue.close-button:hover, .btn-zoo.outline-zoo-blue:focus, .outline-zoo-blue.header-category-button:focus, .card-programme .outline-zoo-blue.btn-filter:focus, .outline-zoo-blue.programme-menu:focus, .outline-zoo-blue.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-blue.filter-badge:focus, .outline-zoo-blue.close-button:focus, .btn-zoo.outline-zoo-blue:active, .outline-zoo-blue.header-category-button:active, .card-programme .outline-zoo-blue.btn-filter:active, .outline-zoo-blue.programme-menu:active, .outline-zoo-blue.btn-zoo-pill:active, .filter-badge-container .outline-zoo-blue.filter-badge:active, .outline-zoo-blue.close-button:active {
   background-color: #21A8C4 !important;
 }
 
@@ -259,13 +259,13 @@ a.text-zoo-magenta:hover, a.text-zoo-magenta:focus, a.text-zoo-magenta:active, a
   background-color: #B25EA5 !important;
 }
 
-.btn-zoo.outline-zoo-magenta, .outline-zoo-magenta.header-category-button, .card-programme .outline-zoo-magenta.btn-filter, .outline-zoo-magenta.programme-menu, .outline-zoo-magenta.btn-zoo-pill, .outline-zoo-magenta.close-button {
+.btn-zoo.outline-zoo-magenta, .outline-zoo-magenta.header-category-button, .card-programme .outline-zoo-magenta.btn-filter, .outline-zoo-magenta.programme-menu, .outline-zoo-magenta.btn-zoo-pill, .filter-badge-container .outline-zoo-magenta.filter-badge, .outline-zoo-magenta.close-button {
   border-color: #B25EA5 !important;
   background-color: transparent !important;
   color: #B25EA5 !important;
 }
 
-.btn-zoo.outline-zoo-magenta:hover, .outline-zoo-magenta.header-category-button:hover, .card-programme .outline-zoo-magenta.btn-filter:hover, .outline-zoo-magenta.programme-menu:hover, .outline-zoo-magenta.btn-zoo-pill:hover, .outline-zoo-magenta.close-button:hover, .btn-zoo.outline-zoo-magenta:focus, .outline-zoo-magenta.header-category-button:focus, .card-programme .outline-zoo-magenta.btn-filter:focus, .outline-zoo-magenta.programme-menu:focus, .outline-zoo-magenta.btn-zoo-pill:focus, .outline-zoo-magenta.close-button:focus, .btn-zoo.outline-zoo-magenta:active, .outline-zoo-magenta.header-category-button:active, .card-programme .outline-zoo-magenta.btn-filter:active, .outline-zoo-magenta.programme-menu:active, .outline-zoo-magenta.btn-zoo-pill:active, .outline-zoo-magenta.close-button:active {
+.btn-zoo.outline-zoo-magenta:hover, .outline-zoo-magenta.header-category-button:hover, .card-programme .outline-zoo-magenta.btn-filter:hover, .outline-zoo-magenta.programme-menu:hover, .outline-zoo-magenta.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-magenta.filter-badge:hover, .outline-zoo-magenta.close-button:hover, .btn-zoo.outline-zoo-magenta:focus, .outline-zoo-magenta.header-category-button:focus, .card-programme .outline-zoo-magenta.btn-filter:focus, .outline-zoo-magenta.programme-menu:focus, .outline-zoo-magenta.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-magenta.filter-badge:focus, .outline-zoo-magenta.close-button:focus, .btn-zoo.outline-zoo-magenta:active, .outline-zoo-magenta.header-category-button:active, .card-programme .outline-zoo-magenta.btn-filter:active, .outline-zoo-magenta.programme-menu:active, .outline-zoo-magenta.btn-zoo-pill:active, .filter-badge-container .outline-zoo-magenta.filter-badge:active, .outline-zoo-magenta.close-button:active {
   background-color: #B25EA5 !important;
 }
 
@@ -297,13 +297,13 @@ a.text-zoo-yellow:hover, a.text-zoo-yellow:focus, a.text-zoo-yellow:active, a.te
   background-color: #F1D42B !important;
 }
 
-.btn-zoo.outline-zoo-yellow, .outline-zoo-yellow.header-category-button, .card-programme .outline-zoo-yellow.btn-filter, .outline-zoo-yellow.programme-menu, .outline-zoo-yellow.btn-zoo-pill, .outline-zoo-yellow.close-button {
+.btn-zoo.outline-zoo-yellow, .outline-zoo-yellow.header-category-button, .card-programme .outline-zoo-yellow.btn-filter, .outline-zoo-yellow.programme-menu, .outline-zoo-yellow.btn-zoo-pill, .filter-badge-container .outline-zoo-yellow.filter-badge, .outline-zoo-yellow.close-button {
   border-color: #F1D42B !important;
   background-color: transparent !important;
   color: #F1D42B !important;
 }
 
-.btn-zoo.outline-zoo-yellow:hover, .outline-zoo-yellow.header-category-button:hover, .card-programme .outline-zoo-yellow.btn-filter:hover, .outline-zoo-yellow.programme-menu:hover, .outline-zoo-yellow.btn-zoo-pill:hover, .outline-zoo-yellow.close-button:hover, .btn-zoo.outline-zoo-yellow:focus, .outline-zoo-yellow.header-category-button:focus, .card-programme .outline-zoo-yellow.btn-filter:focus, .outline-zoo-yellow.programme-menu:focus, .outline-zoo-yellow.btn-zoo-pill:focus, .outline-zoo-yellow.close-button:focus, .btn-zoo.outline-zoo-yellow:active, .outline-zoo-yellow.header-category-button:active, .card-programme .outline-zoo-yellow.btn-filter:active, .outline-zoo-yellow.programme-menu:active, .outline-zoo-yellow.btn-zoo-pill:active, .outline-zoo-yellow.close-button:active {
+.btn-zoo.outline-zoo-yellow:hover, .outline-zoo-yellow.header-category-button:hover, .card-programme .outline-zoo-yellow.btn-filter:hover, .outline-zoo-yellow.programme-menu:hover, .outline-zoo-yellow.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-yellow.filter-badge:hover, .outline-zoo-yellow.close-button:hover, .btn-zoo.outline-zoo-yellow:focus, .outline-zoo-yellow.header-category-button:focus, .card-programme .outline-zoo-yellow.btn-filter:focus, .outline-zoo-yellow.programme-menu:focus, .outline-zoo-yellow.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-yellow.filter-badge:focus, .outline-zoo-yellow.close-button:focus, .btn-zoo.outline-zoo-yellow:active, .outline-zoo-yellow.header-category-button:active, .card-programme .outline-zoo-yellow.btn-filter:active, .outline-zoo-yellow.programme-menu:active, .outline-zoo-yellow.btn-zoo-pill:active, .filter-badge-container .outline-zoo-yellow.filter-badge:active, .outline-zoo-yellow.close-button:active {
   background-color: #F1D42B !important;
 }
 
@@ -335,13 +335,13 @@ a.text-zoo-orange:hover, a.helper-text:hover, .card-programme .card-header a.fa:
   background-color: #F48847 !important;
 }
 
-.btn-zoo.outline-zoo-orange, .outline-zoo-orange.header-category-button, .card-programme .outline-zoo-orange.btn-filter, .btn-zoo.card-programme, .card-programme.header-category-button, .card-programme .card-programme.btn-filter, .outline-zoo-orange.programme-menu, .programme-menu.card-programme, .outline-zoo-orange.btn-zoo-pill, .outline-zoo-orange.close-button, .btn-zoo-pill.card-programme, .card-programme.close-button {
+.btn-zoo.outline-zoo-orange, .outline-zoo-orange.header-category-button, .card-programme .outline-zoo-orange.btn-filter, .btn-zoo.card-programme, .card-programme.header-category-button, .card-programme .card-programme.btn-filter, .outline-zoo-orange.programme-menu, .programme-menu.card-programme, .outline-zoo-orange.btn-zoo-pill, .filter-badge-container .outline-zoo-orange.filter-badge, .outline-zoo-orange.close-button, .btn-zoo-pill.card-programme, .filter-badge-container .card-programme.filter-badge, .card-programme.close-button {
   border-color: #F48847 !important;
   background-color: transparent !important;
   color: #F48847 !important;
 }
 
-.btn-zoo.outline-zoo-orange:hover, .outline-zoo-orange.header-category-button:hover, .card-programme .outline-zoo-orange.btn-filter:hover, .btn-zoo.card-programme:hover, .card-programme.header-category-button:hover, .card-programme .card-programme.btn-filter:hover, .outline-zoo-orange.programme-menu:hover, .programme-menu.card-programme:hover, .outline-zoo-orange.btn-zoo-pill:hover, .outline-zoo-orange.close-button:hover, .btn-zoo-pill.card-programme:hover, .card-programme.close-button:hover, .btn-zoo.outline-zoo-orange:focus, .outline-zoo-orange.header-category-button:focus, .card-programme .outline-zoo-orange.btn-filter:focus, .btn-zoo.card-programme:focus, .card-programme.header-category-button:focus, .card-programme .card-programme.btn-filter:focus, .outline-zoo-orange.programme-menu:focus, .programme-menu.card-programme:focus, .outline-zoo-orange.btn-zoo-pill:focus, .outline-zoo-orange.close-button:focus, .btn-zoo-pill.card-programme:focus, .card-programme.close-button:focus, .btn-zoo.outline-zoo-orange:active, .outline-zoo-orange.header-category-button:active, .card-programme .outline-zoo-orange.btn-filter:active, .btn-zoo.card-programme:active, .card-programme.header-category-button:active, .card-programme .card-programme.btn-filter:active, .outline-zoo-orange.programme-menu:active, .programme-menu.card-programme:active, .outline-zoo-orange.btn-zoo-pill:active, .outline-zoo-orange.close-button:active, .btn-zoo-pill.card-programme:active, .card-programme.close-button:active {
+.btn-zoo.outline-zoo-orange:hover, .outline-zoo-orange.header-category-button:hover, .card-programme .outline-zoo-orange.btn-filter:hover, .btn-zoo.card-programme:hover, .card-programme.header-category-button:hover, .card-programme .card-programme.btn-filter:hover, .outline-zoo-orange.programme-menu:hover, .programme-menu.card-programme:hover, .outline-zoo-orange.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-orange.filter-badge:hover, .outline-zoo-orange.close-button:hover, .btn-zoo-pill.card-programme:hover, .filter-badge-container .card-programme.filter-badge:hover, .card-programme.close-button:hover, .btn-zoo.outline-zoo-orange:focus, .outline-zoo-orange.header-category-button:focus, .card-programme .outline-zoo-orange.btn-filter:focus, .btn-zoo.card-programme:focus, .card-programme.header-category-button:focus, .card-programme .card-programme.btn-filter:focus, .outline-zoo-orange.programme-menu:focus, .programme-menu.card-programme:focus, .outline-zoo-orange.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-orange.filter-badge:focus, .outline-zoo-orange.close-button:focus, .btn-zoo-pill.card-programme:focus, .filter-badge-container .card-programme.filter-badge:focus, .card-programme.close-button:focus, .btn-zoo.outline-zoo-orange:active, .outline-zoo-orange.header-category-button:active, .card-programme .outline-zoo-orange.btn-filter:active, .btn-zoo.card-programme:active, .card-programme.header-category-button:active, .card-programme .card-programme.btn-filter:active, .outline-zoo-orange.programme-menu:active, .programme-menu.card-programme:active, .outline-zoo-orange.btn-zoo-pill:active, .filter-badge-container .outline-zoo-orange.filter-badge:active, .outline-zoo-orange.close-button:active, .btn-zoo-pill.card-programme:active, .filter-badge-container .card-programme.filter-badge:active, .card-programme.close-button:active {
   background-color: #F48847 !important;
 }
 
@@ -356,11 +356,11 @@ body {
   color: #000000D9;
 }
 
-.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.programme-menu:hover, .outline-zoo-white.btn-zoo-pill:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.programme-menu:focus, .outline-zoo-white.btn-zoo-pill:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.programme-menu:active, .outline-zoo-white.btn-zoo-pill:active, .outline-zoo-white.close-button:active, .btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.programme-menu, .outline-zoo-white.active.btn-zoo-pill, .active.close-button {
+.btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.programme-menu:hover, .outline-zoo-white.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-white.filter-badge:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.programme-menu:focus, .outline-zoo-white.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-white.filter-badge:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.programme-menu:active, .outline-zoo-white.btn-zoo-pill:active, .filter-badge-container .outline-zoo-white.filter-badge:active, .outline-zoo-white.close-button:active, .btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.programme-menu, .outline-zoo-white.active.btn-zoo-pill, .filter-badge-container .active.filter-badge, .active.close-button {
   color: #000000 !important;
 }
 
-.btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.programme-menu, .outline-zoo-white.active.btn-zoo-pill, .active.close-button {
+.btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.programme-menu, .outline-zoo-white.active.btn-zoo-pill, .filter-badge-container .active.filter-badge, .active.close-button {
   background-color: #FFFFFF !important;
 }
 
@@ -450,6 +450,18 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
 
 .card-programme .card-header[aria-expanded="true"] .fa {
   transform: rotate(180deg);
+}
+
+.filter-badge-container .filter-badge i.fa {
+  display: none;
+}
+
+.filter-badge-container .filter-badge:hover i.far, .filter-badge-container .filter-badge:active i.far, .filter-badge-container .filter-badge:focus-within i.far {
+  display: none;
+}
+
+.filter-badge-container .filter-badge:hover i.fa, .filter-badge-container .filter-badge:active i.fa, .filter-badge-container .filter-badge:focus-within i.fa {
+  display: inline;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -8284,7 +8296,7 @@ textarea.form-control-lg {
   margin-left: 0.5rem !important;
 }
 
-.ms-3 {
+.ms-3, .filter-badge-container .filter-badge .icons {
   margin-left: 1rem !important;
 }
 
@@ -8484,7 +8496,7 @@ textarea.form-control-lg {
   padding-left: 0.25rem !important;
 }
 
-.px-2 {
+.px-2, .filter-badge-container .filter-badge {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
@@ -8509,7 +8521,7 @@ textarea.form-control-lg {
   padding-bottom: 0 !important;
 }
 
-.py-1 {
+.py-1, .filter-badge-container .filter-badge {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
 }
@@ -8972,7 +8984,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .btn-zoo-pill, .close-button {
+.rounded-pill, .btn-zoo-pill, .close-button, .filter-badge-container .filter-badge {
   border-radius: 50rem !important;
 }
 
