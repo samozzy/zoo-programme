@@ -56,7 +56,6 @@
                         "{% link css/calendar.scss %}",
                     ],
                     zIndex: 10,
-                    datePicked: [new Date({{ site.dates.start | date: "%Y-%m-%d" }}),new Date({{ site.dates.end | date: "%Y-%m-%d" }})],
                     calendars: 2,
                     darkMode: true,
                     readonly: false,
@@ -71,7 +70,6 @@
                     },
                     AmpPlugin: {
                         darkMode: true,
-                        resetButton: true,
                     },
                     plugins: [
                         "AmpPlugin",
