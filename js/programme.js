@@ -78,7 +78,15 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 	filter_query = 'filter-' + btn_id + '-item'
 	inner_text = [];
 	if (btn_id == 'date'){
-		// Do something different!! 
+		date_options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }
+		picked_start_date = picker.getStartDate().toLocaleString(undefined,date_options)
+		picked_end_date = picker.getEndDate().toLocaleString(undefined,date_options)
+		if (picked_start_date != picked_end_date){
+			inner_text.push('Between ' + picked_start_date + ' and ' + picked_end_date)
+		}
+		else {
+			inner_text.push('On ' + picked_start_date)
+		}
 	}
 	else { 
 		if (looking_for_checked == true){
@@ -167,7 +175,8 @@ var filter_date_counter = document.getElementById('filter-date-counter');
 function clearDatePick() {
 	// Reset the datepicker
 	picker.clear(); 
-	clearFilteredOutClass('filtered-out-by-price');
+	hideActiveFilter('date');
+	clearFilteredOutClass('filtered-out-by-date');
 	// Hide the 'no results' text
 	no_results_text.classList.add('d-none');
 	// Hide the number of results text 
@@ -218,6 +227,8 @@ picker.on('select',e => {
   			}
   		}
   	}
+  	showActiveFilter('date')
+
   	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-date').length
   	filter_date_counter.innerHTML = '(' + number_remaining + ')';
   }
