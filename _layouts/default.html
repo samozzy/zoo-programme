@@ -1,5 +1,11 @@
 {% include structure/head.html %}
 
+	{% assign today_date = "now" | date: "%Y-%m-%d" %}
+	{% assign launch_date = site.dates.launch | date: "%Y-%m-%d" %}
+	{% if today_date < launch_date %}
+		{% assign pre_launch = true %}
+	{% endif %}
+
 	<body class="h-100 d-flex flex-column">
 		{{ content }} 
 	</body>
