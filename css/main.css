@@ -440,7 +440,7 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
 
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -450,6 +450,10 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
 
 .card-programme .card-header[aria-expanded="true"] .fa {
   transform: rotate(180deg);
+}
+
+.filter-badge-container {
+  line-height: 2rem;
 }
 
 .filter-badge-container .filter-badge i.fa {
