@@ -3,7 +3,7 @@ email: info@zoovenues.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   ZOO returns to the Edinburgh Fringe in 2022 with a bigger and better programme than ever before.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zoofestival.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zoovenues
 github_username:  samozzy
 timezone: Europe/London
