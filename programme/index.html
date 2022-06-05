@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202206031532">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202206051359">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -417,6 +417,13 @@
 		<div class="col w-100">
 			<div id="filter-badge-container" class="filter-badge-container d-none">
 				<span class="lead">Active filters:</span> 
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearSearch()" id="active-filter-search">
+					<span>Search<span id="active-filter-search-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearDatePick()" id="active-filter-date">
 					<span>Date<span id="active-filter-date-list"></span></span>
 					<div class="icons d-inline">
