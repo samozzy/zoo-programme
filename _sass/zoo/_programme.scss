@@ -44,6 +44,7 @@
 }
 
 .filter-badge-container {
+	line-height: 2rem;
 	.filter-badge {
 		@extend .btn-zoo-pill;
 		@extend .py-1, .px-2;
