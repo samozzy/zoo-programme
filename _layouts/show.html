@@ -154,7 +154,14 @@ use_swiper: true
 				<h3 class="text-zoo-orange">Follow the show</h3>
 				<div>
 					{% for l in show.links %}
-						<a href="{{ l.link }}" target="_blank" class="show-social-link">
+						{% assign first_char = l.link | slice: 0 %}
+						{% if first_char == '@' and l.platform %}
+							{% assign platform = l.platform | downcase %}
+							{% assign this_link = l.link | remove: "@" %}
+							{% assign platform_link = site.data.icons | where: "type", platform | first %}
+							{% assign real_link = platform_link.url | append: this_link %}
+						{% endif %}
+						<a href="{{ real_link | default: l.link }}" target="_blank" class="show-social-link">
 							{% if l.platform %}
 								{% assign platform = l.platform | downcase %}
 								{% assign icon_match = site.data.icons | where: "type", platform | first %}

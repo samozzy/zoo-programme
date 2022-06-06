@@ -142,6 +142,9 @@ a.navbar-brand {
 .social-icon, .social-link {
   color: map-get($zoo-brand, "white");
 }
+.show-social-link {
+  text-decoration: none;
+}
 a.footer-link {
   text-decoration: none;
   @extend .text-muted;
