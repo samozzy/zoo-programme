@@ -30,7 +30,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
-						<p><span>On these dates <span id="filter-date-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>On these dates<i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-date">
 						<div class="card-body d-flex justify-content-around">
@@ -46,7 +46,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
-						<p><span>At these times <span id="filter-time-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>At these times<i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-time">
 						<div class="card-body">
@@ -75,7 +75,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Within this ticket price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-price">
 						<div class="card-body">
@@ -106,7 +106,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
-						<p><span>With this age guidance</span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>With this age guidance <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
@@ -135,7 +135,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p><span>Tagged as <span id="filter-genre-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Tagged as <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-genre">
 						<div class="card-body">
@@ -172,7 +172,7 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
-						<p><span>With these access provisions <span id="filter-access-content-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>With these access provisions <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-access">
 						<div class="card-body">
@@ -271,6 +271,9 @@ layout: page
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
+			</div>
+			<div id="filter-results-text" class="d-none lead">
+				<span id="filter-results-counter"></span>&nbsp;result<span id="filter-results-counter-plural">s</span>
 			</div>
 		</div>
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
