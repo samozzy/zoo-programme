@@ -264,7 +264,7 @@ layout: page
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
-		{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" %}
+		{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" | sort_natural: "title" %}
 		{% for show in available_shows %}
 			{% include text/date-text.html show=show no_output=true %}
 			<div class="col programme-show-container d-block" 
