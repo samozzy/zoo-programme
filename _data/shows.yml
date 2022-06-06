@@ -35,19 +35,41 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - 'Solo Show '
+  - Theatre
+  - 'Music '
+  age_guidance: 0+
   age_restricted: false
   access: []
-  access_details: ''
+  access_details: On 15th and 22nd please join Graeme for a guided touch-tour of the
+    instruments and props used in SAVED. Graeme will lead you around the stage and
+    describe the organs, radios, cassette decks, drums and DIY homemade bass guitar
+    used to make the music of the show. Tough-tour shows will start 5 minutes earlier
+    than advertised show time - please do book in advance.
   content_warnings: []
-  image: ''
+  image: "/static/03-28-2022-183210-5702.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Saved is a multi-layered, retro-mechanical music show built
+    around rescued 70s home organs. Leak, of Spaghetti Western
+    Orchestra fame, gently transports us to a curious sound-world
+    where the mundane becomes surprisingly beautiful. 'Boldly
+    inventive' (TheReviewsHub.com).
+  copy_long: |-
+    Saved is a multi-layered, retro-mechanical music show built
+    around rescued 70s home organs. Turned inside out, their
+    internal spinning speakers are exposed for us to see as well
+    as hear. Along with cassettes, a turntable, AM radios and a
+    modified whisk, Saved celebrates an analogue era where AB-C Fun Block and One Finger Chord buttons captivated our
+    imagination. Leak, of Spaghetti Western Orchestra fame,
+    gently transports us to a curious sound-world where the
+    mundane becomes surprisingly beautiful. 'It knows exactly
+    what it's doing and it does it sublimely' (Lyn
+    Gardner, StagedoorApp.com)
   is_draft: false
 - title: All By Myself
   company: Jessica Bickel-Barlow / Part of the Main
