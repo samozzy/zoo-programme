@@ -105,6 +105,15 @@ fields:
     name: access
     label: Access Provisions
     description: Eg. BSL, Captions
+    config:
+      use_select: true
+      source:
+        type: simple
+      options:
+      - bsl
+      - captions
+      - relaxed
+      - ad
   - type: text
     name: access_details
     label: Detailed access info, eg. which performances have BSL interpretation
