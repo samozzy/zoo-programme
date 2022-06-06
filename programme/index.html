@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202206061710">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202206061713">
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.png">
 
@@ -250,35 +250,35 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
-						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>With this age guidance</span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
 							<div class="d-flex flex-row">
 								
-									<input type="checkbox" class="btn-check" id="age-rating-4" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-4">4+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-4" autocomplete="off" value="4">
+									<label id="btn-age-4" class="btn-filter btn-age" for="age-4">4+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-7" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-7">7+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-7" autocomplete="off" value="7">
+									<label id="btn-age-7" class="btn-filter btn-age" for="age-7">7+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-11" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-11">11+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-11" autocomplete="off" value="11">
+									<label id="btn-age-11" class="btn-filter btn-age" for="age-11">11+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-12" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-12">12+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-12" autocomplete="off" value="12">
+									<label id="btn-age-12" class="btn-filter btn-age" for="age-12">12+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-13" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-13">13+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-13" autocomplete="off" value="13">
+									<label id="btn-age-13" class="btn-filter btn-age" for="age-13">13+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-14" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-14">14+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-14" autocomplete="off" value="14">
+									<label id="btn-age-14" class="btn-filter btn-age" for="age-14">14+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-16" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-16">16+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-16" autocomplete="off" value="16">
+									<label id="btn-age-16" class="btn-filter btn-age" for="age-16">16+</label><br>
 								
-									<input type="checkbox" class="btn-check" id="age-rating-18" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-18">18+</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-18" autocomplete="off" value="18">
+									<label id="btn-age-18" class="btn-filter btn-age" for="age-18">18+</label><br>
 								
 							</div>
 						</div>
@@ -293,11 +293,10 @@
 			
 			
 			
-			
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>Tagged as <span id="filter-genre-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-genre">
 						<div class="card-body">
@@ -306,19 +305,16 @@
 								<label id="btn-genre-audience-participation" class="btn-filter btn-genre" for="filter-genre-audience-participation">audience participation</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-comedy" autocomplete="off" value="comedy">
-								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">Comedy</label>
+								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">comedy</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-comedy" autocomplete="off" value="comedy">
-								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">Comedy </label>
+								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">comedy </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-compilation" autocomplete="off" value="compilation">
-								<label id="btn-genre-compilation" class="btn-filter btn-genre" for="filter-genre-compilation">Compilation</label>
+								<label id="btn-genre-compilation" class="btn-filter btn-genre" for="filter-genre-compilation">compilation</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-dance" autocomplete="off" value="dance">
 								<label id="btn-genre-dance" class="btn-filter btn-genre" for="filter-genre-dance">dance</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-drama" autocomplete="off" value="drama">
-								<label id="btn-genre-drama" class="btn-filter btn-genre" for="filter-genre-drama">Drama</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-drama" autocomplete="off" value="drama">
 								<label id="btn-genre-drama" class="btn-filter btn-genre" for="filter-genre-drama">drama</label>
@@ -327,34 +323,22 @@
 								<label id="btn-genre-genre-defying" class="btn-filter btn-genre" for="filter-genre-genre-defying">genre-defying</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
-								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">New Writing</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
-								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">New writing</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
 								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">new writing</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
-								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">New Writing </label>
+								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">new writing </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-physical-theatre" autocomplete="off" value="physical-theatre">
-								<label id="btn-genre-physical-theatre" class="btn-filter btn-genre" for="filter-genre-physical-theatre">Physical Theatre </label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
-								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">Solo Show</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
-								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">Solo show</label>
+								<label id="btn-genre-physical-theatre" class="btn-filter btn-genre" for="filter-genre-physical-theatre">physical theatre </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
 								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">solo show</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-spoken-show" autocomplete="off" value="spoken-show">
-								<label id="btn-genre-spoken-show" class="btn-filter btn-genre" for="filter-genre-spoken-show">Spoken Show </label>
+								<label id="btn-genre-spoken-show" class="btn-filter btn-genre" for="filter-genre-spoken-show">spoken show </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-true-life" autocomplete="off" value="true-life">
-								<label id="btn-genre-true-life" class="btn-filter btn-genre" for="filter-genre-true-life">True-life</label>
+								<label id="btn-genre-true-life" class="btn-filter btn-genre" for="filter-genre-true-life">true-life</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-weird" autocomplete="off" value="weird">
 								<label id="btn-genre-weird" class="btn-filter btn-genre" for="filter-genre-weird">weird</label>
@@ -371,9 +355,7 @@
 			
 			
 			
-			
 
-			
 			
 			
 			
@@ -389,14 +371,6 @@
 							<p class="lead">Access</p>
 							
 								
-								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-bsl" autocomplete="off" value="bsl">
-								<label id="btn-access-bsl" class="btn-filter btn-access" for="filter-access-bsl">BSL</label>
-							
-								
-								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-wheelchair-accessible" autocomplete="off" value="wheelchair-accessible">
-								<label id="btn-access-wheelchair-accessible" class="btn-filter btn-access" for="filter-access-wheelchair-accessible">Wheelchair Accessible </label>
-							
-								
 								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-ad" autocomplete="off" value="ad">
 								<label id="btn-access-ad" class="btn-filter btn-access" for="filter-access-ad"><i class="ad.png"></i>&nbsp;ad</label>
 							
@@ -408,51 +382,61 @@
 								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-captions" autocomplete="off" value="captions">
 								<label id="btn-access-captions" class="btn-filter btn-access" for="filter-access-captions"><i class="cap.png"></i>&nbsp;captions</label>
 							
+								
+								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-wheelchair-accessible" autocomplete="off" value="wheelchair-accessible">
+								<label id="btn-access-wheelchair-accessible" class="btn-filter btn-access" for="filter-access-wheelchair-accessible">wheelchair accessible </label>
+							
 							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are fully wheelchair accessible.</p>
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-themes" autocomplete="off" value="contains-distressing-themes" checked>
-								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">Contains Distressing Themes</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise" autocomplete="off" value="discussion-of-vomiting-and-one-sudden-loud-noise" checked>
+								<label id="btn-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise" class="btn-filter btn-cw" for="filter-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise"> discussion of vomiting and one sudden loud noise.</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-treatments-and-impact-of-cancer-on-a-family" autocomplete="off" value="treatments-and-impact-of-cancer-on-a-family" checked>
+								<label id="btn-content-warning-treatments-and-impact-of-cancer-on-a-family" class="btn-filter btn-cw" for="filter-content-warning-treatments-and-impact-of-cancer-on-a-family"> treatments and impact of cancer on a family.</label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-themes" autocomplete="off" value="contains-distressing-themes" checked>
-								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">Contains Distressing Themes </label>
+								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">contains distressing themes</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-themes" autocomplete="off" value="contains-distressing-themes" checked>
+								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">contains distressing themes </label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-discusses-sexual-assault-and-abortion" autocomplete="off" value="discusses-sexual-assault-and-abortion" checked>
-								<label id="btn-content-warning-discusses-sexual-assault-and-abortion" class="btn-filter btn-cw" for="filter-content-warning-discusses-sexual-assault-and-abortion">Discusses sexual assault and abortion</label>
+								<label id="btn-content-warning-discusses-sexual-assault-and-abortion" class="btn-filter btn-cw" for="filter-content-warning-discusses-sexual-assault-and-abortion">discusses sexual assault and abortion</label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-discussion-of-sexual-assault-and-rape" autocomplete="off" value="discussion-of-sexual-assault-and-rape" checked>
-								<label id="btn-content-warning-discussion-of-sexual-assault-and-rape" class="btn-filter btn-cw" for="filter-content-warning-discussion-of-sexual-assault-and-rape">Discussion of Sexual Assault and Rape</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-nudity" autocomplete="off" value="nudity" checked>
-								<label id="btn-content-warning-nudity" class="btn-filter btn-cw" for="filter-content-warning-nudity">Nudity</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-scenes-of-a-sexual-nature" autocomplete="off" value="scenes-of-a-sexual-nature" checked>
-								<label id="btn-content-warning-scenes-of-a-sexual-nature" class="btn-filter btn-cw" for="filter-content-warning-scenes-of-a-sexual-nature">Scenes of a Sexual Nature</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-scenes-of-a-sexual-nature" autocomplete="off" value="scenes-of-a-sexual-nature" checked>
-								<label id="btn-content-warning-scenes-of-a-sexual-nature" class="btn-filter btn-cw" for="filter-content-warning-scenes-of-a-sexual-nature">Scenes of a Sexual Nature </label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
-								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">Strong Language/Swearing</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
-								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">Strong Language/Swearing </label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" autocomplete="off" value="this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" checked>
-								<label id="btn-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" class="btn-filter btn-cw" for="filter-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family">This show focuses on experiences, treatments and impact of cancer on a family.</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" autocomplete="off" value="two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" checked>
-								<label id="btn-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" class="btn-filter btn-cw" for="filter-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise">Two instances of strong language, discussion of vomiting and one sudden loud noise.</label>
+								<label id="btn-content-warning-discussion-of-sexual-assault-and-rape" class="btn-filter btn-cw" for="filter-content-warning-discussion-of-sexual-assault-and-rape">discussion of sexual assault and rape</label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-distressing-themes" autocomplete="off" value="distressing-themes" checked>
 								<label id="btn-content-warning-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-distressing-themes">distressing themes</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-nudity" autocomplete="off" value="nudity" checked>
+								<label id="btn-content-warning-nudity" class="btn-filter btn-cw" for="filter-content-warning-nudity">nudity</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-scenes-of-a-sexual-nature" autocomplete="off" value="scenes-of-a-sexual-nature" checked>
+								<label id="btn-content-warning-scenes-of-a-sexual-nature" class="btn-filter btn-cw" for="filter-content-warning-scenes-of-a-sexual-nature">scenes of a sexual nature</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-scenes-of-a-sexual-nature" autocomplete="off" value="scenes-of-a-sexual-nature" checked>
+								<label id="btn-content-warning-scenes-of-a-sexual-nature" class="btn-filter btn-cw" for="filter-content-warning-scenes-of-a-sexual-nature">scenes of a sexual nature </label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strobe-lighting" autocomplete="off" value="strobe-lighting" checked>
 								<label id="btn-content-warning-strobe-lighting" class="btn-filter btn-cw" for="filter-content-warning-strobe-lighting">strobe lighting</label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language" autocomplete="off" value="strong-language" checked>
 								<label id="btn-content-warning-strong-language" class="btn-filter btn-cw" for="filter-content-warning-strong-language">strong language</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
+								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
+								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing </label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-this-show-focuses-on-experiences" autocomplete="off" value="this-show-focuses-on-experiences" checked>
+								<label id="btn-content-warning-this-show-focuses-on-experiences" class="btn-filter btn-cw" for="filter-content-warning-this-show-focuses-on-experiences">this show focuses on experiences</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-two-instances-of-strong-language" autocomplete="off" value="two-instances-of-strong-language" checked>
+								<label id="btn-content-warning-two-instances-of-strong-language" class="btn-filter btn-cw" for="filter-content-warning-two-instances-of-strong-language">two instances of strong language</label>
 							
 							<p class="helper-text text-muted ms-1 mt-1"><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</p>
 						</div>
@@ -509,6 +493,13 @@
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAgeCheckboxes()" id="active-filter-age">
+					<span>Age<span id="active-filter-age-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearGenreCheckboxes()" id="active-filter-genre">
 					<span>Genre<span id="active-filter-genre-list"></span></span>
 					<div class="icons d-inline">
@@ -536,6 +527,7 @@
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
 		
+		
 			
 
 
@@ -548,6 +540,7 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-28" 
 				data-time="18"
+				data-age_guidance="12+"
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-25,2022-08-24,2022-08-23,2022-08-22,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="physical-theatre-solo-show"
@@ -574,7 +567,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -585,7 +578,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/all-by-myself/">Read more</a>
 	
@@ -968,6 +961,7 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-13" 
 				data-time="14"
+				data-age_guidance="16+"
 				data-performances="2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="comedy-new-writing"
@@ -994,7 +988,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -1005,7 +999,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/nympho/">Read more</a>
 	
@@ -1388,6 +1382,7 @@
 				data-date_start="2022-08-14" 
 				data-date_end="2022-08-25" 
 				data-time="11"
+				data-age_guidance="14+"
 				data-performances="2022-08-25,2022-08-24,2022-08-23,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-15,2022-08-14"
 				data-price=""
 				data-genre="comedy-new-writing"
@@ -1414,7 +1409,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -1425,7 +1420,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/lucid/">Read more</a>
 	
@@ -1808,6 +1803,7 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-28" 
 				data-time="10"
+				data-age_guidance="12+"
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-24,2022-08-23,2022-08-22,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-15,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="drama-comedy"
@@ -1834,7 +1830,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -1845,7 +1841,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/an-audience-with-stuart-bagcliffe/">Read more</a>
 	
@@ -2228,6 +2224,7 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-28" 
 				data-time="17"
+				data-age_guidance="16+"
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-25,2022-08-24,2022-08-23,2022-08-22,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-15,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="new-writing-spoken-show"
@@ -2254,7 +2251,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -2265,7 +2262,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/manic/">Read more</a>
 	
@@ -2648,6 +2645,7 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-28" 
 				data-time="15"
+				data-age_guidance=""
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-25,2022-08-24,2022-08-23,2022-08-22,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-15,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="compilation-new-writing"
@@ -2674,7 +2672,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -2685,7 +2683,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/52-souls/">Read more</a>
 	
@@ -3068,10 +3066,11 @@
 				data-date_start="2022-08-05" 
 				data-date_end="2022-08-13" 
 				data-time="11"
+				data-age_guidance="16+"
 				data-performances="2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
 				data-price=""
 				data-genre="true-life-solo-show"
-				data-access="Wheelchair Accessible ,BSL"
+				data-access="wheelchair accessible ,bsl"
 				data-content_warnings="this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family-contains-distressing-themes"
 				id="red-alert-cancer"
 				>
@@ -3094,7 +3093,7 @@
 		
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -3105,7 +3104,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/red-alert---cancer/">Read more</a>
 	
@@ -3488,6 +3487,7 @@
 				data-date_start="2022-07-29" 
 				data-date_end="2022-08-31" 
 				data-time="14"
+				data-age_guidance=""
 				data-performances="2022-07-29,2022-08-01,2022-08-03,2022-08-05,2022-08-21,2022-08-31"
 				data-price="4"
 				data-genre="solo-show-new-writing-audience-participation"
@@ -3516,7 +3516,7 @@
 			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£5 (£4)</p>
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -3527,7 +3527,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/five-encounters-on-a-site-called-craigslist/">Read more</a>
 	
@@ -3910,6 +3910,7 @@
 				data-date_start="2022-08-01" 
 				data-date_end="2022-08-05" 
 				data-time="19"
+				data-age_guidance=""
 				data-performances="2022-08-01,2022-08-02,2022-08-03,2022-08-04,2022-08-05"
 				data-price="6"
 				data-genre="new-writing-drama"
@@ -3938,7 +3939,7 @@
 			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£8 (£6)</p>
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -3949,7 +3950,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/beam/">Read more</a>
 	
@@ -4332,6 +4333,7 @@
 				data-date_start="2022-08-02" 
 				data-date_end="2022-08-12" 
 				data-time="10"
+				data-age_guidance=""
 				data-performances="2022-08-02,2022-08-04,2022-08-06,2022-08-07,2022-08-08,2022-08-09,2022-08-10,2022-08-12"
 				data-price="10"
 				data-genre="new-writing-dance"
@@ -4360,7 +4362,7 @@
 			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£10 (£10)</p>
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -4371,7 +4373,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/action-at-a-distance/">Read more</a>
 	
@@ -4754,6 +4756,7 @@
 				data-date_start="2022-07-29" 
 				data-date_end="2022-08-31" 
 				data-time="12"
+				data-age_guidance=""
 				data-performances="2022-07-29,2022-08-01,2022-08-03,2022-08-05,2022-08-21,2022-08-31"
 				data-price="8"
 				data-genre="new-writing-weird-genre-defying"
@@ -4782,7 +4785,7 @@
 			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£12 (£8)</p>
 		
 		
-<div class="buttons mb-3 d-flex justify-content-around mx-n1">
+<div class="buttons">
 	
 	
 
@@ -4793,7 +4796,7 @@
 
 	
 	
-	<a class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
+	<a href="#" target="_blank" class="btn-zoo-book btn-outline-info w-50 mx-1  disabled" role="button" disabled>Tickets available soon</a>
 	
 		<a class="btn-zoo-book btn-info w-50 mx-1 " role="button" href="/programme/anyones-guess-how-we-got-here/">Read more</a>
 	

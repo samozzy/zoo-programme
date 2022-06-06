@@ -356,6 +356,12 @@ body {
   color: #000000D9;
 }
 
+.buttons .btn-zoo-book {
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .btn-zoo.outline-zoo-white:hover, .outline-zoo-white.header-category-button:hover, .card-programme .outline-zoo-white.btn-filter:hover, .outline-zoo-white.programme-menu:hover, .outline-zoo-white.btn-zoo-pill:hover, .filter-badge-container .outline-zoo-white.filter-badge:hover, .outline-zoo-white.close-button:hover, .btn-zoo.outline-zoo-white:focus, .outline-zoo-white.header-category-button:focus, .card-programme .outline-zoo-white.btn-filter:focus, .outline-zoo-white.programme-menu:focus, .outline-zoo-white.btn-zoo-pill:focus, .filter-badge-container .outline-zoo-white.filter-badge:focus, .outline-zoo-white.close-button:focus, .btn-zoo.outline-zoo-white:active, .outline-zoo-white.header-category-button:active, .card-programme .outline-zoo-white.btn-filter:active, .outline-zoo-white.programme-menu:active, .outline-zoo-white.btn-zoo-pill:active, .filter-badge-container .outline-zoo-white.filter-badge:active, .outline-zoo-white.close-button:active, .btn-zoo.outline-zoo-white.active, .outline-zoo-white.active.header-category-button, .card-programme .outline-zoo-white.active.btn-filter, .outline-zoo-white.active.programme-menu, .outline-zoo-white.active.btn-zoo-pill, .filter-badge-container .active.filter-badge, .active.close-button {
   color: #000000 !important;
 }
@@ -378,6 +384,10 @@ a.navbar-brand:hover #navbar-logo, a.navbar-brand:focus-within #navbar-logo, a.n
 
 .social-icon, .social-link {
   color: #FFFFFF;
+}
+
+.show-social-link {
+  text-decoration: none;
 }
 
 a.footer-link {
@@ -7644,7 +7654,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, .card-programme .card-header p, .show-image {
+.d-flex, .buttons, .buttons .btn-zoo-book, .card-programme .card-header p, .show-image {
   display: flex !important;
 }
 
@@ -8003,7 +8013,7 @@ textarea.form-control-lg {
   justify-content: space-between !important;
 }
 
-.justify-content-around {
+.justify-content-around, .buttons {
   justify-content: space-around !important;
 }
 
@@ -8277,7 +8287,7 @@ textarea.form-control-lg {
   margin-bottom: 0.5rem !important;
 }
 
-.mb-3, .card-show .show-image img, .show-details .show-blurb {
+.mb-3, .buttons, .card-show .show-image img, .show-details .show-blurb {
   margin-bottom: 1rem !important;
 }
 
@@ -8341,7 +8351,7 @@ textarea.form-control-lg {
   margin: -3rem !important;
 }
 
-.mx-n1 {
+.mx-n1, .buttons {
   margin-right: -0.25rem !important;
   margin-left: -0.25rem !important;
 }
