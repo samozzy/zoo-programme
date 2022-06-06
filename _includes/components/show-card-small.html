@@ -11,10 +11,7 @@
 		{% if show.price and show.price.standard and show.price.standard != empty %}
 			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;£{{ show.price.standard }} {% if show.price.concession and show.price.concession != empty %}(£{{ show.price.concession }}){% endif %}</p>
 		{% endif %}
-		<div class="buttons mb-3">
-			<a class="btn-zoo-book btn-outline-info w-25" role="button">Book Tickets</a>
-			<a class="btn-zoo-book btn-info w-25" role="button" href="/{{ show.title | datapage_url: 'programme' }}">Read more</a>
-		</div>
+		{% include show/buttons.html show=show %}
 	</div>
 	<div class="card-footer bg-transparent">
 		{% include components/dates.html show=show %}
