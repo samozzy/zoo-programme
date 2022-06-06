@@ -48,7 +48,6 @@
   genre:
   - True-life
   - Solo show
-  - Theatre
   access:
   - 'Wheelchair Accessible '
   - BSL
@@ -82,7 +81,7 @@
     Everything, Maryland, Deliverance).
   ticket_url: ''
   booking_unavailable: false
-  age_guidance: ''
+  age_guidance: 16+
   age_restricted: false
   is_draft: false
 - title: Five Encounters on a Site Called Craigslist
