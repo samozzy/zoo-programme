@@ -73,6 +73,19 @@ fields:
         type: documents
         section: ''
         file: _data/tags.yml
+  - name: age_guidance
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: age-ratings
+        file: 
+        path: 
+    label: Age Guidance
+    description: Age guidance for shows
   - type: list
     name: access
     label: Access Provisions
