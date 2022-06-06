@@ -334,9 +334,6 @@ picker.on('select',e => {
   		}
   	}
   	showActiveFilter('date')
-
-  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-date').length
-  	filter_date_counter.innerHTML = '(' + number_remaining + ')';
   }
 
 })
@@ -387,18 +384,7 @@ time_checkboxes.forEach(function(checkbox) {
 				}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('time');
-
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('time');
-    }
+   	showActiveFilter('time');
   })
 });
 
@@ -447,17 +433,7 @@ price_checkboxes.forEach(function(checkbox) {
 				}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('price');
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('price');
-    }
+    showActiveFilter('price');
   })
 });
 
@@ -505,17 +481,7 @@ age_checkboxes.forEach(function(checkbox) {
 				}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('age')
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('age')
-    }
+    showActiveFilter('age')
   })
 });
 
@@ -564,17 +530,7 @@ genre_checkboxes.forEach(function(checkbox) {
 				}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('genre')
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('genre')
-    }
+    showActiveFilter('genre')
   })
 });
 
@@ -622,17 +578,7 @@ content_warning_checkboxes.forEach(function(checkbox) {
     		}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('content-warning', false);
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('content-warning', false)
-    }
+    showActiveFilter('content-warning', false)
   })
 });
 
@@ -681,17 +627,7 @@ access_checkboxes.forEach(function(checkbox) {
 				}
     	}
     }
-
-    // Make the button .active status follow the checkbox checked status explicitly 
-    var this_button = document.getElementById(this.id)
-    if (this_button.checked) {
-    	this.labels[0].classList.add('active');
-    	showActiveFilter('access');
-    }
-    else {
-    	this.labels[0].classList.remove('active');
-    	showActiveFilter('access');
-    }
+    showActiveFilter('access');
   })
 });
 
