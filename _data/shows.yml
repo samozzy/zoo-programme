@@ -1,4 +1,62 @@
 ---
+- title: 'Far Gone '
+  company: Roots Mbili Theatre
+  venue: Zoo Southside
+  start_time: '17:40'
+  duration: 1hr5mins
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Physical Theatre '
+  - 'Solo Show '
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  - 'Audience Participation '
+  image: "/static/04-11-2022-181106-7434.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Far Gone is a gut-kicking one-man performance about the
+    transformation of a boy into a child soldier by Uganda's notorious
+    LRA, told with humour, African storytelling and startling physical
+    theatre.
+  copy_long: |-
+    A Roots Mbili Theatre and Sheffield Theatres co-production.
+    'If I invited you to come with me on a journey, a story, will you
+    come with me?' Northern Uganda. When Okumu's village is
+    attacked by the Lord's Resistance Army (LRA), he and his
+    brother's lives are changed forever. Far Gone is a profoundly
+    moving story of a young boy's journey from childhood
+    innocence to child soldier. Seen through the eyes of those
+    that love him and those that betray him, Okumu's experience
+    strikes straight at the heart through a powerful one-man
+    performance.
+  is_draft: false
 - title: Truth/Reconciliation
   company: ELEGY.
   venue: Zoo Playground
