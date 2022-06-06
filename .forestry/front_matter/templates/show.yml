@@ -91,10 +91,10 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: age-ratings
-        file: 
-        path: 
+        file: _data/age-ratings.yml
+        path: Age ratings
     label: Age Guidance
     description: Age guidance for shows
   - name: age_restricted
