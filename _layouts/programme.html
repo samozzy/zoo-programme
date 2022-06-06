@@ -124,15 +124,14 @@ layout: page
 				</div>
 			</div>
 			<!-- Genres -->
-			{% assign genres_data = site.data.shows | map: "genre" | uniq  %}
-			{% assign genres = '' | split: ''  %}
-			{% for g in genres_data %}{% if g != nil %}{% assign genres = genres | push: g %}{% endif %}{% endfor %}
-			{% assign genres = genres | sort_natural %}
+			{% assign genres_data = site.data.shows | map: "genre" | compact | uniq %}
+			{% assign genres_data = genres_data | join: "," | downcase | split: "," | uniq %}
+			{% assign genres = genres_data | sort_natural %}
 			{% unless genres.size <= 1 %}
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p>In these genres <span id="filter-genre-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>Tagged as <span id="filter-genre-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-genre">
 						<div class="card-body">
@@ -149,15 +148,13 @@ layout: page
 			</div>
 			{% endunless %}
 			<!-- Access and Content Warnings -->
-			{% assign content_warnings_data = site.data.shows | map: "content_warnings" | uniq  %}
-			{% assign content_warnings = '' | split: ''  %}
-			{% for cw in content_warnings_data %}{% if cw != nil %}{% assign content_warnings = content_warnings | push: cw %}{% endif %}{% endfor %}
-			{% assign content_warnings = content_warnings | sort %}
+			{% assign content_warnings_data = site.data.shows | map: "content_warnings" | compact | uniq  %}
+			{% assign content_warnings_data = content_warnings_data | join: "," | downcase | split: "," | uniq %}
+			{% assign content_warnings = content_warnings_data | sort_natural %}
 
-			{% assign access_data = site.data.shows | map: "access" | uniq  %}
-			{% assign access = '' | split: ''  %}
-			{% for a in access_data %}{% if a != nil %}{% assign access = access | push: a %}{% endif %}{% endfor %}
-			{% assign access = access | sort %}
+			{% assign access_data = site.data.shows | map: "access" | compact | uniq  %}
+			{% assign access_data = access_data | join: "," | downcase | split: "," | uniq %}
+			{% assign access = access_data | sort_natural %}
 
 			{% unless access.size <= 1 and content_warnings.size <= 1 %}
 			<div class="col">
@@ -279,8 +276,8 @@ layout: page
 				data-performances="{{ show.performances | join: ',' }}"
 				data-price="{{ show.price.concession | default: show.price.standard }}"
 				data-genre="{{ show.genre | join:',' | slugify }}"
-				data-access="{{ show.access | join: ',' | default: '' }}"
-				data-content_warnings="{% if show.content_warnings and show.content_warnings != empty %}{{ show.content_warnings | join: ',' | slugify }}{% endif %}"
+				data-access="{{ show.access | join: ',' | downcase | default: '' }}"
+				data-content_warnings="{{ show.content_warnings | join: ',' | slugify }}"
 				id="{{ show.title | slugify }}"
 				>
 				{% include components/show-card-small.html show=show %}
