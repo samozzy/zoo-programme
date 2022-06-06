@@ -106,14 +106,14 @@ layout: page
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
-						<p>With this age rating <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p><span>With this age guidance</span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
 							<div class="d-flex flex-row">
 								{% for rating in site.data.age-ratings %}
-									<input type="checkbox" class="btn-check" id="age-rating-{{ rating | slugify }}" autocomplete="off">
-									<label class="btn-filter btn-age" for="age-rating-{{ rating | slugify }}">{{ rating }}</label><br>
+									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-{{ rating | slugify }}" autocomplete="off" value="{{ rating | slugify }}">
+									<label id="btn-age-{{ rating | slugify }}" class="btn-filter btn-age" for="age-{{ rating | slugify }}">{{ rating }}</label><br>
 								{% endfor %}
 							</div>
 						</div>
@@ -234,6 +234,13 @@ layout: page
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAgeCheckboxes()" id="active-filter-age">
+					<span>Age<span id="active-filter-age-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearGenreCheckboxes()" id="active-filter-genre">
 					<span>Genre<span id="active-filter-genre-list"></span></span>
 					<div class="icons d-inline">
@@ -268,6 +275,7 @@ layout: page
 				data-date_start="{{ first_performance | date: '%Y-%m-%d' }}" 
 				data-date_end="{{ last_performance | date: '%Y-%m-%d' }}" 
 				data-time="{{ show.start_time | split: ':' | first }}"
+				data-age_guidance="{{ show.age_guidance | default: '' }}"
 				data-performances="{{ show.performances | join: ',' }}"
 				data-price="{{ show.price.concession | default: show.price.standard }}"
 				data-genre="{{ show.genre | join:',' | slugify }}"

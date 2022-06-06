@@ -406,6 +406,83 @@ price_checkboxes.forEach(function(checkbox) {
 });
 
 //
+// Age Guidance Filter //
+//
+var age_checkboxes = document.querySelectorAll('input[name="filter-age-item"]');
+let picked_ages = [] 
+var filter_age_counter = document.getElementById('filter-price-counter');
+var age_buttons = document.getElementsByClassName('btn-age');
+
+function clearAgeCheckboxes() {
+	clearFilteredOutClass('filtered-out-by-age', age_checkboxes, false, age_buttons);
+
+	// Hide the 'no results' text
+	no_results_text.classList.add('d-none');
+	// Hide the number of results text 
+	filter_age_counter.innerHTML = '';
+}
+
+age_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_ages = 
+      Array.from(age_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_ages.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-age')) {
+					the_shows[i].classList.remove('filtered-out-by-age');
+				}
+			}
+			filter_age_counter.innerHTML = '';
+			no_results_text.classList.add('d-none')
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-age');
+    	}
+    	// Iterate over the picked ages and display shows that match
+    	for (p=0; p < picked_ages.length; p++) {
+    		// STEP 1: Apply the filter to the show classes
+    		console.log(picked_ages);
+    		for (s=0; s < the_shows.length; s++) {
+    			if (the_shows[s].dataset.age_guidance.includes(picked_ages[p])) {
+						// If the ticket price is in range, display the show 
+						if (the_shows[s].classList.contains('filtered-out-by-age')) the_shows[s].classList.remove('filtered-out-by-age');
+					}
+				}
+    	}
+	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-age').length
+	  	filter_age_counter.innerHTML = '(' + number_remaining + ')';
+    }
+
+	  // No results label
+    if (document.getElementsByClassName('filtered-out-by-age').length == the_shows.length) {
+    	// Everything filtered out 
+	    no_results_text.classList.remove('d-none');
+    }
+    else {
+    	no_results_text.classList.add('d-none');
+    }
+
+    // Make the button .active status follow the checkbox checked status explicitly 
+    var this_button = document.getElementById(this.id)
+    if (this_button.checked) {
+    	this.labels[0].classList.add('active');
+    	showActiveFilter('age')
+    }
+    else {
+    	this.labels[0].classList.remove('active');
+    	hideActiveFilter('age')
+    }
+  })
+});
+
+//
 // Genre Filter //
 //
 var genre_checkboxes = document.querySelectorAll('input[name="filter-genre-item"]');
