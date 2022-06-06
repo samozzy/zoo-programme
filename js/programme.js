@@ -40,6 +40,36 @@ var no_results_text = document.getElementById('no-result-text');
 //
 // Utility Functions // 
 //
+function countResults() {
+	filtered_out_shows = document.querySelectorAll('#show-list div[class*="filtered-out-by"]').length
+	number_remaining = the_shows.length - filtered_out_shows
+	has_results_text = document.getElementById('filter-results-text')
+	no_results_text = document.getElementById('no-result-text')
+	if (number_remaining == 0) {
+		has_results_text.classList.add('d-none')
+		no_results_text.classList.remove('d-none')
+	}
+	else {
+		if (filtered_out_shows == 0 && document.getElementById('filter-badge-container').classList.value.includes('d-none')){
+			// If the filter badge container isn't visible, assume nothing is being filtered 
+			no_results_text.classList.add('d-none')
+			has_results_text.classList.add('d-none')
+		}
+		else {
+			// Somewhere between 1 and everything has been filtered in, let's go
+			has_results_text.classList.remove('d-none')
+			no_results_text.classList.add('d-none')
+			document.getElementById('filter-results-counter').innerHTML = number_remaining;
+			if (number_remaining > 1){
+				document.getElementById('filter-results-counter-plural').classList.remove('d-none')
+			}
+			else {
+				document.getElementById('filter-results-counter-plural').classList.add('d-none')
+			}
+		}
+	}
+}
+
 function clearFilteredOutClass(
 	className, 
 	checkboxes=null, checkbox_default_state=false, 
@@ -66,6 +96,7 @@ function clearFilteredOutClass(
 		}
 	}
 	hideActiveFilter(className.replace('filtered-out-by-',''))
+	countResults();
 }
 
 //
@@ -111,11 +142,13 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 	filter_button_inner_text = document.getElementById('active-filter-' + btn_id + '-list')
 	filter_button_inner_text.innerText = ': ' + inner_text.join('; ');
 }
+	countResults();
 
 function hideActiveFilter(btn_id){
 	filter_container = document.getElementById('filter-badge-container')
 	document.getElementById('active-filter-' + btn_id).classList.add('d-none');
 	document.getElementById('active-filter-' + btn_id + '-list').innerText = '';
+	countResults();
 
 	// If all of the filters have been hidden, hide the container 
 	if (filter_container.querySelectorAll('button').length == filter_container.querySelectorAll('button.d-none').length){
@@ -132,7 +165,6 @@ function clearSearch(){
 	search_box.value = '';
 	clearFilteredOutClass('filtered-out-by-search')
 	hideActiveFilter('search')
-	no_results_text.classList.add('d-none')
 }
 function doSearch(term){
 	// Strip any whitespace (not that there should be any)
@@ -152,7 +184,6 @@ function doSearch(term){
 }
 function doHint(){
 	// Show a prompt to give a larger search query when there aren't enough characters
-	no_results_text.classList.add('d-none');
 	// Partial reset of the search to show everything for the meantime 
 	clearFilteredOutClass('filtered-out-by-search');
 	hideActiveFilter('search')
@@ -231,10 +262,9 @@ search_box.addEventListener('input', (event) => {
 					doHint();
 				}
 			}
-			no_results_text.classList.remove('d-none');
 		}
 		else {
-			no_results_text.classList.add('d-none');
+			// Nothing? 
 		}
 	}
 	else {
@@ -247,16 +277,11 @@ search_box.addEventListener('input', (event) => {
 // Date Picker //
 //
 var date_picker = document.getElementById('datepicker');
-var filter_date_counter = document.getElementById('filter-date-counter');
 function clearDatePick() {
 	// Reset the datepicker
 	picker.clear(); 
 	hideActiveFilter('date');
 	clearFilteredOutClass('filtered-out-by-date');
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_date_counter.innerHTML = '';
 }
 
 picker.on('select',e => {
@@ -268,8 +293,6 @@ picker.on('select',e => {
 				the_shows[i].classList.remove('filtered-out-by-date');
 			}
 		}
-		filter_date_counter.innerHTML = '';
-		no_results_text.classList.add('d-none')
   }
   else {
   	// Assuming something is ticked, filter the shows appropriately. 
@@ -316,17 +339,11 @@ picker.on('select',e => {
 //
 var time_checkboxes = document.querySelectorAll('input[name="filter-time-item"]');
 let picked_times = [] 
-var filter_time_counter = document.getElementById('filter-time-counter');
 var time_buttons = document.getElementsByClassName('btn-time');
 
 function clearTimeCheckboxes() {
 	// Reset the checkboxes and remove the filter from the shows 
 	clearFilteredOutClass('filtered-out-by-time',time_checkboxes,false,time_buttons)
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_time_counter.innerHTML = '';
 }
 
 time_checkboxes.forEach(function(checkbox) {
@@ -343,8 +360,6 @@ time_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-time');
 				}
 			}
-			filter_time_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -364,17 +379,6 @@ time_checkboxes.forEach(function(checkbox) {
 					}
 				}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-time').length
-	  	filter_time_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-time').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
@@ -396,16 +400,10 @@ time_checkboxes.forEach(function(checkbox) {
 //
 var price_checkboxes = document.querySelectorAll('input[name="filter-price-item"]');
 let picked_prices = [] 
-var filter_price_counter = document.getElementById('filter-price-counter');
 var price_buttons = document.getElementsByClassName('btn-price');
 
 function clearPriceCheckboxes() {
 	clearFilteredOutClass('filtered-out-by-price', price_checkboxes, false, price_buttons)
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_price_counter.innerHTML = '';
 }
 
 price_checkboxes.forEach(function(checkbox) {
@@ -422,8 +420,6 @@ price_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-price');
 				}
 			}
-			filter_price_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -443,17 +439,6 @@ price_checkboxes.forEach(function(checkbox) {
 					}
 				}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-price').length
-	  	filter_price_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-price').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
@@ -474,16 +459,10 @@ price_checkboxes.forEach(function(checkbox) {
 //
 var age_checkboxes = document.querySelectorAll('input[name="filter-age-item"]');
 let picked_ages = [] 
-var filter_age_counter = document.getElementById('filter-price-counter');
 var age_buttons = document.getElementsByClassName('btn-age');
 
 function clearAgeCheckboxes() {
 	clearFilteredOutClass('filtered-out-by-age', age_checkboxes, false, age_buttons);
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_age_counter.innerHTML = '';
 }
 
 age_checkboxes.forEach(function(checkbox) {
@@ -500,8 +479,6 @@ age_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-age');
 				}
 			}
-			filter_age_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -520,17 +497,6 @@ age_checkboxes.forEach(function(checkbox) {
 					}
 				}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-age').length
-	  	filter_age_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-age').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
@@ -551,16 +517,10 @@ age_checkboxes.forEach(function(checkbox) {
 //
 var genre_checkboxes = document.querySelectorAll('input[name="filter-genre-item"]');
 let picked_genres = [] 
-var filter_genre_counter = document.getElementById('filter-genre-counter');
 var genre_buttons = document.getElementsByClassName('btn-genre');
 
 function clearGenreCheckboxes() {
 	clearFilteredOutClass('filtered-out-by-genre', genre_checkboxes, false, genre_buttons);
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_genre_counter.innerHTML = '';
 }
 
 genre_checkboxes.forEach(function(checkbox) {
@@ -577,8 +537,6 @@ genre_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-genre');
 				}
 			}
-			filter_genre_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -598,17 +556,6 @@ genre_checkboxes.forEach(function(checkbox) {
 					}
 				}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-genre').length
-	  	filter_genre_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-genre').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
@@ -629,17 +576,11 @@ genre_checkboxes.forEach(function(checkbox) {
 //
 var content_warning_checkboxes = document.querySelectorAll('input[name="filter-content-warning-item"]');
 let picked_content_warnings = content_warning_checkboxes 
-var filter_content_warning_counter = document.getElementById('filter-access-content-counter');
 var content_warning_buttons = document.getElementsByClassName('btn-content_warning');
 
 function clearContentWarningCheckboxes() {
 	// Reset the checkboxes (ALL ticked!)
 	clearFilteredOutClass('filtered-out-by-content-warning', content_warning_checkboxes, true, content_warning_buttons, 'active');
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_content_warning_counter.innerHTML = '';
 }
 
 content_warning_checkboxes.forEach(function(checkbox) {
@@ -656,8 +597,6 @@ content_warning_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-content-warning');
 				}
 			}
-			filter_content_warning_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -675,17 +614,6 @@ content_warning_checkboxes.forEach(function(checkbox) {
     			show.classList.remove('filtered-out-by-content-warning');
     		}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-content-warning').length
-	  	filter_content_warning_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-content-warning').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
@@ -706,16 +634,10 @@ content_warning_checkboxes.forEach(function(checkbox) {
 //
 var access_checkboxes = document.querySelectorAll('input[name="filter-access-item"]');
 let picked_accesss = [] 
-var filter_access_counter = document.getElementById('filter-access-content-counter');
 var access_buttons = document.getElementsByClassName('btn-access');
 
 function clearAccessCheckboxes() {
 	clearFilteredOutClass('filtered-out-by-access',access_checkboxes,false,access_buttons);
-
-	// Hide the 'no results' text
-	no_results_text.classList.add('d-none');
-	// Hide the number of results text 
-	filter_access_counter.innerHTML = '';
 }
 
 access_checkboxes.forEach(function(checkbox) {
@@ -732,8 +654,6 @@ access_checkboxes.forEach(function(checkbox) {
 					the_shows[i].classList.remove('filtered-out-by-access');
 				}
 			}
-			filter_access_counter.innerHTML = '';
-			no_results_text.classList.add('d-none')
     }
     else {
     	// Assuming something is ticked, filter the shows appropriately. 
@@ -753,17 +673,6 @@ access_checkboxes.forEach(function(checkbox) {
 					}
 				}
     	}
-	  	number_remaining = the_shows.length - document.getElementsByClassName('filtered-out-by-access').length
-	  	filter_access_counter.innerHTML = '(' + number_remaining + ')';
-    }
-
-	  // No results label
-    if (document.getElementsByClassName('filtered-out-by-access').length == the_shows.length) {
-    	// Everything filtered out 
-	    no_results_text.classList.remove('d-none');
-    }
-    else {
-    	no_results_text.classList.add('d-none');
     }
 
     // Make the button .active status follow the checkbox checked status explicitly 
