@@ -21,6 +21,11 @@
   reviews: []
   copy_short: ''
   copy_long: ''
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
 - title: Red Alert - Cancer!
   company: Allan Wilson
   venue: Zoo Playground
@@ -49,6 +54,7 @@
   - BSL
   access_details: The performance on Wednesday 10th August will be BSL interpreted
   content_warnings:
+  - This show focuses on experiences, treatments and impact of cancer on a family.
   - 'Contains Distressing Themes '
   image: "/static/04-02-2022-150014-9058.jpg"
   image_alt: ''
@@ -74,6 +80,11 @@
     also enjoy Red Alert - Cancer! Directed by Kolbrún Björt
     Sigfúsdóttir (Hang, Me and My Sister Tell Each Other
     Everything, Maryland, Deliverance).
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
 - title: Five Encounters on a Site Called Craigslist
   company: YESYESNONO
   venue: Zoo Southside
@@ -134,6 +145,11 @@
   trailer: <img src="https://via.placeholder.com/1920x1080?text=Show+trailer" alt="Placeholder
     trailer embed">
   image_alt: ''
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
 - title: BEAM
   company: Heather Morgan
   venue: Zoo Southside
@@ -176,6 +192,11 @@
   reviews: []
   access: []
   access_details: ''
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
 - title: Action at a Distance
   company: Argonaut
   venue: Zoo Southside
@@ -222,6 +243,11 @@
   reviews: []
   access: []
   access_details: ''
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
 - title: Anyone's Guess How We Got Here
   company: Barrel Organ
   venue: Zoo Southside
@@ -275,3 +301,8 @@
   reviews: []
   access: []
   access_details: ''
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
+  is_draft: false
