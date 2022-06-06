@@ -451,6 +451,7 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
+  - Theatre
   - 'Comedy '
   - 'New Writing '
   age_guidance: 14+
@@ -581,6 +582,7 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
+  - Theatre
   - 'New Writing '
   - 'Spoken Show '
   age_restricted: false
@@ -648,6 +650,7 @@
     concession: 
   ticket_deals: []
   genre:
+  - Theatre
   - Compilation
   - New writing
   access:
