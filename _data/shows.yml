@@ -153,8 +153,8 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
-  - 'new writing '
-  - 'spoken show '
+  - 'New Writing '
+  - 'Spoken Show '
   age_restricted: false
   access: []
   access_details: ''
