@@ -128,28 +128,109 @@ function hideActiveFilter(btn_id){
 //
 search_box = document.getElementById('search-input')
 function clearSearch(){
+	// Reset the search box value, show the shows, and hide the filter
 	search_box.value = '';
 	clearFilteredOutClass('filtered-out-by-search')
 	hideActiveFilter('search')
 	no_results_text.classList.add('d-none')
 }
-search_box.addEventListener('input', (event) => {
-	// Sanitise text input 
-	search_term = search_box.value.toLowerCase().replaceAll(' ', '');
-	search_hint = document.getElementById('search-hint');
-	// Do the search! 
-	if (search_term.length > 3){
-		search_hint.classList.add('d-none');
+function doSearch(term){
+	// Strip any whitespace (not that there should be any)
+	search_term = term.replaceAll(' ', '');
+	// Iterate over the shows for any searchable term
+	if (term.length >= 3){
 		for (const show of the_shows){
-			if (!show.dataset.search.includes(search_term)) {
-				show.classList.add('filtered-out-by-search');
-			}
-			else {
+			// Only remove the class here so that searches for 'foo' and 'bar' include
+			// BOTH, not just the latest word in the array
+			if (show.dataset.search.includes(search_term)) {
 				show.classList.remove('filtered-out-by-search');
 			}
+			// Use the raw value so it's more human-readable than the query term
 			showActiveFilter('search',search_box.value)
 		}
+	}
+}
+function doHint(){
+	// Show a prompt to give a larger search query when there aren't enough characters
+	no_results_text.classList.add('d-none');
+	// Partial reset of the search to show everything for the meantime 
+	clearFilteredOutClass('filtered-out-by-search');
+	hideActiveFilter('search')
+	var min_chars = 3; // Minimum characters to do a search
+
+	function getSearchTerm(){
+		// Strip any whitespace from the search term
+		// If there are multiple words, and the second "word" is just a space, treat it as one word
+		if (search_box.value.includes(' ') && (search_box.value.split(/\s+/)[1] != '')){
+			// If we've a multi-word search, test against the longest one
+			hint_search_term = search_box.value.toLowerCase().split(/\s+/)
+			l = 0; // Longest word character count
+			t = ''; // The longest word 
+			for (const s of hint_search_term){
+				if (s.length > l){
+					l = s.length
+					t = s;
+				}
+			}
+			hint_search_term = t;
+			min_chars = 2; // Accept 3-character search for multi-word searches 
+		}
+		else {
+			hint_search_term = search_box.value.toLowerCase().replaceAll(' ', '');
+		}
+		return hint_search_term;
+	}
+
+	function showHint() {
+		// The longest word may change, so we need to keep checking on it 
+		hint_search_term = getSearchTerm()
+		// The Help Text Script
+		if (hint_search_term.length > 0 && hint_search_term.length <= min_chars){ 
+			search_hint.classList.remove('d-none');
+		}
+	}
+	hint_search_term = getSearchTerm()
+	if (hint_search_term.length > 0 && hint_search_term.length <= min_chars){
+		// Wait a moment, then run the help text script script 
+		// The help text script also runs an if to see if the value still matches
+		let hintTimeout = setTimeout(showHint, 2000)
+	}
+	else {
+		search_hint.classList.add('d-none');
+	}
+}
+search_box.addEventListener('input', (event) => {
+	// Sanitise text input 
+	search_value = search_box.value.toLowerCase().replaceAll(' ', '');
+	search_hint = document.getElementById('search-hint');
+	// Do the search! 
+	if (search_value.length > 3){
+		search_hint.classList.add('d-none');
+		for (const show of the_shows){
+			// Hide everything 
+			show.classList.add('filtered-out-by-search');
+		}
+		doSearch(search_value);
 		if (document.querySelectorAll('.filtered-out-by-search').length == the_shows.length){
+			// If searching for the entire term gets nothing, split on whitespace and 
+			// search for each word 
+			for (const show of the_shows){
+				// Hide everything 
+				show.classList.add('filtered-out-by-search');
+			}
+			search_array = search_box.value.toLowerCase().split(/\s+/);
+			if (search_array.length > 1 && search_array[1].match(/^[0-9a-z]+$/i)){
+				// Provided there are two alphanumeric words, we can do a multi-word search
+				// Quick check that they're all 3+ characters 
+				if (Math.max(...(search_array.map(el => el.length))) > 2){
+					for (const s of search_array){
+						doSearch(s)
+					}
+				}
+				else {
+					doHint();
+				}
+			}
 			no_results_text.classList.remove('d-none');
 		}
 		else {
@@ -158,25 +239,8 @@ search_box.addEventListener('input', (event) => {
 	}
 	else {
 		// If the search string isn't long enough, give up
-		no_results_text.classList.add('d-none');
-		clearFilteredOutClass('filtered-out-by-search');
-		hideActiveFilter('search')
-		function showHint() {
-			// The Help Text Script
-			if (search_term.length > 1 && search_term.length <= 3){ 
-				search_hint.classList.remove('d-none');
-			}
-		}
-		if (search_term.length > 1 && search_term.length <= 3){
-			// Wait a moment, then run the help text script script 
-			// The help text script also runs an if to see if the value still matches
-			let hintTimeout = setTimeout(showHint, 2000)
-		}
-		else {
-			search_hint.classList.add('d-none');
-		}
+		doHint();
 	}
-
 });
 
 //
