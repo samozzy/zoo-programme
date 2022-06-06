@@ -104,6 +104,7 @@ function clearFilteredOutClass(
 //
 function showActiveFilter(btn_id, looking_for_checked=true){
 	// Show the filter buttons! 
+	// Because it iterates each time, this is a toggler as much as it is a show-er 
 	document.getElementById('filter-badge-container').classList.remove('d-none');
 	document.getElementById('active-filter-' + btn_id).classList.remove('d-none');
 	filter_query = 'filter-' + btn_id + '-item'
@@ -140,9 +141,15 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 		}
 	}
 	filter_button_inner_text = document.getElementById('active-filter-' + btn_id + '-list')
-	filter_button_inner_text.innerText = ': ' + inner_text.join('; ');
-}
+	if (inner_text.length == 0){
+		// If we've removed all the things, hide the filter badge
+		hideActiveFilter(btn_id);
+	}
+	else {
+		filter_button_inner_text.innerText = ': ' + inner_text.join('; ');
+	}
 	countResults();
+}
 
 function hideActiveFilter(btn_id){
 	filter_container = document.getElementById('filter-badge-container')
@@ -390,7 +397,7 @@ time_checkboxes.forEach(function(checkbox) {
     }
     else {
     	this.labels[0].classList.remove('active');
-    	hideActiveFilter('time');
+    	showActiveFilter('time');
     }
   })
 });
@@ -449,7 +456,7 @@ price_checkboxes.forEach(function(checkbox) {
     }
     else {
     	this.labels[0].classList.remove('active');
-    	hideActiveFilter('price');
+    	showActiveFilter('price');
     }
   })
 });
@@ -507,7 +514,7 @@ age_checkboxes.forEach(function(checkbox) {
     }
     else {
     	this.labels[0].classList.remove('active');
-    	hideActiveFilter('age')
+    	showActiveFilter('age')
     }
   })
 });
@@ -566,7 +573,7 @@ genre_checkboxes.forEach(function(checkbox) {
     }
     else {
     	this.labels[0].classList.remove('active');
-    	hideActiveFilter('genre')
+    	showActiveFilter('genre')
     }
   })
 });
@@ -620,7 +627,7 @@ content_warning_checkboxes.forEach(function(checkbox) {
     var this_button = document.getElementById(this.id)
     if (this_button.checked) {
     	this.labels[0].classList.add('active');
-    	hideActiveFilter('content-warning');
+    	showActiveFilter('content-warning', false);
     }
     else {
     	this.labels[0].classList.remove('active');
@@ -683,7 +690,7 @@ access_checkboxes.forEach(function(checkbox) {
     }
     else {
     	this.labels[0].classList.remove('active');
-    	hideActiveFilter('access');
+    	showActiveFilter('access');
     }
   })
 });
