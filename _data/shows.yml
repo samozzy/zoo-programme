@@ -23,8 +23,8 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
-  - 'comedy '
-  - 'new writing '
+  - 'Comedy '
+  - 'New Writing '
   age_guidance: 14+
   age_restricted: false
   access: []
