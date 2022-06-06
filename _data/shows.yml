@@ -27,19 +27,38 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Multimedia
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  image: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/04-06-2022-115831-5232.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    OffComm Award winner. 'Takes you hostage, long beyond the
+    final words' ★★★★★
+    (ViewFromTheOutside.blog). Two actors break up. Two different
+    stories. A multimedia meta-odyssey on theatre and the price of
+    success.
+  copy_long: |-
+    Alex and Bea are both actors. So why isn't Bea acting? Why
+    can't she look Alex in the eye? Two people come apart. Two
+    opposing stories. They can't both be true, right? A
+    multimedia meta-odyssey on theatre and the price of
+    success from the award-winning Elegy. Performed by a reallife couple, using live projection to excavate a journey of
+    casting directors and quantum physics that 'takes you
+    hostage, long beyond the final words' ★★★★★
+    (ViewFromTheOutside.blog). ★★★★½ (TheReviewsHub.com).
+     ★★★★ (Everything-Theatre.co.uk). OffComm Award winner
+    2021.
   is_draft: false
 - title: SAVED
   company: 'Graeme Leak '
