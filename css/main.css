@@ -632,6 +632,11 @@ a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card
   font-weight: 500;
 }
 
+img.access-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition-duration: 0.01ms !important;
