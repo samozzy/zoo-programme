@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202206062105">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202206062303">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -72,7 +72,7 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-date" aria-expanded="false" aria-controls="filter-date">
-						<p><span>On these dates <span id="filter-date-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>On these dates<i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-date">
 						<div class="card-body d-flex justify-content-around">
@@ -88,7 +88,7 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-time" aria-expanded="false" aria-controls="filter-time">
-						<p><span>At these times <span id="filter-time-counter"></span></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>At these times<i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-time">
 						<div class="card-body">
@@ -208,7 +208,7 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this ticket price range <span id="filter-price-counter"></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Within this ticket price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-price">
 						<div class="card-body">
@@ -235,11 +235,11 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-age" aria-expanded="false" aria-controls="filter-age">
-						<p><span>With this age guidance</span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>With this age guidance <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
-							<div class="d-flex flex-row">
+							<div class="d-flex flex-row flex-wrap">
 								
 									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-0" autocomplete="off" value="0">
 									<label id="btn-age-0" class="btn-filter btn-age" for="age-0">0+</label><br>
@@ -281,19 +281,17 @@
 			
 			
 			
+			
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-genre" aria-expanded="false" aria-controls="filter-genre">
-						<p><span>Tagged as <span id="filter-genre-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>Tagged as <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-genre">
 						<div class="card-body">
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-comedy" autocomplete="off" value="comedy">
 								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">comedy</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-comedy" autocomplete="off" value="comedy">
-								<label id="btn-genre-comedy" class="btn-filter btn-genre" for="filter-genre-comedy">comedy </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-compilation" autocomplete="off" value="compilation">
 								<label id="btn-genre-compilation" class="btn-filter btn-genre" for="filter-genre-compilation">compilation</label>
@@ -305,31 +303,22 @@
 								<label id="btn-genre-multimedia" class="btn-filter btn-genre" for="filter-genre-multimedia">multimedia</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-music" autocomplete="off" value="music">
-								<label id="btn-genre-music" class="btn-filter btn-genre" for="filter-genre-music">music </label>
+								<label id="btn-genre-music" class="btn-filter btn-genre" for="filter-genre-music">music</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
 								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">new writing</label>
 							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-new-writing" autocomplete="off" value="new-writing">
-								<label id="btn-genre-new-writing" class="btn-filter btn-genre" for="filter-genre-new-writing">new writing </label>
-							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-physical-theatre" autocomplete="off" value="physical-theatre">
-								<label id="btn-genre-physical-theatre" class="btn-filter btn-genre" for="filter-genre-physical-theatre">physical theatre </label>
+								<label id="btn-genre-physical-theatre" class="btn-filter btn-genre" for="filter-genre-physical-theatre">physical theatre</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
 								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">solo show</label>
 							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-solo-show" autocomplete="off" value="solo-show">
-								<label id="btn-genre-solo-show" class="btn-filter btn-genre" for="filter-genre-solo-show">solo show </label>
-							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-spoken-show" autocomplete="off" value="spoken-show">
-								<label id="btn-genre-spoken-show" class="btn-filter btn-genre" for="filter-genre-spoken-show">spoken show </label>
+								<label id="btn-genre-spoken-show" class="btn-filter btn-genre" for="filter-genre-spoken-show">spoken show</label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-theatre" autocomplete="off" value="theatre">
 								<label id="btn-genre-theatre" class="btn-filter btn-genre" for="filter-genre-theatre">theatre</label>
-							
-								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-theatre" autocomplete="off" value="theatre">
-								<label id="btn-genre-theatre" class="btn-filter btn-genre" for="filter-genre-theatre">theatre </label>
 							
 								<input type="checkbox" name="filter-genre-item" class="btn-check" id="filter-genre-thriller" autocomplete="off" value="thriller">
 								<label id="btn-genre-thriller" class="btn-filter btn-genre" for="filter-genre-thriller">thriller</label>
@@ -349,7 +338,9 @@
 			
 			
 			
+			
 
+			
 			
 			
 			
@@ -358,7 +349,7 @@
 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
-						<p><span>With these access provisions <span id="filter-access-content-counter"></span></span> <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+						<p>With these access provisions <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
 					<div class="collapse" id="filter-access">
 						<div class="card-body">
@@ -378,26 +369,17 @@
 							
 								
 								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-wheelchair-accessible" autocomplete="off" value="wheelchair-accessible">
-								<label id="btn-access-wheelchair-accessible" class="btn-filter btn-access" for="filter-access-wheelchair-accessible">wheelchair accessible </label>
+								<label id="btn-access-wheelchair-accessible" class="btn-filter btn-access" for="filter-access-wheelchair-accessible">wheelchair accessible</label>
 							
 							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are fully wheelchair accessible.</p>
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise" autocomplete="off" value="discussion-of-vomiting-and-one-sudden-loud-noise" checked>
-								<label id="btn-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise" class="btn-filter btn-cw" for="filter-content-warning-discussion-of-vomiting-and-one-sudden-loud-noise"> discussion of vomiting and one sudden loud noise.</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-treatments-and-impact-of-cancer-on-a-family" autocomplete="off" value="treatments-and-impact-of-cancer-on-a-family" checked>
-								<label id="btn-content-warning-treatments-and-impact-of-cancer-on-a-family" class="btn-filter btn-cw" for="filter-content-warning-treatments-and-impact-of-cancer-on-a-family"> treatments and impact of cancer on a family.</label>
-							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-audience-participation" autocomplete="off" value="audience-participation" checked>
-								<label id="btn-content-warning-audience-participation" class="btn-filter btn-cw" for="filter-content-warning-audience-participation">audience participation </label>
+								<label id="btn-content-warning-audience-participation" class="btn-filter btn-cw" for="filter-content-warning-audience-participation">audience participation</label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-themes" autocomplete="off" value="contains-distressing-themes" checked>
 								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">contains distressing themes</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-themes" autocomplete="off" value="contains-distressing-themes" checked>
-								<label id="btn-content-warning-contains-distressing-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-themes">contains distressing themes </label>
 							
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-discussion-of-sexual-assault-and-rape" autocomplete="off" value="discussion-of-sexual-assault-and-rape" checked>
 								<label id="btn-content-warning-discussion-of-sexual-assault-and-rape" class="btn-filter btn-cw" for="filter-content-warning-discussion-of-sexual-assault-and-rape">discussion of sexual assault and rape</label>
@@ -408,14 +390,11 @@
 								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
 								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing</label>
 							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
-								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing </label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" autocomplete="off" value="this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" checked>
+								<label id="btn-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family" class="btn-filter btn-cw" for="filter-content-warning-this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family">this show focuses on experiences, treatments and impact of cancer on a family.</label>
 							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-this-show-focuses-on-experiences" autocomplete="off" value="this-show-focuses-on-experiences" checked>
-								<label id="btn-content-warning-this-show-focuses-on-experiences" class="btn-filter btn-cw" for="filter-content-warning-this-show-focuses-on-experiences">this show focuses on experiences</label>
-							
-								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-two-instances-of-strong-language" autocomplete="off" value="two-instances-of-strong-language" checked>
-								<label id="btn-content-warning-two-instances-of-strong-language" class="btn-filter btn-cw" for="filter-content-warning-two-instances-of-strong-language">two instances of strong language</label>
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" autocomplete="off" value="two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" checked>
+								<label id="btn-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise" class="btn-filter btn-cw" for="filter-content-warning-two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise">two instances of strong language, discussion of vomiting and one sudden loud noise.</label>
 							
 							<p class="helper-text text-muted ms-1 mt-1"><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</p>
 						</div>
@@ -500,6 +479,9 @@
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
+			</div>
+			<div id="filter-results-text" class="d-none lead">
+				<span id="filter-results-counter"></span>&nbsp;result<span id="filter-results-counter-plural">s</span>
 			</div>
 		</div>
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
