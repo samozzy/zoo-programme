@@ -50,6 +50,17 @@ body {
   @extend .btn, .bebas, .rounded-0, .shadow-sm, .border-2px;
 }
 
+.buttons {
+  @extend .mb-3, .d-flex, .justify-content-around, .mx-n1;
+  .btn-zoo-book {
+    // Vertically align the text 
+    @extend .d-flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .btn-zoo.outline-zoo-white {
   &:hover, &:focus, &:active, &.active {
     color: map-get($zoo-brand, "black") !important;
