@@ -260,7 +260,8 @@ layout: page
 		<div class="d-none col w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
-		{% for show in site.data.shows %}
+		{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" %}
+		{% for show in available_shows %}
 			{% include text/date-text.html show=show no_output=true %}
 			<div class="col programme-show-container d-block" 
 				data-search="{{ show.title | downcase | remove: ' ' }} {{ show.company | downcase | remove: ' ' }}" 

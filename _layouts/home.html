@@ -47,7 +47,8 @@ layout: default
 <div class="container-fluid px-5 my-2 py-4">
 	<div class="row">
 		<div class="col-12 d-flex px-0">
-			{% assign featured_shows = site.data.shows | sample: 3 %}
+			{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" %}
+			{% assign featured_shows = available_shows | sample: 3 %}
 			{% include components/swiper.html shows=featured_shows full_programme_cta=true %}
 		</div>
 	</div>
