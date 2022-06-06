@@ -9,11 +9,11 @@ github_username:  samozzy
 timezone: Europe/London
 
 dates:
-  start: 2022-07-29
-  end: 2022-08-31
-  launch: 2022-06-09
+  start: 2022-08-05
+  end: 2022-08-28
+  launch: 2022-05-01
 
-earliest_time: 2022-08-01 09:00 
+earliest_time: 2022-08-01 10:00 
 latest_time: 2022-08-01 23:00 
 
 
