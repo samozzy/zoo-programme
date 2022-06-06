@@ -1,4 +1,311 @@
 ---
+- title: Love Me or I'll Kill Myself
+  company: Faith Brandon & Jonathan Young
+  venue: Zoo Playground
+  start_time: '16:50'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - True-life
+  - 'Comedy '
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/05-09-2022-142525-6196.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: Join Faith on her quest into the dark heart of Love’s enchantments –
+    and if there's any life worth living without them. A madcap saga of passion, crushing
+    despair and salvation by bath bombs.
+  copy_long: Join Faith, a young woman addicted to Love, on a quest into the dark
+    heart of its enchantments – and if there's any life worth living without them.
+    A madcap, true-life saga of passion, crushing despair and salvation by bath bombs.
+    Whether you’re a seasoned Lothario, yet to taste your first kiss or you've ever
+    experienced the pain of impossible love, Faith's here to help you feel less alone...
+    by falling madly in love with you. And praying you'll reciprocate.
+  is_draft: false
+- title: Have You Seen This Woman
+  company: Fancy Little Theater Company
+  venue: Zoo Playground
+  start_time: '20:35'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Comedy '
+  - Thriller
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/06-06-2022-161654-2266.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A college student offers a scattered recollection of her childhood,
+    her perceived trauma and the chaos leading up to her mother's
+    recent disappearance
+  copy_long: A college student offers a scattered recollection of her childhood trauma
+    and the chaos leading up to her mother’s recent disappearance. As her narrative
+    unravels, we realise she might not be the victim she claims to be. She may even
+    have blood on her hands.
+  is_draft: false
+- title: 'Far Gone '
+  company: Roots Mbili Theatre
+  venue: Zoo Southside
+  start_time: '17:40'
+  duration: 1hr5mins
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Physical Theatre '
+  - 'Solo Show '
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  - 'Audience Participation '
+  image: "/static/04-11-2022-181106-7434.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Far Gone is a gut-kicking one-man performance about the
+    transformation of a boy into a child soldier by Uganda's notorious
+    LRA, told with humour, African storytelling and startling physical
+    theatre.
+  copy_long: |-
+    A Roots Mbili Theatre and Sheffield Theatres co-production.
+    'If I invited you to come with me on a journey, a story, will you
+    come with me?' Northern Uganda. When Okumu's village is
+    attacked by the Lord's Resistance Army (LRA), he and his
+    brother's lives are changed forever. Far Gone is a profoundly
+    moving story of a young boy's journey from childhood
+    innocence to child soldier. Seen through the eyes of those
+    that love him and those that betray him, Okumu's experience
+    strikes straight at the heart through a powerful one-man
+    performance.
+  is_draft: false
+- title: Truth/Reconciliation
+  company: ELEGY.
+  venue: Zoo Playground
+  start_time: '14:00'
+  duration: 50mins
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Multimedia
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/04-06-2022-115831-5232.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    OffComm Award winner. 'Takes you hostage, long beyond the
+    final words' ★★★★★
+    (ViewFromTheOutside.blog). Two actors break up. Two different
+    stories. A multimedia meta-odyssey on theatre and the price of
+    success.
+  copy_long: |-
+    Alex and Bea are both actors. So why isn't Bea acting? Why
+    can't she look Alex in the eye? Two people come apart. Two
+    opposing stories. They can't both be true, right? A
+    multimedia meta-odyssey on theatre and the price of
+    success from the award-winning Elegy. Performed by a reallife couple, using live projection to excavate a journey of
+    casting directors and quantum physics that 'takes you
+    hostage, long beyond the final words' ★★★★★
+    (ViewFromTheOutside.blog). ★★★★½ (TheReviewsHub.com).
+     ★★★★ (Everything-Theatre.co.uk). OffComm Award winner
+    2021.
+  is_draft: false
+- title: SAVED
+  company: 'Graeme Leak '
+  venue: Zoo Southside
+  start_time: '16:35'
+  duration: 50mins
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Solo Show '
+  - Theatre
+  - 'Music '
+  age_guidance: 0+
+  age_restricted: false
+  access: []
+  access_details: On 15th and 22nd please join Graeme for a guided touch-tour of the
+    instruments and props used in SAVED. Graeme will lead you around the stage and
+    describe the organs, radios, cassette decks, drums and DIY homemade bass guitar
+    used to make the music of the show. Tough-tour shows will start 5 minutes earlier
+    than advertised show time - please do book in advance.
+  content_warnings: []
+  image: "/static/03-28-2022-183210-5702.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Saved is a multi-layered, retro-mechanical music show built
+    around rescued 70s home organs. Leak, of Spaghetti Western
+    Orchestra fame, gently transports us to a curious sound-world
+    where the mundane becomes surprisingly beautiful. 'Boldly
+    inventive' (TheReviewsHub.com).
+  copy_long: |-
+    Saved is a multi-layered, retro-mechanical music show built
+    around rescued 70s home organs. Turned inside out, their
+    internal spinning speakers are exposed for us to see as well
+    as hear. Along with cassettes, a turntable, AM radios and a
+    modified whisk, Saved celebrates an analogue era where AB-C Fun Block and One Finger Chord buttons captivated our
+    imagination. Leak, of Spaghetti Western Orchestra fame,
+    gently transports us to a curious sound-world where the
+    mundane becomes surprisingly beautiful. 'It knows exactly
+    what it's doing and it does it sublimely' (Lyn
+    Gardner, StagedoorApp.com)
+  is_draft: false
 - title: All By Myself
   company: Jessica Bickel-Barlow / Part of the Main
   venue: Zoo Playground
@@ -61,16 +368,17 @@
     watching her. 'The clever ideas are a confrontation to the
     audience' (TheatreWeekly.com).
   is_draft: false
-- title: Nympho
-  company: Knickerfit
+- title: Red Alert - Cancer!
+  company: Allan Wilson
   venue: Zoo Playground
-  start_time: '14:40'
-  duration: 50mins
+  start_time: '11:30'
+  duration: 55mins
   performances:
   - '2022-08-13'
   - '2022-08-12'
   - '2022-08-11'
   - '2022-08-10'
+  - '2022-08-09'
   - '2022-08-08'
   - '2022-08-07'
   - '2022-08-06'
@@ -78,40 +386,46 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
   ticket_deals: []
-  booking_unavailable: false
   genre:
-  - Comedy
-  - New Writing
-  age_guidance: 16+
-  age_restricted: false
-  access: []
-  access_details: ''
+  - True-life
+  - Solo show
+  - Theatre
+  access:
+  - 'Wheelchair Accessible '
+  - BSL
+  access_details: The performance on Wednesday 10th August will be BSL interpreted
   content_warnings:
-  - 'Strong Language/Swearing '
-  - 'Scenes of a Sexual Nature '
-  - Discusses sexual assault and abortion
-  - Nudity
-  - Contains Distressing Themes
-  image: "/static/04-11-2022-154922-9466.jpg"
+  - This show focuses on experiences, treatments and impact of cancer on a family.
+  - 'Contains Distressing Themes '
+  image: "/static/04-02-2022-150014-9058.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: ''
+    link: "@RedAlert_Cancer"
+    platform: Twitter
   reviews: []
   copy_short: |-
-    A woman trapped in the nostalgia of the 00s, afraid to confront
-    her sexual past and the havoc it's unleashing on her life. Sex
-    therapy, dildos and a booty call named Jake can't save her now.
+    Red Alert – Cancer! Meet the Wilsons, five children, three with
+    red hair. The redheads, Iain, Heather and Allan, all developed
+    cancer in their 50s. Prepare for sadness and laughter as Allan
+    tells their story.
   copy_long: |-
-    'He's seen my Foo Foo. He's seen my cave of wonders. The
-    hidden but not-so-lost city of Atlantis. I might need to get
-    another therapist.' Nympho is trapped in the nostalgia of the
-    00s, afraid to confront her sexual past and the havoc it's
-    unleashing on her life. Sex therapy, dildos and a booty call
-    named Jake can't save her now. Martha May Markham’s
-    debut play unleashes itself on the Fringe this summer. Hold
-    onto your pants, it’s gonna be a bumpy ride.
+    Red Alert – Cancer! Meet the Wilsons, five children, three
+    with red hair, who came to Scotland in 1959. The redheads,
+    Iain, Heather and Allan, developed cancer in their 50s. There
+    will be sadness and laughter as Allan tells their story. This
+    show will move you and intrigue you about possible
+    connections between cancer and red hair. If you love Mark
+    Thomas, Bryony Kimmings and the NHS, we are sure you'll
+    also enjoy Red Alert - Cancer! Directed by Kolbrún Björt
+    Sigfúsdóttir (Hang, Me and My Sister Tell Each Other
+    Everything, Maryland, Deliverance).
+  ticket_url: ''
+  booking_unavailable: false
+  age_guidance: ''
+  age_restricted: false
   is_draft: false
 - title: LUCID
   company: As If
@@ -137,6 +451,7 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
+  - Theatre
   - 'Comedy '
   - 'New Writing '
   age_guidance: 14+
@@ -267,6 +582,7 @@
   ticket_deals: []
   booking_unavailable: false
   genre:
+  - Theatre
   - 'New Writing '
   - 'Spoken Show '
   age_restricted: false
@@ -334,6 +650,7 @@
     concession: 
   ticket_deals: []
   genre:
+  - Theatre
   - Compilation
   - New writing
   access:
@@ -364,285 +681,6 @@
     of cards, the audience randomly generates a performance to
     understand humanity's obsession with – and ignorance about
     – death.
-  ticket_url: ''
-  booking_unavailable: false
-  age_guidance: ''
-  age_restricted: false
-  is_draft: false
-- title: Red Alert - Cancer!
-  company: Allan Wilson
-  venue: Zoo Playground
-  start_time: '11:30'
-  duration: 55mins
-  performances:
-  - '2022-08-13'
-  - '2022-08-12'
-  - '2022-08-11'
-  - '2022-08-10'
-  - '2022-08-09'
-  - '2022-08-08'
-  - '2022-08-07'
-  - '2022-08-06'
-  - '2022-08-05'
-  price:
-    standard: 
-    concession: 
-  ticket_deals: []
-  genre:
-  - True-life
-  - Solo show
-  access:
-  - 'Wheelchair Accessible '
-  - BSL
-  access_details: The performance on Wednesday 10th August will be BSL interpreted
-  content_warnings:
-  - This show focuses on experiences, treatments and impact of cancer on a family.
-  - 'Contains Distressing Themes '
-  image: "/static/04-02-2022-150014-9058.jpg"
-  image_alt: ''
-  video_embeds: []
-  links:
-  - title: ''
-    link: "@RedAlert_Cancer"
-    platform: Twitter
-  reviews: []
-  copy_short: |-
-    Red Alert – Cancer! Meet the Wilsons, five children, three with
-    red hair. The redheads, Iain, Heather and Allan, all developed
-    cancer in their 50s. Prepare for sadness and laughter as Allan
-    tells their story.
-  copy_long: |-
-    Red Alert – Cancer! Meet the Wilsons, five children, three
-    with red hair, who came to Scotland in 1959. The redheads,
-    Iain, Heather and Allan, developed cancer in their 50s. There
-    will be sadness and laughter as Allan tells their story. This
-    show will move you and intrigue you about possible
-    connections between cancer and red hair. If you love Mark
-    Thomas, Bryony Kimmings and the NHS, we are sure you'll
-    also enjoy Red Alert - Cancer! Directed by Kolbrún Björt
-    Sigfúsdóttir (Hang, Me and My Sister Tell Each Other
-    Everything, Maryland, Deliverance).
-  ticket_url: ''
-  booking_unavailable: false
-  age_guidance: 16+
-  age_restricted: false
-  is_draft: false
-- title: Five Encounters on a Site Called Craigslist
-  company: YESYESNONO
-  venue: Zoo Southside
-  start_time: '14:00'
-  duration: 1hr
-  performances:
-  - '2022-07-29'
-  - '2022-08-01'
-  - '2022-08-03'
-  - '2022-08-05'
-  - '2022-08-21'
-  - '2022-08-31'
-  price:
-    standard: 5
-    concession: 4
-  ticket_deals:
-  - Half Price Hut
-  genre:
-  - solo show
-  - new writing
-  - audience participation
-  content_warnings:
-  - strobe lighting
-  - strong language
-  access:
-  - bsl
-  - captions
-  access_details: Performances on the 1st, 3rd, and 5th will be BSL interpreted
-  image: https://placekitten.com/400/400?image=3
-  video_embeds:
-  - title: Trailer
-    embed_code: ''
-  links:
-  - title: "@yesyesnonotheat"
-    link: https://twitter.com/yesyesnonotheat
-    platform: twitter
-  reviews:
-  - publisher: Broadway Baby
-    quote: Stunning!
-    stars: 4
-    Publisher: ''
-  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
-    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
-    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
-    neque
-
-    '
-  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
-    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
-    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
-    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
-    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
-    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
-    quam id leo in vitae turpis massa sed elementum tempus egestas sed
-
-    '
-  trailer: <img src="https://via.placeholder.com/1920x1080?text=Show+trailer" alt="Placeholder
-    trailer embed">
-  image_alt: ''
-  ticket_url: ''
-  booking_unavailable: false
-  age_guidance: ''
-  age_restricted: false
-  is_draft: false
-- title: BEAM
-  company: Heather Morgan
-  venue: Zoo Southside
-  start_time: '19:00'
-  duration: 45mins
-  performances:
-  - '2022-08-01'
-  - '2022-08-02'
-  - '2022-08-03'
-  - '2022-08-04'
-  - '2022-08-05'
-  price:
-    standard: 8
-    concession: 6
-  genre:
-  - new writing
-  - drama
-  image: https://placekitten.com/400/400?image=4
-  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
-    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
-    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
-    neque
-
-    '
-  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
-    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
-    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
-    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
-    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
-    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
-    quam id leo in vitae turpis massa sed elementum tempus egestas sed
-
-    '
-  ticket_deals: []
-  content_warnings: []
-  image_alt: ''
-  video_embeds: []
-  links: []
-  reviews: []
-  access: []
-  access_details: ''
-  ticket_url: ''
-  booking_unavailable: false
-  age_guidance: ''
-  age_restricted: false
-  is_draft: false
-- title: Action at a Distance
-  company: Argonaut
-  venue: Zoo Southside
-  start_time: '10:10'
-  duration: 1hr
-  performances:
-  - '2022-08-02'
-  - '2022-08-04'
-  - '2022-08-06'
-  - '2022-08-07'
-  - '2022-08-08'
-  - '2022-08-09'
-  - '2022-08-10'
-  - '2022-08-12'
-  price:
-    standard: 10
-    concession: 10
-  genre:
-  - new writing
-  - dance
-  content_warnings:
-  - distressing themes
-  image: https://placekitten.com/400/400?image=5
-  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
-    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
-    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
-    neque
-
-    '
-  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
-    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
-    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
-    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
-    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
-    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
-    quam id leo in vitae turpis massa sed elementum tempus egestas sed
-
-    '
-  ticket_deals: []
-  image_alt: ''
-  video_embeds: []
-  links: []
-  reviews: []
-  access: []
-  access_details: ''
-  ticket_url: ''
-  booking_unavailable: false
-  age_guidance: ''
-  age_restricted: false
-  is_draft: false
-- title: Anyone's Guess How We Got Here
-  company: Barrel Organ
-  venue: Zoo Southside
-  start_time: '12:45'
-  duration: 1hr
-  performances:
-  - '2022-07-29'
-  - '2022-08-01'
-  - '2022-08-03'
-  - '2022-08-05'
-  - '2022-08-21'
-  - '2022-08-31'
-  price:
-    standard: 12
-    concession: 8
-  ticket_deals:
-  - Buy One Get One Free
-  genre:
-  - new writing
-  - weird
-  - genre-defying
-  image: https://placekitten.com/400/400?image=7
-  video_embeds:
-  - title: Trailer
-    embed_code: ''
-  links:
-  - title: "@barrelorgan"
-    link: https://twitter.com/barrelorgan
-    platform: twitter
-  - title: "@barrelorgan"
-    link: https://instagram.com/barrelorgan
-    platform: instagram
-  copy_short: 'id interdum velit laoreet id donec ultrices tincidunt arcu non sodales
-    neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus
-    in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue
-    neque
-
-    '
-  copy_long: 'velit scelerisque in dictum non consectetur a erat nam at lectus urna
-    duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt
-    arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed
-    id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
-    augue mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus
-    egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
-    cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus
-    quam id leo in vitae turpis massa sed elementum tempus egestas sed
-
-    '
-  content_warnings: []
-  image_alt: ''
-  reviews: []
-  access: []
-  access_details: ''
   ticket_url: ''
   booking_unavailable: false
   age_guidance: ''
