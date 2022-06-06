@@ -58,12 +58,23 @@ fields:
       name: concession
       label: Concession
       description: "(Optional) Just the number, no currency please."
+  - name: ticket_url
+    type: text
+    config:
+      required: false
+    label: Ticket URL
+    description: Link to the page to book tickets
   - type: list
     name: ticket_deals
     label: Ticket Deals
     description: Any ticket deals this show has, eg BOGOF, half price hut, etc.
     config:
       use_select: false
+  - name: booking_unavailable
+    type: boolean
+    label: Booking Unavailable
+    description: Tick if tickets are not yet on sale but you do still want the show
+      to be listed (if you don't want it listed, use the draft toggle)
   - type: list
     name: genre
     label: Tags
@@ -86,6 +97,10 @@ fields:
         path: 
     label: Age Guidance
     description: Age guidance for shows
+  - name: age_restricted
+    type: boolean
+    label: Age Restricted
+    description: Tick this if the age guidance is an age restriction for the show
   - type: list
     name: access
     label: Access Provisions
@@ -165,5 +180,10 @@ fields:
   - type: textarea
     name: copy_long
     label: Copy (Long)
+  - name: is_draft
+    type: boolean
+    label: Draft
+    description: Tick to hide the show from public listings<br>(the show page will
+      still be generated, just not linked to from anywhere)
 pages:
 - _data/shows.yml
