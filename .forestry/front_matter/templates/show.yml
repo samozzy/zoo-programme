@@ -116,7 +116,8 @@ fields:
       - ad
   - type: text
     name: access_details
-    label: Detailed access info, eg. which performances have BSL interpretation
+    label: Access Performance Details
+    description: Eg. Which performances have captions, etc.
   - type: list
     name: content_warnings
     label: Content Warnings
@@ -126,13 +127,13 @@ fields:
     config:
       maxSize: 64
     label: Image
-    description: Show image. Must be square.
+    description: Show image. Must be square. If unset, uses a placeholder.
   - name: image_alt
     type: text
     config:
       required: false
     label: Image alt text
-    description: Textual description of the show image
+    description: Textual description of the show image (if unset, it's the show title)
   - type: field_group_list
     name: video_embeds
     label: Video Embed
