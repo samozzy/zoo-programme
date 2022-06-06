@@ -3,7 +3,8 @@
 {% assign matching_item = site.data.icons | where: "title", access_item | first %}
 
 {% if matching_item and matching_item != empty %}
-	<i class="{{ matching_item.icon }} {% if include.large %}fa-lg{% endif %}" data-bs-toggle="tooltip" title="{{ matching_item.long_title | default: matching_item.title }}"></i>
+	{% capture access_link %}/static/access/{{ matching_item.icon }}{% endcapture %}
+	<img src="{% link {{ access_link }} %}" alt="{{ matching_item.long_title | default: matching_item.title }}" class="access-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{ matching_item.long_title | default: matching_item.title }}">
 {% else %}
 	{{ access_item | capitalize }} 
 {% endif %}

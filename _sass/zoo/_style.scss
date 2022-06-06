@@ -226,6 +226,11 @@ a.card-event-hover  {
 
 // ACCESSIBILITY 
 
+img.access-icon {
+	width: 2rem;
+	height: 2rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	* {
 		transition-duration: 0.01ms !important;

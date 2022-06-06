@@ -16,8 +16,14 @@
 
 # Access 
 - title: bsl 
-  long_title: BSL Interpreted 
-  icon: fa fa-sign-language 
+  long_title: British Sign Language Interpreted 
+  icon: bsl.png
 - title: captions 
-  icon: far fa-closed-captioning
-  long_title: Captions
+  icon: cap.png
+  long_title: Captioned
+- title: relaxed 
+  long_title: Relaxed Performances
+  icon: r.png 
+- title: ad
+  long_title: Audio Described 
+  icon: ad.png 
