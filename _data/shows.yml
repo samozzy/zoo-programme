@@ -33,17 +33,37 @@
     standard: 
     concession: 
   ticket_deals: []
-  genre: []
-  access: []
-  access_details: ''
-  content_warnings: []
-  image: ''
+  genre:
+  - Compilation
+  - New writing
+  access:
+  - ad
+  - captions
+  access_details: 'Open captions and integrated audio description for all performances, '
+  content_warnings:
+  - Contains Distressing Themes
+  - Strong Language/Swearing
+  image: "/static/04-07-2022-184735-9609.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    An open and fun examination of death and our reactions to this
+    terrifying inevitability. Using a pack of cards, the audience
+    randomly generates a performance to understand humanity's
+    obsession with – and ignorance about – death.
+  copy_long: |-
+    Humanity has both a morbid curiosity and an instinctual
+    repulsion when it comes to death. Over the next 50 minutes
+    we'll find out which is stronger. Although it's something we'll
+    all go through, death is one of the least understood parts of
+    the human experience, so Chronic Insanity is diving into the
+    deep end. 52 Souls is an open and fun examination of death
+    and our reactions to this terrifying inevitability. Using a pack
+    of cards, the audience randomly generates a performance to
+    understand humanity's obsession with – and ignorance about
+    – death.
   ticket_url: ''
   booking_unavailable: false
   age_guidance: ''
