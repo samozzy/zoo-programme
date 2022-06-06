@@ -110,7 +110,7 @@ layout: page
 					</div>
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
-							<div class="d-flex flex-row">
+							<div class="d-flex flex-row flex-wrap">
 								{% for rating in site.data.age-ratings %}
 									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-{{ rating | slugify }}" autocomplete="off" value="{{ rating | slugify }}">
 									<label id="btn-age-{{ rating | slugify }}" class="btn-filter btn-age" for="age-{{ rating | slugify }}">{{ rating }}</label><br>
@@ -125,8 +125,12 @@ layout: page
 			</div>
 			<!-- Genres -->
 			{% assign genres_data = site.data.shows | map: "genre" | compact | uniq %}
-			{% assign genres_data = genres_data | join: "," | downcase | split: "," | uniq %}
-			{% assign genres = genres_data | sort_natural %}
+			{% assign genres = "" | split: "" %}
+			{% for g in genres_data %}
+				{% assign gs = g | strip | downcase %}
+				{% unless genres contains gs %}{% assign genres = genres | push: gs %}{% endunless %}
+			{% endfor %}
+			{% assign genres = genres | sort_natural %}
 			{% unless genres.size <= 1 %}
 			<div class="col">
 				<div class="card-programme">
@@ -148,13 +152,21 @@ layout: page
 			</div>
 			{% endunless %}
 			<!-- Access and Content Warnings -->
-			{% assign content_warnings_data = site.data.shows | map: "content_warnings" | compact | uniq  %}
-			{% assign content_warnings_data = content_warnings_data | join: "," | downcase | split: "," | uniq %}
-			{% assign content_warnings = content_warnings_data | sort_natural %}
+			{% assign content_warnings_data = site.data.shows | map: "content_warnings" | compact | uniq %}
+			{% assign content_warnings = "" | split: "" %}
+			{% for g in content_warnings_data %}
+				{% assign gs = g | strip | downcase %}
+				{% unless content_warnings contains gs %}{% assign content_warnings = content_warnings | push: gs %}{% endunless %}
+			{% endfor %}
+			{% assign content_warnings = content_warnings | sort_natural %}
 
-			{% assign access_data = site.data.shows | map: "access" | compact | uniq  %}
-			{% assign access_data = access_data | join: "," | downcase | split: "," | uniq %}
-			{% assign access = access_data | sort_natural %}
+			{% assign access_data = site.data.shows | map: "access" | compact | uniq %}
+			{% assign access = "" | split: "" %}
+			{% for g in access_data %}
+				{% assign gs = g | strip | downcase %}
+				{% unless access contains gs %}{% assign access = access | push: gs %}{% endunless %}
+			{% endfor %}
+			{% assign access = access | sort_natural %}
 
 			{% unless access.size <= 1 and content_warnings.size <= 1 %}
 			<div class="col">
