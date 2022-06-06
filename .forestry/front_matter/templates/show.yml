@@ -58,12 +58,23 @@ fields:
       name: concession
       label: Concession
       description: "(Optional) Just the number, no currency please."
+  - name: ticket_url
+    type: text
+    config:
+      required: false
+    label: Ticket URL
+    description: Link to the page to book tickets
   - type: list
     name: ticket_deals
     label: Ticket Deals
     description: Any ticket deals this show has, eg BOGOF, half price hut, etc.
     config:
       use_select: false
+  - name: booking_unavailable
+    type: boolean
+    label: Booking Unavailable
+    description: Tick if tickets are not yet on sale but you do still want the show
+      to be listed (if you don't want it listed, use the draft toggle)
   - type: list
     name: genre
     label: Tags
@@ -73,13 +84,40 @@ fields:
         type: documents
         section: ''
         file: _data/tags.yml
+  - name: age_guidance
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: age-ratings
+        file: 
+        path: 
+    label: Age Guidance
+    description: Age guidance for shows
+  - name: age_restricted
+    type: boolean
+    label: Age Restricted
+    description: Tick this if the age guidance is an age restriction for the show
   - type: list
     name: access
     label: Access Provisions
     description: Eg. BSL, Captions
+    config:
+      use_select: true
+      source:
+        type: simple
+      options:
+      - bsl
+      - captions
+      - relaxed
+      - ad
   - type: text
     name: access_details
-    label: Detailed access info, eg. which performances have BSL interpretation
+    label: Access Performance Details
+    description: Eg. Which performances have captions, etc.
   - type: list
     name: content_warnings
     label: Content Warnings
@@ -89,13 +127,13 @@ fields:
     config:
       maxSize: 64
     label: Image
-    description: Show image. Must be square.
+    description: Show image. Must be square. If unset, uses a placeholder.
   - name: image_alt
     type: text
     config:
       required: false
     label: Image alt text
-    description: Textual description of the show image
+    description: Textual description of the show image (if unset, it's the show title)
   - type: field_group_list
     name: video_embeds
     label: Video Embed
@@ -152,5 +190,10 @@ fields:
   - type: textarea
     name: copy_long
     label: Copy (Long)
+  - name: is_draft
+    type: boolean
+    label: Draft
+    description: Tick to hide the show from public listings<br>(the show page will
+      still be generated, just not linked to from anywhere)
 pages:
 - _data/shows.yml
