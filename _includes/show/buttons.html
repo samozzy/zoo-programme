@@ -1,9 +1,15 @@
 {% assign show=include.show %}
 <div class="buttons mb-3 d-flex justify-content-around mx-n1">
-	{% if include.only_book %}
-		<a class="btn-zoo-book {% if include.book_primary %}btn-info{% else %}btn-outline-info{% endif %} w-50 mx-1 {{ include.btn_class }}" role="button">Book Tickets</a>
-	{% else %}
-		<a class="btn-zoo-book {% if include.book_primary %}btn-info{% else %}btn-outline-info{% endif %} w-50 mx-1 {{ include.btn_class }}" role="button">Book Tickets</a>
-		<a class="btn-zoo-book {% if include.book_primary %}btn-outline-info{% else %}btn-info{% endif %} w-50 mx-1 {{ include.btn_class }}" role="button" href="/{{ show.title | datapage_url: 'programme' }}">{{ include.read_string | default: "Read more" }}</a>
+	{% assign today_date = 'now' | date: "%Y-%m-%d" %}
+	{% include text/date-text.html show=show no_output=true %}
+	{% if show.booking_unavailable == true or show.ticket_url == empty or show.ticket_url == undefined %}
+		{% assign book_text = 'Tickets available soon' %}
+	{% elsif today_date > last_performance %}
+		{% assign book_text = 'This show has ended' %}
 	{% endif %}
+	
+	<a class="btn-zoo-book {% if include.book_primary %}btn-info{% else %}btn-outline-info{% endif %} w-50 mx-1 {{ include.btn_class }} {% if book_text %}disabled{% endif %}" role="button" {% if book_text %}disabled{% endif %}>{{ book_text | default:'Book Tickets' }}</a>
+	{% unless include.only_book %}
+		<a class="btn-zoo-book {% if include.book_primary %}btn-outline-info{% else %}btn-info{% endif %} w-50 mx-1 {{ include.btn_class }}" role="button" href="/{{ show.title | datapage_url: 'programme' }}">{{ include.read_string | default: "Read more" }}</a>
+	{% endunless %}
 </div>
