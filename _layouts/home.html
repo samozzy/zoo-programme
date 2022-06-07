@@ -8,10 +8,20 @@ layout: default
 	{% assign pre_launch = true %}
 {% endif %}
 
-<div class="container-fluid bg-zoo-white d-flex align-content-between flex-wrap pt-4 pb-4 text-center">
-	<div class="row w-75 mx-auto my-4">
+<div class="container-fluid bg-zoo-white pt-4 pb-4 px-0">
+	{% unless pre_launch %}
+	<div class="row py-5 bg-zoo-slate shadow-lg mb-4 px-4">
+		<div class="col-12 col-md-8 col-lg-6">
+			<h2 class="display-3 mb-0 text-light" id="top-of-content"><img style="height:3.1rem; width: auto; margin-top: 2px; vertical-align: middle;" src="{% link static/img/zoo/zoo-logo-white.png %}"> 2022 Programme</h2>
+		</div>
+		<div class="col-12 col-md-4 col-lg-6 h-100 my-auto d-flex">
+			<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas ms-lg-auto rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
+		</div>
+	</div>
+	{% endunless %}
+	<div class="row w-100 mx-auto my-4">
 		<div class="ratio ratio-16x9 h-100 mb-4" data-bs-toggle="tooltip" title="Contains flashing images">
-			<iframe src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOOTV trailer 2021"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+			<iframe src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO 2022 Programme Trailer"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 		</div>
 	</div>
 	<div class="row w-100">
@@ -34,16 +44,6 @@ layout: default
 </div>
 
 {% unless pre_launch %}
-<div class="container-fluid py-4 px-md-4 mb-2 bg-primary text-light">
-	<div class="row">
-		<div class="col-12 col-md-8 col-lg-6">
-			<h2 class="display-3 mb-0" id="top-of-content">Fringe 2022 Programme</h2>
-		</div>
-		<div class="col-12 col-md-4 col-lg-6 h-100 my-auto d-flex">
-			<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas ms-lg-auto rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
-		</div>
-	</div>
-</div>
 <div class="container-fluid px-5 my-2 py-4">
 	<div class="row">
 		<div class="col-12 d-flex px-0">
