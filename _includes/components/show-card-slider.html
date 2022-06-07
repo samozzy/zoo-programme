@@ -10,7 +10,14 @@
 			<h3 class="{% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</h3>
 			{% if show.company and show.company != empty %}<p class="fs-4 bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
 		</div>
-		<div class="mx-auto">
+		{% if show.copy_short and show.copy_short != empty %}{% assign has_short = true %}{% endif %}
+		{% if show.copy_long and show.copy_long != empty %}{% assign has_long = true %}{% endif %}
+		{% if has_short or has_long %}
+			{{ show.copy_short | default: show.copy_long | truncate: 100 | markdownify }}
+		{% endif %}
+	</div>
+	<div class="card-footer bg-transparent border-0 d-flex flex-column">
+		<div class="mx-auto w-auto">
 			{% if show.start_time and show.start_time != empty %}
 				<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
 			{% endif %}
@@ -19,8 +26,6 @@
 			{% endif %}
 			<p><i class="fa fa-calendar-alt fa-fw text-zoo-orange"></i> {% include text/date-text.html show=show %}</p>
 		</div>
-	</div>
-	<div class="card-footer bg-transparent border-0">
 		{% include show/buttons.html show=show %}
 	</div>
 </div>
