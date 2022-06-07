@@ -24,5 +24,5 @@
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {% endif %}
 
-    <title>{{ page.title | default: site.title }} {% unless page.permalink == '/' %}| ZOO22{% endunless %}</title>
+    <title>{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO22{% endunless %}</title>
   </head>

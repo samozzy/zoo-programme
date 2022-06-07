@@ -1,6 +1,7 @@
 ---
 layout: home 
 permalink: / 
-title: ZOO22
+title: 22
 use_swiper: true 
+logo_in_title: true
 ---

@@ -1,0 +1,9 @@
+{% if page.logo_in_title == true %}
+<img style="height:{{ include.height | default:  '3.5rem' }}; width: auto; margin-top: 2px; vertical-align: middle;" 
+	{% if include.logo == 'white' %}
+		src="{% link static/img/zoo/zoo-logo-white.png %}"
+	{% else %}
+		src="{% link static/img/zoo/zoo-logo-black.png %}"
+	{% endif %}
+>
+{% endif %}
