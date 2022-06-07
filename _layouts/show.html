@@ -73,7 +73,7 @@ use_swiper: true
 	</div>
 	{% if show.access_details and show.access_details != empty %}
 		<div class="row my-2">
-			<p><i class="fa fa-fw fa-lg fa-universal-access text-zoo-orange"></i>&nbsp;<strong>Access information:</strong> {{ show.access_details }}</p>
+			<p><i class="fa fa-fw fa-lg fa-universal-access text-zoo-orange"></i>&nbsp;<strong>Accessible Performances:</strong> {{ show.access_details }}</p>
 		</div>
 	{% endif %}
 	{% include show/buttons.html show=show btn_class='btn-lg mx-1' book_primary=true read_string="Keep reading" %}
