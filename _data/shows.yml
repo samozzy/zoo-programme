@@ -1,4 +1,60 @@
 ---
+- title: Enter Mr Citrus Man
+  company: Alien Jefferson
+  venue: Zoo Playground
+  start_time: '15:15'
+  duration: 1hr
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-06-2022-170254-1002.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Sheltered in their bathroom Pat and Pete live happily ever after,
+    until a life guru rents the rest of their home, leading Pat on a
+    dangerous journey where what she loves most is on the line.
+  copy_long: |-
+    Pat and Pete live happily in their tiny botanic bathroom, so
+    happily they don't remember any ambitions they've had in
+    life... until the day Mr Citrus Man, a life guru from the Big
+    City, moves into the rest of their home. A strange letter and a
+    forgotten dream suddenly leads Pat on a dangerous journey,
+    where what she loves most is on the line. Enter Mr Citrus
+    Man is a philosophical tragicomedy about love and ambition
+    that combines thigh-slapping humour with life's big
+    questions, leaving you with new thoughts on the emotions
+    you thought you knew.
+  is_draft: false
 - title: Naughty
   company: Anna Marie Simonsen
   venue: Zoo Playground
