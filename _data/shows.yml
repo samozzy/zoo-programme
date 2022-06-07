@@ -25,19 +25,35 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Dance Physical Theatre and Circus
+  age_guidance: 12+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  image: ''
+  content_warnings:
+  - A little bit of nudity - one performer is shortly shown from behind without clothes.
+  image: "/static/04-07-2022-145025-6919.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    You will never cross the street in the same way again! Don Gnu
+    digs into the tediousness of everyday routines in search of poetry
+    and humour in a physical action performance about the
+    extraordinary experiences of ordinary life.
+  copy_long: |-
+    You will never cross the street in the same way again! Don
+    Gnu digs into the tediousness of everyday routines in search
+    of poetry and humour with muscular physicality and edgy
+    stunt tricks. One ordinary day, four ordinary men take an
+    ordinary walk through the city, until one of them suddenly
+    decides to rebel... With trademark Don Gnu everyday stunts
+    and raw physicality, Walk-Man is a performance about the
+    extraordinary experiences of ordinary life. In a world where
+    our everyday rules, norms and routines no longer apply –
+    who are we really?
   is_draft: false
 - title: DON'T SAY MACBETH
   company: GOYA Theatre Company
