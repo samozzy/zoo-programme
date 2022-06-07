@@ -9,21 +9,56 @@ layout: default
 {% endif %}
 
 <div class="container-fluid bg-zoo-white pt-4 pb-4 px-0">
-	{% unless pre_launch %}
-	<div class="row py-5 bg-zoo-slate shadow-lg mb-4 px-4">
-		<div class="col-12 col-md-8 col-lg-6">
-			<h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white'  %} 2022 Programme</h1>
-		</div>
-		<div class="col-12 col-md-4 col-lg-6 h-100 my-auto d-flex">
-			<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas ms-lg-auto rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
+	<div class="row w-100 mx-auto mt-3 mb-4">
+		<div class="ratio ratio-16x9 h-100 mb-4 bg-zoo-black" style="overflow: hidden;">
+			<div class="row py-5 bg-zoo-slate shadow-lg mb-4 px-4 mx-0" style="top:0; left:0; height: initial; z-index: 10;">
+				<div class="col-12 col-md-8 col-lg-6">
+			        <h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white'  %} 2022 Programme</h1>
+				</div>
+                {% unless pre_launch %}
+				<div class="col-12 col-md-4 col-lg-6 h-100 my-auto d-flex">
+					<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas ms-lg-auto rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
+				</div>
+                {% endunless %}
+			</div>
+			<iframe id="trailer_iframe" style="z-index: 9; top: 10%; overflow: hidden;" src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=false" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOOTV trailer 2021"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+			<button style="z-index: 10; left: 0; right: 0; top: 85%; height: auto; width: fit-content" data-bs-toggle="tooltip" title="Contains flashing images" data-bs-placement="bottom" class="btn-zoo-pill btn-lg btn-info bebas mx-auto" onclick=togglePlay() id="play_button">Play</button>
+			<button style="z-index:  10; left: 2%; top: 25%; height: auto; width: auto" class="btn-zoo-pill btn-lg btn-info" onclick=toggleMute() id="mute_button"><i class="fa fa-volume-mute"></i></button>
 		</div>
 	</div>
-	{% endunless %}
-	<div class="row w-100 mx-auto my-4">
-		<div class="ratio ratio-16x9 h-100 mb-4" data-bs-toggle="tooltip" title="Contains flashing images">
-			<iframe src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO 2022 Programme Trailer"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
-		</div>
-	</div>
+	<script>
+		var trailer = new Vimeo.Player(document.getElementById('trailer_iframe'))
+		trailer.setVolume(0)
+		var play_button = document.getElementById('play_button')
+		var mute_button = document.getElementById('mute_button')
+		function togglePlay(){
+			trailer.getPaused().then(pausedState => {
+				if (pausedState == true){
+					trailer.play()
+					play_button.innerText = 'Pause'
+				}
+				else {
+					trailer.pause()
+					play_button.innerText = 'Play'
+				}
+				return pausedState;
+			})
+		}
+		function toggleMute(){
+			trailer.getVolume().then(volumeLevel => {
+				if (volumeLevel == 0){
+					trailer.setVolume(1)
+					mute_button.querySelector('i').classList.add('fa-volume-down')
+					mute_button.querySelector('i').classList.remove('fa-volume-mute')
+				}
+				else {
+					trailer.setVolume(0)
+					mute_button.querySelector('i').classList.remove('fa-volume-down')
+					mute_button.querySelector('i').classList.add('fa-volume-mute')
+				}
+			})
+		}
+	</script>
 	<div class="row w-100">
 		<div class="col-12 col-md-8 offset-md-2 my-auto text-center">
 			<h2 class="display-2 text-zoo-black">
@@ -40,10 +75,21 @@ layout: default
 			</h2>
 		</div>
 	</div>
+<<<<<<<
+
+=======
+	{% unless pre_launch %}
+<!-- 	<div class="row w-100">
+		<div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 d-lg-flex flex-row justify-content-evenly">
+			<a class="bebas text-decoration-none icon-animation icon-animation-down" href="#top-of-content"><i class="fa fa-chevron-down"></i></a>
+		</div>
+	</div> -->
+	{% endunless %}
+>>>>>>>
 </div>
 
 {% unless pre_launch %}
-<div class="container-fluid px-5 my-2 py-4">
+<div class="container-fluid px-5 mt-2 mb-5 py-4">
 	<div class="row">
 		<div class="col-12 d-flex px-0">
 			{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" %}
