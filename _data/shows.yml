@@ -1,4 +1,60 @@
 ---
+- title: Dreamsick
+  company: Nat Norland
+  venue: Zoo Southside
+  start_time: '17:40'
+  duration: 1hr5
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  price:
+    standard: 
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Solo Show '
+  - 'Storytelling '
+  - Theatre
+  age_guidance: 12+
+  age_restricted: false
+  access:
+  - relaxed
+  - captions
+  access_details: There will be an open captioned and relaxed performance on the 24th
+    August.
+  content_warnings:
+  - Audience Participation
+  image: "/static/04-07-2022-185623-7657.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    What did the angel say? Could A G Rizzoli see the future?
+    Travelling from the streets of LA to the coast of Suffolk,
+    Dreamsick weaves a patchwork story of outsider art, California
+    capitalism and the architecture of gender.
+  copy_long: |-
+    'I think I might be ill. Somewhere on the outside, on the
+    tarmac and the paintwork.' An architect in San Francisco
+    draws people as buildings, Elon Musk plans his colony on
+    Mars and a woman, walking her dog, encounters an angel.
+    With lyrical storytelling, fragile image-making and meticulous
+    sound, Dreamsick is a nocturne of memories, dreams and
+    visions by writer and composer Nat Norland. A solo
+    performance about the losing of hope, the architecture of
+    gender, the act of transformation, the construction of the
+    future. 'Its ambition and confidence are genuinely
+    remarkable' (DarkerNeon.blogspot.com for Portents).
+  is_draft: false
 - title: Unwanted Objects
   company: David Head and Matt Glover
   venue: Zoo Southside
