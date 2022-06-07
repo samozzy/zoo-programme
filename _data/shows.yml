@@ -1,4 +1,58 @@
 ---
+- title: Naughty
+  company: Anna Marie Simonsen
+  venue: Zoo Playground
+  start_time: '17:45'
+  duration: 1hr
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Physical Theatre '
+  - 'Clown '
+  - Comedy
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Scenes of a Sexual Nature
+  - 'Audience Participation '
+  image: "/static/04-06-2022-110507-7591.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    An electric power game between the patriarchy and a six-year-old
+    girl in pink Crocs. Award-winning comedy about the infantilisation
+    of women. There'll be jelly. And lots of it.
+  copy_long: |-
+    ‘You look 15, but I like that. I like women that look young’. An
+    electric, one-woman comedy exploring sexualisation of
+    young girls and infantilisation of women. A power game
+    between the patriarchy and a six-year-old girl in pink Crocs.
+    Pushing the boundaries of the male gaze, Naughty confronts
+    the disturbing image of innocence and youth as sexy.
+    Naughty is powered by the Pleasance Fringe Futures, won
+    the Funniest Moment award at Oslo Fringe in 2021 (*****
+    (Vilde Bodsberg, Journalist)) and was listed as 'unmissable'
+    (ToDoList.org.uk). Praise for previous work: 'innovative and
+    heartfelt' **** (Scotsman).
+  is_draft: false
 - title: Dreamsick
   company: Nat Norland
   venue: Zoo Southside
