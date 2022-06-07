@@ -291,7 +291,7 @@ layout: page
 				data-performances="{{ show.performances | join: ',' }}"
 				data-price="{{ show.price.concession | default: show.price.standard }}"
 				data-genre="{{ show.genre | join:',' | slugify }}"
-				data-access="{{ show.access | join: ',' | downcase | default: '' }}"
+				data-access="{{ show.access | join: ',' | downcase | slugify | default: '' }}"
 				data-content_warnings="{{ show.content_warnings | join: ',' | slugify }}"
 				id="{{ show.title | slugify }}"
 				>
