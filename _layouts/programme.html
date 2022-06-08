@@ -71,8 +71,9 @@ layout: page
 					</div>
 				</div>
 			</div>
-			<!-- Prices -->
-			<div class="col">
+			{% comment %}
+			<!-- Prices - hidden for now -->
+<!-- 			<div class="col">
 				<div class="card-programme">
 					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
 						<p>Within this ticket price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
@@ -98,6 +99,27 @@ layout: page
 						</div>
 						<div class="card-footer">
 							<p class="helper-text text-end"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			{% endcomment %}
+			<!-- venues -->
+			{% assign venues = site.data.venues %}
+			<div class="col">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-venue" aria-expanded="false" aria-controls="filter-venue">
+						<p>In this venue <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="collapse" id="filter-venue">
+						<div class="card-body">
+							{% for venue in venues %}
+								<input type="checkbox" name="filter-venue-item" class="btn-check" id="filter-venue-{{ venue | slugify }}" autocomplete="off" value="{{venue | slugify}}">
+								<label id="btn-venue-{{venue|slugify}}" class="btn-filter btn-venue" for="filter-venue-{{ venue | slugify }}">{{ venue }}</label>
+							{% endfor %}
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearVenueCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -237,8 +259,15 @@ layout: page
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
-				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+<!-- 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
 					<span>Price<span id="active-filter-price-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button> -->
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearVenueCheckboxes()" id="active-filter-venue">
+					<span>Venue<span id="active-filter-venue-list"></span></span>
 					<div class="icons d-inline">
 						<i class="far fa-times-circle"></i>
 						<i class="fa fa-times-circle"></i>
@@ -294,6 +323,7 @@ layout: page
 				data-genre="{{ show.genre | join:',' | slugify }}"
 				data-access="{{ show.access | join: ',' | downcase | slugify | default: '' }}"
 				data-content_warnings="{{ show.content_warnings | join: ',' | slugify }}"
+				data-venue="{{ show.venue | slugify }}"
 				id="{{ show.title | slugify }}"
 				>
 				{% include components/show-card-small.html show=show %}
