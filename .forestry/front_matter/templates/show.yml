@@ -131,6 +131,15 @@ fields:
     name: content_warnings
     label: Content Warnings
     description: Eg. Strobe lighting, strong language
+  - name: content_warning_detail
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Content Warning Detail
+    description: Details about where the content warnings feature in the show, or
+      weirdly specific content warnings (eg. a dead pig)
   - name: image
     type: file
     config:
