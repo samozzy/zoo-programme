@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202206081726">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202206081752">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -210,44 +210,26 @@
 					</div>
 				</div>
 			</div>
-			<!-- Prices -->
+			
+			<!-- venues -->
+			
 			<div class="col">
 				<div class="card-programme">
-					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-price" aria-expanded="false" aria-controls="filter-price">
-						<p>Within this ticket price range <i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-venue" aria-expanded="false" aria-controls="filter-venue">
+						<p>In this venue <i class="fa fa-chevron-down fa-fw float-end"></i></p>
 					</div>
-					<div class="collapse" id="filter-price">
+					<div class="collapse" id="filter-venue">
 						<div class="card-body">
 							
+								<input type="checkbox" name="filter-venue-item" class="btn-check" id="filter-venue-zoo-southside" autocomplete="off" value="zoo-southside">
+								<label id="btn-venue-zoo-southside" class="btn-filter btn-venue" for="filter-venue-zoo-southside">ZOO Southside</label>
 							
-
-							
-							
-							
-							
-								
-								
-								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-0" autocomplete="off" value="0,5">
-								<label id="btn-price-0-5" class="btn-filter btn-price" for="filter-price-0">£0 - £5</label>
-							
-								
-								
-								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-1" autocomplete="off" value="5,10">
-								<label id="btn-price-5-10" class="btn-filter btn-price" for="filter-price-1">£5 - £10</label>
-							
-								
-								
-								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-2" autocomplete="off" value="10,15">
-								<label id="btn-price-10-15" class="btn-filter btn-price" for="filter-price-2">£10 - £15</label>
-							
-								
-								
-								<input type="checkbox" name="filter-price-item" class="btn-check" id="filter-price-3" autocomplete="off" value="15,20">
-								<label id="btn-price-15-20" class="btn-filter btn-price" for="filter-price-3">£15 - £20</label>
+								<input type="checkbox" name="filter-venue-item" class="btn-check" id="filter-venue-zoo-playground" autocomplete="off" value="zoo-playground">
+								<label id="btn-venue-zoo-playground" class="btn-filter btn-venue" for="filter-venue-zoo-playground">ZOO Playground</label>
 							
 						</div>
 						<div class="card-footer">
-							<p class="helper-text text-end"><a onclick=clearPriceCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
+							<p class="helper-text text-end"><a onclick=clearVenueCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Clear selection</a></p>
 						</div>
 					</div>
 				</div>
@@ -577,8 +559,15 @@
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
-				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+<!-- 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
 					<span>Price<span id="active-filter-price-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button> -->
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearVenueCheckboxes()" id="active-filter-venue">
+					<span>Venue<span id="active-filter-venue-list"></span></span>
 					<div class="icons d-inline">
 						<i class="far fa-times-circle"></i>
 						<i class="fa fa-times-circle"></i>
@@ -641,6 +630,7 @@
 				data-genre="theatre-compilation-new-writing"
 				data-access="ad-captions"
 				data-content_warnings="contains-distressing-themes-strong-language-swearing"
+				data-venue="zoo-playground"
 				id="52-souls"
 				>
 				
@@ -1064,6 +1054,7 @@
 				data-genre="stand-up-comedy"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-southside"
 				id="afterhours-comedy-amused-moose-comedy"
 				>
 				
@@ -1489,10 +1480,11 @@
 				data-time="19"
 				data-age_guidance="14+"
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-25,2022-08-24,2022-08-23,2022-08-22,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-15,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
-				data-price="10"
+				data-price="12"
 				data-genre="storytelling-stand-up-comedy"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-playground"
 				id="aidan-goatley-tenacious"
 				>
 				
@@ -1922,6 +1914,7 @@
 				data-genre="physical-theatre-solo-show"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="all-by-myself"
 				>
 				
@@ -2345,6 +2338,7 @@
 				data-genre="contemporary-dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="all-over"
 				>
 				
@@ -2768,6 +2762,7 @@
 				data-genre="drama-comedy"
 				data-access=""
 				data-content_warnings="strong-language-swearing-contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="an-audience-with-stuart-bagcliffe"
 				>
 				
@@ -3187,10 +3182,11 @@
 				data-time="10"
 				data-age_guidance="12+"
 				data-performances="2022-08-12,2022-08-11"
-				data-price="10"
+				data-price="12"
 				data-genre="devised-verbatim-theatre"
 				data-access="captions"
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="art27-s-blood-red-lines"
 				>
 				
@@ -3616,10 +3612,11 @@
 				data-time="10"
 				data-age_guidance="8+"
 				data-performances="2022-08-13"
-				data-price="10"
+				data-price="12"
 				data-genre="true-life-multimedia-events"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="art27-s-firsthand-z-pierwszej-ręki"
 				>
 				
@@ -4045,10 +4042,11 @@
 				data-time="10"
 				data-age_guidance="12+"
 				data-performances="2022-08-09,2022-08-08"
-				data-price="10"
+				data-price="12"
 				data-genre="political-verbatim-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="art27-s-from-the-heart-of-the-incident-من-قلب-الحدث"
 				>
 				
@@ -4474,10 +4472,11 @@
 				data-time="10"
 				data-age_guidance="12+"
 				data-performances="2022-08-05"
-				data-price="10"
+				data-price="12"
 				data-genre="talk-music-events"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="art27-s-from-the-horses-mouth-消息來源可靠"
 				>
 				
@@ -4903,10 +4902,11 @@
 				data-time="10"
 				data-age_guidance="8+"
 				data-performances="2022-08-07,2022-08-06"
-				data-price="10"
+				data-price="12"
 				data-genre="drama-international-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="art27-s-saber-came-to-tea-صابر-اتى-لتناول-الشاي"
 				>
 				
@@ -5336,6 +5336,7 @@
 				data-genre="theatre-contemporary-new-writing"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-playground"
 				id="bathroom-confession"
 				>
 				
@@ -5759,6 +5760,7 @@
 				data-genre="new-writing-drama-theatre"
 				data-access=""
 				data-content_warnings="drug-references-strong-language-swearing-simulated-scenes-of-violence"
+				data-venue="zoo-playground"
 				id="brothers"
 				>
 				
@@ -6182,6 +6184,7 @@
 				data-genre="contemporary-dance-theatre"
 				data-access="ad-captions-bsl"
 				data-content_warnings="strong-language-swearing-themes-of-a-sexual-nature-nudity-contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="civilisation"
 				>
 				
@@ -6605,6 +6608,7 @@
 				data-genre="farce-comedy-musicals-and-opera"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="don-t-say-macbeth"
 				>
 				
@@ -7028,6 +7032,7 @@
 				data-genre="solo-show-storytelling-theatre"
 				data-access="relaxed-captions"
 				data-content_warnings="audience-participation"
+				data-venue="zoo-southside"
 				id="dreamsick"
 				>
 				
@@ -7451,6 +7456,7 @@
 				data-genre="theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="enter-mr-citrus-man"
 				>
 				
@@ -7874,6 +7880,7 @@
 				data-genre="devised-contemporary-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="every-word-was-once-an-animal"
 				>
 				
@@ -8297,6 +8304,7 @@
 				data-genre="physical-theatre-solo-show-theatre"
 				data-access=""
 				data-content_warnings="contains-distressing-themes-audience-participation"
+				data-venue="zoo-southside"
 				id="far-gone"
 				>
 				
@@ -8720,6 +8728,7 @@
 				data-genre="devised-dance-physical-theatre-and-circus"
 				data-access="ad"
 				data-content_warnings="flickering-lights-strong-language-swearing-scenes-of-a-sexual-nature"
+				data-venue="zoo-southside"
 				id="fault-lines"
 				>
 				
@@ -9143,6 +9152,7 @@
 				data-genre="comedy-thriller-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="have-you-seen-this-woman"
 				>
 				
@@ -9566,6 +9576,7 @@
 				data-genre="acrobatics-dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings="strobe-lighting"
+				data-venue="zoo-southside"
 				id="heroes"
 				>
 				
@@ -9989,6 +10000,7 @@
 				data-genre="disabled-led-contemporary-theatre"
 				data-access="captions-bsl"
 				data-content_warnings="mental-health-trauma-mention-of-suicide-strong-language-swearing-contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="i-was-naked-smelling-of-rain"
 				>
 				
@@ -10408,10 +10420,11 @@
 				data-time="20"
 				data-age_guidance="16+"
 				data-performances="2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
-				data-price="10"
+				data-price="12"
 				data-genre="solo-show-horror-theatre"
 				data-access=""
 				data-content_warnings="themes-of-sexual-and-physical-violence-discussed-but-not-shown-contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="jekyll-hyde-a-one-woman-show"
 				>
 				
@@ -10837,10 +10850,11 @@
 				data-time="20"
 				data-age_guidance="14+"
 				data-performances="2022-08-28,2022-08-27,2022-08-26,2022-08-25,2022-08-24,2022-08-23,2022-08-21,2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-14,2022-08-23,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-07,2022-08-06,2022-08-05"
-				data-price="10"
+				data-price="12"
 				data-genre="adaptation-drama-theatre"
 				data-access=""
 				data-content_warnings="scenes-of-violence-scenes-of-sexual-violence-contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="johnny-got-his-gun"
 				>
 				
@@ -11270,6 +11284,7 @@
 				data-genre="true-life-comedy-theatre"
 				data-access=""
 				data-content_warnings="contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="love-me-or-i-ll-kill-myself"
 				>
 				
@@ -11693,6 +11708,7 @@
 				data-genre="theatre-comedy-new-writing"
 				data-access=""
 				data-content_warnings="two-instances-of-strong-language-discussion-of-vomiting-and-one-sudden-loud-noise"
+				data-venue="zoo-playground"
 				id="lucid"
 				>
 				
@@ -12116,6 +12132,7 @@
 				data-genre="theatre-new-writing-spoken-show"
 				data-access=""
 				data-content_warnings="discussion-of-sexual-assault-and-rape-strong-language-swearing-scenes-of-a-sexual-nature-contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="manic"
 				>
 				
@@ -12535,10 +12552,11 @@
 				data-time="21"
 				data-age_guidance="14+"
 				data-performances="2022-08-13,2022-08-12,2022-08-11,2022-08-09,2022-08-08,2022-08-07,2022-08-06,2022-08-05"
-				data-price="13"
+				data-price="16"
 				data-genre="international-improv-theatre"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-playground"
 				id="marriage-in-progress"
 				>
 				
@@ -12968,6 +12986,7 @@
 				data-genre="international-true-life-theatre"
 				data-access=""
 				data-content_warnings="contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="maternity"
 				>
 				
@@ -13391,6 +13410,7 @@
 				data-genre="visual-art-physical-theatre-theatre"
 				data-access=""
 				data-content_warnings="strobe-lighting"
+				data-venue="zoo-southside"
 				id="megalith"
 				>
 				
@@ -13814,6 +13834,7 @@
 				data-genre="physical-theatre-clown-comedy"
 				data-access=""
 				data-content_warnings="scenes-of-a-sexual-nature-audience-participation"
+				data-venue="zoo-playground"
 				id="naughty"
 				>
 				
@@ -14237,6 +14258,7 @@
 				data-genre="music-contemporary-dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings="contains-loud-music"
+				data-venue="zoo-southside"
 				id="night-dances"
 				>
 				
@@ -14660,6 +14682,7 @@
 				data-genre="sci-fi-thriller-dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings="strong-language-swearing-scenes-of-violence-scenes-of-a-sexual-nature"
+				data-venue="zoo-playground"
 				id="no-one"
 				>
 				
@@ -15079,10 +15102,11 @@
 				data-time="19"
 				data-age_guidance="14+"
 				data-performances="2022-08-20,2022-08-19,2022-08-18,2022-08-17,2022-08-16,2022-08-14,2022-08-13,2022-08-12,2022-08-11,2022-08-10,2022-08-09,2022-08-07,2022-08-06,2022-08-05"
-				data-price="10"
+				data-price="12"
 				data-genre="music-theatre"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-southside"
 				id="raging-mother"
 				>
 				
@@ -15512,6 +15536,7 @@
 				data-genre="true-life-solo-show-theatre"
 				data-access="bsl"
 				data-content_warnings="this-show-focuses-on-experiences-treatments-and-impact-of-cancer-on-a-family-contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="red-alert-cancer"
 				>
 				
@@ -15935,6 +15960,7 @@
 				data-genre="new-writing-theatre"
 				data-access=""
 				data-content_warnings="there-is-a-dead-pig-in-the-show-nudity-contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="rocky"
 				>
 				
@@ -16358,6 +16384,7 @@
 				data-genre="dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="runners"
 				>
 				
@@ -16781,6 +16808,7 @@
 				data-genre="dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings="contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="sad-book"
 				>
 				
@@ -17204,6 +17232,7 @@
 				data-genre="solo-show-theatre-music"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="saved"
 				>
 				
@@ -17627,6 +17656,7 @@
 				data-genre="international-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="tea-ceremony"
 				>
 				
@@ -18050,6 +18080,7 @@
 				data-genre="physical-theatre-new-writing-theatre"
 				data-access=""
 				data-content_warnings=""
+				data-venue="zoo-playground"
 				id="the-heat-museum"
 				>
 				
@@ -18479,6 +18510,7 @@
 				data-genre="neurodiversity-led-new-writing-theatre"
 				data-access="bsl"
 				data-content_warnings=""
+				data-venue="zoo-southside"
 				id="the-rainbow-a-rehearsed-reading-of-a-new-adaptation"
 				>
 				
@@ -18902,6 +18934,7 @@
 				data-genre="political-multimedia-music"
 				data-access="ad"
 				data-content_warnings="contains-distressing-themes"
+				data-venue="zoo-southside"
 				id="the-relentless-approach-of-better-times"
 				>
 				
@@ -19325,6 +19358,7 @@
 				data-genre="devised-new-writing-theatre"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-southside"
 				id="this-is-your-captain-speaking"
 				>
 				
@@ -19754,6 +19788,7 @@
 				data-genre="multimedia-new-writing-theatre"
 				data-access=""
 				data-content_warnings="contains-distressing-themes"
+				data-venue="zoo-playground"
 				id="truth-reconciliation"
 				>
 				
@@ -20177,6 +20212,7 @@
 				data-genre="music-storytelling-theatre"
 				data-access=""
 				data-content_warnings="strong-language-swearing"
+				data-venue="zoo-southside"
 				id="unwanted-objects"
 				>
 				
@@ -20600,6 +20636,7 @@
 				data-genre="dance-physical-theatre-and-circus"
 				data-access=""
 				data-content_warnings="a-little-bit-of-nudity-one-performer-is-shortly-shown-from-behind-without-clothes"
+				data-venue="zoo-southside"
 				id="walk-man"
 				>
 				

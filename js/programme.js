@@ -391,6 +391,7 @@ time_checkboxes.forEach(function(checkbox) {
 //
 // Price Filter //
 //
+/*
 var price_checkboxes = document.querySelectorAll('input[name="filter-price-item"]');
 let picked_prices = [] 
 var price_buttons = document.getElementsByClassName('btn-price');
@@ -434,6 +435,56 @@ price_checkboxes.forEach(function(checkbox) {
     	}
     }
     showActiveFilter('price');
+  })
+});
+*/
+
+// 
+// Venue Filter //
+//
+var venue_checkboxes = document.querySelectorAll('input[name="filter-venue-item"]');
+let picked_venues = [] 
+var venue_buttons = document.getElementsByClassName('btn-venue');
+
+function clearVenueCheckboxes() {
+	clearFilteredOutClass('filtered-out-by-venue', venue_checkboxes, false, venue_buttons)
+}
+
+venue_checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    picked_venues = 
+      Array.from(venue_checkboxes) // Convert checkboxes to an array to use filter and map.
+      .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
+      .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
+
+    // If all checkboxes are empty, show everything (rather than nothing)
+    if (picked_venues.length == 0) {
+			for (i=0; i< the_shows.length; i++ ) {
+				if (the_shows[i].classList.contains('filtered-out-by-venue')) {
+					the_shows[i].classList.remove('filtered-out-by-venue');
+				}
+			}
+    }
+    else {
+    	// Assuming something is ticked, filter the shows appropriately. 
+
+    	// Hide all of them 
+    	for (const show of the_shows) {
+    		show.classList.add('filtered-out-by-venue');
+    	}
+    	// Iterate over the picked venues and display shows that match
+    	for (p=0; p < picked_venues.length; p++) {
+    		// STEP 1: Apply the filter to the show classes
+    		console.log(picked_venues);
+    		for (s=0; s < the_shows.length; s++) {
+    			if (the_shows[s].dataset.venue.includes(picked_venues[p])) {
+						// If the ticket price is in range, display the show 
+						if (the_shows[s].classList.contains('filtered-out-by-venue')) the_shows[s].classList.remove('filtered-out-by-venue');
+					}
+				}
+    	}
+    }
+    showActiveFilter('venue');
   })
 });
 
