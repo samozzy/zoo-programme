@@ -1727,7 +1727,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£14-£17"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/walk-man
   ticket_deals: []
@@ -1738,8 +1738,7 @@
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings:
-  - A little bit of nudity - one performer is shortly shown from behind without clothes.
+  content_warnings: []
   image: "/static/04-07-2022-145025-6919.jpg"
   image_alt: ''
   video_embeds: []
@@ -1762,7 +1761,8 @@
     our everyday rules, norms and routines no longer apply –
     who are we really?
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - A little bit of nudity - one performer is shortly shown from behind without clothes.
 - title: DON'T SAY MACBETH
   company: GOYA Theatre Company
   venue: Zoo Playground
