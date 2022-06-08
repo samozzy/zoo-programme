@@ -2,14 +2,14 @@
 layout: default 
 --- 
 
-<div class="container-fluid bg-zoo-white py-4 text-center">
+<div class="container bg-zoo-white p-4 text-center">
 	<div class="row">
-		<div class="col-12 col-md-8 {% if page.layout == 'page-narrow' %}offset-lg-2{% endif %} mt-auto text-start">
+		{% include components/header-logo.html %}
+		<div class="col-12 col-xl-10 {% if page.layout == 'page-narrow' %}offset-lg-2{% endif %} mt-auto text-center text-xl-start order-2 order-xl-1">
 			<h1 class="display-2 text-zoo-black">
 				{% include components/logo-in-title.html %} {{ page.title }}
 			</h1>
 		</div>
-		{% include components/header-logo.html %}
 	</div>
 	
 </div>
