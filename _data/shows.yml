@@ -23,18 +23,33 @@
   genre:
   - Acrobatics
   - 'Dance Physical Theatre and Circus '
-  age_guidance: ''
+  age_guidance: 8+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  image: ''
+  content_warnings:
+  - 'Strobe Lighting '
+  image: "/static/04-11-2022-184222-5487.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    The performance Heroes combines a top-level pantomime
+    performed by Radim Vizváry and inventive acrobatic stunts.
+    Shock, sadness, hope and even humour! Brace yourselves for an
+    emotional rollercoaster.
+  copy_long: |-
+    Heroes. What is going on in a mind of a severely injured
+    person undergoing a surgery after a serious car crash? Our
+    leading character literally fights for his life – with us, you can
+    get a peek of his colourful inner world. The performance
+    combines a pantomime and inventive acrobatics. Shock,
+    sadness, hope and even humour! Brace yourselves for an
+    emotional rollercoaster. Innovative production bringing
+    together masters of their disciplines. Starring award-winning
+    mime Radim Vizváry. Czech group Losers Cirque Company
+    are directed by Daniel Špinar, head of the National Theatre.
   is_draft: false
 - title: 'Rocky '
   company: FIX&FOXY
