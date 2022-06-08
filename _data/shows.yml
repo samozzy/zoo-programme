@@ -9,6 +9,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/rainbow-a-rehearsed-reading-of-a-new-adaptation
   genre:
   - Neurodiversity Led
@@ -45,6 +47,7 @@
   links: []
   reviews: []
   is_draft: false
+  content_warning_detail: []
 - title: Tea Ceremony
   company: SRSLYyours/Civil Disobedience
   venue: Zoo Playground
@@ -76,6 +79,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/tea-ceremony
   ticket_deals: []
   booking_unavailable: false
@@ -108,6 +113,7 @@
     human trafficking, torture and slavery, and the high price we
     pay for our joy and greed.
   is_draft: false
+  content_warning_detail: []
 - title: Marriage in Progress
   company: ED Ensemble and Rocket Productions
   venue: Zoo Playground
@@ -125,6 +131,8 @@
   price:
     standard: 16
     concession: 13
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/marriage-in-progress
   ticket_deals: []
   booking_unavailable: false
@@ -162,6 +170,7 @@
     emerged in Chicago as one of the most innovative
     companies in North America.
   is_draft: false
+  content_warning_detail: []
 - title: All Over
   company: Eivind Seljeseth
   venue: Zoo Southside
@@ -178,6 +187,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/all-over
   ticket_deals: []
   booking_unavailable: false
@@ -211,6 +222,7 @@
     take your metaphorical hand and guide you through your
     own imagination.
   is_draft: false
+  content_warning_detail: []
 - title: Bathroom Confession
   company: Tinted Theatre
   venue: Zoo Playground
@@ -229,6 +241,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/bathroom-confession
   ticket_deals: []
   booking_unavailable: false
@@ -264,6 +278,7 @@
     Solveig Paulsen is the debuting show of Tinted Theatre, a
     new feminist theatre company coming out of Liverpool.
   is_draft: false
+  content_warning_detail: []
 - title: 'Afterhours Comedy: Amused Moose Comedy'
   company: Hils Jago for Amused Moose Comedy
   venue: Zoo Southside
@@ -275,6 +290,8 @@
   price:
     standard: 12.5
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/afterhours-comedy-amused-moose-comedy
   ticket_deals: []
   booking_unavailable: false
@@ -309,6 +326,7 @@
     towards stardom. 'Stellar!' (Scotsman). 'Best late-night
     comedy' (List).
   is_draft: false
+  content_warning_detail: []
 - title: Megalith
   company: MECHANIMAL
   venue: Zoo Southside
@@ -334,6 +352,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/megalith
   ticket_deals: []
   booking_unavailable: false
@@ -374,6 +394,7 @@
     remarkable and urgent show' (Guardian). 'Extraordinary...
     moving and enlightening' (New Scientist). Get yer strata on.
   is_draft: false
+  content_warning_detail: []
 - title: Maternity
   company: Frechot Ensemble – Hana Vazana
   venue: Zoo Southside
@@ -404,6 +425,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/maternity
   ticket_deals: []
   booking_unavailable: false
@@ -440,6 +463,7 @@
     women creators dealing with issues of ethnicity, feminism
     and activism.
   is_draft: false
+  content_warning_detail: []
 - title: ART27's Firsthand Z pierwszej ręki
   company: Art27 Scotland
   venue: Zoo Southside
@@ -450,6 +474,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/art27-s-firsthand-z-pierwszej-reki
   ticket_deals: []
   booking_unavailable: false
@@ -484,6 +510,7 @@
     borderlands. The artwork is in the Polish language with
     English subtitles and Polish pastries.
   is_draft: false
+  content_warning_detail: []
 - title: ART27's From The Heart Of The Incident من قلب الحدث
   company: Art27 Scotland
   venue: Zoo Southside
@@ -495,6 +522,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/art27-s-from-the-heart-of-the-incident
   ticket_deals: []
   booking_unavailable: false
@@ -527,6 +556,7 @@
     dramatize his ongoing story that led him to lose his
     livelihood, his health and his family.
   is_draft: false
+  content_warning_detail: []
 - title: ART27's Saber Came To Tea صابر اتى لتناول الشاي
   company: Art27 Scotland
   venue: Zoo Southside
@@ -538,6 +568,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/art27-s-saber-came-to-tea
   ticket_deals: []
   booking_unavailable: false
@@ -569,6 +601,7 @@
     writer/director Robert Rae. In Arabic with English subtitles
     with breakfast included.
   is_draft: false
+  content_warning_detail: []
 - title: ART27's From The Horses Mouth 消息來源可靠
   company: Art27 Scotland
   venue: Zoo Southside
@@ -579,6 +612,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/art27-s-from-the-horse-s-mouth
   ticket_deals: []
   booking_unavailable: false
@@ -605,6 +640,7 @@
     and tales of the life of those who have settled in Edinburgh. Enjoy a coffee,
     green tea and baobun breakfast!
   is_draft: false
+  content_warning_detail: []
 - title: Brothers
   company: Little Red Fox Productions
   venue: Zoo Playground
@@ -623,6 +659,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/brothers
   ticket_deals: []
   booking_unavailable: false
@@ -662,6 +700,7 @@
     and love, and questions if keeping secrets in a bid to protect
     can do more harm than good.
   is_draft: false
+  content_warning_detail: []
 - title: 'Jekyll & Hyde: A One-Woman Show'
   company: Sweet Productions
   venue: Zoo Playground
@@ -680,6 +719,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/jekyll-and-hyde-a-one-woman-show
   ticket_deals: []
   booking_unavailable: false
@@ -715,6 +756,7 @@
     couldn't help but watch despite wanting to turn away in
     horror' ***** (BroadwayBaby.com).
   is_draft: false
+  content_warning_detail: []
 - title: 'Aidan Goatley: Tenacious'
   company: Aidan Goatley
   venue: Zoo Playground
@@ -748,6 +790,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/aidan-goatley-tenacious
   ticket_deals: []
   booking_unavailable: false
@@ -783,6 +827,7 @@
     (Mark Thomas). 'Hilarious' (BroadwayBaby.com). 'Brilliant'
     ***** (FringeGuru.com).
   is_draft: false
+  content_warning_detail: []
 - title: ART27's Blood Red Lines
   company: Art27Scotland in association with Our Land Productions.
   venue: Zoo Southside
@@ -794,6 +839,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/art27-s-blood-red-lines
   ticket_deals: []
   booking_unavailable: false
@@ -829,6 +876,7 @@
     of verbatim theatre. With new songs from the legendary folk
     singer and peace activist Tommy Sands.
   is_draft: false
+  content_warning_detail: []
 - title: 'The Heat Museum '
   company: Dream Pavilion
   venue: Zoo Playground
@@ -854,6 +902,8 @@
   price:
     standard: 10
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/heat-museum
   ticket_deals: []
   booking_unavailable: false
@@ -881,6 +931,7 @@
     exploration into how we navigate emotional trauma and
     regain hope in the darkest moments of our lives.
   is_draft: false
+  content_warning_detail: []
 - title: Sad Book
   company: 201 Dance Company
   venue: Zoo Southside
@@ -897,6 +948,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/sad-book
   ticket_deals: []
   booking_unavailable: false
@@ -927,6 +980,7 @@
     and original music, 201 and Choreographer Andrea Walker
     bring Michael Rosen's award-winning book to the stage.
   is_draft: false
+  content_warning_detail: []
 - title: This Is Your Captain Speaking
   company: Ratsnest
   venue: Zoo Southside
@@ -945,6 +999,8 @@
   price:
     standard: 10
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/this-is-your-captain-speaking
   ticket_deals: []
   booking_unavailable: false
@@ -978,6 +1034,7 @@
     promising a different performance each night. The cast know
     as much as the audience when they step on the stage.
   is_draft: false
+  content_warning_detail: []
 - title: I Was Naked, Smelling of Rain
   company: Aidan Moesby
   venue: Zoo Playground
@@ -993,6 +1050,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/i-was-naked-smelling-of-rain
   ticket_deals: []
   booking_unavailable: false
@@ -1032,6 +1091,7 @@
     ever truly where we are and present? Part of Horizon:
     Performance Created in England.
   is_draft: false
+  content_warning_detail: []
 - title: Civilisation
   company: Jaz Woodcock-Stewart with Morgann Runacre-Temple
   venue: Zoo Southside
@@ -1048,6 +1108,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/civilisation
   ticket_deals: []
   booking_unavailable: false
@@ -1091,6 +1153,7 @@
     loss. Music by ABBA and Bach. Horizon: Performance
     Created in England
   is_draft: false
+  content_warning_detail: []
 - title: No One
   company: Akimbo
   venue: Zoo Playground
@@ -1107,6 +1170,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/no-one
   ticket_deals: []
   booking_unavailable: false
@@ -1142,6 +1207,7 @@
     language that blends storytelling and physical theatre with
     martial arts, puppetry and movement.
   is_draft: false
+  content_warning_detail: []
 - title: Heroes
   company: Losers Cirque Company
   venue: Zoo Southside
@@ -1160,6 +1226,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/heroes-1
   ticket_deals: []
   booking_unavailable: false
@@ -1194,6 +1262,7 @@
     mime Radim Vizváry. Czech group Losers Cirque Company
     are directed by Daniel Špinar, head of the National Theatre.
   is_draft: false
+  content_warning_detail: []
 - title: 'Rocky '
   company: FIX&FOXY
   venue: Zoo Southside
@@ -1218,6 +1287,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/rocky
   ticket_deals: []
   booking_unavailable: false
@@ -1262,6 +1333,7 @@
     theatre is able to deal with the most problematic discussions
     of zeitgeist and power' ★★★★★ (Berlingske).
   is_draft: false
+  content_warning_detail: []
 - title: Runners
   company: Cirk La Putyka
   venue: Zoo Southside
@@ -1293,6 +1365,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/runners
   ticket_deals: []
   booking_unavailable: false
@@ -1328,6 +1402,7 @@
     hoovering up awards wherever they stumble’ (Scotland on
     Sunday).
   is_draft: false
+  content_warning_detail: []
 - title: Fault Lines
   company: Two Destination Language
   venue: Zoo Southside
@@ -1344,6 +1419,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/fault-lines
   ticket_deals: []
   booking_unavailable: false
@@ -1383,6 +1460,7 @@
     in shifting it, ever so slightly, on its axis' (Scotsman).
     MadeInScotlandShowcase.com
   is_draft: false
+  content_warning_detail: []
 - title: Night Dances
   company: United Fall / Emma Martin
   venue: Zoo Southside
@@ -1403,6 +1481,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/night-dances
   ticket_deals: []
   booking_unavailable: false
@@ -1440,6 +1520,7 @@
     sweat unite us. ‘Raucous, loud, sweaty... a thrilling hour of
     relentless dancing and music’ **** (Irish Times).
   is_draft: false
+  content_warning_detail: []
 - title: The Relentless Approach of Better Times
   company: Emma Smith
   venue: Zoo Southside
@@ -1456,6 +1537,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/relentless-approach-of-better-times
   ticket_deals: []
   booking_unavailable: false
@@ -1492,6 +1575,7 @@
     music and images through a journey from anxiety to hope.
     Part of the MadeInScotlandShowcase.com
   is_draft: false
+  content_warning_detail: []
 - title: Raging Mother
   company: From Start to Finnish
   venue: Zoo Southside
@@ -1515,6 +1599,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/raging-mother
   ticket_deals: []
   booking_unavailable: false
@@ -1548,6 +1634,7 @@
     and aims to shake them up. Here, she is simply a human
     being who just happens to be a mother, too.
   is_draft: false
+  content_warning_detail: []
 - title: Johnny Got His Gun
   company: Rossi, Holopainen, Riikonen in association with From Start to Finnish
   venue: Zoo Southside
@@ -1579,6 +1666,8 @@
   price:
     standard: 12
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/johnny-got-his-gun
   ticket_deals: []
   booking_unavailable: false
@@ -1614,6 +1703,7 @@
     democracy and his native land to lose everything. Now he
     questions what he's been taught to dream of.
   is_draft: false
+  content_warning_detail: []
 - title: WALK-MAN
   company: DON GNU
   venue: Zoo Southside
@@ -1637,6 +1727,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/walk-man
   ticket_deals: []
   booking_unavailable: false
@@ -1670,6 +1762,7 @@
     our everyday rules, norms and routines no longer apply –
     who are we really?
   is_draft: false
+  content_warning_detail: []
 - title: DON'T SAY MACBETH
   company: GOYA Theatre Company
   venue: Zoo Playground
@@ -1700,6 +1793,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/don-t-say-macbeth
   ticket_deals: []
   booking_unavailable: false
@@ -1735,6 +1830,7 @@
     hurlyburly's done. Under rehearsed, under slept and under
     extreme duress, GOYA presents a musical catastrophe.
   is_draft: false
+  content_warning_detail: []
 - title: Enter Mr Citrus Man
   company: Alien Jefferson
   venue: Zoo Playground
@@ -1760,6 +1856,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/enter-mr-citrus-man
   ticket_deals: []
   booking_unavailable: false
@@ -1791,6 +1889,7 @@
     questions, leaving you with new thoughts on the emotions
     you thought you knew.
   is_draft: false
+  content_warning_detail: []
 - title: Naughty
   company: Anna Marie Simonsen
   venue: Zoo Playground
@@ -1809,6 +1908,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/naughty
   ticket_deals: []
   booking_unavailable: false
@@ -1845,6 +1946,7 @@
     (ToDoList.org.uk). Praise for previous work: 'innovative and
     heartfelt' **** (Scotsman).
   is_draft: false
+  content_warning_detail: []
 - title: Dreamsick
   company: Nat Norland
   venue: Zoo Southside
@@ -1862,6 +1964,8 @@
   price:
     standard: 
     concession: 10
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/dreamsick
   ticket_deals: []
   booking_unavailable: false
@@ -1901,6 +2005,7 @@
     future. 'Its ambition and confidence are genuinely
     remarkable' (DarkerNeon.blogspot.com for Portents).
   is_draft: false
+  content_warning_detail: []
 - title: Unwanted Objects
   company: David Head and Matt Glover
   venue: Zoo Southside
@@ -1933,6 +2038,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/unwanted-objects
   ticket_deals: []
   booking_unavailable: false
@@ -1967,6 +2074,7 @@
     (EdFringeReview.com). 'Sublime' *****
     (LondonTheatre1.com).
   is_draft: false
+  content_warning_detail: []
 - title: Every Word Was Once An Animal
   company: Ontroerend Goed
   venue: Zoo Southside
@@ -1997,6 +2105,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/every-word-was-once-an-animal
   ticket_deals: []
   booking_unavailable: false
@@ -2027,6 +2137,7 @@
     forever. The rest of the show has to happen. Forget what you
     just read. Half a truth is often a great lie.
   is_draft: false
+  content_warning_detail: []
 - title: Love Me or I'll Kill Myself
   company: Faith Brandon & Jonathan Young
   venue: Zoo Playground
@@ -2058,6 +2169,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/love-me-or-i-ll-kill-myself
   ticket_deals: []
   booking_unavailable: false
@@ -2086,6 +2199,7 @@
     experienced the pain of impossible love, Faith's here to help you feel less alone...
     by falling madly in love with you. And praying you'll reciprocate.
   is_draft: false
+  content_warning_detail: []
 - title: Have You Seen This Woman
   company: Fancy Little Theater Company
   venue: Zoo Playground
@@ -2117,6 +2231,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/have-you-seen-this-woman
   ticket_deals: []
   booking_unavailable: false
@@ -2143,6 +2259,7 @@
     unravels, we realise she might not be the victim she claims to be. She may even
     have blood on her hands.
   is_draft: false
+  content_warning_detail: []
 - title: 'Far Gone '
   company: Roots Mbili Theatre
   venue: Zoo Southside
@@ -2165,6 +2282,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/far-gone
   ticket_deals: []
   booking_unavailable: false
@@ -2201,6 +2320,7 @@
     strikes straight at the heart through a powerful one-man
     performance.
   is_draft: false
+  content_warning_detail: []
 - title: Truth/Reconciliation
   company: ELEGY.
   venue: Zoo Playground
@@ -2226,6 +2346,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/truth-reconciliation
   ticket_deals: []
   booking_unavailable: false
@@ -2262,6 +2384,7 @@
      ★★★★ (Everything-Theatre.co.uk). OffComm Award winner
     2021.
   is_draft: false
+  content_warning_detail: []
 - title: SAVED
   company: 'Graeme Leak '
   venue: Zoo Southside
@@ -2295,6 +2418,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/saved
   ticket_deals: []
   booking_unavailable: false
@@ -2334,6 +2459,7 @@
     what it's doing and it does it sublimely' (Lyn
     Gardner, StagedoorApp.com)
   is_draft: false
+  content_warning_detail: []
 - title: All By Myself
   company: Jessica Bickel-Barlow / Part of the Main
   venue: Zoo Playground
@@ -2366,6 +2492,8 @@
   price:
     concession: 
     standard: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/all-by-myself
   ticket_deals: []
   booking_unavailable: false
@@ -2396,6 +2524,7 @@
     watching her. 'The clever ideas are a confrontation to the
     audience' (TheatreWeekly.com).
   is_draft: false
+  content_warning_detail: []
 - title: Red Alert - Cancer!
   company: Allan Wilson
   venue: Zoo Playground
@@ -2414,6 +2543,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_deals: []
   genre:
   - True-life
@@ -2454,6 +2585,7 @@
   age_guidance: ''
   age_restricted: false
   is_draft: false
+  content_warning_detail: []
 - title: LUCID
   company: As If
   venue: Zoo Playground
@@ -2474,6 +2606,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/lucid
   ticket_deals: []
   booking_unavailable: false
@@ -2507,6 +2641,7 @@
     selected for, and performed at, the National Student Drama
     Festival, 2022.
   is_draft: false
+  content_warning_detail: []
 - title: An Audience With Stuart Bagcliffe
   company: Triptych Theatre
   venue: Zoo Playground
@@ -2543,6 +2678,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/an-audience-with-stuart-bagcliffe
   ticket_deals: []
   booking_unavailable: false
@@ -2572,6 +2709,7 @@
     asleep, as well as his own demons and insecurities. What
     could possibly go wrong?
   is_draft: false
+  content_warning_detail: []
 - title: Manic
   company: Raina Greifer
   venue: Zoo Playground
@@ -2605,6 +2743,8 @@
   price:
     standard: 
     concession: 
+    price_range: ''
+    ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/manic
   ticket_deals: []
   booking_unavailable: false
@@ -2642,6 +2782,7 @@
     partner. Development of this show has been supported by
     Arts Council England.
   is_draft: false
+  content_warning_detail: []
 - title: '52 Souls '
   company: 'Chronic Insanity '
   venue: Zoo Playground
@@ -2675,6 +2816,8 @@
   price:
     standard: 
     concession: 
+    price_range: "£10-£13"
+    ticket_deals: []
   ticket_deals: []
   genre:
   - Theatre
@@ -2713,3 +2856,4 @@
   age_guidance: ''
   age_restricted: false
   is_draft: false
+  content_warning_detail: []
