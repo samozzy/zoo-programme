@@ -25,6 +25,16 @@ $headings-font-family: "Bebas Neue", Arial, sans-serif;
 	@extend .display-5;
 }
 
+.helper-text {
+	@extend .small, .text-zoo-orange, .mb-1;
+	a {
+		@extend .clickme, .text-decoration-none;
+	}
+}
+.bg-zoo-slate .helper-text a {
+	color: map-get($zoo-brand, "white");
+}
+
 // Bootstrap Override
 @media (min-width: 1200px){
 	.display-1 {
@@ -34,4 +44,7 @@ $headings-font-family: "Bebas Neue", Arial, sans-serif;
 
 .clickme {
 	cursor: pointer !important;
+	&:hover, &:focus, &:active {
+		text-decoration: underline !important;
+	}
 }

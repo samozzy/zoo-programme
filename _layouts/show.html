@@ -85,16 +85,19 @@ use_swiper: true
 		{% assign has_access_details = true %}
 	{% endif %}
 	{% if has_access or has_access_details %} 
-		<div class="row my-2">
-			<div class="col-12">
-				<p>
-					<i class="fa fa-fw fa-lg fa-universal-access text-zoo-orange"></i>
+		<div class="row mt-2 mb-4">
+			<div class="col-auto pe-0 mt-1">
+				<i class="fa fa-fw fa-lg fa-universal-access text-zoo-orange"></i>
+			</div>
+			<div class="col">
+				<p class="mb-0">
 					<strong>Accessible Performances:</strong> 
 					{% unless has_access_details %}
 						<span class="text-muted">Accessible performance details to be confirmed.</span>
 					{% else %}
 						{{ show.access_details }}
 					{% endunless %}
+					<br>{% include text/access-link.html %}
 				</p>
 			</div>
 		</div>

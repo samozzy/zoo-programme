@@ -183,6 +183,7 @@ layout: page
 								<label id="btn-access-{{access_item|slugify}}" class="btn-filter btn-access" for="filter-access-{{ access_item | slugify }}">{% if matching_icon %}<i class="{{ matching_icon.icon }}"></i>&nbsp;{% endif %}{{ access_item }}</label>
 							{% endfor %}
 							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are wheelchair accessible.</p>
+							<p class="ms-1 helper-text text-muted">{% include text/access-link.html %}</p>
 							<hr class="w-100">
 							<p class="lead">Content Warnings</p>
 							{% for cw in content_warnings %}
