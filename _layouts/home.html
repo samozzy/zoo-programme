@@ -27,20 +27,19 @@ layout: default
 	<div class="row w-100">
 		<div class="col-12 col-md-8 offset-md-2 my-auto text-center">
 			<h2 class="display-2 text-zoo-black">
-				We're back. <br>
-				{% if pre_launch %}Full programme announced <br>{{ site.dates.launch | date_to_long_string: "ordinal" }}
-				{% else %}Come and say hello.
+				{% if pre_launch %}
+					{% assign minutes = site.dates.launch | date: "%M" %}
+					{% if minutes == '00' %}{% assign launch_time = site.dates.launch | date: "%l%P" %}
+					{% else %}{% assign launch_time = site.dates.launch | date: "%l:%M%P" %}
+					{% endif %}
+					We're back. <br>
+					Full programme announced <br>{{ site.dates.launch | date_to_long_string: "ordinal" }} at {{ launch_time }}
+				{% else %}
+					{{ content | remove: '<p>' | remove: '</p>' }}
 				{% endif %}
 			</h2>
 		</div>
 	</div>
-	{% unless pre_launch %}
-	<div class="row w-100">
-		<div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 d-lg-flex flex-row justify-content-evenly">
-			<a class="bebas text-decoration-none icon-animation icon-animation-down" href="#top-of-content"><i class="fa fa-chevron-down"></i></a>
-		</div>
-	</div>
-	{% endunless %}
 </div>
 
 {% unless pre_launch %}
