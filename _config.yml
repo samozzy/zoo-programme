@@ -11,7 +11,7 @@ timezone: Europe/London
 dates:
   start: 2022-08-05
   end: 2022-08-28
-  launch: 2022-06-09
+  launch: 2022-06-09 10:00
 
 earliest_time: 2022-08-01 10:00 
 latest_time: 2022-08-01 23:00 

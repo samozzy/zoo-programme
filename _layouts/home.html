@@ -2,8 +2,8 @@
 layout: default 
 --- 
 
-{% assign today_date = "now" | date: "%Y-%m-%d" %}
-{% assign launch_date = site.dates.launch | date: "%Y-%m-%d" %}
+{% assign today_date = "now" | date: "%Y-%m-%d %H:%M" %}
+{% assign launch_date = site.dates.launch | date: "%Y-%m-%d %H:%M" %}
 {% if today_date < launch_date %}
 	{% assign pre_launch = true %}
 {% endif %}
