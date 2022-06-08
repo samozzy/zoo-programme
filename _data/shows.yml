@@ -1,4 +1,63 @@
 ---
+- title: Civilisation
+  company: Jaz Woodcock-Stewart with Morgann Runacre-Temple
+  venue: Zoo Southside
+  start_time: '10:10'
+  duration: 1hr 20mins
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Contemporary
+  - Dance
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access:
+  - ad
+  - captions
+  - bsl
+  access_details: The show will have open captions on the 23rd, be BSL interpreted
+    on the 24th and be audio described on the 26th.
+  content_warnings:
+  - Strong Language/Swearing
+  - Themes of a Sexual Nature
+  - 'Nudity '
+  - Contains Distressing Themes
+  image: "/static/04-13-2022-110258-4854.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A critically acclaimed collaboration between Jaz WoodcockStewart and Morgann Runacre-Temple; an experiment in
+    theatrical realism and contemporary dance, it follows a day in the
+    life of a woman following a tragic event. Horizon: Performance
+    Created in England.
+  copy_long: |-
+    Jaz Woodcock-Stewart from award-winning company Antler
+    collaborates with choreographer Morgann Runacre-Temple.
+    A hairdryer, an oven, a letter opener. The local church, fiscal
+    policy and Marie Kondo's folding technique. Civilisation is
+    about the things we've lost and the things we've built.
+    Civilisation is a day in the life of a woman following a tragic
+    event. An experiment in theatrical realism and contemporary
+    dance. From the creator behind critically acclaimed Lands,
+    Civilisation is a sideways look at the untheatrical reality of
+    loss. Music by ABBA and Bach. Horizon: Performance
+    Created in England
+  is_draft: false
 - title: No One
   company: Akimbo
   venue: Zoo Playground
