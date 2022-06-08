@@ -1226,7 +1226,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£14-£17"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/heroes-1
   ticket_deals: []
