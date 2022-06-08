@@ -159,7 +159,7 @@ a.card-event-hover  {
 }
 
 .show-image {
-	@extend .mb-3;
+	@extend .mb-3, .text-center, .text-lg-start;
 	img {
 		@extend .img-fluid, .shadow-sm;
 	}
@@ -223,6 +223,16 @@ a.card-event-hover  {
 
 
 // SHOW PAGE
+.show-large {
+	.show-title {
+		@extend .text-center, .text-lg-start;
+	}
+	.icon-row {
+		@extend .row, .row-cols-2, .row-cols-sm-4;
+		@extend .d-flex, .justify-content-between, .justify-content-lg-start;
+		@extend .fs-5, .text-center;
+	}
+}
 
 .show-details {
 	h3 {
