@@ -290,7 +290,7 @@ layout: page
 				data-time="{{ show.start_time | split: ':' | first }}"
 				data-age_guidance="{{ show.age_guidance | default: '' }}"
 				data-performances="{{ show.performances | join: ',' }}"
-				data-price="{{ show.price.concession | default: show.price.standard }}"
+				data-price="{{ show.price.standard | default: show.price.concession }}"
 				data-genre="{{ show.genre | join:',' | slugify }}"
 				data-access="{{ show.access | join: ',' | downcase | slugify | default: '' }}"
 				data-content_warnings="{{ show.content_warnings | join: ',' | slugify }}"
