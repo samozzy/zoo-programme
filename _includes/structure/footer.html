@@ -4,7 +4,7 @@
                     <nav class="navbar navbar-dark navbar-expand">
                       <div class="container-fluid d-flex flex-column">
                         <div class="logos d-flex mb-3 justify-content-between">
-                            <a class="navbar-brand d-flex mx-4" href="https://zoovenues.co.uk/" target="_blank">
+                            <a class="navbar-brand d-flex mx-4" href="{{ site.url }}">
                                 <img src="/static/img/zoo/zoo-logo-white.png" class="img-responsive d-flex my-auto" width="75px" height="auto" alt="ZOO">
                             </a>
                             {% comment %}<a class="navbar-brand d-flex mx-4" href="https://edfest.com/" target="_blank">
@@ -19,7 +19,7 @@
                               <a class="nav-link {% if page.permalink == '/' %}active{% endif %}" aria-current="page" href="{% link _content/index.md %}">Home</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link {% if page.title == 'FAQ' %}active{% endif %}" href="{% link _content/access.md %}">Access</a>
+                              <a class="nav-link {% if page.url == '/access/' %}active{% endif %}" href="{% link _content/access.md %}">Access</a>
                             </li>
                           </ul>
                         </div>
