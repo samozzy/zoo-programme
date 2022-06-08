@@ -1,0 +1,3 @@
+{% assign show = include.show %}
+<h3 class="{% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</h3>
+{% if show.company and show.company != empty %}<p class="fs-4 bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
