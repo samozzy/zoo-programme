@@ -1,4 +1,50 @@
 ---
+- title: Sad Book
+  company: 201 Dance Company
+  venue: Zoo Southside
+  start_time: '18:30'
+  duration: 55mins
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Dance Physical Theatre and Circus
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/04-10-2022-134230-6559.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    We all have some sad stuff. What makes Michael most sad is
+    thinking about his son Eddie, who died. Through a fusion of
+    dance, storytelling, animation and original music, 201 brings
+    Michael Rosen's award-winning book to the stage.
+  copy_long: |-
+    'Stand-out dance of the summer' (Guardian on 201's Skin).
+    We all have some sad stuff – maybe you have some right
+    now, as you read this. What makes Michael most sad is
+    thinking about his son Eddie, who died. Through an intimate,
+    visual spectacle that includes dance, storytelling, animation
+    and original music, 201 and Choreographer Andrea Walker
+    bring Michael Rosen's award-winning book to the stage.
+  is_draft: false
 - title: This Is Your Captain Speaking
   company: Ratsnest
   venue: Zoo Southside
