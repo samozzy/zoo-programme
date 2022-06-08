@@ -1,4 +1,58 @@
 ---
+- title: I Was Naked, Smelling of Rain
+  company: Aidan Moesby
+  venue: Zoo Playground
+  start_time: '14:00'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Disabled Led
+  - Contemporary
+  - 'Theatre '
+  age_guidance: 16+
+  age_restricted: false
+  access:
+  - captions
+  - bsl
+  access_details: ''
+  content_warnings:
+  - Mental health trauma & mention of suicide
+  - 'Strong Language/Swearing '
+  - Contains Distressing Themes
+  image: "/static/05-11-2022-210013-5811.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A heartfelt, life-affirming storytelling experience exploring
+    absence, presence, loneliness and dis/connectedness through
+    the lens of weather, climate change and wellbeing. Part of
+    Horizon: Performance Created in England.
+  copy_long: |-
+    Life is complex. A heartfelt, life-affirming storytelling
+    experience exploring absence, presence, loneliness and
+    dis/connectedness through the lens of weather, climate
+    change and wellbeing. We are at a critical point of the
+    climate-change and mental-health crises. We are the most
+    connected ‘on-demand’ generation yet seem to have lost
+    touch with who we are and where we fit in the world. We
+    mediate our life through technology and screens. Are we
+    ever truly where we are and present? Part of Horizon:
+    Performance Created in England.
+  is_draft: false
 - title: Civilisation
   company: Jaz Woodcock-Stewart with Morgann Runacre-Temple
   venue: Zoo Southside
