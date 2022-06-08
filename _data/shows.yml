@@ -1,4 +1,46 @@
 ---
+- title: ART27's Saber Came To Tea صابر اتى لتناول الشاي
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-07'
+  - '2022-08-06'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Drama
+  - International
+  - 'Theatre '
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-172455-7248.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Saber Came to Tea tells the story of one young woman's defiant
+    stand against her family. Performed with music and magic it is set
+    against the backdrop of Yemen's conflict.
+  copy_long: |-
+    Saber Came to Tea is an entertaining short play with original
+    music and magic that tells the story of one young woman's
+    defiant stand against the constraining social norms of her
+    family. A young Yemeni couple risk their family and their lives
+    to be together. Devised with award-winning Yemeni artists-inexile Shatha Altowai and her composer and husband Saber
+    Bamatraf together with Palestinian poet Ghazi Hussein and
+    writer/director Robert Rae. In Arabic with English subtitles
+    with breakfast included.
+  is_draft: false
 - title: ART27's From The Horses Mouth 消息來源可靠
   company: Art27 Scotland
   venue: Zoo Southside
