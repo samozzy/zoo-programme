@@ -180,11 +180,6 @@ a.card-event-hover  {
 	.card-header, .card-footer {
 		@extend .bg-transparent, .border-0;
 	}
-	h3 {
-		@include media-breakpoint-down(sm){
-			text-align:center;
-		}
-	}
 }
 .card-show-slider {
 	@extend .border-2px, .h-100;
