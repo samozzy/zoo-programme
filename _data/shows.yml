@@ -27,19 +27,39 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Visual Art
+  - 'Physical Theatre '
+  - 'Theatre '
+  age_guidance: 12+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  image: ''
+  content_warnings:
+  - Strobe Lighting
+  image: "/static/05-01-2022-153623-9156.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Rocks. Beats. With copper having jet-fuelled technology for
+    10,000 years, a performer and sound artist duet to deep-time
+    techno. Herald Angel winners smash stones, laptops and neolithic
+    flint tools in this wildly physical journey to the origin of mining.
+  copy_long: |-
+    Rocks. Beats. Geological bodies. Stone circles. Copper
+    mining. A violent, fun, loud and lyrical smash-fest, with
+    landscape projection design from award-winning Limbic
+    Cinema. With copper having jet-fuelled technology for the
+    last 10,000 years, a performer and sound artist playfully duet
+    to deep-time techno, metamorphic soundscapes and the
+    Internet of Things. Neolithic flint tools smash stones and
+    laptops in this wildly physical journey to the origins – and
+    21st century challenges – of mining, from 2018 Herald Angel
+    winners. On previous shows: 'Beautiful, contemplative... a
+    remarkable and urgent show' (Guardian). 'Extraordinary...
+    moving and enlightening' (New Scientist). Get yer strata on.
   is_draft: false
 - title: Maternity
   company: Frechot Ensemble – Hana Vazana
