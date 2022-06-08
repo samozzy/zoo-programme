@@ -1,4 +1,50 @@
 ---
+- title: The Rainbow – A Rehearsed Reading of a New Adaptation
+  company: Nicola Werenowska
+  venue: Zoo Southside
+  start_time: '19:00'
+  duration: '1hr 30mins '
+  performances:
+  - '2022-08-10'
+  price:
+    standard: 0
+    concession: 
+  ticket_url: ''
+  genre:
+  - Neurodiversity Led
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
+  access:
+  - bsl
+  image: "/static/05-13-2022-182000-2147.jpg"
+  copy_short: |-
+    Groundbreaking adaptation, by award-winning neurodivergent
+    playwright Nicola Werenowska, focusing on the three Polish
+    women at the centre of this rich work. Interweaving narration,
+    dialogue, lyrical text and movement.
+  copy_long: |-
+    Originally published in 1915, The Rainbow was
+    extraordinarily ahead of its time as Lawrence explores the
+    experiences of three generations of Polish women living in
+    Nottinghamshire at the turn of the 20th century. This
+    groundbreaking adaptation, by award-winning
+    neurodivergent playwright Nicola Werenowska, will focus on
+    the women at the centre of this rich work. Through
+    interweaving narration, dialogue, lyrical text and movement,
+    this work creates a space for matrilineal knowledge, and a
+    debate around decolonising narratives by addressing the
+    women's Polish heritage.
+  ticket_deals: []
+  booking_unavailable: false
+  age_restricted: false
+  access_details: ''
+  content_warnings: []
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  is_draft: false
 - title: Tea Ceremony
   company: SRSLYyours/Civil Disobedience
   venue: Zoo Playground
