@@ -2756,7 +2756,6 @@
   access: []
   access_details: ''
   content_warnings:
-  - Discussion of Sexual Assault and Rape
   - 'Strong Language/Swearing '
   - Scenes of a Sexual Nature
   - Contains Distressing Themes
@@ -2782,7 +2781,8 @@
     partner. Development of this show has been supported by
     Arts Council England.
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Discussion of Sexual Assault and Rape
 - title: '52 Souls '
   company: 'Chronic Insanity '
   venue: Zoo Playground
