@@ -41,7 +41,10 @@
   image_alt: ''
   video_embeds: []
   links: []
-  reviews: []
+  reviews:
+  - Publisher: ''
+    quote: ''
+    stars: 
   copy_short: |-
     Rocks. Beats. With copper having jet-fuelled technology for
     10,000 years, a performer and sound artist duet to deep-time
