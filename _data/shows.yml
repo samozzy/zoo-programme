@@ -680,7 +680,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/jekyll-and-hyde-a-one-woman-show
   ticket_deals: []
   booking_unavailable: false
   genre:
