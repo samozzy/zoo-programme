@@ -2543,7 +2543,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/an-audience-with-stuart-bagcliffe
   ticket_deals: []
   booking_unavailable: false
   age_restricted: false
