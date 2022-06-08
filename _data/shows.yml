@@ -2038,7 +2038,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£9-£12"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/unwanted-objects
   ticket_deals: []
@@ -2060,7 +2060,7 @@
   reviews: []
   copy_short: Unwanted Objects is the new story and song show from critically acclaimed
     duo David Head and Matt Glover. Funny, bittersweet short stories and folk-inspired
-    melancholia about teddy bears, chess sets and sentimentality. ***** “Stunning”
+    melancholia about teddy bears, chess sets and sentimentality. ★★★★★ “Stunning”
     – EdFringe Review.
   copy_long: |-
     Unwanted Objects is the new story and song show from
@@ -2070,8 +2070,8 @@
     Combining bittersweet short stories, full of wit, whimsy and
     warmth, with folk, pop and blues inspired musical
     melancholia, it explores sentimentality, our possessions and
-    the meaning we attach to them. 'Stunning' *****
-    (EdFringeReview.com). 'Sublime' *****
+    the meaning we attach to them. 'Stunning' ★★★★★
+    (EdFringeReview.com). 'Sublime' ★★★★★
     (LondonTheatre1.com).
   is_draft: false
   content_warning_detail: []
