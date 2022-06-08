@@ -1,4 +1,47 @@
 ---
+- title: ART27's Firsthand Z pierwszej ręki
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30 '
+  duration: 1hr
+  performances: []
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - True-life
+  - 'Multimedia '
+  - Events
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/05-16-2022-171619-9188.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Audiovisual artwork by Polish artists Marta Adamowicz and
+    Robert Motyka invoking a discussion and responding to the
+    accounts of the immigrant experience and the concept of home.
+  copy_long: |-
+    Art27's Firsthand Z pierwszej ręki is an audiovisual artwork – an outcome of
+    residency by artists Marta Adamowicz and Robert Motyka on
+    the concept of home through the connections with the
+    remembered and actual place. They edited images and
+    interviews with Polish immigrants into a spectacular
+    experience where sound and animation tell very personal
+    stories of identity and belonging. The presentation will be
+    followed by a discussion, gaining more relevance in the light
+    of the war in Ukraine and refugee action in Polish
+    borderlands. The artwork is in the Polish language with
+    English subtitles and Polish pastries.
+  is_draft: false
 - title: ART27's From The Heart Of The Incident من قلب الحدث
   company: Art27 Scotland
   venue: Zoo Southside
