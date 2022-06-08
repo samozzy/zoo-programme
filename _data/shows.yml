@@ -2492,7 +2492,7 @@
   price:
     concession: 
     standard: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/all-by-myself
   ticket_deals: []
