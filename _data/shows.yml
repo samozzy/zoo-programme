@@ -20,19 +20,35 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Devised
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 14+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  image: ''
+  content_warnings:
+  - 'Strong Language/Swearing '
+  image: "/static/04-11-2022-160618-6371.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Grounded passengers struggle to keep the building alive long
+    enough to decide where to go next. Five actors, five characters,
+    120 possible combinations promising a different show each night.
+  copy_long: |-
+    After years of patching up a rapidly deteriorating airport on
+    an island lost in a Foie Gras scandal, Lick is staring down the
+    propeller of a cargo plane. Fake weddings, burning bridges,
+    mystery tickets, aerial acrobatics and flightless geese. The
+    grounded passengers struggle to keep the building alive long
+    enough to decide where to go next. There are five actors,
+    five characters and 120 possible ways the show could go,
+    promising a different performance each night. The cast know
+    as much as the audience when they step on the stage.
   is_draft: false
 - title: I Was Naked, Smelling of Rain
   company: Aidan Moesby
