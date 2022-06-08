@@ -2619,8 +2619,7 @@
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings:
-  - Two instances of strong language, discussion of vomiting and one sudden loud noise.
+  content_warnings: []
   image: "/static/04-07-2022-141935-1401-1.jpg"
   image_alt: ''
   video_embeds: []
@@ -2641,7 +2640,8 @@
     selected for, and performed at, the National Student Drama
     Festival, 2022.
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Two instances of strong language, discussion of vomiting and one sudden loud noise.
 - title: An Audience With Stuart Bagcliffe
   company: Triptych Theatre
   venue: Zoo Playground
