@@ -79,15 +79,15 @@ layout: page
 					</div>
 					<div class="collapse" id="filter-price">
 						<div class="card-body">
-
 							{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
 							{% assign highest_price = highest_priced_show.price.standard %}
-							{% assign price_int = highest_price | divided_by: 5 %}
+
 							{% assign price_float = highest_price | divided_by: 5.0 %}
-							{% if price_int == price_float %}
-								{% assign highest_five = price_int %}
+							{% assign price_rounded = price_float | round %}
+							{% if price_rounded == price_float %}
+								{% assign highest_five = price_rounded | minus: 1 %}
 							{% else %}
-								{% assign highest_five = price_float | split: '.' | first | plus: 1 | times: 1 %}
+								{% assign highest_five = price_float | floor | times: 1 %}
 							{% endif %}
 							{% for given_price in (0..highest_five) %}
 								{% assign this_price = given_price | times: 5 %}
