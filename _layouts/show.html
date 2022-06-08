@@ -109,7 +109,16 @@ use_swiper: true
 		<div class="col-12 show-blurb">
 			{{ show.copy_long | markdownify }}
 		</div>
-		{% if show.content_warnings != empty or show.age_guidance != empty %}
+		{% if show.content_warnings and show.content_warnings != empty %}
+			{% assign has_advisories = true %}
+			{% assign has_cws = true %}
+		{% elsif show.content_warning_detail and show.content_warning_detail != empty %}
+			{% assign has_advisories = true %}
+			{% assign has_cws = true %}
+		{% elsif show.age_guidance and show.age_guidance != empty %}
+			{% assign has_advisories = true %}
+		{% endif %}
+		{% if has_advisories %}
 			<div class="col-12 col-md-6">
 				{% if show.age_guidance and show.age_guidance != empty %}
 					<h3 class="text-zoo-orange">Age {% if show.age_restricted == true %}Restriction{% else %}Guidance{% endif %}: {{ show.age_guidance }}</h3>
@@ -117,13 +126,22 @@ use_swiper: true
 						<p class="text-muted small"><i class='fa fa-exclamation-circle'></i> This show is age restricted. ID checks may be in place.</p>
 					{% endif %}
 				{% endif %}
-				{% if show.content_warnings and show.content_warnings != empty %}
+				{% if has_cws == true %}
 					<h3 class="text-zoo-orange">Content Warnings</h3>
-					<ul>
-						{% for c in show.content_warnings %}
-							<li>{{ c | capitalize }}</li>
-						{% endfor %}
-					</ul>
+					{% if show.content_warnings and show.content_warnings != empty %}
+						<ul>
+							{% for c in show.content_warnings %}
+								<li>{{ c | capitalize }}</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+					{% if show.content_warning_detail and show.content_warning_detail != empty %}
+						<ul>
+							{% for c in show.content_warning_detail %}
+								<li>{{ c | capitalize }}</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
 				{% endif %}
 			</div>
 		{% endif %}
