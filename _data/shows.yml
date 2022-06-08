@@ -1,29 +1,39 @@
 ---
-- title: ''
-  company: ''
-  venue: []
-  start_time: ''
-  duration: ''
-  performances: []
+- title: ART27's From The Horses Mouth 消息來源可靠
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-05'
   price:
-    standard: 
-    concession: 
+    standard: 12
+    concession: 10
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: []
+  genre:
+  - Talk
+  - Music
+  - 'Events '
+  age_guidance: 12+
   age_restricted: false
   access: []
   access_details: ''
   content_warnings: []
-  image: ''
+  image: "/static/04-14-2022-184607-5925.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Elaine Cheng explores the binaries of Hong Kong and China
+    through her new sonic composition and discussion. Enjoy a
+    coffee, green tea and bao-bun breakfast!
+  copy_long: Join Art27 Scotland Artist in Residence Elaine Cheng as she explores
+    the binaries of Hong Kong and China through her new sonic composition, discussion
+    and tales of the life of those who have settled in Edinburgh. Enjoy a coffee,
+    green tea and baobun breakfast!
   is_draft: false
 - title: Brothers
   company: Little Red Fox Productions
