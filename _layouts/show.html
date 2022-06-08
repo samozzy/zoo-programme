@@ -30,10 +30,7 @@ use_swiper: true
 						{% if show.price.standard and show.price.standard != empty %}
 							<div class="col mb-4 mb-md-0">
 								<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"></i><br>
-								£{{ show.price.standard }}<br>
-								{% if show.price.concession and show.price.concession != empty and show.price.concession != show.price.standard %}
-									(£{{ show.price.concession }})
-								{% endif %}
+								£{% include text/price.html price=show.price.standard %} {% if show.price.concession and show.price.concession != empty %}(£{% include text/price.html price=show.price.concession %}){% endif %}
 							</div>
 						{% endif %}
 						{% if show.start_time and show.start_time != empty %}
