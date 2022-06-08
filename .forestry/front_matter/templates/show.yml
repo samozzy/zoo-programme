@@ -58,18 +58,22 @@ fields:
       name: concession
       label: Concession
       description: "(Optional) Just the number, no currency please."
+    - type: text 
+      name: price_range 
+      label: Price Range
+      description: If prices vary, give a range here, eg. "£4 - 14". You can also use words, but keep deal info (eg. BOGOF, weekend) to the ticket deals field.
+    - type: list
+      name: ticket_deals
+      label: Ticket Deals
+      description: Any ticket deals this show has, eg BOGOF, half price hut, etc.
+      config:
+        use_select: false
   - name: ticket_url
     type: text
     config:
       required: false
     label: Ticket URL
     description: Link to the page to book tickets
-  - type: list
-    name: ticket_deals
-    label: Ticket Deals
-    description: Any ticket deals this show has, eg BOGOF, half price hut, etc.
-    config:
-      use_select: false
   - name: booking_unavailable
     type: boolean
     label: Booking Unavailable
