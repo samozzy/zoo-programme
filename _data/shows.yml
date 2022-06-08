@@ -538,7 +538,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-saber-came-to-tea
   ticket_deals: []
   booking_unavailable: false
   genre:
