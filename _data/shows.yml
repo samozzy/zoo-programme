@@ -1908,7 +1908,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/naughty
   ticket_deals: []
@@ -1941,10 +1941,10 @@
     Pushing the boundaries of the male gaze, Naughty confronts
     the disturbing image of innocence and youth as sexy.
     Naughty is powered by the Pleasance Fringe Futures, won
-    the Funniest Moment award at Oslo Fringe in 2021 (*****
+    the Funniest Moment award at Oslo Fringe in 2021 (★★★★★
     (Vilde Bodsberg, Journalist)) and was listed as 'unmissable'
     (ToDoList.org.uk). Praise for previous work: 'innovative and
-    heartfelt' **** (Scotsman).
+    heartfelt' ★★★★ (Scotsman).
   is_draft: false
   content_warning_detail: []
 - title: Dreamsick
