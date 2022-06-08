@@ -162,7 +162,7 @@
     emerged in Chicago as one of the most innovative
     companies in North America.
   is_draft: false
-- title: All over
+- title: All Over
   company: Eivind Seljeseth
   venue: Zoo Southside
   start_time: '22:30'
@@ -178,7 +178,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/all-over
   ticket_deals: []
   booking_unavailable: false
   genre:
