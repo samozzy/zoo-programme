@@ -125,7 +125,7 @@
   price:
     standard: 16
     concession: 13
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/marriage-in-progress
   ticket_deals: []
   booking_unavailable: false
   genre:
