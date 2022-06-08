@@ -1963,8 +1963,8 @@
   - '2022-08-21'
   price:
     standard: 
-    concession: 10
-    price_range: ''
+    concession: 
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/dreamsick
   ticket_deals: []
