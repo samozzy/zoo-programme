@@ -1,4 +1,1022 @@
 ---
+- title: Megalith
+  company: MECHANIMAL
+  venue: Zoo Southside
+  start_time: '12:15'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Visual Art
+  - 'Physical Theatre '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strobe Lighting
+  image: "/static/05-01-2022-153623-9156.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews:
+  - Publisher: ''
+    quote: ''
+    stars: 
+  copy_short: |-
+    Rocks. Beats. With copper having jet-fuelled technology for
+    10,000 years, a performer and sound artist duet to deep-time
+    techno. Herald Angel winners smash stones, laptops and neolithic
+    flint tools in this wildly physical journey to the origin of mining.
+  copy_long: |-
+    Rocks. Beats. Geological bodies. Stone circles. Copper
+    mining. A violent, fun, loud and lyrical smash-fest, with
+    landscape projection design from award-winning Limbic
+    Cinema. With copper having jet-fuelled technology for the
+    last 10,000 years, a performer and sound artist playfully duet
+    to deep-time techno, metamorphic soundscapes and the
+    Internet of Things. Neolithic flint tools smash stones and
+    laptops in this wildly physical journey to the origins – and
+    21st century challenges – of mining, from 2018 Herald Angel
+    winners. On previous shows: 'Beautiful, contemplative... a
+    remarkable and urgent show' (Guardian). 'Extraordinary...
+    moving and enlightening' (New Scientist). Get yer strata on.
+  is_draft: false
+- title: Maternity
+  company: Frechot Ensemble – Hana Vazana
+  venue: Zoo Southside
+  start_time: '15:15'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - International
+  - True-life
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/05-07-2022-130025-8310.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    ‘I’m still waiting for my child...' A protest performance, based on a
+    true story, gives stage to voiceless mothers. A courageous
+    women ensemble exposes the breathtaking story of the
+    kidnapping of immigrant children. Their fate is still unknown.
+  copy_long: |-
+    ‘I'm still waiting for my child... Every man I meet, I think
+    maybe that’s my son’. A documentary protest performance,
+    based on a true story, gives stage to voiceless mothers. The
+    show examines the experience of oppressed childbirth and
+    exposes a dark affair from the 1950s about the kidnapping of
+    immigrant children, whose fate is still unknown. Maternity
+    searches for an emotional connection between those
+    mothers and women from all over the world. Founded by
+    Hana Vazana Gruwald, Ha’Frehot ensemble is a collective of
+    women creators dealing with issues of ethnicity, feminism
+    and activism.
+  is_draft: false
+- title: ART27's Firsthand Z pierwszej ręki
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30 '
+  duration: 1hr
+  performances: []
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - True-life
+  - 'Multimedia '
+  - Events
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/05-16-2022-171619-9188.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Audiovisual artwork by Polish artists Marta Adamowicz and
+    Robert Motyka invoking a discussion and responding to the
+    accounts of the immigrant experience and the concept of home.
+  copy_long: |-
+    Art27's Firsthand Z pierwszej ręki is an audiovisual artwork – an outcome of
+    residency by artists Marta Adamowicz and Robert Motyka on
+    the concept of home through the connections with the
+    remembered and actual place. They edited images and
+    interviews with Polish immigrants into a spectacular
+    experience where sound and animation tell very personal
+    stories of identity and belonging. The presentation will be
+    followed by a discussion, gaining more relevance in the light
+    of the war in Ukraine and refugee action in Polish
+    borderlands. The artwork is in the Polish language with
+    English subtitles and Polish pastries.
+  is_draft: false
+- title: ART27's From The Heart Of The Incident من قلب الحدث
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-09'
+  - '2022-08-08'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Political
+  - 'Verbatim '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-162944-8894.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    From the Heart of the Incident tells the extraordinary true story of
+    a Scottish citizen accused of terrorist activity and imprisoned in
+    Northern Ireland for nearly 16 months.
+  copy_long: |-
+    From the Heart of the Incident is the extraordinary story of Dr
+    Issam Bassalat Hijjawi, a highly respected and much-loved
+    Edinburgh medical doctor and Palestinian activist held in a
+    Northern Irish prison for nearly 16 months and released on
+    bail, under heavy conditions. The doctor still awaits trial.
+    Here he works with fellow Palestinian and poet Ghazi
+    Hussein, director Robert Rae and actor Helen Trew to
+    dramatize his ongoing story that led him to lose his
+    livelihood, his health and his family.
+  is_draft: false
+- title: ART27's Saber Came To Tea صابر اتى لتناول الشاي
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-07'
+  - '2022-08-06'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Drama
+  - International
+  - 'Theatre '
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-172455-7248.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Saber Came to Tea tells the story of one young woman's defiant
+    stand against her family. Performed with music and magic it is set
+    against the backdrop of Yemen's conflict.
+  copy_long: |-
+    Saber Came to Tea is an entertaining short play with original
+    music and magic that tells the story of one young woman's
+    defiant stand against the constraining social norms of her
+    family. A young Yemeni couple risk their family and their lives
+    to be together. Devised with award-winning Yemeni artists-inexile Shatha Altowai and her composer and husband Saber
+    Bamatraf together with Palestinian poet Ghazi Hussein and
+    writer/director Robert Rae. In Arabic with English subtitles
+    with breakfast included.
+  is_draft: false
+- title: ART27's From The Horses Mouth 消息來源可靠
+  company: Art27 Scotland
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-05'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Talk
+  - Music
+  - 'Events '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-184607-5925.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Elaine Cheng explores the binaries of Hong Kong and China
+    through her new sonic composition and discussion. Enjoy a
+    coffee, green tea and bao-bun breakfast!
+  copy_long: Join Art27 Scotland Artist in Residence Elaine Cheng as she explores
+    the binaries of Hong Kong and China through her new sonic composition, discussion
+    and tales of the life of those who have settled in Edinburgh. Enjoy a coffee,
+    green tea and baobun breakfast!
+  is_draft: false
+- title: Brothers
+  company: Little Red Fox Productions
+  venue: Zoo Playground
+  start_time: '18:05'
+  duration: 55mins
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'New Writing '
+  - 'Drama '
+  - 'Theatre '
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Drug references
+  - 'Strong Language/Swearing '
+  - Simulated Scenes of Violence
+  image: "/static/04-12-2022-093956-3676.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Brothers tells the story of estranged brothers Matt and Jay, in
+    their early 30s, re-uniting as one fights testicular cancer and the
+    other battles addiction. A heart-wrenching, laugh-out-loud
+    rollercoaster of an international premiere, featuring brothers
+    Daniel and Liam O'Kane.
+  copy_long: |-
+    Brothers tells the story of two estranged brothers Matt and
+    Jay, in their early 30s, who re-unite as one fights testicular
+    cancer and the other battles addiction. Fearful for their
+    survival, Matt and Jay revisit their dysfunctional childhood
+    and the night that impacted their once unbreakable
+    relationship. Brothers is a heart-wrenching, laugh-out-loud
+    rollercoaster of an international premiere, featuring Daniel
+    O'Kane and Liam O'Kane, who are actually brothers. Written
+    by Kerry Drumm, Brothers is a play that explores grief, fear
+    and love, and questions if keeping secrets in a bid to protect
+    can do more harm than good.
+  is_draft: false
+- title: 'Jekyll & Hyde: A One-Woman Show'
+  company: Sweet Productions
+  venue: Zoo Playground
+  start_time: '20:15'
+  duration: 1hr
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Solo Show
+  - Horror
+  - 'Theatre '
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Themes of sexual and physical violence., discussed but not shown.
+  - Contains Distressing Themes
+  image: "/static/04-11-2022-234851-6487.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    'You must suffer me to go my own dark way...' Classic sciencehorror reborn as the search for self collides with the lure of the
+    sensuous, taking its toll on all around Jekyll and Hyde.
+  copy_long: |-
+    'You must suffer me to go my own dark way...' Stevenson's
+    classic science-horror is reborn, with award-winning
+    performer Heather-Rose Andrews in the titular role. Class,
+    terror and hypocrisy in Victorian London; the search for self
+    collides with the lure of the sensuous, taking its toll on all
+    around Jekyll and Hyde. Winner: Best Performance of 2021
+    (CNS Theatre Awards). Sell-out show: Dundee Fringe, 2021.
+    'The most viscerally convulsive realisation of Jekyll or Hyde
+    imaginable' (FringeReview.co.uk). 'Mesmerising... we
+    couldn't help but watch despite wanting to turn away in
+    horror' ***** (BroadwayBaby.com).
+  is_draft: false
+- title: 'Aidan Goatley: Tenacious'
+  company: Aidan Goatley
+  venue: Zoo Playground
+  start_time: '19:00'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Storytelling '
+  - 'Stand Up '
+  - Comedy
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strong Language/Swearing
+  image: "/static/04-12-2022-004718-4773.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Cruise ships, prosthetic body parts, angry opticians and the best
+    ending ever! Aidan Goatley (as seen on BBC One and at the
+    Hammersmith Apollo) guides us through a tale that leads to
+    dreams coming true...
+  copy_long: |-
+    Ever felt like giving up? Ever wondered how some people
+    keep going, no matter what? With cruise ships, prosthetic
+    body parts, angry opticians and the best ending ever, Aidan
+    (as seen on BBC One and at the Hammersmith Apollo)
+    guides us through a tale that leads to dreams coming true.
+    'It's heart-warming positive comedy, like no one else is doing,
+    and the world really needs it right now' (Romesh
+    Ranganathan). 'Goatley is fabulous, funny, warm and tingly'
+    (Mark Thomas). 'Hilarious' (BroadwayBaby.com). 'Brilliant'
+    ***** (FringeGuru.com).
+  is_draft: false
+- title: ART27's Blood Red Lines
+  company: Art27Scotland in association with Our Land Productions.
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-12'
+  - '2022-08-11'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Devised
+  - 'Verbatim '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access:
+  - captions
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-153340-6395.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Blood Red Lines is co-created with victims and survivors of acts
+    of violence perpetrated on the Irish border. A shattering piece of
+    verbatim theatre that tells a different story. Directed by Robert
+    Rae.
+  copy_long: |-
+    Blood Red Lines was developed with and performed by
+    victims and survivors of the tragedies of South Armagh,
+    border counties and Dublin in the darkest days of the Irish
+    Conflict. It received standing ovations when it toured Ireland
+    pre-pandemic. The result of a six-month residency in Newry
+    supported by The Playhouse Theatre (Derry), BAFTAwinning director Robert Rae collaborated with those worst
+    affected by the conflict, including the Dublin and Dundalk
+    bombings, to develop this extraordinary and shattering piece
+    of verbatim theatre. With new songs from the legendary folk
+    singer and peace activist Tommy Sands.
+  is_draft: false
+- title: 'The Heat Museum '
+  company: Dream Pavilion
+  venue: Zoo Playground
+  start_time: '12:45'
+  duration: 45mins
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 10
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'Physical Theatre '
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/06-08-2022-091040-1868.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Curtains drawn, lawns burnt brown; a townscape is melting. In a
+    devastating heatwave, a wandering mind waits for the rain.
+  copy_long: |-
+    Curtains drawn, lawns burnt brown; a townscape is melting.
+    In a devastating heatwave, a wandering mind waits for the
+    rain. The Heat Museum is a sound and movement
+    exploration into how we navigate emotional trauma and
+    regain hope in the darkest moments of our lives.
+  is_draft: false
+- title: Sad Book
+  company: 201 Dance Company
+  venue: Zoo Southside
+  start_time: '18:30'
+  duration: 55mins
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Dance Physical Theatre and Circus
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Contains Distressing Themes
+  image: "/static/04-10-2022-134230-6559.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    We all have some sad stuff. What makes Michael most sad is
+    thinking about his son Eddie, who died. Through a fusion of
+    dance, storytelling, animation and original music, 201 brings
+    Michael Rosen's award-winning book to the stage.
+  copy_long: |-
+    'Stand-out dance of the summer' (Guardian on 201's Skin).
+    We all have some sad stuff – maybe you have some right
+    now, as you read this. What makes Michael most sad is
+    thinking about his son Eddie, who died. Through an intimate,
+    visual spectacle that includes dance, storytelling, animation
+    and original music, 201 and Choreographer Andrea Walker
+    bring Michael Rosen's award-winning book to the stage.
+  is_draft: false
+- title: This Is Your Captain Speaking
+  company: Ratsnest
+  venue: Zoo Southside
+  start_time: '13:00'
+  duration: 1hr
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 10
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Devised
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - 'Strong Language/Swearing '
+  image: "/static/04-11-2022-160618-6371.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Grounded passengers struggle to keep the building alive long
+    enough to decide where to go next. Five actors, five characters,
+    120 possible combinations promising a different show each night.
+  copy_long: |-
+    After years of patching up a rapidly deteriorating airport on
+    an island lost in a Foie Gras scandal, Lick is staring down the
+    propeller of a cargo plane. Fake weddings, burning bridges,
+    mystery tickets, aerial acrobatics and flightless geese. The
+    grounded passengers struggle to keep the building alive long
+    enough to decide where to go next. There are five actors,
+    five characters and 120 possible ways the show could go,
+    promising a different performance each night. The cast know
+    as much as the audience when they step on the stage.
+  is_draft: false
+- title: I Was Naked, Smelling of Rain
+  company: Aidan Moesby
+  venue: Zoo Playground
+  start_time: '14:00'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Disabled Led
+  - Contemporary
+  - 'Theatre '
+  age_guidance: 16+
+  age_restricted: false
+  access:
+  - captions
+  - bsl
+  access_details: ''
+  content_warnings:
+  - Mental health trauma & mention of suicide
+  - 'Strong Language/Swearing '
+  - Contains Distressing Themes
+  image: "/static/05-11-2022-210013-5811.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A heartfelt, life-affirming storytelling experience exploring
+    absence, presence, loneliness and dis/connectedness through
+    the lens of weather, climate change and wellbeing. Part of
+    Horizon: Performance Created in England.
+  copy_long: |-
+    Life is complex. A heartfelt, life-affirming storytelling
+    experience exploring absence, presence, loneliness and
+    dis/connectedness through the lens of weather, climate
+    change and wellbeing. We are at a critical point of the
+    climate-change and mental-health crises. We are the most
+    connected ‘on-demand’ generation yet seem to have lost
+    touch with who we are and where we fit in the world. We
+    mediate our life through technology and screens. Are we
+    ever truly where we are and present? Part of Horizon:
+    Performance Created in England.
+  is_draft: false
+- title: Civilisation
+  company: Jaz Woodcock-Stewart with Morgann Runacre-Temple
+  venue: Zoo Southside
+  start_time: '10:10'
+  duration: 1hr 20mins
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Contemporary
+  - Dance
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access:
+  - ad
+  - captions
+  - bsl
+  access_details: The show will have open captions on the 23rd, be BSL interpreted
+    on the 24th and be audio described on the 26th.
+  content_warnings:
+  - Strong Language/Swearing
+  - Themes of a Sexual Nature
+  - 'Nudity '
+  - Contains Distressing Themes
+  image: "/static/04-13-2022-110258-4854.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A critically acclaimed collaboration between Jaz WoodcockStewart and Morgann Runacre-Temple; an experiment in
+    theatrical realism and contemporary dance, it follows a day in the
+    life of a woman following a tragic event. Horizon: Performance
+    Created in England.
+  copy_long: |-
+    Jaz Woodcock-Stewart from award-winning company Antler
+    collaborates with choreographer Morgann Runacre-Temple.
+    A hairdryer, an oven, a letter opener. The local church, fiscal
+    policy and Marie Kondo's folding technique. Civilisation is
+    about the things we've lost and the things we've built.
+    Civilisation is a day in the life of a woman following a tragic
+    event. An experiment in theatrical realism and contemporary
+    dance. From the creator behind critically acclaimed Lands,
+    Civilisation is a sideways look at the untheatrical reality of
+    loss. Music by ABBA and Bach. Horizon: Performance
+    Created in England
+  is_draft: false
+- title: No One
+  company: Akimbo
+  venue: Zoo Playground
+  start_time: '17:45'
+  duration: 55mins
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Sci-fi
+  - Thriller
+  - Dance Physical Theatre and Circus
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strong Language/Swearing
+  - Scenes of Violence
+  - Scenes of a Sexual Nature
+  image: "/static/04-09-2022-170102-6437.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Strange things are happening in Wellston – haunted pub quiz,
+    students with demonic powers, a floating woman. This modern remix of The Invisible Man as a high-octane comedic thriller blends
+    together storytelling, martial arts and movement.
+  copy_long: |-
+    Strange things are happening on Wellston Campus –
+    haunted pub quiz, demonic powers, a floating woman. No
+    One is a modern re-mix of HG Wells' The Invisible Man as a
+    high-octane thriller. It follows Thomas, a naive student, who
+    befriends an invisible man named Griffin, bringing him fame
+    and fortune, love and violence. Akimbo present this violent,
+    beautiful and comic story through an innovative creative
+    language that blends storytelling and physical theatre with
+    martial arts, puppetry and movement.
+  is_draft: false
+- title: Heroes
+  company: Losers Cirque Company
+  venue: Zoo Southside
+  start_time: '16:00'
+  duration: 1hr
+  performances:
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Acrobatics
+  - 'Dance Physical Theatre and Circus '
+  age_guidance: 8+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - 'Strobe Lighting '
+  image: "/static/04-11-2022-184222-5487.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    The performance Heroes combines a top-level pantomime
+    performed by Radim Vizváry and inventive acrobatic stunts.
+    Shock, sadness, hope and even humour! Brace yourselves for an
+    emotional rollercoaster.
+  copy_long: |-
+    Heroes. What is going on in a mind of a severely injured
+    person undergoing a surgery after a serious car crash? Our
+    leading character literally fights for his life – with us, you can
+    get a peek of his colourful inner world. The performance
+    combines a pantomime and inventive acrobatics. Shock,
+    sadness, hope and even humour! Brace yourselves for an
+    emotional rollercoaster. Innovative production bringing
+    together masters of their disciplines. Starring award-winning
+    mime Radim Vizváry. Czech group Losers Cirque Company
+    are directed by Daniel Špinar, head of the National Theatre.
+  is_draft: false
+- title: 'Rocky '
+  company: FIX&FOXY
+  venue: Zoo Southside
+  start_time: '17:55'
+  duration: '1hr 35 mins '
+  performances:
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - There is a dead pig in the show
+  - 'Nudity '
+  - Contains Distressing Themes
+  image: "/static/04-11-2022-155525-1061-1.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Award-winning contemporary circus company returns with an
+    extraordinary show looking at the hectic pace of today’s
+    world. In a unique set design featuring a giant treadmill, four
+    performers and two musicians mix dance, running, cyr-wheel
+    acrobatics and original live music, while running almost a
+    whole marathon. This UK debut for Runners marks the
+    company’s fourth Edinburgh appearance following sell-out
+    seasons in 2011, 2015 and 2017. Best Czech Theatre 2020
+    and 2021 (Theatre Critics Awards). Total Theatre Award
+    nominee. ‘No wonder this low-fi, anarchic circus have been
+    hoovering up awards wherever they stumble’ (Scotland on
+    Sunday).
+  copy_long: |-
+    Award-winning political theatre based on the movie about the
+    harmless, loser boxer Rocky, who against all odds defeats
+    his own inferiority and unreasonable loser life. He has all the
+    wrong opinions, though fortunately no airtime. But what
+    happens when he breaks character and gains power? Rocky!
+    is fiercely entertaining and will swipe you off your feet. 'Left
+    me speechless and with a hammering heart' ★★★★★
+    (Scenekanten.com). 'This experience proved to me that
+    theatre is able to deal with the most problematic discussions
+    of zeitgeist and power' ★★★★★ (Berlingske).
+  is_draft: false
+- title: Runners
+  company: Cirk La Putyka
+  venue: Zoo Southside
+  start_time: '20:30'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-15'
+  - '2022-08-14'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Dance Physical Theatre and Circus
+  age_guidance: 3+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/05-13-2022-203756-9533.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Award-winning contemporary circus mixes dance, running,
+    acrobatics and original live music in a breathtaking journey to
+    catch up with time. Four performers, two musicians, one giant
+    treadmill. Best Czech Theatre 2020 and 2021. Total Theatre
+    Award nominee. ‘Spectacular’ (FringeReview.co.uk).
+  copy_long: |-
+    Award-winning contemporary circus company returns with an
+    extraordinary show looking at the hectic pace of today’s
+    world. In a unique set design featuring a giant treadmill, four
+    performers and two musicians mix dance, running, cyr-wheel
+    acrobatics and original live music, while running almost a
+    whole marathon. This UK debut for Runners marks the
+    company’s fourth Edinburgh appearance following sell-out
+    seasons in 2011, 2015 and 2017. Best Czech Theatre 2020
+    and 2021 (Theatre Critics Awards). Total Theatre Award
+    nominee. ‘No wonder this low-fi, anarchic circus have been
+    hoovering up awards wherever they stumble’ (Scotland on
+    Sunday).
+  is_draft: false
 - title: Fault Lines
   company: Two Destination Language
   venue: Zoo Southside
