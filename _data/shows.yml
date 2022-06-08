@@ -1,4 +1,216 @@
 ---
+- title: The Rainbow – A Rehearsed Reading of a New Adaptation
+  company: Nicola Werenowska
+  venue: Zoo Southside
+  start_time: '19:00'
+  duration: '1hr 30mins '
+  performances:
+  - '2022-08-10'
+  price:
+    standard: 0
+    concession: 
+  ticket_url: ''
+  genre:
+  - Neurodiversity Led
+  - 'New Writing '
+  - 'Theatre '
+  age_guidance: 12+
+  access:
+  - bsl
+  image: "/static/05-13-2022-182000-2147.jpg"
+  copy_short: |-
+    Groundbreaking adaptation, by award-winning neurodivergent
+    playwright Nicola Werenowska, focusing on the three Polish
+    women at the centre of this rich work. Interweaving narration,
+    dialogue, lyrical text and movement.
+  copy_long: |-
+    Originally published in 1915, The Rainbow was
+    extraordinarily ahead of its time as Lawrence explores the
+    experiences of three generations of Polish women living in
+    Nottinghamshire at the turn of the 20th century. This
+    groundbreaking adaptation, by award-winning
+    neurodivergent playwright Nicola Werenowska, will focus on
+    the women at the centre of this rich work. Through
+    interweaving narration, dialogue, lyrical text and movement,
+    this work creates a space for matrilineal knowledge, and a
+    debate around decolonising narratives by addressing the
+    women's Polish heritage.
+  ticket_deals: []
+  booking_unavailable: false
+  age_restricted: false
+  access_details: ''
+  content_warnings: []
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  is_draft: false
+- title: Tea Ceremony
+  company: SRSLYyours/Civil Disobedience
+  venue: Zoo Playground
+  start_time: '16:30'
+  duration: 1hr
+  performances:
+  - '2022-08-28'
+  - '2022-08-27'
+  - '2022-08-26'
+  - '2022-08-25'
+  - '2022-08-24'
+  - '2022-08-23'
+  - '2022-08-22'
+  - '2022-08-20'
+  - '2022-08-19'
+  - '2022-08-18'
+  - '2022-08-17'
+  - '2022-08-16'
+  - '2022-08-15'
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - 'International '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/06-08-2022-105119-6845.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    This devised performance questions our motivations and choices
+    within a capitalist system – deeply rooted in historic colonial
+    infrastructures and thinking patterns – in which "advanced"
+    societies conduct their lifestyle around the suffering of others.
+  copy_long: |-
+    Developed around the ancient tradition of a Tea Ceremony, a
+    male geisha (award-winning actor Marios Ioannou) begins to
+    question her role as "servant" and "entertainer" operating in a
+    system based on capital, consummation and ownership. As
+    an icon of beauty, well-trained to seduce her customers
+    through movement, song and dance, the Geisha leads the
+    audience on a journey of modern-day abuse, child labour,
+    human trafficking, torture and slavery, and the high price we
+    pay for our joy and greed.
+  is_draft: false
+- title: Marriage in Progress
+  company: ED Ensemble and Rocket Productions
+  venue: Zoo Playground
+  start_time: '21:30'
+  duration: 45mins
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  - '2022-08-06'
+  - '2022-08-05'
+  price:
+    standard: 16
+    concession: 13
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - International
+  - Improv
+  - 'Theatre '
+  age_guidance: 14+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strong Language/Swearing
+  image: "/static/05-06-2022-012044-5869.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Witness marriage as an improvised performance and
+    improvisation as a marriage with Lauren Katz (Curb Your
+    Enthusiasm) and Joey Slotnick (The Marvelous Mrs Maisel, The
+    Good Wife). ED Ensemble's delightful innovation is 'a surreal
+    success' (Chicago Tribune).
+  copy_long: |-
+    We know this is too long – we will edit. Marriage in Progress
+    playfully sends up lifelong commitment while celebrating it –
+    and critiques the vanity of performance while revelling in it.
+    Lauren Katz (Curb Your Enthusiasm) and Joey Slotnick (The
+    Marvelous Mrs. Maisel, The Good Wife) explore marriage as
+    improvisation and improvisation as marriage. The Chicago
+    Tribune called ED Ensemble's 'wonderfully energetic and
+    self-effacing style' an 'adventurous and delightful experience'
+    and a 'hilariously engaging' and 'surreal success.' They
+    emerged in Chicago as one of the most innovative
+    companies in North America.
+  is_draft: false
+- title: All over
+  company: Eivind Seljeseth
+  venue: Zoo Southside
+  start_time: '22:30'
+  duration: 1hr
+  performances:
+  - '2022-08-13'
+  - '2022-08-12'
+  - '2022-08-11'
+  - '2022-08-10'
+  - '2022-08-09'
+  - '2022-08-08'
+  - '2022-08-07'
+  price:
+    standard: 
+    concession: 
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Contemporary
+  - Dance Physical Theatre and Circus
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  image: "/static/06-08-2022-104712-6386.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    A poetic, subtle and witty dance performance on conventions,
+    expectations and perception. As in an audio guide, every
+    audience member is presented with individual text through
+    headphones – hanging from the ceiling.
+  copy_long: |-
+    A poetic, subtle and witty dance performance on
+    conventions, expectations and perception. As in an audio
+    guide, or a fake indoctrination machine, every audience
+    member is presented with individual text through
+    headphones – hanging from the ceiling. The project seeks to
+    emphasize the notion of being singular/plural through an
+    interpassive system of textual, auditive and bodily movement
+    material. As in a simulator of the imaginary, three dancers
+    take your metaphorical hand and guide you through your
+    own imagination.
+  is_draft: false
 - title: Bathroom Confession
   company: Tinted Theatre
   venue: Zoo Playground
@@ -233,7 +445,8 @@
   venue: Zoo Southside
   start_time: '10:30 '
   duration: 1hr
-  performances: []
+  performances:
+  - '2022-08-13'
   price:
     standard: 12
     concession: 10
