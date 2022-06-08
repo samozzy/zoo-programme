@@ -29,7 +29,7 @@ use_swiper: true
 					<div class="row row-cols-2 row-cols-sm-4 d-flex justify-content-around">
 						{% if show.price.standard and show.price.standard != empty %}
 							{% assign has_price = true %}
-						{% else if show.price.price_range and show.price.price_range != empty %}
+						{% elsif show.price.price_range and show.price.price_range != empty %}
 							{% assign has_price = true %}
 						{% endif %}
 						{% if has_price == true %}
