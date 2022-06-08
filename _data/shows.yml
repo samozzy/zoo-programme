@@ -1579,7 +1579,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/johnny-got-his-gun
   ticket_deals: []
   booking_unavailable: false
   genre:
