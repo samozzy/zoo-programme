@@ -659,7 +659,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/brothers
   ticket_deals: []
@@ -673,9 +673,7 @@
   access: []
   access_details: ''
   content_warnings:
-  - Drug references
   - 'Strong Language/Swearing '
-  - Simulated Scenes of Violence
   image: "/static/04-12-2022-093956-3676.jpg"
   image_alt: ''
   video_embeds: []
@@ -700,7 +698,9 @@
     and love, and questions if keeping secrets in a bid to protect
     can do more harm than good.
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Simulated Scenes of Violence
+  - Drug references
 - title: 'Jekyll & Hyde: A One-Woman Show'
   company: Sweet Productions
   venue: Zoo Playground
