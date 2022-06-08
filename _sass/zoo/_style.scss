@@ -157,16 +157,7 @@ a.card-event-hover  {
 		}
 	}
 }
-.card-show, .card-show-slider {
-	@extend .card, .mb-4, .mb-lg-2, .ms-0;
-	@extend .rounded-0, .bg-transparent;
 
-	h3 {
-		@include media-breakpoint-down(sm){
-			text-align:center;
-		}
-	}
-}
 .show-image {
 	@extend .mb-3;
 	img {
@@ -174,8 +165,20 @@ a.card-event-hover  {
 	}
 }
 
+.card-show-slider, .card-show-small {
+	@extend .card, .h-100, .bg-transparent, .rounded-0;
+	@extend .mb-4, .mb-lg-2, .ms-0;
+	.card-header, .card-footer {
+		@extend .bg-transparent, .border-0;
+	}
+	h3 {
+		@include media-breakpoint-down(sm){
+			text-align:center;
+		}
+	}
+}
 .card-show-slider {
-	@extend .border-2px, .card, .h-100;
+	@extend .border-2px, .h-100;
 	.card-header, .card-body, .card-footer {
 		@extend .d-flex;
 	}
@@ -196,7 +199,7 @@ a.card-event-hover  {
 	}
 }
 .card-show-small {
-	@extend .card, .border-0;
+	@extend .border-0;
 	@extend .py-3;
 	.card-body {
 		@extend .m-0, .p-0;
@@ -217,12 +220,6 @@ a.card-event-hover  {
 		}
 	}
 }
-.card-show-slider, .card-show-small {
-	@extend .card, .h-100;
-	.card-header, .card-footer {
-		@extend .bg-transparent, .border-0;
-	}
-}
 
 
 // SHOW PAGE
@@ -239,6 +236,7 @@ a.card-event-hover  {
 	
 	.show-blurb {
 		@extend .mb-3;
+		line-height: 2.5rem;
 
 		p:first-of-type {
 			@extend .fs-5;
