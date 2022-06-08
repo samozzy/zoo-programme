@@ -2366,7 +2366,7 @@
   price:
     concession: 
     standard: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/all-by-myself
   ticket_deals: []
   booking_unavailable: false
   genre:
