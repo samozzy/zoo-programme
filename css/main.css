@@ -499,6 +499,18 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   bottom: 0px !important;
 }
 
+img.logo-in-title {
+  width: auto;
+  margin-top: 2px;
+  vertical-align: middle;
+}
+
+@media (max-width: 1199.98px) {
+  img.logo-in-title {
+    display: none;
+  }
+}
+
 .header-category-wrapper .header-category-button {
   margin-top: 0.5rem;
   transition: margin;
