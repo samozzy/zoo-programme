@@ -8,9 +8,6 @@
 		{% if show.start_time and show.start_time != empty %}
 			<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ show.duration }}){% endif %}</p>
 		{% endif %}
-		{% if show.price and show.price.standard and show.price.standard != empty %}
-			<p><i class="fa fa-ticket-alt fa-fw text-zoo-orange"></i>&nbsp;{% include text/price.html show=show %}</p>
-		{% endif %}
 		{% include show/buttons.html show=show %}
 	</div>
 	<div class="card-footer bg-transparent">
