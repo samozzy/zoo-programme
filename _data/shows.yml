@@ -1050,7 +1050,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/i-was-naked-smelling-of-rain
   ticket_deals: []
@@ -1066,7 +1066,6 @@
   - bsl
   access_details: ''
   content_warnings:
-  - Mental health trauma & mention of suicide
   - 'Strong Language/Swearing '
   - Contains Distressing Themes
   image: "/static/05-11-2022-210013-5811.jpg"
@@ -1091,7 +1090,8 @@
     ever truly where we are and present? Part of Horizon:
     Performance Created in England.
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Mental health trauma & mention of suicide
 - title: Civilisation
   company: Jaz Woodcock-Stewart with Morgann Runacre-Temple
   venue: Zoo Southside
