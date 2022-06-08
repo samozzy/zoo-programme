@@ -7,7 +7,7 @@
   performances:
   - '2022-08-10'
   price:
-    standard: 0
+    standard: 
     concession: 
   ticket_url: ''
   genre:
