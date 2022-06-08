@@ -313,11 +313,11 @@ a.text-zoo-yellow:hover, a.text-zoo-yellow:focus, a.text-zoo-yellow:active, a.te
   background-color: transparent;
 }
 
-.text-zoo-orange, .show-details hr, table.date-list td.show-date, .helper-text, .card-programme .card-header .fa {
+.text-zoo-orange, .show-details hr, table.date-list td.show-date, .card-programme .card-header .fa, .helper-text {
   color: #F48847;
 }
 
-a.text-zoo-orange:hover, a.helper-text:hover, .card-programme .card-header a.fa:hover, a.text-zoo-orange:focus, a.helper-text:focus, .card-programme .card-header a.fa:focus, a.text-zoo-orange:active, a.helper-text:active, .card-programme .card-header a.fa:active, a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active {
+a.text-zoo-orange:hover, .card-programme .card-header a.fa:hover, a.helper-text:hover, a.text-zoo-orange:focus, .card-programme .card-header a.fa:focus, a.helper-text:focus, a.text-zoo-orange:active, .card-programme .card-header a.fa:active, a.helper-text:active, a.text-zoo-orange:hover, a.text-zoo-orange:focus, a.text-zoo-orange:active {
   color: #f8b78f;
 }
 
@@ -448,6 +448,10 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   font-size: 2rem !important;
 }
 
+.bg-zoo-slate .helper-text a {
+  color: #FFFFFF;
+}
+
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 5rem;
@@ -456,6 +460,10 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
 
 .clickme, .card-header[data-bs-toggle="collapse"], .helper-text a {
   cursor: pointer !important;
+}
+
+.clickme:hover, .card-header[data-bs-toggle="collapse"]:hover, .helper-text a:hover, .clickme:focus, .card-header[data-bs-toggle="collapse"]:focus, .helper-text a:focus, .clickme:active, .card-header[data-bs-toggle="collapse"]:active, .helper-text a:active {
+  text-decoration: underline !important;
 }
 
 .card-programme .card-header[aria-expanded="true"] .fa {
