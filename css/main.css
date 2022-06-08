@@ -514,6 +514,22 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   outline: 1px dashed grey;
 }
 
+.buttons {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .buttons {
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buttons {
+    width: auto;
+  }
+}
+
 table.date-list {
   font-size: 8px !important;
 }
@@ -614,12 +630,6 @@ div.card-event-hover {
 
 a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card-event-hover, a.card-event-hover:focus-within div.card-event-hover, a.card-event-hover:active div.card-event-hover {
   transform: scale(1.03);
-}
-
-@media (max-width: 575.98px) {
-  .card-show-slider h3, .card-show-slider .h3, .card-show-small h3, .card-show-small .h3 {
-    text-align: center;
-  }
 }
 
 .card-show-small .show-image {
@@ -8370,7 +8380,7 @@ textarea.form-control-lg {
   margin: -3rem !important;
 }
 
-.mx-n1, .buttons {
+.mx-n1 {
   margin-right: -0.25rem !important;
   margin-left: -0.25rem !important;
 }
