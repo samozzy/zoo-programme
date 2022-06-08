@@ -854,7 +854,7 @@
   price:
     standard: 10
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/heat-museum
   ticket_deals: []
   booking_unavailable: false
   genre:
