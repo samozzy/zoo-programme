@@ -2231,7 +2231,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/have-you-seen-this-woman
   ticket_deals: []
