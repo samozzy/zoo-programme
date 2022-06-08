@@ -1,20 +1,21 @@
 {% assign show = include.show %}
+{% if show.performances and show.performances != empty %}
+	{% assign show_dates = show.performances | sort %}
+	{% assign first_performance = show_dates[0] %}
+	{% if show_dates[1] %}
+		{% assign last_date = show_dates | size | minus: 1 %}
+		{% assign last_performance = show_dates[last_date] %}
 
-{% assign show_dates = show.performances | sort %}
-{% assign first_performance = show_dates[0] %}
-{% if show_dates[1] %}
-	{% assign last_date = show_dates | size | minus: 1 %}
-	{% assign last_performance = show_dates[last_date] %}
-
-	{% assign first_month = first_performance | date: "%m" %}
-	{% assign last_month = last_performance | date: "%m" %}
-	{% if first_month != last_month %}
-		{% assign first_month_text = first_performance | date: "%b" %}
+		{% assign first_month = first_performance | date: "%m" %}
+		{% assign last_month = last_performance | date: "%m" %}
+		{% if first_month != last_month %}
+			{% assign first_month_text = first_performance | date: "%b" %}
+		{% endif %}
+	{% else %}
+		{% assign last_performance = first_performance %}
 	{% endif %}
-{% else %}
-	{% assign last_performance = first_performance %}
-{% endif %}
 
-{% unless include.no_output %}
-{% if first_performance != last_performance %}From {{ first_performance | date: "%e" }} {{ first_month_text | append: ' ' }}to {{ last_performance | date_to_string }}{% else %}{{ first_performance | date_to_string }}{% endif %}
-{% endunless %}
+	{% unless include.no_output %}
+	{% if first_performance != last_performance %}From {{ first_performance | date: "%e" }} {{ first_month_text | append: ' ' }}to {{ last_performance | date_to_string }}{% else %}{{ first_performance | date_to_string }}{% endif %}
+	{% endunless %}
+{% endif %}
