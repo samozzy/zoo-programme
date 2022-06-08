@@ -17,6 +17,15 @@
 	}
 }
 
+img.logo-in-title{ 
+  width: auto;
+  margin-top: 2px;
+  vertical-align: middle;
+  @include media-breakpoint-down(xl){
+  	display: none;
+  }
+}
+
 .header-category-wrapper {
 	@extend .mx-2;
 	.header-category-button {
