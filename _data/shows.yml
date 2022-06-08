@@ -35,18 +35,35 @@
   booking_unavailable: false
   genre:
   - Dance Physical Theatre and Circus
-  age_guidance: ''
+  age_guidance: 3+
   age_restricted: false
   access: []
   access_details: ''
   content_warnings: []
-  image: ''
+  image: "/static/05-13-2022-203756-9533.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Award-winning contemporary circus mixes dance, running,
+    acrobatics and original live music in a breathtaking journey to
+    catch up with time. Four performers, two musicians, one giant
+    treadmill. Best Czech Theatre 2020 and 2021. Total Theatre
+    Award nominee. ‘Spectacular’ (FringeReview.co.uk).
+  copy_long: |-
+    Award-winning contemporary circus company returns with an
+    extraordinary show looking at the hectic pace of today’s
+    world. In a unique set design featuring a giant treadmill, four
+    performers and two musicians mix dance, running, cyr-wheel
+    acrobatics and original live music, while running almost a
+    whole marathon. This UK debut for Runners marks the
+    company’s fourth Edinburgh appearance following sell-out
+    seasons in 2011, 2015 and 2017. Best Czech Theatre 2020
+    and 2021 (Theatre Critics Awards). Total Theatre Award
+    nominee. ‘No wonder this low-fi, anarchic circus have been
+    hoovering up awards wherever they stumble’ (Scotland on
+    Sunday).
   is_draft: false
 - title: Fault Lines
   company: Two Destination Language
