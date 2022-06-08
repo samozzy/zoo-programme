@@ -9,7 +9,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/rainbow-a-rehearsed-reading-of-a-new-adaptation
   genre:
   - Neurodiversity Led
   - 'New Writing '
@@ -76,7 +76,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/tea-ceremony
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -125,7 +125,7 @@
   price:
     standard: 16
     concession: 13
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/marriage-in-progress
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -162,7 +162,7 @@
     emerged in Chicago as one of the most innovative
     companies in North America.
   is_draft: false
-- title: All over
+- title: All Over
   company: Eivind Seljeseth
   venue: Zoo Southside
   start_time: '22:30'
@@ -178,7 +178,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/all-over
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -229,7 +229,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/bathroom-confession
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -275,7 +275,7 @@
   price:
     standard: 12.5
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/afterhours-comedy-amused-moose-comedy
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -334,7 +334,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/megalith
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -404,7 +404,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/maternity
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -450,7 +450,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-firsthand-z-pierwszej-reki
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1849,7 +1849,7 @@
   company: Nat Norland
   venue: Zoo Southside
   start_time: '17:40'
-  duration: 1hr5
+  duration: 1hr 5mins
   performances:
   - '2022-08-28'
   - '2022-08-27'
@@ -1905,7 +1905,7 @@
   company: David Head and Matt Glover
   venue: Zoo Southside
   start_time: '11:25'
-  duration: 1hr20
+  duration: 1hr 20mins
   performances:
   - '2022-08-28'
   - '2022-08-27'
@@ -2147,7 +2147,7 @@
   company: Roots Mbili Theatre
   venue: Zoo Southside
   start_time: '17:40'
-  duration: 1hr5mins
+  duration: 1hr 5mins
   performances:
   - '2022-08-20'
   - '2022-08-19'
@@ -2646,7 +2646,7 @@
   company: 'Chronic Insanity '
   venue: Zoo Playground
   start_time: '15:55'
-  duration: "50"
+  duration: 50mins
   performances:
   - '2022-08-28'
   - '2022-08-27'
