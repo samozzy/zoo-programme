@@ -6,71 +6,55 @@ use_swiper: true
 
 {% assign show = page %}
 
-<div class="container-fluid bg-zoo-white pt-4">
-	<div class="row mb-lg-5 mb-md-4">
-		<div class="col-12 col-lg-4 col-xl-3 text-center text-lg-end d-flex flex-column order-lg-2">
-			<a href="{% link _content/index.md %}"><img src="/static/img/zoo/zoo-logo-black.png" class="img-fluid" width="125px" height="auto" alt="ZOO"></a><br>
-		</div>
-		<div class="col-12 col-lg-8 col-xl-9 px-5 pe-lg-0 my-auto d-flex flex-row order-lg-1">
+<div class="container-md pt-4">
+	<div class="row mb-4 show-large">
+		{% include components/header-logo.html %}
+		<div class="col-6 offset-3 offset-lg-0 col-lg-4 col-xl-3 order-2 order-lg-1">
 			{% include show/show-image.html show=show %}
-			<div class="ms-md-4 d-flex flex-column">
-				<h1 class="display-2 text-zoo-black text-center text-md-start">
-					{{ show.title }}
-					{% if show.company and show.company != empty %}
-						<p class="display-4 bebas text-muted fw-lighter">{{ show.company }}</p>
-					{% endif %}
-				</h1>
-				{% if show.image and show.image != empty %}
-					<div class="d-block d-md-none mb-4 mx-1 text-center">
-						<img src="{{ show.image }}" alt="{{ show.title}} icon" class="img-fluid" height="auto">
+		</div>
+		<div class="col-12 col-lg-8 col-xl-7 order-3 order-lg-2">
+			{% include show/show-title.html show=show header_size='h1' header_class='display-2' company_class='display-4' %}
+			<div class="icon-row">
+				{% if show.price.standard and show.price.standard != empty %}
+					{% assign has_price = true %}
+				{% elsif show.price.price_range and show.price.price_range != empty %}
+					{% assign has_price = true %}
+				{% endif %}
+				{% if has_price == true %}
+					<div class="col mb-4 mb-md-0">
+						<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"></i><br>
+						{% include text/price.html show=show %}
 					</div>
 				{% endif %}
-				<div class="fs-5 text-center">
-					<div class="row row-cols-2 row-cols-sm-4 d-flex justify-content-around">
-						{% if show.price.standard and show.price.standard != empty %}
-							{% assign has_price = true %}
-						{% elsif show.price.price_range and show.price.price_range != empty %}
-							{% assign has_price = true %}
-						{% endif %}
-						{% if has_price == true %}
-							<div class="col mb-4 mb-md-0">
-								<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"></i><br>
-								{% include text/price.html show=show %}
-							</div>
-						{% endif %}
-						{% if show.start_time and show.start_time != empty %}
-							<div class="col mb-4 mb-md-0">
-								<i class="fa fa-fw text-zoo-orange fa-clock fs-2"></i><br>
-								{{ show.start_time }}
-								{% if show.duration and show.duration != empty %}
-									<br>({{ show.duration }})
-								{% endif %}
-							</div>
-						{% endif %}
-						{% if show.venue and show.venue != empty %}
-							<div class="col mb-4 mb-md-0">
-								<i class="fa fa-fw text-zoo-orange fa-map fs-2"></i><br>
-								{{ show.venue }}
-							</div>
-						{% endif %}
-						{% if show.access and show.access != empty %}
-							{% assign has_access = true %}
-							<div class="col mb-4 mb-md-0">
-								<i class="fa fa-fw text-zoo-orange fa-universal-access fs-2"></i><br>
-								<div class="text-zoo-slate d-flex flex-row justify-content-evenly pt-1">
-									{% for a in show.access %}
-										{% include text/access.html access_item=a large=true %}
-									{% endfor %}
-								</div>
-							</div>
+				{% if show.start_time and show.start_time != empty %}
+					<div class="col mb-4 mb-md-0">
+						<i class="fa fa-fw text-zoo-orange fa-clock fs-2"></i><br>
+						{{ show.start_time }}
+						{% if show.duration and show.duration != empty %}
+							<br>({{ show.duration }})
 						{% endif %}
 					</div>
-				</div>
+				{% endif %}
+				{% if show.venue and show.venue != empty %}
+					<div class="col mb-4 mb-md-0">
+						<i class="fa fa-fw text-zoo-orange fa-map fs-2"></i><br>
+						{{ show.venue | replace: "Zoo ", "ZOO " }}
+					</div>
+				{% endif %}
+				{% if show.access and show.access != empty %}
+					{% assign has_access = true %}
+					<div class="col mb-4 mb-md-0">
+						<i class="fa fa-fw text-zoo-orange fa-universal-access fs-2"></i><br>
+						<div class="text-zoo-slate d-flex flex-row justify-content-evenly pt-1">
+							{% for a in show.access %}
+								{% include text/access.html access_item=a large=true %}
+							{% endfor %}
+						</div>
+					</div>
+				{% endif %}
 			</div>
 		</div>
 	</div>
-</div>
-<div class="container-md">
 	<div class="row mb-4">
 		{% include components/dates.html show=show %}
 	</div>
@@ -102,7 +86,7 @@ use_swiper: true
 			</div>
 		</div>
 	{% endif %}
-	{% include show/buttons.html show=show btn_class='btn-lg mx-1' book_primary=true read_string="Keep reading" %}
+	{% include show/buttons.html show=show btn_class='btn-lg mx-1' book_primary=true read_string="Keep reading" read_link="#show-details" %}
 </div>
 <div class="container py-4">
 	<div class="row show-details" id="show-details">
@@ -155,7 +139,7 @@ use_swiper: true
 				</ul>
 			</div>
 		{% endif %}
-		<div class="col-12 col-md-6 offset-md-3 text-center">
+		<div class="col-12 col-md-6 offset-md-3 text-center mt-4">
 			{% include show/buttons.html show=show only_book=true book_primary=true btn_class='btn-lg w-100' %}
 		</div>
 		{% if show.reviews and show.reviews != empty %}
@@ -243,75 +227,3 @@ use_swiper: true
 		{% include components/ymal.html show=show %}
 	</div>
 </div> 
-
-<!-- 
-
-
-<div class="container-fluid px-4 bg-secondary">
-	<div class="row mb-4 text-center d-flex flex-row justify-content-between mx-4 px-4">
-		<div class="col-12 col-md-4 col-xl-3 fs-5">
-			<div class="card border-zoo-orange rounded-0 bg-transparent text-light h-100">
-				<div class="card-body">
-					<i class="fa fa-map fa-fw fa-2x text-zoo-orange"></i>
-					<p class="mb-0">{{ show.venue }}</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 col-xl-3 fs-5">
-			<div class="card border-zoo-orange rounded-0 bg-transparent text-light h-100">
-				<div class="card-body">
-					<i class="fa fa-ticket-alt fa-fw fa-2x text-zoo-orange"></i>
-					<p class="mb-0">{{ show.price.standard | prepend: '£' }}{% if show.price.concession and show.price.concession != empty and show.price.concession != show.price.standard %} ({{ show.price.concession | prepend: '£' }}){% endif %}</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 col-xl-3 fs-5">
-			<div class="card border-zoo-orange rounded-0 bg-transparent text-light h-100">
-				<div class="card-body">
-					<i class="fa fa-clock fa-fw fa-2x text-zoo-orange"></i>
-					<p class="mb-0">{{ show.start_time }} {% if show.duration and show.duration != empty %}({{ show.duration }}){% endif %}</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="row mb-4">
-		<div class="col-12 col-lg-10 offset-lg-1">
-			{% include components/dates.html show=show light=true %}
-		</div>
-	</div>
-
-	<div class="row w-100 mb-4">
-		<div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 d-lg-flex flex-row justify-content-evenly">
-			<a class="btn-zoo-pill btn-light btn-lg bebas mb-4 mb-lg-0" href="{{ show.ticket_link }}">Book Tickets</a><br>
-			<a class="btn-zoo-pill btn-primary btn-lg bebas" href="#top-of-content">Keep reading <i class="fa fa-arrow-down"></i></a>
-		</div>
-	</div>
-
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="col-12">
-		</diV>
-	</div>
-	<div class="row my-4">
-		<div class="col-12 show-blurb">
-			{{ show.copy_long | markdownify }}
-		</div>
-		{% if show.content_warnings and show.content_warnings != empty %}
-			<div class="col-12">
-				<p class="lead text-zoo-orange">Content Warnings</p>
-				<ul>
-					{% for c in show.content_warnings %}
-						<li>{{ c | capitalize }}</li>
-					{% endfor %}
-				</ul>
-			</div>
-		{% endif %}
-	</div>
-</div>
-
-
-
---> 
