@@ -495,7 +495,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-from-the-heart-of-the-incident
   ticket_deals: []
   booking_unavailable: false
   genre:
