@@ -39,6 +39,15 @@
 .header-category-button {
 	@extend .btn-zoo, .shadow, .p-2;
 }
+.buttons {
+	width: 100%;
+	@include media-breakpoint-only(md){
+    	width: auto;
+	}
+	@include media-breakpoint-up(xl){
+		width: auto;
+	}
+}
 
 .footer p {
 	@extend .mb-0;

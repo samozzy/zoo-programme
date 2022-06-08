@@ -51,7 +51,7 @@ body {
 }
 
 .buttons {
-  @extend .mb-3, .d-flex, .justify-content-around, .mx-n1;
+  @extend .mb-3, .d-flex, .justify-content-around;
   .btn-zoo-book {
     // Vertically align the text 
     @extend .d-flex;

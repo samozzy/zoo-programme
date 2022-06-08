@@ -86,7 +86,11 @@ use_swiper: true
 			</div>
 		</div>
 	{% endif %}
-	{% include show/buttons.html show=show btn_class='btn-lg mx-1' book_primary=true read_string="Keep reading" read_link="#show-details" %}
+	<div class="row">
+		<div class="col-12">
+			{% include show/buttons.html show=show btn_class='btn-lg' book_primary=true read_string="Keep reading" read_link="#show-details" %}
+		</div>
+	</div>
 </div>
 <div class="container py-4">
 	<div class="row show-details" id="show-details">
