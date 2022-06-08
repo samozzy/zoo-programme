@@ -18,19 +18,35 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Contemporary
+  - Dance Physical Theatre and Circus
+  age_guidance: 16+
   age_restricted: false
   access: []
   access_details: ''
   content_warnings: []
-  image: ''
+  image: "/static/06-08-2022-104712-6386.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    A poetic, subtle and witty dance performance on conventions,
+    expectations and perception. As in an audio guide, every
+    audience member is presented with individual text through
+    headphones – hanging from the ceiling.
+  copy_long: |-
+    A poetic, subtle and witty dance performance on
+    conventions, expectations and perception. As in an audio
+    guide, or a fake indoctrination machine, every audience
+    member is presented with individual text through
+    headphones – hanging from the ceiling. The project seeks to
+    emphasize the notion of being singular/plural through an
+    interpassive system of textual, auditive and bodily movement
+    material. As in a simulator of the imaginary, three dancers
+    take your metaphorical hand and guide you through your
+    own imagination.
   is_draft: false
 - title: Bathroom Confession
   company: Tinted Theatre
