@@ -2,14 +2,12 @@
 layout: page
 ---
 
-<div class="container my-4 p-4 border-2px border-zoo-orange shadow">
+<div class="programme-menu-container">
 	<div class="row">
-		<div class="col-12">
-			<div class="d-flex justify-content-between">
-				<button class="programme-menu active" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button">Find something for you</button>
-				<button class="programme-menu" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" id="search-box-button" onclick="focusSearch()">Search for what you're looking for</button>
-				<a role="button" data-bs-toggle="tooltip" title="Clear all filters and search queries" class="programme-menu" href="#show-list">Browse the full programme</a>
-			</div>
+		<div class="programme-menu-card">
+			<button class="programme-menu active" type="button" data-bs-toggle="collapse" data-bs-target="#filter-box" aria-expanded="false" aria-controls="filter-box" id="filter-box-button">Find something for you</button>
+			<button class="programme-menu" type="button" data-bs-toggle="collapse" data-bs-target="#search-box" aria-expanded="false" aria-controls="search-box" id="search-box-button" onclick="focusSearch()">Search for what you're looking for</button>
+			<a role="button" data-bs-toggle="tooltip" title="Clear all filters and search queries" class="programme-menu" href="#show-list">Browse the full programme</a>
 		</div>
 	</div>
 	<div class="mx-4" id="control-area"> 
@@ -24,7 +22,7 @@ layout: page
 			</div>
 		</div>
 		<!-- Filter Menu Box -->
-		<div id="filter-box" class="collapse mt-4 row row-cols-md-2 show" data-bs-parent="#control-area">
+		<div id="filter-box" class="collapse mt-4 row row-cols-1 row-cols-lg-2 show" data-bs-parent="#control-area">
 			<div class="col w-100"><p class="fs-2 bebas">I want a show...</p></div>
 			<!-- Dates -->
 			<div class="col">
@@ -234,8 +232,8 @@ layout: page
 {{ content }}
 
 <div class="container"> 
-	<div id="show-list" class="row row-cols-md-2 mb-5">
-		<div class="col w-100">
+	<div id="show-list" class="row row-cols-lg-2 mb-5">
+		<div class="col-12 w-100">
 			<div id="filter-badge-container" class="filter-badge-container d-none">
 				<span class="lead">Active filters:</span> 
 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearSearch()" id="active-filter-search">
@@ -259,7 +257,8 @@ layout: page
 						<i class="fa fa-times-circle"></i>
 					</div>
 				</button>
-<!-- 				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+				<!-- 				
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
 					<span>Price<span id="active-filter-price-list"></span></span>
 					<div class="icons d-inline">
 						<i class="far fa-times-circle"></i>
@@ -306,7 +305,7 @@ layout: page
 				<span id="filter-results-counter"></span>&nbsp;result<span id="filter-results-counter-plural">s</span>
 			</div>
 		</div>
-		<div class="d-none col w-100 text-center no-results" id="no-result-text">
+		<div class="d-none col-12 w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
 		{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" | sort_natural: "title" %}

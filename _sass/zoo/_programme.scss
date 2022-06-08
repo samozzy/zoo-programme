@@ -1,5 +1,13 @@
-.programme-menu {
-	@extend .btn-zoo, .rounded-0, .shadow, .btn-lg, .bebas, .fs-4, .btn-outline-info;
+.programme-menu-container {
+	@extend .container-sm, .my-4, .p-4;
+	@extend .border-2px, .border-zoo-orange, .shadow;
+	.programme-menu-card {
+		@extend .col-12, .d-flex, .justify-content-lg-between, .flex-column, .flex-lg-row;
+		.programme-menu {
+			@extend .btn-zoo, .rounded-0, .shadow, .btn-lg, .bebas, .fs-4, .btn-outline-info;
+			@extend .mb-4, .mb-lg-0;
+		}
+	}
 }
 
 .card-programme {
