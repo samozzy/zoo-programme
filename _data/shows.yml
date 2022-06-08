@@ -2646,7 +2646,7 @@
   company: 'Chronic Insanity '
   venue: Zoo Playground
   start_time: '15:55'
-  duration: "50"
+  duration: 50mins
   performances:
   - '2022-08-28'
   - '2022-08-27'
