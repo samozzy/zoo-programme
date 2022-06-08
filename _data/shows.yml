@@ -1481,7 +1481,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£14-£17"
     ticket_deals: []
   ticket_url: https://tickets.edfringe.com/whats-on/night-dances
   ticket_deals: []
@@ -1494,8 +1494,7 @@
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings:
-  - Contains loud music
+  content_warnings: []
   image: "/static/06-07-2022-145311-3747.jpg"
   image_alt: ''
   video_embeds: []
@@ -1518,9 +1517,10 @@
     This one’s for all of us. The time for dancing has come. Live
     music by Daniel Fox (Gilla Band). May the salt from our
     sweat unite us. ‘Raucous, loud, sweaty... a thrilling hour of
-    relentless dancing and music’ **** (Irish Times).
+    relentless dancing and music’ ★★★★ (Irish Times).
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Contains loud music
 - title: The Relentless Approach of Better Times
   company: Emma Smith
   venue: Zoo Southside
