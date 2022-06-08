@@ -224,6 +224,19 @@ a.card-event-hover  {
 	}
 }
 
+// Other pages 
+.page-narrow-content {
+	.info-card {
+		@extend .card, .rounded-0, .border-info, .border-2px, .p-0, .m-2;
+		.card-header {
+			@extend .border-info;
+			h1, h2, h3, p {
+				@extend .mb-0;
+			} 
+		}
+	}
+}
+
 // ACCESSIBILITY 
 
 img.access-icon {

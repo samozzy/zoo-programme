@@ -9,24 +9,46 @@ We have a number of shows offering BSL, Audio Description, Captioned and Relaxed
 
 For specific information or to chat to us about your visit please call 0131 356 0646 or email info@zoovenues.co.uk.
 
-## ZOO Southside
+<div class="row">
+<div class="col-md info-card">
+  <div class="card-header">
+    <h2>Zoo Southside</h2>
+  </div>
+  <div class="card-body" markdown="1">
 
-Level access is via the rear entrance either from Quarry Close or off Nicolson St. between the venue and Dominos. 
-* Access to the Main House is across the stage via a small lift (80cm wide, 100cm deep). 
-* The Studio has level access.
+Building level access is via the rear entrance either from Quarry Close or off Nicolson St. between the venue and Dominos.
 
-A large print brochure is available. 
+Level access to the Main House is across the stage via a small lift (80cm wide, 100cm deep).
 
-Assistance Dogs are always welcome. 
+The Studio has step-free access once in the building.
+  </div>
+</div>
+<div class="col-md info-card">
+  <div class="card-header">
+    <h2>Zoo Playground</h2>
+  </div>
+  <div class="card-body" markdown="1">
 
-Personal Assistant complimentary tickets are available and bookable in the normal way.
+Building level access is via Infirmary Street and the High School Yards to avoid any steps.
 
-## ZOO Playground
+All spaces are step-free once inside the building.
 
-Level access to all spaces. Please approach the venue via Infirmary Street and the High School Yards to avoid any steps.
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md info-card">
+    <div class="card-header">
+      <h2>All venues and spaces</h2>
+    </div>
+    <div class="card-body" markdown="1">
 
-A large print brochure is available.
+A large print brochure will be available for download from this page in July. 
 
-Assistance Dogs are always welcome.
+Assistance Dogs are always welcome in our venues and performance spaces. 
 
-Personal Assistant complimentary tickets are available and bookable in the normal way.
+Personal Assistant complimentary tickets are available and can be booked both online and in-person at the box office.
+
+  </div>
+  </div>
+</div>
