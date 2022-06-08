@@ -1344,7 +1344,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/fault-lines
   ticket_deals: []
   booking_unavailable: false
   genre:
