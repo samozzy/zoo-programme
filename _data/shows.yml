@@ -2543,7 +2543,7 @@
   price:
     standard: 
     concession: 
-    price_range: ''
+    price_range: "£10-£13"
     ticket_deals: []
   ticket_deals: []
   genre:
@@ -2554,7 +2554,6 @@
   - BSL
   access_details: The performance on Wednesday 10th August will be BSL interpreted
   content_warnings:
-  - This show focuses on experiences, treatments and impact of cancer on a family.
   - 'Contains Distressing Themes '
   image: "/static/04-02-2022-150014-9058.jpg"
   image_alt: ''
@@ -2585,7 +2584,8 @@
   age_guidance: ''
   age_restricted: false
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - This show focuses on experiences, treatments and impact of cancer on a family.
 - title: LUCID
   company: As If
   venue: Zoo Playground
