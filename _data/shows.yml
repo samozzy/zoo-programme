@@ -495,7 +495,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-from-the-heart-of-the-incident
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -538,7 +538,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-saber-came-to-tea
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -579,7 +579,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-from-the-horse-s-mouth
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -623,7 +623,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/brothers
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -680,7 +680,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/jekyll-and-hyde-a-one-woman-show
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -748,7 +748,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/aidan-goatley-tenacious
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -794,7 +794,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/art27-s-blood-red-lines
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -854,7 +854,7 @@
   price:
     standard: 10
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/heat-museum
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -897,7 +897,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/sad-book
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -945,7 +945,7 @@
   price:
     standard: 10
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/this-is-your-captain-speaking
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -993,7 +993,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/i-was-naked-smelling-of-rain
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1048,7 +1048,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/civilisation
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1107,7 +1107,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/no-one
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1160,7 +1160,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/heroes-1
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1218,7 +1218,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/rocky
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1293,7 +1293,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/runners
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1344,7 +1344,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/fault-lines
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1403,7 +1403,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/night-dances
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1456,7 +1456,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/relentless-approach-of-better-times
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1515,7 +1515,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/raging-mother
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1579,7 +1579,7 @@
   price:
     standard: 12
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/johnny-got-his-gun
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1637,7 +1637,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/walk-man
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1700,7 +1700,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/don-t-say-macbeth
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1760,7 +1760,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/enter-mr-citrus-man
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1809,7 +1809,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/naughty
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1862,7 +1862,7 @@
   price:
     standard: 
     concession: 10
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/dreamsick
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1933,7 +1933,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/unwanted-objects
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1997,7 +1997,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/every-word-was-once-an-animal
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2058,7 +2058,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/love-me-or-i-ll-kill-myself
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2117,7 +2117,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/have-you-seen-this-woman
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2165,7 +2165,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/far-gone
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2226,7 +2226,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/truth-reconciliation
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2295,7 +2295,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/saved
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2366,7 +2366,7 @@
   price:
     concession: 
     standard: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/all-by-myself
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2449,7 +2449,7 @@
     also enjoy Red Alert - Cancer! Directed by Kolbrún Björt
     Sigfúsdóttir (Hang, Me and My Sister Tell Each Other
     Everything, Maryland, Deliverance).
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/red-alert-cancer
   booking_unavailable: false
   age_guidance: ''
   age_restricted: false
@@ -2474,7 +2474,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/lucid
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -2543,7 +2543,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/an-audience-with-stuart-bagcliffe
   ticket_deals: []
   booking_unavailable: false
   age_restricted: false
@@ -2605,7 +2605,7 @@
   price:
     standard: 
     concession: 
-  ticket_url: ''
+  ticket_url: https://tickets.edfringe.com/whats-on/manic
   ticket_deals: []
   booking_unavailable: false
   genre:
