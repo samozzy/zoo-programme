@@ -1,3 +1,5 @@
 {% assign show = include.show %}
-<{{ include.header_size | default: 'h3'}} class="{{ include.header_class }} {% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</{{ include.fs | default: 'h3'}}>
-{% if show.company and show.company != empty %}<p class="{{ include.company_class | default: 'fs-4' }} bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
+<div class="show-title">
+	<{{ include.header_size | default: 'h3'}} class="{{ include.header_class }} {% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</{{ include.fs | default: 'h3'}}>
+	{% if show.company and show.company != empty %}<p class="{{ include.company_class | default: 'fs-4' }} bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
+</div>
