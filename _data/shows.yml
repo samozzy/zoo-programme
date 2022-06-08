@@ -445,7 +445,8 @@
   venue: Zoo Southside
   start_time: '10:30 '
   duration: 1hr
-  performances: []
+  performances:
+  - '2022-08-13'
   price:
     standard: 12
     concession: 10
