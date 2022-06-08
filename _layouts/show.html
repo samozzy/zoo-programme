@@ -124,11 +124,8 @@ use_swiper: true
 						</ul>
 					{% endif %}
 					{% if show.content_warning_detail and show.content_warning_detail != empty %}
-						<ul>
-							{% for c in show.content_warning_detail %}
-								<li>{{ c | capitalize }}</li>
-							{% endfor %}
-						</ul>
+						<p class="lead text-zoo-orange mb-0">Further details</p>
+						{{ show.content_warning_detail | join: '<br>' }}
 					{% endif %}
 				{% endif %}
 			</div>
