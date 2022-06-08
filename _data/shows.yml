@@ -33,7 +33,8 @@
   ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
-  genre: []
+  genre:
+  - Dance Physical Theatre and Circus
   age_guidance: ''
   age_restricted: false
   access: []
