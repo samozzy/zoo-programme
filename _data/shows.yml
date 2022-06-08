@@ -1,4 +1,50 @@
 ---
+- title: ART27's Blood Red Lines
+  company: Art27Scotland in association with Our Land Productions.
+  venue: Zoo Southside
+  start_time: '10:30'
+  duration: 1hr
+  performances:
+  - '2022-08-12'
+  - '2022-08-11'
+  price:
+    standard: 12
+    concession: 10
+  ticket_url: ''
+  ticket_deals: []
+  booking_unavailable: false
+  genre:
+  - Devised
+  - 'Verbatim '
+  - 'Theatre '
+  age_guidance: 12+
+  age_restricted: false
+  access:
+  - captions
+  access_details: ''
+  content_warnings: []
+  image: "/static/04-14-2022-153340-6395.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: |-
+    Blood Red Lines is co-created with victims and survivors of acts
+    of violence perpetrated on the Irish border. A shattering piece of
+    verbatim theatre that tells a different story. Directed by Robert
+    Rae.
+  copy_long: |-
+    Blood Red Lines was developed with and performed by
+    victims and survivors of the tragedies of South Armagh,
+    border counties and Dublin in the darkest days of the Irish
+    Conflict. It received standing ovations when it toured Ireland
+    pre-pandemic. The result of a six-month residency in Newry
+    supported by The Playhouse Theatre (Derry), BAFTAwinning director Robert Rae collaborated with those worst
+    affected by the conflict, including the Dublin and Dundalk
+    bombings, to develop this extraordinary and shattering piece
+    of verbatim theatre. With new songs from the legendary folk
+    singer and peace activist Tommy Sands.
+  is_draft: false
 - title: 'The Heat Museum '
   company: Dream Pavilion
   venue: Zoo Playground
