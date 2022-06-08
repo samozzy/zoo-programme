@@ -733,7 +733,6 @@
   access: []
   access_details: ''
   content_warnings:
-  - Themes of sexual and physical violence., discussed but not shown.
   - Contains Distressing Themes
   image: "/static/04-11-2022-234851-6487.jpg"
   image_alt: ''
@@ -754,9 +753,10 @@
     'The most viscerally convulsive realisation of Jekyll or Hyde
     imaginable' (FringeReview.co.uk). 'Mesmerising... we
     couldn't help but watch despite wanting to turn away in
-    horror' ***** (BroadwayBaby.com).
+    horror' ★★★★★ (BroadwayBaby.com).
   is_draft: false
-  content_warning_detail: []
+  content_warning_detail:
+  - Themes of sexual and physical violence., discussed but not shown.
 - title: 'Aidan Goatley: Tenacious'
   company: Aidan Goatley
   venue: Zoo Playground
