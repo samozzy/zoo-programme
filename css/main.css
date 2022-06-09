@@ -8020,7 +8020,7 @@ textarea.form-control-lg {
   height: 75% !important;
 }
 
-.h-100, .card-show-slider, .card-show-small {
+.h-100, .card-show-slider, .card-show-small, .page-narrow-content .info-card {
   height: 100% !important;
 }
 
@@ -8406,7 +8406,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.mb-4, .programme-menu-container .programme-menu-card .programme-menu, .card-programme, .card-show-slider, .card-show-small, .page-narrow-content .info-card {
+.mb-4, .programme-menu-container .programme-menu-card .programme-menu, .card-programme, .card-show-slider, .card-show-small {
   margin-bottom: 1.5rem !important;
 }
 
@@ -8596,7 +8596,7 @@ textarea.form-control-lg {
   margin-left: -3rem !important;
 }
 
-.p-0, .card-show-small .card-body, .card-show-small .card-footer, .page-narrow-content .info-card {
+.p-0, .card-show-small .card-body, .card-show-small .card-footer {
   padding: 0 !important;
 }
 
@@ -8630,7 +8630,7 @@ textarea.form-control-lg {
   padding-left: 0.25rem !important;
 }
 
-.px-2, .filter-badge-container .filter-badge, .page-narrow-content .row, .page-narrow-content .show-large .icon-row, .show-large .page-narrow-content .icon-row {
+.px-2, .filter-badge-container .filter-badge {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
