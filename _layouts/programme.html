@@ -198,9 +198,13 @@ layout: page
 						<div class="card-body">
 							<p class="lead">Access</p>
 							{% for access_item in access %}
-								{% assign matching_icon = site.data.icons | where: "title", access_item | first %}
+								{% assign matching_tooltip = site.data.icons | where: "title", access_item | first %}
+								{% assign the_tooltip = matching_tooltip.long_title | default: matching_tooltip.title %}
 								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-{{ access_item | slugify }}" autocomplete="off" value="{{access_item | slugify}}">
-								<label id="btn-access-{{access_item|slugify}}" class="btn-filter btn-access" for="filter-access-{{ access_item | slugify }}">{% if matching_icon %}<i class="{{ matching_icon.icon }}"></i>&nbsp;{% endif %}{{ access_item }}</label>
+								<label id="btn-access-{{access_item|slugify}}" class="btn-filter btn-access" {% include text/access-tooltip.html the_tooltip=the_tooltip %} for="filter-access-{{ access_item | slugify }}">
+									{% include text/access.html access_item=access_item no_tooltip=true %}
+									<span class="d-none">{{ the_tooltip }}</span>
+								</label>
 							{% endfor %}
 							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are wheelchair accessible.</p>
 							<p class="ms-1 helper-text text-muted">{% include text/access-link.html %}</p>
