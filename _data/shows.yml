@@ -62,7 +62,7 @@
   performances:
   - '2022-08-10'
   price:
-    standard: 0
+    standard: 
     concession: 
     price_range: ''
     ticket_deals: []
@@ -1185,7 +1185,7 @@
   - Themes of a Sexual Nature
   - 'Nudity '
   - Contains Distressing Themes
-  image: "/static/04-13-2022-110258-4854.jpg"
+  image: ''
   image_alt: ''
   video_embeds: []
   links: []
