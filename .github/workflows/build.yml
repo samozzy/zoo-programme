@@ -1,5 +1,7 @@
 name: Build to GitHub pages
 on:
+  schedule:
+    - cron: '0 10 * * *'
   push:
     branches:
       - main 
@@ -55,7 +57,7 @@ jobs:
 
       ### DEPLOY ###
       - name: Publish to GH Pages 🚀
-        if: ${{ github.event_name != 'pull_request' }}
+        if: ${{ github.event_name != 'pull_request' || github.event_name == 'schedule'  }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
