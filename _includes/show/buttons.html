@@ -4,6 +4,8 @@
 	{% include text/date-text.html show=show no_output=true %}
 	{% if show.booking_unavailable == true or show.ticket_url == empty or show.ticket_url == undefined %}
 		{% assign book_text = 'Tickets available soon' %}
+	{% elsif show.ticket_url contains 'edfringe' and site.edfringe_available == false %}
+		{% assign book_text = 'Tickets available soon' %}
 	{% elsif today_date > last_performance %}
 		{% assign book_text = 'This show has ended' %}
 	{% endif %}
