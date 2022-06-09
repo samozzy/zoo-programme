@@ -78,6 +78,11 @@ img.logo-in-title{
 }
 .row.homepage-banner {
 	@extend .bg-zoo-slate, .shadow-lg;
+	.header-logo img {
+		@include media-breakpoint-down(sm){
+			transform: scale(0.7)
+		}
+	}
 }
 .trailer, .trailer-play, .trailer-volume {
 	position: absolute;
