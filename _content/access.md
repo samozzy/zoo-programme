@@ -10,7 +10,8 @@ We have a number of shows offering BSL, Audio Description, Captioned and Relaxed
 For specific information or to chat to us about your visit please call 0131 356 0646 or email info@zoovenues.co.uk.
 
 <div class="row">
-<div class="col-md info-card">
+<div class="col-md mb-4">
+  <div class="info-card">
   <div class="card-header">
     <h2>Zoo Southside</h2>
   </div>
@@ -23,7 +24,9 @@ Level access to the Main House is across the stage via a small lift (80cm wide, 
 The Studio has step-free access once in the building.
   </div>
 </div>
-<div class="col-md info-card">
+</div>
+<div class="col-md mb-4">
+<div class="info-card">
   <div class="card-header">
     <h2>Zoo Playground</h2>
   </div>
@@ -36,8 +39,8 @@ All spaces are step-free once inside the building.
   </div>
 </div>
 </div>
-<div class="row">
-  <div class="col-md info-card">
+  <div class="col-12 mb-4">
+  <div class="info-card">
     <div class="card-header">
       <h2>All venues and spaces</h2>
     </div>
@@ -51,4 +54,5 @@ Personal Assistant complimentary tickets are available and can be booked both on
 
   </div>
   </div>
+</div>
 </div>
