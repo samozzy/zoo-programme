@@ -386,8 +386,17 @@ a.navbar-brand:hover #navbar-logo, a.navbar-brand:focus-within #navbar-logo, a.n
   color: #FFFFFF;
 }
 
-.show-social-link {
+.show-social-link, .show-title a {
   text-decoration: none;
+}
+
+.show-title a {
+  color: inherit;
+}
+
+.show-title a:hover, .show-title a:focus, .show-title a:active {
+  color: inherit;
+  text-decoration: underline;
 }
 
 a.footer-link {
@@ -642,6 +651,10 @@ div.card-event-hover {
 
 a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card-event-hover, a.card-event-hover:focus-within div.card-event-hover, a.card-event-hover:active div.card-event-hover {
   transform: scale(1.03);
+}
+
+.show-image:focus-within img, .show-image:active img {
+  box-shadow: 0 0.125rem 0.25rem #F48847 !important;
 }
 
 .card-show-small .show-image {
