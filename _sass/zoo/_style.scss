@@ -323,8 +323,11 @@ a.card-event-hover  {
 
 // Other pages 
 .page-narrow-content {
+	.row {
+		@extend .px-2;
+	}
 	.info-card {
-		@extend .card, .rounded-0, .border-info, .border-2px, .p-0, .m-2;
+		@extend .card, .rounded-0, .border-info, .border-2px, .mb-4, .p-0;
 		.card-header {
 			@extend .border-info;
 			h1, h2, h3, p {
