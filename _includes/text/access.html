@@ -5,7 +5,7 @@
 {% if matching_item and matching_item != empty %}
 	{% capture access_link %}/static/access/{{ matching_item.icon }}{% endcapture %}
 	{% assign the_tooltip = matching_item.long_title | default: matching_item.title %}
-	<img src="{% link {{ access_link }} %}" alt="{{ matching_item.long_title | default: matching_item.title }}" class="access-icon" {% unless include.no_tooltip %}{% include text/access-tooltip.html the_tooltip=the_tooltip %}{% endunless %}>
+	<img src="{% link {{ access_link }} %}" alt="{{ matching_item.long_title | default: matching_item.title }}" class="access-icon" {% unless include.no_tooltip %}{% include text/tooltip.html the_tooltip=the_tooltip %}{% endunless %}>
 {% else %}
 	{{ access_item | capitalize }} 
 {% endif %}

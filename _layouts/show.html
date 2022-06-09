@@ -17,12 +17,22 @@ use_swiper: true
 			<div class="icon-row">
 				{% if show.price.standard and show.price.standard != empty %}
 					{% assign has_price = true %}
+					{% capture price_tooltip %}
+						{% if show.price.concession %}
+							Standard tickets £{{ show.price.standard }}; concession £{{ show.price.concession }}
+						{% else %}
+							All tickets {% include text/price.html show=show %}
+						{% endif %}
+					{% endcapture %}
 				{% elsif show.price.price_range and show.price.price_range != empty %}
 					{% assign has_price = true %}
+					{% capture price_tooltip %}
+						Tickets available from {{ show.price.price_range }}
+					{% endcapture %}
 				{% endif %}
 				{% if has_price == true %}
 					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"></i><br>
+						<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"{% include text/tooltip.html the_tooltip=price_tooltip %}></i><br>
 						{% include text/price.html show=show %}
 					</div>
 				{% endif %}
