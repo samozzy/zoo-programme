@@ -568,6 +568,12 @@ img.logo-in-title {
   overflow: hidden;
 }
 
+@media (max-width: 575.98px) {
+  .row.homepage-banner .header-logo img, .show-large .homepage-banner.icon-row .header-logo img {
+    transform: scale(0.7);
+  }
+}
+
 .trailer, .trailer-play, .trailer-volume {
   position: absolute;
   z-index: 10;
@@ -8238,7 +8244,7 @@ textarea.form-control-lg {
   margin: 0.25rem !important;
 }
 
-.m-2, .page-narrow-content .info-card {
+.m-2 {
   margin: 0.5rem !important;
 }
 
@@ -8400,7 +8406,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.mb-4, .programme-menu-container .programme-menu-card .programme-menu, .card-programme, .card-show-slider, .card-show-small {
+.mb-4, .programme-menu-container .programme-menu-card .programme-menu, .card-programme, .card-show-slider, .card-show-small, .page-narrow-content .info-card {
   margin-bottom: 1.5rem !important;
 }
 
@@ -8624,7 +8630,7 @@ textarea.form-control-lg {
   padding-left: 0.25rem !important;
 }
 
-.px-2, .filter-badge-container .filter-badge {
+.px-2, .filter-badge-container .filter-badge, .page-narrow-content .row, .page-narrow-content .show-large .icon-row, .show-large .page-narrow-content .icon-row {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
