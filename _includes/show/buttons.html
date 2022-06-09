@@ -2,6 +2,7 @@
 <div class="buttons">
 	{% assign today_date = 'now' | date: "%Y-%m-%d" %}
 	{% include text/date-text.html show=show no_output=true %}
+	{% assign book_text = undefined %}
 	{% if show.booking_unavailable == true or show.ticket_url == empty or show.ticket_url == undefined %}
 		{% assign book_text = 'Tickets available soon' %}
 	{% elsif show.ticket_url contains 'edfringe' and site.edfringe_available == false %}
