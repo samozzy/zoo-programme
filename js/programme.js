@@ -127,16 +127,23 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 	}
 	else { 
 		if (looking_for_checked == true){
-			document.querySelectorAll('[name="'+filter_query+'"]:checked').forEach(filter_btn => 
-				inner_text.push(filter_btn.labels[0].innerText)
-			);
+			document.querySelectorAll('[name="'+filter_query+'"]:checked').forEach(filter_btn => {
+				el_inner_text = filter_btn.labels[0].innerText
+				if (el_inner_text == '' && filter_btn.labels[0].dataset.zoo_tooltip != ''){
+					// The access inner text is actually a picture so let's use this data attribute
+					el_inner_text = filter_btn.labels[0].dataset.zoo_tooltip
+				}
+				inner_text.push(el_inner_text);
+			});
 		}
 		else {
 			// Special case for content warnings where we click to hide rather than additive 
 			document.querySelectorAll('[name="'+filter_query+'"]:not(:checked)').forEach(filter_btn => {
-				console.log(filter_btn.labels[0].innerText)
-				inner_text.push(filter_btn.labels[0].innerText)
-				console.log(inner_text)
+				el_inner_text = filter_btn.labels[0].innerText
+				if (el_inner_text == '' && filter_btn.labels[0].dataset.zoo_tooltip != ''){
+					el_inner_text = filter_btn.labels[0].dataset.zoo_tooltip
+				}
+				inner_text.push(el_inner_text);
 			});
 		}
 	}
