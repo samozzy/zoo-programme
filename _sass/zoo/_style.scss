@@ -181,6 +181,11 @@ a.card-event-hover  {
 	img {
 		@extend .img-fluid, .shadow-sm;
 	}
+	&:focus-within, &:active {
+		img {
+			box-shadow: 0 0.125rem 0.25rem map-get($zoo-brand, "orange") !important;
+		}
+	}
 }
 
 .card-show-slider, .card-show-small {

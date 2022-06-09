@@ -142,8 +142,15 @@ a.navbar-brand {
 .social-icon, .social-link {
   color: map-get($zoo-brand, "white");
 }
-.show-social-link {
+.show-social-link, .show-title a {
   text-decoration: none;
+}
+.show-title a {
+  color: inherit;
+  &:hover, &:focus, &:active {
+    color: inherit;
+    text-decoration: underline;
+  }
 }
 a.footer-link {
   text-decoration: none;

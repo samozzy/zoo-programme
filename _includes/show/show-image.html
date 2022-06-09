@@ -1,10 +1,13 @@
 {% assign the_image = include.show.image %}
+{% assign the_link = include.show.title | datapage_url: 'programme' %}
+{% assign page_url = page.url | remove_first: '/'  %}
+{% if the_link == page_url %}{% assign elem = 'div' %}{% else %}{% assign elem='a' %}{% endif %}
 {% if the_image and the_image != empty %}
-	<div class="show-image">
+	<{{ elem }} class="show-image" {% if elem == 'a' %}href="/{{the_link}}"{% endif %}>
 		<img src="{{ the_image }}" alt="{{ include.show.title }} icon">
-	</div>
+	</{{ elem }}>
 {% else %}
-	<div class="show-image show-image-placeholder">
+	<{{ elem }} class="show-image show-image-placeholder" {% if elem == 'a' %}href="/{{the_link}}"{% endif %}>
 		<img src="{% link static/img/zoo-placeholder-show.png %}" alt="Placeholder image">
-	</div>
+	</{{ elem }}>
 {% endif %}

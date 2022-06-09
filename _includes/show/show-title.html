@@ -1,5 +1,10 @@
 {% assign show = include.show %}
+{% assign the_link = include.show.title | datapage_url: 'programme' %}
+{% assign page_url = page.url | remove_first: '/'  %}
+
 <div class="show-title">
-	<{{ include.header_size | default: 'h3'}} class="{{ include.header_class }} {% if show.company and show.company != empty %}mb-0{% endif %}">{{ show.title }}</{{ include.fs | default: 'h3'}}>
+	<{{ include.header_size | default: 'h3'}} class="{{ include.header_class }} {% if show.company and show.company != empty %}mb-0{% endif %}">
+	{% unless the_link == page_url %}<a href="/{{ the_link }}">{{ show.title }}</a>{% else %}{{ show.title }}{% endunless %}
+	</{{ include.header_size | default: 'h3'}}>
 	{% if show.company and show.company != empty %}<p class="{{ include.company_class | default: 'fs-4' }} bebas text-muted fw-lighter">{{ show.company }}</p>{% endif %}
 </div>
