@@ -24,6 +24,15 @@ img.logo-in-title{
   @include media-breakpoint-down(xl){
   	display: none;
   }
+  &.home-logo {
+  	@include media-breakpoint-only(xl){
+  		display: inline;
+  	}
+  	@include media-breakpoint-only(lg){
+  		display: inline;
+  		height: 3rem !important;
+  	}
+  }
 }
 
 .header-category-wrapper {
