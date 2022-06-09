@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202206090231">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202206090349">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -30,14 +30,66 @@
 
 
 
-<div class="container-fluid bg-zoo-white pt-4 pb-4 px-0">
+<div class="container-fluid bg-zoo-white mt-4 px-0">
+	<div class="row homepage-banner p-4">
+		<div class="d-block d-lg-none"><div class="col-12 col-xl-2 text-center text-xl-end order-1 order-xl-3 mb-4 mb-xl-0 ">
+	<a href="/"><img src="/static/img/zoo/zoo-logo-white.png" class="img-responsive" width="125px" height="auto" alt="ZOO"></a>
+</div></div>
+		<div class="col-12 col-md-8 text-center text-md-start my-md-auto mb-4">
+	        <h1 class="display-2 mb-0 text-light" id="top-of-content">
+<img class="logo-in-title home-logo" style="height:3.5rem;" 
 	
-	<div class="row w-100 mx-auto my-4">
-		<div class="ratio ratio-16x9 h-100 mb-4" data-bs-toggle="tooltip" title="Contains flashing images">
-			<iframe src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO 2022 Programme Trailer"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+		src="/static/img/zoo/zoo-logo-white.png"
+	
+>
+ 2022 Programme</h1>
+		</div>
+        
+	</div>
+	<div class="row mx-auto">
+		<div class="ratio ratio-16x9 h-100 mb-4 bg-zoo-black">
+			<iframe id="trailer_iframe" class="trailer" src="https://player.vimeo.com/video/717240332?h=42be0f6af8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=false" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOOTV trailer 2021"></iframe>
+			<script src="https://player.vimeo.com/api/player.js"></script>
+			<button data-bs-toggle="tooltip" title="Contains flashing images" data-bs-placement="bottom" class="trailer-play btn-zoo-pill btn-lg btn-info bebas mx-auto" onClick=togglePlay() id="play_button">Play</button>
+			<button class="trailer-volume btn-zoo-pill btn-lg btn-info" onclick=toggleMute() id="mute_button"><i class="fa fa-volume-mute"></i></button>
 		</div>
 	</div>
-	<div class="row w-100">
+	<script>
+		var trailer = new Vimeo.Player(document.getElementById('trailer_iframe'))
+		trailer.setVolume(0)
+		var play_button = document.getElementById('play_button')
+		var mute_button = document.getElementById('mute_button')
+		function togglePlay(){
+			trailer.getPaused().then(pausedState => {
+				if (pausedState == true){
+					trailer.play()
+					play_button.innerText = 'Pause'
+				}
+				else {
+					trailer.pause()
+					play_button.innerText = 'Play'
+				}
+				return pausedState;
+			})
+		}
+		function toggleMute(){
+			trailer.getVolume().then(volumeLevel => {
+				if (volumeLevel == 0){
+					trailer.setVolume(0.3)
+					mute_button.querySelector('i').classList.add('fa-volume-down')
+					mute_button.querySelector('i').classList.remove('fa-volume-mute')
+				}
+				else {
+					trailer.setVolume(0)
+					mute_button.querySelector('i').classList.remove('fa-volume-down')
+					mute_button.querySelector('i').classList.add('fa-volume-mute')
+				}
+			})
+		}
+	</script>
+</div>
+<div class="container-sm mt-5 mb-4">
+	<div class="row">
 		<div class="col-12 col-md-8 offset-md-2 my-auto text-center">
 			<h2 class="display-2 text-zoo-black">
 				
