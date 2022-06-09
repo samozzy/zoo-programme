@@ -16,7 +16,7 @@ dates:
 earliest_time: 2022-08-01 10:00 
 latest_time: 2022-08-01 23:00 
 
-edfringe_available: false
+edfringe_available: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
