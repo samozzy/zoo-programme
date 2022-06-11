@@ -11,7 +11,7 @@
 		{% assign book_text = 'This show has ended' %}
 	{% endif %}
 	
-	<a href="{% unless book_text %}{{ show.ticket_url | default: '#' }}{% else %}#{% endunless %}" target="_blank" class="btn-zoo-book {% if include.book_primary %}btn-info{% else %}btn-outline-info{% endif %} w-50 me-1 {{ include.btn_class }} {% if book_text %}disabled{% endif %}" role="button" {% if book_text %}disabled{% endif %}>{{ book_text | default:"Book Tickets" }}</a>
+	<a {% unless book_text %}href="{{ show.ticket_url | default: '#' }}"{% endunless %} target="_blank" class="btn-zoo-book {% if include.book_primary %}btn-info{% else %}btn-outline-info{% endif %} w-50 me-1 {{ include.btn_class }} {% if book_text %}disabled{% endif %}" role="button" {% if book_text %}disabled{% endif %}>{{ book_text | default:"Book Tickets" }}</a>
 	{% unless include.only_book %}
 		<a class="btn-zoo-book {% if include.book_primary %}btn-outline-info{% else %}btn-info{% endif %} w-50 ms-1 {{ include.btn_class }}" role="button" href="{% if include.read_link %}{{ include.read_link }}{% else %}/{{ show.title | datapage_url: 'programme' }}{% endif %}">{{ include.read_string | default: "Read more" }}</a>
 	{% endunless %}
