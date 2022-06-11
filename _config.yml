@@ -72,3 +72,7 @@ page_gen:
     template: 'show' 
     name: 'title'  
     dir: 'programme' 
+  - data: 'shows'
+    template: 'show_redirect'
+    name: 'title'
+    dir: '/' 
