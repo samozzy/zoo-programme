@@ -110,7 +110,9 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 	if (btn_id == 'access' || btn_id == 'content-warning') {
 		document.getElementById('edit-circle-'+ btn_id).classList.add('d-inline');
 	}
-	document.getElementById('edit-circle-'+ btn_id).classList.remove('d-none');
+	else if (btn_id != 'search'){
+		document.getElementById('edit-circle-'+ btn_id).classList.remove('d-none');
+	}
 
 	filter_query = 'filter-' + btn_id + '-item'
 	inner_text = [];
@@ -170,7 +172,12 @@ function hideActiveFilter(btn_id){
 	if (btn_id == 'access' || btn_id == 'content-warning') {
 		document.getElementById('edit-circle-'+ btn_id).classList.remove('d-inline');
 	}
-	document.getElementById('edit-circle-'+ btn_id).classList.add('d-none');
+	else if (btn_id != 'search'){
+		document.getElementById('edit-circle-'+ btn_id).classList.add('d-none');
+	}
+	else {
+		document.getElementById('hint-to-scroll').classList.add('d-none');
+	}
 
 	countResults();
 
@@ -254,6 +261,18 @@ function doHint(){
 		search_hint.classList.add('d-none');
 	}
 }
+search_box.addEventListener('keyup', ({ key }) => {
+	search_value = search_box.value.toLowerCase().replaceAll(' ', '');
+	scroll_please = document.getElementById('hint-to-scroll')
+	if (key == "Enter"){
+		if (search_value.length > 3 && document.querySelectorAll('.filtered-out-by-search').length != the_shows.length) {
+			scroll_please.classList.remove('d-none');
+		}
+		else {
+			scroll_please.classList.add('d-none');
+		}
+	}
+})
 search_box.addEventListener('input', (event) => {
 	// Sanitise text input 
 	search_value = search_box.value.toLowerCase().replaceAll(' ', '');
@@ -294,6 +313,7 @@ search_box.addEventListener('input', (event) => {
 	else {
 		// If the search string isn't long enough, give up
 		doHint();
+		document.getElementById('hint-to-scroll').classList.add('d-none');
 	}
 });
 
