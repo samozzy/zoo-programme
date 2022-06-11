@@ -20,8 +20,14 @@
 		.fa {
 			@extend .text-zoo-orange, .my-auto;
 		}
+		.fa-asterisk {
+			vertical-align: middle;
+		}
+		i#edit-circle-access.d-inline + i#edit-circle-content-warning.d-inline{
+			@extend .d-none;
+		}
 		&[aria-expanded="true"] {
-			.fa {
+			.fa-chevron-down {
 				transform: rotate(180deg);
 			}
 		}

@@ -107,6 +107,11 @@ function showActiveFilter(btn_id, looking_for_checked=true){
 	// Because it iterates each time, this is a toggler as much as it is a show-er 
 	document.getElementById('filter-badge-container').classList.remove('d-none');
 	document.getElementById('active-filter-' + btn_id).classList.remove('d-none');
+	if (btn_id == 'access' || btn_id == 'content-warning') {
+		document.getElementById('edit-circle-'+ btn_id).classList.add('d-inline');
+	}
+	document.getElementById('edit-circle-'+ btn_id).classList.remove('d-none');
+
 	filter_query = 'filter-' + btn_id + '-item'
 	inner_text = [];
 	if (btn_id == 'date'){
@@ -162,6 +167,11 @@ function hideActiveFilter(btn_id){
 	filter_container = document.getElementById('filter-badge-container')
 	document.getElementById('active-filter-' + btn_id).classList.add('d-none');
 	document.getElementById('active-filter-' + btn_id + '-list').innerText = '';
+	if (btn_id == 'access' || btn_id == 'content-warning') {
+		document.getElementById('edit-circle-'+ btn_id).classList.remove('d-inline');
+	}
+	document.getElementById('edit-circle-'+ btn_id).classList.add('d-none');
+
 	countResults();
 
 	// If all of the filters have been hidden, hide the container 
