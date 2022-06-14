@@ -20,7 +20,7 @@
     price_range: ''
     ticket_deals: []
   ticket_url: ''
-  booking_unavailable: false
+  booking_unavailable: true
   genre:
   - New Writing
   - Comedy
