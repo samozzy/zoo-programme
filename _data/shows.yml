@@ -3382,7 +3382,22 @@
   image: "/static/04-07-2022-184735-9609.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: TikTok
+    link: https://www.tiktok.com/@chronicinsanitytheatre
+    platform: TikTok
+  - title: Facebook
+    link: https://www.facebook.com/ChronicInsanityTheatre
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/chronicinsanitytheatre/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/CITheatre
+    platform: Twitter
+  - title: YouTube
+    link: https://youtu.be/FWWoMnHMR-0
+    platform: YouTube
   reviews: []
   copy_short: |-
     An open and fun examination of death and our reactions to this
