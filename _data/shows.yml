@@ -2415,7 +2415,16 @@
   image: "/static/04-07-2022-185623-7657.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.facebook.com/whythissky
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/whythissky
+    platform: Twitter
+  - title: YouTube
+    link: https://www.youtube.com/watch?v=A5m2eEwmM_4
+    platform: YouTube
   reviews: []
   copy_short: |-
     What did the angel say? Could A G Rizzoli see the future?
