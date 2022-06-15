@@ -1081,7 +1081,16 @@
   image: "/static/04-14-2022-153340-6395.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/Art27Scotland
+    platform: Twitter
+  - title: ''
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
   reviews: []
   copy_short: |-
     Blood Red Lines is co-created with victims and survivors of acts
