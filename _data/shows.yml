@@ -947,6 +947,12 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Facebook
+    link: https://www.facebook.com/sweetprods
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/sweet_prods
+    platform: Instagram
   - title: Twitter
     link: https://twitter.com/sweet_prods
     platform: Twitter
