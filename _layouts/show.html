@@ -217,12 +217,15 @@ use_swiper: true
 				</div>
 			</div>
 		{% endif %}
-		{% if show.trailer and show.trailer != empty %}
-			<div class="col-12 col-lg-8 offset-lg-2 my-4">
-				<div class="ratio ratio-16x9">
-					{{ show.trailer }}
+		{% if show.video_embeds and show.video_embeds != empty %}
+			{% for video in show.video_embeds %}
+				<div class="col-12 col-lg-8 offset-lg-2 my-4">
+					<div class="ratio ratio-16x9">
+						{{ video.embed_code }}
+					</div>
+					{% if video.title and video.title != empty %}<p class="text-muted text-end mt-2">{{ video.title }}</p>{% endif %}
 				</div>
-			</div>
+			{% endfor %}
 		{% endif %}
 	</div>
 
