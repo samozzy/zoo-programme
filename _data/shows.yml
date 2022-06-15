@@ -1268,7 +1268,13 @@
   image: "/static/04-11-2022-160618-6371.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/ratsnesttc/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/RatsnestC
+    platform: Twitter
   reviews: []
   copy_short: |-
     Grounded passengers struggle to keep the building alive long
