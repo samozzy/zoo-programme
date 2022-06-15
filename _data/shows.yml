@@ -450,7 +450,10 @@
   image: "/static/04-25-2022-222511-1123.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/AmusedMoose
+    platform: Twitter
   reviews: []
   copy_short: |-
     'Best late-night comedy' (List). Amused Moose's legendarily
