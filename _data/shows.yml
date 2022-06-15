@@ -600,6 +600,9 @@
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
       clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   links:
+  - title: Facebook
+    link: https://www.facebook.com/FriechaABeautifulName.JaffaTheatre
+    platform: Facebook
   - title: Instagram
     link: https://www.instagram.com/ensemble_hafrehot/
     platform: Instagram
