@@ -761,7 +761,10 @@
   image: "/static/04-14-2022-172455-7248.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/art27scotland
+    platform: Facebook
   reviews: []
   copy_short: |-
     Saber Came to Tea tells the story of one young woman's defiant
