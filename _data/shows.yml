@@ -762,6 +762,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Twitter
+    link: https://twitter.com/Art27Scotland
+    platform: Twitter
   - title: Instagram
     link: https://www.instagram.com/art27scotland/
     platform: Instagram
