@@ -2579,7 +2579,16 @@
       allowfullscreen></iframe> <p><a href="https://vimeo.com/463409255">Every Word
       Was Once An Animal - Trailer</a> from <a href="https://vimeo.com/user10825713">Ontroerend
       Goed</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/ontroerendgoedOG
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/ontroerend_goed/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/1OntroerendGoed
+    platform: Twitter
   reviews: []
   copy_short: |-
     Seven-times Fringe First winner Ontroerend Goed is back with a
