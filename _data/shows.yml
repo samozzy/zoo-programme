@@ -393,7 +393,10 @@
   image: "/static/05-02-2022-160913-1522.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/TintedTheatre
+    platform: Twitter
   reviews: []
   copy_short: |-
     Four young women embarking out into the world... has school
