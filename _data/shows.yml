@@ -1468,7 +1468,16 @@
   image: "/static/04-09-2022-170102-6437.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/akimbotheatre1
+    platform: Twitter
+  - title: Instagram
+    link: https://www.instagram.com/akimbotheatre/
+    platform: Instagram
+  - title: Facebook
+    link: https://www.facebook.com/theatreofakimbo
+    platform: Facebook
   reviews: []
   copy_short: |-
     Strange things are happening in Wellston – haunted pub quiz,
