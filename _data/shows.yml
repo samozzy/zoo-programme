@@ -2130,7 +2130,19 @@
   image: "/static/04-07-2022-145025-6919.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/dongnu/
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/dongnudk/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/DonGnu
+    platform: Twitter
+  - title: YouTube
+    link: https://www.youtube.com/watch?v=MLI21MxS0G8
+    platform: YouTube
   reviews: []
   copy_short: |-
     You will never cross the street in the same way again! Don Gnu
