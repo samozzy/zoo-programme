@@ -2064,7 +2064,10 @@
   - title: Johnny Got His Gun
     embed_code: <iframe title="vimeo-player" src="https://player.vimeo.com/video/364028057?h=cdeaca1169"
       width="640" height="360" frameborder="0" allowfullscreen></iframe>
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/StartToFinnish
+    platform: Twitter
   reviews: []
   copy_short: |-
     A grenade hits Joe in WW1. He wakes up in the hospital without
