@@ -595,7 +595,10 @@
   image: "/static/05-07-2022-130025-8310.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/ensemble_hafrehot/
+    platform: Instagram
   reviews: []
   copy_short: |-
     ‘I’m still waiting for my child...' A protest performance, based on a
