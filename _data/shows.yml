@@ -3082,8 +3082,17 @@
   video_embeds: []
   links:
   - title: ''
-    link: "@RedAlert_Cancer"
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
+  - link: https://twitter.com/allanbw2
     platform: Twitter
+    title: Twitter
   reviews: []
   copy_short: |-
     Red Alert – Cancer! Meet the Wilsons, five children, three with
