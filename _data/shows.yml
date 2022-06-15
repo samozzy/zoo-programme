@@ -1397,15 +1397,21 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Facebook
+    link: https://www.facebook.com/ANTLERtheatre
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/antlertheatre/
+    platform: Instagram
   - title: Twitter
     link: https://twitter.com/ANTLERtheatre
     platform: Twitter
-  - title: ''
-    link: ''
-    platform: ''
-  - title: ''
-    link: ''
-    platform: ''
+  - title: Twitter
+    link: https://twitter.com/JazWoodStew
+    platform: Twitter
+  - title: Twitter
+    link: https://twitter.com/MorgannTemple
+    platform: Twitter
   reviews: []
   copy_short: |-
     A critically acclaimed collaboration between Jaz WoodcockStewart and Morgann Runacre-Temple; an experiment in
