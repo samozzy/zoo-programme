@@ -1984,6 +1984,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Instagram
+    link: https://www.instagram.com/ragingmother/
+    platform: Instagram
   - title: Twitter
     link: https://twitter.com/StartToFinnish
     platform: Twitter
