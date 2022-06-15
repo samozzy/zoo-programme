@@ -2496,6 +2496,12 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Facebook
+    link: https://www.facebook.com/thedavidandmatt
+    platform: Facebook
+  - title: Spotify
+    link: https://open.spotify.com/show/1ijTqAlfvWXxrLi6i5RdI5?si=VYEFaBefRCat8z8PoInb4w
+    platform: Spotify
   - title: Instagram
     link: https://www.instagram.com/thedavidandmatt/
     platform: Instagram
