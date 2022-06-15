@@ -3022,12 +3022,12 @@
   image_alt: ''
   video_embeds: []
   links:
-  - title: ''
-    link: ''
-    platform: ''
-  - title: ''
-    link: ''
-    platform: ''
+  - title: Facebook
+    link: https://www.facebook.com/PartoftheMain
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/partofthemain/
+    platform: Instagram
   - title: Twitter
     link: https://twitter.com/potmtheatre
     platform: Twitter
