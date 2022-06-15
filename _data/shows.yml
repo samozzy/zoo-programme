@@ -2495,7 +2495,13 @@
   image: "/static/04-08-2022-165011-3856.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/thedavidandmatt/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/TheDavidandMatt
+    platform: Twitter
   reviews: []
   copy_short: Unwanted Objects is the new story and song show from critically acclaimed
     duo David Head and Matt Glover. Funny, bittersweet short stories and folk-inspired
