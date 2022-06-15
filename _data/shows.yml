@@ -946,7 +946,10 @@
   image: "/static/04-11-2022-234851-6487.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/sweet_prods
+    platform: Twitter
   reviews: []
   copy_short: |-
     'You must suffer me to go my own dark way...' Classic sciencehorror reborn as the search for self collides with the lure of the
