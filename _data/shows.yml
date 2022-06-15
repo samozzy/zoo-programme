@@ -205,7 +205,13 @@
   content_warnings: []
   image: "/static/06-08-2022-105119-6845.jpg"
   image_alt: ''
-  video_embeds: []
+  video_embeds:
+  - title: Tea Ceremony (Tour 2019-20)
+    embed_code: <iframe src="https://player.vimeo.com/video/392284512?h=28b86e4f85"
+      width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen></iframe> <p><a href="https://vimeo.com/392284512">Tea Ceremony
+      (Tour 2019-20)</a> from <a href="https://vimeo.com/achimwieland">Achim Wieland</a>
+      on <a href="https://vimeo.com">Vimeo</a>.</p>
   links: []
   reviews: []
   copy_short: |-
