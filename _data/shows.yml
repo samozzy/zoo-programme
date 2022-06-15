@@ -3305,7 +3305,13 @@
   image: "/static/04-08-2022-092824-1924.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/raina.greifer/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/rainaaagreifer
+    platform: Twitter
   reviews: []
   copy_short: |-
     Sometimes hilarious, sometimes heartbreaking, Manic is a solo
