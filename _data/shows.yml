@@ -1396,7 +1396,16 @@
   image: "/static/civilisation-square-small.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/ANTLERtheatre
+    platform: Twitter
+  - title: ''
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
   reviews: []
   copy_short: |-
     A critically acclaimed collaboration between Jaz WoodcockStewart and Morgann Runacre-Temple; an experiment in
