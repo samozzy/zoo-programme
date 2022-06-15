@@ -3148,7 +3148,16 @@
   image: "/static/04-07-2022-141935-1401-1.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/productionsasif
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/as.if.productions/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/productionsasif
+    platform: Twitter
   reviews: []
   copy_short: |-
     What. The. Frick? It's 2010 and we're on the Year Six Isle of
