@@ -1152,7 +1152,10 @@
   image: "/static/06-08-2022-091040-1868.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/dreampavilion__/
+    platform: Instagram
   reviews: []
   copy_short: |-
     Curtains drawn, lawns burnt brown; a townscape is melting. In a
