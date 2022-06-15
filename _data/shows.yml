@@ -2348,7 +2348,16 @@
   image: "/static/04-06-2022-110507-7591.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/Anna-Marie-Simonsen-101535392565726
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/naughty.productions/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/annamariess
+    platform: Twitter
   reviews: []
   copy_short: |-
     An electric power game between the patriarchy and a six-year-old
