@@ -1328,7 +1328,13 @@
   image: "/static/05-11-2022-210013-5811.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: htpps://www.instagram.com/aidanmoesby/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/TextArtist
+    platform: Twitter
   reviews: []
   copy_short: |-
     A heartfelt, life-affirming storytelling experience exploring
