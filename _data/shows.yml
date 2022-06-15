@@ -2854,7 +2854,16 @@
   image: "/static/04-06-2022-115831-5232.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/ElegyTheatre
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/elegy_theatre/?hl=en-gb
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/Elegy_Theatre
+    platform: Twitter
   reviews: []
   copy_short: |-
     OffComm Award winner. 'Takes you hostage, long beyond the
