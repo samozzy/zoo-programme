@@ -394,6 +394,12 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Instagram
+    link: https://instagram.com/tintedtheatre
+    platform: Instagram
+  - title: ''
+    link: ''
+    platform: ''
   - title: Twitter
     link: https://twitter.com/TintedTheatre
     platform: Twitter
