@@ -88,7 +88,10 @@
   image: "/static/04-11-2022-154922-9466-1.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/knickerfit
+    platform: Twitter
   reviews: []
   copy_short: |-
     A woman trapped in the nostalgia of the 00s, afraid to confront
