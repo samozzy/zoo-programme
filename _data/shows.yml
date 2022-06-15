@@ -1691,6 +1691,12 @@
       - CIRK LA PUTYKA</a> from <a href="https://vimeo.com/laputyka">CIRK LA PUTYKA</a>
       on <a href="https://vimeo.com">Vimeo</a>.</p>
   links:
+  - title: Soundcloud
+    link: https://soundcloud.com/cirk-la-putyka
+    platform: Soundcloud
+  - title: Spotify
+    link: https://open.spotify.com/artist/0sXr5W3ef16qe6yYDOubVK
+    platform: Spotify
   - title: TikTok
     link: https://www.tiktok.com/@cirk_la_putyka
     platform: TikTok
