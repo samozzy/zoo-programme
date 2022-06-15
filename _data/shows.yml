@@ -706,7 +706,10 @@
   image: "/static/04-14-2022-162944-8894.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/Art27Scotland
+    platform: Twitter
   reviews: []
   copy_short: |-
     From the Heart of the Incident tells the extraordinary true story of
