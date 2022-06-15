@@ -1026,7 +1026,16 @@
   image: "/static/04-12-2022-004718-4773.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/goataid
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/sweet_prods
+    platform: Twitter
+  - title: Facebook
+    link: https://www.facebook.com/sweetprods
+    platform: Facebook
   reviews: []
   copy_short: |-
     Cruise ships, prosthetic body parts, angry opticians and the best
