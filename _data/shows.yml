@@ -1330,7 +1330,7 @@
   video_embeds: []
   links:
   - title: Instagram
-    link: htpps://www.instagram.com/aidanmoesby/
+    link: https://www.instagram.com/aidanmoesby/
     platform: Instagram
   - title: Twitter
     link: https://twitter.com/TextArtist
