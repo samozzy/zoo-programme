@@ -594,11 +594,7 @@
   - Contains Distressing Themes
   image: "/static/05-07-2022-130025-8310.jpg"
   image_alt: ''
-  video_embeds:
-  - title: 2020 שיר הפרחה - גרסת הפרחות
-    embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/WjDvnoHin0w"
-      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  video_embeds: []
   links:
   - title: Facebook
     link: https://www.facebook.com/FriechaABeautifulName.JaffaTheatre
