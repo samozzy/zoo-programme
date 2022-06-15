@@ -2065,6 +2065,12 @@
     embed_code: <iframe title="vimeo-player" src="https://player.vimeo.com/video/364028057?h=cdeaca1169"
       width="640" height="360" frameborder="0" allowfullscreen></iframe>
   links:
+  - title: Facebook
+    link: https://www.facebook.com/starttofinnish
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/starttofinnish/
+    platform: Instagram
   - title: Twitter
     link: https://twitter.com/StartToFinnish
     platform: Twitter
