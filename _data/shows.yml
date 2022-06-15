@@ -519,7 +519,10 @@
   image: "/static/05-01-2022-153623-9156.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/MechAnimalCo
+    platform: Twitter
   reviews:
   - Publisher: ''
     quote: ''
