@@ -1530,7 +1530,13 @@
   image: "/static/04-11-2022-184222-5487.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/losers.cirque/?hl=cs
+    platform: Instagram
+  - title: ''
+    link: ''
+    platform: ''
   reviews: []
   copy_short: |-
     The performance Heroes combines a top-level pantomime
