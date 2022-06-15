@@ -1772,7 +1772,16 @@
       allowfullscreen></iframe> <p><a href="https://vimeo.com/703284142">Fault Lines
       2022 (trailer)</a> from <a href="https://vimeo.com/twodestinationlanguage">Two
       Destination Language</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/2destlang
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/2destlang/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/2destlang
+    platform: Twitter
   reviews: []
   copy_short: |-
     'Riotous ritual' (Stage) on the fracture between feminism and
