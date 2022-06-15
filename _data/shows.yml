@@ -3081,15 +3081,9 @@
   image_alt: ''
   video_embeds: []
   links:
-  - title: ''
-    link: ''
-    platform: ''
-  - title: ''
-    link: ''
-    platform: ''
-  - title: ''
-    link: ''
-    platform: ''
+  - title: Twitter
+    link: https://twitter.com/RedAlert_Cancer
+    platform: Twitter
   - link: https://twitter.com/allanbw2
     platform: Twitter
     title: Twitter
