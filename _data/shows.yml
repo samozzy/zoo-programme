@@ -2210,7 +2210,16 @@
   image: "/static/04-07-2022-174542-8314.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/theatregoya/
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/theatregoya/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/theatregoya
+    platform: Twitter
   reviews: []
   copy_short: |-
     Come backstage at Double Bubble: The Musical, where things
