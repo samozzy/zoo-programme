@@ -3226,7 +3226,16 @@
   image: "/static/03-28-2022-102422-7970.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/triptychtheatre
+    platform: Facebook
+  - title: Instagram
+    link: http://www.instagram.com/triptych.theatre
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/TriptychCo
+    platform: Twitter
   reviews: []
   copy_short: |-
     Join Stuart on the opening night of his doomed biographical play.
