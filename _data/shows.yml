@@ -1983,7 +1983,10 @@
   image: "/static/04-07-2022-142432-9149.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/StartToFinnish
+    platform: Twitter
   reviews: []
   copy_short: |-
     We all have a mother, and opinions about how she should be.
