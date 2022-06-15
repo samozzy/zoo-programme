@@ -1537,6 +1537,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: YouTube
+    link: https://www.youtube.com/channel/UC1PrSaT3uCCMjcG0H7W1G4Q
+    platform: YouTube
   - title: Instagram
     link: https://www.instagram.com/losers.cirque/?hl=cs
     platform: Instagram
