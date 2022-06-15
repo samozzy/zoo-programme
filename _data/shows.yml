@@ -870,8 +870,17 @@
   - 'Strong Language/Swearing '
   image: "/static/04-12-2022-093956-3676.jpg"
   image_alt: ''
-  video_embeds: []
-  links: []
+  video_embeds:
+  - title: Brothers Trailer 2022
+    embed_code: <iframe src="https://player.vimeo.com/video/698510921?h=696526de4a"
+      width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen></iframe> <p><a href="https://vimeo.com/698510921">Brothers
+      Trailer 2022</a> from <a href="https://vimeo.com/user129050577">Little Red Fox
+      Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  links:
+  - title: Twitter
+    link: https://twitter.com/LittleRedFoxPr1
+    platform: Twitter
   reviews: []
   copy_short: |-
     Brothers tells the story of estranged brothers Matt and Jay, in
