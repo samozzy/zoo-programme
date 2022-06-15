@@ -596,6 +596,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: YouTube
+    link: https://www.youtube.com/watch?v=WjDvnoHin0w
+    platform: YouTube
   - title: Facebook
     link: https://www.facebook.com/FriechaABeautifulName.JaffaTheatre
     platform: Facebook
