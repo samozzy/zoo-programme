@@ -649,7 +649,10 @@
   image: "/static/05-16-2022-171619-9188.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/Art27Scotland
+    platform: Twitter
   reviews: []
   copy_short: |-
     Audiovisual artwork by Polish artists Marta Adamowicz and
