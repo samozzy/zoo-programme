@@ -3021,7 +3021,16 @@
   image: "/static/04-08-2022-122148-5869.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: ''
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
+  - title: Twitter
+    link: https://twitter.com/potmtheatre
+    platform: Twitter
   reviews: []
   copy_short: |-
     POV: you're a lifestyle vlogger. It's the end of the world. What do
