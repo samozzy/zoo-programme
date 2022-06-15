@@ -2653,7 +2653,16 @@
   image: "/static/05-09-2022-142525-6196.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: ''
+    link: ''
+    platform: ''
+  - title: YouTube
+    link: https://youtu.be/WP9kwquDSmk
+    platform: YouTube
+  - title: Twitter
+    link: https://twitter.com/FaithhBrandon
+    platform: Twitter
   reviews: []
   copy_short: Join Faith on her quest into the dark heart of Love’s enchantments –
     and if there's any life worth living without them. A madcap saga of passion, crushing
