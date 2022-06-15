@@ -2280,7 +2280,19 @@
   image: "/static/04-06-2022-170254-1002.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Facebook
+    link: https://www.facebook.com/alienjefferson
+    platform: Facebook
+  - title: Instagram
+    link: https://www.instagram.com/alien_jefferson/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/_AlienJefferson
+    platform: Twitter
+  - title: YouTube
+    link: https://www.youtube.com/watch?v=KMFE6l0_4ac
+    platform: YouTube
   reviews: []
   copy_short: |-
     Sheltered in their bathroom Pat and Pete live happily ever after,
