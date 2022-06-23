@@ -1744,7 +1744,7 @@
   company: Two Destination Language
   venue: Zoo Southside
   start_time: '10:10'
-  duration: 1hr20
+  duration: 50mins
   performances:
   - '2022-08-20'
   - '2022-08-19'
@@ -1756,9 +1756,9 @@
   price:
     standard: 
     concession: 
-    price_range: "£12-£18"
+    price_range: "£10-£13"
     ticket_deals: []
-  ticket_url: https://tickets.edfringe.com/whats-on/fault-lines
+  ticket_url: ''
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -1766,9 +1766,8 @@
   - 'Dance Physical Theatre and Circus '
   age_guidance: 14+
   age_restricted: false
-  access:
-  - ad
-  access_details: An audio description unit with headset will be available.
+  access: []
+  access_details: ''
   content_warnings:
   - 'Content warning: middle-aged woman dancing, a flash of nudity, heavy breathing'
   image: "/static/40-40-square.jpg"
@@ -1789,10 +1788,8 @@
   copy_long: |-
     Kat is a woman (for quite a while now). She is a migrant (since 1999) from the Thracian Valley in Bulgaria. In 2022 (in April, surrounded by family and friends), she turned forty. To celebrate and mark this moment she gave herself the permission to do the one thing she had always wanted- to make a dance solo. Kat has always danced, but she has never before been a dancer. But then, she’s never been 40 before either.
     This is the result of 40 years of joy and hardship, laughter and tears, super tunes and super moves.
-    MadeInScotlandShowcase.com
   is_draft: false
-  content_warning_detail:
-  - Flickering Lights
+  content_warning_detail: []
 - title: Night Dances
   company: United Fall / Emma Martin
   venue: Zoo Southside
