@@ -1740,7 +1740,7 @@
     Sunday).
   is_draft: false
   content_warning_detail: []
-- title: Fault Lines
+- title: 40/40
   company: Two Destination Language
   venue: Zoo Southside
   start_time: '10:10'
@@ -1770,17 +1770,10 @@
   - ad
   access_details: An audio description unit with headset will be available.
   content_warnings:
-  - 'Strong Language/Swearing '
-  - Scenes of a Sexual Nature
-  image: "/static/04-08-2022-155342-8176.jpg"
+  - 'Content warning: middle-aged woman dancing, a flash of nudity, heavy breathing'
+  image: "/static/40-40-square.jpg"
   image_alt: ''
-  video_embeds:
-  - title: Fault Lines 2022 (trailer)
-    embed_code: <iframe src="https://player.vimeo.com/video/703284142?h=e14ffa6ca8"
-      width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen></iframe> <p><a href="https://vimeo.com/703284142">Fault Lines
-      2022 (trailer)</a> from <a href="https://vimeo.com/twodestinationlanguage">Two
-      Destination Language</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  video_embeds: []
   links:
   - title: Facebook
     link: https://www.facebook.com/2destlang
@@ -1792,23 +1785,10 @@
     link: https://twitter.com/2destlang
     platform: Twitter
   reviews: []
-  copy_short: |-
-    'Riotous ritual' (Stage) on the fracture between feminism and
-    fabric. (Extra)ordinary womxn take the stage as garments flow
-    and heart-throbbing energy fills the room in a visual feast
-    celebrating different herstories, bodies and identities. 'Pure joy'
-    (Scotsman). MadeInScotlandShowcase.com
+  copy_short: ''
   copy_long: |-
-    'A delirious, disorienting dive into female histories, female
-    identities, female expression. A riotous ritual' (Stage). A
-    catwalk on the fracture between feminism and fabric. Five
-    womxn take to the stage, garments flow and heart-throbbing
-    energy fills the room. Bring your mobile and headphones to
-    choose your sound journey for this visual and physical feast
-    celebrating herstories, bodies and different identities. 'Pure
-    joy; the sense of freedom that only comes when we bring our
-    pure creativity to bear on the world around us, and succeed
-    in shifting it, ever so slightly, on its axis' (Scotsman).
+    Kat is a woman (for quite a while now). She is a migrant (since 1999) from the Thracian Valley in Bulgaria. In 2022 (in April, surrounded by family and friends), she turned forty. To celebrate and mark this moment she gave herself the permission to do the one thing she had always wanted- to make a dance solo. Kat has always danced, but she has never before been a dancer. But then, she’s never been 40 before either.
+    This is the result of 40 years of joy and hardship, laughter and tears, super tunes and super moves.
     MadeInScotlandShowcase.com
   is_draft: false
   content_warning_detail:
