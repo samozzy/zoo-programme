@@ -1704,24 +1704,27 @@
       style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Cirk La
       Putyka - Runners (Trailer)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   links:
+  - title: Twitter
+    link: https://twitter.com/CirkLaPutyka
+    platform: Twitter
+  - title: Instagram
+    link: https://www.instagram.com/cirk_la_putyka
+    platform: Instagram
+  - title: Facebook
+    link: https://www.facebook.com/cirklaputyka
+    platform: Facebook
+  - title: TikTok
+    link: https://www.tiktok.com/@cirk_la_putyka
+    platform: TikTok
   - title: Soundcloud
     link: https://soundcloud.com/cirk-la-putyka
     platform: Soundcloud
   - title: Spotify
     link: https://open.spotify.com/artist/0sXr5W3ef16qe6yYDOubVK
     platform: Spotify
-  - title: TikTok
-    link: https://www.tiktok.com/@cirk_la_putyka
-    platform: TikTok
-  - title: Facebook
-    link: https://www.facebook.com/cirklaputyka
-    platform: Facebook
-  - title: Instagram
-    link: https://www.instagram.com/cirk_la_putyka
-    platform: Instagram
-  - title: Twitter
-    link: https://twitter.com/CirkLaPutyka
-    platform: Twitter
+  - title: Vimeo
+    link: https://vimeo.com/laputyka
+    platform: Vimeo
   reviews: []
   copy_short: |-
     Award-winning contemporary circus mixes dance, running,
