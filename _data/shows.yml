@@ -512,8 +512,9 @@
   - 'Theatre '
   age_guidance: 12+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - bsl
+  access_details: BSL signed performance on 22nd August - please do book in advance.
   content_warnings:
   - Strobe Lighting
   image: "/static/05-01-2022-153623-9156.jpg"
