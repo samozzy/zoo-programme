@@ -2649,8 +2649,9 @@
   - 'Theatre '
   age_guidance: 14+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - bsl
+  access_details: BSL signed performance on 15th - please do book in advance.
   content_warnings:
   - Contains Distressing Themes
   image: "/static/fringeproof2-lighter.jpg"
