@@ -2927,12 +2927,13 @@
   - 'Music '
   age_guidance: 0+
   age_restricted: false
-  access: []
-  access_details: On 15th and 22nd please join Graeme for a guided touch-tour of the
-    instruments and props used in SAVED. Graeme will lead you around the stage and
-    describe the organs, radios, cassette decks, drums and DIY homemade bass guitar
-    used to make the music of the show. Tough-tour shows will start 5 minutes earlier
-    than advertised show time - please do book in advance.
+  access:
+  - bsl
+  access_details: BSL signed performance on 18th. On 15th and 22nd please join Graeme
+    for a guided touch-tour of the instruments and props used in SAVED. Graeme will
+    lead you around the stage and describe the organs, radios, cassette decks, drums
+    and DIY homemade bass guitar used to make the music of the show. Touch-tour shows
+    will start 5 minutes earlier than advertised show time - please do book in advance.
   content_warnings: []
   image: "/static/03-28-2022-183210-5702.jpg"
   image_alt: ''
