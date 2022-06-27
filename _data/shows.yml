@@ -1604,8 +1604,9 @@
   - 'Theatre '
   age_guidance: 12+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - bsl
+  access_details: BSL signed performance on 19th August - please do book in advance.
   content_warnings:
   - 'Nudity '
   - Contains Distressing Themes
