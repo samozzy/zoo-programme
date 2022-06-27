@@ -2572,8 +2572,9 @@
   - Theatre
   age_guidance: 14+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - bsl
+  access_details: BSL signed performance on 21st August - please do book in advance.
   content_warnings: []
   image: "/static/03-31-2022-141255-5658.jpg"
   image_alt: ''
