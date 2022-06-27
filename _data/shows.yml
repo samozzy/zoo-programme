@@ -323,8 +323,9 @@
   - Dance Physical Theatre and Circus
   age_guidance: 16+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - bsl
+  access_details: 'BSL signed performance on 7th August - please do book in advance. '
   content_warnings: []
   image: "/static/06-08-2022-104712-6386.jpg"
   image_alt: ''
