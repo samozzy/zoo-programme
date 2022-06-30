@@ -3140,7 +3140,7 @@
     concession: 
     price_range: "£10-£11"
     ticket_deals: []
-  ticket_url: https://tickets.edfringe.com/whats-on/lucid
+  ticket_url: https://showcatcher.com/edfest/whats-on/1479/lucid
   ticket_deals: []
   booking_unavailable: false
   genre:
@@ -3422,7 +3422,7 @@
     of cards, the audience randomly generates a performance to
     understand humanity's obsession with – and ignorance about
     – death.
-  ticket_url: https://tickets.edfringe.com/whats-on/52-souls
+  ticket_url: https://showcatcher.com/edfest/whats-on/869/52-souls
   booking_unavailable: false
   age_guidance: ''
   age_restricted: false
