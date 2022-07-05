@@ -72,7 +72,7 @@
     price_range: ''
     ticket_deals: []
   ticket_url: https://showcatcher.com/edfest/whats-on/2047/ghost-therapy/
-  booking_unavailable: true
+  booking_unavailable: false
   genre:
   - New Writing
   - Comedy
