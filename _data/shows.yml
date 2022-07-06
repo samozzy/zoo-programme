@@ -36,6 +36,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Instagram
+    link: https://www.instagram.com/maryellenmememe/
+    platform: Instagram
   - title: YouTube
     link: https://youtu.be/Hxg-aCrXFuE
     platform: YouTube
