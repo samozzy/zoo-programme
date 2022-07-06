@@ -18,22 +18,39 @@
     concession: 10
     price_range: ''
     ticket_deals: []
-  ticket_url: ''
+  ticket_url: https://showcatcher.com/edfest/whats-on/2046/call-me-me
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Storytelling
+  - Stand-up
+  - Comedy
+  age_guidance: 18+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
+  content_warnings:
+  - Strong language/swearing
+  - Contains distressing themes
   content_warning_detail: []
-  image: ''
+  image: "/static/call-me-me-square.jpeg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: YouTube
+    link: https://youtu.be/Hxg-aCrXFuE
+    platform: YouTube
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: |-
+    Maryellen barrells through fiercely feminist, seriously silly stand-up and storytelling!
+
+    If her Grammy-award winning brother ('Rüfüs Dü Söl') is good at the music, ME must be good at the comedy... right?
+  copy_long: "Maryellen barrells through fiercely feminist and seriously silly stand-up
+    and storytelling littered with laughs (an aliteration).\n\nStay on the edge of
+    your seat through stories of medical malpractice, being pigeon-toed, mansplaining
+    in escape rooms, enjoying gaytimes (the icecream and the passtime), and spin cycling
+    with Saoirse Ronan. \n\nWith a brother in the world-famous Grammy-award winning
+    band 'Rüfüs Dü Söl', if he’s good at the music, ME must be good at the comedy...
+    right? \n\nIs that cocky? Yes, you can be cocky without one ;)"
   is_draft: false
 - title: Tuesday Night Sleeping Club
   company: hello!earth
