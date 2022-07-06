@@ -5,16 +5,17 @@
   start_time: '17:45'
   duration: 1hr
   performances:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '2022-08-21'
+  - '2022-08-22'
+  - '2022-08-23'
+  - '2022-08-24'
+  - '2022-08-25'
+  - '2022-08-26'
+  - '2022-08-27'
+  - '2022-08-28'
   price:
-    standard: 
-    concession: 
+    standard: 12
+    concession: 10
     price_range: ''
     ticket_deals: []
   ticket_url: ''
