@@ -2251,6 +2251,9 @@
   image_alt: ''
   video_embeds: []
   links:
+  - title: Danish EdFringe
+    link: https://danishedfringe.com
+    platform: ''
   - title: Facebook
     link: https://www.facebook.com/dongnu/
     platform: Facebook
@@ -2270,7 +2273,7 @@
     and humour in a physical action performance about the
     extraordinary experiences of ordinary life.
 
-    Part of #DANISH showcase at Edinburgh Fringe 2022 - https://danishedfringe.com
+    Part of #DANISH showcase at Edinburgh Fringe 2022.
   copy_long: |-
     You will never cross the street in the same way again! Don
     Gnu digs into the tediousness of everyday routines in search
@@ -2283,7 +2286,7 @@
     our everyday rules, norms and routines no longer apply –
     who are we really?
 
-    Part of #DANISH showcase at Edinburgh Fringe 2022 - https://danishedfringe.com
+    Part of #DANISH showcase at Edinburgh Fringe 2022.
   is_draft: false
   content_warning_detail:
   - A little bit of nudity - one performer is shortly shown from behind without clothes.
