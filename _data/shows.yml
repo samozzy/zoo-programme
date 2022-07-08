@@ -34,7 +34,14 @@
   content_warning_detail: []
   image: "/static/call-me-me-square.jpeg"
   image_alt: ''
-  video_embeds: []
+  video_embeds:
+  - title: CALL ME ME Trailer
+    embed_code: <iframe src="https://player.vimeo.com/video/727962861?h=c45dc98c71"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script
+      src="https://player.vimeo.com/api/player.js"></script> <p><a href="https://vimeo.com/727962861">CALL
+      ME ME Trailer</a> from <a href="https://vimeo.com/user180016472">Bits and Pieces</a>
+      on <a href="https://vimeo.com">Vimeo</a>.</p>
   links:
   - title: Instagram
     link: https://www.instagram.com/maryellenmememe/
