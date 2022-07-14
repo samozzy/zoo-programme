@@ -159,7 +159,16 @@
   video_embeds:
   - title: ''
     embed_code: ''
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/JazSProductions
+    platform: Twitter
+  - title: ''
+    link: ''
+    platform: ''
+  - title: ''
+    link: ''
+    platform: ''
   reviews: []
   copy_short: Well, hello there! How do you Boo?? Starring Trenetta Jones as Dr Soul,
     this hilarious family comedy discovers a magical mix of ghostly characters sharing
