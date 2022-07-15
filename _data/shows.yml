@@ -15,22 +15,30 @@
     concession: 10
     price_range: ''
     ticket_deals: []
-  ticket_url: ''
+  ticket_url: https://showcatcher.com/edfest/whats-on/2057/i-dreamed-a-dream-the-hunt-for-a-husband
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Cabaret
+  - Comedy
+  - Music
+  age_guidance: 16+
   age_restricted: false
   access: []
   access_details: ''
   content_warnings: []
   content_warning_detail: []
-  image: ''
+  image: "/static/i-dreamed-a-dream-hunt-for-a-husband.jpg"
   image_alt: ''
   video_embeds: []
   links: []
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: Desperate to fulfil her mother’s wish of finding a husband, Rebecca
+    Anderson sings from the piano a hilarious musical exploration of love and a whole
+    bunch of other stuff.
+  copy_long: Desperate to fulfil her mother’s wish of finding a husband, Rebecca Anderson
+    explores love and a whole bunch of other stuff in her debut at the Edinburgh Fringe.
+    Singing from the piano, expect an evening of musical comedy, horrendous dating
+    stories, and a relatable truth that we all need to hear.
   is_draft: false
 - title: Don't Shoot the Albatross
   company: GOYA Theatre Company
