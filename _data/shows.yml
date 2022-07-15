@@ -32,7 +32,14 @@
   venue: Zoo Playground
   start_time: '18:05'
   duration: ''
-  performances: []
+  performances:
+  - '2022-08-14'
+  - '2022-08-15'
+  - '2022-08-16'
+  - '2022-08-17'
+  - '2022-08-18'
+  - '2022-08-19'
+  - '2022-08-20'
   price:
     standard: 12
     concession: 10
