@@ -1,4 +1,46 @@
 ---
+- title: Chips and Ice-Cream
+  company: Martyn Hodge
+  venue: Zoo Playground
+  start_time: '18:05'
+  duration: ''
+  performances: []
+  price:
+    standard: 12
+    concession: 10
+    price_range: ''
+    ticket_deals: []
+  ticket_url: https://showcatcher.com/edfest/whats-on/2056/chips-and-ice-cream
+  booking_unavailable: false
+  genre:
+  - Drama
+  - Comedy
+  - Theatre
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strong language / swearing
+  - Contains distressing themes
+  content_warning_detail: []
+  image: "/static/chips-and-ice-cream.jpg"
+  image_alt: ''
+  video_embeds: []
+  links:
+  - title: Instagram
+    link: http://www.Instagram.com/Chipsandicecream_/
+    platform: Instagram
+  - title: Twitter
+    link: https://twitter.com/chipsandiceshow
+    platform: Twitter
+  - title: Facebook
+    link: http://www.facebook.com/chipsandiceshow/
+    platform: Facebook
+  reviews: []
+  copy_short: ''
+  copy_long: ''
+  is_draft: false
 - title: Call Me Me
   company: Maryellen
   venue: Zoo Playground
