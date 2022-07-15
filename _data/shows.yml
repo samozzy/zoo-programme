@@ -4,29 +4,60 @@
   venue: Zoo Playground
   start_time: '18:05'
   duration: 55mins
-  performances: []
+  performances:
+  - '2022-08-21'
+  - '2022-08-22'
+  - '2022-08-23'
+  - '2022-08-24'
+  - '2022-08-25'
+  - '2022-08-26'
+  - '2022-08-27'
   price:
-    standard: 
-    concession: 
+    standard: 12
+    concession: 20
     price_range: ''
-    ticket_deals: []
-  ticket_url: ''
+    ticket_deals:
+    - Sunday 21st - Tickets £8
+  ticket_url: https://showcatcher.com/edfest/whats-on/2062/dont-shoot-the-albatross
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Dance
+  - LGBT
+  - Theatre
+  age_guidance: 18+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
-  content_warning_detail: []
-  image: ''
+  content_warnings:
+  - Strong language/swearing
+  - Scenes of violence
+  - Contains distressing themes
+  content_warning_detail:
+  - Sexual Assault
+  - Homophobia
+  image: "/static/dont-shoot-the-albatross.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/theatregoya
+    platform: Twitter
+  - title: Instagram
+    link: https://www.instagram.com/theatregoya/
+    platform: Instagram
+  - title: Facebook
+    link: https://www.facebook.com/theatregoya/
+    platform: Facebook
   reviews: []
-  copy_short: ''
-  copy_long: ''
-  is_draft: true
+  copy_short: 'City lights, queer night life and large seafaring birds. This new pop
+    monologue follows one young person confronting impossible questions like: why
+    am I like this? Who made buses so expensive? And, are the straights ok?'
+  copy_long: 'Pop music meets poetry in this new monologue about city lights, queer
+    night life and large seafaring birds. Blending music, dance, and stand up, it
+    tells a provocative story about one young person trying to answer impossible questions
+    like: why am I like this? Who made buses so expensive? And, are the straights
+    ok?'
+  is_draft: false
 - title: Chips and Ice-Cream
   company: Martyn Hodge
   venue: Zoo Playground
