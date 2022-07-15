@@ -1,4 +1,32 @@
 ---
+- title: Don't Shoot the Albatross
+  company: GOYA Theatre Company
+  venue: Zoo Playground
+  start_time: '18:05'
+  duration: 55mins
+  performances: []
+  price:
+    standard: 
+    concession: 
+    price_range: ''
+    ticket_deals: []
+  ticket_url: ''
+  booking_unavailable: false
+  genre: []
+  age_guidance: ''
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  content_warning_detail: []
+  image: ''
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: ''
+  copy_long: ''
+  is_draft: true
 - title: Chips and Ice-Cream
   company: Martyn Hodge
   venue: Zoo Playground
