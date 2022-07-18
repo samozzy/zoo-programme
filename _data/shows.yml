@@ -2069,7 +2069,7 @@
     concession: 
     price_range: "£10-£13"
     ticket_deals: []
-  ticket_url: ''
+  ticket_url: https://showcatcher.com/edfest/whats-on/2063/4040
   ticket_deals: []
   booking_unavailable: false
   genre:
