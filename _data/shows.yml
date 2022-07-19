@@ -31,22 +31,42 @@
     concession: 
     price_range: "£10.50 - £13.50"
     ticket_deals: []
-  ticket_url: ''
+  ticket_url: https://showcatcher.com/edfest/whats-on/2066/platonic-love-triangle-a-new-york-stand-up-comedy-show
   booking_unavailable: false
-  genre: []
-  age_guidance: ''
+  genre:
+  - Storytelling
+  - Stand-up
+  - Comedy
+  age_guidance: 16+
   age_restricted: false
   access: []
   access_details: ''
-  content_warnings: []
+  content_warnings:
+  - Strong language/swearing
   content_warning_detail: []
-  image: ''
+  image: "/static/platonic-love-triangle.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Twitter
+    link: https://twitter.com/LukasTArnold
+    platform: Twitter
+  - link: https://www.instagram.com/lukastarnold/
+    platform: Instagram
+    title: Instagram
+  - title: TikTok
+    link: https://www.tiktok.com/@lukastarnold
+    platform: TikTok
+  - title: Facebook
+    link: https://www.facebook.com/lukastarnold/
+    platform: Facebook
   reviews: []
-  copy_short: ''
-  copy_long: ''
+  copy_short: New York comedians Wyatt Feegrado (Bettor Days on HULU, Amazon Prime)
+    Lukas Arnold (2M+ followers on Tiktok) and Otter Lee (Fairview on Comedy Central)
+    present an afternoon of standup comedy!
+  copy_long: New York comedians Wyatt Feegrado (Bettor Days on HULU, Amazon Prime)
+    Lukas Arnold (2M+ followers on Tiktok) and Otter Lee (Fairview on Comedy Central)
+    present an afternoon of standup comedy!
   is_draft: false
 - title: 'I Dreamed a Dream: The Hunt For A Husband'
   company: Rebecca Anderson
