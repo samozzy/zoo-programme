@@ -1,4 +1,53 @@
 ---
+- title: Platonic Love Triangle - A New York Standup Comedy Show
+  company: Platonic Love Triangle
+  venue: Zoo Playground
+  start_time: '14:30'
+  duration: 1hr
+  performances:
+  - '2022-08-05'
+  - '2022-08-06'
+  - '2022-08-08'
+  - '2022-08-09'
+  - '2022-08-10'
+  - '2022-08-11'
+  - '2022-08-12'
+  - '2022-08-13'
+  - '2022-08-15'
+  - '2022-08-16'
+  - '2022-08-17'
+  - '2022-08-18'
+  - '2022-08-19'
+  - '2022-08-20'
+  - '2022-08-22'
+  - '2022-08-23'
+  - '2022-08-24'
+  - '2022-08-25'
+  - '2022-08-26'
+  - '2022-08-27'
+  - '2022-08-28'
+  price:
+    standard: 
+    concession: 
+    price_range: "£10.50 - £13.50"
+    ticket_deals: []
+  ticket_url: ''
+  booking_unavailable: false
+  genre: []
+  age_guidance: ''
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  content_warning_detail: []
+  image: ''
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: ''
+  copy_long: ''
+  is_draft: false
 - title: 'I Dreamed a Dream: The Hunt For A Husband'
   company: Rebecca Anderson
   venue: Zoo Playground
