@@ -1569,8 +1569,9 @@
   - Dance Physical Theatre and Circus
   age_guidance: 8+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - ad
+  access_details: Audio Described performance Sunday 28th August
   content_warnings:
   - Contains Distressing Themes
   image: "/static/04-10-2022-134230-6559.jpg"
