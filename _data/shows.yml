@@ -1903,8 +1903,9 @@
   - 'Dance Physical Theatre and Circus '
   age_guidance: 8+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - ad
+  access_details: Audio Described performance Sunday 14th August.
   content_warnings:
   - 'Strobe Lighting '
   image: "/static/04-11-2022-184222-5487.jpg"
