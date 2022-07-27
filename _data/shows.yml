@@ -138,7 +138,16 @@
   image: "/static/i-dreamed-a-dream-hunt-for-a-husband.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: YouTube
+    link: https://www.youtube.com/watch?v=gTuh653BjJI&ab_channel=sanni-leena
+    platform: YouTube
+  - title: Instagram
+    link: https://www.instagram.com/sanni_leena/
+    platform: Instagram
+  - title: TikTok
+    link: https://www.tiktok.com/@sanni_leena
+    platform: TikTok
   reviews: []
   copy_short: Desperate to fulfil her mother’s wish of finding a husband, Rebecca
     Anderson sings from the piano a hilarious musical exploration of love and a whole
