@@ -1,4 +1,43 @@
 ---
+- venue: Zoo Southside
+  age_guidance: 0+
+  title: sanni-leena
+  company: sanni-leena
+  start_time: '20:00'
+  duration: 30mins
+  performances:
+  - '2022-08-07'
+  - '2022-08-21'
+  price:
+    standard: 0
+    concession: 
+    price_range: ''
+    ticket_deals: []
+  ticket_url: https://showcatcher.com/edfest/whats-on/2073/sanni-leena
+  booking_unavailable: false
+  genre:
+  - Acoustic
+  - Music
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings: []
+  content_warning_detail: []
+  image: "/static/07-20-2022-160046-1885.jpg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: Jazz, pop, classics... sanni-leena is a singer, whose voice will hit
+    you right in the soul – no matter what style she takes on! In this 30 minute gig,
+    she will give your ears a performance to remember.
+  copy_long: Jazz, pop, classics... How does a combination of new and familiar sound?
+    How about some jazzy pop? sanni-leena is a singer, also known from The Voice of
+    Finland (2020), whose voice will hit you right in the soul – no matter what style
+    she takes on! In this 30 minute solo act, she will perform songs that you know
+    and love, but in her own way. There will be nothing more on stage except herself,
+    her voice and a digital piano. Come give a listen to her jazzy covers and ENJOY!
+  is_draft: false
 - title: Platonic Love Triangle - A New York Standup Comedy Show
   company: Platonic Love Triangle
   venue: Zoo Playground
