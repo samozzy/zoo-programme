@@ -3356,14 +3356,16 @@
     and DIY homemade bass guitar used to make the music of the show. Touch-tour shows
     will start 5 minutes earlier than advertised show time - please do book in advance.
   content_warnings: []
-  image: "/static/03-28-2022-183210-5702.jpg"
+  image: "/static/saved-square.jpeg"
   image_alt: ''
   video_embeds:
   - title: SAVED TRAILER
     embed_code: <iframe src="https://player.vimeo.com/video/589762656?h=fd5cd13d52&byline=0&portrait=0"
-      width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen></iframe> <p><a href="https://vimeo.com/589762656">SAVED TRAILER</a>
-      from <a href="https://vimeo.com/graemeleak">Graeme Leak</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script
+      src="https://player.vimeo.com/api/player.js"></script> <p><a href="https://vimeo.com/589762656">SAVED
+      TRAILER</a> from <a href="https://vimeo.com/graemeleak">Graeme Leak</a> on <a
+      href="https://vimeo.com">Vimeo</a>.</p>
   links:
   - title: Facebook
     link: https://www.facebook.com/graemeleakmusic/
