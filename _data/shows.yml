@@ -3150,7 +3150,10 @@
   image: "/static/1-1.jpg"
   image_alt: ''
   video_embeds: []
-  links: []
+  links:
+  - title: Instagram
+    link: https://www.instagram.com/haveyouseenthisplay/
+    platform: Instagram
   reviews: []
   copy_short: |-
     A college student offers a scattered recollection of her childhood,
