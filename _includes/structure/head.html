@@ -24,7 +24,32 @@
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {% endif %}
 
-    <title>{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO22{% endunless %}</title>
+    {% capture page_title %}{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO22{% endunless %}{% endcapture %}
+    {% capture page_image %}
+      {% if page.layout == 'show' %}
+        {% if page.image %}{{ page.image }}{% else %}{% link static/img/zoo-placeholder-show.png %}{% endif %}
+      {% else %}
+        {% if page.image %}{{ page.image }}{% else %}{% link static/img/zoo/zoo-og-image.png %}{% endif %}
+      {% endif %}
+    {% endcapture %}
+
+
+    <title>{{ page_title }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ page.copy_short | default: page.copy_long | default: page.excerpt | strip_html }} " />
+    <meta name="keywords" content="{{ page.genre | join: ', ' | default: site.keywords }}" />
+    <meta property="og:title" content="{{ page_title | strip }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ page_image }}" />
+    <meta property="og:description" content="{{ page.copy_short | default: page.copy_long | default: page.excerpt | strip_html }}" />
+    <meta property="og:url" content="{{ page.permalink }}" />
+    <meta property="og:site_name" content="ZOO 22 Programme" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    <meta name="twitter:title" content="{{ page.title | strip }}" />
+    <meta name="twitter:description" content="{{ page.copy_short | default: page.copy_long | default: page.excerpt | strip_html }}" />
+    <meta name="twitter:image" content="{{ page_image }}" />
+    <meta name="twitter:image:alt" content="{{ page.image_alt | default: page_title }}" />
 
     <script type="text/javascript">
       {% if jekyll.environment == 'development' %}

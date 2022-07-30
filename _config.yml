@@ -7,6 +7,7 @@ url: "https://zoofestival.co.uk" # the base hostname & protocol for your site, e
 twitter_username: zoovenues
 github_username:  samozzy
 timezone: Europe/London
+keywords: "Theatre, Arts, Fringe, Edinburgh, August"
 
 dates:
   start: 2022-08-05
