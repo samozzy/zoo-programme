@@ -8,6 +8,7 @@ twitter_username: zoovenues
 github_username:  samozzy
 timezone: Europe/London
 keywords: "Theatre, Arts, Fringe, Edinburgh, August"
+page_excerpts: true
 
 dates:
   start: 2022-08-05
