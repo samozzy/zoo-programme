@@ -9,7 +9,7 @@
   - '2022-08-07'
   - '2022-08-21'
   price:
-    standard: 0
+    standard: 
     concession: 
     price_range: ''
     ticket_deals: []
@@ -2180,10 +2180,11 @@
   - 'Dance Physical Theatre and Circus '
   age_guidance: 14+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - captions
+  access_details: All performances are captioned.
   content_warnings:
-  - 'Content warning: middle-aged woman dancing, a flash of nudity, heavy breathing'
+  - 'Content warning: middle-aged woman dancing, heavy breathing'
   image: "/static/40-40-square.jpg"
   image_alt: ''
   video_embeds: []
