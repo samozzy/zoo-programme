@@ -22,6 +22,10 @@ Building level access is via the rear entrance either from Quarry Close or off N
 Level access to the Main House is across the stage via a small lift (80cm wide, 100cm deep).
 
 The Studio has step-free access once in the building.
+
+  </div>
+  <div class="card-footer">
+  <i class="fa fa-map-marker-alt text-zoo-orange"></i> 117 Nicolson Street, Edinburgh, EH8 9ER <small><a class="text-zoo-orange text-decoration-none ms-2" href="https://www.google.co.uk/maps/dir//117+Nicolson+St,+Newington,+Edinburgh+EH8+9ER/@55.9442795,-3.1863222,17z/data=!4m17!1m7!3m6!1s0x4887c783fcc49059:0x55f9374b008095af!2s117+Nicolson+St,+Newington,+Edinburgh+EH8+9ER!3b1!8m2!3d55.9442795!4d-3.1841335!4m8!1m0!1m5!1m1!1s0x4887c783fcc49059:0x55f9374b008095af!2m2!1d-3.1841335!2d55.9442795!3e2" target="_blank">Get directions</a></small>
   </div>
 </div>
 </div>
@@ -36,6 +40,10 @@ Building level access is via Infirmary Street and the High School Yards to avoid
 
 All spaces are step-free once inside the building.
 
+
+  </div>
+  <div class="card-footer">
+<i class="fa fa-map-marker-alt text-zoo-orange"></i> High School Yards, Edinburgh EH1 1LZ <small><a class="text-zoo-orange text-decoration-none ms-2" href="https://www.google.co.uk/maps/dir//High+School+Yards,+Edinburgh+EH1+1LZ/@55.9485698,-3.1886372,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x4887c78675e135d1:0xa64eba091bb8e702!2m2!1d-3.1842598!2d55.9485699!3e2" target="_blank">Get directions</a></small>
   </div>
 </div>
 </div>
