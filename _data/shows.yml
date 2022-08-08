@@ -3218,7 +3218,10 @@
   - title: Twitter
     link: https://twitter.com/rootsmbili
     platform: Twitter
-  reviews: []
+  reviews:
+  - Publisher: Three Weeks
+    quote: '"exhilarating performance" - Three Weeks'
+    stars: 5
   copy_short: |-
     Far Gone is a gut-kicking one-man performance about the
     transformation of a boy into a child soldier by Uganda's notorious
