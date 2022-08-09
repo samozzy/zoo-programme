@@ -2242,8 +2242,9 @@
   - Dance Physical Theatre and Circus
   age_guidance: 12+
   age_restricted: false
-  access: []
-  access_details: ''
+  access:
+  - ad
+  access_details: Audio Described Performance - Saturday 20th August
   content_warnings: []
   image: "/static/06-07-2022-145311-3747.jpg"
   image_alt: ''
