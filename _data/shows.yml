@@ -1819,7 +1819,14 @@
   - Contains Distressing Themes
   image: "/static/civilisation-square-small.jpg"
   image_alt: ''
-  video_embeds: []
+  video_embeds:
+  - title: CIVILISATION Horizon Showcase 2022 Trailer
+    embed_code: <iframe src="https://player.vimeo.com/video/736907165?h=b070d69452"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script
+      src="https://player.vimeo.com/api/player.js"></script> <p><a href="https://vimeo.com/736907165">CIVILISATION
+      Horizon Showcase 2022 Trailer</a> from <a href="https://vimeo.com/user147469401">Horizon
+      Showcase</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   links:
   - title: YouTube
     link: https://www.youtube.com/watch?app=desktop&v=oGiD3EiId2k
