@@ -723,3 +723,35 @@ function clearAccessContentCheckboxes(){
 	clearContentWarningCheckboxes();
 	clearAccessCheckboxes();
 }
+
+function sortByTime(){
+	document.getElementById('btn-sort-by-time').classList.add('active')
+	document.getElementById('btn-sort-by-title').classList.remove('active')
+	document.getElementById('sort-by-status').innerHTML = 'start time'
+	var by_title = document.querySelectorAll('.by-title-visible').forEach((el) => {
+    el.classList.add('by-title-hidden')
+    el.classList.remove('by-title-visible')
+	});
+
+	var by_time = document.querySelectorAll('.by-time-hidden').forEach((el) => {
+    el.classList.add('by-time-visible')
+    el.classList.remove('by-time-hidden')
+	});
+	// swap all .by-title-visible to .by-title-hidden 
+	// swap all .by-time-hidden to .by-time-visible 
+}
+
+function sortByTitle(){
+	document.getElementById('btn-sort-by-title').classList.add('active')
+	document.getElementById('btn-sort-by-time').classList.remove('active')
+	document.getElementById('sort-by-status').innerHTML = 'title'
+	var by_title = document.querySelectorAll('.by-title-hidden').forEach((el) => {
+    el.classList.add('by-title-visible')
+    el.classList.remove('by-title-hidden')
+	});
+
+	var by_time = document.querySelectorAll('.by-time-visible').forEach((el) => {
+    el.classList.add('by-time-hidden');
+    el.classList.remove('by-time-visible')
+	});
+}

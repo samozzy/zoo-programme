@@ -40,6 +40,19 @@
 	@extend .btn, .bebas, .text-center, .btn-zoo-pill, .btn-outline-info, .btn-lg;
 }
 
+.by-title-visible {
+	@extend .d-block; 
+}
+.by-title-hidden { 
+	@extend .d-none;
+}
+.by-time-visible {
+	@extend .d-block;
+}
+.by-time-hidden {
+	@extend .d-none;
+}
+
 .filtered-out {
 	@extend .d-none;
 }

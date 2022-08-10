@@ -1,0 +1,19 @@
+		{% for show in include.available_shows %}
+			{% include text/date-text.html show=show no_output=true %}
+			<div class="col programme-show-container {{ include.additional_class }}" 
+				data-search="{{ show.title | downcase | remove: ' ' }} {{ show.company | downcase | remove: ' ' }}" 
+				data-date_start="{{ first_performance | date: '%Y-%m-%d' }}" 
+				data-date_end="{{ last_performance | date: '%Y-%m-%d' }}" 
+				data-time="{{ show.start_time | split: ':' | first }}"
+				data-age_guidance="{{ show.age_guidance | default: '' }}"
+				data-performances="{{ show.performances | join: ',' }}"
+				data-price="{{ show.price.standard | default: show.price.concession }}"
+				data-genre="{{ show.genre | join:',' | slugify }}"
+				data-access="{{ show.access | join: ',' | downcase | slugify | default: '' }}"
+				data-content_warnings="{{ show.content_warnings | join: ',' | slugify }}"
+				data-venue="{{ show.venue | slugify }}"
+				id="{{ show.title | slugify }}"
+				>
+				{% include components/show-card-small.html show=show %}
+			</div>
+		{% endfor %}
