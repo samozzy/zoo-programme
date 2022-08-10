@@ -7753,7 +7753,7 @@ textarea.form-control-lg {
   display: inline-block !important;
 }
 
-.d-block {
+.d-block, .by-title-visible, .by-time-visible {
   display: block !important;
 }
 
@@ -7781,7 +7781,7 @@ textarea.form-control-lg {
   display: inline-flex !important;
 }
 
-.d-none, .card-programme .card-header i#edit-circle-access.d-inline + i#edit-circle-content-warning.d-inline, .filtered-out, .filtered-out-by-search, .filtered-out-by-price, .filtered-out-by-venue,
+.d-none, .card-programme .card-header i#edit-circle-access.d-inline + i#edit-circle-content-warning.d-inline, .by-title-hidden, .by-time-hidden, .filtered-out, .filtered-out-by-search, .filtered-out-by-price, .filtered-out-by-venue,
 .filtered-out-by-genre, .filtered-out-by-date,
 .filtered-out-by-time, .filtered-out-by-age,
 .filtered-out-by-access, .filtered-out-by-content-warning {
