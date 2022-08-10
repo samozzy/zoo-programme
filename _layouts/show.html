@@ -166,21 +166,35 @@ use_swiper: true
 		{% endif %}
 		{% if has_reviews %}
 			<div class="col-12 d-flex flex-row justify-content-around text-center">
-				{% for r in show.reviews %}
-					<div class="show-review">
-						{% if r.stars and r.stars != empty and r.stars != 0 %}
-							{% for star in (1..r.stars) %}
-								<i class="fa fa-fw fa-star text-zoo-orange"></i>
-							{% endfor %}
-						{% endif %}
-						{% if r.quote and r.quote != empty %}
-							<p class="lead fs-3 mb-0">{{ r.quote }}</p>
-						{% endif %}
-						{% if r.publisher and r.publisher != empty %}
-							<p><em>{{ r.publisher }}</em></p>
-						{% endif %}
-					</div>
-				{% endfor %}
+				<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+					{% for r in show.reviews %}
+						<div class="col show-review mx-auto mb-4">
+							{% if r.stars and r.stars != empty and r.stars != 0 %}
+								{% assign r_floor = r.stars | floor %}
+								{% if r_floor == r.stars %}
+									{% assign r_stars = r.stars %}
+									{% assign has_half = false %}
+								{% else %}
+									{% assign r_stars = r.stars | floor %}
+									{% assign has_half = true %}
+								{% endif %}
+
+								{% for star in (1..r_stars) %}
+									<i class="fa fa-fw fa-star text-zoo-orange"></i>
+								{% endfor %}
+								{% if has_half == true %}
+									<i class="fa fa-fw fa-star-half text-zoo-orange"></i>
+								{% endif %}
+							{% endif %}
+							{% if r.quote and r.quote != empty %}
+								<p class="lead fs-3 mb-0">{{ r.quote }}</p>
+							{% endif %}
+							{% if r.publisher and r.publisher != empty %}
+								<p><em>{{ r.publisher }}</em></p>
+							{% endif %}
+						</div>
+					{% endfor %}
+				</div>
 			</div>
 		{% endif %}
 		{% if has_reviews and has_links%}
