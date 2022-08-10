@@ -54,7 +54,7 @@ All spaces are step-free once inside the building.
     </div>
     <div class="card-body" markdown="1">
 
-A large print brochure will be available for download from this page in July. 
+We strongly encourage pre-purchasing tickets from the booking page or EdFest.com ahead of your arrival at ZOO. In line with the Fringe Society's move to e-tickets, we are not operating paper tickets this year. By pre-booking, you will help speed up waiting and admission times once the doors are open. Doors typically open 5 minutes before the advertised start time.
 
 Assistance Dogs are always welcome in our venues and performance spaces. 
 
