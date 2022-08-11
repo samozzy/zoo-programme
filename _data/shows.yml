@@ -2320,10 +2320,8 @@
   age_guidance: 18+
   age_restricted: false
   access:
-  - bsl
   - ad
-  access_details: Unit with headset available for Audio Description. BSL signed performance
-    on 15th August - please do book in advance.
+  access_details: Audio Described performance on August 17th
   content_warnings:
   - Contains Distressing Themes
   image: "/static/04-08-2022-142905-1468.jpg"
