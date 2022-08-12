@@ -1739,7 +1739,7 @@
   - captions
   - bsl
   access_details: The show will have open captions on the 23rd; BSL signed performance
-    on 24th August - please do book in advance.
+    on 24th August - please do book in advance. All performances are Relaxed.
   content_warnings:
   - 'Strong Language/Swearing '
   - Contains Distressing Themes
@@ -1811,11 +1811,12 @@
   age_guidance: 14+
   age_restricted: false
   access:
+  - relaxed
   - ad
   - captions
   - bsl
   access_details: The show will have open captions on the 24th; BSL interpreted on
-    the 24th - please do book in advance.
+    the 24th - please do book in advance. All performances are Relaxed.
   content_warnings:
   - Strong Language/Swearing
   - Themes of a Sexual Nature
