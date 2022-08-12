@@ -3841,7 +3841,7 @@
   access:
   - ad
   - captions
-  access_details: 'Open captions and integrated audio description for all performances, '
+  access_details: 'Integrated Audio Description for all performances, '
   content_warnings:
   - Contains Distressing Themes
   - Strong Language/Swearing
