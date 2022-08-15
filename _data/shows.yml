@@ -837,60 +837,6 @@
     new feminist theatre company coming out of Liverpool.
   is_draft: false
   content_warning_detail: []
-- title: 'Afterhours Comedy: Amused Moose Comedy'
-  company: Hils Jago for Amused Moose Comedy
-  venue: Zoo Southside
-  start_time: '23:45'
-  duration: 1hr 15mins
-  performances:
-  - '2022-08-27'
-  - '2022-08-20'
-  price:
-    standard: 12.5
-    concession: 
-    price_range: ''
-    ticket_deals: []
-  ticket_url: https://showcatcher.com/edfest/whats-on/1368/afterhours-comedy-amused-moose-comedy
-  ticket_deals: []
-  booking_unavailable: false
-  genre:
-  - Stand Up
-  - 'Comedy '
-  age_guidance: 14+
-  age_restricted: false
-  access: []
-  access_details: ''
-  content_warnings:
-  - Strong Language/Swearing
-  image: "/static/04-25-2022-222511-1123.jpg"
-  image_alt: ''
-  video_embeds: []
-  links:
-  - title: Instagram
-    link: https://www.instagram.com/amusedmoosecomedy/
-    platform: Instagram
-  - title: Twitter
-    link: https://twitter.com/AmusedMoose
-    platform: Twitter
-  reviews: []
-  copy_short: |-
-    'Best late-night comedy' (List). Amused Moose's legendarily
-    laughter-packed Afterhours Comedy stand-up showcases return
-    by popular demand, unfailingly featuring Edinburgh Fringe's
-    unmissably hot comedians and soaring fledglings. 'Stellar!'
-    (Scotsman).
-  copy_long: |-
-    Awesome late-night hilarity' (ThreeWeeks) will be too good
-    to miss. Laughter packed, legendary and unmissable
-    weekend highlights for Fringe-goers since 2002. Back by
-    popular demand, Amused Moose's after-hours, stand-up
-    showcases unfailingly feature famously entertaining
-    comedians, plus Edinburgh Fringe 2022's highest-flying
-    comics and the pick of the brightest fledglings soaring
-    towards stardom. 'Stellar!' (Scotsman). 'Best late-night
-    comedy' (List).
-  is_draft: false
-  content_warning_detail: []
 - title: Megalith
   company: MECHANIMAL
   venue: Zoo Southside
@@ -1331,6 +1277,9 @@
   start_time: '20:15'
   duration: 1hr
   performances:
+  - '2022-08-21'
+  - '2022-08-20'
+  - '2022-08-19'
   - '2022-08-13'
   - '2022-08-12'
   - '2022-08-11'
@@ -1738,7 +1687,8 @@
   access:
   - captions
   - bsl
-  access_details: ''
+  access_details: The show will have open captions on the 23rd; BSL signed performance
+    on 24th August - please do book in advance. All performances are Relaxed.
   content_warnings:
   - 'Strong Language/Swearing '
   - Contains Distressing Themes
@@ -1753,6 +1703,9 @@
       Was Naked Smelling Of The Rain Horizon Showcase 2022 Trailer</a> from <a href="https://vimeo.com/user147469401">Horizon
       Showcase</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   links:
+  - title: Audio Introduction To The Show
+    link: https://www.horizonshowcase.uk/wp-content/uploads/2022/08/I-Was-Naked-Smelling-of-Rain-V9-client.mp3
+    platform: ''
   - title: Instagram
     link: https://www.instagram.com/aidanmoesby/
     platform: Instagram
@@ -1807,11 +1760,12 @@
   age_guidance: 14+
   age_restricted: false
   access:
+  - relaxed
   - ad
   - captions
   - bsl
-  access_details: The show will have open captions on the 23rd, be BSL interpreted
-    on the 24th and be audio described on the 26th.
+  access_details: The show will have open captions on the 24th; BSL interpreted on
+    the 24th - please do book in advance. All performances are Relaxed.
   content_warnings:
   - Strong Language/Swearing
   - Themes of a Sexual Nature
@@ -1828,6 +1782,9 @@
       Horizon Showcase 2022 Trailer</a> from <a href="https://vimeo.com/user147469401">Horizon
       Showcase</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   links:
+  - title: Accessibility Information
+    link: https://www.horizonshowcase.uk/artists/jaz-woodcock-stewart-with-morgann-runacre-temple/
+    platform: ''
   - title: YouTube
     link: https://www.youtube.com/watch?app=desktop&v=oGiD3EiId2k
     platform: YouTube
@@ -2030,6 +1987,7 @@
   access:
   - bsl
   access_details: BSL signed performance on 19th August - please do book in advance.
+    Please note, unfortunately there is no level access for this event.
   content_warnings:
   - 'Nudity '
   - Contains Distressing Themes
@@ -2320,10 +2278,8 @@
   age_guidance: 18+
   age_restricted: false
   access:
-  - bsl
   - ad
-  access_details: Unit with headset available for Audio Description. BSL signed performance
-    on 15th August - please do book in advance.
+  access_details: Audio Described Performance - Thursday 17th August
   content_warnings:
   - Contains Distressing Themes
   image: "/static/04-08-2022-142905-1468.jpg"
@@ -2838,7 +2794,7 @@
   access:
   - relaxed
   - captions
-  access_details: There will be an open captioned and relaxed performance on the 24th
+  access_details: There will be an Open Captioned and Relaxed performance on 24th
     August.
   content_warnings:
   - Audience Participation
@@ -3836,7 +3792,7 @@
   access:
   - ad
   - captions
-  access_details: 'Open captions and integrated audio description for all performances, '
+  access_details: 'Open Captions and Integrated Audio Description for all performances, '
   content_warnings:
   - Contains Distressing Themes
   - Strong Language/Swearing
