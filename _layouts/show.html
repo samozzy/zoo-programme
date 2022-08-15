@@ -152,6 +152,7 @@ use_swiper: true
 		{% endif %}
 		<div class="col-12 col-md-6 offset-md-3 text-center mt-4">
 			{% include show/buttons.html show=show only_book=true book_primary=true btn_class='btn-lg w-100' %}
+			{% include text/prebook.html %}
 		</div>
 		{% if show.reviews and show.reviews != empty %}
 			{% assign has_reviews = true %}
