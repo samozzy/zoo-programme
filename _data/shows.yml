@@ -3792,8 +3792,7 @@
   - New writing
   access:
   - ad
-  - captions
-  access_details: 'Open Captions and Integrated Audio Description for all performances, '
+  access_details: 'Integrated Audio Description for all performances, '
   content_warnings:
   - Contains Distressing Themes
   - Strong Language/Swearing
@@ -3833,7 +3832,7 @@
     of cards, the audience randomly generates a performance to
     understand humanity's obsession with – and ignorance about
     – death.
-  ticket_url: https://showcatcher.com/edfest/whats-on/869/52-souls
+  ticket_url: https://showcatcher.com/edfest/whats-on/2096/52-souls
   booking_unavailable: false
   age_guidance: ''
   age_restricted: false
