@@ -172,7 +172,7 @@
   - '2022-08-27'
   price:
     standard: 12
-    concession: 20
+    concession: 10
     price_range: ''
     ticket_deals:
     - Sunday 21st - Tickets £8
