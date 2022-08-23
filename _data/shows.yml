@@ -1,4 +1,46 @@
 ---
+- title: Ben Miller's Stand-up Science
+  company: Ben Miller
+  venue: Zoo Playground
+  start_time: "2015"
+  duration: 1hr
+  performances:
+  - '2022-08-27'
+  - '2022-08-28'
+  price:
+    standard: 10
+    concession: 
+    price_range: ''
+    ticket_deals: []
+  ticket_url: ''
+  booking_unavailable: false
+  genre:
+  - Stand-up
+  - Science
+  - Comedy
+  age_guidance: 16+
+  age_restricted: false
+  access: []
+  access_details: ''
+  content_warnings:
+  - Strong Language/Swearing
+  - Audience Participation
+  content_warning_detail: []
+  image: "/static/ben-miller-stand-up-science.jpeg"
+  image_alt: ''
+  video_embeds: []
+  links: []
+  reviews: []
+  copy_short: 'A show that''s equal measures hilarious, educational and deeply personal.
+    Scientist turned stand-up comedian Ben Miller takes you on a journey that explores
+    everything from milk to the thermodynamics of refrigerators with wit and humour
+    that makes these topics both approachable and delightful. And you probably like
+    that sort of thing, nerd. Ben Miller is an NYC-based comedian who''s currently
+    ranked as the top roast battler in NYC. He has a degree in Materials Science and
+    Engineering, worked on a science bus, 3D printed cookies and has diffused a few
+    bar fights while on stage. '
+  copy_long: ''
+  is_draft: false
 - venue: Zoo Southside
   age_guidance: 0+
   title: sanni-leena
