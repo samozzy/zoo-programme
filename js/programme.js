@@ -35,6 +35,7 @@ searchBoxElement.addEventListener('hide.bs.collapse', function (e) {
 
 // Define the shows for filter pickers 
 the_shows = document.getElementsByClassName('programme-show-container');
+// This contains double the number of shows due to the implementation of sorting
 var no_results_text = document.getElementById('no-result-text');
 
 //
@@ -42,7 +43,7 @@ var no_results_text = document.getElementById('no-result-text');
 //
 function countResults() {
 	filtered_out_shows = document.querySelectorAll('#show-list div[class*="filtered-out-by"]').length
-	number_remaining = the_shows.length - filtered_out_shows
+	number_remaining = (the_shows.length - filtered_out_shows)/2 // Div2 to account for the sorting duplication
 	has_results_text = document.getElementById('filter-results-text')
 	no_results_text = document.getElementById('no-result-text')
 	if (number_remaining == 0) {
