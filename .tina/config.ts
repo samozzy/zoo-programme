@@ -55,11 +55,11 @@ export default defineConfig({
         },
       },
       {
-        name: "venues"
-        label: "venues"
+        name: "venues",
+        label: "venues",
         path: "_data/venues.yml",
         format: "yml"
-      }
+      },
       {
         name: "shows",
         label: "Shows",
