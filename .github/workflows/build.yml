@@ -27,12 +27,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.0
+          bundler-cache: true
       - name: Cache Ruby gems
         id: cache-gems
         uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
+      - name: Install yarn dependencies (for TinaCMS)
+        run: yarn install --immutable 
       - name: Set deployment flag 
         run: bundle config set --local deployment 'true' 
       - name: Set Ruby gems directory
@@ -41,8 +44,12 @@ jobs:
         run: bundle install --jobs 4 --retry 3
 
       ### BUILD ###
-      - name: Build Jekyll 
-        run: JEKYLL_ENV=production bundle exec jekyll build 
+      - name: Build Site - Jekyll & Tina 
+        env: 
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          READ_TOKEN: ${{ secrets.READ_TOKEN }} 
+          JEKYLL_ENV: production 
+        run: yarn run tinacms build && bundle exec jekyll build 
 
       ### HTMLTEST ###
       # (This tool makes sure all the links work; may require some tweaking and is optional)
@@ -62,6 +69,9 @@ jobs:
       - name: Publish to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' || github.event_name == 'schedule'  }}
         uses: JamesIves/github-pages-deploy-action@v4
+        env:
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          READ_TOKEN: ${{ secrets.READ_TOKEN }}
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _site # The folder the action should deploy.

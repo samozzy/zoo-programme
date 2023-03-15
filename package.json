@@ -1,0 +1,18 @@
+{
+  "name": "zoo-festival",
+  "version": "0.5.0",
+  "description": "Zoo Festival Programme site, running with Jekyll & Tina.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "yarn run tinacms build && bundle exec jekyll build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.2.2",
+    "tinacms": "^1.2.2"
+  }
+}
