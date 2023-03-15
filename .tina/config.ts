@@ -58,7 +58,14 @@ export default defineConfig({
         name: "venues",
         label: "venues",
         path: "_data/venues.yml",
-        format: "yml"
+        format: "yml",
+        fields: [
+          {
+            type: "string",
+            name: "venue",
+            required: true,
+          },
+        ],
       },
       {
         name: "shows",
