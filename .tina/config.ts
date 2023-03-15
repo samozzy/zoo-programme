@@ -109,7 +109,7 @@ export default defineConfig({
           },
           // Add pricing
           {
-            type: "string"
+            type: "string",
             name: "ticket_url",
             required: false,
           },
