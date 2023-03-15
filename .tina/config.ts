@@ -13,77 +13,18 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "static",
       publicFolder: "./",
     },
   },
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "_posts",
-        format: "md",
-        fields: [
-          {
-            type: "string",
-            name: "layout",
-            label: "Layout",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "datetime",
-            name: "date",
-            label: "Date",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "categories",
-            label: "Categories",
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-        ui: {
-          filename: {
-            readonly: true,
-            slugify: values => {
-              const date = new Date();
-              const day = ('0' + date.getDate()).slice(-2);
-              const month = ('0' + (date.getMonth()+1)).slice(-2);
-              const year = date.getFullYear();
-        
-              let currentDate = `${year}-${month}-${day}`;
-        
-              return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
-            }
-          }
-        },
-      },
-      {
         name: "page",
         label: "Pages",
-        path: "_pages",
+        path: "_content",
         format: "md",
         fields: [
-          {
-            type: "string",
-            name: "layout",
-            label: "Layout",
-            required: true,
-          },
           {
             type: "string",
             name: "title",
@@ -93,9 +34,9 @@ export default defineConfig({
           },
           {
             type: "string",
-            name: "permalink",
-            label: "Permalink",
-            required: true,
+            name: "copy_short",
+            label: "Short copy (for page previews)",
+            required: false,
           },
           {
             type: "rich-text",
@@ -113,6 +54,117 @@ export default defineConfig({
           }
         },
       },
+      {
+        name: "venues"
+        label: "venues"
+        path: "_data/venues.yml",
+        format: "yml"
+      }
+      {
+        name: "shows",
+        label: "Shows",
+        path: "_data/shows.yml",
+        format: "yml",
+        fields: [
+          { 
+            type: "string",
+            name: "title",
+            required: true,
+            isTitle: true,
+          },
+          {
+            type: "boolean",
+            name: "is_draft",
+            required: false,
+          },
+          { 
+            type: "string",
+            name: "company",
+            required: true,
+          },
+          { 
+            type: "reference",
+            name: "venue",
+            collections: ['venues'],
+            required: true,
+          },
+          {
+            type: "string",
+            name: "start_time",
+            required: true,
+          },
+          { 
+            type: "string",
+            name: "duration",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "performances",
+            required: true,
+            ui {
+              list: true,
+              min: 1,
+            },
+          },
+          // Add pricing
+          {
+            type: "string"
+            name: "ticket_url",
+            required: false,
+          },
+          {
+            type: "boolean",
+            name: "booking_unavailable",
+          },
+          {
+            type: "string",
+            name: "genre",
+            required: false,
+            ui {
+              list: true,
+              min: 0
+            },
+          },
+          { 
+            type: "string",
+            name: "age_guidance",
+            required: false,
+            // Add list
+          },
+          {
+            type: "boolean",
+            name: "age_restricted",
+            required: false,
+          },
+          // Add access details as list 
+          {
+            type: "string",
+            name: "content_warnings",
+            ui {
+              list: true,
+              min: 0,
+            },
+          },
+          {
+            type: "string",
+            name: "content_warning_detail",
+            required: false,
+          },
+          // Add image & image alt text
+          // Add video embeds, links, reviews
+          {
+            type: "rich-text",
+            name: "copy_short",
+            required: false,
+          },
+          {
+            type: "rich-text",
+            name: "copy_long",
+            required: false,
+          },
+        ]
+      }
     ],
   },
 });
