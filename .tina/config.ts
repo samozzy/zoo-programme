@@ -102,7 +102,7 @@ export default defineConfig({
             type: "string",
             name: "performances",
             required: true,
-            ui {
+            ui: {
               list: true,
               min: 1,
             },
@@ -121,7 +121,7 @@ export default defineConfig({
             type: "string",
             name: "genre",
             required: false,
-            ui {
+            ui: {
               list: true,
               min: 0
             },
@@ -141,7 +141,7 @@ export default defineConfig({
           {
             type: "string",
             name: "content_warnings",
-            ui {
+            ui: {
               list: true,
               min: 0,
             },
