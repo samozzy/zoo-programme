@@ -9,3 +9,7 @@ _site/
 # Bundler 
 vendor/bundle 
 .bundle/
+
+# Node 
+node_modules/
+node_modules
