@@ -45,14 +45,14 @@ export default defineConfig({
             isBody: true,
           },
         ],
-        // ui: {
-        //   filename: {
-        //     readonly: true,
-        //     slugify: values => {        
-        //       return `${values?.title?.toLowerCase().replace(/ /g, '-')}`
-        //     }
-        //   }
-        // },
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: values => {        
+              return `${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
+          }
+        },
       },
       {
         name: "venues",
