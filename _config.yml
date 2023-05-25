@@ -12,7 +12,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-  shows:
+  _data-:
     title: shows
     output: true
 defaults:
