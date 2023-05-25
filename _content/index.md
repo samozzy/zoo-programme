@@ -1,8 +1,8 @@
 ---
-layout: home 
-permalink: / 
-title: "22"
-use_swiper: true 
+title: '22'
+permalink: "/"
+layout: home
+use_swiper: true
 logo_in_title: true
 ---
 

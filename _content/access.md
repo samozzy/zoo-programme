@@ -1,6 +1,6 @@
 ---
-layout: page-narrow
 title: Access Information
+layout: page-narrow
 ---
 
 Below you will find venue-specific information on accessing our venues. We strive to offer performance for all and as such have put in a number of facilities to ensure all people can enjoy our shows regardless of specific needs. However we are very aware that we won’t always get it right and welcome your feedback and suggestions - please email <info@zoovenues.co.uk> to do so.

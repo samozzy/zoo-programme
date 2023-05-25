@@ -1,80 +1,70 @@
+---
 title: ZOO
-email: info@zoovenues.co.uk
-description: >- # this means to ignore newlines until "baseurl:"
-  ZOO returns to the Edinburgh Fringe in 2022 with a bigger and better programme than ever before.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zoofestival.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: zoovenues
-github_username:  samozzy
 timezone: Europe/London
-keywords: "Theatre, Arts, Fringe, Edinburgh, August"
-page_excerpts: true
-
-dates:
-  start: 2022-08-05
-  end: 2022-08-28
-  launch: 2022-06-09 10:00
-
-earliest_time: 2022-08-01 10:00 
-latest_time: 2022-08-01 23:00 
-
-edfringe_available: true
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-strict_front_matter: true 
-livereload: true 
-
-plugins:
-  - bootstrap 
-  - jekyll-datapage-generator
-
-sass:
-    sass_dir: _sass
-    style: expanded 
-    load_paths:
-      - _sass 
-      - vendor/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/ # GitHub Pages/Action 
-      - /opt/build/cache/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/ #Netlify 
-
 collections:
   content:
+    title: Content
     output: true
-    permalink: :path/
-permalink: pretty 
-
+    permalink: path/
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  # Defaults for pages
-  - scope:
-      type: content
-    values:
-      layout: default
-
-page_gen-dirs: true 
+- scope:
+    path: ''
+    type: content
+  values:
+    layout: default
+email: info@zoovenues.co.uk
+description: ZOO returns to the Edinburgh Fringe in 2022 with a bigger and better
+  programme than ever before.
+baseurl: ''
+url: https://zoofestival.co.uk
+twitter_username: zoovenues
+github_username: samozzy
+keywords: Theatre, Arts, Fringe, Edinburgh, August
+page_excerpts: true
+dates:
+  start: 2022-08-05 00:00:00.000000000 Z
+  end: 2022-08-28 00:00:00.000000000 Z
+  launch: 2022-06-09 10:00
+earliest_time: 2022-08-01 10:00
+latest_time: 2022-08-01 23:00
+edfringe_available: true
+exclude:
+- ".sass-cache/"
+- ".jekyll-cache/"
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+strict_front_matter: true
+livereload: true
+plugins:
+- bootstrap
+- jekyll-datapage-generator
+sass:
+  sass_dir: _sass
+  style: expanded
+  load_paths:
+  - _sass
+  - vendor/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/
+  - "/opt/build/cache/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/"
+permalink: pretty
+page_gen-dirs: true
 page_gen:
-  - data: 'shows'
-    template: 'show' 
-    name: 'title'  
-    dir: 'programme' 
-  - data: 'shows'
-    template: 'show_redirect'
-    name: 'title'
-    dir: '/' 
+- data: shows
+  template: show
+  name: title
+  dir: programme
+- data: shows
+  template: show_redirect
+  name: title
+  dir: "/"
