@@ -32,13 +32,13 @@ use_swiper: true
 				{% endif %}
 				{% if has_price == true %}
 					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw text-zoo-orange fa-ticket-alt fs-2"{% include text/tooltip.html the_tooltip=price_tooltip %}></i><br>
+						<i class="fa fa-fw fa-ticket-alt"{% include text/tooltip.html the_tooltip=price_tooltip %}></i><br>
 						{% include text/price.html show=show %}
 					</div>
 				{% endif %}
 				{% if show.start_time and show.start_time != empty %}
 					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw text-zoo-orange fa-clock fs-2"></i><br>
+						<i class="fa fa-fw fa-clock"></i><br>
 						{{ show.start_time }}
 						{% if show.duration and show.duration != empty %}
 							<br>({{ show.duration }})
@@ -47,14 +47,14 @@ use_swiper: true
 				{% endif %}
 				{% if show.venue and show.venue != empty %}
 					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw text-zoo-orange fa-map fs-2"></i><br>
+						<i class="fa fa-fw fa-map"></i><br>
 						{{ show.venue | replace: "Zoo ", "ZOO " }}
 					</div>
 				{% endif %}
 				{% if show.access and show.access != empty %}
 					{% assign has_access = true %}
 					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw text-zoo-orange fa-universal-access fs-2"></i><br>
+						<i class="fa fa-fw fa-universal-access"></i><br>
 						<div class="text-zoo-slate d-flex flex-row justify-content-evenly pt-1">
 							{% for a in show.access %}
 								{% include text/access.html access_item=a large=true %}
@@ -234,12 +234,14 @@ use_swiper: true
 		{% endif %}
 		{% if show.video_embeds and show.video_embeds != empty %}
 			{% for video in show.video_embeds %}
-				<div class="col-12 col-lg-8 offset-lg-2 my-4">
-					<div class="ratio ratio-16x9">
-						{{ video.embed_code }}
+				{% if video.embed_code and video.embed_code != empty %}
+					<div class="col-12 col-lg-8 offset-lg-2 my-4">
+						<div class="ratio ratio-16x9">
+							{{ video.embed_code }}
+						</div>
+						{% if video.title and video.title != empty %}<p class="text-muted text-end mt-2">{{ video.title }}</p>{% endif %}
 					</div>
-					{% if video.title and video.title != empty %}<p class="text-muted text-end mt-2">{{ video.title }}</p>{% endif %}
-				</div>
+				{% endif %}
 			{% endfor %}
 		{% endif %}
 	</div>

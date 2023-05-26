@@ -296,7 +296,12 @@ a.card-event-hover  {
 	.icon-row {
 		@extend .row, .row-cols-2, .row-cols-sm-4;
 		@extend .d-flex, .justify-content-between, .justify-content-lg-start;
-		@extend .fs-5, .text-center;
+		@extend .fs-6, .text-center;
+
+		i.fa.fa-fw {
+			@extend .text-zoo-orange;
+			@extend .fs-4;
+		}
 	}
 }
 
@@ -312,10 +317,10 @@ a.card-event-hover  {
 	
 	.show-blurb {
 		@extend .mb-3;
-		line-height: 2.5rem;
+		line-height: 2rem;
 
 		p:first-of-type {
-			@extend .fs-5;
+			@extend .fs-6;
 			font-weight: 500;
 		}
 	}
