@@ -1,26 +1,6 @@
 ---
 title: ZOO
 timezone: Europe/London
-collections:
-  content:
-    title: Content
-    output: true
-    permalink: path/
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-  data:
-    title: shows
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: content
-  values:
-    layout: default
 email: info@zoovenues.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   ZOO returns to the Edinburgh Fringe in 2023 with a bigger and better programme than ever before.
@@ -49,36 +29,53 @@ edfringe_available: false
 # their entries' file path in the `include:` list.
 #
 exclude:
-- ".sass-cache/"
-- ".jekyll-cache/"
-- gemfiles/
-- Gemfile
-- Gemfile.lock
-- node_modules/
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-strict_front_matter: true
-livereload: true
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+strict_front_matter: true 
+livereload: true 
+
 plugins:
-- bootstrap
-- jekyll-datapage-generator
+  - bootstrap 
+  - jekyll-datapage-generator
+
 sass:
-  sass_dir: _sass
-  style: expanded
-  load_paths:
-  - _sass
-  - vendor/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/
-  - "/opt/build/cache/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/"
-permalink: pretty
+    sass_dir: _sass
+    style: expanded 
+    load_paths:
+      - _sass 
+      - vendor/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/ # GitHub Pages/Action 
+      - /opt/build/cache/bundle/ruby/*/gems/bootstrap*/assets/stylesheets/ #Netlify 
+
+collections:
+  content:
+    output: true
+    permalink: :path/
+permalink: pretty 
+
+defaults:
+  # Defaults for pages
+  - scope:
+      type: content
+    values:
+      layout: default
+
 page_gen-dirs: true
+
 page_gen:
-- data: shows
-  template: show
-  name: title
-  dir: programme
-- data: shows
-  template: show_redirect
-  name: title
-  dir: "/"
+  - data: 'shows'
+    template: 'show' 
+    name: 'title'  
+    dir: 'programme' 
+  - data: 'shows'
+    template: 'show_redirect'
+    name: 'title'
+    dir: '/' 
