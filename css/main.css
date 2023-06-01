@@ -313,7 +313,7 @@ a.text-zoo-yellow:hover, a.text-zoo-yellow:focus, a.text-zoo-yellow:active, a.te
   background-color: transparent;
 }
 
-.text-zoo-orange, .show-details hr, table.date-list td.show-date, .card-programme .card-header .fa, .helper-text {
+.text-zoo-orange, .show-details hr, .show-large .icon-row i.fa.fa-fw, table.date-list td.show-date, .card-programme .card-header .fa, .helper-text {
   color: #F48847;
 }
 
@@ -747,7 +747,7 @@ a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card
 }
 
 .show-details .show-blurb {
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 
 .show-details .show-blurb p:first-of-type {
@@ -8796,15 +8796,15 @@ textarea.form-control-lg {
   font-size: calc(1.3rem + 0.6vw) !important;
 }
 
-.fs-4, .fa-font, .programme-menu-container .programme-menu-card .programme-menu, .card-programme .card-header p, .show-details h3, .show-details .h3 {
+.fs-4, .fa-font, .programme-menu-container .programme-menu-card .programme-menu, .card-programme .card-header p, .show-large .icon-row i.fa.fa-fw, .show-details h3, .show-details .h3 {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
 
-.fs-5, .home-content p, .show-large .icon-row, .show-details .show-blurb p:first-of-type {
+.fs-5, .home-content p {
   font-size: 1.25rem !important;
 }
 
-.fs-6 {
+.fs-6, .show-large .icon-row, .show-details .show-blurb p:first-of-type {
   font-size: 1rem !important;
 }
 
@@ -12224,7 +12224,7 @@ textarea.form-control-lg {
   .fs-3 {
     font-size: 1.75rem !important;
   }
-  .fs-4, .fa-font, .programme-menu-container .programme-menu-card .programme-menu, .card-programme .card-header p, .show-details h3, .show-details .h3 {
+  .fs-4, .fa-font, .programme-menu-container .programme-menu-card .programme-menu, .card-programme .card-header p, .show-large .icon-row i.fa.fa-fw, .show-details h3, .show-details .h3 {
     font-size: 1.5rem !important;
   }
 }
