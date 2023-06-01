@@ -84,29 +84,62 @@ img.logo-in-title{
 		}
 	}
 }
-.trailer, .trailer-play, .trailer-volume {
+
+// TRAILER
+.trailer {
 	position: absolute;
-	z-index: 10; 
 	overflow: hidden;
+	z-index: 9;
+
+	top:0;
+	bottom:0;
+	@include media-breakpoint-up(xl){
+		bottom: 20%;
+		top: auto;
+	}
+
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
 }
+.trailer-wrapper {
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+	@include media-breakpoint-down(lg){
+		height: 400px;
+	}
+	@include media-breakpoint-down(md){
+		height: 250px;
+	}
+	@include media-breakpoint-down(sm){
+		height: inherit; // Automatic height adjustments on the tiniest viewports 
+	}
+}
+
+// TRAILER BUTTONS
 .trailer-play, .trailer-volume {
+	position: absolute;
+	z-index: 10;
+	overflow: hidden;
+
 	width: fit-content !important;
 	height: initial !important;
 	@include media-breakpoint-down(sm){
 		transform: scale(0.7);
 	}
 }
-.trailer {
-	z-index: 9;
-}
 .trailer-volume {
 	top: 5% !important;
 	left: 2% !important;
 }
 .trailer-play {
-	top: 85% !important;
-	@include media-breakpoint-down(sm){
-		top: 75% !important;
+	@include media-breakpoint-up(md){
+		top: 85% !important;
+	}
+	@include media-breakpoint-down(md){
+		bottom: 7% !important; // Otherwise it disappears! :(
 	}
 	left: 0 !important;
 	right: 0 !important;
