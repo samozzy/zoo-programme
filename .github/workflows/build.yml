@@ -48,12 +48,13 @@ jobs:
         run: bundle install --jobs 4 --retry 3
 
       ### BUILD ###
-      - name: Build Site - Jekyll & Tina 
+      - name: Build Site - Jekyll # & Tina 
         env: 
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           READ_TOKEN: ${{ secrets.READ_TOKEN }} 
           JEKYLL_ENV: production 
-        run: yarn run tinacms dev --noWatch && yarn run tinacms build && bundle exec jekyll build 
+        # run: yarn run tinacms dev --noWatch && yarn run tinacms build && bundle exec jekyll build 
+        run: bundle exec jekyll build
 
       ### HTMLTEST ###
       # (This tool makes sure all the links work; may require some tweaking and is optional)
