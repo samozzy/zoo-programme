@@ -81,7 +81,7 @@ layout: page
 					</div>
 					<div class="collapse" id="filter-price">
 						<div class="card-body">
-							{% assign highest_priced_show = site.data.shows | sort: "price.standard" | reverse | first %}
+							{% assign highest_priced_show = site.data.shows.shows | sort: "price.standard" | reverse | first %}
 							{% assign highest_price = highest_priced_show.price.standard %}
 
 							{% assign price_float = highest_price | divided_by: 5.0 %}
@@ -147,7 +147,7 @@ layout: page
 				</div>
 			</div>
 			<!-- Genres -->
-			{% assign genres_data = site.data.shows | map: "genre" | compact | uniq %}
+			{% assign genres_data = site.data.shows.shows | map: "genre" | compact | uniq %}
 			{% assign genres = "" | split: "" %}
 			{% for g in genres_data %}
 				{% assign gs = g | strip | downcase %}
@@ -175,7 +175,7 @@ layout: page
 			</div>
 			{% endunless %}
 			<!-- Access and Content Warnings -->
-			{% assign content_warnings_data = site.data.shows | map: "content_warnings" | compact | uniq %}
+			{% assign content_warnings_data = site.data.shows.shows | map: "content_warnings" | compact | uniq %}
 			{% assign content_warnings = "" | split: "" %}
 			{% for g in content_warnings_data %}
 				{% assign gs = g | strip | downcase %}
@@ -183,7 +183,7 @@ layout: page
 			{% endfor %}
 			{% assign content_warnings = content_warnings | sort_natural %}
 
-			{% assign access_data = site.data.shows | map: "access" | compact | uniq %}
+			{% assign access_data = site.data.shows.shows | map: "access" | compact | uniq %}
 			{% assign access = "" | split: "" %}
 			{% for g in access_data %}
 				{% assign gs = g | strip | downcase %}
@@ -334,10 +334,10 @@ layout: page
 		<div class="d-none col-12 w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
-		{% assign available_shows = site.data.shows | where_exp: "show", "show.is_draft!=true" | sort_natural: "title" %}
+		{% assign available_shows = site.data.shows.shows | where_exp: "show", "show.is_draft!=true" | sort_natural: "title" %}
 		{% include programme-entry.html available_shows=available_shows additional_class='by-title-visible' %}
 
-		{% assign available_shows = site.data.shows | sort: "start_time" %}
+		{% assign available_shows = site.data.shows.shows | sort: "start_time" %}
 		{% include programme-entry.html available_shows=available_shows additional_class='by-time-hidden' %}
 
 	</div>

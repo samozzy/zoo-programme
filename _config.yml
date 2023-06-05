@@ -71,11 +71,11 @@ defaults:
 page_gen-dirs: true
 
 page_gen:
-  - data: 'shows'
+  - data: 'shows.shows'
     template: 'show' 
     name: 'title'  
     dir: 'programme' 
-  - data: 'shows'
+  - data: 'shows.shows'
     template: 'show_redirect'
     name: 'title'
     dir: '/' 

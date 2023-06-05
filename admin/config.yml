@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'static'
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    folder: '_content/'
+    create: false 
+    editor:
+      preview: false 
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'shows'
+    label: 'Shows'
+    editor:
+      preview: false
+    files:
+      - label: '2023'
+        name: '2023'
+        file: '_data/shows.yaml'
+        fields:
+          - label: 'Shows'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: Title, name: title, widget: string }

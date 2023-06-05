@@ -6,7 +6,7 @@
 	{% else %}
 		{% assign this_show = page %}
 	{% endif %}
-	{% assign ymal = site.data.shows | where_exp:'show','show.title != this_show.title' %}
+	{% assign ymal = site.data.shows.shows | where_exp:'show','show.title != this_show.title' %}
 {% endif %}
 {% assign ymal = ymal | where_exp: "show", "show.is_draft!=true" %}
 {% assign ymal = ymal | sample: 5 %}
