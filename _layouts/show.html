@@ -158,7 +158,13 @@ use_swiper: true
 			{% assign has_reviews = true %}
 		{% endif %}
 		{% if show.links and show.links != empty %}
-			{% assign has_links = true %}
+			{% assign has_links = false %}
+			{% for l in show.links %}
+				{% if l.link and l.link != empty %}
+					{% assign has_links = true %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
 		{% endif %}
 		{% if has_reviews %}
 			<div class="col-12 my-4">
@@ -208,26 +214,28 @@ use_swiper: true
 				<h3 class="text-zoo-orange">Follow the show</h3>
 				<div>
 					{% for l in show.links %}
-						{% assign first_char = l.link | slice: 0 %}
-						{% if first_char == '@' and l.platform %}
-							{% assign platform = l.platform | downcase %}
-							{% assign this_link = l.link | remove: "@" %}
-							{% assign platform_link = site.data.icons | where: "type", platform | first %}
-							{% assign real_link = platform_link.url | append: this_link %}
-						{% endif %}
-						<a href="{{ real_link | default: l.link }}" target="_blank" class="show-social-link">
-							{% if l.platform %}
+						{% if l.link and l.link != empty %}
+							{% assign first_char = l.link | slice: 0 %}
+							{% if first_char == '@' and l.platform %}
 								{% assign platform = l.platform | downcase %}
-								{% assign icon_match = site.data.icons | where: "type", platform | first %}
-								{% if icon_match %}
-									<i class="fa-fw fa-2x {{ icon_match.icon }}"></i>
+								{% assign this_link = l.link | remove: "@" %}
+								{% assign platform_link = site.data.icons | where: "type", platform | first %}
+								{% assign real_link = platform_link.url | append: this_link %}
+							{% endif %}
+							<a href="{{ real_link | default: l.link }}" target="_blank" class="show-social-link">
+								{% if l.platform %}
+									{% assign platform = l.platform | downcase %}
+									{% assign icon_match = site.data.icons | where: "type", platform | first %}
+									{% if icon_match %}
+										<i class="fa-fw fa-2x {{ icon_match.icon }}"></i>
+									{% else %}
+										{{ l.title }}
+									{% endif %}
 								{% else %}
 									{{ l.title }}
 								{% endif %}
-							{% else %}
-								{{ l.title }}
-							{% endif %}
-						</a>
+							</a>
+						{% endif %}
 					{% endfor %}
 				</div>
 			</div>
