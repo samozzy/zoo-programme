@@ -221,6 +221,9 @@ use_swiper: true
 								{% assign this_link = l.link | remove: "@" %}
 								{% assign platform_link = site.data.icons | where: "type", platform | first %}
 								{% assign real_link = platform_link.url | append: this_link %}
+							{% else %}
+								{% assign real_link = l.link %}
+								{% comment %}Override previous iteration's assignment if necessary{% endcomment %}
 							{% endif %}
 							<a href="{{ real_link | default: l.link }}" target="_blank" class="show-social-link">
 								{% if l.platform %}
