@@ -21,23 +21,200 @@ collections:
         name: '2023'
         file: '_data/shows.yaml'
         fields:
-          - label: 'Shows'
-            name: 'shows'
-            widget: 'list'
+          # - label: 'Shows'
+          #   name: 'shows'
+          #   widget: 'list'
+          #   fields:
+          #     - { label: Title, name: title, widget: string }
+          #     - { label: Company, ''}
+          #     - { label: Venue, name: venue, widget: "select", options: ["ZOO Southside", "ZOO Playground"]}
+          #     - { label: Duration, name: duration, widget: string, hint: "" }
+          - widget: string
+            name: title
+            label: Title
+            hint: The show title
+          - widget: string
+            name: company
+            label: Company
+            hint: The company bringing the show (may be just the writer or lead artist in some cases)
+          - name: is_draft
+            widget: boolean
+            label: Draft
+            hint: Tick to hide the show from public listings<br>(the show page will still be generated, just not linked to from anywhere)
+          - name: venue
+            widget: select
+            options: ["Zoo Southside", "Zoo Playground"]
+            label: Venue
+            hint: 'Which Zoo building is the show in? '
+          - widget: string
+            name: start_time
+            label: Start Time
+            hint: When does the performance start? <br>(Assumes all performances will start at the same time)
+          - widget: string
+            name: duration
+            label: Duration
+            hint: How long is the performance?<br>Use mins <em>or</em> hours, eg. 45mins; 1hr45
+          - widget: list
+            name: performances
+            label: Performance Dates
+            hint: List all performance dates for the show
+          - widget: list
+            name: price
+            label: Pricing
             fields:
-              - { label: Title, name: title, widget: string }
-  - name: 'genres'
-    label: 'genres'
-    editor:
-      preview: false
-    files:
-      - label: 'Genres'
-        name: 'genre'
-        file: '_data/tags.yml'
-        fields:
-          - label: 'Genres'
-            name: 'genres'
-            widget: 'list'
+              - widget: number
+                name: standard
+                label: Standard
+                hint: Just the number, no currency please.
+              - widget: number
+                name: concession
+                label: Concession
+                hint: "(Optional) Just the number, no currency please."
+              - widget: number
+                name: weekend
+                label: Friday-Sunday pricing
+                hint: "(Optional) Just the number, no currency please."
+              - widget: number
+                name: weekend_conc
+                label: Friday-Sunday concession pricing 
+                hint: "(Optional) Just the number, no currency please."
+              - widget: number
+                name: preview
+                label: Preview
+                hint: "(Optional) Just the number, no currency please."
+              - name: price_range
+                widget: string
+                config:
+                  required: false
+                label: Price Range
+                hint: If prices vary, give a range here, eg. "£4 - 14". You can also
+                  use words, but keep deal info (eg. BOGOF, weekend) to the ticket deals field.
+              - name: ticket_deals
+                widget: list
+                label: Ticket Deals
+                hint: Any ticket deals this show has, eg BOGOF, half price hut, etc.
+
+          - type: list
+            name: genre
+            label: Tags
+            config:
+              use_select: false
+              source:
+                type: documents
+                section: ''
+                file: _data/tags.yml
+          - name: age_guidance
+            type: select
+            default: []
+            config:
+              required: false
+              options: []
+              source:
+                type: documents
+                section: age-ratings
+                file: _data/age-ratings.yml
+                path: Age ratings
+            label: Age Guidance
+            hint: Age guidance for shows
+
+
+          - name: ticket_url
+            widget: string
+            label: Ticket URL
+            hint: Link to the page to book tickets
+          - name: booking_unavailable
+            widget: boolean
+            default: false 
+            label: Booking Unavailable
+            hint: Tick if tickets are not yet on sale but you do still want the show to be listed (if you don't want it listed, use the draft toggle)
+          - name: age_restricted
+            widget: boolean
+            label: Age Restricted
+            hint: Tick this if the age guidance is an age restriction for the show
+          - widget: select
+            name: access
+            label: Access Provisions
+            hint: Eg. BSL, Captions
+            multiple: true
+            options:
+              - bsl
+              - captions
+              - relaxed
+              - ad
+          - widget: string
+            name: access_details
+            label: Access Performance Details
+            hint: Eg. Which performances have captions, etc.
+
+          - widget: list
+            name: content_warnings
+            label: Content Warnings
+            hint: Eg. Strobe lighting, strong language. These can be filtered.
+          - name: content_warning_detail
+            widget: list
+            label: Content Warning Detail
+            hint: Details about where the content warnings feature in the show, or
+              weirdly specific content warnings (eg. a dead pig)
+          - name: image
+            widget: file
+            choose_url: true 
+            label: Image
+            hint: Show image. Must be square. If unset, uses a placeholder.
+          - name: image_alt
+            widget: string
+            label: Image alt text
+            hint: Textual description of the show image (if unset, it's the show title)
+
+          - widget: list
+            name: video_embeds
+            label: Video Embed
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Colour, name: color, widget: string }
+              - widget: string
+                name: title
+                label: Title
+                hint: 'The title of this video. Eg: "Trailer".'
+              - name: embed_code
+                widget: string
+                label: Embed Code
+                hint: The video embed code from Vimeo
+            hint: An embedded video for the show, typically a trailer.
+          - widget: list
+            name: links
+            label: Links
+            fields:
+              - widget: string
+                name: title
+                label: Title
+                hint: What the link should say<br>(If it's a social media link, the icon will take precedence)
+              - widget: string
+                name: link
+                label: Link
+              - widget: string
+                name: platform
+                label: Platform
+                hint: If it's Twitter, Facebook, Instagram, YouTube, or TikTok, an icon will appear instead of the name
+          - widget: list
+            name: reviews
+            label: Reviews
+            fields:
+            - widget: string
+              name: Publisher
+              label: publisher
+              hint: 'This could be the publication or the author '
+            - widget: string
+              name: quote
+              label: quote
+            - widget: number
+              name: stars
+              label: stars
+              min: 0
+              max: 5
+              step: 0.5
+              value_type: "float" 
+
+            - widget: text
+              name: copy_short
+              label: Copy (Short)
+            - widget: text
+              name: copy_long
+              label: Copy (Long)
