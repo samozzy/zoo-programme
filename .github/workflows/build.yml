@@ -68,7 +68,6 @@ jobs:
         uses: wjdp/htmltest-action@master
         continue-on-error: true
         with:
-          IgnoreUrls: "twitter.com"
           path: _site
 
       ### DEPLOY ###

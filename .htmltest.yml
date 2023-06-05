@@ -1,0 +1,4 @@
+DirectoryPath: _site
+CheckDoctype: false
+IgnoreURLs:
+- "twitter.com"
