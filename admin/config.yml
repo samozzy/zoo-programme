@@ -58,7 +58,7 @@ collections:
                 name: performances
                 label: Performance Dates
                 hint: List all performance dates for the show
-                field: {label: date, name: date, widget: string, hint: YYYY-MM-DD format}
+                field: {label: date, name: date, widget: list, hint: YYYY-MM-DD format}
               - widget: object
                 name: price
                 label: Pricing
@@ -148,7 +148,7 @@ collections:
                 label: Access Performance Details
                 hint: Eg. Which performances have captions, etc.
 
-              - widget: object
+              - widget: list
                 name: content_warnings
                 label: Content Warnings
                 hint: Eg. Strobe lighting, strong language. These can be filtered.
@@ -168,7 +168,7 @@ collections:
                 label: Image alt text
                 hint: Textual description of the show image (if unset, it's the show title)
 
-              - widget: object
+              - widget: list
                 name: video_embeds
                 label: Video Embed
                 fields:
@@ -181,7 +181,7 @@ collections:
                     label: Embed Code
                     hint: The video embed code from Vimeo
                 hint: An embedded video for the show, typically a trailer.
-              - widget: object
+              - widget: list
                 name: links
                 label: Links
                 fields:
@@ -196,7 +196,7 @@ collections:
                     name: platform
                     label: Platform
                     hint: If it's Twitter, Facebook, Instagram, YouTube, or TikTok, an icon will appear instead of the name
-              - widget: object
+              - widget: list
                 name: reviews
                 label: Reviews
                 fields:
