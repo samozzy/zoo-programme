@@ -65,7 +65,7 @@ jobs:
           path: tmp/htmltest
           key: htmltest-1
       - name: Test built site with htmltest
-        uses: wjdp/htmltest-action@v0.17.0
+        uses: wjdp/htmltest-action@master
         continue-on-error: true
         with:
           IgnoreUrls: "twitter.com"
