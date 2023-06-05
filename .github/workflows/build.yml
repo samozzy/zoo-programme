@@ -28,18 +28,18 @@ jobs:
         with:
           ruby-version: 2.7.0
           bundler-cache: true
-      - name: Install Node 
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+      # - name: Install Node 
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: 16
       - name: Cache Ruby gems
         id: cache-gems
         uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
-      - name: Install yarn dependencies (for TinaCMS)
-        run: npm install && yarn install --immutable 
+      # - name: Install yarn dependencies (for TinaCMS)
+      #   run: npm install && yarn install --immutable 
       - name: Set deployment flag 
         run: bundle config set --local deployment 'true' 
       - name: Set Ruby gems directory
