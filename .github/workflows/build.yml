@@ -69,6 +69,7 @@ jobs:
         continue-on-error: true
         with:
           path: _site
+          config: .htmltest.yml
 
       ### DEPLOY ###
       - name: Publish to GH Pages 🚀
