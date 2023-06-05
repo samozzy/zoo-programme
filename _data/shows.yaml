@@ -23,8 +23,8 @@ shows:
     price:
       standard: 13
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 10
+      weekend: 13
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates:
@@ -68,8 +68,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 9
     preview: YES
     preview_dates: 04/08/2023, 05/08/2023
@@ -109,8 +109,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -154,8 +154,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -195,8 +195,8 @@ shows:
     price:
       standard: 13
       concession: 10.5
-      standard_weekend: 14
-      standard_weekend:_conc: 11.5
+      weekend: 14
+      weekend_conc: 11.5
       preview: 8
     preview: YES
     preview_dates: 07/08/2023
@@ -238,8 +238,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 8
     preview: YES
     preview_dates: 04/08/2023
@@ -279,8 +279,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -322,8 +322,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -379,8 +379,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -421,8 +421,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -472,8 +472,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -515,8 +515,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -562,8 +562,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 10
+      weekend: 13
+      weekend_conc: 10
       preview: 8
     preview: YES
     preview_dates: 04/08/2023
@@ -617,8 +617,8 @@ shows:
     price:
       standard: 12
       concession: 11
-      standard_weekend: 13
-      standard_weekend:_conc: 
+      weekend: 13
+      weekend_conc: 
       preview: 10
     preview: YES
     preview_dates: 04/08/2023, 05/08/2023
@@ -658,8 +658,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -702,8 +702,8 @@ shows:
     price:
       standard: 10
       concession: 10
-      standard_weekend: 10
-      standard_weekend:_conc: 10
+      weekend: 10
+      weekend_conc: 10
       preview: 9
     preview: YES
     preview_dates: 04/08/2023
@@ -745,8 +745,8 @@ shows:
     price:
       standard: 18
       concession: 16
-      standard_weekend: 18
-      standard_weekend:_conc: 16
+      weekend: 18
+      weekend_conc: 16
       preview: 
     preview: NO
     preview_dates: 
@@ -788,8 +788,8 @@ shows:
     price:
       standard: 10
       concession: 
-      standard_weekend: 12
-      standard_weekend:_conc: 
+      weekend: 12
+      weekend_conc: 
       preview: 8
     preview: YES
     preview_dates: 04/08/2023
@@ -835,8 +835,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 10
     preview: YES
     preview_dates: 04/08/2023
@@ -880,8 +880,8 @@ shows:
     price:
       standard: 17
       concession: 15
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -921,8 +921,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -968,8 +968,8 @@ shows:
     price:
       standard: 15
       concession: 13
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -1013,8 +1013,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 12
-      standard_weekend:_conc: 10
+      weekend: 12
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1054,8 +1054,8 @@ shows:
     price:
       standard: 12.5
       concession: 10.5
-      standard_weekend: 12.5
-      standard_weekend:_conc: 10.5
+      weekend: 12.5
+      weekend_conc: 10.5
       preview: 
     preview: NO
     preview_dates: 
@@ -1099,8 +1099,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -1144,8 +1144,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 12.5
-      standard_weekend:_conc: 10
+      weekend: 12.5
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1185,8 +1185,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -1226,8 +1226,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 12.5
-      standard_weekend:_conc: 10.5
+      weekend: 12.5
+      weekend_conc: 10.5
       preview: 
     preview: NO
     preview_dates: 
@@ -1273,8 +1273,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 12
-      standard_weekend:_conc: 10
+      weekend: 12
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1316,8 +1316,8 @@ shows:
     price:
       standard: 11
       concession: 10
-      standard_weekend: 12
-      standard_weekend:_conc: 10
+      weekend: 12
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1357,8 +1357,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 15
-      standard_weekend:_conc: 11
+      weekend: 15
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -1398,8 +1398,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 
     preview: NO
     preview_dates: 
@@ -1439,8 +1439,8 @@ shows:
     price:
       standard: 16
       concession: 14
-      standard_weekend: 17
-      standard_weekend:_conc: 15
+      weekend: 17
+      weekend_conc: 15
       preview: 
     preview: NO
     preview_dates: 
@@ -1482,8 +1482,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 10
+      weekend: 13
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1523,8 +1523,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 10
+      weekend: 13
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1570,8 +1570,8 @@ shows:
     price:
       standard: 12
       concession: 10
-      standard_weekend: 13
-      standard_weekend:_conc: 11
+      weekend: 13
+      weekend_conc: 11
       preview: 10
     preview: YES
     preview_dates: 04/08/2023
@@ -1614,8 +1614,8 @@ shows:
     price:
       standard: 11
       concession: 10
-      standard_weekend: 11
-      standard_weekend:_conc: 10
+      weekend: 11
+      weekend_conc: 10
       preview: 
     preview: NO
     preview_dates: 
@@ -1657,8 +1657,8 @@ shows:
     price:
       standard: 10
       concession: 
-      standard_weekend: 10
-      standard_weekend:_conc: 
+      weekend: 10
+      weekend_conc: 
       preview: 
     preview: NO
     preview_dates: 
@@ -1702,8 +1702,8 @@ shows:
     price:
       standard: 
       concession: 
-      standard_weekend: 
-      standard_weekend:_conc: 
+      weekend: 
+      weekend_conc: 
       preview: 
     preview: 
     preview_dates: 
@@ -1746,8 +1746,8 @@ shows:
     price:
       standard: 
       concession: 
-      standard_weekend: 
-      standard_weekend:_conc: 
+      weekend: 
+      weekend_conc: 
       preview: 
     preview: 
     preview_dates: 
