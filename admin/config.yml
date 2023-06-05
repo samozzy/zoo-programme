@@ -58,6 +58,7 @@ collections:
                 name: performances
                 label: Performance Dates
                 hint: List all performance dates for the show
+                field: {label: date, name: date, widget: string, hint: YYYY-MM-DD format}
               - widget: list
                 name: price
                 label: Pricing
