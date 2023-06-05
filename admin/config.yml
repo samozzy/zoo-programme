@@ -54,12 +54,12 @@ collections:
                 name: duration
                 label: Duration
                 hint: How long is the performance? Use mins __or__ hours, eg. 45mins; 1hr45
-              - widget: list
+              - widget: object
                 name: performances
                 label: Performance Dates
                 hint: List all performance dates for the show
                 field: {label: date, name: date, widget: string, hint: YYYY-MM-DD format}
-              - widget: list
+              - widget: object
                 name: price
                 label: Pricing
                 fields:
@@ -91,32 +91,33 @@ collections:
                     hint: If prices vary, give a range here, eg. "£4 - 14". You can also
                       use words, but keep deal info (eg. BOGOF, weekend) to the ticket deals field.
                   - name: ticket_deals
-                    widget: list
+                    widget: object
                     label: Ticket Deals
                     hint: Any ticket deals this show has, eg BOGOF, half price hut, etc.
+                    field: {label: deal, name: deal, widget: string}
 
-              - type: list
-                name: genre
-                label: Tags
-                config:
-                  use_select: false
-                  source:
-                    type: documents
-                    section: ''
-                    file: _data/tags.yml
-              - name: age_guidance
-                type: select
-                default: []
-                config:
-                  required: false
-                  options: []
-                  source:
-                    type: documents
-                    section: age-ratings
-                    file: _data/age-ratings.yml
-                    path: Age ratings
-                label: Age Guidance
-                hint: Age guidance for shows
+              # - type: list
+              #   name: genre
+              #   label: Tags
+              #   config:
+              #     use_select: false
+              #     source:
+              #       type: documents
+              #       section: ''
+              #       file: _data/tags.yml
+              # - name: age_guidance
+              #   type: select
+              #   default: []
+              #   config:
+              #     required: false
+              #     options: []
+              #     source:
+              #       type: documents
+              #       section: age-ratings
+              #       file: _data/age-ratings.yml
+              #       path: Age ratings
+              #   label: Age Guidance
+              #   hint: Age guidance for shows
 
 
               - name: ticket_url
@@ -147,10 +148,11 @@ collections:
                 label: Access Performance Details
                 hint: Eg. Which performances have captions, etc.
 
-              - widget: list
+              - widget: object
                 name: content_warnings
                 label: Content Warnings
                 hint: Eg. Strobe lighting, strong language. These can be filtered.
+                field: {label: warning, name: warning, widget: string}
               - name: content_warning_detail
                 widget: list
                 label: Content Warning Detail
@@ -166,7 +168,7 @@ collections:
                 label: Image alt text
                 hint: Textual description of the show image (if unset, it's the show title)
 
-              - widget: list
+              - widget: object
                 name: video_embeds
                 label: Video Embed
                 fields:
@@ -179,7 +181,7 @@ collections:
                     label: Embed Code
                     hint: The video embed code from Vimeo
                 hint: An embedded video for the show, typically a trailer.
-              - widget: list
+              - widget: object
                 name: links
                 label: Links
                 fields:
@@ -194,7 +196,7 @@ collections:
                     name: platform
                     label: Platform
                     hint: If it's Twitter, Facebook, Instagram, YouTube, or TikTok, an icon will appear instead of the name
-              - widget: list
+              - widget: object
                 name: reviews
                 label: Reviews
                 fields:
@@ -212,10 +214,9 @@ collections:
                   max: 5
                   step: 0.5
                   value_type: "float" 
-
-                - widget: markdown
-                  name: copy_short
-                  label: Copy (Short)
-                - widget: markdown
-                  name: copy_long
-                  label: Copy (Long)
+              - widget: markdown
+                name: copy_short
+                label: Copy (Short)
+              - widget: markdown
+                name: copy_long
+                label: Copy (Long)
