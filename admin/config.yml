@@ -22,7 +22,22 @@ collections:
         file: '_data/shows.yaml'
         fields:
           - label: 'Shows'
-            name: 'items'
+            name: 'shows'
             widget: 'list'
             fields:
               - { label: Title, name: title, widget: string }
+  - name: 'genres'
+    label: 'genres'
+    editor:
+      preview: false
+    files:
+      - label: 'Genres'
+        name: 'genre'
+        file: '_data/tags.yml'
+        fields:
+          - label: 'Genres'
+            name: 'genres'
+            widget: 'list'
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Colour, name: color, widget: string }
