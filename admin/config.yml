@@ -40,7 +40,7 @@ collections:
               - name: is_draft
                 widget: boolean
                 label: Draft
-                hint: Tick to hide the show from public listings<br>(the show page will still be generated, just not linked to from anywhere)
+                hint: Tick to hide the show from public listings (the show page will still be generated, just not linked to from anywhere)
               - name: venue
                 widget: select
                 options: ["Zoo Southside", "Zoo Playground"]
@@ -49,11 +49,11 @@ collections:
               - widget: string
                 name: start_time
                 label: Start Time
-                hint: When does the performance start? <br>(Assumes all performances will start at the same time)
+                hint: When does the performance start?  (Assumes all performances will start at the same time)
               - widget: string
                 name: duration
                 label: Duration
-                hint: How long is the performance?<br>Use mins <em>or</em> hours, eg. 45mins; 1hr45
+                hint: How long is the performance? Use mins __or__ hours, eg. 45mins; 1hr45
               - widget: list
                 name: performances
                 label: Performance Dates
@@ -185,7 +185,7 @@ collections:
                   - widget: string
                     name: title
                     label: Title
-                    hint: What the link should say<br>(If it's a social media link, the icon will take precedence)
+                    hint: What the link should say (If it's a social media link, the icon will take precedence)
                   - widget: string
                     name: link
                     label: Link
