@@ -43,7 +43,7 @@ collections:
                 hint: Tick to hide the show from public listings (the show page will still be generated, just not linked to from anywhere)
               - name: venue
                 widget: select
-                options: ["Zoo Southside", "Zoo Playground"]
+                options: ["ZOO Southside", "ZOO Playground"]
                 label: Venue
                 hint: 'Which Zoo building is the show in? '
               - widget: string
