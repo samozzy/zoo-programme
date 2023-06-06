@@ -137,7 +137,7 @@ collections:
                 widget: relation
                 collection: "age-ratings"
                 value_field: "rating" 
-                search_fields: "rating" 
+                search_fields: ["rating"] 
                 required: false
                 label: Age Guidance
                 hint: Age guidance for shows
