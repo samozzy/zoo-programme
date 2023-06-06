@@ -2050,7 +2050,7 @@ shows:
         link: "@tintedtheatre"
     image: https://eventotron.imgix.net/04-05-2023-115714-9736.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1498/
     company: Tinted Theatre
     content_warnings: []
     video_embeds:
