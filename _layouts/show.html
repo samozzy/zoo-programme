@@ -39,7 +39,8 @@ use_swiper: true
 				{% if show.start_time and show.start_time != empty %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-clock"></i><br>
-						{{ show.start_time }}
+						{% include show/show-start-time.html show=show %}
+						{{ show_start_time }} 
 						{% if show.duration and show.duration != empty %}
 							<br>({{ show.duration }})
 						{% endif %}

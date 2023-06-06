@@ -1,0 +1,17 @@
+{% assign raw_start_time = include.show.start_time %}
+{% if raw_start_time and raw_start_time != empty %}
+	{% if raw_start_time contains ':' %}
+		{% comment %} Assume it is HH:MM {% endcomment %}
+		{% assign show_start_time = raw_start_time %}
+
+	{% else %}
+		{% comment %} Assume it is a number in the format number of minutes since midnight and requires processing {% endcomment %}
+
+		{% assign the_seconds = show.start_time | times: 60 %} {% comment %} Convert to seconds {% endcomment %}
+		{% assign start_datetime = site.dates.start | date: "%s" | plus: the_seconds | split: '.' | first %} {% comment %} Add seconds between 1970 and the start date {% endcomment %}
+		{% assign show_start_time = start_datetime | date: "%R" %}
+
+	{% endif %}
+{% else %}
+	{% assign show_start_time = nil %}
+{% endif %}

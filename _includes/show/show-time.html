@@ -7,5 +7,7 @@
 	{% endunless %}
 {% endunless %}
 {% if show.start_time and show.start_time != empty %}
-	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show.start_time | date: "%R" }} {% if show.duration and show.duration !=empty %}({{ duration }}){% endif %}</p>
+	{% include show/show-start-time.html show=show %}
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;{{ show_start_time }} {% if show.duration and show.duration !=empty %}({{ duration }}){% endif %}</p>
 {% endif %}
