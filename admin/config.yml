@@ -22,10 +22,9 @@ collections:
         file: '_data/age-ratings.yml'
         fields:
           - label: 'Age Ratings'
-            name: 'age-ratings'
+            name: 'ratings'
             widget: 'list'
-            fields: 
-              - {label: rating, name: rating, widget: string, summary: '{{fields.rating}}'}
+            field: {label: rating, name: rating, widget: string, summary: '{{field.rating}}'}
   - name: 'shows'
     label: 'Shows'
     editor:
