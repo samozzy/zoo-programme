@@ -2681,6 +2681,15 @@ shows:
       25/08/2023, 26/08/2023, 27/08/2023
     captioning_dates: null
     genre: null
+    performances:
+      - 2023-08-20
+      - 2023-08-21
+      - 2023-08-22
+      - 2023-08-23
+      - 2023-08-24
+      - 2023-08-25
+      - 2023-08-26
+      - 2023-08-27
     access: []
     image_alt: ""
     copy_long: >
@@ -2698,17 +2707,18 @@ shows:
       weekend: 10
       weekend_conc: null
       preview: null
+    start_time: 20:35
     booking_unavailable: false
     is_draft: false
     preview_dates: null
     venue: ZOO Playground
-    duration: null
+    duration: 1hr
     relaxed_dates: null
     performance_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023,
       25/08/2023, 26/08/2023, 27/08/2023
     no_shows: null
     title: Monologue Night
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -2723,7 +2733,9 @@ shows:
     age_restricted: false
     ticket_url: ""
     company: A Perfectly Average Glimpse Into A Perfectly Average Day
-    content_warnings: []
+    content_warnings:
+      - Contrains Distressing or Potentially Triggering Themes
+      - Strong Language/Swearing
     video_embeds:
       - title: ""
         embed_code: ""
