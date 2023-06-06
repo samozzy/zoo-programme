@@ -134,7 +134,7 @@ layout: page
 					<div class="collapse" id="filter-age">
 						<div class="card-body">
 							<div class="d-flex flex-row flex-wrap">
-								{% for rating in site.data.age-ratings %}
+								{% for rating in site.data.age-ratings.ratings %}
 									<input type="checkbox" name="filter-age-item" class="btn-check" id="age-{{ rating | slugify }}" autocomplete="off" value="{{ rating | slugify }}">
 									<label id="btn-age-{{ rating | slugify }}" class="btn-filter btn-age" for="age-{{ rating | slugify }}">{{ rating }}</label><br>
 								{% endfor %}

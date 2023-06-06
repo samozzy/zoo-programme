@@ -12,6 +12,18 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'age-ratings'
+    label: 'Age Ratings'
+    editor:
+      preview: false 
+    files:
+      - label: 'Age Ratings'
+        name: 'age-ratings'
+        file: '_data/age-ratings.yml'
+        fields:
+          - label: 'rating'
+            name: 'rating'
+            widget: 'string'
   - name: 'shows'
     label: 'Shows'
     editor:
