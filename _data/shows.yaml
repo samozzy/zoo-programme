@@ -51,7 +51,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: What Does Stuff Do?
-    age_guidance: ""
+    age_guidance: 12+
     links:
       - title: Instagram
         platform: Instagram
@@ -126,7 +126,7 @@ shows:
     performance_dates: []
     no_shows: 15/08/2023
     title: CREEKSHOW
-    age_guidance: ""
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -187,7 +187,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: Stuck In Free Fall
-    age_guidance: null
+    age_guidance: 12+
     links:
       - title: Twitter
         platform: twitter
@@ -262,7 +262,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: Gerry Carroll - Young
-    age_guidance: ""
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -330,7 +330,7 @@ shows:
     performance_dates: []
     no_shows: 04/08/2023, 05/08/2023, 06/08/2023, 14/08/2023, 21/08/2023
     title: The Last of the Soviets
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -404,7 +404,7 @@ shows:
     performance_dates: []
     no_shows: 16/08/2023
     title: Fool’s Gold
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -476,7 +476,7 @@ shows:
     performance_dates: []
     no_shows: 16/08/2023
     title: Two Cats on a Date
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -488,7 +488,7 @@ shows:
         platform: Facebook
         link: null
     image: https://eventotron.imgix.net/03-04-2023-090000-7720.jpg
-    age_restricted: false
+    age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1500/
     company: Two Cats on a Date
     content_warnings:
@@ -542,7 +542,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: Tourist
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -636,7 +636,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: Funeral
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -709,7 +709,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: The Van Paemel Family
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -720,6 +720,8 @@ shows:
       - title: Facebook
         platform: Facebook
         link: null
+    content_warning_detail:
+      - Played in Dutch with English subtitles
     image: https://eventotron.imgix.net/03-03-2023-133416-7584.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1501/
