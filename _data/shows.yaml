@@ -1548,7 +1548,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: Certain Death and Other Considerations
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -1614,7 +1614,7 @@ shows:
     performance_dates: []
     no_shows: 09/08/2023, 16/08/2023
     title: Harvest
-    age_guidance: null
+    age_guidance: 12+
     links:
       - title: Twitter
         platform: twitter
@@ -1689,7 +1689,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: Aionos
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -1705,7 +1705,7 @@ shows:
         required to stand or walk. This pertains only to those participating
         through VR.
     image: https://eventotron.imgix.net/04-05-2023-022950-4366.jpg
-    age_restricted: false
+    age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1473/
     company: Toasterlab
     content_warnings:
@@ -1771,7 +1771,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: "SNEAKPEEK: SHADOW GAME"
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -1836,7 +1836,7 @@ shows:
       25/08/2023, 26/08/2023, 27/08/2023
     no_shows: null
     title: "Horizon Showcase: Little Wimmin"
-    age_guidance: null
+    age_guidance: 12+
     links:
       - title: Twitter
         platform: twitter
@@ -1847,6 +1847,13 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@figsinwigs"
+    content_warning_detail:
+      - Characters expressing anger
+      - flashing lights
+      - haze
+      - heavily dialogue-driven scenes
+      - loud/repetitive/high pitched/unexpected or overlapping sound
+      - total audience blackout
     image: https://eventotron.imgix.net/03-31-2023-132739-3313.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1489/
