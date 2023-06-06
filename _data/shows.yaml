@@ -1034,7 +1034,7 @@ shows:
     performance_dates: []
     no_shows: 14/08/2023
     title: Why English?
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -1101,7 +1101,7 @@ shows:
       09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
       21/08/2023
     title: Dances Like a Bomb
-    age_guidance: null
+    age_guidance: 12+
     links:
       - title: Twitter
         platform: twitter
@@ -1183,7 +1183,7 @@ shows:
     performance_dates: []
     no_shows: 14/08/2023
     title: Groovicle
-    age_guidance: null
+    age_guidance: 14+
     links:
       - title: Twitter
         platform: twitter
@@ -1255,7 +1255,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: Andronicus Synecdoche
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -1333,7 +1333,7 @@ shows:
     performance_dates: []
     no_shows: 14/08/2023, 21/08/2023
     title: Banana
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -1408,7 +1408,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: "Ed: the new, totally unofficial, ginger-inclusive parody sketch show"
-    age_guidance: null
+    age_guidance: 18+
     links:
       - title: Twitter
         platform: twitter
@@ -1473,7 +1473,7 @@ shows:
     performance_dates: []
     no_shows: 23/08/2023
     title: "Horizon Showcase: TOM"
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -1484,6 +1484,11 @@ shows:
       - title: Facebook
         platform: Facebook
         link: null
+    content_warning_detail:
+      - Flashing lights
+      - loud music
+      - haze
+      - simulation of violence
     image: https://eventotron.imgix.net/03-31-2023-124531-2161.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1488/
