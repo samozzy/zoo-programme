@@ -1048,6 +1048,19 @@ shows:
   - audio_desc_dates: null
     captioning_dates: null
     genre: null
+    performances:
+      - 2023-08-15
+      - 2023-08-16
+      - 2023-08-17
+      - 2023-08-18
+      - 2023-08-19
+      - 2023-08-20
+      - 2023-08-22
+      - 2023-08-23
+      - 2023-08-24
+      - 2023-08-25
+      - 2023-08-26
+      - 2023-08-27
     access: []
     image_alt: ""
     copy_long: >
@@ -1067,11 +1080,12 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
+    start_time: "1440"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
     venue: ZOO Southside
-    duration: null
+    duration: 1hr
     relaxed_dates: null
     performance_dates: []
     no_shows: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
@@ -1093,7 +1107,8 @@ shows:
     age_restricted: false
     ticket_url: ""
     company: Junk Ensemble
-    content_warnings: []
+    content_warnings:
+      - Scenes of Violence
     video_embeds:
       - title: Dances Like a Bomb Trailer
         embed_code: <iframe width="560" height="315"
