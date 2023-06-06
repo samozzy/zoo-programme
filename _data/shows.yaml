@@ -28,26 +28,18 @@ shows:
     performance_dates: []
     no_shows: null
     title: What Does Stuff Do?
-    age_guidance: null
+    age_guidance: ""
     links:
-      - title: Twitter
-        platform: twitter
-        link: null
       - title: Instagram
         platform: Instagram
         link: "@robinboondale"
-      - title: Facebook
-        platform: Facebook
-        link: null
     image: https://eventotron.imgix.net/02-28-2023-130334-6576.jpg
     age_restricted: false
     ticket_url: ""
     company: Robin Boon Dale
     content_warnings:
       - Strobe lighting
-    video_embeds:
-      - title: ""
-        embed_code: ""
+    video_embeds: []
   - audio_desc_dates: null
     captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
       09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
