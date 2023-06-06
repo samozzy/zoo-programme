@@ -137,9 +137,9 @@ collections:
                 widget: relation
                 collection: "age-ratings"
                 file: "age-ratings"
-                value_field: "age-ratings.*.rating" 
-                search_fields: ["age-ratings.*.rating"] 
-                display_fields: ["age-ratings.*.rating"]
+                value_field: "ratings.*.rating" 
+                search_fields: ["ratings.*.rating"] 
+                display_fields: ["ratings.*.rating"]
                 required: false
                 label: Age Guidance
                 hint: Age guidance for shows
