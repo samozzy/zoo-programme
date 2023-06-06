@@ -133,19 +133,13 @@ collections:
               #       type: documents
               #       section: ''
               #       file: _data/tags.yml
-              # - name: age_guidance
-              #   type: select
-              #   default: []
-              #   config:
-              #     required: false
-              #     options: []
-              #     source:
-              #       type: documents
-              #       section: age-ratings
-              #       file: _data/age-ratings.yml
-              #       path: Age ratings
-              #   label: Age Guidance
-              #   hint: Age guidance for shows
+              - name: age_guidance
+                widget: relation
+                collection: "age-ratings"
+                value_field: "rating" 
+                required: false
+                label: Age Guidance
+                hint: Age guidance for shows
 
 
               - name: ticket_url
