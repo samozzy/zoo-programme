@@ -1547,7 +1547,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/04-02-2023-011215-8337.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1476/
     company: Nine Twenty Collective
     content_warnings:
       - Strong Language/Swearing
