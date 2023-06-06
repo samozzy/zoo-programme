@@ -103,7 +103,7 @@ collections:
                     label: Ticket Deals
                     required: false
                     hint: Any ticket deals this show has, eg BOGOF, half price hut, etc.
-                    field: {label: deal, name: deal, widget: string}
+                    field: {label: deal, name: deal, widget: string, required: false}
 
               # - type: list
               #   name: genre
