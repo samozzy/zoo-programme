@@ -1338,7 +1338,7 @@ shows:
     content_warning_detail: []
     image: https://eventotron.imgix.net/03-07-2023-191651-4448.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1474/
     company: Michael Galligan
     content_warnings:
       - Audience Participation
