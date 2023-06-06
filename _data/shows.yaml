@@ -41,7 +41,7 @@ shows:
       weekend: 13
       weekend_conc: 10
       preview: null
-    start_time: 15:15
+    start_time: "1515"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
