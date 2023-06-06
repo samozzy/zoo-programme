@@ -133,18 +133,35 @@ collections:
               #       type: documents
               #       section: ''
               #       file: _data/tags.yml
-              - name: age_guidance
-                widget: relation
-                collection: "age-ratings"
-                file: "age-ratings"
-                value_field: "ratings.*.rating" 
-                search_fields: ["ratings.*.rating"] 
-                display_fields: ["ratings.*.rating"]
-                required: false
-                label: Age Guidance
-                hint: Age guidance for shows
 
-
+              # Relation doesn't work so using select for now
+              # - name: age_guidance
+              #   widget: relation
+              #   collection: "age-ratings"
+              #   file: "age-ratings"
+              #   value_field: "ratings.*.rating" 
+              #   search_fields: ["ratings.*.rating"] 
+              #   display_fields: ["ratings.*.rating"]
+              #   required: false
+              #   label: Age Guidance
+              #   hint: Age guidance for shows
+              - name: age_guidance 
+                widget: select 
+                multiple: false 
+                label: Age Guidance 
+                required: false 
+                options:  
+                    - 0+
+                    - 3+
+                    - 4+
+                    - 7+
+                    - 8+
+                    - 11+
+                    - 12+
+                    - 13+
+                    - 14+
+                    - 16+
+                    - 18+
               - name: ticket_url
                 widget: string
                 label: Ticket URL
