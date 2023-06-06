@@ -54,11 +54,11 @@ collections:
                 name: duration
                 label: Duration
                 hint: How long is the performance? Use mins __or__ hours, eg. 45mins; 1hr45
-              - widget: object
+              - widget: select
                 name: performances
                 label: Performance Dates
-                hint: List all performance dates for the show
-                field: {label: date, name: date, widget: list, hint: YYYY-MM-DD format}
+                hint: Select all the performance dates for the show.
+                options: ["2023-08-01","2023-08-02","2023-08-03","2023-08-04","2023-08-05","2023-08-06","2023-08-07","2023-08-08","2023-08-09","2023-08-10","2023-08-11","2023-08-12","2023-08-13","2023-08-14","2023-08-15","2023-08-16","2023-08-17","2023-08-18","2023-08-19","2023-08-20","2023-08-21","2023-08-22","2023-08-23","2023-08-24","2023-08-25","2023-08-26","2023-08-27","2023-08-28","2023-08-29","2023-08-30","2023-08-31"]
               - widget: object
                 name: price
                 label: Pricing
@@ -151,7 +151,7 @@ collections:
               - widget: list
                 name: content_warnings
                 label: Content Warnings
-                hint: Eg. Strobe lighting, strong language. These can be filtered.
+                hint: Eg. Strobe lighting, strong language. These can be filtered on the programme page.
                 field: {label: warning, name: warning, widget: string}
               - name: content_warning_detail
                 widget: list
