@@ -722,7 +722,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/03-03-2023-133416-7584.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1501/
     company: SKaGeN - Valentijn Dhaenens
     content_warnings:
       - Strong Language/Swearing
