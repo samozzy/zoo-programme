@@ -64,7 +64,7 @@ collections:
                 name: start_time
                 required: false 
                 label: Start Time
-                hint: When does the performance start?  (Assumes all performances will start at the same time)
+                hint: When does the performance start? In 24hr time with a colon, ie. 14:15 (Assumes all performances will start at the same time)
               - widget: string
                 name: duration
                 required: false
