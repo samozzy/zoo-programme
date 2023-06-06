@@ -58,7 +58,7 @@ shows:
         link: "@robinboondale"
     image: https://eventotron.imgix.net/02-28-2023-130334-6576.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1502/
     company: Robin Boon Dale
     content_warnings:
       - Strobe lighting
