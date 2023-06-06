@@ -1,81 +1,89 @@
----
 shows:
-  - title: "What Does Stuff Do?"
-    venue: ZOO Playground
-    duration: 
-    company: Robin Boon Dale
-    copy_long: |
-      Juggler, water-bender, and part-time deep-thinker Robin Dale presents his award-winning debut show. Featuring performance ping pong, and a motivational speech delivered by a man in swimming trunks, this eccentric renegade philosophy lecture flourishes into an astounding circo-odyssey.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    performances: 2023-08-01
     access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/02-28-2023-130334-6576.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Juggler, water-bender, and part-time deep-thinker Robin Dale presents his
+      award-winning debut show. Featuring performance ping pong, and a
+      motivational speech delivered by a man in swimming trunks, this eccentric
+      renegade philosophy lecture flourishes into an astounding circo-odyssey.
+    preview: NO
     price:
       standard: 13
       concession: 10
       weekend: 13
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates:
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: What Does Stuff Do?
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@robinboondale"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: CREEKSHOW
-    venue: ZOO Southside
-    duration: 
-    company: Jenny Witzel
-    copy_long: |
-      Writer/performer Jenny Witzel tells her story of living on a boat in an “up-and-coming” neighbourhood in South-East London. Born out of protest, CREEKSHOW is a love-letter to Deptford Creek and a community fighting for the right to remain. Addressing the wider problem of regeneration, it exposes the real-life impact of the current housing and cost-of-living crises. Bringing to life an archive of mudlarked artefacts, CREEKSHOW is a multimedia exploration of a place transformed beyond recognition. 
-        
-      Praise for director Luke Lewin Davies’ previous work: \*\*\*\*\* (British Theatre) \*\*\*\* (The List)
-      With sound design by 2023 Offie Award Winner Calum Perrin.
-    performance_dates: []
-    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    audio_desc_dates: 
+        link: null
+    image: https://eventotron.imgix.net/02-28-2023-130334-6576.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Robin Boon Dale
     content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
+      09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
+      15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023,
+      21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023,
+      27/08/2023
+    genre: null
     access:
       - captions
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-05-2023-211833-2935.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Writer/performer Jenny Witzel tells her story of living on a boat in an
+      “up-and-coming” neighbourhood in South-East London. Born out of protest,
+      CREEKSHOW is a love-letter to Deptford Creek and a community fighting for
+      the right to remain. Addressing the wider problem of regeneration, it
+      exposes the real-life impact of the current housing and cost-of-living
+      crises. Bringing to life an archive of mudlarked artefacts, CREEKSHOW is a
+      multimedia exploration of a place transformed beyond recognition. 
+        
+      Praise for director Luke Lewin Davies’ previous work: \*\*\*\*\* (British Theatre) \*\*\*\* (The List)
+
+      With sound design by 2023 Offie Award Winner Calum Perrin.
+    preview: YES
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
       preview: 9
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 15/08/2023
+    title: CREEKSHOW
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -85,40 +93,47 @@ shows:
         link: "@witzeljenny"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Stuck In Free Fall
-    venue: ZOO Playground
-    duration: 
-    company: Nicola Bullock Dances / NB(D)
-    copy_long: |
-      Stuck In Free Fall is a show about Nothing. In this genre-bending solo performance Nicola Bullock celebrates the contribution that "Nothing" - a feeling, state, need, or otherwise- has made to our individual psyches and the collective unconscious. As she guides the audience through a wild, serious, experimental, and thought-provoking collective reading of her artist book, a ritual is born. Featuring dance, poetry, and love letters to the void, Stuck In Free Fall insists that Nothing- invisible, impossible, and accessed only through imagination- invites us to believe in belief and trust the unknown.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access:
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/03-05-2023-211833-2935.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-02-2023-110045-5428.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Jenny Witzel
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: null
+    image_alt: ""
+    copy_long: >
+      Stuck In Free Fall is a show about Nothing. In this genre-bending solo
+      performance Nicola Bullock celebrates the contribution that "Nothing" - a
+      feeling, state, need, or otherwise- has made to our individual psyches and
+      the collective unconscious. As she guides the audience through a wild,
+      serious, experimental, and thought-provoking collective reading of her
+      artist book, a ritual is born. Featuring dance, poetry, and love letters
+      to the void, Stuck In Free Fall insists that Nothing- invisible,
+      impossible, and accessed only through imagination- invites us to believe
+      in belief and trust the unknown.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Stuck In Free Fall
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -128,42 +143,45 @@ shows:
         link: "@nicolabullockdances"
       - title: Facebook
         platform: Facebook
-        link: 
+        link: null
+    image: https://eventotron.imgix.net/03-02-2023-110045-5428.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Nicola Bullock Dances / NB(D)
+    content_warnings: []
     video_embeds:
       - title: Dancer and Choreographer
-        embed_code: |
-          <iframe src="https://player.vimeo.com/video/241595953?h=36100aac91&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-  - title: Gerry Carroll - Young
-    venue: ZOO Southside
-    duration: 
-    company: Gerry Carroll
-    copy_long: |
-      Gerry Carroll - Young 
-      The Scotsman said his 2022 show was "Strangely sweet and raw, properly, honestly personal". Gerry’s got 70 years experience to play with and he was awarded an Arts Council grant to develop this show. He mashes up clown, stand-up and internal auditing in a unique show. He's "charmingly defiant", Chortle. Gerry starts by retelling the story of an old Irish legend who went to the Land of the Young and came back to find that many years had passed and he turned into a wrinkly old man. Come and see!
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+        embed_code: >
+          <iframe
+          src="https://player.vimeo.com/video/241595953?h=36100aac91&title=0&byline=0&portrait=0"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
     access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-02-2023-171604-7184.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Gerry Carroll - Young 
+
+      The Scotsman said his 2022 show was "Strangely sweet and raw, properly, honestly personal". Gerry’s got 70 years experience to play with and he was awarded an Arts Council grant to develop this show. He mashes up clown, stand-up and internal auditing in a unique show. He's "charmingly defiant", Chortle. Gerry starts by retelling the story of an old Irish legend who went to the Land of the Young and came back to find that many years had passed and he turned into a wrinkly old man. Come and see!
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Gerry Carroll - Young
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -173,38 +191,44 @@ shows:
         link: "@gerryccarroll"
       - title: Facebook
         platform: Facebook
-        link: "https://www.facebook.com/profile.php?id=100089191932269"
-    video_embeds:
-
-  - title: The Last of the Soviets
-    venue: ZOO Playground
-    duration: 
-    company: Spitfire Company
-    copy_long: |
-      Two Russian artists in exile reveal the cruelty of Soviet life with a good dose of dark humour. The award-winning Spitfire return to Edinburgh with a project influenced by the books of Nobel Prize laureate Svetlana Alexievich. Chilling jokes, the absurdity of the situation and efforts at trivialisation are the key features of a production built on the testimonies of witnesses of wars, the Chernobyl disaster and the collapse of the USSR. Live cinema employing puppet animation and starring food, inspired by works of Jan Švankmajer, provides fitting stylisation.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: https://www.facebook.com/profile.php?id=100089191932269
+    image: https://eventotron.imgix.net/03-02-2023-171604-7184.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-05-2023-131828-2653.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Gerry Carroll
+    content_warnings: []
+    video_embeds: null
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Two Russian artists in exile reveal the cruelty of Soviet life with a good
+      dose of dark humour. The award-winning Spitfire return to Edinburgh with a
+      project influenced by the books of Nobel Prize laureate Svetlana
+      Alexievich. Chilling jokes, the absurdity of the situation and efforts at
+      trivialisation are the key features of a production built on the
+      testimonies of witnesses of wars, the Chernobyl disaster and the collapse
+      of the USSR. Live cinema employing puppet animation and starring food,
+      inspired by works of Jan Švankmajer, provides fitting stylisation.
+    preview: YES
     price:
       standard: 13
       concession: 10.5
       weekend: 14
       weekend_conc: 11.5
       preview: 8
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 07/08/2023
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 04/08/2023, 05/08/2023, 06/08/2023, 14/08/2023, 21/08/2023
+    title: The Last of the Soviets
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -215,39 +239,43 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@spitfirecompany"
-    video_embeds:
-
-  - title: Fool’s Gold
-    venue: ZOO Playground
-    duration: 
-    company: Saskia Solomons
-    copy_long: |
-      Lecoq-trained physical performer and Fool, Saskia Solomons morphs into a myriad of inner personalities as they wrestle with the ickiest of sticky icks: money. Daring to dive headfirst into the belly of the elephant-in-the-room, this semi-improvised solo is a ridiculous and disarmingly honest exploration of belonging, class and inequality by a closet rich kid.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access:
-      - ad 
-      - bsl
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/03-05-2023-131828-2653.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-03-2023-114052-1799.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Spitfire Company
+    content_warnings: []
+    video_embeds: null
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access:
+      - ad
+      - bsl
+    image_alt: ""
+    copy_long: >
+      Lecoq-trained physical performer and Fool, Saskia Solomons morphs into a
+      myriad of inner personalities as they wrestle with the ickiest of sticky
+      icks: money. Daring to dive headfirst into the belly of the
+      elephant-in-the-room, this semi-improvised solo is a ridiculous and
+      disarmingly honest exploration of belonging, class and inequality by a
+      closet rich kid.
+    preview: YES
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
       preview: 8
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 16/08/2023
+    title: Fool’s Gold
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -257,85 +285,91 @@ shows:
         link: "@saskia_solomons"
       - title: Facebook
         platform: Facebook
-        link: "https://facebook.com/people/Fools-Gold/100088881965256"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Two Cats on a Date
-    venue: ZOO Playground
-    duration: 
-    company: Two Cats on a Date
-    copy_long: |
-      Tragically weird. Unnecessarily sexual. Two Cats on a Date is exactly what it sounds like. And then much worse. A high-energy solo show in which one woman plays two cats whose romantic dinner kaleidoscopes into a world of intergenerational regret.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: https://facebook.com/people/Fools-Gold/100088881965256
+    image: https://eventotron.imgix.net/03-03-2023-114052-1799.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-04-2023-090000-7720.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Saskia Solomons
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Tragically weird. Unnecessarily sexual. Two Cats on a Date is exactly what
+      it sounds like. And then much worse. A high-energy solo show in which one
+      woman plays two cats whose romantic dinner kaleidoscopes into a world of
+      intergenerational regret.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 16/08/2023
+    title: Two Cats on a Date
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@twocatsonadate"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Tourist
-    venue: ZOO Southside
-    duration: 
-    company: DON GNU
-    copy_long: |
-      Travellers! Come along the journey of your life to the land of holiday wishes, dreams... and nightmare scenarios! “It’s not the destination, but the journey" our three loveable tourist must endure, as their unique dream vacation turns into a chaotic battle ground over the claim of beautiful uninhabited landscapes, swimmingpools and roasted pigs or croissants and cortados at a sidewalkcafé in Nice.
+        link: null
+    image: https://eventotron.imgix.net/03-04-2023-090000-7720.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Two Cats on a Date
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Travellers! Come along the journey of your life to the land of holiday
+      wishes, dreams... and nightmare scenarios! “It’s not the destination, but
+      the journey" our three loveable tourist must endure, as their unique dream
+      vacation turns into a chaotic battle ground over the claim of beautiful
+      uninhabited landscapes, swimmingpools and roasted pigs or croissants and
+      cortados at a sidewalkcafé in Nice.
         
       An actionpacked, physical comedy about life as a tourist and about how encountering others can bring both the best and the worst out in us. Maybe we do not have to travel far to come far?
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-06-2023-144218-7143.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Tourist
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -346,53 +380,66 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@dongnu"
+    image: https://eventotron.imgix.net/03-06-2023-144218-7143.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: DON GNU
+    content_warnings: []
     video_embeds:
-      - title: Don Gnu Trailer 
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/YsGcdpCuZiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: Funeral
-    venue: ZOO Southside
-    duration: 
-    company: Ontroerend Goed
-    copy_long: |
+      - title: Don Gnu Trailer
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/YsGcdpCuZiY" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
       Funeral
         
       'I don't believe in God but I miss him' 
+
       ?(Nothing to be Frightened Of, Julian Barnes)
-      
+
+
       A collective ritual about the finiteness of things.
+
       It will start in the dark.
+
       We will greet others and say goodbye.
+
       There will be singing and pretending.
+
       There will be light and room for darkness.
+
       We’ll light candles, eat and drink and celebrate life.
+
       And all of that will end.
+
       Welcome. 
-      
+
+
       A theatrical ceremony, a new ritual that brings people together. Because everything is finite and we are going to have to live with that.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-03-2023-135506-9130.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: Funeral
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -403,185 +450,216 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@ontroerendgoedOG"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: The Van Paemel Family
-    venue: ZOO Southside
-    duration: 
-    company: SKaGeN - Valentijn Dhaenens
-    copy_long: |
-      Discover this iconic Flemish play by Cyriel Buysse. Through the lens of a story set in 1903, it dissects our Western world where, to this day, classes and communities don’t speak the same language, and where oppression by the one percent has resulted in a fierce social struggle.
-      These past 12 years, Dhaenens has travelled the world with the hit monologues BigmoutH and SmallWaR. In his latest show, Dhaenens recreates a major Flemish theatre classic by seamlessly slipping into 13 different characters to engage in a dialogue with as many digital individuals.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/03-03-2023-135506-9130.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-03-2023-133416-7584.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Ontroerend Goed
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Discover this iconic Flemish play by Cyriel Buysse. Through the lens of a
+      story set in 1903, it dissects our Western world where, to this day,
+      classes and communities don’t speak the same language, and where
+      oppression by the one percent has resulted in a fierce social struggle.
+
+      These past 12 years, Dhaenens has travelled the world with the hit monologues BigmoutH and SmallWaR. In his latest show, Dhaenens recreates a major Flemish theatre classic by seamlessly slipping into 13 different characters to engage in a dialogue with as many digital individuals.
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: The Van Paemel Family
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
-        link: 
+        link: null
       - title: Facebook
         platform: Facebook
-        link: 
+        link: null
+    image: https://eventotron.imgix.net/03-03-2023-133416-7584.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: SKaGeN - Valentijn Dhaenens
+    content_warnings: []
     video_embeds:
       - title: The Van Paemel Family Trailer
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/VbMzzAmpP9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: La codista / The queuer
-    venue: ZOO Southside
-    duration: 
-    company: Acteursgroep Wunderbaum
-    copy_long: |
-      In times of hypervelocity and fear of missing out, what happens when we are asked to wait, to queue up? 
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/VbMzzAmpP9g" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      In times of hypervelocity and fear of missing out, what happens when we
+      are asked to wait, to queue up? 
         
       The award-winning actress Marleen Scholten created a piece on waiting, partially based on the true story of an Italian man that lost his job and stood in line for others.
-      
+
+
       La codista is a tragicomic, personal and political reflection on identity and slowing down. (Wonderful jewel\*\*\*\*\*)
-      
+
+
       Winner of the national playwriting award ‘Antonio Conti’, Italy 2020.
-      
+
+
       Selected at the Dutch Theatre Festival as of one the best performances of the year 2022.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-07-2023-162339-1606.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023
+    title: La codista / The queuer
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@acteursgroep_wunderbaum/"
       - title: Facebook
         platform: Facebook
         link: "@WunderbaumRdam"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: The Insider
-    venue: ZOO Southside
-    duration: 
-    company: Teater Katapult
-    copy_long: |
-      Look into the human face of greed – live acting, visuals and a binaural soundscape that gives you the chills. The cum-ex tax scam: 50 billion GBP ‘robbed’ from the treasuries around Europe! The use of headphones and 3D-sound creates an intimate connection with the cynical financier on stage when he is interrogated, at a party in the club, in the shower, in a bank in Zürich. ‘Gifted, socially engaged performance’ \*\*\*\*\* (Kulturkupeen.dk) ’Innovative and exciting’ \*\*\*\*\* (Scenekanten.com). ‘Mindful and sensual’ \*\*\*\*\* (Ungt Teaterblod). Nominated best male actor and best special show in Denmark 2021 (CPHCulture) Part of #DANISH.
-    performance_dates: []
-    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    audio_desc_dates: 04/08/2023, 05/08/2023, 06/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
+    image: https://eventotron.imgix.net/03-07-2023-162339-1606.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Acteursgroep Wunderbaum
     content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: 04/08/2023, 05/08/2023, 06/08/2023, 08/08/2023, 09/08/2023,
+      10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 15/08/2023, 16/08/2023,
+      17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023, 22/08/2023, 23/08/2023,
+      24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
+    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 08/08/2023, 09/08/2023,
+      10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 15/08/2023, 16/08/2023,
+      17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023, 22/08/2023, 23/08/2023,
+      24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
+    genre: null
     access:
       - ad
       - captions
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-20-2023-170619-8031.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Look into the human face of greed – live acting, visuals and a binaural
+      soundscape that gives you the chills. The cum-ex tax scam: 50 billion GBP
+      ‘robbed’ from the treasuries around Europe! The use of headphones and
+      3D-sound creates an intimate connection with the cynical financier on
+      stage when he is interrogated, at a party in the club, in the shower, in a
+      bank in Zürich. ‘Gifted, socially engaged performance’ \*\*\*\*\*
+      (Kulturkupeen.dk) ’Innovative and exciting’ \*\*\*\*\* (Scenekanten.com).
+      ‘Mindful and sensual’ \*\*\*\*\* (Ungt Teaterblod). Nominated best male
+      actor and best special show in Denmark 2021 (CPHCulture) Part of #DANISH.
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: The Insider
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@teaterkatapult"
       - title: Facebook
         platform: Facebook
         link: "@TeaterKatapult"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Climb
-    venue: ZOO Southside
-    duration: 
-    company: Duane Forrest presents
-    copy_long: |
-      Jamaican-Canadian singer-songwriter, Duane Forrest, shares his stories and songs gleaned from his travels around the world. Whether he’s singing about love found and lost in Latin America, or telling stories about seeking clarity gigging throughout Asia and Europe, his soulful voice and samba-reggae vibes seek joy and hope in this broken world. 
-      Proceeds support Duane's charity Genesis Community of the Arts.
-      
-      Creator: Duane Forrest 
-      Dramaturg: Ins Choi
-      Producer: John McGowan
-      Starring: Duane Forrest
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/04-20-2023-170619-8031.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-08-2023-105837-8695.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Teater Katapult
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Jamaican-Canadian singer-songwriter, Duane Forrest, shares his stories and
+      songs gleaned from his travels around the world. Whether he’s singing
+      about love found and lost in Latin America, or telling stories about
+      seeking clarity gigging throughout Asia and Europe, his soulful voice and
+      samba-reggae vibes seek joy and hope in this broken world. 
+
+      Proceeds support Duane's charity Genesis Community of the Arts.
+
+
+      Creator: Duane Forrest 
+
+      Dramaturg: Ins Choi
+
+      Producer: John McGowan
+
+      Starring: Duane Forrest
+    preview: YES
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 10
       preview: 8
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 21/08/2023
+    title: Climb
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -592,94 +670,113 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@climblive"
+    image: https://eventotron.imgix.net/03-08-2023-105837-8695.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Duane Forrest presents
+    content_warnings: []
     video_embeds:
       - title: Promo \#1
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/atSq5RAtqgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: Why English?
-    venue: ZOO Southside
-    duration: 
-    company: Vibhinna Ramdev
-    copy_long: |
-      This simple question, made me dig deep and transported me to places I never imagined.
-      
-      What this means in my country - India - is not a simple answer.
-      
-      I decided to search on my own and not blindly believe what the scholars were telling us. I wanted first-hand information!
-      
-      Why is there so much importance given to this language in a non-English-speaking nation? 
-      
-      Will I find the answers I’m looking for?
-      
-      Join my journey of revelations, through theatre and contemporary dance.
-      
-      Don't miss out on this unforgettable experience that promises to captivate, provoke, and inspire!
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/atSq5RAtqgY" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
     access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-20-2023-165501-3264.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      This simple question, made me dig deep and transported me to places I
+      never imagined.
+
+
+      What this means in my country - India - is not a simple answer.
+
+
+      I decided to search on my own and not blindly believe what the scholars were telling us. I wanted first-hand information!
+
+
+      Why is there so much importance given to this language in a non-English-speaking nation? 
+
+
+      Will I find the answers I’m looking for?
+
+
+      Join my journey of revelations, through theatre and contemporary dance.
+
+
+      Don't miss out on this unforgettable experience that promises to captivate, provoke, and inspire!
+    preview: YES
     price:
       standard: 12
       concession: 11
       weekend: 13
-      weekend_conc: 
+      weekend_conc: null
       preview: 10
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 14/08/2023
+    title: Why English?
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@vibhinnaramdev"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Dances Like a Bomb
-    venue: ZOO Southside
-    duration: 
-    company: Junk Ensemble
-    copy_long: |
-      Celebrating the strength of mature bodies and challenging the cult of youth, the show is a reclaiming of the ageing body created by dance-theatre innovators Junk Ensemble. Performed by acclaimed actor Mikel Murfi &amp; leading dance artist Finola Cronin (formerly of Pina Bausch’s Tanztheater Wuppertal), the performers are heroic, vulnerable, comedic, and completely themselves in the work. They care fiercely for each other and defend their independence. As they hold each other up and push each other down, the ‘performance’ of age is unpacked as a reminder of ourselves: our worst and our best.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/04-20-2023-165501-3264.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-06-2023-161353-9358.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Vibhinna Ramdev
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Celebrating the strength of mature bodies and challenging the cult of
+      youth, the show is a reclaiming of the ageing body created by
+      dance-theatre innovators Junk Ensemble. Performed by acclaimed actor Mikel
+      Murfi &amp; leading dance artist Finola Cronin (formerly of Pina Bausch’s
+      Tanztheater Wuppertal), the performers are heroic, vulnerable, comedic,
+      and completely themselves in the work. They care fiercely for each other
+      and defend their independence. As they hold each other up and push each
+      other down, the ‘performance’ of age is unpacked as a reminder of
+      ourselves: our worst and our best.
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 21/08/2023
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
+      09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
+      21/08/2023
+    title: Dances Like a Bomb
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -690,220 +787,259 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@junkensemble"
+    image: https://eventotron.imgix.net/03-06-2023-161353-9358.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Junk Ensemble
+    content_warnings: []
     video_embeds:
       - title: Dances Like a Bomb Trailer
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/leRFOrAuR7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: Groovicle
-    venue: ZOO Southside
-    duration: 
-    company: Elliot Minogue-Stone
-    copy_long: |
-      A 21st century contemporary dance cabaret. Underneath twisted dance numbers, physical challenges and funny fragmented conversations is my desire to be cool and groovy. A collective discovery about who we are, what we like and how we coexist together. Physicality and music with language and humour, it can be a bit strange, a bit provocative and a touch sarcastic. We come to an end and we’ve got lost in the groove, in the moving, in the moment. We’re all slightly altered, like the end of a great gig we’ve come somewhere together. A laughing, grooving pocket of humanity.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/leRFOrAuR7k" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
     access:
       - relaxed
-    relaxed_dates: 07/08/2023, 08/08/2023, 09/08/2023, 14/08/2023, 15/08/2023, 16/08/2023, 21/08/2023, 22/08/2023, 23/08/2023
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-31-2023-012845-7977.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      A 21st century contemporary dance cabaret. Underneath twisted dance
+      numbers, physical challenges and funny fragmented conversations is my
+      desire to be cool and groovy. A collective discovery about who we are,
+      what we like and how we coexist together. Physicality and music with
+      language and humour, it can be a bit strange, a bit provocative and a
+      touch sarcastic. We come to an end and we’ve got lost in the groove, in
+      the moving, in the moment. We’re all slightly altered, like the end of a
+      great gig we’ve come somewhere together. A laughing, grooving pocket of
+      humanity.
+    preview: YES
     price:
       standard: 10
       concession: 10
       weekend: 10
       weekend_conc: 10
       preview: 9
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: 07/08/2023, 08/08/2023, 09/08/2023, 14/08/2023, 15/08/2023,
+      16/08/2023, 21/08/2023, 22/08/2023, 23/08/2023
+    performance_dates: []
     no_shows: 14/08/2023
+    title: Groovicle
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@dessperately_seeking"
       - title: Facebook
         platform: Facebook
-        link: 
-      - title: Vimeo 
-        platform: Vimeo 
+        link: null
+      - title: Vimeo
+        platform: Vimeo
         link: https://vimeo.com/user64379869
-
-  - title: Andronicus Synecdoche
-    venue: ZOO Southside
-    duration: 
-    company: Song of the Goat Theatre
-    copy_long: |
-      Inspired by Shakespeare’s ‘Titus Andronicus’, featuring original text and music which depict the extreme cruelty resulting from retaliation. Song of the Goat’s signature staging of topical issues now turns to the ongoing war in Europe in this brutal and uncompromising warning of where the path of revenge and cruelty leads. Drawing from reportage, Andronicus Synecdoche reaches for the topos and the universally recognizable myth, creating a symbolic image of war as a field of the moral decline of humanity. War lasts as long as revenge takes.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/03-31-2023-012845-7977.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-08-2023-111904-4615.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Elliot Minogue-Stone
+    content_warnings: []
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Inspired by Shakespeare’s ‘Titus Andronicus’, featuring original text and
+      music which depict the extreme cruelty resulting from retaliation. Song of
+      the Goat’s signature staging of topical issues now turns to the ongoing
+      war in Europe in this brutal and uncompromising warning of where the path
+      of revenge and cruelty leads. Drawing from reportage, Andronicus
+      Synecdoche reaches for the topos and the universally recognizable myth,
+      creating a symbolic image of war as a field of the moral decline of
+      humanity. War lasts as long as revenge takes.
+    preview: NO
     price:
       standard: 18
       concession: 16
       weekend: 18
       weekend_conc: 16
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: Andronicus Synecdoche
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
-        link: 
+        link: null
       - title: Facebook
         platform: Facebook
-        link: 
+        link: null
+    image: https://eventotron.imgix.net/03-08-2023-111904-4615.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Song of the Goat Theatre
+    content_warnings: []
     video_embeds:
       - title: Andronicus Synecdoche
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/el5D2JWkgME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: Banana
-    venue: ZOO Southside
-    duration: 
-    company: Michael Galligan
-    copy_long: |
-      Is he man? Or is he banana? In this solo clown show, Michael Galligan ("...of considerable wit and guile", says The List) is stuck in a box with only one hour before he ripens. Banana employs stand-up, physical comedy, karaoke, magic, and more to explore what it means to be the world's most popular fruit.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/el5D2JWkgME" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
     access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-07-2023-191651-4448.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Is he man? Or is he banana? In this solo clown show, Michael Galligan
+      ("...of considerable wit and guile", says The List) is stuck in a box with
+      only one hour before he ripens. Banana employs stand-up, physical comedy,
+      karaoke, magic, and more to explore what it means to be the world's most
+      popular fruit.
+    preview: YES
     price:
       standard: 10
-      concession: 
+      concession: null
       weekend: 12
-      weekend_conc: 
+      weekend_conc: null
       preview: 8
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 14/08/2023, 21/08/2023
+    title: Banana
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@michael_galligan"
       - title: Facebook
         platform: Facebook
-        link: 
+        link: null
+    image: https://eventotron.imgix.net/03-07-2023-191651-4448.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Michael Galligan
+    content_warnings: []
     video_embeds:
-      - title: Balloon Animals 
-        embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/uCmmONVIMzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  - title: "Ed: the new, totally unofficial, ginger-inclusive parody sketch show"
-    venue: ZOO Playground
-    duration: 
-    company: Not Yet Home Productions
-    copy_long: |
-      Accompanied by a glittering live band and fresh from two sold-out London and Cambridge runs, don’t miss the Fringe premiere of Ed, charting the story of a ginger pop sensation. Can Ed deal with fame, fortune and being ginger?
+      - title: Balloon Animals
+        embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/uCmmONVIMzU" title="YouTube video
+          player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+          web-share" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Accompanied by a glittering live band and fresh from two sold-out London
+      and Cambridge runs, don’t miss the Fringe premiere of Ed, charting the
+      story of a ginger pop sensation. Can Ed deal with fame, fortune and being
+      ginger?
          
       Starring multiple authentic gingers and featuring Rosie Parrish as Ed. ‘A reminder of the comedy songs of Bo Burnham ... Hilarious lyrics ... Instantly in stitches’ (Varsity newspaper).
          
       A cheeky and raucous night out, championing auburn culture.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-29-2023-085640-9917.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: YES
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
       preview: 10
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
-    no_shows: 
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: "Ed: the new, totally unofficial, ginger-inclusive parody sketch show"
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@edsketchshow"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: "Horizon Showcase: TOM"
-    venue: ZOO Southside
-    duration: 
-    company: Bullyache
-    copy_long: |
-      In a holding room, participants wait. A pageant is about to begin. No call time, perpetual purgatory. Following a scorching premiere at NOW 23 Festival, music-duo and dance company Bullyache make their Edinburgh debut with Tom. Blending the myth of Orpheus with the DWP, Tom is a vertigo-inducing pop-culture collision of working class and queer expression. With original live music and dance, Tom oscillates between hyper-speed pop, ambient waves, and auto-tune vocals. Bullyache and cast burst into song, they fight, f'**, live, laugh, and love... deconstructing the price of being in a world that demands too much.
-    performance_dates: []
-    captioning_dates: 22/08/2023
-    audio_desc_dates: 
+        link: null
+    image: https://eventotron.imgix.net/03-29-2023-085640-9917.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Not Yet Home Productions
     content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: 22/08/2023
+    genre: null
     access:
       - ad
-      - bsl 
+      - bsl
       - captions
       - relaxed
-    relaxed_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-31-2023-124531-2161.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      In a holding room, participants wait. A pageant is about to begin. No call
+      time, perpetual purgatory. Following a scorching premiere at NOW 23
+      Festival, music-duo and dance company Bullyache make their Edinburgh debut
+      with Tom. Blending the myth of Orpheus with the DWP, Tom is a
+      vertigo-inducing pop-culture collision of working class and queer
+      expression. With original live music and dance, Tom oscillates between
+      hyper-speed pop, ambient waves, and auto-tune vocals. Bullyache and cast
+      burst into song, they fight, f'**, live, laugh, and love... deconstructing
+      the price of being in a world that demands too much.
+    preview: NO
     price:
       standard: 17
       concession: 15
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 25/08/2023,
+      26/08/2023, 27/08/2023
+    performance_dates: []
     no_shows: 23/08/2023
+    title: "Horizon Showcase: TOM"
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -913,224 +1049,248 @@ shows:
         link: "@bullyache_"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Certain Death and Other Considerations
-    venue: ZOO Playground
-    duration: 
-    company: Nine Twenty Collective
-    copy_long: |
-      The world will end in exactly 80 years—just enough time to have a baby! This devised dark comedy follows two couples (and a surrogate) as they prepare to welcome new life into a dying world. With doomsday just outside of their natural lifespan, certain death is close enough to inform every decision, but far enough away to ignore in a pinch.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/03-31-2023-124531-2161.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-02-2023-011215-8337.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Bullyache
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      The world will end in exactly 80 years—just enough time to have a baby!
+      This devised dark comedy follows two couples (and a surrogate) as they
+      prepare to welcome new life into a dying world. With doomsday just outside
+      of their natural lifespan, certain death is close enough to inform every
+      decision, but far enough away to ignore in a pinch.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: Certain Death and Other Considerations
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@certaindeathplay"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Harvest
-    venue: ZOO Southside
-    duration: 
-    company: recoil performance group
-    copy_long: |
-      A dance-performance that explores the working body across two seemingly distant sectors: agriculture and dance.
+        link: null
+    image: https://eventotron.imgix.net/04-02-2023-011215-8337.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Nine Twenty Collective
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      A dance-performance that explores the working body across two seemingly
+      distant sectors: agriculture and dance.
         
       How do we humans shape and cultivate nature and how does a trade shape us? What is it to cultivate a body?
         
       In HARVEST two performers from different traditions: a contemporary dancer and a neo-flamenco dancer embody these questions in a set that incorporates soil and grass.
         
       A large reverberating floor with audience on the round becomes a giant speaker, shaking the room and setting the soil, the dancers and the whole space in motion. Part of #DANISH showcase.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-20-2023-110239-8080.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 15
       concession: 13
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 09/08/2023, 16/08/2023
+    title: Harvest
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@recoildk"
       - title: Facebook
         platform: Facebook
         link: "@recoilperformance"
-      - title: Trailer on Vimeo 
-        platform: Vimeo 
-        link: "https://vimeo.com/user1836253/harvest"
-
-  - title: Aionos
-    venue: ZOO Playground
-    duration: 
-    company: Toasterlab
-    copy_long: |
-      Aionos - An African-Futurist Mixed Reality Production where Ancient Egypt meets Star Wars as you travel virtual worlds to help an Egyptian Queen heal a broken love and navigate spacetime to recover an ancient technology. This unique hybrid theatrical experience in VR, streaming, and in-person will take you across time, space, and the metaverse in a collaboration between Toasterlab, Debbie Deer Productions, and Immersive actor/director/designer Ari Tarr. Aionos brings live and remote actors and audiences together for an unforgettable adventure in a companion piece to Debbie Deer’s Nefertiti: The One Who Comes.
-    performance_dates: []
-    captioning_dates: 22/08/2023, 23/08/2023, 24/08/2023
-    audio_desc_dates: 19/08/2023, 20/08/2023
+      - title: Trailer on Vimeo
+        platform: Vimeo
+        link: https://vimeo.com/user1836253/harvest
+    image: https://eventotron.imgix.net/03-20-2023-110239-8080.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: recoil performance group
     content_warnings: []
+  - audio_desc_dates: 19/08/2023, 20/08/2023
+    captioning_dates: 22/08/2023, 23/08/2023, 24/08/2023
+    genre: null
     access:
       - ad
       - captions
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-05-2023-022950-4366.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Aionos - An African-Futurist Mixed Reality Production where Ancient Egypt
+      meets Star Wars as you travel virtual worlds to help an Egyptian Queen
+      heal a broken love and navigate spacetime to recover an ancient
+      technology. This unique hybrid theatrical experience in VR, streaming, and
+      in-person will take you across time, space, and the metaverse in a
+      collaboration between Toasterlab, Debbie Deer Productions, and Immersive
+      actor/director/designer Ari Tarr. Aionos brings live and remote actors and
+      audiences together for an unforgettable adventure in a companion piece to
+      Debbie Deer’s Nefertiti: The One Who Comes.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 12
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
+    title: Aionos
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@aionosxr"
       - title: Facebook
         platform: Facebook
         link: "@aionosxr"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: "SNEAKPEEK: SHADOW GAME"
-    venue: ZOOTV
-    duration: 
-    company: SKaGeN theatre
-    copy_long: |
-      The world's first real-time digital documentary, brought to you by SKaGeN theatre (BE) using their own unique app. Follow young Sajid Khan (SK) across the Balkan as he tries to flee the Taliban regime. Stuck at the Bosnian border for over a year, he desperately wants to reach his brother in Italy. SK risks his life by playing The Game, a dangerous endeavour to get into Europe. Get to be a spectator for seven days in the intriguing chat, with video and audio, sent between Sajid and filmmaker Eefje Blankevoort who guides him from afar.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/04-05-2023-022950-4366.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/03-31-2023-131929-5790.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Toasterlab
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      The world's first real-time digital documentary, brought to you by SKaGeN
+      theatre (BE) using their own unique app. Follow young Sajid Khan (SK)
+      across the Balkan as he tries to flee the Taliban regime. Stuck at the
+      Bosnian border for over a year, he desperately wants to reach his brother
+      in Italy. SK risks his life by playing The Game, a dangerous endeavour to
+      get into Europe. Get to be a spectator for seven days in the intriguing
+      chat, with video and audio, sent between Sajid and filmmaker Eefje
+      Blankevoort who guides him from afar.
+    preview: NO
     price:
       standard: 12.5
       concession: 10.5
       weekend: 12.5
       weekend_conc: 10.5
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOOTV
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: "SNEAKPEEK: SHADOW GAME"
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
-        link: 
+        link: null
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: "Horizon Showcase: Little Wimmin"
-    venue: ZOO Southside
-    duration: 
-    company: Figs in Wigs
-    copy_long: |
-      Figs in Wigs are back and this time they've got their period (dresses). A live art, feminist "adaptation" of Louisa May Alcott's novel Little Women. Wild, irreverent, and cosmically comical, it dismantles the canon, making way for the doomed future of humankind. Prepare to laugh at the theatrical traditions and poke fun at our obsession with "the classics" as the Figs use the story as a trojan horse, turning it on its head and mutating it into an unrecognisable cartoon catastrophe about climate change, astrology, and the infinite nature of the universe. PS Beth dies.
-    performance_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    captioning_dates: 22/08/2023
-    audio_desc_dates: 
+        link: null
+    image: https://eventotron.imgix.net/03-31-2023-131929-5790.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: SKaGeN theatre
     content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: 22/08/2023
+    genre: null
     access:
       - ad
-      - bsl 
+      - bsl
       - captions
       - relaxed
-    relaxed_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/03-31-2023-132739-3313.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      Figs in Wigs are back and this time they've got their period (dresses). A
+      live art, feminist "adaptation" of Louisa May Alcott's novel Little Women.
+      Wild, irreverent, and cosmically comical, it dismantles the canon, making
+      way for the doomed future of humankind. Prepare to laugh at the theatrical
+      traditions and poke fun at our obsession with "the classics" as the Figs
+      use the story as a trojan horse, turning it on its head and mutating it
+      into an unrecognisable cartoon catastrophe about climate change,
+      astrology, and the infinite nature of the universe. PS Beth dies.
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023,
+      25/08/2023, 26/08/2023, 27/08/2023
+    performance_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023,
+      25/08/2023, 26/08/2023, 27/08/2023
+    no_shows: null
+    title: "Horizon Showcase: Little Wimmin"
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1141,41 +1301,43 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@figsinwigs"
+    image: https://eventotron.imgix.net/03-31-2023-132739-3313.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Figs in Wigs
+    content_warnings: []
     video_embeds:
-      - title: Little Wimmin 
-        embed_code: <iframe src="https://player.vimeo.com/video/679155212?h=d0027f695c&color=ff9933&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-  - title: Deuteronomy
-    venue: ZOO Southside
-    duration: 
-    company: PigPen Productions
-    copy_long: |
+      - title: Little Wimmin
+        embed_code: <iframe
+          src="https://player.vimeo.com/video/679155212?h=d0027f695c&color=ff9933&title=0&byline=0&portrait=0"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
       "Breath-taking, heart-stopping, terrifying" - Cherwell Newspaper
         
       Atop a lonely rock, by the side of a dirt road, in an indeterminate, inhospitable expanse, sits a beggar. Along the very same dirt road comes a man, a bag of apples slung around his neck, dragging behind him a tremendously heavy coffin by a rope. Neither of them seem to know who it’s for. Neither are in a rush to find out; they know that they both will, in time. Such is the general futility of things, such as they are. There’s supper to be had in the meantime.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-01-2023-110921-5398.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 12.5
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Deuteronomy
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1186,39 +1348,46 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@PigPenProductions"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: "Optimistic: Elizabeth Holmes"
-    venue: ZOO Southside
-    duration: 
-    company: Sarah Deller
-    copy_long: |
-      Elizabeth Holmes claims her biotechnology will revolutionise medicine - and people believe her. A single drop of blood, she claims, can be used for up to 800 blood tests. As she defrauds investors of hundreds of millions of dollars and uses her disastrous technology to test real patients, does she think she's doing anything wrong? This devised verbatim play, based on interviews, newly released trial exhibits, text messages, and Holmes's personal notes, asks questions about the gap between appearance and reality as it delves into the mind of the fraudster once considered guaranteed to change the world.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/04-01-2023-110921-5398.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-02-2023-122615-8740.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: PigPen Productions
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Elizabeth Holmes claims her biotechnology will revolutionise medicine -
+      and people believe her. A single drop of blood, she claims, can be used
+      for up to 800 blood tests. As she defrauds investors of hundreds of
+      millions of dollars and uses her disastrous technology to test real
+      patients, does she think she's doing anything wrong? This devised verbatim
+      play, based on interviews, newly released trial exhibits, text messages,
+      and Holmes's personal notes, asks questions about the gap between
+      appearance and reality as it delves into the mind of the fraudster once
+      considered guaranteed to change the world.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 10/08/2023, 17/08/2023
+    title: "Optimistic: Elizabeth Holmes"
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1228,40 +1397,47 @@ shows:
         link: "@stellar.deller"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Sex-Ed Revisited
-    venue: ZOO Playground
-    duration: 
-    company: Holly Delefortrie
-    copy_long: |
-      Sex-Ed Revisited is a five-star interactive comedy uncovering missing gaps in knowledge when it comes to female-focused sex education and our relationship with pleasure. A theatrical quest for climax that takes its audience on a Kylie-inspired sex-pop adventure. Gone are the days of attempting to put condoms on cucumbers, whilst wearing kaleidoscopic beer goggles. A retelling of sex education unlike any you have ever experienced before. 'Sex-Ed Revisited is not only one of the funniest pieces of theatre I've seen but also one of the most educational'\*\*\*\*\* (CfryCentreStage.wordpress.com).
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/04-02-2023-122615-8740.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-02-2023-193951-2644.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Sarah Deller
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Sex-Ed Revisited is a five-star interactive comedy uncovering missing gaps
+      in knowledge when it comes to female-focused sex education and our
+      relationship with pleasure. A theatrical quest for climax that takes its
+      audience on a Kylie-inspired sex-pop adventure. Gone are the days of
+      attempting to put condoms on cucumbers, whilst wearing kaleidoscopic beer
+      goggles. A retelling of sex education unlike any you have ever experienced
+      before. 'Sex-Ed Revisited is not only one of the funniest pieces of
+      theatre I've seen but also one of the most educational'\*\*\*\*\*
+      (CfryCentreStage.wordpress.com).
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 12.5
       weekend_conc: 10.5
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Sex-Ed Revisited
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1272,45 +1448,49 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@HollyEFDelefortrie"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Family Portrait
-    venue: ZOO Dovecot
-    duration: 
-    company: Barrowland Ballet
-    copy_long: |
-      Award-winning interactive video installation full of humour, candour, joy and love. 
+    image: https://eventotron.imgix.net/04-02-2023-193951-2644.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Holly Delefortrie
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
+      09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
+      15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023
+    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023,
+      09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023,
+      15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023
+    genre: null
+    access:
+      - ad
+      - captions
+    image_alt: ""
+    copy_long: >
+      Award-winning interactive video installation full of humour, candour, joy
+      and love. 
         
       Sitting on swivel-stools inside four screens, join a family on a geographical and emotional journey across stunning Scottish landscapes as stories unfold. The striking choreography shares an intimate portrayal of family life. With space to roam, the children encounter rabbit skulls, converse with spiders, face-paint with berries and discover the fun of burying their mother in bark.
         
       A celebration of getting out into nature, Family Portrait is an honest depiction of family – relentless and glorious chaos, intimacy and, most of all, love. \*\*\*\*\* (Stage, BroadwayBaby.com). MadeInScotlandShowcase.com
-    performance_dates: []
-    captioning_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023
-    audio_desc_dates: 04/08/2023, 05/08/2023, 06/08/2023, 07/08/2023, 08/08/2023, 09/08/2023, 10/08/2023, 11/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 15/08/2023, 16/08/2023, 17/08/2023, 18/08/2023, 19/08/2023, 20/08/2023
-    content_warnings: []
-    access:
-      - ad
-      - captions
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-04-2023-091226-2700.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 12
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Dovecot
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Family Portrait
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1321,39 +1501,47 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@BarrowlandBallet"
+    image: https://eventotron.imgix.net/04-04-2023-091226-2700.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: Barrowland Ballet
+    content_warnings: []
     video_embeds:
       - title: Family Portrait Trailer
-        embed_code: <iframe src="https://player.vimeo.com/video/557830277?h=7a60c7bb4e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-  - title: Sugar & Blood
-    venue: ZOO Playground
-    duration: 
-    company: Tinted Theatre
-    copy_long: |
-      1903\. The Women's Social and Political Union (WSPU) is formed in Manchester - but not everyone agrees with change. Far from the protests, four women are fighting their own personal battle searching for truth. A body has gone missing. And the blood is on all their hands. This is not a question of who committed the crime - everyone's guilty of that. The question is who took the body and why? And what will be the consequences? A murder mystery, but different.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
+        embed_code: <iframe
+          src="https://player.vimeo.com/video/557830277?h=7a60c7bb4e&title=0&byline=0&portrait=0"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe>
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
     access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-05-2023-115714-9736.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    image_alt: ""
+    copy_long: >
+      1903\. The Women's Social and Political Union (WSPU) is formed in
+      Manchester - but not everyone agrees with change. Far from the protests,
+      four women are fighting their own personal battle searching for truth. A
+      body has gone missing. And the blood is on all their hands. This is not a
+      question of who committed the crime - everyone's guilty of that. The
+      question is who took the body and why? And what will be the consequences?
+      A murder mystery, but different.
+    preview: NO
     price:
       standard: 11
       concession: 10
       weekend: 12
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Sugar & Blood
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1364,39 +1552,43 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@tintedtheatre"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: BANG
-    venue: ZOO Playground
-    duration: 
-    company: Rufflings Productions
-    copy_long: |
-      Bang is a monologue delivered by the apparition of Joan Vollmer, immediately after she was shot by William Burroughs, her common law husband, in Mexico City in 1951. As she waits for the ambulance to arrive, she reflects on her relationship with the famous writer, on the passionate nucleus that launched the Beat movement, and on a murder in that close-knit group of artists, presaging her own death.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/04-05-2023-115714-9736.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-05-2023-044806-9146.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Tinted Theatre
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Bang is a monologue delivered by the apparition of Joan Vollmer,
+      immediately after she was shot by William Burroughs, her common law
+      husband, in Mexico City in 1951. As she waits for the ambulance to arrive,
+      she reflects on her relationship with the famous writer, on the passionate
+      nucleus that launched the Beat movement, and on a murder in that
+      close-knit group of artists, presaging her own death.
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 15
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: BANG
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1406,40 +1598,46 @@ shows:
         link: "@lindagaumnitz"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Havisham
-    venue: ZOO Playground
-    duration: 
-    company: Emul8 Productions
-    copy_long: |
-      If you knew my story, your heart would break too. Escaping a traumatic childhood, a young woman arrives in London. She soon finds herself as 'the leading lady in drama she can't comprehend'. The gaslighting is subtle, the manipulation slick. Can she escape or is she destined to relive the devastation of past events? Havisham offers a fresh perspective of Charles Dickens' greatest work of Gothic characterisation. As the embodiment of stuck trauma and malignant rage, Miss Havisham both fascinates and repels. But how did she arrive at this place and what are the tragic secrets?
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/04-05-2023-044806-9146.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-05-2023-125718-4688.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Rufflings Productions
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      If you knew my story, your heart would break too. Escaping a traumatic
+      childhood, a young woman arrives in London. She soon finds herself as 'the
+      leading lady in drama she can't comprehend'. The gaslighting is subtle,
+      the manipulation slick. Can she escape or is she destined to relive the
+      devastation of past events? Havisham offers a fresh perspective of Charles
+      Dickens' greatest work of Gothic characterisation. As the embodiment of
+      stuck trauma and malignant rage, Miss Havisham both fascinates and repels.
+      But how did she arrive at this place and what are the tragic secrets?
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Havisham
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1450,127 +1648,132 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@heather.alexander.1485"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: My Best Judys
-    venue: ZOO Southside
-    duration: 
-    company: My Best Judys
-    copy_long: |
-      Come and enjoy a night in celebration of one of the world's most beloved entertainers, a one Ms Judy Garland. My Best Judys features world-class entertainers featuring only the best tunes from the titans of the American songbook, Harold Arlen and George Gershwin amongst others. Starring vocalists Caitlin Cassidy, Dani Sicari and Madeleine Joyce. This show received rave reviews at Fringe World Festival in Western Australia were it was first premiered and is now coming to the UK for EdFringe.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+    image: https://eventotron.imgix.net/04-05-2023-125718-4688.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-12-2023-153714-1159.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Emul8 Productions
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Come and enjoy a night in celebration of one of the world's most beloved
+      entertainers, a one Ms Judy Garland. My Best Judys features world-class
+      entertainers featuring only the best tunes from the titans of the American
+      songbook, Harold Arlen and George Gershwin amongst others. Starring
+      vocalists Caitlin Cassidy, Dani Sicari and Madeleine Joyce. This show
+      received rave reviews at Fringe World Festival in Western Australia were
+      it was first premiered and is now coming to the UK for EdFringe.
+    preview: NO
     price:
       standard: 16
       concession: 14
       weekend: 17
       weekend_conc: 15
-      preview: 
-    preview: NO
-    preview_dates: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 14/08/2023, 15/08/2023
+    title: My Best Judys
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@mybestjudysatfringe"
       - title: Facebook
         platform: Facebook
         link: "@mybestjudysatfringe"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Janitor/Manager & How To Have An Affair Without Really Trying
-    venue: ZOO Playground
-    duration: 
-    company: Sean Conrad + Becky Goodman
-    copy_long: |
-      Janitor/Manager: Inspired by the expression "If you can make it here, you can make it anywhere", Sean Conrad booked a one-way flight to NYC to become a stand up comedian and quickly became... a janitor at a comedy club. A mix of stand up and musical comedy.
+    image: https://eventotron.imgix.net/04-12-2023-153714-1159.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: My Best Judys
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Janitor/Manager: Inspired by the expression "If you can make it here, you
+      can make it anywhere", Sean Conrad booked a one-way flight to NYC to
+      become a stand up comedian and quickly became... a janitor at a comedy
+      club. A mix of stand up and musical comedy.
         
       How to Have an Affair Without Really Trying: A tragicomic, raw, and vulnerable one-woman musical comedy about a 19-year-old's first ever relationship...with a 60-year-old married man--and all the adultery that followed. Don't miss this racy romp through relational trauma: Becky Goodman wants you to laugh at her pain!
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/04-11-2023-224216-2043.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Janitor/Manager & How To Have An Affair Without Really Trying
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@beckygoodtimes"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: End of the World
-    venue: ZOO Playground
-    duration: 
-    company: PINCHY theatre
-    copy_long: |
-      
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+        link: null
+    image: https://eventotron.imgix.net/04-11-2023-224216-2043.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-15-2023-125143-4667.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Sean Conrad + Becky Goodman
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: ""
+    preview: NO
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: End of the World
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1581,43 +1784,44 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@pinchytheatre"
-      - title: YouTube 
-        platform: YouTube 
+      - title: YouTube
+        platform: YouTube
         link: https://www.youtube.com/channel/UCS9CNZVFrokTrg5NsmXQFWw
-
-  - title: Report to an Academy
-    venue: ZOO Southside
-    duration: 
-    company: Scena Theatre
-    copy_long: |
+    image: https://eventotron.imgix.net/04-15-2023-125143-4667.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: PINCHY theatre
+    content_warnings: []
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
       "Report to an Academy"
+
       by Franz Kafka Adapted and directed by Gabriele Jakobi
+
       with Robert McNamara
         
       An ape named Red Peter has evolved to behave like a human. He presents his fascinating tale of transformation-- and the horrid details of his former ape life-- to a top scientific Academy. Based on the classic short story by the master of existential storytelling Franz Kafka. Adapted for the stage by acclaimed German director Gabriele Jakobi. Don't miss SCENA's wild parable brought to life. McNamara's return to the stage is riveting. He will compel you to ponder the issues of free will, vegetarianism, and animal rights.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: https://eventotron.imgix.net/05-09-2023-181444-2416.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: YES
     price:
       standard: 12
       concession: 10
       weekend: 13
       weekend_conc: 11
       preview: 10
-    preview: YES
+    booking_unavailable: false
+    is_draft: false
     preview_dates: 04/08/2023
+    venue: ZOO Southside
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
     no_shows: 14/08/2023, 21/08/2023
+    title: Report to an Academy
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
@@ -1628,188 +1832,195 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@SCENA.org"
-      - title: YouTube 
-        platform: YouTube 
-        link: "https://www.youtube.com/@ScenatheaterOrg"
-
-  - title: Trust
-    venue: ZOO Playground
-    duration: 
-    company: People You Know Productions
-    copy_long: |
-      She doesn’t trust him. Not after Barbados, anyway. 
-      Five friends travel to a country estate for a birthday party turned surprise wedding. Everyone’s in love with everyone, and everyone hates everyone. But desire and violence are two sides of the same coin, as they learn throughout the fated, whiskey-drenched night. Debauchery is expected, but what isn’t is for the blushing young bride to turn up dead. Who killed her? Maybe we all did. Trust is a dark comedic indictment of privilege in a world where consequences don’t exist for those who can write a big enough cheque.
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
+      - title: YouTube
+        platform: YouTube
+        link: https://www.youtube.com/@ScenatheaterOrg
+    image: https://eventotron.imgix.net/05-09-2023-181444-2416.jpg
     age_restricted: false
-    image: https://eventotron.imgix.net/04-23-2023-140620-3184.jpg
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    ticket_url: ""
+    company: Scena Theatre
+    content_warnings: []
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      She doesn’t trust him. Not after Barbados, anyway. 
+
+      Five friends travel to a country estate for a birthday party turned surprise wedding. Everyone’s in love with everyone, and everyone hates everyone. But desire and violence are two sides of the same coin, as they learn throughout the fated, whiskey-drenched night. Debauchery is expected, but what isn’t is for the blushing young bride to turn up dead. Who killed her? Maybe we all did. Trust is a dark comedic indictment of privilege in a world where consequences don’t exist for those who can write a big enough cheque.
+    preview: NO
     price:
       standard: 11
       concession: 10
       weekend: 11
       weekend_conc: 10
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
+      preview: null
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: Trust
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
         link: "@peopleyouknowproductions"
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: Monologue Night
-    venue: ZOO Playground
-    duration: 
-    company: A Perfectly Average Glimpse Into A Perfectly Average Day
-    copy_long: |
-      Join us for a unique and immersive theatrical experience, "A Perfectly Average Glimpse Into A Perfectly Average Day." Written by Millie Haldane and performed by St. Andrews students, this set of five monologues offers a fresh perspective on the everyday lives of people we may encounter but never truly know.
+        link: null
+    image: https://eventotron.imgix.net/04-23-2023-140620-3184.jpg
+    age_restricted: false
+    ticket_url: ""
+    company: People You Know Productions
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023,
+      25/08/2023, 26/08/2023, 27/08/2023
+    captioning_dates: null
+    genre: null
+    access: []
+    image_alt: ""
+    copy_long: >
+      Join us for a unique and immersive theatrical experience, "A Perfectly
+      Average Glimpse Into A Perfectly Average Day." Written by Millie Haldane
+      and performed by St. Andrews students, this set of five monologues offers
+      a fresh perspective on the everyday lives of people we may encounter but
+      never truly know.
         
       The show features a diverse range of characters, each with their own story to tell. These monologues bring to life the struggles, triumphs, and moments of everyday life that often go unnoticed.
-    performance_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    captioning_dates: 
-    audio_desc_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023, 25/08/2023, 26/08/2023, 27/08/2023
-    content_warnings: []
-    access: []
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: 
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
+    preview: NO
     price:
       standard: 10
-      concession: 
+      concession: null
       weekend: 10
-      weekend_conc: 
-      preview: 
-    preview: NO
-    preview_dates: 
-    no_shows: 
-    links:
-      - title: Twitter
-        platform: twitter
-        link: 
-      - title: Instagram
-        platform: Instagram
-        link: 
-      - title: Facebook
-        platform: Facebook
-        link: "https://www.facebook.com/profile.php?id=100090451617228"
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: PRETTY, WITTY NELL
-    venue: ZOO Playground
-    duration: 
-    company: 
-    copy_long: |
-      
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
-    content_warnings: []
-    access:
-    audio_desc: 
-    bsl: 
-    captions: 
-    relaxed: 
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: 
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
+      weekend_conc: null
+      preview: null
     booking_unavailable: false
-    genre:
-    price:
-      standard: 
-      concession: 
-      weekend: 
-      weekend_conc: 
-      preview: 
-    preview: 
-    preview_dates: 
-    no_shows: 
+    is_draft: false
+    preview_dates: null
+    venue: ZOO Playground
+    duration: null
+    relaxed_dates: null
+    performance_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 24/08/2023,
+      25/08/2023, 26/08/2023, 27/08/2023
+    no_shows: null
+    title: Monologue Night
+    age_guidance: null
     links:
       - title: Twitter
         platform: twitter
-        link: 
+        link: null
       - title: Instagram
         platform: Instagram
-        link: 
+        link: null
       - title: Facebook
         platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
-
-  - title: "Bob Marely: how reggae changed the world"
+        link: https://www.facebook.com/profile.php?id=100090451617228
+    image: null
+    age_restricted: false
+    ticket_url: ""
+    company: A Perfectly Average Glimpse Into A Perfectly Average Day
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: null
+    image_alt: ""
+    copy_long: ""
+    preview: null
+    price:
+      ? standard
+      ? concession
+      ? weekend
+      ? weekend_conc
+      ? preview
+    booking_unavailable: false
+    is_draft: false
+    captions: null
+    preview_dates: null
     venue: ZOO Playground
-    duration: 
+    relaxed: null
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: PRETTY, WITTY NELL
+    age_guidance: null
+    links:
+      - title: Twitter
+        platform: twitter
+        link: null
+      - title: Instagram
+        platform: Instagram
+        link: null
+      - title: Facebook
+        platform: Facebook
+        link: null
+    audio_desc: null
+    image: null
+    bsl: null
+    age_restricted: false
+    ticket_url: ""
+    company: null
+    content_warnings: []
+    video_embeds:
+      - title: ""
+        embed_code: ""
+  - audio_desc_dates: null
+    captioning_dates: null
+    genre: null
+    access: null
+    image_alt: ""
+    copy_long: null
+    preview: null
+    price:
+      ? standard
+      ? concession
+      ? weekend
+      ? weekend_conc
+      ? preview
+    booking_unavailable: false
+    is_draft: false
+    captions: null
+    preview_dates: null
+    venue: ZOO Playground
+    relaxed: null
+    duration: null
+    relaxed_dates: null
+    performance_dates: []
+    no_shows: null
+    title: "Bob Marely: how reggae changed the world"
+    age_guidance: null
+    links:
+      - title: Twitter
+        platform: twitter
+        link: null
+      - title: Instagram
+        platform: Instagram
+        link: null
+      - title: Facebook
+        platform: Facebook
+        link: null
+    audio_desc: null
+    image: null
+    bsl: null
+    age_restricted: false
+    ticket_url: ""
     company: Duane Forrest
-    copy_long: 
-    performance_dates: []
-    captioning_dates: 
-    audio_desc_dates: 
     content_warnings: []
-    access:
-    audio_desc: 
-    bsl: 
-    captions: 
-    relaxed: 
-    relaxed_dates: 
-    age_guidance: 
-    age_restricted: false
-    image: 
-    image_alt: ''
-    ticket_url: ''
-    is_draft: false 
-    booking_unavailable: false
-    genre:
-    price:
-      standard: 
-      concession: 
-      weekend: 
-      weekend_conc: 
-      preview: 
-    preview: 
-    preview_dates: 
-    no_shows: 
-    links:
-      - title: Twitter
-        platform: twitter
-        link: 
-      - title: Instagram
-        platform: Instagram
-        link: 
-      - title: Facebook
-        platform: Facebook
-        link: 
-    video_embeds: 
-      - title: ''
-        embed_code: ''
+    video_embeds:
+      - title: ""
+        embed_code: ""
