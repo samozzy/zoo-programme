@@ -876,7 +876,7 @@ shows:
         link: "@TeaterKatapult"
     image: https://eventotron.imgix.net/04-20-2023-170619-8031.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1490/
     company: Teater Katapult
     content_warnings:
       - Strobe Lighting
@@ -1616,7 +1616,7 @@ shows:
         link: https://vimeo.com/user1836253/harvest
     image: https://eventotron.imgix.net/03-20-2023-110239-8080.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1486/
     company: recoil performance group
     content_warnings: []
   - audio_desc_dates: 19/08/2023, 20/08/2023
