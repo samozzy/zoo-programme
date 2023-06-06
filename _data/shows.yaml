@@ -2606,7 +2606,7 @@ shows:
         link: https://www.youtube.com/@ScenatheaterOrg
     content_warning_detail:
       - The play deals with human cruelty to animals.
-    image: https://eventotron.imgix.net/05-09-2023-181444-2416.jpg
+    image: /static/report-to-an-academy-343x343.png
     age_restricted: false
     ticket_url: ""
     company: Scena Theatre
@@ -2647,7 +2647,7 @@ shows:
       preview: null
     start_time: 20:35
     booking_unavailable: false
-    is_draft: false
+    is_draft: true
     preview_dates: null
     venue: ZOO Playground
     duration: 50mins
@@ -2753,7 +2753,7 @@ shows:
       ? weekend_conc
       ? preview
     booking_unavailable: false
-    is_draft: false
+    is_draft: true
     captions: null
     preview_dates: null
     venue: ZOO Playground
@@ -2854,3 +2854,22 @@ shows:
     video_embeds:
       - title: ""
         embed_code: ""
+  - copy_long: >-
+      When Ruva experiences street harassment, her entire world is thrown into
+      chaos and turmoil. Raging against the system and a society who won’t take
+      her seriously, Ruva turns into a Beast, searching for a way to empower
+      herself and fight the creatures that lurk at night. 
+
+
+      Part spoken word, part outcry, inspired by lived experiences and intertwined with Zimbabwean beliefs about spirituality and magical realism, BEASTS explores the impact of street harassment, and how we’re supposed to feel safe when those sworn to protect us admit they can’t.
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    title: Beasts (Why Girls Shouldn't Be Afraid of the Dark)
+    age_guidance: 16+
+    image: /static/06-05-2023-234555-6056.jpg
+    age_restricted: false
+    company: Mandi Chivasa
+    content_warnings:
+      - Contains Distressing or Potentially Triggering Themes
+      - Strong Language/Swearing
