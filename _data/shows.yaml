@@ -43,7 +43,8 @@ shows:
     age_restricted: false
     ticket_url: ""
     company: Robin Boon Dale
-    content_warnings: []
+    content_warnings:
+      - Strobe lighting
     video_embeds:
       - title: ""
         embed_code: ""
