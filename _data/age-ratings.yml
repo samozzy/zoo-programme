@@ -10,3 +10,5 @@ ratings:
   - 14+
   - 16+
   - 18+
+age-ratings:
+  - rating: 18+
