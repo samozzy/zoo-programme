@@ -345,7 +345,8 @@ shows:
     age_restricted: false
     ticket_url: ""
     company: Spitfire Company
-    content_warnings: []
+    content_warnings:
+      - Contains Distressing or Potentially Triggering Themes
     video_embeds: null
   - audio_desc_dates: null
     captioning_dates: null
