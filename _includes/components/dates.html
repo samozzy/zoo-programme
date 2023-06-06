@@ -1,11 +1,7 @@
 {% assign show_dates = include.show.performances %}
 
-{% assign appended = [] %}
-{% for p in include.show.performances %}
-	{% capture x %}{{ p }}{% endcapture %}
-	{% assign appended = appended | append: x %}
-{% endfor %}
-{% assign show_dates = show_dates | append: appended %}
+{% include show/capture-show-dates.html show=show %}
+{% assign show_dates = show_dates | append: captured_dates %}
 
 
 {% assign start_date = site.dates.start %}

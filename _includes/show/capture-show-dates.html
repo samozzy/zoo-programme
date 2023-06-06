@@ -1,0 +1,11 @@
+{% comment %} Handler to convert any Date objects to strings for easier type handling because Liquid is weird {% endcomment %}
+{% assign s_dates = include.show.performances %}
+{% assign captured_dates = [] %}
+{% if s_dates and s_dates != empty %}
+	{% for p in s_dates %}
+		{% capture x %}{{ p }},{% endcapture %}
+		{% assign captured_dates = captured_dates | append: x %}
+	{% endfor %}
+	{% assign captured_dates = captured_dates | split: ',' %}
+
+{% endif %} 

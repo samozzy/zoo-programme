@@ -1,6 +1,8 @@
 {% assign show = include.show %}
 {% if show.performances and show.performances != empty %}
-	{% assign show_dates = show.performances | sort %}
+	{% include show/capture-show-dates.html show=show %}
+
+	{% assign show_dates = captured_dates | sort %}
 	{% assign first_performance = show_dates[0] %}
 	{% if show_dates[1] %}
 		{% assign last_date = show_dates | size | minus: 1 %}
