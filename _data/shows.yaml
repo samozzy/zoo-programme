@@ -41,7 +41,7 @@ shows:
       weekend: 13
       weekend_conc: 10
       preview: null
-    start_time: "1515"
+    start_time: "15:15"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -116,7 +116,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 9
-    start_time: 12:00
+    start_time: "12:00"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
@@ -177,7 +177,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: 12:45
+    start_time: "12:45"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -252,7 +252,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: 13:05
+    start_time: "13:05"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -320,7 +320,7 @@ shows:
       weekend: 14
       weekend_conc: 11.5
       preview: 8
-    start_time: 17:45
+    start_time: "17:45"
     booking_unavailable: false
     is_draft: false
     preview_dates: 07/08/2023
@@ -394,7 +394,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 8
-    start_time: 16:30
+    start_time: "16:30"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -466,7 +466,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: 20:15
+    start_time: "20:15"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -532,7 +532,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 14:40
+    start_time: "14:40"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -626,7 +626,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 10:00
+    start_time: "10:00"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -699,7 +699,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 12:40
+    start_time: "12:40"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -772,7 +772,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 11:20
+    start_time: "11:20"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -853,7 +853,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 16:30
+    start_time: "16:30"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -933,7 +933,7 @@ shows:
       weekend: 13
       weekend_conc: 10
       preview: 8
-    start_time: "1650"
+    start_time: "16:50"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1015,7 +1015,7 @@ shows:
       weekend: 13
       weekend_conc: null
       preview: 10
-    start_time: "1750"
+    start_time: "17:50"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
@@ -1080,7 +1080,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "1440"
+    start_time: "14:40"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1163,7 +1163,7 @@ shows:
       weekend: 10
       weekend_conc: 10
       preview: 9
-    start_time: "1545"
+    start_time: "15:45"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1236,7 +1236,7 @@ shows:
       weekend: 18
       weekend_conc: 16
       preview: null
-    start_time: 8:20pm
+    start_time: "20:20"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1314,7 +1314,7 @@ shows:
       weekend: 12
       weekend_conc: null
       preview: 8
-    start_time: 2:15pm
+    start_time: "14:15"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1389,7 +1389,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 10
-    start_time: 9:50pm
+    start_time: "21:50"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1453,7 +1453,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 6:25pm
+    start_time: "18:25"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1524,7 +1524,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: 6:05pm
+    start_time: "18:05"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1590,7 +1590,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 6:30pm
+    start_time: "18:30"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1665,7 +1665,7 @@ shows:
       weekend: 12
       weekend_conc: 10
       preview: null
-    start_time: 1:05pm
+    start_time: "13:05"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
