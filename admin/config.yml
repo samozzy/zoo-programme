@@ -101,11 +101,10 @@ collections:
                     hint: If prices vary, give a range here, eg. "£4 - 14". You can also
                       use words, but keep deal info (eg. BOGOF, weekend) to the ticket deals field.
                   - name: ticket_deals
-                    widget: object
+                    widget: list
                     label: Ticket Deals
                     required: false
-                    hint: Any ticket deals this show has, eg BOGOF, half price hut, etc.
-                    field: {label: deal, name: deal, widget: string, required: false}
+                    hint: Any ticket deals this show has, eg BOGOF, half price hut, etc. Separate each deal with a comma.
 
               # - type: list
               #   name: genre
