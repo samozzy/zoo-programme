@@ -24,7 +24,7 @@ collections:
           - label: 'Age Ratings'
             name: 'ratings'
             widget: 'list'
-            field: {label: rating, name: rating, widget: string, summary: '{{fields.rating}}'}
+            field: {label: ratings, name: ratings, widget: string, summary: '{{fields.ratings}}'}
   - name: 'shows'
     label: 'Shows'
     editor:
