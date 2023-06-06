@@ -489,7 +489,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/03-04-2023-090000-7720.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1500/
     company: Two Cats on a Date
     content_warnings:
       - Audience Participation
