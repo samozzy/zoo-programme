@@ -1772,7 +1772,9 @@ shows:
     age_restricted: false
     ticket_url: ""
     company: SKaGeN theatre
-    content_warnings: []
+    content_warnings:
+      - Contains Distressing or Potentially Triggering Themes
+      - Scenes of Violence
     video_embeds:
       - title: ""
         embed_code: ""
