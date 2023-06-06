@@ -784,7 +784,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023
     title: La codista / The queuer
-    age_guidance: null
+    age_guidance: 0+
     links:
       - title: Twitter
         platform: twitter
@@ -865,7 +865,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 14/08/2023, 21/08/2023
     title: The Insider
-    age_guidance: null
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
@@ -876,6 +876,11 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@TeaterKatapult"
+    content_warning_detail:
+      - The sound is supplied to the audience via individual headphones. This
+        means that all audience members must have a set of headphones. We will
+        hand out the headphones before the show. There will be 5 neck slings for
+        people with hearing aids.
     image: https://eventotron.imgix.net/04-20-2023-170619-8031.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1490/
