@@ -21,9 +21,13 @@ collections:
         name: 'age-ratings'
         file: '_data/age-ratings.yml'
         fields:
-          - label: 'rating'
+          - label: 'Age Ratings'
             name: 'rating'
-            widget: 'string'
+            widget: 'list'
+            fields:
+              - widget: string 
+                name: age-rating 
+                label: Age Rating 
   - name: 'shows'
     label: 'Shows'
     editor:
