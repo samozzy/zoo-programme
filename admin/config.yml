@@ -48,51 +48,60 @@ collections:
                 hint: 'Which Zoo building is the show in? '
               - widget: string
                 name: start_time
+                required: false 
                 label: Start Time
                 hint: When does the performance start?  (Assumes all performances will start at the same time)
               - widget: string
                 name: duration
+                required: false
                 label: Duration
                 hint: How long is the performance? Use mins __or__ hours, eg. 45mins; 1hr45
               - widget: select
                 name: performances
+                required: false
                 label: Performance Dates
                 hint: Select all the performance dates for the show.
                 options: ["2023-08-01","2023-08-02","2023-08-03","2023-08-04","2023-08-05","2023-08-06","2023-08-07","2023-08-08","2023-08-09","2023-08-10","2023-08-11","2023-08-12","2023-08-13","2023-08-14","2023-08-15","2023-08-16","2023-08-17","2023-08-18","2023-08-19","2023-08-20","2023-08-21","2023-08-22","2023-08-23","2023-08-24","2023-08-25","2023-08-26","2023-08-27","2023-08-28","2023-08-29","2023-08-30","2023-08-31"]
               - widget: object
                 name: price
                 label: Pricing
+                required: false
                 fields:
                   - widget: number
                     name: standard
                     label: Standard
+                    required: false
                     hint: Just the number, no currency please.
                   - widget: number
                     name: concession
+                    required: false
                     label: Concession
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: weekend
+                    required: false
                     label: Friday-Sunday pricing
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: weekend_conc
+                    required: false
                     label: Friday-Sunday concession pricing 
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: preview
                     label: Preview
+                    required: false
                     hint: "(Optional) Just the number, no currency please."
                   - name: price_range
                     widget: string
-                    config:
-                      required: false
+                    required: false
                     label: Price Range
                     hint: If prices vary, give a range here, eg. "£4 - 14". You can also
                       use words, but keep deal info (eg. BOGOF, weekend) to the ticket deals field.
                   - name: ticket_deals
                     widget: object
                     label: Ticket Deals
+                    required: false
                     hint: Any ticket deals this show has, eg BOGOF, half price hut, etc.
                     field: {label: deal, name: deal, widget: string}
 
@@ -124,6 +133,7 @@ collections:
                 widget: string
                 label: Ticket URL
                 hint: Link to the page to book tickets
+                required: false
               - name: booking_unavailable
                 widget: boolean
                 default: false 
@@ -132,11 +142,13 @@ collections:
               - name: age_restricted
                 widget: boolean
                 label: Age Restricted
+                default: false 
                 hint: Tick this if the age guidance is an age restriction for the show
               - widget: select
                 name: access
                 label: Access Provisions
                 hint: Eg. BSL, Captions
+                required: false
                 multiple: true
                 options:
                   - bsl
@@ -145,26 +157,31 @@ collections:
                   - ad
               - widget: string
                 name: access_details
+                required: false
                 label: Access Performance Details
                 hint: Eg. Which performances have captions, etc.
 
               - widget: list
                 name: content_warnings
                 label: Content Warnings
+                required: false
                 hint: Eg. Strobe lighting, strong language. These can be filtered on the programme page.
                 field: {label: warning, name: warning, widget: string}
               - name: content_warning_detail
                 widget: list
+                required: false
                 label: Content Warning Detail
                 hint: Details about where the content warnings feature in the show, or
                   weirdly specific content warnings (eg. a dead pig)
               - name: image
                 widget: file
+                required: false
                 choose_url: true 
                 label: Image
                 hint: Show image. Must be square. If unset, uses a placeholder.
               - name: image_alt
                 widget: string
+                required: false
                 label: Image alt text
                 hint: Textual description of the show image (if unset, it's the show title)
 
@@ -175,10 +192,12 @@ collections:
                   - widget: string
                     name: title
                     label: Title
+                    required: false
                     hint: 'The title of this video. Eg: "Trailer".'
                   - name: embed_code
                     widget: string
                     label: Embed Code
+                    required: false
                     hint: The video embed code from Vimeo
                 hint: An embedded video for the show, typically a trailer.
               - widget: list
@@ -188,13 +207,16 @@ collections:
                   - widget: string
                     name: title
                     label: Title
+                    required: false
                     hint: What the link should say (If it's a social media link, the icon will take precedence)
                   - widget: string
                     name: link
                     label: Link
+                    required: false
                   - widget: string
                     name: platform
                     label: Platform
+                    required: false
                     hint: If it's Twitter, Facebook, Instagram, YouTube, or TikTok, an icon will appear instead of the name
               - widget: list
                 name: reviews
@@ -203,20 +225,25 @@ collections:
                 - widget: string
                   name: Publisher
                   label: publisher
+                  required: false
                   hint: 'This could be the publication or the author '
                 - widget: string
                   name: quote
                   label: quote
+                  required: false
                 - widget: number
                   name: stars
                   label: stars
                   min: 0
                   max: 5
                   step: 0.5
+                  required: false
                   value_type: "float" 
               - widget: markdown
                 name: copy_short
                 label: Copy (Short)
+                required: false
               - widget: markdown
                 name: copy_long
                 label: Copy (Long)
+                required: false
