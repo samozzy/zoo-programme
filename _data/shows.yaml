@@ -1908,7 +1908,7 @@ shows:
     performance_dates: []
     no_shows: null
     title: Deuteronomy
-    age_guidance: ""
+    age_guidance: 8+
     links:
       - title: Twitter
         platform: twitter
@@ -1984,7 +1984,7 @@ shows:
     performance_dates: []
     no_shows: 10/08/2023, 17/08/2023
     title: "Optimistic: Elizabeth Holmes"
-    age_guidance: ""
+    age_guidance: 16+
     links:
       - title: Twitter
         platform: twitter
