@@ -1412,7 +1412,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/03-29-2023-085640-9917.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1481/
     company: Not Yet Home Productions
     content_warnings:
       - Audience Participation
