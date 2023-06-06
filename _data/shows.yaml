@@ -41,7 +41,7 @@ shows:
       weekend: 13
       weekend_conc: 10
       preview: null
-    start_time: "15:15"
+    start_time: "1515"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -116,7 +116,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 9
-    start_time: "12:00"
+    start_time: 12:00
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
@@ -139,7 +139,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/03-05-2023-211833-2935.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1478/
     company: Jenny Witzel
     content_warnings: []
     video_embeds:
@@ -177,7 +177,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: "12:45"
+    start_time: 12:45
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -252,7 +252,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: "13:05"
+    start_time: 13:05
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -275,7 +275,7 @@ shows:
         link: https://www.facebook.com/profile.php?id=100089191932269
     image: https://eventotron.imgix.net/03-02-2023-171604-7184.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1484/
     company: Gerry Carroll
     content_warnings: []
     video_embeds: null
@@ -320,7 +320,7 @@ shows:
       weekend: 14
       weekend_conc: 11.5
       preview: 8
-    start_time: "17:45"
+    start_time: 17:45
     booking_unavailable: false
     is_draft: false
     preview_dates: 07/08/2023
@@ -394,7 +394,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 8
-    start_time: "16:30"
+    start_time: 16:30
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -466,7 +466,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: "20:15"
+    start_time: 20:15
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -532,7 +532,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "14:40"
+    start_time: 14:40
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -555,7 +555,7 @@ shows:
         link: "@dongnu"
     image: https://eventotron.imgix.net/03-06-2023-144218-7143.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1503/
     company: DON GNU
     content_warnings:
       - Scenes of Violence
@@ -626,7 +626,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "10:00"
+    start_time: 10:00
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -649,7 +649,7 @@ shows:
         link: "@ontroerendgoedOG"
     image: https://eventotron.imgix.net/03-03-2023-135506-9130.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1504/
     company: Ontroerend Goed
     content_warnings:
       - Audience Participation
@@ -699,7 +699,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "12:40"
+    start_time: 12:40
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -722,7 +722,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/03-03-2023-133416-7584.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1501/
     company: SKaGeN - Valentijn Dhaenens
     content_warnings:
       - Strong Language/Swearing
@@ -772,7 +772,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "11:20"
+    start_time: 11:20
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -795,7 +795,7 @@ shows:
         link: "@WunderbaumRdam"
     image: https://eventotron.imgix.net/03-07-2023-162339-1606.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1491/
     company: Acteursgroep Wunderbaum
     content_warnings: []
     video_embeds:
@@ -853,7 +853,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "16:30"
+    start_time: 16:30
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -876,7 +876,7 @@ shows:
         link: "@TeaterKatapult"
     image: https://eventotron.imgix.net/04-20-2023-170619-8031.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1490/
     company: Teater Katapult
     content_warnings:
       - Strobe Lighting
@@ -933,7 +933,7 @@ shows:
       weekend: 13
       weekend_conc: 10
       preview: 8
-    start_time: "16:50"
+    start_time: "1650"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -956,7 +956,7 @@ shows:
         link: "@climblive"
     image: https://eventotron.imgix.net/03-08-2023-105837-8695.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1477/
     company: Duane Forrest presents
     content_warnings: []
     video_embeds:
@@ -1015,7 +1015,7 @@ shows:
       weekend: 13
       weekend_conc: null
       preview: 10
-    start_time: "17:50"
+    start_time: "1750"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023, 05/08/2023
@@ -1080,7 +1080,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "14:40"
+    start_time: "1440"
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1105,7 +1105,7 @@ shows:
         link: "@junkensemble"
     image: https://eventotron.imgix.net/03-06-2023-161353-9358.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1479/
     company: Junk Ensemble
     content_warnings:
       - Scenes of Violence
@@ -1163,7 +1163,7 @@ shows:
       weekend: 10
       weekend_conc: 10
       preview: 9
-    start_time: "15:45"
+    start_time: "1545"
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1190,7 +1190,7 @@ shows:
         link: https://vimeo.com/user64379869
     image: https://eventotron.imgix.net/03-31-2023-012845-7977.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1485/
     company: Elliot Minogue-Stone
     content_warnings: []
   - audio_desc_dates: null
@@ -1236,7 +1236,7 @@ shows:
       weekend: 18
       weekend_conc: 16
       preview: null
-    start_time: "20:20"
+    start_time: 8:20pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1314,7 +1314,7 @@ shows:
       weekend: 12
       weekend_conc: null
       preview: 8
-    start_time: "14:15"
+    start_time: 2:15pm
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1338,7 +1338,7 @@ shows:
     content_warning_detail: []
     image: https://eventotron.imgix.net/03-07-2023-191651-4448.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1474/
     company: Michael Galligan
     content_warnings:
       - Audience Participation
@@ -1389,7 +1389,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 10
-    start_time: "21:50"
+    start_time: 9:50pm
     booking_unavailable: false
     is_draft: false
     preview_dates: 04/08/2023
@@ -1453,7 +1453,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "18:25"
+    start_time: 6:25pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1524,7 +1524,7 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: null
-    start_time: "18:05"
+    start_time: 6:05pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1590,7 +1590,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: "18:30"
+    start_time: 6:30pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1616,7 +1616,7 @@ shows:
         link: https://vimeo.com/user1836253/harvest
     image: https://eventotron.imgix.net/03-20-2023-110239-8080.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1486/
     company: recoil performance group
     content_warnings: []
   - audio_desc_dates: 19/08/2023, 20/08/2023
@@ -1665,7 +1665,7 @@ shows:
       weekend: 12
       weekend_conc: 10
       preview: null
-    start_time: "13:05"
+    start_time: 1:05pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
@@ -1846,7 +1846,7 @@ shows:
         link: "@PigPenProductions"
     image: https://eventotron.imgix.net/04-01-2023-110921-5398.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1480/
     company: PigPen Productions
     content_warnings: []
     video_embeds:
@@ -1896,7 +1896,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/04-02-2023-122615-8740.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1494/
     company: Sarah Deller
     content_warnings: []
     video_embeds:
