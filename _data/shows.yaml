@@ -1423,6 +1423,13 @@ shows:
   - audio_desc_dates: null
     captioning_dates: 22/08/2023
     genre: null
+    performances:
+      - 2023-08-21
+      - 2023-08-22
+      - 2023-08-24
+      - 2023-08-25
+      - 2023-08-26
+      - 2023-08-27
     access:
       - ad
       - bsl
@@ -1446,11 +1453,12 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
+    start_time: 6:25pm
     booking_unavailable: false
     is_draft: false
     preview_dates: null
     venue: ZOO Southside
-    duration: null
+    duration: 1hr
     relaxed_dates: 20/08/2023, 21/08/2023, 22/08/2023, 23/08/2023, 25/08/2023,
       26/08/2023, 27/08/2023
     performance_dates: []
@@ -1471,7 +1479,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1488/
     company: Bullyache
-    content_warnings: []
+    content_warnings:
+      - Nudity
     video_embeds:
       - title: ""
         embed_code: ""
