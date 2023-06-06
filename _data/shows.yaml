@@ -649,7 +649,7 @@ shows:
         link: "@ontroerendgoedOG"
     image: https://eventotron.imgix.net/03-03-2023-135506-9130.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1504/
     company: Ontroerend Goed
     content_warnings:
       - Audience Participation
