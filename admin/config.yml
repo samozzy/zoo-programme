@@ -36,6 +36,7 @@ collections:
               - widget: string
                 name: company
                 label: Company
+                required: false
                 hint: The company bringing the show (may be just the writer or lead artist in some cases)
               - name: is_draft
                 widget: boolean
