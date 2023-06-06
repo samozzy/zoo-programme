@@ -137,7 +137,7 @@ collections:
                 widget: relation
                 collection: "age-ratings"
                 file: "age-ratings"
-                value_field: "age-ratings.*.ratings" 
+                value_field: "age-ratings.*.rating" 
                 search_fields: ["age-ratings.*.rating"] 
                 display_fields: ["age-ratings.*.rating"]
                 required: false
