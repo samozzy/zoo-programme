@@ -950,7 +950,7 @@ shows:
     performance_dates: []
     no_shows: 07/08/2023, 12/08/2023, 13/08/2023, 14/08/2023, 21/08/2023
     title: Climb
-    age_guidance: null
+    age_guidance: 8+
     links:
       - title: Twitter
         platform: twitter
@@ -961,6 +961,8 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@climblive"
+    content_warning_detail:
+      - Explores mental health and navigating trauma
     image: https://eventotron.imgix.net/03-08-2023-105837-8695.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1477/
