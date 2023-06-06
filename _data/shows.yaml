@@ -2011,6 +2011,14 @@ shows:
   - audio_desc_dates: null
     captioning_dates: null
     genre: null
+    performances:
+      - 2023-08-13
+      - 2023-08-14
+      - 2023-08-15
+      - 2023-08-16
+      - 2023-08-17
+      - 2023-08-18
+      - 2023-08-19
     access: []
     image_alt: ""
     copy_long: >
@@ -2030,16 +2038,17 @@ shows:
       weekend: 12.5
       weekend_conc: 10.5
       preview: null
+    start_time: 20:55
     booking_unavailable: false
     is_draft: false
     preview_dates: null
     venue: ZOO Playground
-    duration: null
+    duration: 55mins
     relaxed_dates: null
     performance_dates: []
     no_shows: null
     title: Sex-Ed Revisited
-    age_guidance: null
+    age_guidance: 18+
     links:
       - title: Twitter
         platform: twitter
@@ -2051,10 +2060,12 @@ shows:
         platform: Facebook
         link: "@HollyEFDelefortrie"
     image: https://eventotron.imgix.net/04-02-2023-193951-2644.jpg
-    age_restricted: false
+    age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1495/
     company: Holly Delefortrie
-    content_warnings: []
+    content_warnings:
+      - Audience Participation
+      - Scenes of a Sexual Nature
     video_embeds:
       - title: ""
         embed_code: ""
