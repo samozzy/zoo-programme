@@ -73,26 +73,31 @@ collections:
                     name: standard
                     label: Standard
                     required: false
+                    value_type: "float" 
                     hint: Just the number, no currency please.
                   - widget: number
                     name: concession
                     required: false
+                    value_type: "float" 
                     label: Concession
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: weekend
                     required: false
+                    value_type: "float" 
                     label: Friday-Sunday pricing
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: weekend_conc
                     required: false
+                    value_type: "float" 
                     label: Friday-Sunday concession pricing 
                     hint: "(Optional) Just the number, no currency please."
                   - widget: number
                     name: preview
                     label: Preview
                     required: false
+                    value_type: "float" 
                     hint: "(Optional) Just the number, no currency please."
                   - name: price_range
                     widget: string
@@ -167,7 +172,7 @@ collections:
                 label: Content Warnings
                 required: false
                 hint: Eg. Strobe lighting, strong language. These can be filtered on the programme page.
-                field: {label: warning, name: warning, widget: string}
+                field: {label: warning, name: warning, widget: string, summary: '{{fields.warning}}'}
               - name: content_warning_detail
                 widget: list
                 required: false
@@ -189,6 +194,7 @@ collections:
               - widget: list
                 name: video_embeds
                 label: Video Embed
+                summary: '{{fields.title}}'
                 fields:
                   - widget: string
                     name: title
@@ -204,6 +210,7 @@ collections:
               - widget: list
                 name: links
                 label: Links
+                summary: '{{fields.title}}'
                 fields:
                   - widget: string
                     name: title
@@ -222,6 +229,7 @@ collections:
               - widget: list
                 name: reviews
                 label: Reviews
+                summary: '{{fields.publisher}} - {{fields.stars}}'
                 fields:
                 - widget: string
                   name: Publisher
