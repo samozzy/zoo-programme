@@ -2344,6 +2344,13 @@ shows:
   - audio_desc_dates: null
     captioning_dates: null
     genre: null
+    performances:
+      - 2023-08-12
+      - 2023-08-13
+      - 2023-08-16
+      - 2023-08-17
+      - 2023-08-18
+      - 2023-08-19
     access: []
     image_alt: ""
     copy_long: >
@@ -2361,16 +2368,17 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
+    start_time: 22:20
     booking_unavailable: false
     is_draft: false
     preview_dates: null
     venue: ZOO Southside
-    duration: null
+    duration: 1hr
     relaxed_dates: null
     performance_dates: []
     no_shows: 14/08/2023, 15/08/2023
     title: My Best Judys
-    age_guidance: null
+    age_guidance: 12+
     links:
       - title: Twitter
         platform: twitter
