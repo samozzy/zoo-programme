@@ -22,9 +22,9 @@ collections:
         file: '_data/age-ratings.yml'
         fields:
           - label: 'Age Ratings'
-            name: 'ratings'
+            name: 'age-ratings'
             widget: 'list'
-            field: {label: ratings, name: ratings, widget: string, summary: '{{fields.ratings}}'}
+            field: {label: rating, name: rating, widget: string, summary: '{{fields.ratings}}'}
   - name: 'shows'
     label: 'Shows'
     editor:
@@ -138,8 +138,8 @@ collections:
                 collection: "age-ratings"
                 file: "age-ratings"
                 value_field: "age-ratings.*.ratings" 
-                search_fields: ["age-ratings.*.ratings"] 
-                display_fields: ["age-ratings.*.ratings"]
+                search_fields: ["age-ratings.*.rating"] 
+                display_fields: ["age-ratings.*.rating"]
                 required: false
                 label: Age Guidance
                 hint: Age guidance for shows
