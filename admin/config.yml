@@ -136,6 +136,7 @@ collections:
               - name: age_guidance
                 widget: relation
                 collection: "age-ratings"
+                file: "age-ratings"
                 value_field: "ratings.*.rating" 
                 search_fields: ["ratings.*.rating"] 
                 display_fields: ["ratings.*.rating"]
