@@ -1229,7 +1229,7 @@ shows:
       - 2023-08-27
     access: []
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       Inspired by Shakespeare’s ‘Titus Andronicus’, featuring original text and
       music which depict the extreme cruelty resulting from retaliation. Song of
       the Goat’s signature staging of topical issues now turns to the ongoing
@@ -1238,6 +1238,9 @@ shows:
       Synecdoche reaches for the topos and the universally recognizable myth,
       creating a symbolic image of war as a field of the moral decline of
       humanity. War lasts as long as revenge takes.
+
+
+      ![](/static/culture-ministry-poland-logo-titus.png)
     preview: NO
     price:
       standard: 18
