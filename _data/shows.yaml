@@ -1463,7 +1463,7 @@ shows:
       - captions
       - relaxed
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       In a holding room, participants wait. A pageant is about to begin. No call
       time, perpetual purgatory. Following a scorching premiere at NOW 23
       Festival, music-duo and dance company Bullyache make their Edinburgh debut
@@ -1471,8 +1471,11 @@ shows:
       vertigo-inducing pop-culture collision of working class and queer
       expression. With original live music and dance, Tom oscillates between
       hyper-speed pop, ambient waves, and auto-tune vocals. Bullyache and cast
-      burst into song, they fight, f'**, live, laugh, and love... deconstructing
-      the price of being in a world that demands too much.
+      burst into song, they fight, f'\*\*, live, laugh, and love...
+      deconstructing the price of being in a world that demands too much.
+
+
+      ![](/static/horizon-300px.png)
     preview: NO
     price:
       standard: 17
@@ -1826,7 +1829,7 @@ shows:
       - captions
       - relaxed
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       Figs in Wigs are back and this time they've got their period (dresses). A
       live art, feminist "adaptation" of Louisa May Alcott's novel Little Women.
       Wild, irreverent, and cosmically comical, it dismantles the canon, making
@@ -1835,6 +1838,9 @@ shows:
       use the story as a trojan horse, turning it on its head and mutating it
       into an unrecognisable cartoon catastrophe about climate change,
       astrology, and the infinite nature of the universe. PS Beth dies.
+
+
+      ![](/static/horizon-300px.png)
     preview: NO
     price:
       standard: 16
