@@ -327,7 +327,10 @@ a.card-event-hover  {
 		@extend .text-center, .text-lg-start;
 	}
 	.icon-row {
-		@extend .row, .row-cols-2, .row-cols-sm-4;
+		@extend .row, .row-cols-auto, .row-cols-sm-4;
+		&.icon-row-4 {
+			@extend .row-cols-2, .row-cols-sm-4;
+		}
 		@extend .d-flex, .justify-content-between, .justify-content-lg-start;
 		@extend .fs-6, .text-center;
 

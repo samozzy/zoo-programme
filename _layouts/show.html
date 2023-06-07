@@ -14,29 +14,39 @@ use_swiper: true
 		</div>
 		<div class="col-12 col-lg-8 col-xl-7 order-3 order-lg-2">
 			{% include show/show-title.html show=show header_size='h1' header_class='display-2' company_class='display-4' %}
-			<div class="icon-row">
-				{% if show.price.standard and show.price.standard != empty %}
-					{% assign has_price = true %}
-					{% capture price_tooltip %}
-						{% if show.price.concession %}
-							Standard tickets £{{ show.price.standard }}; concession £{{ show.price.concession }}
-						{% else %}
-							All tickets {% include text/price.html show=show %}
-						{% endif %}
-					{% endcapture %}
-				{% elsif show.price.price_range and show.price.price_range != empty %}
-					{% assign has_price = true %}
-					{% capture price_tooltip %}
-						Tickets available from {{ show.price.price_range }}
-					{% endcapture %}
-				{% endif %}
+			{% if show.price.standard and show.price.standard != empty %}
+				{% assign has_price = true %}
+				{% capture price_tooltip %}
+					{% if show.price.concession %}
+						Standard tickets £{{ show.price.standard }}; concession £{{ show.price.concession }}
+					{% else %}
+						All tickets {% include text/price.html show=show %}
+					{% endif %}
+				{% endcapture %}
+			{% elsif show.price.price_range and show.price.price_range != empty %}
+				{% assign has_price = true %}
+				{% capture price_tooltip %}
+					Tickets available from {{ show.price.price_range }}
+				{% endcapture %}
+			{% endif %}
+			{% if show.start_time and show.start_time != empty %}
+				{% assign has_start_time = true %}
+			{% endif %}
+			{% if show.venue and show.venue != empty %}
+				{% assign has_venue = true %}
+			{% endif %}
+			{% if show.access and show.access != empty %}
+				{% assign has_access = true %}
+			{% endif %}
+
+			<div class="icon-row {% if has_price and has_start_time and has_venue and has_access %}icon-row-4{% endif %}">
 				{% if has_price == true %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-ticket-alt"{% include text/tooltip.html the_tooltip=price_tooltip %}></i><br>
 						{% include text/price.html show=show %}
 					</div>
 				{% endif %}
-				{% if show.start_time and show.start_time != empty %}
+				{% if has_start_time == true %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-clock"></i><br>
 						{% include show/show-start-time.html show=show %}
@@ -46,14 +56,13 @@ use_swiper: true
 						{% endif %}
 					</div>
 				{% endif %}
-				{% if show.venue and show.venue != empty %}
+				{% if has_venue %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-map"></i><br>
 						{{ show.venue | replace: "Zoo ", "ZOO " }}
 					</div>
 				{% endif %}
-				{% if show.access and show.access != empty %}
-					{% assign has_access = true %}
+				{% if has_access == true %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-universal-access"></i><br>
 						<div class="text-zoo-slate d-flex flex-row justify-content-evenly pt-1">
