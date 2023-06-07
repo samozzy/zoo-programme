@@ -2467,7 +2467,7 @@ shows:
         link: null
     image: https://eventotron.imgix.net/04-11-2023-224216-2043.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1532/
     company: Sean Conrad + Becky Goodman
     content_warnings:
       - Contains Distressing or Potentially Triggering Themes
@@ -2535,7 +2535,7 @@ shows:
       - sexual reference and themes of mental health.
     image: https://eventotron.imgix.net/04-15-2023-125143-4667.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1531/
     company: PINCHY theatre
     content_warnings:
       - Contains Distressing or Potentially Triggering Themes
@@ -2734,7 +2734,7 @@ shows:
         link: https://www.facebook.com/profile.php?id=100090451617228
     image: /static/06-01-2023-105329-7487.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1533/
     company: A Perfectly Average Glimpse Into A Perfectly Average Day
     content_warnings:
       - Contrains Distressing or Potentially Triggering Themes
@@ -2850,7 +2850,7 @@ shows:
     image: /static/bob-marley-zoo-2023-no-text-343x343.png
     bsl: null
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1537/
     company: Duane Forrest
     content_warnings:
       - Contains Distressing or Potentially Triggering Themes
