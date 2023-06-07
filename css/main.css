@@ -432,6 +432,17 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   padding-left: 0.4rem;
 }
 
+.icon-animation-start {
+  margin-right: 0rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
+}
+
+.icon-animation-start:hover .fa, .icon-animation-start:focus .fa, .icon-animation-start:active .fa, .icon-animation-start:focus-within .fa {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
 .icon-animation-end:hover .fa, .icon-animation-end:focus .fa, .icon-animation-end:active .fa, .icon-animation-end:focus-within .fa {
   margin-right: -0.5rem;
   padding-left: 0.6rem;
@@ -573,7 +584,7 @@ img.logo-in-title {
 }
 
 @media (max-width: 575.98px) {
-  .row.homepage-banner .header-logo img, .show-large .homepage-banner.icon-row .header-logo img {
+  .header-logo img {
     transform: scale(0.7);
   }
 }

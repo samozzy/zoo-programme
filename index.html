@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202306071434">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202306071518">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -66,7 +66,9 @@
 	<div class="row homepage-banner p-4 mx-0">
 		<div class="d-block d-lg-none header-logo"><div class="col-12 col-xl-2 text-center text-xl-end order-1 order-xl-3 mb-4 mb-xl-0 ">
 	<a href="/"><img src="/static/img/zoo/zoo-logo-white.png" class="img-responsive" width="125px" height="auto" alt="ZOO"></a>
-</div></div>
+	
+</div>
+</div>
 		<div class="col-12 col-md-8 text-center text-md-start my-md-auto mb-4">
 	        <h1 class="display-2 mb-0 text-light" id="top-of-content">
 <img class="logo-in-title home-logo" alt="ZOO" style="height:3.5rem;" 
@@ -79,13 +81,11 @@
         
 	</div>
 	<div class="row mx-auto">
-		<!-- <div class="ratio ratio-16x9 h-100 mb-4 bg-zoo-black"> -->
 		<div class="trailer-wrapper w-100 bg-zoo-black shadow" style="position:relative;">
 			<div style="padding:56.25% 0 0 0;position:relative;">
-				<iframe id="trailer_iframe" class="trailer" src="https://player.vimeo.com/video/832212967?h=e146d61a1c&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479&controls=false" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO Trailer 2023"></iframe>
+				<iframe id="trailer_iframe" class="trailer" src="https://player.vimeo.com/video/832212967?h=e146d61a1c&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479&controls=false&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO Trailer 2023"></iframe>
 			</div>
 
-			<!-- <iframe id="trailer_iframe" class="trailer" src="https://player.vimeo.com/video/717240332?h=42be0f6af8&badge=0&autopause=0&player_id=0&app_id=58479&controls=false" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOOTV trailer 2021"></iframe> -->
 			<script src="https://player.vimeo.com/api/player.js"></script>
 			<button data-bs-toggle="tooltip" title="Contains flashing images" data-bs-placement="bottom" class="trailer-play btn-zoo-pill btn-lg btn-info bebas mx-auto" onClick=togglePlay() id="play_button">Play</button>
 			<button class="trailer-volume btn-zoo-pill btn-lg btn-info" onclick=toggleMute() id="mute_button"><i class="fa fa-volume-mute"></i></button>
@@ -123,6 +123,21 @@
 				}
 			})
 		}
+		function autoplayConditional(){
+			// If the user does not have prefers-reduced-motion set, autoplay the trailer
+			if (window.matchMedia('(prefers-reduced-motion: reduce)').matches == false) {
+				trailer.getPaused().then(pausedState => {
+					if (pausedState == true){
+						togglePlay(); // Use the function to ensure the icons change appropriately 
+					}
+				});
+			}
+		}
+		window.addEventListener("DOMContentLoaded", (event) => {
+			// Wait for video to load before attempting to play it 
+			autoplayConditional()
+		});
+
 	</script>
 </div>
 <div class="container-sm mt-5 mb-4">
