@@ -1537,7 +1537,7 @@ progress {
   width: 100%;
 }
 
-.row-cols-2 > * {
+.row-cols-2 > *, .show-large .icon-row.icon-row-4 > * {
   flex: 0 0 auto;
   width: 50%;
 }
@@ -1751,7 +1751,7 @@ progress {
     flex: 0 0 auto;
     width: 33.3333333333%;
   }
-  .row-cols-sm-4 > * {
+  .row-cols-sm-4 > *, .show-large .icon-row > *, .show-large .icon-row.icon-row-4 > * {
     flex: 0 0 auto;
     width: 25%;
   }
@@ -8176,11 +8176,11 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .show-large .icon-row {
+.justify-content-center {
   justify-content: center !important;
 }
 
-.justify-content-between, .card-programme .card-header p {
+.justify-content-between, .card-programme .card-header p, .show-large .icon-row {
   justify-content: space-between !important;
 }
 
