@@ -8,7 +8,9 @@ use_swiper: true
 
 <div class="container-md pt-4">
 	<div class="row mb-4 show-large">
-		{% include components/header-logo.html back_button="true" %}
+		<div class="col-12 col-xl-2 text-center text-lg-start text-xl-end order-1 order-xl-3 mb-4 mb-xl-0">
+			<a class="mt-2 btn-zoo-book btn-outline-info icon-animation icon-animation-start" role="button" href="{% link _content/programme.md %}"><i class="fa fa-fw fa-arrow-left"></i> Full programme</a>
+		</div>
 		<div class="col-6 offset-3 offset-lg-0 col-lg-4 col-xl-3 order-2 order-lg-1">
 			{% include show/show-image.html show=show %}
 		</div>

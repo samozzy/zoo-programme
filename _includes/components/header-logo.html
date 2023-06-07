@@ -1,7 +1,3 @@
 <div class="col-12 col-xl-2 text-center text-xl-end order-1 order-xl-3 mb-4 mb-xl-0 {{ include.extra_class }}">
-	{% if include.back_button %}
-		<a class="mt-2 btn-zoo-book btn-outline-info icon-animation icon-animation-start" role="button" href="{% link _content/programme.md %}"><i class="fa fa-fw fa-arrow-left"></i> Full programme</a>
-	{% else %}
-		<a href="{% link _content/index.md %}"><img src="/static/img/zoo/zoo-logo-{{ include.color | default: 'black' }}.png" class="img-responsive" width="125px" height="auto" alt="ZOO"></a>
-	{% endif %}
+	<a href="{% link _content/index.md %}"><img src="/static/img/zoo/zoo-logo-{{ include.color | default: 'black' }}.png" class="img-responsive" width="125px" height="auto" alt="ZOO"></a>
 </div>
