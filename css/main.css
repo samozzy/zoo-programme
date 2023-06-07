@@ -1516,7 +1516,7 @@ progress {
   flex: 1 0 0%;
 }
 
-.row-cols-auto > * {
+.row-cols-auto > *, .show-large .icon-row > * {
   flex: 0 0 auto;
   width: auto;
 }
@@ -1526,7 +1526,7 @@ progress {
   width: 100%;
 }
 
-.row-cols-2 > *, .show-large .icon-row > * {
+.row-cols-2 > *, .show-large .icon-row.icon-row-4 > * {
   flex: 0 0 auto;
   width: 50%;
 }
@@ -1740,7 +1740,7 @@ progress {
     flex: 0 0 auto;
     width: 33.3333333333%;
   }
-  .row-cols-sm-4 > *, .show-large .icon-row > * {
+  .row-cols-sm-4 > *, .show-large .icon-row > *, .show-large .icon-row.icon-row-4 > * {
     flex: 0 0 auto;
     width: 25%;
   }
