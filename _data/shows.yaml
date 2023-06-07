@@ -849,7 +849,7 @@ shows:
       - ad
       - captions
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       Look into the human face of greed – live acting, visuals and a binaural
       soundscape that gives you the chills. The cum-ex tax scam: 50 billion GBP
       ‘robbed’ from the treasuries around Europe! The use of headphones and
@@ -857,8 +857,11 @@ shows:
       stage when he is interrogated, at a party in the club, in the shower, in a
       bank in Zürich. ‘Gifted, socially engaged performance’ \*\*\*\*\*
       (Kulturkupeen.dk) ’Innovative and exciting’ \*\*\*\*\* (Scenekanten.com).
-      ‘Mindful and sensual’ \*\*\*\*\* (Ungt Teaterblod). Nominated best male
+      ‘Mindful and sensual’ \*\*\*\** (Ungt Teaterblod). Nominated best male
       actor and best special show in Denmark 2021 (CPHCulture) Part of #DANISH.
+
+
+      ![](/static/danish-300px.png)
     preview: NO
     price:
       standard: 16
@@ -1609,15 +1612,21 @@ shows:
       - 2023-08-19
     access: []
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       A dance-performance that explores the working body across two seemingly
       distant sectors: agriculture and dance.
-        
+
+
       How do we humans shape and cultivate nature and how does a trade shape us? What is it to cultivate a body?
-        
+
+
       In HARVEST two performers from different traditions: a contemporary dancer and a neo-flamenco dancer embody these questions in a set that incorporates soil and grass.
-        
+
+
       A large reverberating floor with audience on the round becomes a giant speaker, shaking the room and setting the soil, the dancers and the whole space in motion. Part of #DANISH showcase.
+
+
+      ![](/static/danish-300px.png)
     preview: NO
     price:
       standard: 15
