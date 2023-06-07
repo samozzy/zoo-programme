@@ -48,6 +48,12 @@ use_swiper: true
 						{% include text/price.html show=show %}
 					</div>
 				{% endif %}
+				{% if has_venue %}
+					<div class="col mb-4 mb-md-0">
+						<i class="fa fa-fw fa-map"></i><br>
+						{{ show.venue | replace: "Zoo ", "ZOO " }}
+					</div>
+				{% endif %}
 				{% if has_start_time == true %}
 					<div class="col mb-4 mb-md-0">
 						<i class="fa fa-fw fa-clock"></i><br>
@@ -56,12 +62,6 @@ use_swiper: true
 						{% if show.duration and show.duration != empty %}
 							<br>({{ show.duration }})
 						{% endif %}
-					</div>
-				{% endif %}
-				{% if has_venue %}
-					<div class="col mb-4 mb-md-0">
-						<i class="fa fa-fw fa-map"></i><br>
-						{{ show.venue | replace: "Zoo ", "ZOO " }}
 					</div>
 				{% endif %}
 				{% if has_access == true %}
