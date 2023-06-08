@@ -821,6 +821,10 @@ img.access-icon {
   }
 }
 
+.event-content iframe {
+  min-height: 640px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -8044,7 +8048,7 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
-.w-100, table.date-list, .card-show-slider .show-image {
+.w-100, table.date-list, .card-show-slider .show-image, .event-content iframe {
   width: 100% !important;
 }
 
@@ -8375,7 +8379,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem !important;
 }
 
-.my-4, .programme-menu-container {
+.my-4, .programme-menu-container, .event-content {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
