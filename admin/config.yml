@@ -68,7 +68,7 @@ collections:
                 label: 'Event Code (super secret)'
               - name: venue
                 widget: select
-                options: ["ZOO Southside", "ZOO Playground"]
+                options: ["ZOO Southside", "ZOO Playground", "ZOO TV"]
                 label: Venue
                 hint: 'Which Zoo building is the show in? '
               - widget: string
