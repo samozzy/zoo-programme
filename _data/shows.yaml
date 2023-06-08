@@ -1703,7 +1703,6 @@ shows:
       audiences together for an unforgettable adventure in a companion piece to
       Debbie Deer’s Nefertiti: The One Who Comes.
     preview: NO
-    event_code: 61i4w1dt5z
     price:
       standard: 12
       concession: 10
@@ -1715,6 +1714,7 @@ shows:
     is_draft: false
     preview_dates: null
     venue: ZOO Playground
+    event_code: 61i4w1dt5z
     duration: 50mins
     relaxed_dates: null
     performance_dates: []
@@ -1797,6 +1797,7 @@ shows:
     is_draft: false
     preview_dates: null
     venue: ZOO TV
+    event_code: o9p5w4be4o
     duration: 24hrs
     relaxed_dates: null
     performance_dates: []
