@@ -334,10 +334,10 @@ layout: page
 		<div class="d-none col-12 w-100 text-center no-results" id="no-result-text">
 			<p class="lead"><em>No results for this set of filters</em></p>
 		</div>
-		{% assign available_shows = site.data.shows.shows | where_exp: "show", "show.is_draft!=true" | sort_natural: "title" %}
+		{% assign available_shows = site.data.shows.shows | where_exp: "show", "show.is_draft==false" | sort_natural: "title" %}
 		{% include programme-entry.html available_shows=available_shows additional_class='by-title-visible' %}
 
-		{% assign available_shows = site.data.shows.shows | sort: "start_time" %}
+		{% assign available_shows = available_shows | sort: "start_time" %}
 		{% include programme-entry.html available_shows=available_shows additional_class='by-time-hidden' %}
 
 	</div>
