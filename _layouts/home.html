@@ -85,12 +85,17 @@ layout: default
 		<div class="col-12 col-md-8 offset-md-2 my-auto text-center">
 			<h2 class="display-2 text-zoo-black">
 				{% if pre_launch %}
-					{% assign minutes = site.dates.launch | date: "%M" %}
-					{% if minutes == '00' %}{% assign launch_time = site.dates.launch | date: "%l%P" %}
-					{% else %}{% assign launch_time = site.dates.launch | date: "%l:%M%P" %}
+					{% assign launch_date = site.dates.launch %}
+					{% if site.dates.launch_offset %}
+						{% assign launch_offset = site.dates.launch_offset | date: "%s" | split: '.' | first %}
+						{% assign launch_date = site.dates.launch | date: "%s" | plus: launch_offset %}
+					{% endif %}
+					{% assign minutes = launch_date | date: "%M" %}
+					{% if minutes == '00' %}{% assign launch_time = launch_date | date: "%l%P" %}
+					{% else %}{% assign launch_time = launch_date | date: "%l:%M%P" %}
 					{% endif %}
 					We're back. <br>
-					Full programme announced <br>{{ site.dates.launch | date_to_long_string: "ordinal" }} at {{ launch_time }}
+					Full programme announced <br>{{ launch_date | date_to_long_string: "ordinal" }} at {{ launch_time }}
 				{% else %}
 					{{ content | remove: '<p>' | remove: '</p>' }}
 				{% endif %}
