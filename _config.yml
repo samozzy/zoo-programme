@@ -60,6 +60,9 @@ collections:
   content:
     output: true
     permalink: :path/
+  events:
+    output: true 
+    permalink: :collection/:slug/ 
 permalink: pretty 
 
 defaults:
@@ -68,6 +71,10 @@ defaults:
       type: content
     values:
       layout: default
+  - scope: 
+      type: events
+    values:
+      layout: events 
 
 page_gen-dirs: true
 

@@ -1,0 +1,8 @@
+.event-content {
+	@extend .my-4;
+	
+	iframe {
+		@extend .w-100;
+		min-height: 640px;
+	}
+}

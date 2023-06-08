@@ -1,0 +1,35 @@
+---
+layout: page-narrow
+---
+
+{% assign show = site.data.shows.shows | where_exp: "show", "show.event_code==page.slug" | first %}
+
+{% if show and show.event_code == page.slug and show.title == page.title and show.is_draft != true %}
+<div class="text-center">
+	{% include show/show-title.html show=show header_size="h1" company_class="h2" %}
+	<p class="helper-text"><i class="fa fa-info-circle fa-fw"></i> This page is for ticket-holders for '{{ show.title }}'</p>
+	<a class="mt-2 btn-zoo-book btn-outline-info icon-animation icon-animation-start" role="button" href="/{{the_link}}"><i class="fa fa-fw fa-arrow-left"></i> Back to show page</a>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12 event-content">
+			{{ content }} 
+		</div>
+	</div>
+</div>
+{% else %}
+{% comment %}Error handling{% endcomment %}
+{% if show %}
+	{% if show.event_code != page.slug %}
+		{% assign error = 'Show ID mismatch' %}
+	{% elsif show.title != page.title %}
+		{% assign error = 'Show title mismatch' %}
+	{% else %}
+		{% assign error = 'Show not loaded' %}
+	{% endif %}
+{% else %}
+	{% assign error = 'No show specified' %}
+{% endif %}
+<h1>Error: {{ error | default: "Insufficient data" }}. <br>Please contact <a href="mailto:info@zoovenues.co.uk">info@zoovenues.co.uk</a> for support.</h1>
+<a class="mt-2 btn-zoo-book btn-outline-info icon-animation icon-animation-start" role="button" href="{% link _content/index.md %}"><i class="fa fa-fw fa-arrow-left"></i> Back to the home page</a>
+{% endif %}

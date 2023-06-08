@@ -25,6 +25,15 @@ collections:
             name: 'ratings'
             widget: 'list'
             field: {label: rating, name: rating, widget: string, summary: '{{field.rating}}'}
+  - name: 'events'
+    label: 'Secret Event Pages'
+    editor: 
+      preview: false 
+    folder: '_events'
+    create: true 
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'Show title - must match exactly to a show' }
+      - { label: 'Event Code', name: 'slug', widget: 'string', hint: 'Event code - must match exactly to the show event code. Any string. Will be used to generate the URL' }
   - name: 'shows'
     label: 'Shows'
     editor:
@@ -38,10 +47,6 @@ collections:
             name: 'shows'
             widget: 'list'
             fields:
-          #     - { label: Title, name: title, widget: string }
-          #     - { label: Company, ''}
-          #     - { label: Venue, name: venue, widget: "select", options: ["ZOO Southside", "ZOO Playground"]}
-          #     - { label: Duration, name: duration, widget: string, hint: "" }
               - widget: string
                 name: title
                 label: Title
@@ -55,6 +60,10 @@ collections:
                 widget: boolean
                 label: Draft
                 hint: Tick to hide the show from public listings (the show page will still be generated, just not linked to from anywhere)
+              - name: event_code 
+                widget: string 
+                required: false 
+                hint: Event Code - used for secret ticket-holders-only events pages 
               - name: venue
                 widget: select
                 options: ["ZOO Southside", "ZOO Playground"]
