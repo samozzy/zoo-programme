@@ -65,6 +65,7 @@ collections:
                 widget: string 
                 required: false 
                 hint: Event Code - used for secret ticket-holders-only events pages 
+                label: 'Event Code (super secret)'
               - name: venue
                 widget: select
                 options: ["ZOO Southside", "ZOO Playground"]
