@@ -137,7 +137,7 @@ shows:
       - title: Facebook
         platform: Facebook
         link: null
-    image: https://eventotron.imgix.net/03-05-2023-211833-2935.jpg
+    image: /static/creekshow.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1478/
     company: Jenny Witzel
