@@ -34,6 +34,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Show title - must match exactly to a show' }
       - { label: 'Event Code', name: 'slug', widget: 'string', hint: 'Event code - must match exactly to the show event code. Any string. Will be used to generate the URL' }
+      - { label: 'Body', name: 'body', widget: 'text', required: false, hint: 'Page body - you can put anything in here - words, links, embeds all welcome.' }
   - name: 'shows'
     label: 'Shows'
     editor:
