@@ -2685,7 +2685,7 @@ shows:
       preview: null
     start_time: 20:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     preview_dates: null
     venue: ZOO Playground
     duration: 50mins
