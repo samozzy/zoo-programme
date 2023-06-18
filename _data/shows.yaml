@@ -1049,13 +1049,13 @@ shows:
     links:
       - title: Twitter
         platform: twitter
-        link: null
+        link: https://twitter.com/vibhinnaramdev
       - title: Instagram
         platform: Instagram
         link: "@vibhinnaramdev"
       - title: Facebook
         platform: Facebook
-        link: null
+        link: https://www.facebook.com/vibhinna
     image: https://eventotron.imgix.net/04-20-2023-165501-3264.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1493/
