@@ -56,7 +56,7 @@ shows:
       - title: Instagram
         platform: Instagram
         link: "@robinboondale"
-    image: https://eventotron.imgix.net/02-28-2023-130334-6576.jpg
+    image: /static/what-does-stuff-do.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1502/
     company: Robin Boon Dale
@@ -2916,7 +2916,7 @@ shows:
     venue: ZOO Playground
     title: Beasts (Why Girls Shouldn't Be Afraid of the Dark)
     age_guidance: 16+
-    image: /static/06-05-2023-234555-6056.jpg
+    image: /static/beasts-343x343.png
     age_restricted: false
     company: Mandi Chivasa
     content_warnings:
