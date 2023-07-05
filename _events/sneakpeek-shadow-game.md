@@ -4,7 +4,7 @@ slug: o9p5w4be4o
 ---
 To watch and SneakPeek, please click on the <a href="https://sneakpeek.nu/en/product/shadowgame-uk/">link</a> below and follow the instructions: 
 
-https://sneakpeek.nu/en/product/shadowgame-uk/
+<a href="https://sneakpeek.nu/en/product/shadowgame-uk/">https://sneakpeek.nu/en/product/shadowgame-uk/</a>
 
 You will need to download the SneakPeek app on your phone, to follow the conversations between Eefje and SK in real time.
 
