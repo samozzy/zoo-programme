@@ -2,7 +2,7 @@
 title: "SNEAKPEEK: SHADOW GAME"
 slug: o9p5w4be4o
 ---
-To watch and SneakPeek, please follow the <a href="https://sneakpeek.nu/en/product/shadowgame-uk/">link</a> below follow the instructions: 
+To watch and SneakPeek, please click on the <a href="https://sneakpeek.nu/en/product/shadowgame-uk/">link</a> below and follow the instructions: 
 
 https://sneakpeek.nu/en/product/shadowgame-uk/
 
