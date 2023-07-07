@@ -2902,7 +2902,7 @@ shows:
       weekend: 13
       weekend_conc: 11
     start_time: 14:20
-    booking_unavailable: true
+    booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
     duration: 1hr
@@ -2910,6 +2910,7 @@ shows:
     age_guidance: 16+
     image: /static/beasts-343x343.png
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1542/
     company: Mandi Chivasa
     content_warnings:
       - Contains Distressing or Potentially Triggering Themes
