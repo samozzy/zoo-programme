@@ -2953,13 +2953,14 @@ shows:
       concession: 10
       weekend: -1
     start_time: 16:50
-    booking_unavailable: true
+    booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
     duration: 50mins
     title: "Cults, Startups & Pornstars: How I (Almost) Won My Dad's Approval"
     image: /static/cults-startups-pornstars.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1543/
     company: Cheyenne
     content_warnings:
       - Strong Language / Swearing
