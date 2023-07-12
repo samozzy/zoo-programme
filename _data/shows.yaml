@@ -3000,8 +3000,11 @@ shows:
 
       A romantic comedy/fantasy, told through storytelling, movement, music and silent films.
     price:
-      standard: 11
-      concession: 10
+      standard: 10
+      concession: 8
+      weekend: 11
+      weekend_conc: 9
+      preview: 6
     start_time: 14:00
     booking_unavailable: true
     is_draft: false
@@ -3009,8 +3012,9 @@ shows:
     duration: 45mins
     title: Calling In Love
     age_guidance: 16+
-    image: /static/calling-in-love-40x40.png
+    image: /static/07-07-2023-074932-4813.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1545/
     company: Caroline O'Meara
     content_warnings:
       - Scenes of a Sexual Nature
