@@ -3006,7 +3006,7 @@ shows:
       weekend_conc: 9
       preview: 6
     start_time: 14:00
-    booking_unavailable: true
+    booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
     duration: 45mins
