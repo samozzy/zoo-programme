@@ -2511,7 +2511,7 @@ shows:
       - title: Facebook
         platform: Facebook
         link: null
-    image: https://eventotron.imgix.net/04-11-2023-224216-2043.jpg
+    image: /static/janitor-manager.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1532/
     company: Sean Conrad + Becky Goodman
