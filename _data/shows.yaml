@@ -2848,13 +2848,13 @@ shows:
     links:
       - title: Twitter
         platform: twitter
-        link: null
+        link: https://twitter.com/duaneforrest
       - title: Instagram
         platform: Instagram
-        link: null
+        link: https://www.instagram.com/duaneintheforrest/
       - title: Facebook
         platform: Facebook
-        link: null
+        link: https://www.facebook.com/duaneintheforrest
     audio_desc: null
     image: /static/bob-marley-zoo-2023-no-text-343x343.png
     bsl: null
