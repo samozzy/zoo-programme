@@ -2904,6 +2904,13 @@ shows:
     duration: 1hr
     title: Beasts (Why Girls Shouldn't Be Afraid of the Dark)
     age_guidance: 16+
+    links:
+      - title: Twitter
+        link: https://twitter.com/womxnxarts
+        platform: Twitter
+      - title: Instagram
+        platform: Instagram
+        link: https://www.instagram.com/womxnxarts
     image: /static/beasts-343x343.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1542/
