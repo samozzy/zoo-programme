@@ -2961,6 +2961,16 @@ shows:
     venue: ZOO Playground
     duration: 50mins
     title: "Cults, Startups & Pornstars: How I (Almost) Won My Dad's Approval"
+    links:
+      - title: Facebook
+        platform: Facebook
+        link: https://www.facebook.com/cheyenne.ehrlich
+      - title: Instagram
+        platform: Instagram
+        link: https://www.instagram.com/cheyennecomedy/
+      - title: Twitter
+        platform: Twitter
+        link: https://twitter.com/cheyenneehrlich
     image: /static/cults-startups-pornstars-343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1543/
