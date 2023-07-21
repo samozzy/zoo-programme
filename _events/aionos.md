@@ -4,8 +4,8 @@ slug: 61i4w1dt5z
 ---
 <span class="bolded">HOW TO: AIONOS ONLINE</span> 
 
-Before purchasing an Online or VR ticket, please take note of the following
-When you purchase your ticket, you will be given access to our Discord server where you will find support from the Aionos team to make sure you have the best experience. We are a small company located primarily in Toronto, Canada, so we suggest logging onto the server as soon as you can, and appreciate your patience with our replies due to availability and time differences as to best address your questions.
+If you have purchased your ticket for an online showing (Livestream or VR), you will be given access to Toasterlab's Discord server where you will find support from the Aionos team to make sure you have the best experience. They are a small company located primarily in Toronto, Canada, so they suggest logging onto the server as soon as you can, and appreciate your patience with their replies due to availability and time differences.<br>
+Please read below for instructions on how to join in with Aionos online.<br>
 
 <span class="bolded">The Livestream</span> <br>
 ●	The livestream of the show is an interactive experience within Discord. You must join the server to be able to access this version of the show. <br>
