@@ -19,7 +19,7 @@ Please read below for instructions on how to join in with Aionos online.<br>
 ●	The Virtual Reality experience of Aionos is an experimental way to participate in the show. There may be glitches! If you experience technical difficulties, we will be available for support on the Discord server by text and voice, offer our Livestream as an alternative way to view the show, and will work with you to find an alternative date to support getting you into the VR experience. <br>
 
 <b>The In-Person (IRL) Show</b><br>
-●	If you see the show in person, you’re also welcome to join the Aionos Discord community to discuss the show and view the streaming version. <br>
+●	If you see the show <a href="https://zoofestival.co.uk/programme/aionos/">in person</a>, you’re also welcome to join the Aionos Discord community to discuss the show and view the streaming version. <br>
 
 <b><a href="https://discord.gg/aionos">JOIN HERE</a></b><br>
 <a href="https://discord.gg/aionos">https://discord.gg/aionos</a><br>
