@@ -758,7 +758,8 @@ shows:
       - 2023-08-15
       - 2023-08-16
       - 2023-08-17
-    access: []
+    access:
+      - ad
     image_alt: ""
     copy_long: >-
       In times of hypervelocity and fear of missing out, what happens when we
@@ -778,6 +779,7 @@ shows:
 
 
       ![](/static/big-in-belgium-300px.gif)
+    access_details: Audio Described performance on August 6th. Please do book in advance.
     preview: NO
     price:
       standard: 16
