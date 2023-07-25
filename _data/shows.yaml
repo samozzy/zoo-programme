@@ -3061,7 +3061,7 @@ shows:
       ![](/static/southside-community-centre_rgb_strap-300px.png)
     start_time: 17:50
     booking_unavailable: true
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 50mins
     title: ZOO / Southside Community Centre - Maiden Mother Whore
@@ -3082,7 +3082,7 @@ shows:
       ![](/static/southside-community-centre_rgb_strap-300px.png)
     start_time: 17:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 50mins
     title: "ZOO / Southside Community Centre - OM Music Sanctuary: Voices from the
@@ -3115,7 +3115,7 @@ shows:
       ![](/static/southside-community-centre_rgb_strap-300px.png)
     start_time: 17:50
     booking_unavailable: true
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 50mins
     title: ZOO / Southside Community Centre - Money Is As Innocent As The Sun
