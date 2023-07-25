@@ -3083,3 +3083,33 @@ shows:
     image: /static/om-music-sanctuary-ssc.jpeg
     age_restricted: false
     company: OM Music Sanctuary
+  - performances:
+      - 2023-08-23
+    copy_long: |-
+      Money is as innocent as the Sun:\
+      Story, verse and poetry that take a sideways shufty at that species\
+      distinguishing, humanity extinguishing tendency: abstraction, made flesh\
+      in that filthy, grubby legal tender trap.\
+      A playful excavation, unearthing that unconscionable truth; we really\
+      need to start getting our hands dirty if we are to discover and save\
+      ourselves as a life on this earth.
+
+      ‘Hypnotic, dazzling, inspiring, funny and beautiful. The craft is out of\
+      this world. The heart of it beats like a kick drum. The message is spot\
+      on, and the medium is perfect. Go see it.’\
+      - Andrew O’Neill\
+      \
+      ‘There are a lot of spoken word artists who play with a backup band of\
+      some kind. Not so many that do both spoken word and music at the same\
+      time — and do both things brilliantly. Geoff Winde might just be the\
+      philosopher-poet-musician you didn’t know you were looking for.’\
+      - David Rovics
+    start_time: 17:50
+    booking_unavailable: true
+    is_draft: true
+    venue: ZOO Southside
+    duration: 50mins
+    title: ZOO / Southside Community Centre - Money Is As Innocent As The Sun
+    image: /static/sun-15.jpg
+    age_restricted: false
+    company: Geoff Winde
