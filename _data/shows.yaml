@@ -3040,3 +3040,24 @@ shows:
       - Scenes of a Sexual Nature
       - Audience Participation
       - Strong Language/Swearing
+  - performances:
+      - 2023-08-21
+    copy_long: >-
+      Theiya Arts Dance Collective and The Centre for Biomedicine, Self and
+      Society at The University of Edinburgh present Maiden | Mother | Whore on
+      Monday 21st August at the ZOO Southside / Southside Community Centre – an
+      interdisciplinary mixed media performance that explores the complex
+      relationships between women, social structures, health and social
+      policies, and institutions.
+
+
+      The showcase will feature interactive projection, live audience interaction, creative use of text from the process, and movement exploration drawn from Indian classical-contemporary dance.
+    start_time: 17:50
+    booking_unavailable: true
+    is_draft: true
+    venue: ZOO Southside
+    duration: 50mins
+    title: ZOO / Southside Community Centre - Maiden Mother Whore
+    image: /static/mother-maiden-whore-theiya-arts-ssc.png
+    age_restricted: false
+    company: Theiya Arts
