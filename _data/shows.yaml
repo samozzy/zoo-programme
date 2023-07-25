@@ -3119,6 +3119,13 @@ shows:
     venue: ZOO Southside
     duration: 50mins
     title: ZOO / Southside Community Centre - Money Is As Innocent As The Sun
+    links:
+      - title: YouTube
+        link: https://www.youtube.com/@GeoffWinde/videos
+        platform: YouTube
+      - title: SoundCloud
+        link: https://soundcloud.com/user-46793850/sets/draft-recordings-for-album
+        platform: SoundCloud
     image: /static/sun-15.jpg
     age_restricted: false
     company: Geoff Winde
