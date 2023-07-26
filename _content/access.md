@@ -3,11 +3,11 @@ title: Access Information
 layout: page-narrow
 ---
 
-Below you will find venue-specific information on accessing our venues. We strive to offer performance for all and as such have put in a number of facilities to ensure all people can enjoy our shows regardless of specific needs. However we are very aware that we won’t always get it right and welcome your feedback and suggestions - please email <info@zoovenues.co.uk> to do so.
+Below you will find venue-specific information on accessing our venues. We strive to offer performance for all and as such have put in a number of facilities to ensure all people can enjoy our shows regardless of specific needs. However we are very aware that we won’t always get it right and welcome your feedback and suggestions - please email <operations@zoovenues.co.uk> to do so.
 
 We have a number of shows offering BSL, Audio Description, Captioned and Relaxed performances. You can find these either by looking at each show in turn or browsing for shows that offer these options [on the programme](/programme/).
 
-For specific information or to chat to us about your visit please call 0131 356 0646 or email info@zoovenues.co.uk.
+For specific information or to chat to us about your visit please call 0131 356 0646 or email <operations@zoovenues.co.uk>.
 
 <div class="row">
 <div class="col-md mb-4">
