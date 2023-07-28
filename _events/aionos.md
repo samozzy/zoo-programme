@@ -8,9 +8,9 @@ If you have purchased your ticket for an online showing (Livestream or VR), you 
 Please read below for instructions on how to join in with Aionos online.<br>
 
 <b>The Livestream</b> <br>
-●	The livestream of the show is an interactive experience within Discord. You must join the server to be able to access this version of the show. <br>
+●	The livestream of the show is an interactive experience within <a href="https://discord.gg/aionos">Discord</a> . You must join the server to be able to access this version of the show. <br>
 ●	Your ticket for the show stream provides you with access to the Discord and the streaming version of the show for the run of the show. If you would like to see it again, you’re welcome to join the stream for any performance!<br>
-●	If you’re having issues, we’ve got folks available to help you optimize your experience. Please find our support channels on discord and ask away, we’ll work to respond as soon as possible and will be available before and after every show. <br>
+●	If you’re having issues, we’ve got folks available to help you optimise your experience. Please find our support channels on Discord and ask away, we’ll work to respond as soon as possible and will be available before and after every show. <br>
 
 <b>The VR Experience</b><br>
 ●	To view the VR experience from your home, you will need your own Meta Quest 2. If you’re in Edinburgh or Toronto, we may be able to help arrange one for you to use too (limited to one per location per performance). If interested, purchase your online ticket and message us on the discord to begin to arrange use of a provided headset. <br>
