@@ -1694,7 +1694,7 @@ shows:
       - ad
       - captions
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       Aionos - An African-Futurist Mixed Reality Production where Ancient Egypt
       meets Star Wars as you travel virtual worlds to help an Egyptian Queen
       heal a broken love and navigate spacetime to recover an ancient
@@ -1704,6 +1704,9 @@ shows:
       actor/director/designer Ari Tarr. Aionos brings live and remote actors and
       audiences together for an unforgettable adventure in a companion piece to
       Debbie Deer’s Nefertiti: The One Who Comes.
+
+
+      Online version of Aionos available [here](https://zoofestival.co.uk/programme/aionos-online/).
     preview: NO
     price:
       standard: 12
