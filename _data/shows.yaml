@@ -1797,7 +1797,7 @@ shows:
       weekend: 12.5
       weekend_conc: 10.5
       preview: null
-    start_time: 00:00
+    start_time: 12:00
     booking_unavailable: false
     is_draft: false
     preview_dates: null
