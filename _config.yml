@@ -47,6 +47,7 @@ livereload: true
 plugins:
   - bootstrap 
   - jekyll-datapage-generator
+  - jekyll-redirect-from
 
 sass:
     sass_dir: _sass

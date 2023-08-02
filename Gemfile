@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem 'http_parser.rb', git: "https://github.com/tmm1/http_parser.rb.git"
 gem "jekyll", "~> 4.2.0"
 gem 'bootstrap', '~> 5.1'
+gem 'jekyll-redirect-from'
 
 # Need this if/when using Ruby 3+
 gem "webrick", "~> 1.7"

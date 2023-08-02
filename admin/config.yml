@@ -66,6 +66,11 @@ collections:
                 required: false 
                 hint: Event Code - used for secret ticket-holders-only events pages 
                 label: 'Event Code (super secret)'
+              - name: redirect_from
+                widget: list
+                required: false
+                label: Redirect from 
+                hint: Add a link (eg /show-name-with-typo/) to redirect from to this show
               - name: venue
                 widget: select
                 options: ["ZOO Southside", "ZOO Playground", "ZOO TV"]
