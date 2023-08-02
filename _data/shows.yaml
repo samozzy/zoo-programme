@@ -2850,6 +2850,10 @@ shows:
     start_time: 21:30
     booking_unavailable: false
     is_draft: false
+    redirect_from:
+      - /bob-marely-how-reggae-changed-the-world/
+      - /programme/bob-marely-how-reggae-changed-the-world/
+      - ""
     captions: null
     preview_dates: null
     venue: ZOO Playground
@@ -2859,9 +2863,6 @@ shows:
     performance_dates: []
     no_shows: null
     title: "Bob Marley: how reggae changed the world"
-    redirect_from:
-      - /bob-marely-how-reggae-changed-the-world/
-      - /programme/bob-marely-how-reggae-changed-the-world/
     age_guidance: 0+
     links:
       - title: Twitter
