@@ -1749,8 +1749,8 @@ shows:
     company: Toasterlab
     content_warnings:
       - Audience Participation
-      - Audience will be standing throughout
-      - Audience required to walk or move around during the performance
+      - Audience will be standing throughout (VR only)
+      - Audience required to walk or move around during the performance (VR only)
     video_embeds:
       - title: ""
         embed_code: ""
