@@ -1895,6 +1895,11 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@figsinwigs"
+      - title: Pre Show Information
+        link: https://www.horizonshowcase.uk/wp-content/uploads/2023/05/Horizon-Little-Wimmin-Pre-show-information.pdf
+      - link: https://www.horizonshowcase.uk/wp-content/uploads/2023/05/Little-Wimmin-Visual-Guide-.pdf
+        title: Visual Guide
+      - {}
     content_warning_detail:
       - Characters expressing anger
       - flashing lights
