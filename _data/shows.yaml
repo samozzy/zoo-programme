@@ -2297,13 +2297,16 @@ shows:
       - 2023-08-23
     access: []
     image_alt: ""
-    copy_long: >
+    copy_long: >-
       Bang is a monologue delivered by the apparition of Joan Vollmer,
       immediately after she was shot by William Burroughs, her common law
       husband, in Mexico City in 1951. As she waits for the ambulance to arrive,
       she reflects on her relationship with the famous writer, on the passionate
       nucleus that launched the Beat movement, and on a murder in that
       close-knit group of artists, presaging her own death.
+
+
+      [Artificial Womb Review](https://artificialwombzine.wordpress.com/2023/08/10/edfringe-review-bang/)
     preview: NO
     price:
       standard: 12
@@ -2332,6 +2335,11 @@ shows:
       - title: Facebook
         platform: Facebook
         link: null
+    reviews:
+      - stars: 4
+        Publisher: Artificial Womb
+        quote: Bang is a form of justice for Joan Vollmer and Dan Born and Linda
+          Gaumnitz are to be deeply commended for this. She deserves it.
     image: /static/bang-250x250px-square-mmb.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1475/
