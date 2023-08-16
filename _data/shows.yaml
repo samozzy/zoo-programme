@@ -2781,14 +2781,12 @@ shows:
       - 2023-08-27
     access: []
     image_alt: ""
-    copy_long: >
-      Join us for a unique and immersive theatrical experience, "A Perfectly
-      Average Glimpse Into A Perfectly Average Day." Written by Millie Haldane
-      and performed by St. Andrews students, this set of five monologues offers
-      a fresh perspective on the everyday lives of people we may encounter but
-      never truly know.
-        
-      The show features a diverse range of characters, each with their own story to tell. These monologues bring to life the struggles, triumphs, and moments of everyday life that often go unnoticed.
+    copy_long: 5 monologues. 5 average people. 5 not-so average days. A Perfectly
+      Average Glimpse Into A Perfectly Average Day explores human nature through
+      the medium of monologues, touching on themes from motherhood, to
+      neighbourly obsession. It is an explosion of dark comedy that challenges
+      our notion of other people as we have a voyeuristic glimpse into their
+      lives.
     preview: NO
     price:
       standard: 10
