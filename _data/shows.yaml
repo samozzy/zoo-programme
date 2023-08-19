@@ -1125,6 +1125,11 @@ shows:
       - title: Facebook
         platform: Facebook
         link: "@junkensemble"
+    reviews:
+      - Publisher: "The Times- Donald Hutera "
+        quote: '"the performers are heroic, vulnerable, comedic, and completely
+          themselves in the work"'
+        stars: 4
     image: https://eventotron.imgix.net/03-06-2023-161353-9358.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1479/
