@@ -1916,12 +1916,13 @@ shows:
       - haze
       - heavily dialogue-driven scenes
       - loud/repetitive/high pitched/unexpected or overlapping sound
-      - total audience blackout
+      - total audience blackout.
     image: https://eventotron.imgix.net/03-31-2023-132739-3313.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1489/
     company: Figs in Wigs
-    content_warnings: []
+    content_warnings:
+      - Contains depictions of birth/labour.
     video_embeds:
       - title: Little Wimmin
         embed_code: <iframe
