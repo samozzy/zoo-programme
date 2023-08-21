@@ -1527,14 +1527,12 @@ shows:
     content_warning_detail:
       - Flashing lights
       - loud music
-      - haze
-      - simulation of violence
+      - simulation of violence.
     image: /static/web-square-joel-palmer_-bullyache-cast-tom.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1488/
     company: Bullyache
-    content_warnings:
-      - Nudity
+    content_warnings: []
     video_embeds:
       - title: ""
         embed_code: ""
