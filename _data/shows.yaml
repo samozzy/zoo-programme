@@ -3021,13 +3021,17 @@ shows:
       - Contains distressing or potentially triggering themes such as death,
         child abuse, sexual assault and suicide.
     video_embeds:
-      - embed_code: '<iframe src="https://player.vimeo.com/video/856509910?h=068ceafcce"
-          width="640" height="1135" frameborder="0" allow="autoplay; fullscreen;
-          picture-in-picture" allowfullscreen></iframe> <p><a
+      - embed_code: '<div style="padding:177.34% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/856509910?h=068ceafcce"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen></iframe></div><script
+          src="https://player.vimeo.com/api/player.js"></script> <p><a
           href="https://vimeo.com/856509910">EXCERPT: (Cults, Startups &amp;
           Pornstars)_ How I Almost Won My Dad&#039;s Approval</a> from <a
           href="https://vimeo.com/user206235844">Cheyenne</a> on <a
           href="https://vimeo.com">Vimeo</a>.</p>'
+        title: ""
   - performances:
       - 2023-08-05
       - 2023-08-06
