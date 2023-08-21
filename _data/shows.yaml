@@ -3012,9 +3012,6 @@ shows:
       - title: Website
         link: https://www.cheyennecomedy.com
         platform: Cheyenne Comedy
-      - title: ""
-        platform: YouTube
-        link: https://youtu.be/3T9qmpbOdcc
     image: /static/cults-startups-pornstars-343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1543/
@@ -3024,7 +3021,13 @@ shows:
       - Contains distressing or potentially triggering themes such as death,
         child abuse, sexual assault and suicide.
     video_embeds:
-      - {}
+      - embed_code: '<iframe src="https://player.vimeo.com/video/856509910?h=068ceafcce"
+          width="640" height="1135" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/856509910">EXCERPT: (Cults, Startups &amp;
+          Pornstars)_ How I Almost Won My Dad&#039;s Approval</a> from <a
+          href="https://vimeo.com/user206235844">Cheyenne</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>'
   - performances:
       - 2023-08-05
       - 2023-08-06
