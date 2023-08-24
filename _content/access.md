@@ -7,7 +7,9 @@ Below you will find venue-specific information on accessing our venues. We striv
 
 We have a number of shows offering BSL, Audio Description, Captioned and Relaxed performances. You can find these either by looking at each show in turn or browsing for shows that offer these options [on the programme](/programme/).
 
-For specific information or to chat to us about your visit please call 0131 356 0646 or email <operations@zoovenues.co.uk>.
+For Box Office enquiries, please call {{ site.phone.box_office }}. 
+
+For specific access information, or just to chat to us about your visit, please call {{ site.phone.admin }} or email <operations@zoovenues.co.uk>.
 
 <div class="row">
 <div class="col-md mb-4">
