@@ -3230,3 +3230,9 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1505/
     company: Toasterlab
     content_warnings: []
+  - booking_unavailable: false
+    age_restricted: false
+    title: Test
+    company: Testing Productions
+    venue: ZOO Playground
+    is_draft: false
