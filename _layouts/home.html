@@ -108,7 +108,7 @@ layout: default
 					{% else %}{% assign launch_time = launch_date | date: "%l:%M%P" %}
 					{% endif %}
 					We're back. <br>
-					Full programme announced <br>{{ launch_date | date_to_long_string: "ordinal" }} at {{ launch_time }}
+					First shows announced <br>{{ launch_date | date_to_long_string: "ordinal" }} at {{ launch_time }}
 				{% else %}
 					{{ content | remove: '<p>' | remove: '</p>' }}
 				{% endif %}
