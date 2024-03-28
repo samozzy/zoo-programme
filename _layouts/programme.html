@@ -2,6 +2,12 @@
 layout: page
 ---
 
+{% assign today_date = "now" | date: "%Y-%m-%d %H:%M" %}
+{% assign launch_date = site.dates.launch | date: "%Y-%m-%d %H:%M" %}
+{% if today_date < launch_date %}
+	{% assign pre_launch = true %}
+{% endif %}
+
 <div class="programme-menu-container">
 	<div class="row">
 		<div class="programme-menu-card">
@@ -234,9 +240,19 @@ layout: page
 	</div>
 </div>
 
+{% if pre_launch %}
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 mx-auto mb-4 text-center">
+				<h2>Full programme still to be announced, check back later.</h2>
+			</div>
+		</div>
+	</div>
+{% else %}
 <div class="container">
 	<div class="row">
 		<div class="col-12 col-lg-8 mx-auto mb-4">
+			<p class="lead text-center fs-4">More shows still to be announced. Keep an eye on our socials and check back later!</p>
 			{% include text/prebook.html %}
 		</div>
 	</div>
@@ -351,3 +367,4 @@ layout: page
 
 </script>
 	
+{% endif %}
