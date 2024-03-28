@@ -7,6 +7,10 @@ layout: default
 {% if today_date < launch_date %}
 	{% assign pre_launch = true %}
 {% endif %}
+{% assign end_date = site.dates.end | date: "%Y-%m-%d %H:%M" %} 
+{% if today_date > end_date %}
+	{% assign post_fringe = true %}
+{% endif %}
 
 <div class="container-fluid bg-zoo-white px-0">
 	<div class="row homepage-banner p-4 mx-0">
@@ -20,13 +24,15 @@ layout: default
 		</div>
         {% endunless %}
 	</div>
+	{% if post_fringe %}
 	<div class="row bg-zoo-slate text-light pb-4 text-center">
 		<div class="col-12 px-5">
-			<p class="display-3 bebas">Our 2023 season is now over</p>
+			<p class="display-3 bebas">Our 2024 season is now over</p>
 			<p class="fs-4 px-5 mx-auto">Browse the pages here to see the kind of work to expect in 2024 or click below to be a part of our new season.</p>
-			<p class="text-center"><a href="https://zoovenues.co.uk/" class="btn btn-info btn-lg bebas btn-zoo-pill">Perform with us in 2024</a></p>
+			<p class="text-center"><a href="https://zoovenues.co.uk/" class="btn btn-info btn-lg bebas btn-zoo-pill">Perform with us in 2025</a></p>
 		</div>
 	</div>
+	{% endif %}
 	<div class="row mx-auto">
 		<div class="trailer-wrapper w-100 bg-zoo-black shadow" style="position:relative;">
 			<div style="padding:56.25% 0 0 0;position:relative;">
