@@ -24,7 +24,7 @@
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {% endif %}
 
-    {% capture page_title %}{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO22{% endunless %}{% endcapture %}
+    {% capture page_title %}{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO24{% endunless %}{% endcapture %}
     {% capture page_image %}
       {% if page.layout == 'show' %}
         {% if page.image %}{{ page.image }}{% else %}{% link static/img/zoo-placeholder-show.png %}?cachebust={{ site.time | date: "%Y%m%d%H%M"}}{% endif %}
