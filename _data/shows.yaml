@@ -50,8 +50,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@zacbwilliams'}, {title: Instagram, platform: instagram, link: '@zacbwilliams'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@zacbwilliams'}, {title: Instagram, platform: instagram, link: '@zacbwilliams'}]
+      video_embeds: [] 
   -
       title: 'The Signalman'
       company: 'Paragon Theatre Collective'
@@ -103,8 +103,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@SignalmanPlay'}, {title: Instagram, platform: instagram, link: '@SignalmanPlay'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@SignalmanPlay'}, {title: Instagram, platform: instagram, link: '@SignalmanPlay'}]
+      video_embeds: [] 
   -
       title: 'Dante and The Robot'
       company: 'Duncan Hodgkinson'
@@ -156,8 +156,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@dantesduel'}, {title: Twitter, platform: twitter, link: '@duncan.hodgk'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@dantesduel'}, {title: Twitter, platform: twitter, link: '@duncan.hodgk'}]
+      video_embeds: [] 
   -
       title: UNSEEN
       company: 'Kimberly Prentice and A/Park Productions'
@@ -209,8 +209,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@unseentheplay'}, {title: Instagram, platform: instagram, link: www.instagram.com/unseentheplay}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@unseentheplay'}, {title: Instagram, platform: instagram, link: www.instagram.com/unseentheplay}]
+      video_embeds: [] 
   -
       title: 'my home is not my home'
       company: bambule.babys
@@ -262,8 +262,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/bambulebabys'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bambule.babys/'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/bambulebabys'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bambule.babys/'}]
+      video_embeds: [] 
   -
       title: 'James Whale: Beyond Frankenstein'
       company: 'Paragon Theatre Collective'
@@ -315,8 +315,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@TimLarkfield'}, {title: Instagram, platform: instagram, link: '@TimLarkfield'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@TimLarkfield'}, {title: Instagram, platform: instagram, link: '@TimLarkfield'}]
+      video_embeds: [] 
   -
       title: 'The Funny Thing About A Panic Attack'
       company: 'Ben Kassoy'
@@ -368,8 +368,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@bkassoy'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bkassoy'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@bkassoy'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bkassoy'}]
+      video_embeds: [] 
   -
       title: 'An Evening With Mere Mortals'
       company: 'Mere Mortals'
@@ -421,8 +421,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@MereMortalsCo'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/meremortalstheatre/'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: '@MereMortalsCo'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/meremortalstheatre/'}]
+      video_embeds: [] 
   -
       title: 'Galahad Takes A Bath'
       company: 'Juggler''s Mistake'
@@ -474,8 +474,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: "", platform: "", link: ""}, {title: "", platform: "", link: ""}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: []
+      video_embeds: [] 
   -
       title: 'The Flock & Moving Cloud'
       company: 'Scottish Dance Theatre'
@@ -527,8 +527,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/SDTDance'}, {title: Instagram, platform: instagram, link: 'https://instagram.com/scottishdancetheatre/'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/SDTDance'}, {title: Instagram, platform: instagram, link: 'https://instagram.com/scottishdancetheatre/'}]
+      video_embeds: [] 
   -
       title: 'Sawdust Symphony'
       company: 'Michael Zandl, David Eisele, Kolja Huneck, ''Made In Germany Showcase'''
@@ -580,8 +580,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: "", platform: "", link: ""}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/sawdust_symphony/'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/sawdust_symphony/'} ]
+      video_embeds: [] 
   -
       title: Tennis
       company: 'DON GNU'
@@ -633,8 +633,8 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/dongnu'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/dongnudk/'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/dongnu'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/dongnudk/'}]
+      video_embeds: [] 
   -
       title: 'Common Is As Common Does: A Memoir'
       company: 21Common
@@ -686,5 +686,5 @@ shows:
       image_alt: ""
       booking_unavailable: ""
       is_draft: false 
-      links: [{title: "", platform: "", link: ""}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/21_commoner/?hl=en'}, {title: "", platform: "", link: ""}, {title: "", link: ""}]
-      video_embeds: [{title: "", embed_code: ""}]
+      links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/21_commoner/?hl=en'}]
+      video_embeds: [] 
