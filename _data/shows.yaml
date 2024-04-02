@@ -517,7 +517,7 @@ shows:
       age_restricted: ""
       genre: ""
       access_details: ""
-      access: [ad, "", ""]
+      access: [ad,  ]
       audio_desc_dates: ""
       captioning_dates: ""
       relaxed_dates: ""
@@ -570,7 +570,7 @@ shows:
       age_restricted: ""
       genre: ""
       access_details: ""
-      access: [ad, "", ""]
+      access: [ad,  ]
       audio_desc_dates: 21/08/2024
       captioning_dates: ""
       relaxed_dates: ""
@@ -676,7 +676,7 @@ shows:
       age_restricted: ""
       genre: ""
       access_details: ""
-      access: [bsl, ""]
+      access: [bsl, ]
       audio_desc_dates: ""
       captioning_dates: ""
       relaxed_dates: ""
