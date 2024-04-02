@@ -1,690 +1,919 @@
 shows:
-  -
-      title: 'Jack Goes to Therapy: A (Somewhat) Romantic Comedy'
-      company: 'Zac Williams'
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Jack is a 29 year old Kindergarten teacher and hopeless romantic. So when the love of his life leaves him for another man, Jack is heartbroken. Determined to find happiness by sheer willpower alone, Jack re-enters the dating world with a vengeance. Dating new men left, right, and centre, Jack soon spirals out of control and finds himself in a therapist''s office wondering, ''What now?'' A critical and box-office sensation on premiere in Vancouver, Jack Goes to Therapy is a brilliant, enchanting, laugh-out-loud one-man play.'
-      start_time: '19:20'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 14+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@zacbwilliams'}, {title: Instagram, platform: instagram, link: '@zacbwilliams'}]
-      video_embeds: [] 
-  -
-      title: 'The Signalman'
-      company: 'Paragon Theatre Collective'
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Witness to a horrifying tragedy, a signalman is haunted by a mysterious figure standing by a railway tunnel. He’s sure it''s a warning – but what is it warning against? Paragon Theatre Collective (Fake News, 2019 sell-out show) returns with this fresh and thrilling adaptation of the famous Charles Dickens ghost story. Written after Dickens himself survived a train crash, this version places the signalman at the heart of the story in a compelling solo show. ''Breathes new life into this haunting and spine-chillingly classic tale’ (TheatreAndArtReviews.com)'
-      start_time: '14:55'
-      duration: 50min
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@SignalmanPlay'}, {title: Instagram, platform: instagram, link: '@SignalmanPlay'}]
-      video_embeds: [] 
-  -
-      title: 'Dante and The Robot'
-      company: 'Duncan Hodgkinson'
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Alone in his miserable bedsit in a busy, bustling metropolis, Dante’s only companion is a house robot named She-bot. His girlfriend has left for Japan to disconnect from technology and live an older, simpler way of being. Dante is lost. Trapped in an unfulfilling job he hates, he embraces escapism by writing a film. As the screenplay emerges, we join a Spanish knight on a quest alongside his French squire, battling monsters and travelling epic landscapes. Gradually, Dante’s worlds begin to merge, overlap and intertwine around him.'
-      start_time: '16:30'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: '02/08/2024, 03/08/2024'
-      age_guidance: 16+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Strong language']
-      price: {standard: 10, concession: null, weekend: 12, weekend_conc: 10.5, preview: 8}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@dantesduel'}, {title: Twitter, platform: twitter, link: '@duncan.hodgk'}]
-      video_embeds: [] 
-  -
-      title: UNSEEN
-      company: 'Kimberly Prentice and A/Park Productions'
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Grab your "all access" pass into the mysterious world of Broadway’s backstage! Follow veteran "star dresser" Pam as she works her magic through complex costume changes, confrontations, and quirky actor demands, all while staying hidden in the shadows. When the stress of invisibility gets heavy, supportive allies rally and equip her to stand up, curse like a sailor, and be seen. This may be a solo show, but Kimberly Prentice quick-changes her way through thirty plus distinct characters as we follow Pam’s hilarious, and sometimes harrowing, journey of working in the dark, unseen, while trying not to disappear.'
-      start_time: '15:15'
-      duration: '1 hr'
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: '02/08/2024, 03/08/2024'
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 13, concession: 12, weekend: 15, weekend_conc: 14, preview: 12}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@unseentheplay'}, {title: Instagram, platform: instagram, link: www.instagram.com/unseentheplay}]
-      video_embeds: [] 
-  -
-      title: 'my home is not my home'
-      company: bambule.babys
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Inspired by encounters with people on the margins of society; a dissection of trauma and revival, pain and transformation. In a devotional setting of sinister rituals and acts of liberation, Madonna and Jesus appear as trash prophets. Surrounded by Paradise-Lost-iconography they deliver prayers for the outcasts and blessings for queer bodies. After their 2018 success with Baby Paradise, provocative German bambule.babys is returning to the Fringe with its new production. Alluding to feminist philosophy and politics of care, this is a piece dedicated to all those homesick for a better world.'
-      start_time: '20:35'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 18+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Audience Participation','distressing or potentially triggering themes','Nudity','Scenes of Violence','Strong Language',]
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/bambulebabys'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bambule.babys/'}]
-      video_embeds: [] 
-  -
-      title: 'James Whale: Beyond Frankenstein'
-      company: 'Paragon Theatre Collective'
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'From Frankenstein to The Invisible Man, James Whale directed some of the greatest movies of all time. How did a working-class boy from Dudley end up in Hollywood? An expressionist and out gay man working in the studio system at the peak of Hollywood’s golden age, his moment in the movie-land spotlight lasted little more than 10 years. Just who was James Whale? This one-person show shines a light on his life and work, examining a sense of otherness and the outsider, and how his films still resonate, 90 years on.'
-      start_time: '18:45'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@TimLarkfield'}, {title: Instagram, platform: instagram, link: '@TimLarkfield'}]
-      video_embeds: [] 
-  -
-      title: 'The Funny Thing About A Panic Attack'
-      company: 'Ben Kassoy'
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "Ben Kassoy brings poems from his spectacularly original book to life in this wildly entertaining solo show. Bursting with humor, heart, and defiant wonder in the face of anxiety, The Funny Thing About A Panic Attack uses physical theatre, dance, and traditional poetry reading to reveal the connections between mental health, art, and pancakes.\n \n Directed by award winner Joanna Simmons (Mark Pleases You), The Funny Thing About A Panic Attack previewed in New York City (The Vino) and made its world premiere at the Hollywood Fringe Festival (The Broadwater) in Los Angeles."
-      start_time: '17:10'
-      duration: 45min
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: '02/08/2024, 03/08/2024'
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['distressing or potentially triggering themes',]
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10.5}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@bkassoy'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bkassoy'}]
-      video_embeds: [] 
-  -
-      title: 'An Evening With Mere Mortals'
-      company: 'Mere Mortals'
-      venue: 'ZOO Playground'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "Two thrilling adventures in a double feature inspired by Hollywood blockbusters. \n \n Stjälkar: An everyday civil servant thrust into a global conspiracy. Can John Chesterton survive in this world of espionage, deception and murder? \n \n Inbound: Three heroes, one mission. Obtain the source of ultimate power, in a race against time and across continents, before it falls into the wrong hands, bringing about unimaginable destruction. \n \n An Evening With Mere Mortals moves at lightning speed, delivering a full-blown espionage thriller and a badass-action romp in just under an hour."
-      start_time: '18:05'
-      duration: 55min
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: '02/08/2024, 03/08/2024, 04/08/2024'
-      age_guidance: 14+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Contains distressing or potentially triggering themes','Scenes of a Sexual Nature','Scenes of Violence','Strobe Lighting','Strong Language',]
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: '@MereMortalsCo'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/meremortalstheatre/'}]
-      video_embeds: [] 
-  -
-      title: 'Galahad Takes A Bath'
-      company: 'Juggler''s Mistake'
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "\"I got very little, little to no media training, so... Sorry!\"\n \n Sir Galahad the Pure, Knight of the Round Table, son of Lancelot the Brave, is taking a bath. Even the chosen one needs a break sometimes, okay? But long soaks in the bath can lead to painful questions, and the cleaner Galahad gets, the dirtier he becomes. In this darkly comedic show about sex, jobs, and the Holy Grail, by the time Galahad gets out, he might not want to be so Pure anymore."
-      start_time: '16:00'
-      duration: 55min
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: 02/08/2024
-      age_guidance: 16+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Contains distressing or potentially triggering themes','Nudity','Scenes of a Sexual Nature','Strong Language',]
-      price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: []
-      video_embeds: [] 
-  -
-      title: 'The Flock & Moving Cloud'
-      company: 'Scottish Dance Theatre'
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "This August, Scottish Dance Theatre set the stage on fire with two of their most physically daring and dynamic works in an unforgettable evening of dance by two of the most exciting female choreographers in the European dance scene: Roser López Espinosa and Sofia Nappi. \n Fasten your seat belt and get ready to take off as the dancers embark on a fascinating journey inspired by the migration of birds in The Flock, then experience the fusion of contemporary dance and traditional Celtic music in Moving Cloud."
-      start_time: '19:00'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: 13/08/2024
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: [ad,  ]
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: 12}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/SDTDance'}, {title: Instagram, platform: instagram, link: 'https://instagram.com/scottishdancetheatre/'}]
-      video_embeds: [] 
-  -
-      title: 'Sawdust Symphony'
-      company: 'Michael Zandl, David Eisele, Kolja Huneck, ''Made In Germany Showcase'''
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "Carpentry and circus collide.\n In Sawdust Symphony Michael Zandl, David Eisele and Kolja Huneck combine their passion for crafting, object manipulation and fresh wood.\n The piece explores the human desire to create: the process from vision to construction, the tragedy of work and the relationship between tools and humans. Obsessed characters discover and transform their space and themselves, transporting the spectator into a unique DIY experience.\n Sawdust Symphony is an intense dialogue between satisfaction, frustration and the smell of gasoline. Sawdust Symphony has been performed over 100 times across nine countries."
-      start_time: '10:00'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: YES
-      preview_dates: 13/08/2024
-      age_guidance: 8+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: [ad,  ]
-      audio_desc_dates: 21/08/2024
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: []
-      price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: 14}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/sawdust_symphony/'} ]
-      video_embeds: [] 
-  -
-      title: Tennis
-      company: 'DON GNU'
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: "DON McEnroe and Björn GNU face each other once again in the ultimate duel we all have been waiting for! \n  \n A nerve-wracking battle of finger knitting, tango wrestling, dirty tricks and the best 80s style, to be able to judge the other out. But who are we really fighting?\n  \n Don't miss out on this action-packed, poetic hunt for true fighter spirit. It's Wimbledon 1980, Bloodsport, slapstick comedy and beautiful dance mixed up by two anti-heroes trying to untangle the net they themselves have entangled."
-      start_time: '15:00'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 12+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: []
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Audience Participation','Scenes of Violence','Strobe Lighting',]
-      price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/dongnu'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/dongnudk/'}]
-      video_embeds: [] 
-  -
-      title: 'Common Is As Common Does: A Memoir'
-      company: 21Common
-      venue: 'ZOO Southside'
-      performances:
-        - 2024-08-02
-        - 2024-08-03
-        - 2024-08-04
-        - 2024-08-05
-        - 2024-08-06
-        - 2024-08-07
-        - 2024-08-08
-        - 2024-08-09
-        - 2024-08-10
-        - 2024-08-11
-        - 2024-08-12
-        - 2024-08-13
-        - 2024-08-14
-        - 2024-08-15
-        - 2024-08-16
-        - 2024-08-17
-        - 2024-08-18
-        - 2024-08-19
-        - 2024-08-20
-        - 2024-08-21
-        - 2024-08-22
-        - 2024-08-23
-        - 2024-08-24
-        - 2024-08-25
-        - 2024-08-26
-      copy_long: 'Fringe favourites 21Common return for a dance spectacular mashing karaoke carnage and feats of physical endurance with chucking out time at the Grand Ole Oprey. Using tropes of Western movies, it explores how poverty and violence shape a man. This is a deep and dirty dive into a family circle that more often resembles a ring of fire. Part saloon (there’s crooner country classics), speakeasy (brush/scuffing danceathons) and bare knuckle boxing ring (it’s going to kick off`), join us in our Wild West sitting room with the ones who spit and the ones born to fight. www.madeinscotlandshowcase.com'
-      start_time: '13:00'
-      duration: 1hr
-      no_shows: ""
-      ticket_url: ""
-      preview: NO
-      preview_dates: ""
-      age_guidance: 14+
-      age_restricted: false
-      genre: ""
-      access_details: ""
-      access: [bsl, ]
-      audio_desc_dates: ""
-      captioning_dates: ""
-      relaxed_dates: ""
-      content_warnings: ['Contains distressing or potentially triggering themes','Scenes of Violence','Strobe Lighting','Strong Language',]
-      price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: null}
-      image: ""
-      image_alt: ""
-      booking_unavailable: false
-      is_draft: false 
-      links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/21_commoner/?hl=en'}]
-      video_embeds: [] 
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: "Jack is a 29 year old Kindergarten teacher and hopeless romantic. So
+      when the love of his life leaves him for another man, Jack is heartbroken.
+      Determined to find happiness by sheer willpower alone, Jack re-enters the
+      dating world with a vengeance. Dating new men left, right, and centre,
+      Jack soon spirals out of control and finds himself in a therapist's office
+      wondering, 'What now?' A critical and box-office sensation on premiere in
+      Vancouver, Jack Goes to Therapy is a brilliant, enchanting, laugh-out-loud
+      one-man play. "
+    access_details: ""
+    preview: NO
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: null
+    start_time: 19:20
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Playground
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: "Jack Goes to Therapy: A (Somewhat) Romantic Comedy"
+    age_guidance: 14+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@zacbwilliams"
+      - title: Instagram
+        platform: instagram
+        link: "@zacbwilliams"
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Zac Williams
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: Witness to a horrifying tragedy, a signalman is haunted by a
+      mysterious figure standing by a railway tunnel. He’s sure it's a warning –
+      but what is it warning against? Paragon Theatre Collective (Fake News,
+      2019 sell-out show) returns with this fresh and thrilling adaptation of
+      the famous Charles Dickens ghost story. Written after Dickens himself
+      survived a train crash, this version places the signalman at the heart of
+      the story in a compelling solo show. 'Breathes new life into this haunting
+      and spine-chillingly classic tale’ (TheatreAndArtReviews.com)
+    access_details: ""
+    preview: NO
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: null
+    start_time: 14:55
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Southside
+    duration: 50min
+    relaxed_dates: ""
+    no_shows: ""
+    title: The Signalman
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@SignalmanPlay"
+      - title: Instagram
+        platform: instagram
+        link: "@SignalmanPlay"
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Paragon Theatre Collective
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: Alone in his miserable bedsit in a busy, bustling metropolis, Dante’s
+      only companion is a house robot named She-bot. His girlfriend has left for
+      Japan to disconnect from technology and live an older, simpler way of
+      being. Dante is lost. Trapped in an unfulfilling job he hates, he embraces
+      escapism by writing a film. As the screenplay emerges, we join a Spanish
+      knight on a quest alongside his French squire, battling monsters and
+      travelling epic landscapes. Gradually, Dante’s worlds begin to merge,
+      overlap and intertwine around him.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 10
+      concession: null
+      weekend: 12
+      weekend_conc: 10.5
+      preview: 8
+    start_time: 16:30
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 02/08/2024, 03/08/2024
+    venue: ZOO Playground
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: Dante and The Robot
+    age_guidance: 16+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@dantesduel"
+      - title: Twitter
+        platform: twitter
+        link: "@duncan.hodgk"
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Duncan Hodgkinson
+    content_warnings:
+      - Strong language
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: Grab your "all access" pass into the mysterious world of Broadway’s
+      backstage! Follow veteran "star dresser" Pam as she works her magic
+      through complex costume changes, confrontations, and quirky actor demands,
+      all while staying hidden in the shadows. When the stress of invisibility
+      gets heavy, supportive allies rally and equip her to stand up, curse like
+      a sailor, and be seen. This may be a solo show, but Kimberly Prentice
+      quick-changes her way through thirty plus distinct characters as we follow
+      Pam’s hilarious, and sometimes harrowing, journey of working in the dark,
+      unseen, while trying not to disappear.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 13
+      concession: 12
+      weekend: 15
+      weekend_conc: 14
+      preview: 12
+    start_time: 15:15
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 02/08/2024, 03/08/2024
+    venue: ZOO Playground
+    duration: 1 hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: UNSEEN
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@unseentheplay"
+      - title: Instagram
+        platform: instagram
+        link: www.instagram.com/unseentheplay
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Kimberly Prentice and A/Park Productions
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: Inspired by encounters with people on the margins of society; a
+      dissection of trauma and revival, pain and transformation. In a devotional
+      setting of sinister rituals and acts of liberation, Madonna and Jesus
+      appear as trash prophets. Surrounded by Paradise-Lost-iconography they
+      deliver prayers for the outcasts and blessings for queer bodies. After
+      their 2018 success with Baby Paradise, provocative German bambule.babys is
+      returning to the Fringe with its new production. Alluding to feminist
+      philosophy and politics of care, this is a piece dedicated to all those
+      homesick for a better world.
+    access_details: ""
+    preview: NO
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: null
+    start_time: 20:35
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Playground
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: my home is not my home
+    age_guidance: 18+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: https://twitter.com/bambulebabys
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/bambule.babys/
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: bambule.babys
+    content_warnings:
+      - Audience Participation
+      - distressing or potentially triggering themes
+      - Nudity
+      - Scenes of Violence
+      - Strong Language
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: From Frankenstein to The Invisible Man, James Whale directed some of
+      the greatest movies of all time. How did a working-class boy from Dudley
+      end up in Hollywood? An expressionist and out gay man working in the
+      studio system at the peak of Hollywood’s golden age, his moment in the
+      movie-land spotlight lasted little more than 10 years. Just who was James
+      Whale? This one-person show shines a light on his life and work, examining
+      a sense of otherness and the outsider, and how his films still resonate,
+      90 years on.
+    access_details: ""
+    preview: NO
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: null
+    start_time: 18:45
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Southside
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: "James Whale: Beyond Frankenstein"
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@TimLarkfield"
+      - title: Instagram
+        platform: instagram
+        link: "@TimLarkfield"
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Paragon Theatre Collective
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: >-
+      Ben Kassoy brings poems from his spectacularly original book to life in
+      this wildly entertaining solo show. Bursting with humor, heart, and
+      defiant wonder in the face of anxiety, The Funny Thing About A Panic
+      Attack uses physical theatre, dance, and traditional poetry reading to
+      reveal the connections between mental health, art, and pancakes.
+       
+       Directed by award winner Joanna Simmons (Mark Pleases You), The Funny Thing About A Panic Attack previewed in New York City (The Vino) and made its world premiere at the Hollywood Fringe Festival (The Broadwater) in Los Angeles.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10.5
+    start_time: 17:10
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 02/08/2024, 03/08/2024
+    venue: ZOO Playground
+    duration: 45min
+    relaxed_dates: ""
+    no_shows: ""
+    title: The Funny Thing About A Panic Attack
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@bkassoy"
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/bkassoy
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Ben Kassoy
+    content_warnings:
+      - distressing or potentially triggering themes
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: >-
+      Two thrilling adventures in a double feature inspired by Hollywood
+      blockbusters. 
+       
+       Stjälkar: An everyday civil servant thrust into a global conspiracy. Can John Chesterton survive in this world of espionage, deception and murder? 
+       
+       Inbound: Three heroes, one mission. Obtain the source of ultimate power, in a race against time and across continents, before it falls into the wrong hands, bringing about unimaginable destruction. 
+       
+       An Evening With Mere Mortals moves at lightning speed, delivering a full-blown espionage thriller and a badass-action romp in just under an hour.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+    start_time: 18:05
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 02/08/2024, 03/08/2024, 04/08/2024
+    venue: ZOO Playground
+    duration: 55min
+    relaxed_dates: ""
+    no_shows: ""
+    title: An Evening With Mere Mortals
+    age_guidance: 14+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: "@MereMortalsCo"
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/meremortalstheatre/
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Mere Mortals
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a Sexual Nature
+      - Scenes of Violence
+      - Strobe Lighting
+      - Strong Language
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: >-
+      "I got very little, little to no media training, so... Sorry!"
+       
+       Sir Galahad the Pure, Knight of the Round Table, son of Lancelot the Brave, is taking a bath. Even the chosen one needs a break sometimes, okay? But long soaks in the bath can lead to painful questions, and the cleaner Galahad gets, the dirtier he becomes. In this darkly comedic show about sex, jobs, and the Holy Grail, by the time Galahad gets out, he might not want to be so Pure anymore.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+    start_time: 16:00
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 02/08/2024
+    venue: ZOO Southside
+    duration: 55min
+    relaxed_dates: ""
+    no_shows: ""
+    title: Galahad Takes A Bath
+    age_guidance: 16+
+    links: []
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Juggler's Mistake
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Nudity
+      - Scenes of a Sexual Nature
+      - Strong Language
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access:
+      - ad
+    image_alt: ""
+    copy_long: >-
+      This August, Scottish Dance Theatre set the stage on fire with two of
+      their most physically daring and dynamic works in an unforgettable evening
+      of dance by two of the most exciting female choreographers in the European
+      dance scene: Roser López Espinosa and Sofia Nappi. 
+       Fasten your seat belt and get ready to take off as the dancers embark on a fascinating journey inspired by the migration of birds in The Flock, then experience the fusion of contemporary dance and traditional Celtic music in Moving Cloud.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+      preview: 12
+    start_time: 19:00
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 13/08/2024
+    venue: ZOO Southside
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: The Flock & Moving Cloud
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: https://twitter.com/SDTDance
+      - title: Instagram
+        platform: instagram
+        link: https://instagram.com/scottishdancetheatre/
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Scottish Dance Theatre
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: 21/08/2024
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access:
+      - ad
+    image_alt: ""
+    copy_long: >-
+      Carpentry and circus collide.
+       In Sawdust Symphony Michael Zandl, David Eisele and Kolja Huneck combine their passion for crafting, object manipulation and fresh wood.
+       The piece explores the human desire to create: the process from vision to construction, the tragedy of work and the relationship between tools and humans. Obsessed characters discover and transform their space and themselves, transporting the spectator into a unique DIY experience.
+       Sawdust Symphony is an intense dialogue between satisfaction, frustration and the smell of gasoline. Sawdust Symphony has been performed over 100 times across nine countries.
+    access_details: ""
+    preview: YES
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+      preview: 14
+    start_time: 10:00
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: 13/08/2024
+    venue: ZOO Southside
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: Sawdust Symphony
+    age_guidance: 8+
+    links:
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/sawdust_symphony/
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: Michael Zandl, David Eisele, Kolja Huneck, 'Made In Germany Showcase'
+    content_warnings: []
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access: []
+    image_alt: ""
+    copy_long: >-
+      DON McEnroe and Björn GNU face each other once again in the ultimate duel
+      we all have been waiting for! 
+        
+       A nerve-wracking battle of finger knitting, tango wrestling, dirty tricks and the best 80s style, to be able to judge the other out. But who are we really fighting?
+        
+       Don't miss out on this action-packed, poetic hunt for true fighter spirit. It's Wimbledon 1980, Bloodsport, slapstick comedy and beautiful dance mixed up by two anti-heroes trying to untangle the net they themselves have entangled.
+    access_details: ""
+    preview: NO
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+      preview: null
+    start_time: 15:00
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Southside
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: Tennis
+    age_guidance: 12+
+    links:
+      - title: Twitter
+        platform: twitter
+        link: https://twitter.com/dongnu
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/dongnudk/
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: DON GNU
+    content_warnings:
+      - Audience Participation
+      - Scenes of Violence
+      - Strobe Lighting
+    video_embeds: []
+  - audio_desc_dates: ""
+    captioning_dates: ""
+    genre: ""
+    performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+      - 2024-08-26
+    access:
+      - bsl
+    image_alt: ""
+    copy_long: Fringe favourites 21Common return for a dance spectacular mashing
+      karaoke carnage and feats of physical endurance with chucking out time at
+      the Grand Ole Oprey. Using tropes of Western movies, it explores how
+      poverty and violence shape a man. This is a deep and dirty dive into a
+      family circle that more often resembles a ring of fire. Part saloon
+      (there’s crooner country classics), speakeasy (brush/scuffing danceathons)
+      and bare knuckle boxing ring (it’s going to kick off`), join us in our
+      Wild West sitting room with the ones who spit and the ones born to fight.
+      www.madeinscotlandshowcase.com
+    access_details: ""
+    preview: NO
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+      preview: null
+    start_time: 13:00
+    booking_unavailable: false
+    is_draft: false
+    preview_dates: ""
+    venue: ZOO Southside
+    duration: 1hr
+    relaxed_dates: ""
+    no_shows: ""
+    title: "Common Is As Common Does: A Memoir"
+    age_guidance: 14+
+    links:
+      - title: Instagram
+        platform: instagram
+        link: https://www.instagram.com/21_commoner/?hl=en
+    image: ""
+    age_restricted: false
+    ticket_url: ""
+    company: 21Common
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of Violence
+      - Strobe Lighting
+      - Strong Language
+    video_embeds: []
