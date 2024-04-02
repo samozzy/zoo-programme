@@ -186,11 +186,13 @@ collections:
               - name: booking_unavailable
                 widget: boolean
                 default: false 
+                required: false 
                 label: Booking Unavailable
                 hint: Tick if tickets are not yet on sale but you do still want the show to be listed (if you don't want it listed, use the draft toggle)
               - name: age_restricted
                 widget: boolean
                 label: Age Restricted
+                required: false 
                 default: false 
                 hint: Tick this if the age guidance is an age restriction for the show
               - widget: select
