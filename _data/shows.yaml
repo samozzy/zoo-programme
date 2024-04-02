@@ -37,7 +37,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 14+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -48,7 +48,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@zacbwilliams'}, {title: Instagram, platform: instagram, link: '@zacbwilliams'}]
       video_embeds: [] 
@@ -90,7 +90,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -101,7 +101,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@SignalmanPlay'}, {title: Instagram, platform: instagram, link: '@SignalmanPlay'}]
       video_embeds: [] 
@@ -143,7 +143,7 @@ shows:
       preview: YES
       preview_dates: '02/08/2024, 03/08/2024'
       age_guidance: 16+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -154,7 +154,7 @@ shows:
       price: {standard: 10, concession: null, weekend: 12, weekend_conc: 10.5, preview: 8}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@dantesduel'}, {title: Twitter, platform: twitter, link: '@duncan.hodgk'}]
       video_embeds: [] 
@@ -196,7 +196,7 @@ shows:
       preview: YES
       preview_dates: '02/08/2024, 03/08/2024'
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -207,7 +207,7 @@ shows:
       price: {standard: 13, concession: 12, weekend: 15, weekend_conc: 14, preview: 12}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@unseentheplay'}, {title: Instagram, platform: instagram, link: www.instagram.com/unseentheplay}]
       video_embeds: [] 
@@ -249,7 +249,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 18+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -260,7 +260,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/bambulebabys'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bambule.babys/'}]
       video_embeds: [] 
@@ -302,7 +302,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -313,7 +313,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@TimLarkfield'}, {title: Instagram, platform: instagram, link: '@TimLarkfield'}]
       video_embeds: [] 
@@ -355,7 +355,7 @@ shows:
       preview: YES
       preview_dates: '02/08/2024, 03/08/2024'
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -366,7 +366,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10.5}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@bkassoy'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/bkassoy'}]
       video_embeds: [] 
@@ -408,7 +408,7 @@ shows:
       preview: YES
       preview_dates: '02/08/2024, 03/08/2024, 04/08/2024'
       age_guidance: 14+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -419,7 +419,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: '@MereMortalsCo'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/meremortalstheatre/'}]
       video_embeds: [] 
@@ -461,7 +461,7 @@ shows:
       preview: YES
       preview_dates: 02/08/2024
       age_guidance: 16+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -472,7 +472,7 @@ shows:
       price: {standard: 12, concession: 10, weekend: 13, weekend_conc: 11, preview: 10}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: []
       video_embeds: [] 
@@ -514,7 +514,7 @@ shows:
       preview: YES
       preview_dates: 13/08/2024
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: [ad,  ]
@@ -525,7 +525,7 @@ shows:
       price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: 12}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/SDTDance'}, {title: Instagram, platform: instagram, link: 'https://instagram.com/scottishdancetheatre/'}]
       video_embeds: [] 
@@ -567,7 +567,7 @@ shows:
       preview: YES
       preview_dates: 13/08/2024
       age_guidance: 8+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: [ad,  ]
@@ -578,7 +578,7 @@ shows:
       price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: 14}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/sawdust_symphony/'} ]
       video_embeds: [] 
@@ -620,7 +620,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 12+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: []
@@ -631,7 +631,7 @@ shows:
       price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Twitter, platform: twitter, link: 'https://twitter.com/dongnu'}, {title: Instagram, platform: instagram, link: 'https://www.instagram.com/dongnudk/'}]
       video_embeds: [] 
@@ -673,7 +673,7 @@ shows:
       preview: NO
       preview_dates: ""
       age_guidance: 14+
-      age_restricted: ""
+      age_restricted: false
       genre: ""
       access_details: ""
       access: [bsl, ]
@@ -684,7 +684,7 @@ shows:
       price: {standard: 16, concession: 14, weekend: 17, weekend_conc: 15, preview: null}
       image: ""
       image_alt: ""
-      booking_unavailable: ""
+      booking_unavailable: false
       is_draft: false 
       links: [{title: Instagram, platform: instagram, link: 'https://www.instagram.com/21_commoner/?hl=en'}]
       video_embeds: [] 
