@@ -14,8 +14,8 @@ github_username: samozzy
 keywords: Theatre, Arts, Fringe, Edinburgh, August
 page_excerpts: true
 dates:
-  start: 2024-08-04
-  end: 2024-08-27
+  start: 2024-08-02
+  end: 2024-08-26
   launch: 2024-04-04 09:00 # In UTC, but will render wrong in the text as a result... 
   launch_offset: 01:00:00 # ... So add an hour offset. site.dates are in site.timezone (UTC), so offset to the timezone the user expects (in our case, BST)
 
