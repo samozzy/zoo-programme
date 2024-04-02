@@ -6,6 +6,8 @@ layout: page
 {% assign launch_date = site.dates.launch | date: "%Y-%m-%d %H:%M" %}
 {% if today_date < launch_date %}
 	{% assign pre_launch = true %}
+{% else %}
+	{% assign pre_launch = false %}
 {% endif %}
 
 <div class="programme-menu-container">
@@ -240,7 +242,7 @@ layout: page
 	</div>
 </div>
 
-{% if pre_launch %}
+{% if pre_launch == true %}
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-8 mx-auto mb-4 text-center">
