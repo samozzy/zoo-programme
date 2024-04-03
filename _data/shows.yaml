@@ -193,16 +193,10 @@ shows:
     no_shows: ""
     title: Dante and The Robot
     age_guidance: 16+
-    links:
-      - title: Twitter
-        platform: twitter
-        link: "@dantesduel"
-      - title: Twitter
-        platform: twitter
-        link: "@duncan.hodgk"
-    image: ""
+    links: []
+    image: /static/dante-and-the-robot.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1587/
     company: Duncan Hodgkinson
     content_warnings:
       - Strong language
