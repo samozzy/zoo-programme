@@ -843,3 +843,65 @@ shows:
       - Strobe Lighting
       - Strong Language
     video_embeds: []
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Join us for a sip of mezcal at this Day of the Dead-style theatrical
+      experience. 
+
+
+      Juan Preciado made a promise to his mother on her deathbed: revenge on his long-lost father. Follow his journey through the worlds of the living and the dead, fueled by music and storytelling. 
+
+
+      Séance meets musical in this intimate reimagining of seminal novel Pedro Páramo, by mestiza playwright Conchi León. Featuring music by Pablo Chemor, rooted in folklore, performed using traditional instruments.
+
+
+      This original Mexican musical makes its international debut, following a sold-out premiere in Mexico City. Performed in Spanish with English surtitles.
+    price:
+      standard: 15
+      concession: 13
+      weekend: 17
+      weekend_conc: 15
+      preview: 10
+    start_time: 17:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr15
+    title: Comala, Comala
+    links:
+      - link: https://www.instagram.com/thisiscomala/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.comalacomala.com/
+        title: Website
+        platform: Website
+    content_warning_detail:
+      - Discussion of sexual assault and depictions suicide.
+    image: /static/comala-comala.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1585/
+    company: Pulpo Arts A.C. / Something for the Weekend
+    content_warnings:
+      - Contains distressing or potentially triggering themes.
+      - Performed in Spanish with English subtitles.
