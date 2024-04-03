@@ -885,7 +885,7 @@ shows:
       preview: 10
     start_time: 17:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr15
     title: Comala, Comala
