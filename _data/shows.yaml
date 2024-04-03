@@ -649,7 +649,7 @@ shows:
       preview: 12
     start_time: 19:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     preview_dates: 13/08/2024
     venue: ZOO Southside
     duration: 1hr
