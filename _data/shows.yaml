@@ -128,11 +128,11 @@ shows:
     links:
       - title: Twitter
         platform: twitter
-        link: "@SignalmanPlay"
+        link: https://twitter.com/SignalmanPlay
       - title: Instagram
         platform: instagram
-        link: "@SignalmanPlay"
-    image: ""
+        link: https://www.instagram.com/signalmanplay/
+    image: /static/the-signalman.jpg
     age_restricted: false
     ticket_url: ""
     company: Paragon Theatre Collective
