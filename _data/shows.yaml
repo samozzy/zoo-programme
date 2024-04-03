@@ -27,7 +27,6 @@ shows:
       - 2024-08-23
       - 2024-08-24
       - 2024-08-25
-      - 2024-08-26
     access: []
     image_alt: ""
     copy_long: "Jack is a 29 year old Kindergarten teacher and hopeless romantic. So
@@ -59,11 +58,11 @@ shows:
     links:
       - title: Twitter
         platform: twitter
-        link: "@zacbwilliams"
+        link: https://twitter.com/zacbwilliams
       - title: Instagram
         platform: instagram
-        link: "@zacbwilliams"
-    image: ""
+        link: https://www.instagram.com/zacbwilliams/
+    image: /static/jack-goes-to-therapy.jpg
     age_restricted: false
     ticket_url: ""
     company: Zac Williams
