@@ -467,13 +467,13 @@ shows:
     links:
       - title: Twitter
         platform: twitter
-        link: "@bkassoy"
+        link: https://twitter.com/bkassoy
       - title: Instagram
         platform: instagram
         link: https://www.instagram.com/bkassoy
-    image: ""
+    image: /static/the-funny-thing-about-a-panic-attack.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1588/
     company: Ben Kassoy
     content_warnings:
       - distressing or potentially triggering themes
