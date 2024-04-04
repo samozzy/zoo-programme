@@ -819,7 +819,7 @@ shows:
       weekend: 17
       weekend_conc: 15
       preview: null
-    start_time: 13:00
+    start_time: 12:30
     booking_unavailable: false
     is_draft: false
     preview_dates: ""
