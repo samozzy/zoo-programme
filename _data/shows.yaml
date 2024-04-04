@@ -131,7 +131,7 @@ shows:
         link: https://www.instagram.com/signalmanplay/
     image: /static/the-signalman.jpg
     age_restricted: false
-    ticket_url: ""
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1601/
     company: Paragon Theatre Collective
     content_warnings: []
     video_embeds: []
