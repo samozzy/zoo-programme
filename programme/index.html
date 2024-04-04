@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202404031940">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202404040901">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -430,13 +430,13369 @@ data-bs-toggle="tooltip" data-bs-placement="bottom" title="British Sign Language
 </div>
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-8 mx-auto mb-4 text-center">
-				<h2>Full programme still to be announced, check back later.</h2>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-lg-8 mx-auto mb-4">
+			<p class="lead text-center fs-4">More shows still to be announced. Keep an eye on our socials and check back later!</p>
+			<p class="helper-text">We strongly encourage pre-purchasing tickets ahead of your arrival at ZOO, which will help speed up waiting and admission times. Doors typically open 5 minutes before the advertised start time. We operate eTicketing.</p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-12 mx-auto text-center">
+			<div class="btn-group" role="group" aria-label="Pick whether to sort by time or alphabetically">
+				<button id="btn-sort-by-title" data-bs-toggle="tooltip" data-bs-title="Sort by title" type="button" class="btn btn-info btn-lg active" onclick=sortByTitle()><i class="fa fa-fw fa-sort-alpha-down"></i></button>
+				<button id="btn-sort-by-time" data-bs-toggle="tooltip" data-bs-title="Sort by start time" type="button" class="btn btn-info btn-lg" onclick=sortByTime()><i class="fa fa-fw fa-clock"></i></button>
+			</div>
+		</div>
+		<div class="col-12 text-center">
+			<small class="helper-text">Sorting by <span id="sort-by-status">title</span></small>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container"> 
+	<div id="show-list" class="row row-cols-lg-2 mb-5">
+		<div class="col-12 w-100">
+			<div id="filter-badge-container" class="filter-badge-container d-none">
+				<span class="lead">Active filters:</span> 
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearSearch()" id="active-filter-search">
+					<span>Search<span id="active-filter-search-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearDatePick()" id="active-filter-date">
+					<span>Date<span id="active-filter-date-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearTimeCheckboxes()" id="active-filter-time">
+					<span>Time<span id="active-filter-time-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<!-- 				
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+					<span>Price<span id="active-filter-price-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button> -->
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearVenueCheckboxes()" id="active-filter-venue">
+					<span>Venue<span id="active-filter-venue-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAgeCheckboxes()" id="active-filter-age">
+					<span>Age<span id="active-filter-age-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearGenreCheckboxes()" id="active-filter-genre">
+					<span>Tags<span id="active-filter-genre-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearContentWarningCheckboxes()" id="active-filter-content-warning">
+					<span>Excluding Content Warnings<span id="active-filter-content-warning-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAccessCheckboxes()" id="active-filter-access">
+					<span>Access<span id="active-filter-access-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+			</div>
+			<div id="filter-results-text" class="d-none lead">
+				<span id="filter-results-counter"></span>&nbsp;result<span id="filter-results-counter-plural">s</span>
+			</div>
+		</div>
+		<div class="d-none col-12 w-100 text-center no-results" id="no-result-text">
+			<p class="lead"><em>No results for this set of filters</em></p>
+		</div>
+		
+				
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="aneveningwithmeremortals meremortals" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="18"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-scenes-of-a-sexual-nature-scenes-of-violence-strobe-lighting-strong-language"
+				data-venue="zoo-playground"
+				id="an-evening-with-mere-mortals"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/an-evening-with-mere-mortals/">
+		<img src="/static/an-evening-with-mere-mortals.jpeg" alt="An Evening With Mere Mortals icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/an-evening-with-mere-mortals/">An Evening With Mere Mortals</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Mere Mortals</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;18:05 (55min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1592/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/an-evening-with-mere-mortals/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="comala,comala pulpoartsa.c./somethingfortheweekend" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="17"
+				data-age_guidance=""
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="15"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-performed-in-spanish-with-english-subtitles"
+				data-venue="zoo-southside"
+				id="comala-comala"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/comala-comala/">
+		<img src="/static/comala-comala.jpg" alt="Comala, Comala icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/comala-comala/">Comala, Comala</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Pulpo Arts A.C. / Something for the Weekend</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;17:15 (1hr15mins)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1585/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/comala-comala/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td >
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td >
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="commonisascommondoes:amemoir 21common" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-17" 
+				data-time="13"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17"
+				data-price="16"
+				data-genre=""
+				data-access="bsl"
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-scenes-of-violence-strobe-lighting-strong-language"
+				data-venue="zoo-southside"
+				id="common-is-as-common-does-a-memoir"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/common-is-as-common-does-a-memoir/">
+		<img src="/static/common-is-as-common-does.jpeg" alt="Common Is As Common Does: A Memoir icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/common-is-as-common-does-a-memoir/">Common Is As Common Does: A Memoir</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">21Common</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;13:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1586/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/common-is-as-common-does-a-memoir/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td >
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td >
+					20
+				</td>
+				
+					
+				
+			
+				<td >
+					21
+				</td>
+				
+					
+				
+			
+				<td >
+					22
+				</td>
+				
+					
+				
+			
+				<td >
+					23
+				</td>
+				
+					
+				
+			
+				<td >
+					24
+				</td>
+				
+					
+				
+			
+				<td >
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="danteandtherobot duncanhodgkinson" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="16"
+				data-age_guidance="16+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="10"
+				data-genre=""
+				data-access=""
+				data-content_warnings="strong-language"
+				data-venue="zoo-playground"
+				id="dante-and-the-robot"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/dante-and-the-robot/">
+		<img src="/static/dante-and-the-robot.jpg" alt="Dante and The Robot icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/dante-and-the-robot/">Dante and The Robot</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Duncan Hodgkinson</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;16:30 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1587/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/dante-and-the-robot/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="galahadtakesabath juggler'smistake" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="16"
+				data-age_guidance="16+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-nudity-scenes-of-a-sexual-nature-strong-language"
+				data-venue="zoo-southside"
+				id="galahad-takes-a-bath"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/galahad-takes-a-bath/">
+		<img src="/static/galahad-takes-a-bath-copy.jpg" alt="Galahad Takes A Bath icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/galahad-takes-a-bath/">Galahad Takes A Bath</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Juggler's Mistake</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;16:00 (55min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1589/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/galahad-takes-a-bath/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="jackgoestotherapy:a(somewhat)romanticcomedy zacwilliams" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="19"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-playground"
+				id="jack-goes-to-therapy-a-somewhat-romantic-comedy"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">
+		<img src="/static/jack-goes-to-therapy.jpg" alt="Jack Goes to Therapy: A (Somewhat) Romantic Comedy icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">Jack Goes to Therapy: A (Somewhat) Romantic Comedy</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Zac Williams</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;19:20 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1590/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="jameswhale:beyondfrankenstein paragontheatrecollective" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="18"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="james-whale-beyond-frankenstein"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/james-whale-beyond-frankenstein/">
+		<img src="/static/james-whale-beyond-frankenstein.jpg" alt="James Whale: Beyond Frankenstein icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/james-whale-beyond-frankenstein/">James Whale: Beyond Frankenstein</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Paragon Theatre Collective</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;18:45 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1591/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/james-whale-beyond-frankenstein/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="myhomeisnotmyhome bambule.babys" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="20"
+				data-age_guidance="18+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="audience-participation-distressing-or-potentially-triggering-themes-nudity-scenes-of-violence-strong-language"
+				data-venue="zoo-playground"
+				id="my-home-is-not-my-home"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/my-home-is-not-my-home/">
+		<img src="/static/my-home-is-not-my-home.jpg" alt="my home is not my home icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/my-home-is-not-my-home/">my home is not my home</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">bambule.babys</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;20:35 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1593/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/my-home-is-not-my-home/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="sawdustsymphony michaelzandl,davideisele,koljahuneck,'madeingermanyshowcase'" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="10"
+				data-age_guidance="8+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access="ad"
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="sawdust-symphony"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/sawdust-symphony/">
+		<img src="/static/sawdust-symphony.jpeg" alt="Sawdust Symphony icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/sawdust-symphony/">Sawdust Symphony</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Michael Zandl, David Eisele, Kolja Huneck, 'Made In Germany Showcase'</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;10:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1594/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/sawdust-symphony/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="tennis dongnu" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="15"
+				data-age_guidance="12+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access=""
+				data-content_warnings="audience-participation-scenes-of-violence-strobe-lighting"
+				data-venue="zoo-southside"
+				id="tennis"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/tennis/">
+		<img src="/static/tennis.jpeg" alt="Tennis icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/tennis/">Tennis</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">DON GNU</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;15:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1597/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/tennis/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="theflock&movingcloud scottishdancetheatre" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="19"
+				data-age_guidance="12+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access="ad"
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="the-flock-moving-cloud"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-flock--moving-cloud/">
+		<img src="/static/the-flock-moving-cloud.jpeg" alt="The Flock & Moving Cloud icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-flock--moving-cloud/">The Flock & Moving Cloud</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Scottish Dance Theatre</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;19:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1595/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-flock--moving-cloud/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="thefunnythingaboutapanicattack benkassoy" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-26" 
+				data-time="17"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25,2024-08-26"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="distressing-or-potentially-triggering-themes"
+				data-venue="zoo-playground"
+				id="the-funny-thing-about-a-panic-attack"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-funny-thing-about-a-panic-attack/">
+		<img src="/static/the-funny-thing-about-a-panic-attack.jpg" alt="The Funny Thing About A Panic Attack icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-funny-thing-about-a-panic-attack/">The Funny Thing About A Panic Attack</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Ben Kassoy</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;17:10 (45min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1588/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-funny-thing-about-a-panic-attack/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="thesignalman paragontheatrecollective" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="14"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="the-signalman"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-signalman/">
+		<img src="/static/the-signalman.jpg" alt="The Signalman icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-signalman/">The Signalman</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Paragon Theatre Collective</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;14:55 (50min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a  target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  disabled" role="button" disabled>Tickets available soon</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-signalman/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-title-visible" 
+				data-search="unseen kimberlyprenticeanda/parkproductions" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="15"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="13"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-playground"
+				id="unseen"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/unseen/">
+		<img src="/static/unseen.jpeg" alt="UNSEEN icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/unseen/">UNSEEN</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Kimberly Prentice and A/Park Productions</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;15:15 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1596/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/unseen/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+
+		
+				
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="sawdustsymphony michaelzandl,davideisele,koljahuneck,'madeingermanyshowcase'" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="10"
+				data-age_guidance="8+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access="ad"
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="sawdust-symphony"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/sawdust-symphony/">
+		<img src="/static/sawdust-symphony.jpeg" alt="Sawdust Symphony icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/sawdust-symphony/">Sawdust Symphony</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Michael Zandl, David Eisele, Kolja Huneck, 'Made In Germany Showcase'</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;10:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1594/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/sawdust-symphony/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="commonisascommondoes:amemoir 21common" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-17" 
+				data-time="13"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17"
+				data-price="16"
+				data-genre=""
+				data-access="bsl"
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-scenes-of-violence-strobe-lighting-strong-language"
+				data-venue="zoo-southside"
+				id="common-is-as-common-does-a-memoir"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/common-is-as-common-does-a-memoir/">
+		<img src="/static/common-is-as-common-does.jpeg" alt="Common Is As Common Does: A Memoir icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/common-is-as-common-does-a-memoir/">Common Is As Common Does: A Memoir</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">21Common</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;13:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1586/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/common-is-as-common-does-a-memoir/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td >
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td >
+					20
+				</td>
+				
+					
+				
+			
+				<td >
+					21
+				</td>
+				
+					
+				
+			
+				<td >
+					22
+				</td>
+				
+					
+				
+			
+				<td >
+					23
+				</td>
+				
+					
+				
+			
+				<td >
+					24
+				</td>
+				
+					
+				
+			
+				<td >
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="thesignalman paragontheatrecollective" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="14"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="the-signalman"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-signalman/">
+		<img src="/static/the-signalman.jpg" alt="The Signalman icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-signalman/">The Signalman</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Paragon Theatre Collective</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;14:55 (50min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a  target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  disabled" role="button" disabled>Tickets available soon</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-signalman/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="tennis dongnu" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="15"
+				data-age_guidance="12+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access=""
+				data-content_warnings="audience-participation-scenes-of-violence-strobe-lighting"
+				data-venue="zoo-southside"
+				id="tennis"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/tennis/">
+		<img src="/static/tennis.jpeg" alt="Tennis icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/tennis/">Tennis</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">DON GNU</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;15:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1597/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/tennis/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="unseen kimberlyprenticeanda/parkproductions" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="15"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="13"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-playground"
+				id="unseen"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/unseen/">
+		<img src="/static/unseen.jpeg" alt="UNSEEN icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/unseen/">UNSEEN</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Kimberly Prentice and A/Park Productions</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;15:15 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1596/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/unseen/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="galahadtakesabath juggler'smistake" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="16"
+				data-age_guidance="16+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-nudity-scenes-of-a-sexual-nature-strong-language"
+				data-venue="zoo-southside"
+				id="galahad-takes-a-bath"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/galahad-takes-a-bath/">
+		<img src="/static/galahad-takes-a-bath-copy.jpg" alt="Galahad Takes A Bath icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/galahad-takes-a-bath/">Galahad Takes A Bath</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Juggler's Mistake</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;16:00 (55min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1589/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/galahad-takes-a-bath/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="danteandtherobot duncanhodgkinson" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="16"
+				data-age_guidance="16+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="10"
+				data-genre=""
+				data-access=""
+				data-content_warnings="strong-language"
+				data-venue="zoo-playground"
+				id="dante-and-the-robot"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/dante-and-the-robot/">
+		<img src="/static/dante-and-the-robot.jpg" alt="Dante and The Robot icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/dante-and-the-robot/">Dante and The Robot</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Duncan Hodgkinson</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;16:30 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1587/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/dante-and-the-robot/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="thefunnythingaboutapanicattack benkassoy" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-26" 
+				data-time="17"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25,2024-08-26"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="distressing-or-potentially-triggering-themes"
+				data-venue="zoo-playground"
+				id="the-funny-thing-about-a-panic-attack"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-funny-thing-about-a-panic-attack/">
+		<img src="/static/the-funny-thing-about-a-panic-attack.jpg" alt="The Funny Thing About A Panic Attack icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-funny-thing-about-a-panic-attack/">The Funny Thing About A Panic Attack</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Ben Kassoy</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;17:10 (45min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1588/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-funny-thing-about-a-panic-attack/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="comala,comala pulpoartsa.c./somethingfortheweekend" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="17"
+				data-age_guidance=""
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="15"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-performed-in-spanish-with-english-subtitles"
+				data-venue="zoo-southside"
+				id="comala-comala"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/comala-comala/">
+		<img src="/static/comala-comala.jpg" alt="Comala, Comala icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/comala-comala/">Comala, Comala</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Pulpo Arts A.C. / Something for the Weekend</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;17:15 (1hr15mins)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1585/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/comala-comala/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td >
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td >
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="aneveningwithmeremortals meremortals" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="18"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="contains-distressing-or-potentially-triggering-themes-scenes-of-a-sexual-nature-scenes-of-violence-strobe-lighting-strong-language"
+				data-venue="zoo-playground"
+				id="an-evening-with-mere-mortals"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/an-evening-with-mere-mortals/">
+		<img src="/static/an-evening-with-mere-mortals.jpeg" alt="An Evening With Mere Mortals icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/an-evening-with-mere-mortals/">An Evening With Mere Mortals</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Mere Mortals</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;18:05 (55min)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1592/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/an-evening-with-mere-mortals/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="jameswhale:beyondfrankenstein paragontheatrecollective" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="18"
+				data-age_guidance="12+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="james-whale-beyond-frankenstein"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/james-whale-beyond-frankenstein/">
+		<img src="/static/james-whale-beyond-frankenstein.jpg" alt="James Whale: Beyond Frankenstein icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/james-whale-beyond-frankenstein/">James Whale: Beyond Frankenstein</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Paragon Theatre Collective</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;18:45 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1591/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/james-whale-beyond-frankenstein/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="theflock&movingcloud scottishdancetheatre" 
+				data-date_start="2024-08-13" 
+				data-date_end="2024-08-25" 
+				data-time="19"
+				data-age_guidance="12+"
+				data-performances="2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="16"
+				data-genre=""
+				data-access="ad"
+				data-content_warnings=""
+				data-venue="zoo-southside"
+				id="the-flock-moving-cloud"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/the-flock--moving-cloud/">
+		<img src="/static/the-flock-moving-cloud.jpeg" alt="The Flock & Moving Cloud icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/the-flock--moving-cloud/">The Flock & Moving Cloud</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Scottish Dance Theatre</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;19:00 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1595/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/the-flock--moving-cloud/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					W
+				</td>
+				
+					
+				
+			
+				<td >
+					T
+				</td>
+				
+					
+				
+			
+				<td >
+					F
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td >
+					02
+				</td>
+				
+					
+				
+			
+				<td >
+					03
+				</td>
+				
+					
+				
+			
+				<td >
+					04
+				</td>
+				
+					
+				
+			
+				<td >
+					05
+				</td>
+				
+					
+				
+			
+				<td >
+					06
+				</td>
+				
+					
+				
+			
+				<td >
+					07
+				</td>
+				
+					
+				
+			
+				<td >
+					08
+				</td>
+				
+					
+				
+			
+				<td >
+					09
+				</td>
+				
+					
+				
+			
+				<td >
+					10
+				</td>
+				
+					
+				
+			
+				<td >
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="jackgoestotherapy:a(somewhat)romanticcomedy zacwilliams" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="19"
+				data-age_guidance="14+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-12,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-19,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings=""
+				data-venue="zoo-playground"
+				id="jack-goes-to-therapy-a-somewhat-romantic-comedy"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">
+		<img src="/static/jack-goes-to-therapy.jpg" alt="Jack Goes to Therapy: A (Somewhat) Romantic Comedy icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">Jack Goes to Therapy: A (Somewhat) Romantic Comedy</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">Zac Williams</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;19:20 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1590/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/jack-goes-to-therapy-a-somewhat-romantic-comedy/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+			
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+			
+
+			<div class="col programme-show-container by-time-hidden" 
+				data-search="myhomeisnotmyhome bambule.babys" 
+				data-date_start="2024-08-02" 
+				data-date_end="2024-08-25" 
+				data-time="20"
+				data-age_guidance="18+"
+				data-performances="2024-08-02,2024-08-03,2024-08-04,2024-08-05,2024-08-06,2024-08-07,2024-08-08,2024-08-09,2024-08-10,2024-08-11,2024-08-13,2024-08-14,2024-08-15,2024-08-16,2024-08-17,2024-08-18,2024-08-20,2024-08-21,2024-08-22,2024-08-23,2024-08-24,2024-08-25"
+				data-price="12"
+				data-genre=""
+				data-access=""
+				data-content_warnings="audience-participation-distressing-or-potentially-triggering-themes-nudity-scenes-of-violence-strong-language"
+				data-venue="zoo-playground"
+				id="my-home-is-not-my-home"
+				>
+				
+<div class="card-show-small">
+	<div class="card-body">
+		
+
+
+
+
+	<a class="show-image" href="/programme/my-home-is-not-my-home/">
+		<img src="/static/my-home-is-not-my-home.jpg" alt="my home is not my home icon">
+	</a>
+
+		
+		
+
+
+
+<div class="show-title">
+	<h3 class=" mb-0">
+	<a href="/programme/my-home-is-not-my-home/">my home is not my home</a>
+	</h3>
+	<p class="fs-4 bebas text-muted fw-lighter">bambule.babys</p>
+</div>
+		
+
+
+
+
+	
+
+
+	<p><i class="far fa-clock fa-fw text-zoo-orange"></i>&nbsp;20:35 (1hr)</p>
+
+		
+<div class="buttons">
+	
+	
+
+	
+
+
+ 
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	<a href="https://tickets.zoofestival.co.uk/event/124:1593/" target="_blank" class="btn-zoo-book btn-outline-info w-50 me-1  " role="button" >Book Tickets</a>
+	
+		<a class="btn-zoo-book btn-info w-50 ms-1 " role="button" href="/programme/my-home-is-not-my-home/">Read more</a>
+	
+</div>
+	</div>
+	<div class="card-footer">
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive-sm">
+	<table class="date-list border-zoo-orange text-center ">
+		<tr>
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					W
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					T
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					F
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					S
+				</td>
+				
+					
+				
+			
+				<td >
+					M
+				</td>
+				
+					
+				
+			
+		</tr>
+		<tr>
+			
+			
+				<td class="show-date">
+					02
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					03
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					04
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					05
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					06
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					07
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					08
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					09
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					10
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					11
+				</td>
+				
+					
+				
+			
+				<td >
+					12
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					13
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					14
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					15
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					16
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					17
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					18
+				</td>
+				
+					
+				
+			
+				<td >
+					19
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					20
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					21
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					22
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					23
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					24
+				</td>
+				
+					
+				
+			
+				<td class="show-date">
+					25
+				</td>
+				
+					
+				
+			
+				<td >
+					26
+				</td>
+				
+					
+				
+			
+		</tr>
+	</table>
+</div>
+	</div>
+</div>
+			</div>
+		
+
+	</div>
+</div>
+
+<script>
+
+	// When #activate-search onClick, remove .d-none from #search-box 
+	// SEARCH
+		// Fuzzy search on the entire data selection across title, company, blurb 
+
+</script>
+	
  
 	</body>
 
@@ -452,6 +13808,17 @@ data-bs-toggle="tooltip" data-bs-placement="bottom" title="British Sign Language
                             <a class="navbar-brand d-flex mx-4" href="https://edfest.com/" target="_blank">
                                 <img src="/static/img/edfest/edfest.png" class="img-responsive d-flex my-auto" width="75px" height="auto" alt="EdFest">
                             </a>
+                        </div>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link " href="/access/">Access</a>
+                            </li>
+                          </ul>
                         </div>
                         
                       </div>
