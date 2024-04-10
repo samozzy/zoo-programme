@@ -1053,3 +1053,63 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1614/
     company: Dancing Hands Theatre / 258Signs
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: In the game of televised warfare, it is unclear who's allowed to say
+      'we' anymore. One toy land is turned into another. Nobel prize winner
+      Elfriede Jelinek’s text dismantles the global media war machine as
+      accounts of Iraq’s invasion collapse into a child refugee’s memories of
+      the Bosnian war. The violent act of representation is played back before
+      our eyes on video and we find ourselves immersed in this battle of toy
+      soldiers. It all comes back around, especially the wars.
+    price:
+      standard: 13
+      concession: 10
+      weekend: 15
+      weekend_conc: 13
+      preview: -1
+    start_time: 21:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Bambiland (written by Elfriede Jelinek)
+    links:
+      - link: https://twitter.com/BambilandPlay
+        title: Twitter
+      - link: www.instagram.com/bambilandplay/
+        title: Instagram
+    image: /static/bambiland.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1612/
+    company: Peter Lorenz & Jelena Bašić
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+    video_embeds:
+      - embed_code: <iframe src="https://player.vimeo.com/video/219325421?h=ceb78449a3"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/219325421">BAMBILAND</a> from <a
+          href="https://vimeo.com/user2069302">Peter Lorenz</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>
+        title: Bambiland
