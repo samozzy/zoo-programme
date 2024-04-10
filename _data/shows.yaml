@@ -1019,3 +1019,37 @@ shows:
     company: Harri Pitches
     content_warnings:
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+    copy_long: It's tough being a deaf kid. Why can't he speak or hear properly? The
+      story of a Deaf Colombian boy planning to move to Canada. Due to his
+      deafness, Fernando struggles to understand teachers, and his hearing aid
+      isn't reliable, making him a target for ridicule. Yearning to learn sign
+      language, his school lacks resources. Upon meeting a deaf Llama, they bond
+      instantly, embarking on a quest to reunite the Llama with its family,
+      encountering communication barriers along the way. The show, in ASL with
+      voice-over, features an all-deaf cast from Canada, ensuring inclusivity
+      and accessible.
+    price:
+      standard: 15
+      concession: 10
+      weekend: 15
+      weekend_conc: 10
+    start_time: 10:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Fernando and His Llama Friend
+    links:
+      - link: https://www.instagram.com/dancing_hands.theatre?igsh=cGIyNHR5ZWczeHRy
+        title: Instagram
+    image: /static/fernando-and-his-llama-friend.jpeg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1614/
+    company: Dancing Hands Theatre / 258Signs
