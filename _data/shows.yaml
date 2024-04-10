@@ -967,3 +967,55 @@ shows:
     content_warnings:
       - Audience Participation
       - Strong language / swearing
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      In the darkness of grief, a man hears something calling. Something – or
+      someone – is reaching out. But why now? And from where? Desperate for
+      answers, he follows the sound deep into the Space Between. 
+
+      But the rules are different here, and time is running out. Able to manipulate the sea of sounds around him, can he piece together the truth before it’s too late? What would we say to the people we’ve lost? A sonic adventure into the unknown using live sound manipulation technology as a gateway to a world beyond.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 9
+    start_time: 15:35
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Playground
+    duration: 50mins
+    title: The Sound of the Space Between
+    age_guidance: 12+
+    links:
+      - link: https://twitter.com/TSOTSB
+        title: Twitter
+      - link: https://www.instagram.com/spacebetweenplay/
+        title: Instagram
+    image: /static/the-sound-of-the-space-between.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1616/
+    company: Harri Pitches
+    content_warnings:
+      - Contains distressing or potentially triggering themes
