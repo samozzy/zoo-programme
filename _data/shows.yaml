@@ -947,7 +947,7 @@ shows:
       weekend_conc: 11
     start_time: 21:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: The Best Man Show
