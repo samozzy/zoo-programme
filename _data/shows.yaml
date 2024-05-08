@@ -1557,3 +1557,55 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong language / swearing
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: Poetic, laughable, and raw coming-of-age tale of A Middle Eastern
+      American boy, Essa, whose parents are refugees. Join Essa as he navigates
+      sexuality, religion, the English language, and a nicotine demon that won't
+      leave him alone. In a one-person show told between different ages
+      throughout his life, Essa confesses to us the experience of growing up in
+      a country that doesn’t have a place for him. A surprising new work.
+    price:
+      standard: 12
+      weekend: 13
+    start_time: 11:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Dummy in Diaspora
+    age_guidance: 16+
+    links:
+      - link: https://twitter.com/dummyindiaspora
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/dummyindiaspora/
+        title: Instagram
+        platform: Instagram
+    image: /static/dummy-in-diaspora.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1669/
+    company: Esho Rasho
+    content_warnings:
+      - Strong language / swearing
