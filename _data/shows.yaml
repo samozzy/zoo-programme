@@ -1500,3 +1500,60 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes.
       - Strong language / swearing.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: One teenage girl's dream of being a pop star was shattered by the
+      dark realities of the music industry; scams, lies, perverts and
+      pedophiles. 'Pop Star' is a comedy solo show about how Devon tried and
+      failed to be a teen pop star in 2010. Devon takes you down memory lane
+      showcasing her highly music videos, 20 original songs, and pivotal cringe
+      moments from her past that lead to the demise of her music career. Learn
+      the inner workings of the 2000's teen pop girl music industry and join
+      Devon at the biggest comeback of her career!
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: -1
+    start_time: 22:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 55mins
+    title: "Devon Drew: Pop Star"
+    age_guidance: 14+
+    links:
+      - link: https://twitter.com/devonmdrew
+        title: Twitter
+        platform: Twitter
+      - link: www.instagram.com/devonmdrew
+        title: Instagram
+        platform: Instagram
+    image: /static/devon-drew-pop-star.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1680/
+    company: Devon Drew
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Strong language / swearing
