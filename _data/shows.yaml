@@ -1968,3 +1968,52 @@ shows:
     company: Oor Theatre
     content_warnings:
       - Strong language / swearing.
+  - performances:
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Wet Mess Wet Messifies the messiness of life; exploring transitions,
+      testosterone, edges of drag, blur between performance and reality, magical
+      in the mundane. Meet at the computer of confused edges, for guttural
+      sexuality, where made up shit becomes real.
+
+
+      Wearing insides on the outsides, and waiting for the hateful crunchy key change. Expect mustache meals, desktop dreams, dykey desires, trotting, lolling, humping, titting, farting, pinching at the dull flesh of life here and here. It's quite like, uh, I just back away, I, don’t perceive me, I'm in the wall.
+
+
+      Hoping you will understand Sincerely Wet xx
+    price:
+      standard: 15
+      concession: 13
+      weekend: 16
+      weekend_conc: 14
+    start_time: 20:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: "TESTO : Here & Now Showcase"
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/wet_mess?igsh=MXB5N2gwMmNqdnpybA==
+        title: Instagram
+        platform: Instagram
+    image: /static/testo.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1685/
+    company: Wet Mess
+    content_warnings:
+      - Nudity
+      - Strobe Lighting
+      - Strong language / swearing.
