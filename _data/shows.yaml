@@ -2187,3 +2187,53 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1678/
     company: Pirita Tuisku & Thabo Mokolobate
+  - performances:
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+    copy_long: >-
+      Powerful performance exploring love in times of war in Europe,
+      transcending Romeo & Juliet’s classic narrative, offering an enriched
+      perspective and examining the complexity of human relations. \
+
+      \
+
+      Featuring three loving couples in diverse stages of life, displaying the artistry of four terrific dancers and two outstanding musicians.\
+
+
+      At the heart of the performance lies the music, a dynamic blend and live execution of motifs drawn from prominent compositions associated with the story. Featuring works by Prokofiev, Mancini, and Gounod, the music underlines the universal theme of profound love and the cruel intrusion of death.
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+    start_time: 16:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: This is not Romeo and Juliet
+    age_guidance: 14+
+    links:
+      - link: https://twitter.com/DANISHedfringe
+        title: Twitter
+        platform: Twitter
+      - link: https://vimeo.com/832617413?share=copy
+        title: Vimeo
+        platform: Vimeo
+      - link: https://www.instagram.com/danishedfringe/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.facebook.com/DANISHedfringe
+        title: Facebook
+        platform: Facebook
+    image: /static/this-is-not-romeo-and-juliet.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1687/
+    company: Granhøj Dans
+    content_warnings:
+      - Nudity.
+      - Scenes of a sexual nature.
