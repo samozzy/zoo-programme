@@ -1644,7 +1644,7 @@ shows:
       concession: 10
       weekend: 13
       weekend_conc: 11
-      preview: -2
+      preview: ""
     start_time: 14:40
     booking_unavailable: false
     is_draft: true
