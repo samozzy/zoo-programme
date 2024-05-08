@@ -1395,3 +1395,55 @@ shows:
     company: Duane Forrest
     content_warnings:
       - Contains distressing or potentially triggering themes.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: "A miniature choreography of visual poetry, objects and body parts,
+      Book of Dew weaves a spider web of fantastical fragments: water droplets,
+      a river in the air, glistening stardust – the dew of transient experience
+      emerges and evaporates under sunrise. At the intersection of puppetry,
+      installation, and non-linear storytelling, this intimately-staged
+      performance features a single wall, in which doors of ephemerality open
+      and close to reveal fleeting glimpses of visceral imagery and dancing
+      poems. Abstraction and physicality collide in a striking montage of
+      fantasy and contemporary folklore."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 8
+    start_time: 15:55
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Book of Dew
+    age_guidance: 14+
+    image: /static/book-of-dew.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1667/
+    company: Tide & Foam Productions
+    content_warnings:
+      - Minor physical harm.
