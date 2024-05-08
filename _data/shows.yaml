@@ -1178,3 +1178,46 @@ shows:
           Trailer 2023</a> from <a href="https://vimeo.com/user7486499">Claire
           Love-Wilson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
         title: Morag, You're a Long Time Deid Trailer
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+    copy_long: Things have gotten a little bit harder lately. Haven't they? Amongst
+      this mess there has got to be something that connects us. Doesn't there?
+      We are going to support each other as we trudge through the chaos. Aren't
+      we? A solo show in celebration of togetherness. 'Treats art as a gift'
+      (WhatsOnStage.com for 'dressed.'). A brand new show from Fringe First
+      Award winners Josie Dale-Jones and Laurence Cook (2018 for dressed.),
+      Rachel Lemon (2023 for Gunter), Abbi Greenland (2016 for Two Man Show) and
+      Paula Varjack.
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+    start_time: 18:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: A Little Inquest Into What We Are All Doing Here
+    age_guidance: 14+
+    image: /static/a-little-inquest-into-what-we-are-all-doing-here.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1672/
+    company: ThisEgg in association with ZOO
