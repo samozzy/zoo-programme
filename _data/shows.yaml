@@ -1307,10 +1307,11 @@ shows:
 
       "Full of wit, wisdom, and bold, boundary-busting theatrical energy" Joyce McMillan, The Scotsman
     price:
-      standard: 16
-      concession: 11
-      weekend: 17
-      weekend_conc: 12
+      standard: 18
+      concession: ""
+      weekend: ""
+      weekend_conc: ""
+      price_range: £6 - £18
     start_time: 16:30
     booking_unavailable: false
     is_draft: true
