@@ -1285,3 +1285,50 @@ shows:
     company: Alexis Sakellaris
     content_warnings:
       - Strong Language / Swearing
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+    copy_long: >-
+      Caught in a storm and looking for help, Murdo knocks on a the door of a
+      dark, old house and the family inside seems to be expecting him. A bizarre
+      quintet of siblings is waiting for their father to die and Murdo is
+      somehow involved... 
+
+
+      Brilliantly threading the fine line between surreal and sinister, An Unexpected Hiccup is a chilling night tale of comic misunderstandings and dangerous eccentricities presented by Lung Ha Theatre Company in collaboration with Plutôt la Vie
+
+
+      "Full of wit, wisdom, and bold, boundary-busting theatrical energy" Joyce McMillan, The Scotsman
+    price:
+      standard: 16
+      concession: 11
+      weekend: 17
+      weekend_conc: 12
+    start_time: 16:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: An Unexpected Hiccup
+    age_guidance: 8+
+    links:
+      - link: https://twitter.com/LungHasTheatre
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/lunghatheatre/
+        platform: Instagram
+        title: Instagram
+      - link: https://www.youtube.com/@lunghatheatrecompany3074
+        title: YouTube
+        platform: YouTube
+    image: /static/an-unexpected-hiccup.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1689/
+    company: Lung Ha Theatre Company and Plutôt La Vie
