@@ -1819,3 +1819,46 @@ shows:
     content_warnings:
       - Audience participation.
       - Strobe lighting.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+    copy_long: A journey of evolution, from birth to consciousness. Follow the
+      struggle through a maze of shape shifting surroundings to the edge and
+      beyond. With an immersive foley soundscape, a dash of acrobatics, a
+      sprinkle of clown and a fist full of Kung Fu.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13.5
+      weekend_conc: 11.5
+    start_time: 17:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 45mins
+    title: Only Bones v1.9
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/mattpasquet/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.youtube.com/watch?v=QTjsPdz3fZ8
+        title: YouTube
+        platform: YouTube
+    content_warning_detail:
+      - Talcum powder dust (for people with breathing difficulties) and loud
+        noises.
+    image: /static/only-bones-v1.9.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1679/
+    company: Matt Pasquet - Kallo Collective
+    content_warnings:
+      - Nudity
+      - Strobe lighting
