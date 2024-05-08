@@ -2349,3 +2349,53 @@ shows:
     content_warnings:
       - Strobe lighting.
       - Strong language / swearing.
+  - performances:
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      You Heard Me is for anyone who has been underestimated, or told to shut
+      up. 
+
+
+      This is a loud show about quiet power. This is a celebration of refusing to be silenced, of taking up space and of one woman's power to re-make, re-mould and disrupt. Integrating a blend of visceral movement, enveloping sound and lights, Luca and her collaborators gift audiences the chance to experience the messiness and effort of connecting to your own power.
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+    start_time: 16:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: "You Heard Me : Here & Now Showcase"
+    age_guidance: 14+
+    links:
+      - link: https://twitter.com/LucaRutherford
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/luca_rutherford/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.youtube.com/watch?v=u0t2Vh1dGkI
+        title: YouTube
+        platform: YouTube
+      - link: https://soundcloud.com/user236304397/you-heard-us
+        title: SoundCloud
+        platform: SoundCloud
+      - link: https://www.facebook.com/lucarutherfordtheatre
+        title: Facebook
+        platform: Facebook
+    content_warning_detail:
+      - Contains references to sexual violence.
+    image: /static/you-heard-me.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1690/
+    company: Luca Rutherford with Maria Crocker, Melanie Wilson, Tanuja Amarasuriya,
+      Linzy Na Nakorn, Bethany Gupwell and Bethany Wells.
+    content_warnings:
+      - Contains distressing or potentially triggering themes.
