@@ -1921,3 +1921,50 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes.
       - Strong language / swearing.
+  - performances:
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Singing Sands is a touching yet dark comedy about how the death of a loved
+      one can sometimes be the only way to restore old bonds.
+
+
+      Set on the remote Hebridean Isle of Eigg, two siblings return to their late Gran’s house to find her stuff loaded into a van by their long-lost cousin. They’ve got until the ferry arrives to reconcile, grieve and resist battering each other.
+
+
+      After a sold-out run last Edinburgh Fringe, 'Singing Sands' returns, showing how easy it is to forget our culture when we’ve been away from home for so long.
+    price:
+      standard: 8
+      concession: 5
+    start_time: 13:25
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Singing Sands
+    age_guidance: 12+
+    links:
+      - link: https://twitter.com/oor_theatre
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/oortheatre/
+        title: Instagram
+        platform: Instagram
+    image: /static/singing-sands.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1681/
+    company: Oor Theatre
+    content_warnings:
+      - Strong language / swearing.
