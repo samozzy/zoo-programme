@@ -1217,7 +1217,71 @@ shows:
     duration: 60mins
     title: A Little Inquest Into What We Are All Doing Here
     age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/thisegg_/
+        platform: Instagram
+        title: Instagram
     image: /static/a-little-inquest-into-what-we-are-all-doing-here.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1672/
     company: ThisEgg in association with ZOO
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      A love letter to the DIVAS and the GAYS who stan them! welcome to an
+      original queer comedy musical about alexis's childhood as a stan. after
+      moving to rural germany from new york city at age 8, discovering pop divas
+      online was his only salvation... now he's ready to sing about it! 
+
+
+      Join alexis for his first solo show as he attempts to get his p.h.diva in stanology, with a concentration in motherological studies and a minor in slayviation. does this queer bo burnham have what it takes to be... a lil gay diva?!
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 8
+      price_range: ""
+    start_time: 19:00
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: A STAN IS BORN!
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/astanisbornshow
+        title: Instagram
+        platform: Instagram
+      - link: https://www.tiktok.com/@alexis.sakellaris
+        title: TikTok
+        platform: TikTok
+    content_warning_detail:
+      - Adult themes; references to homophobia
+      - bullying and pornography; use of slurs.
+    image: /static/a-stan-is-born-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1682/
+    company: Alexis Sakellaris
+    content_warnings:
+      - Strong Language / Swearing
