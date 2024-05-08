@@ -2230,6 +2230,9 @@ shows:
       - link: https://www.facebook.com/DANISHedfringe
         title: Facebook
         platform: Facebook
+      - link: https://www.tiktok.com/@danishedfringe
+        title: TikTok
+        platform: TikTok
     image: /static/this-is-not-romeo-and-juliet.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1687/
