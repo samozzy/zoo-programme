@@ -2298,3 +2298,54 @@ shows:
     company: WattWhereWhy
     content_warnings:
       - Strong language / swearing.
+  - performances:
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-24
+      - 2024-08-23
+      - 2024-08-25
+    copy_long: >-
+      Dusky Seaside Sparrow, Cinnamon-coloured Cryptic Tree Hunter, Problematic
+      Flasher, Fire Millipede From Hell... 
+
+
+      Performance artist Tom Bailey attempts to perform 26,000 animals in under an hour. Projection mapping, animals, clowning; Vigil is a wildly playful, poetic exploration of life in an age of extinction. Herald Angel Award-winning Mechanimal return with this critically-acclaimed, internationally-touring hit show.
+
+
+      Mechanimal is an award-winning performance company from Bristol. The company explores new narratives of our Anthropocene era. 
+
+
+      “Beautiful, contemplative... a remarkable and urgent show” - The Guardian.
+
+
+      "Memorable... a requiem against a clock counting down” - The Scotsman.
+    price:
+      standard: 16
+      concession: 14
+      weekend: 17
+      weekend_conc: 15
+    start_time: 12:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 60mins
+    title: Vigil
+    age_guidance: 12+
+    links:
+      - link: https://twitter.com/MechAnimalCo
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/_mechanimal_/
+        title: Instagram
+        platform: Instagram
+      - link: https://youtu.be/WHxFMFv1iOw
+        title: YouTube
+        platform: YouTube
+    image: /static/vigil.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1691/
+    company: Mechanimal
+    content_warnings:
+      - Strobe lighting.
+      - Strong language / swearing.
