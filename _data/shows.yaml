@@ -1447,3 +1447,56 @@ shows:
     company: Tide & Foam Productions
     content_warnings:
       - Minor physical harm.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: "“Dying is scary, missing Spring Break is scarier.” True story. Told
+      mid-operation. Fun-loving college student, Sam, must decide what to do in
+      life....and oh, whether or not to have brain surgery. In a profound (yet
+      highly medicated) meditation, she reflects on the events that lead there:
+      namely, a redhaired bitch who came to life and ruined it all. Overwhelmed
+      and forced into decisions with potentially fatal consequences, Sam decides
+      one thing: go out with a bang on a classic All-American Spring Break.
+      However, her aneurysm has other plans. A true story...not necessarily a
+      smart one."
+    price:
+      standard: 11
+      concession: 10
+      weekend: 12
+      weekend_conc: 10
+      preview: 8
+    start_time: 16:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Dear Annie, I Hate You
+    age_guidance: 16+
+    image: /static/dear-annie-i-hate-you.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1668/
+    company: Wild Geese Productions
+    content_warnings:
+      - Contains distressing or potentially triggering themes.
+      - Strong language / swearing.
