@@ -1609,3 +1609,60 @@ shows:
     company: Esho Rasho
     content_warnings:
       - Strong language / swearing
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Charlie runs a bridal shop. Clelia is getting married. The two women exist
+      as strangers, their lives running in parallel without ever touching, until
+      their paths intersect. As they search for the perfect dress, they spill
+      secrets, laughter and desires with a familiarity that defies logic. It
+      becomes clear
+
+      that Clelia and Charlie share a connection that’s more than skin deep. A razor-sharp and heartfelt comedy exploring the shame we carry from childhood, the speed at which women become intimately connected and the people we meet briefly who leave an indelible imprint on our lives.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: -2
+    start_time: 14:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Gogo Boots Go
+    age_guidance: 14+
+    links:
+      - link: https://twitter.com/talkers_doers
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/talkers.and.doers/
+        title: Instagram
+        platform: Instagram
+    image: /static/gogo-boots-go.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1670/
+    company: Talkers & Doers
+    content_warnings:
+      - Strong language / swearing.
