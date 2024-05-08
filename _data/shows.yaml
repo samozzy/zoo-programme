@@ -2148,3 +2148,42 @@ shows:
     company: Frisco Fred
     content_warnings:
       - Audience required to walk or move around during the performance.
+  - performances:
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+    copy_long: As above, you can save some words and make the first couple of lines
+      snappier. I would also remove “Come and see this unique dance-poetry-music
+      collage!” and use those words to tell the audience what makes your story
+      special, unique and interesting.
+    price:
+      standard: 12.5
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 17:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: The One Couple Show
+    age_guidance: 16+
+    links:
+      - link: www.youtube.com/@piritatuisku5202
+        title: YouTube
+        platform: YouTube
+      - link: https://www.instagram.com/pirretuisku/
+        title: Instagram
+        platform: Instagram
+    content_warning_detail:
+      - Brief inclusion of triggering content that includes self-harm
+      - depression
+      - eating disord
+    image: /static/the-one-couple-show.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1678/
+    company: Pirita Tuisku & Thabo Mokolobate
