@@ -2399,3 +2399,49 @@ shows:
       Linzy Na Nakorn, Bethany Gupwell and Bethany Wells.
     content_warnings:
       - Contains distressing or potentially triggering themes.
+  - performances:
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: Blood spots on my duvet. Stains on my pillowcase. Bite marks on my
+      wrists. Bed bugs in my flat, lurking in my mattress. Except... there were
+      no bed bugs. There were never any to begin with. Based on true events,
+      make the Bed is a solo piece that explores what it's like when your
+      thoughts consume you. When black and white thinking takes over. When you
+      have anxiety. And what it can feel like sitting with that anxiety in real
+      time. And how to maybe, just maybe, go towards the grey. Directed by
+      Cecilia Thoden van Velzen.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 11:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: make the Bed
+    age_guidance: 12+
+    content_warning_detail:
+      - References to mental health
+      - particularly anxiety; language; body-checking behaviour.
+    image: /static/make-the-bed.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1675/
+    company: Ariela Sidney Nazar-Rosen
+    content_warnings:
+      - Contains distressing or potentially triggering themes.
+      - Strong language / swearing.
