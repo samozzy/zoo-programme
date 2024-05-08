@@ -1332,3 +1332,66 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1689/
     company: Lung Ha Theatre Company and Plutôt La Vie
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Join Duane Forrest on an acoustic journey through the roots of reggae to
+      the global influence of Bob Marley. Experience acoustic renditions of
+      legendary reggae songs that have reshaped countless lives, including
+      Duane's own. From the origin of reggae to Marley's transcendent legacy,
+      immerse
+
+      yourself in the soulful melodies and transformative power of this iconic music. Audience members are invited to sing along and get involved in this interactive musical experience.
+    price:
+      preview: 8
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 21:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: "Bob Marley: how reggae changed the world"
+    age_guidance: 4+
+    links:
+      - link: https://twitter.com/duaneforrest?s=09
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/duaneintheforrest/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.tiktok.com/@duaneintheforrest
+        title: TikTok
+        platform: TikTok
+      - title: YouTube
+        platform: YouTube
+        link: https://youtu.be/hyyKGBKVikM
+    image: /static/bob-marley-how-reggae-changed-the-world.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1692/
+    company: Duane Forrest
+    content_warnings:
+      - Contains distressing or potentially triggering themes.
