@@ -1748,3 +1748,74 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1674/
     company: Wen Xiaochao Physical Theater
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      What happens when a lovable idiot holds a memorial service for a
+      long-deceased family member? In this off-the-wall comedy, award-winning
+      NYC-based clown Julia VanderVeen leads the audience through wild stages of
+      grief as she attempts to honour her beloved grandmother. \
+
+      \
+
+      Winner: Best Solo Comedy and Best of the Fest, Orlando Fringe 2023; Best Solo Clown, EstroGenius Awards, Frigid Fringe, NYC 2022; Production Award FESTN4 2024. \
+
+      \
+
+      'A masterclass in cringe comedy... Carol Burnett-esque' (Orlando Weekly).\
+
+
+      'A solo tour-de-force' (Hartford Courant). 'Puts the fun in funeral'
+
+      (Orlando Sentinel).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 12:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: My Grandmother's Eyepatch
+    age_guidance: 14+
+    links:
+      - link: https://youtu.be/wBSZd31ua8o
+        title: YouTube
+        platform: YouTube
+      - title: Instagram
+        platform: Instagram
+        link: https://www.instagram.com/julesvandie/
+      - title: TikTok
+        link: https://www.tiktok.com/@julesvandie
+        platform: TikTok
+    reviews: []
+    image: /static/my-grandmother-s-eyepatch.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1676/
+    company: Julia VanderVeen
+    content_warnings:
+      - Audience participation.
+      - Strobe lighting.
