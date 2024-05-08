@@ -2240,3 +2240,61 @@ shows:
     content_warnings:
       - Nudity.
       - Scenes of a sexual nature.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: A walrus comedy (for adults). Why is the Arctic melting and where are
+      all the clams? From Rishi Sunak to binge-eating seagulls, 'Thor the
+      Walrus' asks why big corporations aren't blamed for climate change when we
+      feel guilty about using plastic straws. Thor travels to England to
+      discover why our planet is burning, meeting numerous fishy characters,
+      from a flamboyant starfish to a recovering-addict crab, while a news
+      programme reports his progress. (Based on a true story. Loosely.) Fans of
+      'Brass Eye' and 'South Park' will love 'Thor the Walrus'. But screw them,
+      Thor is getting hangry...
+    price:
+      standard: 12
+      concession: 10
+      weekend: 12
+      weekend_conc: 11
+    start_time: 20:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Thor the Walrus
+    age_guidance: 14+
+    links:
+      - link: https://twitter.com/thor_thewalrus
+        title: Twitter
+        platform: Twitter
+      - link: https://www.instagram.com/thorthewalrus/
+        title: Instagram
+        platform: Instagram
+    image: /static/thor-the-walrus.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1688/
+    company: WattWhereWhy
+    content_warnings:
+      - Strong language / swearing.
