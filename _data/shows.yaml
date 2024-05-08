@@ -2085,6 +2085,7 @@ shows:
         platform: TikTok
     image: /static/that-s-not-my-name.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1686/
     company: Covered in Jam
     content_warnings:
       - Audience participation.
@@ -2094,3 +2095,56 @@ shows:
       - Scenes of violence.
       - Strobe lighting.
       - Strong language / swearing.
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Laughter! Excitement! Learning! Comedian Frisco Fred performs then teaches
+      YOU - the audience to juggle! It’s fun, and great for annoying your
+      downstairs neighbors. \
+
+      \
+
+      (Ticket price includes a juggling kit.)\
+
+       "Deep in the basement of ZOO something magical is happening ... but the best part is left for last - when the AUDIENCE comes centre stage and learns to juggle themselves... seeing 40-something parents, 70-something grandparents and kids alike learning to juggle is a fantastic treat..." \
+      - Adrian G. Velazquez - Hairline Magazine
+    price:
+      standard: 20
+      concession: 16
+      preview: 17.5
+    start_time: 12:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: The Learn to Juggle Comedy Show!
+    age_guidance: 8+
+    image: /static/the-learn-to-juggle-comedy-show.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1671/
+    company: Frisco Fred
+    content_warnings:
+      - Audience required to walk or move around during the performance.
