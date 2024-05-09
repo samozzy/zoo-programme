@@ -2088,13 +2088,13 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1686/
     company: Covered in Jam
     content_warnings:
-      - Audience participation.
-      - Contains distressing or potentially triggering themes.
-      - Nudity.
-      - Scenes of a sexual nature.
-      - Scenes of violence.
-      - Strobe lighting.
-      - Strong language / swearing.
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+      - Nudity
+      - Scenes of a sexual nature
+      - Scenes of violence
+      - Strobe lighting
+      - Strong language / swearing
   - performances:
       - 2024-08-02
       - 2024-08-03
@@ -2147,7 +2147,7 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1671/
     company: Frisco Fred
     content_warnings:
-      - Audience required to walk or move around during the performance.
+      - Audience required to walk or move around during the performance
   - performances:
       - 2024-08-11
       - 2024-08-12
@@ -2238,8 +2238,8 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1687/
     company: Granhøj Dans
     content_warnings:
-      - Nudity.
-      - Scenes of a sexual nature.
+      - Nudity
+      - Scenes of a sexual nature
   - performances:
       - 2024-08-02
       - 2024-08-03
