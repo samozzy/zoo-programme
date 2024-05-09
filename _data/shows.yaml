@@ -903,8 +903,8 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1585/
     company: Pulpo Arts A.C. / Something for the Weekend
     content_warnings:
-      - Contains distressing or potentially triggering themes.
-      - Discussions of sexual assault and depictions of suicide.
+      - Contains distressing or potentially triggering themes
+      - Discussions of sexual assault and depictions of suicide
   - performances:
       - 2024-08-02
       - 2024-08-03
