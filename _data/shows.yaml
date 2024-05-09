@@ -2297,7 +2297,7 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1688/
     company: WattWhereWhy
     content_warnings:
-      - Strong language / swearing.
+      - Strong language / swearing
   - performances:
       - 2024-08-20
       - 2024-08-21
@@ -2347,8 +2347,8 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1691/
     company: Mechanimal
     content_warnings:
-      - Strobe lighting.
-      - Strong language / swearing.
+      - Strobe lighting
+      - Strong language / swearing
   - performances:
       - 2024-08-20
       - 2024-08-21
@@ -2398,7 +2398,7 @@ shows:
     company: Luca Rutherford with Maria Crocker, Melanie Wilson, Tanuja Amarasuriya,
       Linzy Na Nakorn, Bethany Gupwell and Bethany Wells.
     content_warnings:
-      - Contains distressing or potentially triggering themes.
+      - Contains distressing or potentially triggering themes
   - performances:
       - 2024-08-11
       - 2024-08-12
@@ -2443,8 +2443,8 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1675/
     company: Ariela Sidney Nazar-Rosen
     content_warnings:
-      - Contains distressing or potentially triggering themes.
-      - Strong language / swearing.
+      - Contains distressing or potentially triggering themes
+      - Strong language / swearing
   - performances:
       - 2024-08-02
       - 2024-08-03
