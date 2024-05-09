@@ -1716,9 +1716,9 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1673/
     company: Ithaka
     content_warnings:
-      - Contains distressing or potentially triggering themes.
-      - Scenes of a sexual nature.
-      - Strong language / swearing.
+      - Contains distressing or potentially triggering themes
+      - Scenes of a sexual nature
+      - Strong language / swearing
   - performances:
       - 2024-08-02
       - 2024-08-03
