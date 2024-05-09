@@ -1212,7 +1212,7 @@ shows:
       weekend_conc: 15
     start_time: 18:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: A Little Inquest Into What We Are All Doing Here
@@ -1264,7 +1264,7 @@ shows:
       price_range: ""
     start_time: 19:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: A STAN IS BORN!
@@ -1314,7 +1314,7 @@ shows:
       price_range: £6 - £18
     start_time: 16:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: An Unexpected Hiccup
@@ -1371,7 +1371,7 @@ shows:
       weekend_conc: 11
     start_time: 21:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: "Bob Marley: how reggae changed the world"
@@ -1435,7 +1435,7 @@ shows:
       preview: 8
     start_time: 15:55
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Book of Dew
@@ -1487,7 +1487,7 @@ shows:
       preview: 8
     start_time: 16:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Dear Annie, I Hate You
@@ -1537,7 +1537,7 @@ shows:
       preview: ""
     start_time: 22:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 55mins
     title: "Devon Drew: Pop Star"
@@ -1590,7 +1590,7 @@ shows:
       weekend: 13
     start_time: 11:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Dummy in Diaspora
@@ -1647,7 +1647,7 @@ shows:
       preview: ""
     start_time: 14:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Gogo Boots Go
@@ -1702,7 +1702,7 @@ shows:
       preview: 10
     start_time: 14:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Long Distance (A Cyber-Dialectic of Falling In and Out)
@@ -1738,7 +1738,7 @@ shows:
       weekend_conc: 18.5
     start_time: 20:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: Look at Them!
@@ -1795,7 +1795,7 @@ shows:
       weekend_conc: 11
     start_time: 12:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: My Grandmother's Eyepatch
@@ -1839,7 +1839,7 @@ shows:
       weekend_conc: 11.5
     start_time: 17:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 45mins
     title: Only Bones v1.9
@@ -1898,7 +1898,7 @@ shows:
       concession: 5
     start_time: 14:20
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Sessions
@@ -1948,7 +1948,7 @@ shows:
       concession: 5
     start_time: 13:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Singing Sands
@@ -1998,7 +1998,7 @@ shows:
       weekend_conc: 14
     start_time: 20:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: "TESTO : Here & Now Showcase"
@@ -2064,7 +2064,7 @@ shows:
       weekend_conc: 11
     start_time: 20:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 75mins
     title: That's Not My Name
@@ -2133,7 +2133,7 @@ shows:
       preview: 17.5
     start_time: 12:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: The Learn to Juggle Comedy Show!
@@ -2163,7 +2163,7 @@ shows:
       weekend_conc: 11
     start_time: 17:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: The One Couple Show
@@ -2208,7 +2208,7 @@ shows:
       weekend_conc: 15
     start_time: 16:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: This is not Romeo and Juliet
@@ -2276,7 +2276,7 @@ shows:
       weekend_conc: 11
     start_time: 20:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: Thor the Walrus
@@ -2323,7 +2323,7 @@ shows:
       weekend_conc: 15
     start_time: 12:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: Vigil
@@ -2365,7 +2365,7 @@ shows:
       weekend_conc: 15
     start_time: 16:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 60mins
     title: "You Heard Me : Here & Now Showcase"
@@ -2426,7 +2426,7 @@ shows:
       weekend_conc: 11
     start_time: 11:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: make the Bed
@@ -2481,7 +2481,7 @@ shows:
       standard: 15
     start_time: 21:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO TV
     duration: 55mins
     title: "Non-Player Character: Live Virtual Reality Musical"
