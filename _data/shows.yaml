@@ -197,7 +197,7 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1587/
     company: Duncan Hodgkinson
     content_warnings:
-      - Strong language
+      - Strong language / swearing
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
@@ -335,10 +335,10 @@ shows:
     company: bambule.babys
     content_warnings:
       - Audience Participation
-      - Distressing or potentially triggering themes
+      - Contains Distressing or potentially triggering themes
       - Nudity
       - Scenes of Violence
-      - Strong Language
+      - Strong Language / swearing
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
@@ -549,7 +549,7 @@ shows:
       - Scenes of a Sexual Nature
       - Scenes of Violence
       - Strobe Lighting
-      - Strong Language
+      - Strong Language / swearing
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
@@ -611,7 +611,7 @@ shows:
       - Contains distressing or potentially triggering themes
       - Nudity
       - Scenes of a Sexual Nature
-      - Strong Language
+      - Strong Language / swearing
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
@@ -841,7 +841,7 @@ shows:
       - Contains distressing or potentially triggering themes
       - Scenes of Violence
       - Strobe Lighting
-      - Strong Language
+      - Strong Language / swearing
     video_embeds: []
   - performances:
       - 2024-08-02
