@@ -73,7 +73,7 @@ collections:
                 hint: Add a link (eg /show-name-with-typo/) to redirect from to this show
               - name: venue
                 widget: select
-                options: ["ZOO Southside", "ZOO Playground", "ZOO TV"]
+                options: ["ZOO Southside", "ZOO Playground", "ZOO TV", "Imaginex at Yotel Edinburgh in association with ZOO"]
                 label: Venue
                 hint: 'Which Zoo building is the show in? '
               - widget: string
