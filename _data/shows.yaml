@@ -1608,6 +1608,14 @@ shows:
     company: Esho Rasho
     content_warnings:
       - Strong language / swearing
+    video_embeds:
+      - embed_code: <iframe src="https://player.vimeo.com/video/953256459?h=c1d07886f7"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/953256459">DUMMY IN DIASPORA Trailer</a> from
+          <a href="https://vimeo.com/user141880283">Esho Rasho</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>
+        title: DUMMY IN DIASPORA Trailer
   - performances:
       - 2024-08-02
       - 2024-08-03
