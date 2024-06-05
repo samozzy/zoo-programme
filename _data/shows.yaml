@@ -1098,8 +1098,10 @@ shows:
     links:
       - link: https://twitter.com/BambilandPlay
         title: Twitter
+        platform: Twitter
       - link: www.instagram.com/bambilandplay/
         title: Instagram
+        platform: Instagram
     image: /static/bambiland.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1612/
