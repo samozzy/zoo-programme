@@ -958,8 +958,10 @@ shows:
         platform: Instagram
       - link: https://tiktok.com/@markvigeant
         title: TikTok
+        platform: TikTok
       - title: Twitter
         link: https://twitter.com/markvigeant
+        platform: Twitter
     image: /static/the-best-man-show.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1613/
@@ -1011,8 +1013,10 @@ shows:
     links:
       - link: https://twitter.com/TSOTSB
         title: Twitter
+        platform: Twitter
       - link: https://www.instagram.com/spacebetweenplay/
         title: Instagram
+        platform: Instagram
     image: /static/the-sound-of-the-space-between.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1616/
@@ -1049,6 +1053,7 @@ shows:
     links:
       - link: https://www.instagram.com/dancing_hands.theatre?igsh=cGIyNHR5ZWczeHRy
         title: Instagram
+        platform: Instagram
     image: /static/fernando-and-his-llama-friend.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1614/
@@ -1162,8 +1167,10 @@ shows:
     links:
       - link: https://twitter.com/MoragDeid
         title: Twitter
+        platform: Twitter
       - link: https://www.instagram.com/moraglongtimedeid/
         title: Instagram
+        platform: Instagram
     image: /static/morag-youre-a-long-time-deid.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1615/
