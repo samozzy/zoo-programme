@@ -260,7 +260,7 @@ shows:
         link: https://twitter.com/unseentheplay
       - title: Instagram
         platform: instagram
-        link: www.instagram.com/unseentheplay
+        link: https://www.instagram.com/unseentheplay
     image: /static/unseen.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1596/
@@ -694,7 +694,7 @@ shows:
        In Sawdust Symphony Michael Zandl, David Eisele and Kolja Huneck combine their passion for crafting, object manipulation and fresh wood.
        The piece explores the human desire to create: the process from vision to construction, the tragedy of work and the relationship between tools and humans. Obsessed characters discover and transform their space and themselves, transporting the spectator into a unique DIY experience.
        Sawdust Symphony is an intense dialogue between satisfaction, frustration and the smell of gasoline. Sawdust Symphony has been performed over 100 times across nine countries.
-    access_details: ""
+    access_details: Audio Described Performances - 20th & 22nd August.
     preview: YES
     price:
       standard: 16
@@ -958,8 +958,10 @@ shows:
         platform: Instagram
       - link: https://tiktok.com/@markvigeant
         title: TikTok
+        platform: TikTok
       - title: Twitter
         link: https://twitter.com/markvigeant
+        platform: Twitter
     image: /static/the-best-man-show.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1613/
@@ -1011,8 +1013,10 @@ shows:
     links:
       - link: https://twitter.com/TSOTSB
         title: Twitter
+        platform: Twitter
       - link: https://www.instagram.com/spacebetweenplay/
         title: Instagram
+        platform: Instagram
     image: /static/the-sound-of-the-space-between.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1616/
@@ -1049,6 +1053,7 @@ shows:
     links:
       - link: https://www.instagram.com/dancing_hands.theatre?igsh=cGIyNHR5ZWczeHRy
         title: Instagram
+        platform: Instagram
     image: /static/fernando-and-his-llama-friend.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1614/
@@ -1098,8 +1103,10 @@ shows:
     links:
       - link: https://twitter.com/BambilandPlay
         title: Twitter
-      - link: www.instagram.com/bambilandplay/
+        platform: Twitter
+      - link: https://www.instagram.com/bambilandplay/
         title: Instagram
+        platform: Instagram
     image: /static/bambiland.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1612/
@@ -1160,8 +1167,10 @@ shows:
     links:
       - link: https://twitter.com/MoragDeid
         title: Twitter
+        platform: Twitter
       - link: https://www.instagram.com/moraglongtimedeid/
         title: Instagram
+        platform: Instagram
     image: /static/morag-youre-a-long-time-deid.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1615/
@@ -1470,15 +1479,10 @@ shows:
       - 2024-08-23
       - 2024-08-24
       - 2024-08-25
-    copy_long: "“Dying is scary, missing Spring Break is scarier.” True story. Told
-      mid-operation. Fun-loving college student, Sam, must decide what to do in
-      life....and oh, whether or not to have brain surgery. In a profound (yet
-      highly medicated) meditation, she reflects on the events that lead there:
-      namely, a redhaired bitch who came to life and ruined it all. Overwhelmed
-      and forced into decisions with potentially fatal consequences, Sam decides
-      one thing: go out with a bang on a classic All-American Spring Break.
-      However, her aneurysm has other plans. A true story...not necessarily a
-      smart one."
+    copy_long: Based on writer-performer Sam Ipema’s life, *Dear Annie, I Hate
+      You* is the story of Sam and her brain aneurysm, Annie. They share the
+      rational, irrational, nihilistic and liberating experiences of what it’s
+      like to be told you’re going to die aged 20. Directed by James Meteyard.
     price:
       standard: 11
       concession: 10
@@ -1612,6 +1616,14 @@ shows:
     company: Esho Rasho
     content_warnings:
       - Strong language / swearing
+    video_embeds:
+      - embed_code: <iframe src="https://player.vimeo.com/video/953256459?h=c1d07886f7"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/953256459">DUMMY IN DIASPORA Trailer</a> from
+          <a href="https://vimeo.com/user141880283">Esho Rasho</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>
+        title: DUMMY IN DIASPORA Trailer
   - performances:
       - 2024-08-02
       - 2024-08-03
@@ -1782,11 +1794,11 @@ shows:
 
       \
 
-      Winner: Best Solo Comedy and Best of the Fest, Orlando Fringe 2023; Best Solo Clown, EstroGenius Awards, Frigid Fringe, NYC 2022; Production Award FESTN4 2024. \
+      Winner: Best Solo Comedy and Best of the Fest, Orlando Fringe 2023; Best Solo Clown, EstroGenius Awards, Frigid Fringe NYC 2022; Production Award FESTN4 2024. \
 
       \
 
-      'A masterclass in cringe comedy... Carol Burnett-esque' (Orlando Weekly).\
+      'A masterclass in cringe comedy... Carol Burnett-esque' (Orlando Weekly).
 
 
       'A solo tour-de-force' (Hartford Courant). 'Puts the fun in funeral'
@@ -2013,7 +2025,7 @@ shows:
       - link: https://www.instagram.com/wet_mess?igsh=MXB5N2gwMmNqdnpybA==
         title: Instagram
         platform: Instagram
-    image: /static/testo.jpg
+    image: /static/testo-1600x1600.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1685/
     company: Wet Mess
@@ -2364,6 +2376,9 @@ shows:
 
 
       This is a loud show about quiet power. This is a celebration of refusing to be silenced, of taking up space and of one woman's power to re-make, re-mould and disrupt. Integrating a blend of visceral movement, enveloping sound and lights, Luca and her collaborators gift audiences the chance to experience the messiness and effort of connecting to your own power.
+
+
+      For detailed info regarding show content advice click [here](https://www.dropbox.com/scl/fi/a81x1el8do5ycqhausgzl/YHM-Detailed-Content-Advice.pdf?rlkey=lzp1en9jgpm4b60fdxbpxol7y&st=k0xsbbii&dl=0).
     price:
       standard: 16
       concession: 14
@@ -2383,7 +2398,7 @@ shows:
       - link: https://www.instagram.com/luca_rutherford/
         title: Instagram
         platform: Instagram
-      - link: https://www.youtube.com/watch?v=u0t2Vh1dGkI
+      - link: https://www.youtube.com/watch?v=zsF_9DRASYg&t=1s
         title: YouTube
         platform: YouTube
       - link: https://soundcloud.com/user236304397/you-heard-us
@@ -2392,8 +2407,10 @@ shows:
       - link: https://www.facebook.com/lucarutherfordtheatre
         title: Facebook
         platform: Facebook
+      - link: https://www.dropbox.com/scl/fi/a81x1el8do5ycqhausgzl/YHM-Detailed-Content-Advice.pdf?rlkey=lzp1en9jgpm4b60fdxbpxol7y&st=k0xsbbii&dl=0
+        title: Content Advice Document
     content_warning_detail:
-      - Contains references to sexual violence.
+      - Contains themes of sexual violence.
     image: /static/you-heard-me.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1690/
@@ -2425,6 +2442,8 @@ shows:
       have anxiety. And what it can feel like sitting with that anxiety in real
       time. And how to maybe, just maybe, go towards the grey. Directed by
       Cecilia Thoden van Velzen.
+    access_details: Captioned Performance on 17th August. BSL Performance on the
+      18th August. Relaxed Performance on the 20th August.
     price:
       standard: 12
       concession: 10
@@ -2488,7 +2507,8 @@ shows:
     start_time: 21:00
     booking_unavailable: false
     is_draft: false
-    venue: ZOO TV
+    venue: Imaginex at Yotel Edinburgh in association with ZOO
+    copy_short: ""
     duration: 55mins
     title: "Non-Player Character: Live Virtual Reality Musical"
     age_guidance: 16+
@@ -2499,7 +2519,7 @@ shows:
       - link: https://www.youtube.com/wa tch?v=GsWZBImWSl0
         title: YouTube
         platform: YouTube
-    image: /static/non-player-character.jpg
+    image: /static/npc-inperson-ticket-square-poster-image.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1677/
     company: Brendan Bradley / Maurice Soque Jr / Michael Morran
