@@ -2502,7 +2502,11 @@ shows:
 
       \
 
-      Four audience players join writer-performer Brendan Bradley on stage, wearing virtual reality headsets while the virtual world and characters are projected on the big screen, inviting both theatre and game lovers to a new kind of play.
+      Four audience players join writer-performer Brendan Bradley on stage, wearing virtual reality headsets while the virtual world and characters are projected on the big screen, inviting both theatre and game lovers to a new kind of play.\
+
+      \
+
+      For the digital ticket & livestream show click here.
     price:
       standard: 15
     start_time: 21:00
@@ -2520,9 +2524,75 @@ shows:
       - link: https://www.youtube.com/wa tch?v=GsWZBImWSl0
         title: YouTube
         platform: YouTube
+      - link: https://www.instagram.com/brendanabradley/
+        title: Instagram
+        platform: Instagram
     image: /static/npc-inperson-ticket-square-poster-image.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1677/
+    company: Brendan Bradley / Maurice Soque Jr / Michael Morran
+    content_warnings:
+      - Audience participation
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      'A flawless blend of Broadway, games, pop and comedy bliss!' (Fame
+      Magazine).\
+
+      \
+
+      When the hero character of a video game dies, an NPC turns to the audience for help navigating their grief. Part live concert, part escape room, part immersive theatre, each performance is entirely responsive to the player style, improvisation and decisions of the audience. \
+
+      \
+
+      Four audience players join writer-performer Brendan Bradley on stage, wearing virtual reality headsets while the virtual world and characters are projected on the big screen, inviting both theatre and game lovers to a new kind of play.\
+
+      \
+
+      **[For the in-person show at Imaginex by YOTEL Edinburgh click here.](https://zoofestival.co.uk/programme/non-player-character-live-virtual-reality-musical/)**
+    price:
+      standard: 15
+    start_time: 21:00
+    booking_unavailable: true
+    is_draft: true
+    venue: ZOO TV
+    duration: 55mins
+    title: "Non-Player Character: Live Virtual Reality Musical - Online"
+    links:
+      - link: https://twitter.com/brendanAbradley
+        title: Twitter
+        platform: Twitter
+      - link: https://www.youtube.com/wa tch?v=GsWZBImWSl0
+        title: YouTube
+        platform: YouTube
+      - link: https://www.instagram.com/brendanabradley/
+        title: Instagram
+        platform: Instagram
+    image: /static/npc-digital-ticket-square-poster-image.png
+    age_restricted: false
     company: Brendan Bradley / Maurice Soque Jr / Michael Morran
     content_warnings:
       - Audience participation
