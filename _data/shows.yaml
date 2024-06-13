@@ -2577,7 +2577,7 @@ shows:
       standard: 15
     start_time: 21:00
     booking_unavailable: true
-    is_draft: true
+    is_draft: false
     venue: ZOO TV
     duration: 55mins
     title: "Non-Player Character: Live Virtual Reality Musical - Online"
