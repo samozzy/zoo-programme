@@ -2574,7 +2574,7 @@ shows:
     price:
       standard: 15
     start_time: 21:00
-    booking_unavailable: true
+    booking_unavailable: false
     is_draft: false
     venue: ZOO TV
     duration: 55mins
@@ -2591,6 +2591,7 @@ shows:
         platform: Instagram
     image: /static/npc-digital-ticket-square-poster-image.png
     age_restricted: false
+    ticket_url: https://go.npcmusical.com/zootv
     company: Brendan Bradley / Maurice Soque Jr / Michael Morran
     content_warnings:
       - Audience participation
