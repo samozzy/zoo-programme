@@ -1720,12 +1720,12 @@ shows:
       - 2024-08-23
       - 2024-08-24
       - 2024-08-25
-    copy_long: >-
-      Two boys meet. They fall in love. One is a physicist, the other an
-      aspiring writer. Over a year of texting back and forth, their tumultuous
-      relationship unfolds.
-
-      Long Distance dives into the empty space between two humans and their desperate attempts to fill it up. An epistolary exploration of intimacy, technology and the daily work of love.
+    copy_long: Two young queers meet. They fall in love, have sex, fight, make up,
+      and break up – and all through texts. These texts, like poetry, chart
+      their unforgettable relationship. Long Distance dives into the empty space
+      between us and our desperate attempts to fill it up. A funny,
+      heartbreaking new play about intimacy, technology, and the daily work of
+      love.
     price:
       standard: 12
       concession: 10
@@ -1739,7 +1739,11 @@ shows:
     duration: 60mins
     title: Long Distance (A Cyber-Dialectic of Falling In and Out)
     age_guidance: 16+
-    image: /static/long-distance-a-cyber-dialectic-of-falling-in-and-out-.jpg
+    links:
+      - link: https://elizuzovsky.com/theater
+        title: Website
+        platform: Website
+    image: /static/long-distance-1600.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1673/
     company: Ithaka
