@@ -962,6 +962,13 @@ shows:
       - title: Twitter
         link: https://twitter.com/markvigeant
         platform: Twitter
+    reviews:
+      - Publisher: The TVvolution
+        quote: There is a fearlessness to Vigeant’s humor that is infectious to watch
+      - Publisher: The TVvolution
+        quote: Vigeant creates comedy chaos at its chaotic best
+      - Publisher: The TVvolution
+        quote: I would compare it to The Texas Chainsaw Massacre – only much funnier.
     image: /static/the-best-man-show.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1613/
