@@ -1737,7 +1737,7 @@ shows:
     is_draft: false
     venue: ZOO Playground
     duration: 60mins
-    title: Long Distance (A Cyber-Dialectic of Falling In and Out)
+    title: Long Distance
     age_guidance: 16+
     links:
       - link: https://elizuzovsky.com/theater
@@ -1746,7 +1746,7 @@ shows:
     image: /static/long-distance-1600.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1673/
-    company: Ithaka
+    company: Eli Zuzovsky
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Scenes of a sexual nature
