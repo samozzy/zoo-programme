@@ -2440,7 +2440,10 @@ shows:
       - link: https://www.dropbox.com/scl/fi/a81x1el8do5ycqhausgzl/YHM-Detailed-Content-Advice.pdf?rlkey=lzp1en9jgpm4b60fdxbpxol7y&st=k0xsbbii&dl=0
         title: Content Advice Document
     content_warning_detail:
-      - Contains themes of sexual violence.
+      - Contains themes of sexual violence. Also contains haze
+      - black outs
+      - loud sound
+      - flashing lights.
     image: /static/you-heard-me.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1690/
