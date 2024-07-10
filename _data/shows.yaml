@@ -471,6 +471,17 @@ shows:
       - title: Instagram
         platform: instagram
         link: https://www.instagram.com/bkassoy
+    reviews:
+      - quote: "If talent, determination and charm were super powers, Ben Kassoy would
+          fly alongside Superman. "
+        Publisher: LA Hidden Gems
+      - quote: An inspired piece, indeed. An uplifting blend of personal poetry, focused
+          theatricality and dance
+        Publisher: LA Hidden Gems
+      - quote: Who knew that a solo performance about intrusive thoughts, centered
+          around a performer reading their personal poetry could be so
+          thoroughly entertaining?
+        Publisher: LA Hidden Gems
     image: /static/the-funny-thing-about-a-panic-attack.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1588/
