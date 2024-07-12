@@ -2664,3 +2664,218 @@ shows:
     company: Brendan Bradley / Maurice Soque Jr / Michael Morran
     content_warnings:
       - Audience participation
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: Courtney knows everyone is winging it. Wing it with her in this show
+      where you are part of its ultimate success (or failure) at the Fringe.
+      Where you choose the stories and vote for the one you'd like to see cut
+      leaving Courtney to prepare a new set for tomorrow. One woman's endeavour
+      to escape perfectionism, be truly vulnerable and ultimately find herself
+      and an agent (it'll be good, I swear). A show about not knowing what you
+      should be doing in life - but doing it anyway.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+    start_time: 20:55
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: I Wrote This Show Last Night
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/courtneycbuchner/
+        title: Instagram
+        platform: Instagram
+      - link: https://x.com/CourtneyBuchner
+        title: Twitter
+        platform: Twitter
+    image: /static/i-wrote-this-show-last-night.jpg
+    age_restricted: false
+    company: Courtney Buchner
+    content_warnings:
+      - Audience participation
+      - Scenes of a sexual nature
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: >-
+      Do you wish you were as fabulous as a queer person? Do you have a problem
+      you need help with? Your boyfriend's cheating? You fancy your best friend?
+      Stuck in a dead-end job? Well our queer comedians are on hand to help.
+      We'll fix all your problems and make you the best version of yourself.\
+
+      \
+
+      In this groundbreaking interactive crowd-work comedy show our comedians fix all your problems! All you have to do is share them! Come and laugh with us as we solve all your problems.
+    price:
+      standard: 10
+      concession: 8
+    start_time: 23:05
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 55mins
+    title: Queer Eye for the Silly Straight People
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/thequeercomedyclub/
+        title: Instagram
+        platform: Instagram
+    image: /static/queer-eye.jpg
+    age_restricted: false
+    company: The Queer Comedy Club
+    content_warnings:
+      - Audience participation
+  - performances:
+      - 2024-08-02
+      - 2024-08-03
+      - 2024-08-04
+      - 2024-08-05
+      - 2024-08-06
+      - 2024-08-07
+      - 2024-08-08
+      - 2024-08-09
+      - 2024-08-10
+      - 2024-08-11
+      - 2024-08-12
+      - 2024-08-13
+      - 2024-08-14
+      - 2024-08-15
+      - 2024-08-16
+      - 2024-08-17
+    copy_long: "This one-act, one-woman play is adapted from a debut collection of
+      experimental memoirs written by Sophia Marie George in contract with Cool
+      Titles publishing agency based in Beverly Hills, California. It follows a
+      young adult's relationship to romantic love in three stages: entitled
+      naiveté, disillusionment and enlightenment. It's a loosely
+      autobiographical coming-of-age story that takes its audience to different
+      cities, from Los Angeles to Washington, DC to London, Dublin and others.
+      Following a woman growing up and encountering the many formative men of
+      her life while exploring her passion for music and acting."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 19:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: The Archives of the Hopeless Romantic
+    age_guidance: 14+
+    links:
+      - link: https://x.com/LASophiaMarie
+        title: Twitter
+        platform: Twitter
+    image: /static/the-archives-of-the-hopeless-romantic-1600.jpg
+    age_restricted: false
+    company: Sophia Marie George
+    content_warnings:
+      - Strong language/swearing
+  - performances:
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+    copy_long: "World-renowned conductor Salvatore Giovanni has it all: a
+      masterpiece symphony, a beautiful wife and baby and the audience's
+      unwavering love. That is, until one harsh review forces him to face the
+      truth behind his craft – sending him spiralling into madness."
+    price:
+      standard: 12
+      concession: 10.5
+      weekend: 13
+      weekend_conc: 11
+    start_time: 17:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: The Conductor
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/amadeo_fusca/
+        title: Instagram
+        platform: Instagram
+    image: /static/the-conductor.jpg
+    age_restricted: false
+    company: Amadeo Fusca
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+      - Scenes of a sexual nature
+  - performances:
+      - 2024-08-18
+      - 2024-08-19
+      - 2024-08-20
+      - 2024-08-21
+      - 2024-08-22
+      - 2024-08-23
+      - 2024-08-24
+      - 2024-08-25
+    copy_long: What matters more to a man, that he proves he's been wrongly
+      convicted, or benefits from an amnesty program? That he cares for a sick
+      cellmate or accepts that sufficient food comes at a price. That he
+      patiently awaits justice or takes advantage of an opportunity to escape to
+      go and be with his son?
+    price:
+      weekend: 13
+      standard: 12
+    start_time: 13:05
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 60mins
+    title: Zandezi
+    age_guidance: 12+
+    image: /static/zandezi.jpg
+    age_restricted: false
+    company: Zimbabwe Theatre Academy
