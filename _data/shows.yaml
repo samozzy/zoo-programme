@@ -2702,7 +2702,7 @@ shows:
     booking_unavailable: false
     is_draft: true
     venue: ZOO Playground
-    duration: 60mins
+    duration: 50mins
     title: I Wrote This Show Last Night
     age_guidance: 16+
     links:
@@ -2712,6 +2712,9 @@ shows:
       - link: https://x.com/CourtneyBuchner
         title: Twitter
         platform: Twitter
+      - title: TikTok
+        link: https://www.tiktok.com/@courtneybuchner?is_from_webapp=1&sender_device=pc
+        platform: TikTok
     image: /static/i-wrote-this-show-last-night.jpg
     age_restricted: false
     company: Courtney Buchner
@@ -2784,18 +2787,14 @@ shows:
       - 2024-08-12
       - 2024-08-13
       - 2024-08-14
-      - 2024-08-15
-      - 2024-08-16
-      - 2024-08-17
-    copy_long: "This one-act, one-woman play is adapted from a debut collection of
-      experimental memoirs written by Sophia Marie George in contract with Cool
-      Titles publishing agency based in Beverly Hills, California. It follows a
-      young adult's relationship to romantic love in three stages: entitled
-      naiveté, disillusionment and enlightenment. It's a loosely
-      autobiographical coming-of-age story that takes its audience to different
-      cities, from Los Angeles to Washington, DC to London, Dublin and others.
-      Following a woman growing up and encountering the many formative men of
-      her life while exploring her passion for music and acting."
+    copy_long: This semi-autobiographical one-woman play adapted from Sophia Marie
+      George’s debut book follows a woman researcher as she enters into the
+      archives of a romantic. What initially seems to be a mere
+      academic endeavor soon turns darker as the reasoning for her being there
+      is revealed. Taking its audience from her hometown of Los Angeles to her
+      studies and travels in Washington, D.C., London, Dublin, Oxford, Venice,
+      and other cities, this show traces the relationship between a young woman
+      and the formative men of her life.
     price:
       standard: 12
       concession: 10
@@ -2812,6 +2811,15 @@ shows:
       - link: https://x.com/LASophiaMarie
         title: Twitter
         platform: Twitter
+      - link: https://www.facebook.com/profile.php?id=100035710760637
+        title: Facebook
+        platform: Facebook
+      - link: https://www.instagram.com/la.sophiamarie/
+        title: Instagram
+        platform: Instagram
+      - link: https://www.youtube.com/@la.sophiamarie
+        title: YouTube
+        platform: YouTube
     image: /static/the-archives-of-the-hopeless-romantic-1600.jpg
     age_restricted: false
     company: Sophia Marie George
