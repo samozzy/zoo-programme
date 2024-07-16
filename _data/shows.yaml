@@ -2769,6 +2769,7 @@ shows:
         platform: Instagram
     image: /static/queer-eye.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1698/
     company: The Queer Comedy Club
     content_warnings:
       - Audience participation
