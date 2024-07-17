@@ -2758,7 +2758,7 @@ shows:
       concession: 8
     start_time: 23:05
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 55mins
     title: Queer Eye for the Silly Straight People
