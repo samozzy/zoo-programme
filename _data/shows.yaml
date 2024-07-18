@@ -2758,7 +2758,7 @@ shows:
       concession: 8
     start_time: 23:05
     booking_unavailable: false
-    is_draft: false
+    is_draft: true
     venue: ZOO Playground
     duration: 55mins
     title: Queer Eye for the Silly Straight People
@@ -2843,7 +2843,7 @@ shows:
       weekend_conc: 11
     start_time: 17:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 60mins
     title: The Conductor
@@ -2854,6 +2854,7 @@ shows:
         platform: Instagram
     image: /static/the-conductor.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1697/
     company: Amadeo Fusca
     content_warnings:
       - Audience participation
