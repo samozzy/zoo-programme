@@ -2699,7 +2699,7 @@ shows:
       preview: 10
     start_time: 20:55
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 50mins
     title: I Wrote This Show Last Night
@@ -2716,6 +2716,7 @@ shows:
         platform: TikTok
     image: /static/i-wrote-this-show-last-night.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1702/
     company: Courtney Buchner
     content_warnings:
       - Audience participation
