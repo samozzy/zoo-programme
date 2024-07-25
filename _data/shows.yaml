@@ -435,13 +435,19 @@ shows:
     access: []
     image_alt: ""
     copy_long: >-
-      Ben Kassoy brings poems from his spectacularly original book to life in
-      this wildly entertaining solo show. Bursting with humor, heart, and
-      defiant wonder in the face of anxiety, The Funny Thing About A Panic
-      Attack uses physical theatre, dance, and traditional poetry reading to
-      reveal the connections between mental health, art, and pancakes.
-       
-       Directed by award winner Joanna Simmons (Mark Pleases You), The Funny Thing About A Panic Attack previewed in New York City (The Vino) and made its world premiere at the Hollywood Fringe Festival (The Broadwater) in Los Angeles.
+      Author and dancer Ben Kassoy brings poems from his spectacularly original
+      book to life in The Funny Thing About A Panic Attack, a genre-defying solo
+      show celebrated as “inspired, powerful, and thoroughly entertaining” (LA
+      Hidden Gems) and “intimate, affecting, and revelatory”
+      (StageAndCinema.com) at sold-out shows in New York and LA. Directed by
+      award winner Joanna Simmons (Mark Pleases You, Best Man Show), The Funny
+      Thing About A Panic Attack is bursting with humour, heart, and wonder,
+      using spoken word, dance, and physical theatre to reveal the connections
+      between panic, poetry…and pancakes.\
+
+      \
+
+      **[www.panicattackshow.com](http://www.panicattackshow.com/)**
     access_details: ""
     preview: YES
     price:
@@ -467,16 +473,15 @@ shows:
       - title: Instagram
         platform: instagram
         link: https://www.instagram.com/bkassoy
+    content_warning_detail:
+      - Discussion and depictions of mental health crisis
+      - mentions of suicide and self-harm.
     reviews:
-      - quote: "If talent, determination and charm were super powers, Ben Kassoy would
-          fly alongside Superman. "
+      - quote: Simply gorgeous! Completely captivating! This is a Fringe MUST-SEE!
         Publisher: LA Hidden Gems
-      - quote: An inspired piece, indeed. An uplifting blend of personal poetry, focused
-          theatricality and dance
+      - quote: A healing stew of magic. I want to share this show with everyone I know.
         Publisher: LA Hidden Gems
-      - quote: Who knew that a solo performance about intrusive thoughts, centered
-          around a performer reading their personal poetry could be so
-          thoroughly entertaining?
+      - quote: This show was unlike any I’ve seen before! Heartwarming and electric.
         Publisher: LA Hidden Gems
     image: /static/the-funny-thing-about-a-panic-attack.jpg
     age_restricted: false
