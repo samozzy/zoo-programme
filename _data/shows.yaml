@@ -1808,6 +1808,15 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1674/
     company: Wen Xiaochao Physical Theater
+    video_embeds:
+      - embed_code: <iframe
+          src="https://player.vimeo.com/video/990296647?h=98c8dc1bd7&autoplay=1"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/990296647">LOOK AT THEM</a> from <a
+          href="https://vimeo.com/user223429490">Bryson</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>
+        title: Look at Them! trailer
   - performances:
       - 2024-08-02
       - 2024-08-03
