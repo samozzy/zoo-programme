@@ -1538,6 +1538,9 @@ shows:
       - link: https://www.instagram.com/dearannie_ihateyou/
         title: Instagram
         platform: Instagram
+    content_warning_detail:
+      - Contains depictions of a panic attack and brain surgery. Scenes of
+        partial nudity shown in video
     image: /static/thumbnail_daihu-show-listing-photo-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1668/
@@ -1545,6 +1548,8 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong language / swearing
+      - Partial nudity
+      - Strobe lighting
   - performances:
       - 2024-08-02
       - 2024-08-03
