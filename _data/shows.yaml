@@ -1477,11 +1477,11 @@ shows:
       weekend: 13
       weekend_conc: 11
       preview: 8
-    start_time: 15:55
+    start_time: 16:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 60mins
+    duration: 50mins
     title: Book of Dew
     age_guidance: 14+
     image: /static/book-of-dew.jpg
