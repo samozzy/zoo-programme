@@ -1490,6 +1490,14 @@ shows:
     company: Tide & Foam Productions
     content_warnings:
       - Minor physical harm
+    video_embeds:
+      - title: Book of Dew Trailer
+        embed_code: <iframe src="https://player.vimeo.com/video/991332012?h=89afd944d2"
+          width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+          picture-in-picture" allowfullscreen></iframe> <p><a
+          href="https://vimeo.com/991332012">Book of Dew Trailer</a> from <a
+          href="https://vimeo.com/user223571494">Connor Lifson</a> on <a
+          href="https://vimeo.com">Vimeo</a>.</p>
   - performances:
       - 2024-08-02
       - 2024-08-03
