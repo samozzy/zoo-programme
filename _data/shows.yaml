@@ -1185,6 +1185,8 @@ shows:
       - 2024-08-23
       - 2024-08-24
       - 2024-08-25
+    access:
+      - relaxed
     copy_long: >-
       Morag’s death left a silence in her place. When her Canadian
       grand-daughter Sam inherits Morag’s piano, Sam also inherits the mystery
@@ -1197,6 +1199,7 @@ shows:
 
 
       ![](/static/canada-250px.png)
+    access_details: All performances are relaxed performances and low vision friendly.
     price:
       standard: 15
       concession: 13
@@ -1216,6 +1219,12 @@ shows:
       - link: https://www.instagram.com/moraglongtimedeid/
         title: Instagram
         platform: Instagram
+      - link: https://drive.google.com/file/d/1t4Ou0EY2JBiTya1hMT5vSDuicErt4yYq/view?usp=sharing
+        title: Audio Introduction
+        platform: Audio Introduction
+      - link: https://drive.google.com/file/d/1gj7Sy9VKKusa3WPic23FUna0P-QJmPyB/view?usp=sharing
+        title: Visual Story
+        platform: Visual Story
     image: /static/morag-youre-a-long-time-deid.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1615/
