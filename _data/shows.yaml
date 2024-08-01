@@ -1835,6 +1835,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1674/
     company: Wen Xiaochao Physical Theater
+    content_warnings:
+      - Flashing Lights
     video_embeds:
       - embed_code: <iframe
           src="https://player.vimeo.com/video/990296647?h=98c8dc1bd7&autoplay=1"
