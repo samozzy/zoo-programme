@@ -133,7 +133,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1601/
     company: Paragon Theatre Collective
-    content_warnings: []
+    content_warnings:
+      - Contains Haze
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
@@ -405,7 +406,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1591/
     company: Paragon Theatre Collective
-    content_warnings: []
+    content_warnings:
+      - Contains Strobe and Haze
     video_embeds: []
   - audio_desc_dates: ""
     captioning_dates: ""
