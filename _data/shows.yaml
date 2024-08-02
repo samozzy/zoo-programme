@@ -2297,9 +2297,12 @@ shows:
       - link: www.youtube.com/@piritatuisku5202
         title: YouTube
         platform: YouTube
-      - link: https://www.instagram.com/pirretuisku/
+      - link: https://www.instagram.com/pirita.tuisku/
         title: Instagram
         platform: Instagram
+      - link: https://www.piritatuisku.com/theonecoupleshow
+        platform: Website
+        title: Website
     content_warning_detail:
       - Brief inclusion of triggering content that includes self-harm
       - depression
