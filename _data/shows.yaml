@@ -1296,7 +1296,7 @@ shows:
       concession: 14
       weekend: 17
       weekend_conc: 15
-    start_time: 18:30
+    start_time: 22:15
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
