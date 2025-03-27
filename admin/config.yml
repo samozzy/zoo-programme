@@ -40,8 +40,8 @@ collections:
     editor:
       preview: false
     files:
-      - label: '2024'
-        name: '2024'
+      - label: '2025'
+        name: '2025'
         file: '_data/shows.yaml'
         fields:
           - label: 'Shows'
