@@ -34,7 +34,7 @@ jobs:
       #     node-version: 16
       - name: Cache Ruby gems
         id: cache-gems
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
@@ -60,7 +60,7 @@ jobs:
       # (This tool makes sure all the links work; may require some tweaking and is optional)
       # You may find it helpful to create a .htmltest.yml file to set a config. Go wild.
       - name: Cache htmltest files
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: tmp/htmltest
           key: htmltest-1
