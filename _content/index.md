@@ -1,7 +1,7 @@
 ---
 layout: home 
 permalink: / 
-title: "24"
+title: "25"
 use_swiper: true 
 logo_in_title: true
 ---
