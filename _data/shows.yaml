@@ -104,3 +104,41 @@ shows:
     company: Andrea Coleman
     content_warnings:
       - Strong language/swearing
+  - copy_long: In a twist of fate, an ordinary man finds himself magically
+      transformed into the Queen of the Carnival. With advanced age, abundant
+      body hair and limited talents, he is an unlikely candidate. Praised as a
+      'whimsical tour de force' (Orlando Weekly), this non-verbal blend of
+      clown, drag and queer joy reminds us it's never too late to embrace your
+      true self. Created and performed by Edu Díaz, a Fulbright-awarded artist
+      from the Canary Islands, A Drag is Born has won five awards, including
+      Best Solo Clown (NYC Fringe) and Best Solo Show (Orlando Fringe).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 12
+      weekend_conc: 11
+      ticket_deals:
+        - 4th & 5th BOGOF
+    start_time: "18.05"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: A Drag Is Born
+    age_guidance: 12+
+    links:
+      - link: https://facebook.com/EduDiazActor/
+        platform: Facebook
+      - platform: Instagram
+        link: https://www.instagram.com/edudiazactor/
+      - platform: X
+        link: https://x.com/EduDiazActor
+      - platform: Youtube
+        link: https://youtu.be/3daBt0zPMLw?si=6Hs_f2RmfB8_julV
+    reviews:
+      - {}
+    age_restricted: false
+    company: " Edu Díaz"
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
