@@ -118,7 +118,7 @@ shows:
       weekend: 12
       weekend_conc: 11
       ticket_deals:
-        - 4th & 5th BOGOF
+        - 4th & 5th 2for1
     start_time: "18.05"
     booking_unavailable: false
     is_draft: true
@@ -138,6 +138,7 @@ shows:
     reviews:
       - {}
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1752/
     company: " Edu Díaz"
     content_warnings:
       - Audience participation
