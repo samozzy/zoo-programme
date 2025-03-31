@@ -166,3 +166,35 @@ shows:
         platform: Vimeo
     age_restricted: false
     company: Corps In Situ
+  - copy_long: A female street clown accidentally becomes famous overnight at
+      Chickadee TV Studios as Chickadee the Sexy Clown. Her childlike mission to
+      bring joy and connection into a world of chaos is misunderstood. She is
+      heartbroken to be valued through her sexual appeal rather than her art of
+      clowning. A clash between pop culture and the art of clowning. Where does
+      the need to bring joy come from? Why become a clown when you can have a
+      serious job? What makes your heart ache? Dare to be a fool with Chickadee?
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+      preview: 8
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "20.45"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Chickadee
+    links:
+      - link: https://www.instagram.com/chickadee.play
+        platform: Instagram
+    image: /static/chickadee-4-x4-ed-fringe-reg.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1750/
+    company: Fey Productions In Association with Emerge Production House
+    content_warnings:
+      - Audience participation
+      - "Strong language/swearing "
+      - Potentially triggering themes
