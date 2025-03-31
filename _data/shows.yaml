@@ -237,3 +237,44 @@ shows:
       - "Themes of death throughout "
       - projected violence by and against cartoon zombies
       - "Some audience participation "
+  - copy_long: >-
+      Berlin, 1933. Heinz goes out to the cinema and never comes home. London,
+      2023. Clare claims the German citizenship her grandad Heinz gave up, but
+      is it hers to take? 
+
+
+      In the shadow of Brexit, Clare shines a light on her grandfather’s extraordinary true story - taking a journey from the cabaret scene of 1930s Berlin to becoming an 'enemy alien' in 1940s Britain, getting arrested by everyone from the Soviets to Winston Churchill along the way.
+
+
+      A vivid account of one Jewish refugee trying to find his way home, and his granddaughter searching for her roots.
+    price:
+      standard: 12.5
+      concession: 11.5
+      weekend: 14
+      weekend_conc: 12
+      preview: 9
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "13.50"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: " I Was a German"
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/people/I-Was-A-German-a new play/100089902684274/
+        platform: Facebook
+      - link: https://www.instagram.com/iwasagermantheplay
+        platform: Instagram
+      - link: https://twitter.com/clarefraenkel
+        platform: X
+    image: /static/i-was-a-german-343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1757/
+    company: Clare Fraenkel / Suzanna Rosenthal Productions
+    content_warnings:
+      - " Audience participation"
+      - "Contains references to antisemitism and antisemitic language. "
+      - Some strong language
+      - loud noise (air raid siren)
