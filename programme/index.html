@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202503311102">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202503311120">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -336,6 +336,38 @@
 			
 			
 
+			
+			<div class="col">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
+						<p><span>With these access provisions<i class="ms-2 fa fa-asterisk fa-xs d-none" id="edit-circle-access"></i><i class="ms-2 fa fa-asterisk fa-xs d-none" id="edit-circle-content-warning"></i></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="collapse" id="filter-access">
+						<div class="card-body">
+							<p class="lead">Access</p>
+							
+							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are wheelchair accessible.</p>
+							<p class="ms-1 helper-text text-muted"><span class="helper-text">For access information about our venues, please head to the <a href="/access/">access page</a>.</span></p>
+							<hr class="w-100">
+							<p class="lead">Content Warnings</p>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-audience-participation" autocomplete="off" value="audience-participation" checked>
+								<label id="btn-content-warning-audience-participation" class="btn-filter btn-cw" for="filter-content-warning-audience-participation">audience participation</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-or-potentially-triggering-themes" autocomplete="off" value="contains-distressing-or-potentially-triggering-themes" checked>
+								<label id="btn-content-warning-contains-distressing-or-potentially-triggering-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-or-potentially-triggering-themes">contains distressing or potentially triggering themes</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
+								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing</label>
+							
+							<p class="helper-text text-muted ms-1 mt-1"><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</p>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearAccessContentCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Reset</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 			<!-- Close filters  -->
 			<div class="col w-100 text-center">
