@@ -16,9 +16,8 @@ page_excerpts: true
 dates:
   start: 2025-08-02
   end: 2025-08-26
-  launch: 2025-04-02 09:00 # In UTC, but will render wrong in the text as a result... 
-  launch_offset: 00:00:00 # ... So add an hour offset. site.dates are in site.timezone (UTC), so offset to the timezone the user expects (in our case, BST)
-  # 2025 note: Launch is pre-BST this year! 
+  launch: 2025-04-02 08:00 # In UTC, but will render wrong in the text as a result... 
+  launch_offset: 01:00:00 # ... So add an hour offset. site.dates are in site.timezone (UTC), so offset to the timezone the user expects (in our case, BST)
 earliest_time: 2025-08-01 10:00 
 latest_time: 2025-08-01 23:00 
 

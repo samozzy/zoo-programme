@@ -68,4 +68,213 @@ shows:
     company: Zac Williams
     content_warnings: []
     video_embeds: []
-  
+  - copy_long: Ever felt the hand of fate giving you a shove? Andrea Coleman has. In
+      the form of three white guys named John filmmaker John Hughes, musician
+      John Mayer and rock star Jon Bon Jovi. Which is sorta unexpected because
+      she's an American Black woman from the South. But at major turning points
+      in her life, when she is paralysed with fear, they appear, giving her
+      inspiration and courage. A heartwarming, life-affirming mix of comedy and
+      storytelling about three very unlikely guardian angels
+    price:
+      weekend: 13
+      standard: 11
+      concession: 10
+      weekend_conc: 11
+      preview: -1
+      ticket_deals:
+        - 4th & 5th BOGOF
+    start_time: "14.00"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: " 3 White Guys Named John"
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/andreacolemancomedy/
+        platform: Instagram
+      - link: https://twitter.com/andreacolemanbk?lang=en
+        platform: X
+      - link: https://www.youtube.com/watch?v=admBVLlGz9U
+        title: ""
+        platform: Youtube
+    image: /static/3-white-guys.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1749/
+    company: Andrea Coleman
+    content_warnings:
+      - Strong language/swearing
+  - copy_long: In a twist of fate, an ordinary man finds himself magically
+      transformed into the Queen of the Carnival. With advanced age, abundant
+      body hair and limited talents, he is an unlikely candidate. Praised as a
+      'whimsical tour de force' (Orlando Weekly), this non-verbal blend of
+      clown, drag and queer joy reminds us it's never too late to embrace your
+      true self. Created and performed by Edu Díaz, a Fulbright-awarded artist
+      from the Canary Islands, A Drag is Born has won five awards, including
+      Best Solo Clown (NYC Fringe) and Best Solo Show (Orlando Fringe).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 12
+      weekend_conc: 11
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "18.05"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: A Drag Is Born
+    age_guidance: 12+
+    links:
+      - link: https://facebook.com/EduDiazActor/
+        platform: Facebook
+      - platform: Instagram
+        link: https://www.instagram.com/edudiazactor/
+      - platform: X
+        link: https://x.com/EduDiazActor
+      - platform: Youtube
+        link: https://youtu.be/3daBt0zPMLw?si=6Hs_f2RmfB8_julV
+    reviews:
+      - {}
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1752/
+    company: " Edu Díaz"
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+  - copy_long: GO! is at the crossroads of contemporary dance, martial arts and
+      digital technology. In a choreography impregnated by the martial practice
+      of the two dancers, and accessible from age 7+, these universes meet and
+      mix to create a duet that combines humour, precision of gesture and beauty
+      of movement.
+    price:
+      standard: 10
+      concession: 8
+      weekend: 11
+      weekend_conc: 9
+    start_time: "10"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 40mins
+    title: GO!
+    age_guidance: 8+
+    links:
+      - link: https://www.facebook.com/corpsinsitu
+        platform: Facebook
+      - link: https://vimeo.com/803598665
+        platform: Vimeo
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
+    company: Corps In Situ
+  - copy_long: A female street clown accidentally becomes famous overnight at
+      Chickadee TV Studios as Chickadee the Sexy Clown. Her childlike mission to
+      bring joy and connection into a world of chaos is misunderstood. She is
+      heartbroken to be valued through her sexual appeal rather than her art of
+      clowning. A clash between pop culture and the art of clowning. Where does
+      the need to bring joy come from? Why become a clown when you can have a
+      serious job? What makes your heart ache? Dare to be a fool with Chickadee?
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+      preview: 8
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "20.45"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Chickadee
+    links:
+      - link: https://www.instagram.com/chickadee.play
+        platform: Instagram
+    image: /static/chickadee-4-x4-ed-fringe-reg.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1750/
+    company: Fey Productions In Association with Emerge Production House
+    content_warnings:
+      - Audience participation
+      - "Strong language/swearing "
+      - Potentially triggering themes
+  - copy_long: Even amongst the chaos and pain, there are moments of love and light.
+      A one-man (and one puppet) musical journey through a zombie outbreak,
+      combining live performance, puppetry and animation. Ridiculous, dark,
+      sometimes gruesome, warm, funny and sad. Can the undead feel? Can the
+      living understand? Is there a way out of this nightmare? Will you be
+      forced – ultimately – to sing? 'Absurd, eccentric, funny, full of pathos
+      and unforced allegory', 'Probably the most bizarre, clever, hilarious and
+      weirdly endearing thing I've ever seen on a stage' (Audience reviews).
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 11
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "21.30"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Do Zombies Dream of Undead Sheep?
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/thewoodlouse
+        platform: Facebook
+      - link: https://www.instagram.com/thewoodlouse/
+        platform: Instagram
+      - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
+        platform: YouTube
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1751/
+    company: The Woodlouse
+    content_warnings:
+      - "Themes of death throughout "
+      - projected violence by and against cartoon zombies
+      - "Some audience participation "
+  - copy_long: >-
+      Berlin, 1933. Heinz goes out to the cinema and never comes home. London,
+      2023. Clare claims the German citizenship her grandad Heinz gave up, but
+      is it hers to take? 
+
+
+      In the shadow of Brexit, Clare shines a light on her grandfather’s extraordinary true story - taking a journey from the cabaret scene of 1930s Berlin to becoming an 'enemy alien' in 1940s Britain, getting arrested by everyone from the Soviets to Winston Churchill along the way.
+
+
+      A vivid account of one Jewish refugee trying to find his way home, and his granddaughter searching for her roots.
+    price:
+      standard: 12.5
+      concession: 11.5
+      weekend: 14
+      weekend_conc: 12
+      preview: 9
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "13.50"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: " I Was a German"
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/people/I-Was-A-German-a new play/100089902684274/
+        platform: Facebook
+      - link: https://www.instagram.com/iwasagermantheplay
+        platform: Instagram
+      - link: https://twitter.com/clarefraenkel
+        platform: X
+    image: /static/i-was-a-german-343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1757/
+    company: Clare Fraenkel / Suzanna Rosenthal Productions
+    content_warnings:
+      - " Audience participation"
+      - "Contains references to antisemitism and antisemitic language. "
+      - Some strong language
+      - loud noise (air raid siren)
