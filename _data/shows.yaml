@@ -68,4 +68,39 @@ shows:
     company: Zac Williams
     content_warnings: []
     video_embeds: []
-  
+  - copy_long: Ever felt the hand of fate giving you a shove? Andrea Coleman has. In
+      the form of three white guys named John filmmaker John Hughes, musician
+      John Mayer and rock star Jon Bon Jovi. Which is sorta unexpected because
+      she's an American Black woman from the South. But at major turning points
+      in her life, when she is paralysed with fear, they appear, giving her
+      inspiration and courage. A heartwarming, life-affirming mix of comedy and
+      storytelling about three very unlikely guardian angels
+    price:
+      weekend: 13
+      standard: 11
+      concession: 10
+      weekend_conc: 11
+      preview: -1
+      ticket_deals:
+        - 4th & 5th BOGOF
+    start_time: "14.00"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: " 3 White Guys Named John"
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/andreacolemancomedy/
+        platform: Instagram
+      - link: https://twitter.com/andreacolemanbk?lang=en
+        platform: X
+      - link: https://www.youtube.com/watch?v=admBVLlGz9U
+        title: ""
+        platform: Youtube
+    image: /static/3-white-guys.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1749/
+    company: Andrea Coleman
+    content_warnings:
+      - Strong language/swearing
