@@ -200,3 +200,40 @@ shows:
       - Audience participation
       - "Strong language/swearing "
       - Potentially triggering themes
+  - copy_long: Even amongst the chaos and pain, there are moments of love and light.
+      A one-man (and one puppet) musical journey through a zombie outbreak,
+      combining live performance, puppetry and animation. Ridiculous, dark,
+      sometimes gruesome, warm, funny and sad. Can the undead feel? Can the
+      living understand? Is there a way out of this nightmare? Will you be
+      forced – ultimately – to sing? 'Absurd, eccentric, funny, full of pathos
+      and unforced allegory', 'Probably the most bizarre, clever, hilarious and
+      weirdly endearing thing I've ever seen on a stage' (Audience reviews).
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 11
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "21.30"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Do Zombies Dream of Undead Sheep?
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/thewoodlouse
+        platform: Facebook
+      - link: https://www.instagram.com/thewoodlouse/
+        platform: Instagram
+      - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
+        platform: YouTube
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1751/
+    company: The Woodlouse
+    content_warnings:
+      - "Themes of death throughout "
+      - projected violence by and against cartoon zombies
+      - "Some audience participation "
