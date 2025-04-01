@@ -467,7 +467,7 @@ shows:
     age_guidance: 14+
     image: /static/mynameisrachelcorrie_343x343.jpg
     age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1759/
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1760/
     company: Sascha Shinder
     content_warnings:
       - "Contains distressing or potentially "
@@ -517,7 +517,7 @@ shows:
         platform: YouTube
     image: /static/panoptikum_343x343.jpg
     age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1760/
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1761/
     company: " Lenka Vagnerová and Company"
     content_warnings:
       - " Strobe lighting"
