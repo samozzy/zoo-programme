@@ -652,7 +652,7 @@ shows:
     is_draft: true
     venue: ZOO Southside
     duration: 1hr15mins
-    title: " Swiping Right"
+    title: Swiping Right
     age_guidance: 16+
     links:
       - link: " https://www.facebook.com/berlinberlin.be/"
@@ -669,3 +669,63 @@ shows:
       - Scenes of sexual violence
       - " Scenes of violence"
       - " Strong language/swearing"
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "Tale of a Potato is an original show set on a wooden table, with
+      dirt, a knife and real vegetables. We follow the life of Protagonist, a
+      potato, observing its feelings and relationships in a world inhabited by
+      other tubers, characters in a quirky and engaging narrative. We see
+      Protagonist being born, falling in love, working: enormous steps,
+      especially for a vegetable. A new immersive tabletop show by Batisfera,
+      authors of the miniature epic drama The Gummy Bears' Great War, a moving
+      tale on the seasons of life."
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "16.00"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 30mins
+    title: " Tale of a Potato"
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/batisfera.teatro
+        platform: Facebook
+      - link: https://www.instagram.com/batisfera/
+        platform: Instagram
+      - link: " https://www.tiktok.com/@batisfera"
+        platform: TikTok
+      - link: https://x.com/bati_sfera
+        platform: X
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1771/
+    company: " Batisfera"
+    content_warnings:
+      - Contains distressing or potentially triggering themes
