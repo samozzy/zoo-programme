@@ -317,7 +317,24 @@ shows:
       - "Contains references to antisemitism and antisemitic language. "
       - Some strong language
       - loud noise (air raid siren)
-  - copy_long: "Upside-down or right side up? On purpose or by accident? How do you
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+    copy_long: "Upside-down or right side up? On purpose or by accident? How do you
       like your eggs? From the mischievous minds of Full Out Formula comes I
       Think It Could Work, a daring and playful leap into the unexpected. With
       bright colours, dazzling acrobatics and unflinching trust, this
@@ -344,6 +361,7 @@ shows:
         platform: Instagram
       - link: https://youtu.be/qXf5AAaZH0E?si=x9ihrLCBaYUEvVk2
         platform: YouTube
+    image: /static/ithinkitcouldwork_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1756/
     company: Full Out Formula / Almanac Projects
