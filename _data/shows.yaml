@@ -841,3 +841,69 @@ shows:
     content_warnings:
       - " Contains distressing or potentially triggering themes"
       - "Strobe lighting "
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-06
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Joanna has always spoken her mind. When she unexpectedly becomes
+      Queen, her father and husband are determined to silence her. She went down
+      in history as Joanna the Mad – what if she wasn't insane, but furious? SIX
+      meets Sondheim in this dark saga inspired by Catherine of Aragon's older
+      sister. Featuring Locked Away, Stiles & Drewe Best New Song Prize finalist
+      2024. 'Funny, heartbreaking and rage-inducing' \*\*\*\*
+      (AdventuresInTheatreland.com). 'Mmm, defiance!' (Elaine Paige, BBC Radio
+      2). 'Evokes a classic theatrical sound... lilting melodies which melt into
+      dissonant, menacing lullabies' (TheatreAndTonic.co.uk).
+    price:
+      standard: 14
+      concession: 12.5
+      weekend: 15
+      weekend_conc: 12.5
+      preview: 12
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "16.15"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr15mins
+    title: The Queen is Mad
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/thequeenismadmusical
+        platform: Facebook
+      - link: https://www.instagram.com/thequeenismadmusical/
+        platform: Instagram
+      - link: " https://youtu.be/FGTuAK0DiPU?si=Q1T-6xhzl-p_j4PW"
+        platform: YouTube
+      - link: https://www.tiktok.com/@thequeenismadmusical
+        platform: TikTok
+    image: /static/the-queen-is-mad.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1763/
+    company: Castile Collective Ltd in association with Pinecone Performance Lab
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - "Scenes of violence  "
+      - "coercive control, "
+      - " emotional abuse"
+      - psychiatric illness
+      - sudden loud noises.
