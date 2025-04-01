@@ -967,3 +967,53 @@ shows:
       - " Haze effect"
       - dust effect
       - " simulated nudity"
+  - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-17
+      - 2025-08-16
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "'Why I shot Andy Warhol and other chit-chat' Nona Demey Gallagher
+      and Lieselot Siddiki are bringing Up Your Ass, Valerie Solanas' infamous
+      1965 comedy. The text has had a controversial status in the feminist and
+      queer community for years, and is now seeing the international theatre
+      light for the first time. Valerie Solanas is best known for her attack on
+      Andy Warhol, after he refused to produce Up Your Ass. The directors got in
+      close contact with Solanas' last living relative and were the first and
+      only ones to get permission to perform the play."
+    price:
+      standard: 18
+      weekend: 19
+    start_time: "11.30"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr30mins
+    title: " Up Your Ass"
+    age_guidance: 16+
+    links:
+      - link: https://www.facebook.com/profile.php?id=100066895099085&local  e=en_GB
+        platform: Facebook
+      - link: " https://www.instagram.com/de.theatermaker"
+        platform: Instagram
+      - link: http://vimeo.com/1040036922
+        platform: Vimeo
+    image: /static/upyourass_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1768/
+    company: " Lieselot Siddiki and Nona Demey Gallagher / detheatermaker"
+    content_warnings:
+      - Contains distressing or potentially  triggering themes
+      - Nudity
+      - Scenes of a  sexual nature
+      - "scenes of sexual violence  "
+      - Scenes of violence
+      - " Strobe lighting"
+      - Strong language/swearing
