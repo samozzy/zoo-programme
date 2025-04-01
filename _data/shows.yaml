@@ -148,7 +148,30 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
     company: Corps In Situ
-  - copy_long: A female street clown accidentally becomes famous overnight at
+  - performances:
+      - 2025-08-01
+      - 2025-08-12
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: A female street clown accidentally becomes famous overnight at
       Chickadee TV Studios as Chickadee the Sexy Clown. Her childlike mission to
       bring joy and connection into a world of chaos is misunderstood. She is
       heartbroken to be valued through her sexual appeal rather than her art of
