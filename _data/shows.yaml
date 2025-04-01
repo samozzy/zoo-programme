@@ -157,6 +157,7 @@ shows:
         platform: Facebook
       - link: https://vimeo.com/803598665
         platform: Vimeo
+    image: /static/go-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
     company: Corps In Situ
