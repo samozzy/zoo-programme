@@ -1107,3 +1107,64 @@ shows:
     company: " DON GNU"
     content_warnings:
       - Strobe lighting
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Chaos. Rebellion. A city on the brink. But Millie's focused on living
+      life to the full – who wouldn't? Amid the 2019 Hong Kong protests, Millie
+      searches for her sense of home whilst a city fights for its identity. A
+      high-energy, visceral new play inspired by real events. With original
+      sound design blending euphoric techno and the intensity of a Hong Kong
+      riot, enter Millie's world where being an outsider has always been the
+      norm. Written and performed by Mimi Martin, she's bold, rebellious and
+      impossible to resist. 'I can be the foreign devil if they want'.
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "19.00"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Youth in Flames
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/y outhinflamesplay/? utm_source=igweb_button
+          _share_sheet
+        platform: Instagram
+      - link: https://www.tiktok.com/@youthinflames
+        platform: TikTok
+    image: /static/youthinflames_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1770/
+    company: Dare Theatre
+    content_warnings:
+      - "Contains distressing or potentially triggering themes, "
+      - Strobe lighting
+      - Strong language/swearing
