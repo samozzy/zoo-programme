@@ -376,3 +376,58 @@ shows:
       - Contains distressing or potentially triggering themes
       - Strobe lighting  Loud and repetitive sound
       - " Loud and repetitive sound"
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+      - 2025-08-20
+    copy_long: Megan is a perfect wife. Or at least, that’s what she tells her
+      followers. But when 15th-century mystic Margery of Kempe starts haunting
+      her, Megan begins to wonder if she’s losing her grip – or if Margery is
+      really there. As their connection grows unnervingly intense, Megan finds
+      herself drawn to Margery in ways she can't explain, where devotion and
+      desire bleed together. In this darkly funny comedy-drama, an internet
+      "trad wife" influencer's carefully curated life unravels in an unexpected
+      clash of past and present. Meg & Marge explores faith, feminism and the
+      perils of performative perfection.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 15:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 50mins
+    title: Meg & Marge
+    age_guidance: 14+
+    image: /static/megmarge_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1758/
+    company: Johnny Discipline
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+      - " Scenes of a sexual nature"
+      - " Scenes of violence"
+      - Strong language/swearing
