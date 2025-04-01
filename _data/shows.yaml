@@ -203,7 +203,30 @@ shows:
       - Audience participation
       - "Strong language/swearing "
       - Potentially triggering themes
-  - copy_long: Even amongst the chaos and pain, there are moments of love and light.
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-23
+      - 2025-08-24
+      - 2025-08-22
+    copy_long: Even amongst the chaos and pain, there are moments of love and light.
       A one-man (and one puppet) musical journey through a zombie outbreak,
       combining live performance, puppetry and animation. Ridiculous, dark,
       sometimes gruesome, warm, funny and sad. Can the undead feel? Can the
@@ -233,6 +256,7 @@ shows:
         platform: Instagram
       - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
         platform: YouTube
+    image: /static/dozombiesdreamofundeadsheep_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1751/
     company: The Woodlouse
