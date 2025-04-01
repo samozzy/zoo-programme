@@ -619,3 +619,53 @@ shows:
       - Scenes of violence
       - Strobe lighting
       - Strong  language/swearing
+  - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Can (online) dating help bridge political divides? In Swiping Right,
+      Sophie Anna Veelenturf explores what happens when political opposites
+      connect. How do ideology and beliefs shape our desires and relationships?
+      How do we navigate between attraction and resistance? Drawing on her own
+      experience of doomed dates with conservative men, the self proclaimed
+      'leftie' brings her personal quest to the stage. As Artist in Residence
+      with renowned Belgian theatre company BERLIN, she blends stand-up,
+      documentary theatre and re enacted interviews with dates, couples and
+      experts. With humour and sharp dialogue, she delivers a bold, intimate
+      dive into love and politics.
+    price:
+      standard: 18
+      concession: 16
+      weekend: 19
+      weekend_conc: 16
+    start_time: "15.30"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr15mins
+    title: " Swiping Right"
+    age_guidance: 16+
+    links:
+      - link: " https://www.facebook.com/berlinberlin.be/"
+        platform: Facebook
+      - link: " https://www.instagram.com/berlinberlin.be/"
+        platform: Instagram
+    image: /static/swipingright_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1765/
+    company: " Sophie Anna Veelenturf / BERLIN"
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a sexual nature
+      - Scenes of sexual violence
+      - " Scenes of violence"
+      - " Strong language/swearing"
