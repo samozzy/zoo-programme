@@ -1017,3 +1017,46 @@ shows:
       - Scenes of violence
       - " Strobe lighting"
       - Strong language/swearing
+  - performances:
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Follow the scandalous true story of Suffragette-turned-fascist Mary
+      Richardson in this time-bending cabaret. Award winning company
+      IMPERMANENCE bring you a high-octane dance theatre experience exploring
+      the chaos and turmoil of the early 20th-century. Featuring six chameleonic
+      dancers, VENUS 2.0 is a white-knuckle ride through the evolution of
+      Fascism. Enter a world of explosive physicality, hilarious cabaret and an
+      obsession with the future. Why did it start? How does it stop? Where does
+      it end? Fringe favourites IMPERMANENCE have been making groundbreaking
+      productions since 2011, don’t miss this spectacle on the best stage for
+      dance at the festival
+    price:
+      standard: 18
+      concession: 16
+      weekend: 19
+      weekend_conc: 17
+    start_time: "19.25"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr15mins
+    title: VENUS 2.0
+    age_guidance: 14+
+    links:
+      - title: ""
+        link: https://www.facebook.com/ImpermanenceDT
+        platform: Facebook
+      - link: " https://www.instagram.com/impermanence___"
+        platform: Instagram
+    image: /static/venus-2.0-_-impermanence-_-lead-image.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1769/
+    company: IMPERMANENCE
+    content_warnings:
+      - Contains distressing or potentially  triggering themes
+      - Scenes of violence
+      - Strong language/swearing
