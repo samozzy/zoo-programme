@@ -489,3 +489,56 @@ shows:
       - Contains  distressing or potentially triggering themes
       - Scenes of violence
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    access:
+      - relaxed
+      - captions
+    copy_long: "'What if our aloneness isn't a tragedy? What if our aloneness is
+      what allows us to speak the truth without being afraid?' A Jewish actor
+      and predominantly Jewish team bring to life the story of Rachel Corrie, a
+      courageous 23-year-old American who left her comfortable life in 2003 to
+      stand between an Israeli bulldozer and a Palestinian home in Gaza. The
+      script is based on Corrie's own words, edited for the stage by Alan
+      Rickman and Katherine Viner. This production offers an intimate, urgent
+      exploration of resistance, hope and humanity in the face of injustice."
+    price:
+      standard: 12
+      concession: 9
+      weekend: 13
+      weekend_conc: 11
+    start_time: "19.00"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr30mins
+    title: " My Name is Rachel Corrie"
+    age_guidance: 14+
+    image: /static/mynameisrachelcorrie_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1759/
+    company: Sascha Shinder
+    content_warnings:
+      - "Contains distressing or potentially "
+      - " triggering themes, "
+      - Scenes of violence
