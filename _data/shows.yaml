@@ -521,3 +521,42 @@ shows:
     company: " Lenka Vagnerová and Company"
     content_warnings:
       - " Strobe lighting"
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+    copy_long: Shh... What's that noise? A squeak? A squeal? A bird? It's getting
+      louder. Oh dear... Pekku takes a playful look at what happens when you
+      want to be left alone and others have a different idea. A new show for 3
+      to 6-year-olds by the creators of White and Stick by Me. Co-commissioned
+      by Red Bridge Arts, ROHM Theatre and Ricca Ricca Festival. Produced by Red
+      Bridge Arts. Part of Made in Scotland showcase.
+      MadeInScotlandShowcase.com.
+    price:
+      standard: 9
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "11"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 45mins
+    title: Pekku
+    age_guidance: 3+
+    links:
+      - link: https://www.facebook.com/RedBridgeArt/
+        platform: Facebook
+      - link: https://www.instagram.com/redbridgeart
+        platform: Instagram
+      - link: https://twitter.com/RedBridgeArt
+        platform: Twitter
+    image: /static/pekku_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1762/
+    company: Red Bridge Arts
