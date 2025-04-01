@@ -414,6 +414,8 @@ shows:
       concession: 10
       weekend: 13
       weekend_conc: 11
+      ticket_deals:
+        - 4th & 5th 2for1
     start_time: 15:15
     booking_unavailable: false
     is_draft: true
@@ -431,3 +433,18 @@ shows:
       - " Scenes of a sexual nature"
       - " Scenes of violence"
       - Strong language/swearing
+  - booking_unavailable: false
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1759/
+    copy_long: Country singer Marcy Aurora is out of prison after 20 years for
+      murder, and she's ready for a comeback. In the studio recording a new
+      album, she's pissed off and trying to find her voice again. Not taking any
+      shit and singing her guts out, Marcy's going to find her way back no
+      matter how much it hurts. A (nearly) solo show with live songs, it’s a
+      raucous journey to Music City. Written and directed by Lee Papa, called "a
+      tornado of a writer" by the New York Times, and starring Tennessee-born
+      Biz Lyon.
+    title: Midnight in Nashville
+    company: The French Broad
+    is_draft: true
+    venue: ZOO Playground
