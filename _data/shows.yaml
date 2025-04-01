@@ -729,3 +729,49 @@ shows:
     company: " Batisfera"
     content_warnings:
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Step into a world where the boundaries between audience and
+      performers dissolve. Eight-time Fringe First-winning theatre company
+      Ontroerend Goed transforms traditional theatre into an experience that
+      playfully shifts perspectives through video. Despite its interactive
+      nature, you're free to simply observe as the performers navigate the
+      space. This isn't about putting you on the spot – it's about recognising
+      that without you, there is no theatre. Thanks for Being Here isn't just a
+      show – it's a celebration of your presence. 'Radically hopeful' \*\*\*\*
+      (DeMorgen.be)
+    price:
+      standard: 18
+      concession: 17
+      weekend: 20
+      weekend_conc: 19
+    start_time: "13.45"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr15mins
+    title: Thanks for Being Here
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/ontroerendgoedOG
+        platform: Facebook
+      - link: https://www.instagram.com/ontroerend_goed
+        platform: Instagram
+    image: /static/thanksforbeinghere_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1766/
+    company: Ontroerend Goed
+    content_warnings:
+      - Audience participation
