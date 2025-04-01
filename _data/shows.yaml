@@ -560,3 +560,62 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1762/
     company: Red Bridge Arts
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-04
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+    access:
+      - bsl
+    copy_long: A young man embarks on a thrilling journey from his small hometown to
+      the big city, where he finds solace and joy in the vibrant LGBTQ+ scene.
+      However, his adventure takes a dramatic turn as he confronts a terrifying
+      health crisis, largely ignored by the government. Eight electrifying
+      dancers bring the legendary Paradise Nightclub to life with a community
+      cast, who blur the lines between performer and audience, infusing the show
+      with the joy and chaos of the club scene. Winner of the Creative Arts
+      Award at the 2024 Proud Scotland Awards.
+    price:
+      standard: 18
+      concession: 17
+      weekend: 19
+      weekend_conc: 18
+      preview: 14
+      ticket_deals:
+        - 5th 2for1
+    start_time: "19.15"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr30mins
+    title: " Small Town Boys"
+    age_guidance: 18+
+    links:
+      - link: https://www.facebook.com/shapercaper/?locale=en_GB
+        platform: Facebook
+      - link: https://www.instagram.com/shapercaper
+        platform: Instagram
+      - link: http://vimeo.com/1056607386
+        platform: Vimeo
+    image: /static/small-town-boys-new-.jpg
+    age_restricted: true
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1764/
+    company: Shaper/Caper
+    content_warnings:
+      - "Audience participation, "
+      - Contains distressing or potentially triggering  themes
+      - " Scenes of sexual violence"
+      - Scenes of violence
+      - Strobe lighting
+      - Strong  language/swearing
