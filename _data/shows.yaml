@@ -80,9 +80,9 @@ shows:
       standard: 11
       concession: 10
       weekend_conc: 11
-      preview: -1
+      preview: ""
       ticket_deals:
-        - 4th & 5th BOGOF
+        - 4th & 5th 2for1
     start_time: "14.00"
     booking_unavailable: false
     is_draft: true
@@ -312,3 +312,67 @@ shows:
       - " Audience participation"
       - Strobe lighting
       - Light body horror
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Can an Asian with a maths learning disability pass Nylon Tusk’s Mars
+      Immigration Test? Welcome to an absurdist testing lab of dystopian
+      speculations. Attempting to move to Mars via the Worker’s Visa, a woman
+      with ADHD and dyscalculia finds herself in SpaceY’s testing lab. She
+      fights through with her wide array of talents – striptease, beer pong and
+      cheerleading – to not be the Asian failure who is just never enough. Is
+      There Work on Mars? had a five-star run at Edinburgh Fringe 2024 and was
+      nominated for Neurodiverse Review’s ADHD Comedy Award.
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 10
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "16.30"
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Is There Work on Mars?
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/isthereworkonmars/
+        platform: Instagram
+      - link: https://youtube.com/shorts/7ippftxKKj8
+        platform: YouTube
+    content_warning_detail:
+      - Discussion of  race
+      - mental health
+      - addiction and eating disorder
+    image: /static/isthereworkonmars_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1755/
+    company: " Faye Yan"
+    content_warnings:
+      - Audience participation, Discussion of  race, mental health, addiction
+        and eating  disorder
+      - Contains distressing or potentially triggering themes
+      - Strobe lighting  Loud and repetitive sound
+      - " Loud and repetitive sound"
