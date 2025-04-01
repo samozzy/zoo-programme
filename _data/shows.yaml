@@ -416,6 +416,10 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    access:
+      - captions
+      - relaxed
+      - ad
     copy_long: Can an Asian with a maths learning disability pass Nylon Tusk’s Mars
       Immigration Test? Welcome to an absurdist testing lab of dystopian
       speculations. Attempting to move to Mars via the Worker’s Visa, a woman
