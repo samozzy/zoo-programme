@@ -673,8 +673,7 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1760/
     company: Sascha Shinder
     content_warnings:
-      - "Contains distressing or potentially "
-      - " triggering themes, "
+      - Contains distressing or potentially triggering themes
       - Scenes of violence
   - performances:
       - 2025-08-01
