@@ -38,7 +38,7 @@ shows:
       preview: ""
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "14.00"
+    start_time: 14:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
