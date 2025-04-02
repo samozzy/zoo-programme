@@ -199,7 +199,7 @@ shows:
       preview: 8
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "20.45"
+    start_time: 20:45
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -255,7 +255,7 @@ shows:
       preview: 11
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "21.30"
+    start_time: 21:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
@@ -319,7 +319,7 @@ shows:
       preview: 9
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "13.50"
+    start_time: 13:50
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -374,7 +374,7 @@ shows:
       preview: 17
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "17.30"
+    start_time: 17:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -420,7 +420,7 @@ shows:
       weekend_conc: 18
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "15.10"
+    start_time: 15:10
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -484,7 +484,7 @@ shows:
       preview: 10
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "16.30"
+    start_time: 16:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
@@ -606,7 +606,7 @@ shows:
       weekend_conc: 11
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "20.15"
+    start_time: 20:15
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
@@ -661,7 +661,7 @@ shows:
       concession: 9
       weekend: 13
       weekend_conc: 11
-    start_time: "19.00"
+    start_time: 19:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -697,7 +697,7 @@ shows:
       standard: 9
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "11"
+    start_time: 11:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -749,7 +749,7 @@ shows:
       preview: 14
       ticket_deals:
         - 5th 2for1
-    start_time: "19.15"
+    start_time: 19:15
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -802,7 +802,7 @@ shows:
       concession: 16
       weekend: 19
       weekend_conc: 16
-    start_time: "15.30"
+    start_time: 15:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -863,7 +863,7 @@ shows:
       weekend_conc: 11
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "16.00"
+    start_time: 16:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
@@ -912,7 +912,7 @@ shows:
       concession: 17
       weekend: 20
       weekend_conc: 19
-    start_time: "13.45"
+    start_time: 13:45
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -973,7 +973,7 @@ shows:
       price_range: ""
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "15.00"
+    start_time: 15:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
@@ -1035,7 +1035,7 @@ shows:
       preview: 12
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "16.15"
+    start_time: 16:15
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -1099,7 +1099,7 @@ shows:
       weekend_conc: 17
       ticket_deals:
         - 5th 2for1
-    start_time: "19.30"
+    start_time: 19:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -1146,7 +1146,7 @@ shows:
     price:
       standard: 18
       weekend: 19
-    start_time: "11.30"
+    start_time: 11:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -1194,7 +1194,7 @@ shows:
       concession: 16
       weekend: 19
       weekend_conc: 17
-    start_time: "19.25"
+    start_time: 19:25
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -1240,7 +1240,7 @@ shows:
       weekend_conc: 17
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "13.20"
+    start_time: 13:20
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
@@ -1302,7 +1302,7 @@ shows:
       weekend_conc: 11
       ticket_deals:
         - 4th & 5th 2for1
-    start_time: "19.00"
+    start_time: 19:00
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
