@@ -1,5 +1,43 @@
 shows:
   - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+    copy_long: GO! is at the crossroads of contemporary dance, martial arts and
+      digital technology. In a choreography impregnated by the martial practice
+      of the two dancers, and accessible from age 7+, these universes meet and
+      mix to create a duet that combines humour, precision of gesture and beauty
+      of movement.
+    price:
+      standard: 10
+      concession: 8
+      weekend: 11
+      weekend_conc: 9
+    start_time: 10:00
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Southside
+    duration: 40mins
+    title: GO!
+    age_guidance: 8+
+    links:
+      - link: https://www.facebook.com/corpsinsitu
+        platform: Facebook
+      - link: https://vimeo.com/803598665
+        platform: Vimeo
+    image: /static/go-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
+    company: Corps In Situ
+  - performances:
       - 2025-08-01
       - 2025-08-02
       - 2025-08-03
@@ -123,44 +161,6 @@ shows:
     content_warnings:
       - Audience participation
       - Contains distressing or potentially triggering themes
-  - performances:
-      - 2025-08-12
-      - 2025-08-13
-      - 2025-08-14
-      - 2025-08-15
-      - 2025-08-16
-      - 2025-08-17
-      - 2025-08-19
-      - 2025-08-20
-      - 2025-08-21
-      - 2025-08-22
-      - 2025-08-23
-    copy_long: GO! is at the crossroads of contemporary dance, martial arts and
-      digital technology. In a choreography impregnated by the martial practice
-      of the two dancers, and accessible from age 7+, these universes meet and
-      mix to create a duet that combines humour, precision of gesture and beauty
-      of movement.
-    price:
-      standard: 10
-      concession: 8
-      weekend: 11
-      weekend_conc: 9
-    start_time: 10:00
-    booking_unavailable: false
-    is_draft: false
-    venue: ZOO Southside
-    duration: 40mins
-    title: GO!
-    age_guidance: 8+
-    links:
-      - link: https://www.facebook.com/corpsinsitu
-        platform: Facebook
-      - link: https://vimeo.com/803598665
-        platform: Vimeo
-    image: /static/go-.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
-    company: Corps In Situ
   - performances:
       - 2025-08-01
       - 2025-08-12
@@ -1099,7 +1099,7 @@ shows:
       weekend_conc: 17
       ticket_deals:
         - 5th 2for1
-    start_time: 19:30
+    start_time: 21:30
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
