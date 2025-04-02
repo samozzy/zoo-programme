@@ -100,7 +100,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "18.05"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: A Drag Is Born
@@ -147,7 +147,7 @@ shows:
       weekend_conc: 9
     start_time: "10"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 40mins
     title: GO!
@@ -201,7 +201,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "20.45"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Chickadee
@@ -257,7 +257,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "21.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Do Zombies Dream of Undead Sheep?
@@ -321,7 +321,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "13.50"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: " I Was a German"
@@ -376,7 +376,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "17.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: I Think It Could Work
@@ -394,6 +394,54 @@ shows:
       - " Audience participation"
       - Strobe lighting
       - Light body horror
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-06
+      - 2025-08-09
+      - 2025-08-10
+    copy_long: Panoptikum amazes, entertains, and frightens. It has pace, humour and
+      a strong theme with an emphasis on humanism. Thrilling, impressive dance
+      which is an expression of total theatre, invites the spectator to a
+      mystically decadent, visually compact freak show, over which the magical
+      theatre dust of something ancient hovers. The world, inspired by the
+      phenomenon of the nineteenth century, says a lot about our contemporary
+      world. Panoptikum is about the fear of the stranger and the unknown, but
+      also courage and hope. The multi award-winning dance theatre company
+      returns to the Fringe! The Theatre Newspaper Award. Thalia Award Nominee.
+    price:
+      standard: 18
+      concession: 17
+      weekend: 19
+      weekend_conc: 18
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "15.10"
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Southside
+    duration: 1hr30mins
+    title: Panoptikum
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/lenkavagnerovacompany
+        platform: Facebook
+      - link: " https://www.instagram.com/lenkavagnerovacompany/"
+        platform: Instagram
+      - link: " https://www.tiktok.com/@lvc6627"
+        platform: TikTok
+      - link: " https://www.youtube.com/@lenkavagner/videos"
+        platform: YouTube
+    image: /static/panoptikum_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1761/
+    company: " Lenka Vagnerová and Company"
+    content_warnings:
+      - " Strobe lighting"
   - performances:
       - 2025-08-01
       - 2025-08-02
@@ -438,7 +486,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "16.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Is There Work on Mars?
@@ -504,7 +552,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 15:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 50mins
     title: Meg & Marge
@@ -560,7 +608,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "20.15"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Midnight in Nashville
@@ -615,7 +663,7 @@ shows:
       weekend_conc: 11
     start_time: "19.00"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr30mins
     title: " My Name is Rachel Corrie"
@@ -628,54 +676,6 @@ shows:
       - "Contains distressing or potentially "
       - " triggering themes, "
       - Scenes of violence
-  - performances:
-      - 2025-08-01
-      - 2025-08-02
-      - 2025-08-03
-      - 2025-08-04
-      - 2025-08-05
-      - 2025-08-07
-      - 2025-08-06
-      - 2025-08-09
-      - 2025-08-10
-    copy_long: Panoptikum amazes, entertains, and frightens. It has pace, humour and
-      a strong theme with an emphasis on humanism. Thrilling, impressive dance
-      which is an expression of total theatre, invites the spectator to a
-      mystically decadent, visually compact freak show, over which the magical
-      theatre dust of something ancient hovers. The world, inspired by the
-      phenomenon of the nineteenth century, says a lot about our contemporary
-      world. Panoptikum is about the fear of the stranger and the unknown, but
-      also courage and hope. The multi award-winning dance theatre company
-      returns to the Fringe! The Theatre Newspaper Award. Thalia Award Nominee.
-    price:
-      standard: 18
-      concession: 17
-      weekend: 19
-      weekend_conc: 18
-      ticket_deals:
-        - 4th & 5th 2for1
-    start_time: "15.10"
-    booking_unavailable: false
-    is_draft: true
-    venue: ZOO Southside
-    duration: 1hr30mins
-    title: Panoptikum
-    age_guidance: 12+
-    links:
-      - link: https://www.facebook.com/lenkavagnerovacompany
-        platform: Facebook
-      - link: " https://www.instagram.com/lenkavagnerovacompany/"
-        platform: Instagram
-      - link: " https://www.tiktok.com/@lvc6627"
-        platform: TikTok
-      - link: " https://www.youtube.com/@lenkavagner/videos"
-        platform: YouTube
-    image: /static/panoptikum_343x343.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1761/
-    company: " Lenka Vagnerová and Company"
-    content_warnings:
-      - " Strobe lighting"
   - performances:
       - 2025-08-01
       - 2025-08-02
@@ -699,7 +699,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "11"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 45mins
     title: Pekku
@@ -751,7 +751,7 @@ shows:
         - 5th 2for1
     start_time: "19.15"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr30mins
     title: " Small Town Boys"
@@ -804,7 +804,7 @@ shows:
       weekend_conc: 16
     start_time: "15.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr15mins
     title: Swiping Right
@@ -865,7 +865,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "16.00"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 30mins
     title: " Tale of a Potato"
@@ -914,7 +914,7 @@ shows:
       weekend_conc: 19
     start_time: "13.45"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr15mins
     title: Thanks for Being Here
@@ -975,7 +975,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "15.00"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 30mins
     title: The Gummy Bears' Great War
@@ -1037,7 +1037,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "16.15"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr15mins
     title: The Queen is Mad
@@ -1101,7 +1101,7 @@ shows:
         - 5th 2for1
     start_time: "19.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: " Triptych Redux"
@@ -1148,7 +1148,7 @@ shows:
       weekend: 19
     start_time: "11.30"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr30mins
     title: " Up Your Ass"
@@ -1196,7 +1196,7 @@ shows:
       weekend_conc: 17
     start_time: "19.25"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr15mins
     title: VENUS 2.0
@@ -1242,7 +1242,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "13.20"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Women in Socks and Sandals
@@ -1304,7 +1304,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "19.00"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Youth in Flames
