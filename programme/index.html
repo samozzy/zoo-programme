@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202504012356">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202504020831">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -542,13 +542,125 @@ data-bs-toggle="tooltip" data-bs-placement="bottom" title="Relaxed Performances"
 </div>
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-8 mx-auto mb-4 text-center">
-				<h2>Full programme still to be announced, check back later.</h2>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-lg-8 mx-auto mb-4">
+			<p class="lead text-center fs-4">More shows still to be announced. Keep an eye on our socials and check back later!</p>
+			<p class="helper-text">We strongly encourage pre-purchasing tickets ahead of your arrival at ZOO, which will help speed up waiting and admission times. Doors typically open 5 minutes before the advertised start time. We operate eTicketing.</p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-12 mx-auto text-center">
+			<div class="btn-group" role="group" aria-label="Pick whether to sort by time or alphabetically">
+				<button id="btn-sort-by-title" data-bs-toggle="tooltip" data-bs-title="Sort by title" type="button" class="btn btn-info btn-lg active" onclick=sortByTitle()><i class="fa fa-fw fa-sort-alpha-down"></i></button>
+				<button id="btn-sort-by-time" data-bs-toggle="tooltip" data-bs-title="Sort by start time" type="button" class="btn btn-info btn-lg" onclick=sortByTime()><i class="fa fa-fw fa-clock"></i></button>
+			</div>
+		</div>
+		<div class="col-12 text-center">
+			<small class="helper-text">Sorting by <span id="sort-by-status">title</span></small>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container"> 
+	<div id="show-list" class="row row-cols-lg-2 mb-5">
+		<div class="col-12 w-100">
+			<div id="filter-badge-container" class="filter-badge-container d-none">
+				<span class="lead">Active filters:</span> 
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearSearch()" id="active-filter-search">
+					<span>Search<span id="active-filter-search-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearDatePick()" id="active-filter-date">
+					<span>Date<span id="active-filter-date-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearTimeCheckboxes()" id="active-filter-time">
+					<span>Time<span id="active-filter-time-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<!-- 				
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearPriceCheckboxes()" id="active-filter-price">
+					<span>Price<span id="active-filter-price-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button> -->
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearVenueCheckboxes()" id="active-filter-venue">
+					<span>Venue<span id="active-filter-venue-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAgeCheckboxes()" id="active-filter-age">
+					<span>Age<span id="active-filter-age-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearGenreCheckboxes()" id="active-filter-genre">
+					<span>Tags<span id="active-filter-genre-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearContentWarningCheckboxes()" id="active-filter-content-warning">
+					<span>Excluding Content Warnings<span id="active-filter-content-warning-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+				<button class="btn btn-sm btn-info bebas filter-badge d-none" onclick="clearAccessCheckboxes()" id="active-filter-access">
+					<span>Access<span id="active-filter-access-list"></span></span>
+					<div class="icons d-inline">
+						<i class="far fa-times-circle"></i>
+						<i class="fa fa-times-circle"></i>
+					</div>
+				</button>
+			</div>
+			<div id="filter-results-text" class="d-none lead">
+				<span id="filter-results-counter"></span>&nbsp;result<span id="filter-results-counter-plural">s</span>
+			</div>
+		</div>
+		<div class="d-none col-12 w-100 text-center no-results" id="no-result-text">
+			<p class="lead"><em>No results for this set of filters</em></p>
+		</div>
+		
+				
+
+		
+				
+
+	</div>
+</div>
+
+<script>
+
+	// When #activate-search onClick, remove .d-none from #search-box 
+	// SEARCH
+		// Fuzzy search on the entire data selection across title, company, blurb 
+
+</script>
+	
  
 	</body>
 
@@ -564,6 +676,17 @@ data-bs-toggle="tooltip" data-bs-placement="bottom" title="Relaxed Performances"
                             <a class="navbar-brand d-flex mx-4" href="https://edfest.com/" target="_blank">
                                 <img src="/static/img/edfest/edfest.png" class="img-responsive d-flex my-auto" width="75px" height="auto" alt="EdFest">
                             </a>
+                        </div>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link " href="/access/">Access</a>
+                            </li>
+                          </ul>
                         </div>
                         
                       </div>
