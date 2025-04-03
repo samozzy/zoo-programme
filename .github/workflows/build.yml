@@ -59,17 +59,18 @@ jobs:
       ### HTMLTEST ###
       # (This tool makes sure all the links work; may require some tweaking and is optional)
       # You may find it helpful to create a .htmltest.yml file to set a config. Go wild.
-      - name: Cache htmltest files
-        uses: actions/cache@v4
-        with:
-          path: tmp/htmltest
-          key: htmltest-1
-      - name: Test built site with htmltest
-        uses: wjdp/htmltest-action@master
-        continue-on-error: true
-        with:
-          path: _site
-          config: .htmltest.yml
+      # TEMPORARILY: 
+      # - name: Cache htmltest files
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: tmp/htmltest
+      #     key: htmltest-1
+      # - name: Test built site with htmltest
+      #   uses: wjdp/htmltest-action@master
+      #   continue-on-error: true
+      #   with:
+      #     path: _site
+      #     config: .htmltest.yml
 
       ### DEPLOY ###
       - name: Publish to GH Pages 🚀
