@@ -401,9 +401,9 @@ shows:
       - 2025-08-04
       - 2025-08-05
       - 2025-08-07
-      - 2025-08-06
       - 2025-08-09
       - 2025-08-10
+      - 2025-08-08
     copy_long: Panoptikum amazes, entertains, and frightens. It has pace, humour and
       a strong theme with an emphasis on humanism. Thrilling, impressive dance
       which is an expression of total theatre, invites the spectator to a
@@ -436,7 +436,7 @@ shows:
         platform: TikTok
       - link: " https://www.youtube.com/@lenkavagner/videos"
         platform: YouTube
-    image: /static/panoptikum_343x343.jpg
+    image: /static/panoptikum-new-photo.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1761/
     company: " Lenka Vagnerová and Company"
@@ -575,7 +575,6 @@ shows:
       - 2025-08-05
       - 2025-08-06
       - 2025-08-07
-      - 2025-08-08
       - 2025-08-09
       - 2025-08-10
       - 2025-08-13
@@ -590,6 +589,7 @@ shows:
       - 2025-08-20
       - 2025-08-24
       - 2025-08-12
+      - 2025-08-08
     copy_long: Country singer Marcy Aurora is out of prison after 20 years for
       murder, and she's ready for a comeback. In the studio recording a new
       album, she's pissed off and trying to find her voice again. Not taking any
