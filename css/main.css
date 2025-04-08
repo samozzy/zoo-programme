@@ -17,7 +17,7 @@ a.text-zoo-slate:hover, a.text-zoo-slate:focus, a.text-zoo-slate:active, a.text-
   color: #4b545a;
 }
 
-.bg-zoo-slate, .row.homepage-banner, .show-large .homepage-banner.icon-row {
+.bg-zoo-slate {
   background-color: #282D30 !important;
 }
 
@@ -468,7 +468,7 @@ a.related-event:hover .fa, a.related-event:focus .fa, a.related-event:active .fa
   font-size: 2rem !important;
 }
 
-.bg-zoo-slate .helper-text a, .row.homepage-banner .helper-text a, .show-large .homepage-banner.icon-row .helper-text a {
+.bg-zoo-slate .helper-text a {
   color: #FFFFFF;
 }
 
@@ -527,24 +527,40 @@ img.logo-in-title {
   width: auto;
   margin-top: 2px;
   vertical-align: middle;
+  height: 1.7rem !important;
 }
 
 @media (max-width: 1199.98px) {
   img.logo-in-title {
-    display: none;
+    display: none !important;
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  img.logo-in-title.home-logo {
-    display: inline;
+img.logo-in-title.home-logo {
+  display: inline !important;
+}
+
+@media (min-width: 576px) {
+  img.logo-in-title {
+    height: 2.6rem !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  img.logo-in-title.home-logo {
-    display: inline;
-    height: 3rem !important;
+@media (min-width: 768px) {
+  img.logo-in-title {
+    height: 2.8rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  img.logo-in-title {
+    height: 3.5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  img.logo-in-title {
+    height: 3.8rem !important;
   }
 }
 
@@ -583,6 +599,20 @@ img.logo-in-title {
   overflow: hidden;
 }
 
+.row.homepage-banner, .show-large .homepage-banner.icon-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: transparent;
+}
+
+@media (max-width: 575.98px) {
+  .row.homepage-banner, .show-large .homepage-banner.icon-row {
+    text-size-adjust: 70%;
+  }
+}
+
 @media (max-width: 575.98px) {
   .header-logo img {
     transform: scale(0.7);
@@ -611,24 +641,29 @@ img.logo-in-title {
 .trailer-wrapper {
   overflow: hidden;
   position: relative;
-  height: 500px;
-}
-
-@media (max-width: 991.98px) {
-  .trailer-wrapper {
-    height: 400px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .trailer-wrapper {
-    height: 250px;
-  }
 }
 
 @media (max-width: 575.98px) {
   .trailer-wrapper {
     height: inherit;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .trailer-wrapper {
+    height: 440px;
+  }
+}
+
+@media (min-width: 992px) {
+  .trailer-wrapper {
+    height: 545px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .trailer-wrapper {
+    height: 640px;
   }
 }
 
@@ -646,9 +681,16 @@ img.logo-in-title {
   }
 }
 
-.trailer-volume {
-  top: 5% !important;
-  left: 2% !important;
+@media (min-width: 768px) {
+  .trailer-play, .trailer-volume {
+    top: 85% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .trailer-play, .trailer-volume {
+    bottom: 7% !important;
+  }
 }
 
 .trailer-play {
@@ -656,16 +698,8 @@ img.logo-in-title {
   right: 0 !important;
 }
 
-@media (min-width: 768px) {
-  .trailer-play {
-    top: 85% !important;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .trailer-play {
-    bottom: 7% !important;
-  }
+.trailer-volume {
+  left: 4% !important;
 }
 
 table.date-list {
@@ -7852,7 +7886,7 @@ textarea.form-control-lg {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg, .row.homepage-banner, a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card-event-hover, a.card-event-hover:focus-within div.card-event-hover, a.card-event-hover:active div.card-event-hover, .show-large .homepage-banner.icon-row {
+.shadow-lg, a.card-event-hover:hover div.card-event-hover, a.card-event-hover:focus div.card-event-hover, a.card-event-hover:focus-within div.card-event-hover, a.card-event-hover:active div.card-event-hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
@@ -8048,7 +8082,7 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
-.w-100, table.date-list, .card-show-slider .show-image, .event-content iframe {
+.w-100, .row.homepage-banner, table.date-list, .card-show-slider .show-image, .show-large .homepage-banner.icon-row, .event-content iframe {
   width: 100% !important;
 }
 
@@ -8656,7 +8690,7 @@ textarea.form-control-lg {
   margin-left: -3rem !important;
 }
 
-.p-0, .card-show-small .card-body, .card-show-small .card-footer {
+.p-0, .trailer-wrapper, .card-show-small .card-body, .card-show-small .card-footer {
   padding: 0 !important;
 }
 
