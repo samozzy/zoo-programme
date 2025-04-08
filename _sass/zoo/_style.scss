@@ -22,17 +22,24 @@ img.logo-in-title{
   margin-top: 2px;
   vertical-align: middle;
   @include media-breakpoint-down(xl){
-  	display: none;
+  	display: none !important;
   }
   &.home-logo {
-  	@include media-breakpoint-only(xl){
-  		display: inline;
-  	}
-  	@include media-breakpoint-only(lg){
-  		display: inline;
-  		height: 3rem !important;
-  	}
+  	display: inline !important;
   }
+	height: 1.7rem !important;
+	@include media-breakpoint-up(sm){
+		height: 2.6rem !important;
+	}
+	@include media-breakpoint-up(md){
+		height: 2.8rem !important;
+	}
+	@include media-breakpoint-up(lg){
+		height: 3.5rem !important;
+	}
+	@include media-breakpoint-up(xl){
+		height: 3.8rem !important;
+	}
 }
 
 .header-category-wrapper {
@@ -77,7 +84,15 @@ img.logo-in-title{
 	overflow: hidden;
 }
 .row.homepage-banner {
-	@extend .bg-zoo-slate, .shadow-lg;
+	@extend .w-100;
+	position: absolute;
+	top: 0; 
+	left: 0;
+	z-index: 10;
+	background: transparent;
+	@include media-breakpoint-down(sm){
+		text-size-adjust: 70%;
+	}
 }
 .header-logo img {
 	@include media-breakpoint-down(sm){
@@ -106,15 +121,18 @@ img.logo-in-title{
 .trailer-wrapper {
 	overflow: hidden;
 	position: relative;
-	height: 500px;
-	@include media-breakpoint-down(lg){
-		height: 400px;
-	}
-	@include media-breakpoint-down(md){
-		height: 250px;
-	}
+	@extend .p-0;
 	@include media-breakpoint-down(sm){
 		height: inherit; // Automatic height adjustments on the tiniest viewports 
+	}
+	@include media-breakpoint-only(md){
+		height: 440px;
+	}
+	@include media-breakpoint-up(lg){
+		height: 545px;
+	}
+	@include media-breakpoint-only(xxl){
+		height: 640px;
 	}
 }
 
@@ -130,19 +148,20 @@ img.logo-in-title{
 		transform: scale(0.7);
 	}
 }
-.trailer-volume {
-	top: 5% !important;
-	left: 2% !important;
-}
-.trailer-play {
+.trailer-play, .trailer-volume {
 	@include media-breakpoint-up(md){
 		top: 85% !important;
 	}
 	@include media-breakpoint-down(md){
 		bottom: 7% !important; // Otherwise it disappears! :(
 	}
+}
+.trailer-play {
 	left: 0 !important;
 	right: 0 !important;
+}
+.trailer-volume {
+	left: 4% !important;
 }
 
 .row.homepage-row {

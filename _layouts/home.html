@@ -13,14 +13,13 @@ layout: default
 {% endif %}
 
 <div class="container-fluid bg-zoo-white px-0">
-	<div class="row homepage-banner p-4 mx-0">
-		<div class="d-block d-lg-none header-logo">{% include components/header-logo.html color='white' %}</div>
-		<div class="col-12 col-md-8 text-center text-md-start my-md-auto mb-4">
-	        <h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white'  %} 2025 Programme</h1> 
+	<div class="row homepage-banner p-4 mx-0 text-center">
+		<div class="col-auto mb-4 header-title p-2 p-md-4 my-md-auto">
+	        <h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white' extra_class="home-logo" %} 2025</h1>
 		</div>
         {% unless pre_launch %}
-		<div class="col-12 col-md-4 text-center text-md-end my-auto">
-			<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-secondary bebas rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
+		<div class="col-7 col-md-4 ms-auto text-end my-md-auto p-0">
+			<a href="{% link _content/programme.md %}" role="button" class="btn-zoo btn-primary bebas rounded-0 shadow-sm btn-lg icon-animation icon-animation-end">Full programme&nbsp;<i class="fa fa-book"></i></a>
 		</div>
         {% endunless %}
 	</div>
@@ -33,9 +32,9 @@ layout: default
 		</div>
 	</div>
 	{% endif %}
-	<div class="row mx-auto">
+	<div class="row p-0">
 		<div class="trailer-wrapper w-100 bg-zoo-black shadow" style="position:relative;">
-			<div style="padding:56.25% 0 0 0;position:relative;">
+			<div style="padding:55.5% 0 0 0;position:relative;">
 				<iframe id="trailer_iframe" class="trailer" src="https://player.vimeo.com/video/956784016?h=e146d61a1c&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479&controls=false&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen autoplay title="ZOO Trailer 2024"></iframe>
 			</div>
 
