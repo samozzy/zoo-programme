@@ -2346,6 +2346,55 @@ shows:
       - link: https://www.instagram.com/anemonevalcke
     image: /static/theego_343x343.jpg
     age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1829?
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1829/
     company: " Anemone Valcke and Verona Verbakel"
     content_warnings: []
+  - performances:
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "A memory: South London reggae pioneer Sutara Gayle AKA Lorna Gee
+      hears her radio debut from Holloway Prison. Another: She's engulfed in the
+      Brixton uprising sparked by the police shooting of her sister. And now she
+      is here, a silent retreat, seeking spiritual guidance from her brother
+      Mooji and ancestor Nanny of the Maroons, and a moment of transcendence.
+      Powered by high-octane musical numbers and a virtuoso performance, the
+      critically acclaimed, award-winning The Legends of Them is a breathtaking,
+      roof-raising chronicle of Sutara's singular, extraordinary life."
+    price:
+      ticket_deals: []
+      standard: 18
+      concession: 17
+      weekend: 19
+      weekend_conc: 18
+    start_time: 17:25
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr10
+    title: The Legends of Them – Here & Now Showcase
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/h  ackneyshowroom
+      - link: https://www.instagram.com/  hackneyshowroom/
+    content_warning_detail:
+      - "References to / themes of: racism"
+      - misogyny
+      - homophobia
+      - sexual assault and violence against women and girls
+      - police brutality
+      - drug taking / drug abuse
+      - suicide.
+    image: /static/thelegendsofthem-herenowshowcase_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1833/
+    company: " Hackney Showroom with Brixton House and Royal Court Theatre"
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of sexual violence
+      - Scenes of violence
+      - " Strobe lighting"
+      - Strong language/swearing
