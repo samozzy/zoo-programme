@@ -1992,6 +1992,14 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    copy_long: "Bennie really puts the ghost in ghostwriter. She writes suicide
+      notes for a living. It’s soul-purging work, and her record of seeing
+      people through to the bitter end is less than perfect. After a difficult
+      meeting with HR (Death), she’s assigned a challenge to prove herself and
+      keep her place in the Office. But she's landed an impossible client:
+      beloved chef and TV presenter Anthony Bourdain. Bennie is torn, but Chef
+      has unlocked a secret to the universe and can’t live to keep it. And if
+      Bennie doesn’t see this one out, she’s going Downstairs."
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2007,8 +2015,14 @@ shows:
     duration: 1hr
     title: Medium Dead
     age_guidance: 16+
+    links:
+      - {}
     content_warning_detail:
-      - Thisshowcontainsreferencestosuicideselfharmchildsexualabusedrugabouseandviolence
+      - This show contains references to suicide
+      - self harm
+      - child sexual abuse
+      - drug abuse and violence
+    image: /static/mediumdead_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1835/
     company: Eleanor Shaw
