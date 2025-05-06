@@ -2194,3 +2194,62 @@ shows:
     company: Rachel McKay Steele / Rhymes with Purple
     content_warnings:
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "Sequined seductress Entendre Entendre invites you to the launch of
+      her memoir, SMUT – a riotous recounting of her many (many!) lovers.
+      Through song, striptease and spoken word, Entendre bares it all: the
+      triumphs, the trainwrecks and the toe-curling truths of her romantic
+      escapades. Lucky audience members may leave with a signed copy of her
+      memoir... or an invitation to her boudoir. Written/performed by Bryn
+      Woznicki, directed by Rachel Resnik."
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 8
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: 20:55
+    booking_unavailable: false
+    is_draft: true
+    redirect_from:
+      - 1hr
+    venue: ZOO Playground
+    duration: 1hr
+    title: SMUT with Entendre Entendre
+    age_guidance: 18+
+    links:
+      - link: https://www.instagram.com/entendre_entendre
+      - link: https://www.facebook.com/brynwoz
+    image: /static/smutwithentendreentendre_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1839/
+    company: Bryn Woznicki
+    content_warnings:
+      - Audience participation
+      - "Nudity "
+      - Scenes of a sexual nature
+      - Strong language/swearing
