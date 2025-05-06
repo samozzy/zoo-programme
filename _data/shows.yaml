@@ -1481,3 +1481,51 @@ shows:
       - Audience participation
     video_embeds:
       - {}
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+    copy_long: Have you got a wild side? Batty has – she dreams of running barefoot,
+      wild swimming, of talking trees and the scent of the seasons turning. In
+      fact she's wondering if she might be a witch... Join Batty and her
+      companion Wildthing for gossip, gay abandon, exquisite tenderness and
+      raucous stories (with a side order of ranting), as they explore the magic
+      and power of ageing. This new production from Victoria Firth and Company
+      explores the wildness – as opposed to madness of women, and how our feral
+      side can reconnect us to ourselves and our environment.
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 10
+    start_time: 11:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Batty
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/m svictoriafirth
+      - link: " https://www.instagram.com/msvhf"
+      - link: " http://twitter.com/@msvhf"
+    image: /static/batty_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1821/
+    company: Victoria Firth
