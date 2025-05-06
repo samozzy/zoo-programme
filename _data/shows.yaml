@@ -1318,3 +1318,50 @@ shows:
       - "Contains distressing or potentially triggering themes, "
       - Strobe lighting
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+    copy_long: "'I think pregnant woman are ugly. Well, not ugly, that sounds bad.'
+      Sophie's stolen a baby. She doesn't even want a baby... but she knows that
+      this baby deserves a good life and a good mother that doesn't deep throat
+      fags and voddy-cokes. A Minor Theft is a comedy and a love letter to all
+      those grieving deaths so painful they upend our worlds. The show is an
+      exploration of infant death, working class on working class judgement and
+      the strange things that grief makes us do."
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 9
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "13.05 "
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 45mins
+    title: "A Minor Theft "
+    links:
+      - link: " https://www.instagram.com/bethmull92"
+      - link: http://twitter.com/@bethmullen
+    content_warning_detail: []
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1826/
+    company: Beth Mullen
+    content_warnings:
+      - Contains distressing or potentially triggering themes
