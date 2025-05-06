@@ -1799,7 +1799,7 @@ shows:
     title: Go With The Flow
     age_guidance: 16+
     links:
-      - link: https://www.instagram.com/  gowiththeflow.show
+      - link: https://www.instagram.com/gowiththeflow.show
     image: /static/gowiththeflow_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1830/
@@ -1808,3 +1808,52 @@ shows:
       - Scenes of a sexual nature
       - "Strong  language/swearing "
       - References to medical information
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: In 2023, my dad died. I didn't really talk to anyone cos I was busy
+      playing online poker in my bedroom. Did okay though. I guess? Really. I'm
+      fine now. Honestly. A Fringe debut from new company Don't Know What – How
+      to Win 5 Grand on the Internet is a true, one-man comedy show about not
+      talking, absent fathers, winning money and taking (un)healthy risks.
+    price:
+      standard: 12
+      concession: 7
+      weekend: 15
+      weekend_conc: 13
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "11:50 "
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: " How to Win 5 Grand on the Internet"
+    age_guidance: 18+
+    image: /static/how-to-win-5-grand-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1831/
+    company: Laurence Baker / Don't Know What
+    content_warnings:
+      - Strong language/swearing
