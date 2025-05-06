@@ -2378,8 +2378,8 @@ shows:
     title: The Legends of Them – Here & Now Showcase
     age_guidance: 14+
     links:
-      - link: https://www.facebook.com/h  ackneyshowroom
-      - link: https://www.instagram.com/  hackneyshowroom/
+      - link: https://www.facebook.com/hackneyshowroom
+      - link: https://www.instagram.com/hackneyshowroom/
     content_warning_detail:
       - "References to / themes of: racism"
       - misogyny
@@ -2398,3 +2398,43 @@ shows:
       - Scenes of violence
       - " Strobe lighting"
       - Strong language/swearing
+  - performances:
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+      - 2025-08-18
+    copy_long: Masterful storytelling, daring dance and subversively stupid
+      conversations from this unstoppable artist. Watch It! is an entertaining,
+      tightly organised game show for one about identity, personal truth and
+      political ideology. 'Superbly written and flawlessly delivered in the
+      manner of an accomplished stand-up comedian. It's punchy and full of wit'
+      (Gramilano.com). Wendy Houstoun teams up with Kate Champion (Australia)
+      and Hannes Langolf (UK, Germany) to create this personal and irreverent
+      solo. Made with financial support as part of DV8 Physical Theatre's Legacy
+      Commissions.
+    price:
+      standard: 14
+      concession: 9
+    start_time: "17:45 "
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Watch It!
+    age_guidance: 14+
+    links:
+      - {}
+    image: /static/watchit_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1841/
+    company: Wendy Houstoun
+    content_warnings:
+      - Contains distressing or potentially triggering themes
