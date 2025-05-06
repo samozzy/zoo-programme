@@ -2070,7 +2070,7 @@ shows:
         - 4th & 5th 2for1
       standard: 12
       concession: 11
-      weekend: 1112
+      weekend: 11
       weekend_conc: 12
     start_time: 12:45
     booking_unavailable: false
@@ -2086,3 +2086,57 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1836/
     company: Michelle Burke
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Shell is a fantastical one person show that weaves between realities
+      and awakens a wanting you may have forgotten was there. Hockey bro Andy is
+      leading a new sex ed club to B(reak) R(eproductive) O(ppression). The
+      Peanut in his hockey bag is hungry for your desires. And the performer
+      beneath it all is cracking open. Part play, part interactive workshop,
+      part unleashing, Shell confronts us with what we know and don’t know about
+      our bodies, their power and what happens when we truly ask for what we
+      want.
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 12
+      preview: 4
+    start_time: 15:05
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 55mins
+    title: Shell
+    age_guidance: 14+
+    image: /static/shell_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1824/
+    company: Ana Evans and Linnea Scott
+    content_warnings:
+      - Audience participation
+      - Nudity
+      - Scenes of a sexual nature
+      - Strong language/swearing
