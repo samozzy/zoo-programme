@@ -1529,3 +1529,62 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1821/
     company: Victoria Firth
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    access:
+      - captions
+      - ad
+      - relaxed
+    copy_long: 1999. 2005. 2014. This sibling jumps through a timeline of growing up
+      with a brother who has severe learning disabilities. Big Little Sister is
+      a journey through surrealist storytelling, sketches and monologues,
+      accompanied by the ethereal voice of her brother’s communication aid. But
+      what happens when you're made to grow up too quickly? What happens when
+      these memories aren’t all happy? When you are forced to address the
+      future??Holly Gifford’s debut play is a tribute to all glass children.
+      This is a story of shared madness, lack of control and abundant love.
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 8
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: 10:35
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: "Big Little Sister "
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/hollylaragifford/
+    image: /static/biglittlesister_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1822/
+    company: Holly Gifford
+    content_warnings:
+      - " Audience participation"
+      - " Contains distressing or potentially triggering themes"
+      - Strong language/swearing
