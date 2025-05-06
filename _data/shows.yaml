@@ -1420,3 +1420,64 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1819/
     company: Blind Theatre
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-04
+      - 2025-08-03
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-05
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-21
+      - 2025-08-08
+      - 2025-08-20
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Five stars! The winner of 17 awards in six countries. A global Fringe
+      hit, GUMBO takes you on a surreal, hilarious journey through the wild
+      world of WacDonalds. Meet a Japanese businessman, Trump and Krazy Kitty in
+      this absurd, side splitting comedy you won't want to miss! 'This kooky,
+      edgy, cartoon-like show may be the strangest show' \*\*\*\*\* (Edmonton
+      Journal). 'Madcap, off-beat, but bitingly savage in its satirical
+      approach, demonstrating American Globalization' \*\*\*\*\*
+      (BritishTheatre.com). 'Japanese Dadaist clowns' (12thNight.ca). 'The
+      savagely surreal satire of Fast-Food Capitalism' (Orlando Weekly). 'The
+      most in-your-face, outrageous, political and subversive show' (Orlando
+      Sentinel).
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 8
+    start_time: 19:20
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Are You Lovin' It
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/TheatreGroupGumbo
+      - link: https://www.instagram.com/theatregroupgumbo
+      - link: http://twitter.com/TheatreGumbo
+    image: /static/areyoulovinit_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1820/
+    company: Theatre Group GUMBO
+    content_warnings:
+      - Audience participation
+    video_embeds:
+      - {}
