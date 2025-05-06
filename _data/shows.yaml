@@ -2438,3 +2438,80 @@ shows:
     company: Wendy Houstoun
     content_warnings:
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: Double Take weaves together stories that encourage us to look closer,
+      think again and delight in the unexpected. Tasha and Becky bring audiences
+      on a journey from a bus stop to the big bang, passing by a mid-flight
+      superhero and returning to a hometown lake at sunset. It celebrates the
+      capacity of the body and imagination, and reminds us of the power of
+      simple storytelling. Join us on an adventure without a single spoken word.
+      Tasha and Becky are founding members of Broken Box Mime Theater in NYC,
+      which reimagines the art of mime for contemporary audiences.
+    price:
+      standard: 12
+    start_time: 11:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Double Takes
+    age_guidance: 12+
+    image: /static/doubletake_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1828/
+    company: Dutch Kills Theatre Company
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+    copy_long: Rita is an immigrant. She works at a mortuary and runs a support
+      forum for people who have been buried alive. But can she practice what she
+      preaches? Because the thing is, she just buried her ex alive. A dark
+      comedy one woman show about grief, love and loss. The choices we make, the
+      decisions made for us and the prices we all pay as a consequence. It won't
+      kill you to get a ticket – we promise!
+    price:
+      preview: 10
+      weekend: 13
+      standard: 12
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: 18:25
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: People We Bury Alive
+    age_guidance: 14+
+    image: /static/peopleweburyalive_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1837/
+    company: Passing Stranger Theatre Company
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a sexual nature
+      - Strong language/swearing
