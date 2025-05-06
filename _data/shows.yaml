@@ -2029,3 +2029,60 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    access:
+      - relaxed
+    copy_long: "When Angelus bells meet Murder, She Wrote: singer Michelle Burke
+      presents a rollicking, poignant tale of devotion, featuring moving
+      statues, nuns and American cousins (with beautiful teeth and magazine
+      hair). Directed by Gerda Stevenson, with songs from Burke's album,
+      produced by Duke Special. From her great-grandfather's imprisonment for
+      Irish independence to Uncle Pat's return on the day Neil Armstrong landed
+      on the moon, Mind How You Go delves into the constraints of religion and
+      strength of women, exploring what it means to be Irish in Scotland and the
+      powerful call of home. Featuring pianist James Ross."
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 1112
+      weekend_conc: 12
+    start_time: 12:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Mind How You Go
+    links:
+      - link: https://www.facebook.com/stepintomyparlour
+      - link: https://www.instagram.com/michelleburkemusic/
+      - link: https://twitter.com/michelleeburke
+    image: /static/mindhowyougo_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1836/
+    company: Michelle Burke
