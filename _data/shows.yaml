@@ -1910,3 +1910,108 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    access: null
+    copy_long: "A thrilling, saucy rendition of Shakespeare's classic tragedy,
+      Macbeth. Picture the dark and twisted tale of ambition and betrayal
+      reimagined with a sassy, sexy bluegrass flair! Award-winning theatre
+      company, The Barden Party, is back with their signature blend of humour
+      and heart, transforming Macbeth into an unforgettable experience full of
+      music, mischief and magic. Imagine this: a talented troupe of travelling
+      actors arrives, ready to perform Shakespeare's gripping drama infused with
+      comedy, live bluegrass music, and all the heart you could need, as you
+      become immersed in the scandalous, spirited and intimate world of
+      Macbeth."
+    price:
+      ticket_deals:
+        - 5th 2for1
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 10:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr30
+    title: Macbeth
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/thebardenparty/?hl=en
+      - link: https://www.facebook.com/thebardenparty
+    image: /static/macbeth_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1834/
+    company: The Barden Party
+    content_warnings:
+      - Audience participation
+      - Scenes of violence
+      - Strobe lighting
+      - Strong language/swearing
+      - Contains distressing or potentially triggering themes
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 10
+    start_time: 16:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Medium Dead
+    age_guidance: 16+
+    content_warning_detail:
+      - Thisshowcontainsreferencestosuicideselfharmchildsexualabusedrugabouseandviolence
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1835/
+    company: Eleanor Shaw
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Strong language/swearing
