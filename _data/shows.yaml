@@ -2308,3 +2308,9 @@ shows:
     content_warnings:
       - Scenes of a sexual nature
       - Strong language/swearing
+  - booking_unavailable: false
+    age_restricted: false
+    company: " Anemone Valcke and Verona Verbakel"
+    title: The Ego
+    is_draft: true
+    venue: ZOO Playground
