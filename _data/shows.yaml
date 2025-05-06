@@ -2308,9 +2308,44 @@ shows:
     content_warnings:
       - Scenes of a sexual nature
       - Strong language/swearing
-  - booking_unavailable: false
-    age_restricted: false
-    company: " Anemone Valcke and Verona Verbakel"
-    title: The Ego
+  - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "The Ego is a bold and humorous theatre performance by Anemone Valcke
+      and Verona Verbakel (known from Sirens by Ontroerend Goed). They explore
+      how transgressive behavior, internalised misogyny and #MeToo shape their
+      lives. With two chairs, a screen and sharp wit, they share real stories
+      with shameless honesty. Blending dry humour and tragically comic film
+      clips, the show is both confronting and entertaining. Without blaming
+      victims or pointing fingers at perpetrators, The Ego humorously exposes
+      the dysfunctional system behind such behavior, inviting the audience to
+      reflect on power, complicity and credibility."
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+    start_time: 13:25
+    booking_unavailable: false
     is_draft: true
     venue: ZOO Playground
+    duration: 1hr
+    title: The Ego
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/anemonevalcke
+    image: /static/theego_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1829?
+    company: " Anemone Valcke and Verona Verbakel"
+    content_warnings: []
