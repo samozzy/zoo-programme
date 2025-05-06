@@ -2140,3 +2140,57 @@ shows:
       - Nudity
       - Scenes of a sexual nature
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: A celebration of Jewish Identity, girlhood, and community mourning.
+      Can one Jewish comedian relate herself to Anne Frank? Although one of the
+      most famous and recognisable young women in the world, Frank's legacy is
+      often simplified so she can remain a saintly beacon from one of humanity's
+      darkest chapters. Now that we find ourselves in yet another dark chapter,
+      come laugh, celebrate, and mourn as filtered through her nose-job, Bat
+      Mitzvah, and a one-night stand with a German. She's trying to meet the
+      moment but showing up fashionably late (with snacks) instead.
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+    start_time: 14:20
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Shiva for Anne Frank
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/shivaforanne
+    image: /static/shivaforannefrank_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1838/
+    company: Rachel McKay Steele / Rhymes with Purple
+    content_warnings:
+      - Strong language/swearing
