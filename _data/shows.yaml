@@ -1588,3 +1588,61 @@ shows:
       - " Audience participation"
       - " Contains distressing or potentially triggering themes"
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "Georgina Musgrave is Big Red: Queensland's terrifying, hilarious,
+      disgusting, lesbian ex-wrestling sensation!! This adopted Queenslander
+      (via London) brings the pain, maim and brain to the 'ring' (stage). Bloody
+      delights, cutting insights and hilarious smackdowns ensue. Expect
+      oversharing, delusion and jokes that make you pause and then go: ohh...
+      ha. The Big Red persona is an exploratory vehicle for the all too true and
+      vulnerable facts of queerness, s*x and trying to survive an acute
+      awareness that modern society's collapse is nigh. 'Musgrave is delightful
+      with her self-deprecating humour' (Clara Santilli,
+      LonelyArchaeologist.wordpress.com)."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: 17:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Big Red
+    age_guidance: 18+
+    links:
+      - link: https://www.instagram.com/Geor.gemuz
+    image: /static/bigred_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1823/
+    company: Georgina Musgrave
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering  themes
+      - Strobe lighting
+      - Strong language/swearing
