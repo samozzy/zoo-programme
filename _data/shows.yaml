@@ -11,6 +11,7 @@ shows:
       - 2025-08-21
       - 2025-08-22
       - 2025-08-23
+      - 2025-08-24
     copy_long: GO! is at the crossroads of contemporary dance, martial arts and
       digital technology. In a choreography impregnated by the martial practice
       of the two dancers, and accessible from age 7+, these universes meet and
@@ -1352,7 +1353,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "13.05 "
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 45mins
     title: "A Minor Theft "
@@ -1408,7 +1409,7 @@ shows:
       preview: 11
     start_time: 20:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 45mins
     title: Another Sight
@@ -1464,7 +1465,7 @@ shows:
       preview: 8
     start_time: 19:20
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Are You Lovin' It
@@ -1516,7 +1517,7 @@ shows:
       preview: 10
     start_time: 11:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Batty
@@ -1573,7 +1574,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 10:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: "Big Little Sister "
@@ -1630,7 +1631,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 17:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Big Red
@@ -1689,7 +1690,7 @@ shows:
       concession: 13
     start_time: 12:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr10
     title: Chrome Yellow
@@ -1742,7 +1743,7 @@ shows:
       weekend_conc: 10
     start_time: "17.45"
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 50mins
     title: Courier
@@ -1793,7 +1794,7 @@ shows:
       preview: 8
     start_time: "19:40 "
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Go With The Flow
@@ -1846,7 +1847,7 @@ shows:
         - 4th & 5th 2for1
     start_time: "11:50 "
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: " How to Win 5 Grand on the Internet"
@@ -1895,10 +1896,10 @@ shows:
       concession: 11
       weekend: 13
       weekend_conc: 12
-      preview: 7
+      preview: 8
     start_time: 15:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: LA Baby
@@ -1952,7 +1953,7 @@ shows:
       weekend_conc: 11
     start_time: 10:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr30
     title: Macbeth
@@ -2010,7 +2011,7 @@ shows:
       preview: 10
     start_time: 16:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Medium Dead
@@ -2074,7 +2075,7 @@ shows:
       weekend_conc: 12
     start_time: 12:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Mind How You Go
@@ -2126,7 +2127,7 @@ shows:
       preview: 4
     start_time: 15:05
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 55mins
     title: Shell
@@ -2181,7 +2182,7 @@ shows:
       preview: 10
     start_time: 14:20
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Shiva for Anne Frank
@@ -2234,7 +2235,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 20:55
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     redirect_from:
       - 1hr
     venue: ZOO Playground
@@ -2293,7 +2294,7 @@ shows:
       preview: 10.5
     start_time: 10:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: TANKED
@@ -2337,7 +2338,7 @@ shows:
       weekend_conc: 11
     start_time: 13:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: The Ego
@@ -2372,7 +2373,7 @@ shows:
       weekend_conc: 18
     start_time: 17:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr10
     title: The Legends of Them – Here & Now Showcase
@@ -2425,7 +2426,7 @@ shows:
       concession: 9
     start_time: "17:45 "
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Watch It!
@@ -2459,10 +2460,10 @@ shows:
       standard: 12
     start_time: 11:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
-    title: Double Takes
+    title: Double Take
     age_guidance: 12+
     image: /static/doubletake_343x343.jpg
     age_restricted: false
@@ -2502,7 +2503,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 18:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: People We Bury Alive
