@@ -2359,9 +2359,9 @@ shows:
       - 2025-08-23
       - 2025-08-24
     copy_long: >-
-      
-
-      [Here + Now Showcase](https://www.hereandnowshowcase.uk/) presents a Hackney Showroom Production in Association with Brixton House & Royal Court Theatre\
+      [Here + Now Showcase](https://www.hereandnowshowcase.uk/) presents a
+      Hackney Showroom Production in Association with Brixton House & Royal
+      Court Theatre\
 
       \
 
@@ -2399,7 +2399,7 @@ shows:
 
       Joshie Harriette *Lighting Designer*\
 
-      Daniel Batters *Video* Designer\
+      Daniel Batters *Video Designer \[ITALIC]*\
 
       Melissa Simon-Hartman *Costume Designer*\
 
@@ -2407,17 +2407,35 @@ shows:
 
       Martina Laird *Associate Artist*\
 
+      Toby Smith (The Production Family) *Production Manager*\
+
       \
 
       Artwork photography by Jyoti Graziano\
 
-      With thanks to Gino Ricardo Green, Tony Gayle and Tyler Forward\
+      With thanks to Stuart Heyes, Gino Ricardo Green, Tony Gayle & Tyler Forward
+
 
       \
 
       Supported by Arts Council England\
 
       Developed with support from the National Theatre Generate Programme
+
+
+      ![](/static/1.-hackney-showroom-logo-black.png)
+
+
+      ![](/static/2.-brixton-house-logo-black.png)
+
+
+      ![](/static/3.-royal-court-logo-black.jpg)
+
+
+      ![](/static/4.-arts-council-logo-black.png)
+
+
+      ![](/static/5.-national-theatre-logo-black.png)
     price:
       ticket_deals: []
       standard: 18
