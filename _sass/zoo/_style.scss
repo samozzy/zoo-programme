@@ -377,6 +377,12 @@ a.card-event-hover  {
 			@extend .fs-6;
 			font-weight: 500;
 		}
+		img {
+			@extend .w-25;
+		}
+		.image-group {
+			@extend .d-flex, .flex-row;
+		}
 	}
 }
 

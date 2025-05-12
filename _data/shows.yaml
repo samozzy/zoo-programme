@@ -2423,19 +2423,15 @@ shows:
       Developed with support from the National Theatre Generate Programme
 
 
+      <div class="image-group" markdown="1">
+
       ![](/static/1.-hackney-showroom-logo-black.png)
-
-
       ![](/static/2.-brixton-house-logo-black.png)
-
-
       ![](/static/3.-royal-court-logo-black.jpg)
-
-
       ![](/static/4.-arts-council-logo-black.png)
-
-
       ![](/static/5.-national-theatre-logo-black.png)
+
+      </div>
     price:
       ticket_deals: []
       standard: 18
