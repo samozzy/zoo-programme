@@ -7863,7 +7863,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, .buttons, .buttons .btn-zoo-book, .programme-menu-container .programme-menu-card, .card-programme .card-header p, .card-show-slider .card-header, .card-show-slider .card-body, .card-show-slider .card-footer, .card-show-small .show-image, .show-large .icon-row {
+.d-flex, .buttons, .buttons .btn-zoo-book, .programme-menu-container .programme-menu-card, .card-programme .card-header p, .card-show-slider .card-header, .card-show-slider .card-body, .card-show-slider .card-footer, .card-show-small .show-image, .show-large .icon-row, .show-details .show-blurb .image-group {
   display: flex !important;
 }
 
@@ -8070,7 +8070,7 @@ textarea.form-control-lg {
   border-width: 5px !important;
 }
 
-.w-25 {
+.w-25, .show-details .show-blurb img {
   width: 25% !important;
 }
 
@@ -8138,7 +8138,7 @@ textarea.form-control-lg {
   flex: 1 1 auto !important;
 }
 
-.flex-row {
+.flex-row, .show-details .show-blurb .image-group {
   flex-direction: row !important;
 }
 
