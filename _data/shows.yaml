@@ -761,6 +761,8 @@ shows:
         platform: Instagram
       - link: http://vimeo.com/1056607386
         platform: Vimeo
+      - link: " https://www.shapercaper.com/smalltownboys"
+        title: Show Website
     image: /static/small-town-boys-new-.jpg
     age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1764/
@@ -2425,11 +2427,7 @@ shows:
 
       <div class="image-group" markdown="1">
 
-      ![](/static/1.-hackney-showroom-logo-black.png)
-      ![](/static/2.-brixton-house-logo-black.png)
-      ![](/static/3.-royal-court-logo-black.jpg)
-      ![](/static/4.-arts-council-logo-black.png)
-      ![](/static/5.-national-theatre-logo-black.png)
+      ![](/static/1.-hackney-showroom-logo-black.png) ![](/static/2.-brixton-house-logo-black.png) ![](/static/3.-royal-court-logo-black.jpg) ![](/static/4.-arts-council-logo-black.png) ![](/static/5.-national-theatre-logo-black.png)
 
       </div>
     price:
