@@ -1661,6 +1661,110 @@ shows:
       - 2025-08-08
       - 2025-08-09
       - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: A comedy cabaret like no other – exploring the 28-day cycle with
+      music, mischief and menstrual mayhem. The Gynae Guru is on a mission to
+      educate the masses. Come for the laughs, stay for the liberation!
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 8
+    start_time: "19:40 "
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Playground
+    duration: 1hr
+    title: Go With The Flow
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/gowiththeflow.show
+    image: /static/gowiththeflow_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1830/
+    company: Ethereal Collective
+    content_warnings:
+      - Scenes of a sexual nature
+      - "Strong  language/swearing "
+      - References to medical information
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: A darkly comedic tale of Davies' nine years in LA, where she arrives
+      full of comedy aspirations but leaves with absurd stories and survival
+      skills. Stuck in a cycle of cringeworthy auditions, odd jobs and finally,
+      a nanny gig with an Orthodox family in the middle of an expensive divorce.
+      Meanwhile, the relationship with her abusive partner escalates from toxic
+      to terrifying. When stalking, death threats and the prospect of carrying a
+      gun to school pick-ups become her only viable option, Davies decides to
+      escapes the chaos of LA and return to London.
+    price:
+      ticket_deals:
+        - 4th & 5th 2for1
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 8
+    start_time: 15:35
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Playground
+    duration: 1hr
+    title: LA Baby
+    age_guidance: 16+
+    image: /static/lababy_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1832/
+    company: Ambrosine Davies
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
       - 2025-08-11
       - 2025-08-13
       - 2025-08-14
@@ -1765,159 +1869,6 @@ shows:
       - 2025-08-01
       - 2025-08-02
       - 2025-08-03
-      - 2025-08-04
-      - 2025-08-05
-      - 2025-08-06
-      - 2025-08-07
-      - 2025-08-08
-      - 2025-08-09
-      - 2025-08-10
-      - 2025-08-12
-      - 2025-08-13
-      - 2025-08-14
-      - 2025-08-15
-      - 2025-08-16
-      - 2025-08-17
-      - 2025-08-19
-      - 2025-08-20
-      - 2025-08-21
-      - 2025-08-22
-      - 2025-08-23
-      - 2025-08-24
-    copy_long: A comedy cabaret like no other – exploring the 28-day cycle with
-      music, mischief and menstrual mayhem. The Gynae Guru is on a mission to
-      educate the masses. Come for the laughs, stay for the liberation!
-    price:
-      ticket_deals:
-        - 4th & 5th 2for1
-      standard: 12
-      concession: 11
-      weekend: 13
-      weekend_conc: 12
-      preview: 8
-    start_time: "19:40 "
-    booking_unavailable: false
-    is_draft: false
-    venue: ZOO Playground
-    duration: 1hr
-    title: Go With The Flow
-    age_guidance: 16+
-    links:
-      - link: https://www.instagram.com/gowiththeflow.show
-    image: /static/gowiththeflow_343x343.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1830/
-    company: Ethereal Collective
-    content_warnings:
-      - Scenes of a sexual nature
-      - "Strong  language/swearing "
-      - References to medical information
-  - performances:
-      - 2025-08-01
-      - 2025-08-02
-      - 2025-08-03
-      - 2025-08-04
-      - 2025-08-05
-      - 2025-08-06
-      - 2025-08-07
-      - 2025-08-08
-      - 2025-08-09
-      - 2025-08-10
-      - 2025-08-12
-      - 2025-08-13
-      - 2025-08-14
-      - 2025-08-15
-      - 2025-08-16
-      - 2025-08-17
-      - 2025-08-18
-      - 2025-08-19
-      - 2025-08-20
-      - 2025-08-21
-      - 2025-08-22
-      - 2025-08-23
-      - 2025-08-24
-    copy_long: In 2023, my dad died. I didn't really talk to anyone cos I was busy
-      playing online poker in my bedroom. Did okay though. I guess? Really. I'm
-      fine now. Honestly. A Fringe debut from new company Don't Know What – How
-      to Win 5 Grand on the Internet is a true, one-man comedy show about not
-      talking, absent fathers, winning money and taking (un)healthy risks.
-    price:
-      standard: 12
-      concession: 7
-      weekend: 15
-      weekend_conc: 13
-      ticket_deals:
-        - 4th & 5th 2for1
-    start_time: "11:50 "
-    booking_unavailable: false
-    is_draft: false
-    venue: ZOO Playground
-    duration: 1hr
-    title: " How to Win 5 Grand on the Internet"
-    age_guidance: 18+
-    image: /static/how-to-win-5-grand-.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1831/
-    company: Laurence Baker / Don't Know What
-    content_warnings:
-      - Strong language/swearing
-  - performances:
-      - 2025-08-01
-      - 2025-08-02
-      - 2025-08-03
-      - 2025-08-04
-      - 2025-08-05
-      - 2025-08-06
-      - 2025-08-07
-      - 2025-08-08
-      - 2025-08-09
-      - 2025-08-10
-      - 2025-08-11
-      - 2025-08-13
-      - 2025-08-14
-      - 2025-08-15
-      - 2025-08-16
-      - 2025-08-17
-      - 2025-08-18
-      - 2025-08-20
-      - 2025-08-21
-      - 2025-08-22
-      - 2025-08-23
-      - 2025-08-24
-    copy_long: A darkly comedic tale of Davies' nine years in LA, where she arrives
-      full of comedy aspirations but leaves with absurd stories and survival
-      skills. Stuck in a cycle of cringeworthy auditions, odd jobs and finally,
-      a nanny gig with an Orthodox family in the middle of an expensive divorce.
-      Meanwhile, the relationship with her abusive partner escalates from toxic
-      to terrifying. When stalking, death threats and the prospect of carrying a
-      gun to school pick-ups become her only viable option, Davies decides to
-      escapes the chaos of LA and return to London.
-    price:
-      ticket_deals:
-        - 4th & 5th 2for1
-      standard: 12
-      concession: 11
-      weekend: 13
-      weekend_conc: 12
-      preview: 8
-    start_time: 15:35
-    booking_unavailable: false
-    is_draft: false
-    venue: ZOO Playground
-    duration: 1hr
-    title: LA Baby
-    age_guidance: 16+
-    image: /static/lababy_343x343.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1832/
-    company: Ambrosine Davies
-    content_warnings:
-      - Contains distressing or potentially triggering themes
-      - Strong language/swearing
-  - performances:
-      - 2025-08-01
-      - 2025-08-02
-      - 2025-08-03
       - 2025-08-05
       - 2025-08-06
       - 2025-08-07
@@ -1972,6 +1923,55 @@ shows:
       - Strobe lighting
       - Strong language/swearing
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: In 2023, my dad died. I didn't really talk to anyone cos I was busy
+      playing online poker in my bedroom. Did okay though. I guess? Really. I'm
+      fine now. Honestly. A Fringe debut from new company Don't Know What – How
+      to Win 5 Grand on the Internet is a true, one-man comedy show about not
+      talking, absent fathers, winning money and taking (un)healthy risks.
+    price:
+      standard: 12
+      concession: 7
+      weekend: 15
+      weekend_conc: 13
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: "11:50 "
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Playground
+    duration: 1hr
+    title: " How to Win 5 Grand on the Internet"
+    age_guidance: 18+
+    image: /static/how-to-win-5-grand-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1831/
+    company: Laurence Baker / Don't Know What
+    content_warnings:
+      - Strong language/swearing
   - performances:
       - 2025-08-01
       - 2025-08-02
@@ -2311,47 +2311,6 @@ shows:
       - Scenes of a sexual nature
       - Strong language/swearing
   - performances:
-      - 2025-08-12
-      - 2025-08-13
-      - 2025-08-14
-      - 2025-08-15
-      - 2025-08-16
-      - 2025-08-17
-      - 2025-08-19
-      - 2025-08-20
-      - 2025-08-21
-      - 2025-08-22
-      - 2025-08-23
-      - 2025-08-24
-    copy_long: "The Ego is a bold and humorous theatre performance by Anemone Valcke
-      and Verona Verbakel (known from Sirens by Ontroerend Goed). They explore
-      how transgressive behavior, internalised misogyny and #MeToo shape their
-      lives. With two chairs, a screen and sharp wit, they share real stories
-      with shameless honesty. Blending dry humour and tragically comic film
-      clips, the show is both confronting and entertaining. Without blaming
-      victims or pointing fingers at perpetrators, The Ego humorously exposes
-      the dysfunctional system behind such behavior, inviting the audience to
-      reflect on power, complicity and credibility."
-    price:
-      standard: 12
-      concession: 11
-      weekend: 13
-      weekend_conc: 11
-    start_time: 13:25
-    booking_unavailable: false
-    is_draft: false
-    venue: ZOO Playground
-    duration: 1hr
-    title: The Ego
-    age_guidance: 16+
-    links:
-      - link: https://www.instagram.com/anemonevalcke
-    image: /static/theego_343x343.jpg
-    age_restricted: false
-    ticket_url: https://tickets.zoofestival.co.uk/event/124:1829/
-    company: " Anemone Valcke and Verona Verbakel"
-    content_warnings: []
-  - performances:
       - 2025-08-19
       - 2025-08-20
       - 2025-08-21
@@ -2399,7 +2358,7 @@ shows:
 
       Joshie Harriette *Lighting Designer*\
 
-      Daniel Batters *Video Designer \[ITALIC]*\
+      Daniel Batters *Video Designer* \
 
       Melissa Simon-Hartman *Costume Designer*\
 
@@ -2425,7 +2384,7 @@ shows:
 
       <div class="image-group" markdown="1">
 
-      ![](/static/1.-hackney-showroom-logo-black.png) ![](/static/2.-brixton-house-logo-black.png) ![](/static/3.-royal-court-logo-black.jpg) ![](/static/4.-arts-council-logo-black.png) ![](/static/5.-national-theatre-logo-black.png)
+      !\[](/static/1.-hackney-showroom-logo-black.png) !\[](/static/2.-brixton-house-logo-black.png) !\[](/static/3.-royal-court-logo-black.jpg) !\[](/static/4.-arts-council-logo-black.png) !\[](/static/5.-national-theatre-logo-black.png)
 
       </div>
     price:
@@ -2452,7 +2411,7 @@ shows:
       - police brutality
       - drug taking / drug abuse
       - suicide.
-    image: /static/thelegendsofthem-herenowshowcase_343x343.jpg
+    image: /static/legends_2025_rgb-2250x2250.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1833/
     company: " Hackney Showroom with Brixton House and Royal Court Theatre"
@@ -2462,6 +2421,47 @@ shows:
       - Scenes of violence
       - " Strobe lighting"
       - Strong language/swearing
+  - performances:
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "The Ego is a bold and humorous theatre performance by Anemone Valcke
+      and Verona Verbakel (known from Sirens by Ontroerend Goed). They explore
+      how transgressive behavior, internalised misogyny and #MeToo shape their
+      lives. With two chairs, a screen and sharp wit, they share real stories
+      with shameless honesty. Blending dry humour and tragically comic film
+      clips, the show is both confronting and entertaining. Without blaming
+      victims or pointing fingers at perpetrators, The Ego humorously exposes
+      the dysfunctional system behind such behavior, inviting the audience to
+      reflect on power, complicity and credibility."
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 11
+    start_time: 13:25
+    booking_unavailable: false
+    is_draft: false
+    venue: ZOO Playground
+    duration: 1hr
+    title: The Ego
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/anemonevalcke
+    image: /static/theego_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1829/
+    company: " Anemone Valcke and Verona Verbakel"
+    content_warnings: []
   - performances:
       - 2025-08-11
       - 2025-08-12
