@@ -640,7 +640,7 @@ shows:
     duration: 1hr
     title: Midnight in Nashville
     age_guidance: 12+
-    image: /static/midnight-in-nashville.png
+    image: /static/updated-midnight-in-nashville-image.png
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1759/
     company: The French Broad
