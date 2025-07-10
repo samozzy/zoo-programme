@@ -673,13 +673,16 @@ shows:
       - relaxed
       - captions
     copy_long: "'What if our aloneness isn't a tragedy? What if our aloneness is
-      what allows us to speak the truth without being afraid?' A Jewish actor
-      and predominantly Jewish team bring to life the story of Rachel Corrie, a
-      courageous 23-year-old American who left her comfortable life in 2003 to
-      stand between an Israeli bulldozer and a Palestinian home in Gaza. The
-      script is based on Corrie's own words, edited for the stage by Alan
-      Rickman and Katherine Viner. This production offers an intimate, urgent
-      exploration of resistance, hope and humanity in the face of injustice."
+      what allows us to speak the truth without being afraid?' From Jewish actor
+      Sascha Shinder, alongside a predominately Jewish creative team led by
+      producer Gabriel Speechly, and award-winning Scottish theatre director
+      Susan Worsfold, comes a new staging of My Name is Rachel Corrie - an
+      urgent and impassioned text for our time, originally compiled and edited
+      by Alan Rickman and Katherine Viner. Bringing to life the true story of
+      courageous 23 year old activist Rachel Corrie - who left her comfortable
+      life in the American suburbs in 2003 to stand between an Israeli bulldozer
+      and a Palestinian home at threat of being destroyed, the script is based
+      on Corrie’s own words."
     price:
       standard: 12
       concession: 9
@@ -692,7 +695,7 @@ shows:
     duration: 1hr30mins
     title: " My Name is Rachel Corrie"
     age_guidance: 14+
-    image: /static/mynameisrachelcorrie_343x343.jpg
+    image: /static/my-name-is-rachel-corrie-aug-no-text.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1760/
     company: Sascha Shinder
