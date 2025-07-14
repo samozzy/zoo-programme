@@ -387,13 +387,36 @@ shows:
       - 2025-08-15
       - 2025-08-16
       - 2025-08-17
-    copy_long: "Upside-down or right side up? On purpose or by accident? How do you
-      like your eggs? From the mischievous minds of Full Out Formula comes I
-      Think It Could Work, a daring and playful leap into the unexpected. With
-      bright colours, dazzling acrobatics and unflinching trust, this
-      Chicago-based contemporary circus collective invites you into a
-      speculative world where your choices decide their destiny. It's circus
-      like you've never seen before: live, improvised and unforgettable."
+    copy_long: >-
+      Upside-down or right side up? On purpose or by accident? How do you like
+      your eggs? From the mischievous minds of Full Out Formula comes I Think It
+      Could Work, a daring and playful leap into the unexpected. With bright
+      colours, dazzling acrobatics and unflinching trust, this Chicago-based
+      contemporary circus collective invites you into a speculative world where
+      your choices decide their destiny. It's circus like you've never seen
+      before: live, improvised and unforgettable
+
+
+      *[Extant](https://extant.org.uk/)* in partnership with ZOO  – presents Enhance
+
+       I Think It Could Work by Full Out Formula / Almanac Projects
+
+       Visually impaired access has been created for this show post-production, devised by an Extant visually impaired facilitator. This is not audio description, but instead an ‘enhanced’ way of providing access that has been tried and tested by Extant.
+
+
+       We invite visually impaired audiences to come along and experience the programme notes and touch tour before the show beginning at 16:30. The notes encapsulate the visual aspects of the show and are written with access for visually impaired audiences at the core. The Touch Tour offers exploration of set, props and costume: offering an immersive space in which to imagine the work before the show begins.
+
+
+       *‘Very descriptive and it allowed me to create a visual picture in my head.’*
+
+
+       
+
+
+      Extant Enhance 2023-26 is funded by Paul Hamlyn Foundation and Arts Council England.
+
+
+      ![](/static/enhancemarklogo.jpg)
     price:
       standard: 18
       concession: 17
@@ -414,6 +437,7 @@ shows:
         platform: Instagram
       - link: https://youtu.be/qXf5AAaZH0E?si=x9ihrLCBaYUEvVk2
         platform: YouTube
+      - {}
     image: /static/ithinkitcouldwork_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1756/
