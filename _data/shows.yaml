@@ -2722,7 +2722,7 @@ shows:
         - 4th & 5th 2for1
     start_time: 12:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Atomic Tales
