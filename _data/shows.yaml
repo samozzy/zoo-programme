@@ -2681,3 +2681,56 @@ shows:
       - Contains distressing or potentially triggering themes
       - Scenes of a sexual nature
       - Strong language/swearing
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+      - 2025-08-10
+      - 2025-08-12
+      - 2025-08-13
+      - 2025-08-14
+      - 2025-08-15
+      - 2025-08-16
+      - 2025-08-17
+      - 2025-08-18
+      - 2025-08-19
+      - 2025-08-20
+      - 2025-08-21
+      - 2025-08-22
+      - 2025-08-23
+      - 2025-08-24
+    copy_long: "Atomic Tales pays homage to an unforgettable page of history:
+      26/04/1986; Chernobyl nuclear power plant in Ukraine explodes. This
+      reconstruction is not of events, but of feelings through the eyes and the
+      voice of Ludmilla, the wife of a firefighter. The narration focuses on the
+      human dimension of the tragedy. Ludmila's words are transcribed in Prayer
+      for Chernobyl, by Nobel Prize winner S Aleksievich. This intense
+      monologue, as intimate as a confession, is a hymn to life that reveals
+      itself in the most tragic moments. .As Ludmilla says, 'happiness is such a
+      simple thing'."
+    price:
+      standard: 12
+      concession: 10
+      preview: 8
+      ticket_deals:
+        - 4th & 5th 2for1
+    start_time: 12:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Atomic Tales
+    age_guidance: 12+
+    links:
+      - link: https://www.facebook.com/s hare/1XZriQdX1c/?mibextid=LQQJ4d
+      - link: https://www.instagram.com/elena_arvigo? igsh=ZWNlM2g4Z3lkbmxl
+    image: /static/atomic-tales-343x343.jpg
+    age_restricted: true
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1843/
+    company: SantaRita and Jack Teatro
