@@ -2754,7 +2754,7 @@ shows:
         - 4th&5th 2 for 1
     start_time: 17:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Between The River And The Sea
