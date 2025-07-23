@@ -2725,3 +2725,48 @@ shows:
     age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1843/
     company: Elena Arvigo
+  - performances:
+      - 2025-08-01
+      - 2025-08-02
+      - 2025-08-03
+      - 2025-08-04
+      - 2025-08-05
+      - 2025-08-06
+      - 2025-08-07
+      - 2025-08-08
+      - 2025-08-09
+    copy_long: Palestinian-Israeli actor Yousef Sweid dives into the chaos of
+      identity, truth, and family life in Between The River And The Sea. Raised
+      as a Christian Arab kid in Haifa, now raising two Jewish-Arab kids in
+      Berlin, he unpacks his in-between-ness — where contradictions clash and
+      slogans fail. With biting humor and raw honesty, Sweid weaves personal
+      stories, political reflection, and absurd everyday moments into a sharp,
+      unflinching solo performance. This is no neat narrative—but a plea for
+      nuance, for listening, and for stories that rarely get told.
+      Uncomfortable, unforgettable, unfiltered. Complex, touching and funny.
+    price:
+      weekend: 13
+      weekend_conc: 12
+      standard: 12
+      concession: 10
+      preview: 10
+      ticket_deals:
+        - 4th&5th 2 for 1
+    start_time: 17:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Between The River And The Sea
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/yousefsweid
+      - link: http://vimeo.com/1098981616
+    image: /static/07-19-2025-103144-3172.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1845/
+    company: Yousef Sweid & Isabella Sedlak (Maxim Gorki Theater)
+    content_warnings:
+      - " Contains distressing or potentially triggering themes"
+      - Scenes of a sexual nature
+      - Strong language/swearing
