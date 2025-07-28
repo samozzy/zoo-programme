@@ -2759,7 +2759,7 @@ shows:
     is_draft: false
     venue: ZOO Southside
     duration: 1hr
-    title: Between The River And The Sea
+    title: Between The River and The Sea
     age_guidance: 14+
     links:
       - link: https://www.instagram.com/yousefsweid
@@ -2767,6 +2767,44 @@ shows:
     image: /static/07-19-2025-103144-3172.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1845/
+    company: Yousef Sweid & Isabella Sedlak (Maxim Gorki Theater)
+    content_warnings:
+      - " Contains distressing or potentially triggering themes"
+      - Scenes of a sexual nature
+      - Strong language/swearing
+  - performances:
+      - 2025-08-10
+      - 2025-08-11
+      - 2025-08-12
+      - 2025-08-13
+    copy_long: Palestinian-Israeli actor Yousef Sweid dives into the chaos of
+      identity, truth, and family life in Between The River And The Sea. Raised
+      as a Christian Arab kid in Haifa, now raising two Jewish-Arab kids in
+      Berlin, he unpacks his in-between-ness — where contradictions clash and
+      slogans fail. With biting humor and raw honesty, Sweid weaves personal
+      stories, political reflection, and absurd everyday moments into a sharp,
+      unflinching solo performance. This is no neat narrative—but a plea for
+      nuance, for listening, and for stories that rarely get told.
+      Uncomfortable, unforgettable, unfiltered. Complex, touching and funny.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 9
+    start_time: 21:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: "Between The River and The Sea "
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/yousefsweid
+      - link: http://vimeo.com/1098981616
+    image: /static/07-19-2025-103144-3172.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1847/
     company: Yousef Sweid & Isabella Sedlak (Maxim Gorki Theater)
     content_warnings:
       - " Contains distressing or potentially triggering themes"
