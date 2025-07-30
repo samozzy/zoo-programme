@@ -1232,7 +1232,7 @@ shows:
       - link: http://vimeo.com/1040036922
         platform: Vimeo
     image: /static/upyourass_343x343.jpg
-    age_restricted: false
+    age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1768/
     company: " Lieselot Siddiki and Nona Demey Gallagher / detheatermaker"
     content_warnings:
