@@ -2677,6 +2677,9 @@ shows:
     duration: 1hr
     title: People We Bury Alive
     age_guidance: 14+
+    links:
+      - link: https://vimeo.com/1106129416
+        title: Audio Description
     image: /static/peopleweburyalive_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1837/
