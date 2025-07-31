@@ -1389,6 +1389,8 @@ shows:
         platform: Instagram
       - link: https://www.tiktok.com/@youthinflames
         platform: TikTok
+      - link: https://vimeo.com/1106194672
+        title: Audio Description
     image: /static/youthinflames_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1770/
