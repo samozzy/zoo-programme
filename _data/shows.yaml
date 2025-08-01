@@ -159,9 +159,12 @@ shows:
       - platform: Youtube
         link: https://youtu.be/3daBt0zPMLw?si=6Hs_f2RmfB8_julV
       - link: https://vimeo.com/1106082188
-        title: Audio Description (English)
+        title: This year we are working with Extant to help make all our shows as
+          accessible as possible to audiences with visual impairments. As part
+          of this we have asked our companies to record an audio introduction to
+          their show.  Please click here to listen.
       - link: https://vimeo.com/1106077644
-        title: Audio Description (Spanish)
+        title: Audio Introduction (Spanish)
     reviews:
       - {}
     image: /static/adragisborn_343x343.jpg
