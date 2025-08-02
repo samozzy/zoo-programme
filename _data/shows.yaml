@@ -279,6 +279,8 @@ shows:
       - 2025-08-23
       - 2025-08-24
       - 2025-08-22
+    access:
+      - ad
     copy_long: Even amongst the chaos and pain, there are moments of love and light.
       A one-man (and one puppet) musical journey through a zombie outbreak,
       combining live performance, puppetry and animation. Ridiculous, dark,
@@ -287,6 +289,7 @@ shows:
       forced – ultimately – to sing? 'Absurd, eccentric, funny, full of pathos
       and unforced allegory', 'Probably the most bizarre, clever, hilarious and
       weirdly endearing thing I've ever seen on a stage' (Audience reviews).
+    access_details: This show will be audio described on the 5th August
     price:
       standard: 12
       concession: 11
@@ -309,6 +312,11 @@ shows:
         platform: Instagram
       - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
         platform: YouTube
+      - title: This year we are working with Extant to help make all our shows as
+          accessible as possible to audiences with visual impairments. As part
+          of this we have asked our companies to record an audio introduction to
+          their show. Please click here to listen.
+        link: https://vimeo.com/1106493231
     image: /static/dozombiesdreamofundeadsheep_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1751/
