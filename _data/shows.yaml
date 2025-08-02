@@ -2481,6 +2481,8 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    access:
+      - ad
     copy_long: >-
       [Here + Now Showcase](https://www.hereandnowshowcase.uk/) presents a
       Hackney Showroom Production in Association with Brixton House & Royal
@@ -2551,6 +2553,7 @@ shows:
       !\[](/static/1.-hackney-showroom-logo-black.png) !\[](/static/2.-brixton-house-logo-black.png) !\[](/static/3.-royal-court-logo-black.jpg) !\[](/static/4.-arts-council-logo-black.png) !\[](/static/5.-national-theatre-logo-black.png)
 
       </div>
+    access_details: This show will be audio described on the 23rd August.
     price:
       ticket_deals: []
       standard: 18
