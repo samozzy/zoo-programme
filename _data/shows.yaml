@@ -12,11 +12,14 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    access:
+      - relaxed
     copy_long: GO! is at the crossroads of contemporary dance, martial arts and
       digital technology. In a choreography impregnated by the martial practice
       of the two dancers, and accessible from age 7+, these universes meet and
       mix to create a duet that combines humour, precision of gesture and beauty
       of movement.
+    access_details: Relaxed performances available for all scheduled show dates.
     price:
       standard: 10
       concession: 8
