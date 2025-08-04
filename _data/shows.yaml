@@ -507,6 +507,12 @@ shows:
         platform: TikTok
       - link: " https://www.youtube.com/@lenkavagner/videos"
         platform: YouTube
+    reviews:
+      - quote: '"Vangnerova and her eight superbly versatile performers know the abiding
+          value of art that comes sincerely from the heart… Panoptikum is a
+          memorable example of that at its finest” '
+        stars: 5
+        Publisher: THE HERALDTHE HERALD
     image: /static/panoptikum-new-photo-343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1761/
