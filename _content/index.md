@@ -12,5 +12,6 @@ logo_in_title: true
 <p><br><br><a href="https://extant.org.uk/">Visit Extant</a><br></p>
 
 #### Opening Times
-Zoo: 10am - 2am<br>
+
+ZOO: 10am - 2am<br>
 B﻿ar: 11am - 2am (food 11am - 9pm)
