@@ -2013,6 +2013,10 @@ shows:
       brakes come off. Strap on your helmets and grip those handlebars tight –
       this ride is full of sharp twists, sudden turns and plenty of bumps along
       the way
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen. "
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2030,10 +2034,7 @@ shows:
     links:
       - link: https://www.instagram.com/couriertheplay
       - link: https://vimeo.com/1106172774
-        title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.
+        title: AUDIO INTRODUCTION
     image: /static/courier_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1827/
