@@ -1332,6 +1332,8 @@ shows:
       - 2025-08-08
       - 2025-08-09
       - 2025-08-10
+    access:
+      - ad
     copy_long: KISS explores what happens when women enter a world created by men.
       What is it like to be expected to act like the men around them? Is it
       possible for them to find their own expression in world of raw
@@ -1339,6 +1341,7 @@ shows:
       of the balloon? Get ready for a powerful performance filled with quirky
       stunts and mental courage as the three female performers step out of their
       comfort zones to take on DON GNU's testosterone fueled action universe.
+    access_details: This show is being audio described on 6th August.
     price:
       standard: 18
       concession: 16
