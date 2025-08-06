@@ -2465,6 +2465,8 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    access:
+      - relaxed
     copy_long: "This live docu-series follows the life of Coral and Gil. Two fish, a
       tank and a rocky relationship! Come dive into the freshwater wreaking with
       undeniable pheromones, fake plants and many a word left unspoken. Welcome
@@ -2472,6 +2474,7 @@ shows:
       fear within a relationship, through an anthropomorphic approach. Prompting
       the notion of looking at a relationship through a fishbowl, all of which
       is captured through a documentarian lens, and clowning style."
+    access_details: Relaxed performances on 10th and 17th August.
     price:
       ticket_deals:
         - 4th & 5th 2for1
