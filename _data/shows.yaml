@@ -2163,7 +2163,7 @@ shows:
     access_details: This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click here to listen.
+      show. Please click the link at the bottom of the page to listen.
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2181,10 +2181,7 @@ shows:
     age_guidance: 16+
     links:
       - link: https://vimeo.com/1106415448
-        title: "This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.   "
+        title: <b> AUDIO INTRODUCTION <b>
     content_warning_detail:
       - This show contains references to suicide
       - self harm
