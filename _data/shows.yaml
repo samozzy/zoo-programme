@@ -734,7 +734,8 @@ shows:
       life in the American suburbs in 2003 to stand between an Israeli bulldozer
       and a Palestinian home at threat of being destroyed, the script is based
       on Corrie’s own words."
-    access_details: This show will have relaxed performances on 6th, 13th and 20th August.
+    access_details: This show will have relaxed performances on 6th, 13th and 20th
+      August. Captioning downloadable before every performance.
     price:
       standard: 12
       concession: 9
@@ -1191,6 +1192,8 @@ shows:
       - 2025-08-22
       - 2025-08-23
       - 2025-08-24
+    access:
+      - ad
     copy_long: "For those that missed Lewis' entirely sold-out run in 2024, you're
       in luck – his life-changingly beautiful show is back, reduxed – if you
       managed to snag a ticket last time to this multi award-winning, highly
@@ -1199,6 +1202,7 @@ shows:
       light fantastic' (Guardian) for the last time before Lewis answers the
       call of the International Festival. A collocation of sound, light,
       movement, space, shape and form guaranteed to stir the emotions."
+    access_details: This show will be audio described on 10th August.
     price:
       standard: 18
       concession: 17
@@ -2169,7 +2173,7 @@ shows:
     access_details: This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen
+      show. Please click here to listen.
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2187,7 +2191,10 @@ shows:
     age_guidance: 16+
     links:
       - link: https://vimeo.com/1106415448
-        title: <B> AUDIO INTRODUCTION </B>
+        title: "This year we are working with Extant to help make all our shows as
+          accessible as possible to audiences with visual impairments. As part
+          of this we have asked our companies to record an audio introduction to
+          their show.  Please click here to listen.   "
     content_warning_detail:
       - This show contains references to suicide
       - self harm
