@@ -1938,6 +1938,8 @@ shows:
       human need for connection. Chrome Yellow invites audiences to laugh,
       reflect and find comfort in the beautifully chaotic process of figuring
       things out.
+    access_details: This show will include BSL interpretation on 20th August, with
+      relaxed performances on the 13th and 20th August.
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2163,7 +2165,7 @@ shows:
     access_details: This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen.
+      show. Please click here to listen.
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2181,7 +2183,10 @@ shows:
     age_guidance: 16+
     links:
       - link: https://vimeo.com/1106415448
-        title: <b> AUDIO INTRODUCTION <b>
+        title: "This year we are working with Extant to help make all our shows as
+          accessible as possible to audiences with visual impairments. As part
+          of this we have asked our companies to record an audio introduction to
+          their show.  Please click here to listen.   "
     content_warning_detail:
       - This show contains references to suicide
       - self harm
