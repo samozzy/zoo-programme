@@ -322,10 +322,7 @@ shows:
         platform: Instagram
       - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
         platform: YouTube
-      - title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show. Please click here to listen.
+      - title: AUDIO INTRODUCTION
         link: https://vimeo.com/1106493231
     image: /static/dozombiesdreamofundeadsheep_343x343.jpg
     age_restricted: false
