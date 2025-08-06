@@ -774,6 +774,8 @@ shows:
       - 2025-08-07
       - 2025-08-08
       - 2025-08-09
+    access:
+      - ad
     copy_long: Shh... What's that noise? A squeak? A squeal? A bird? It's getting
       louder. Oh dear... Pekku takes a playful look at what happens when you
       want to be left alone and others have a different idea. A new show for 3
@@ -781,6 +783,7 @@ shows:
       by Red Bridge Arts, ROHM Theatre and Ricca Ricca Festival. Produced by Red
       Bridge Arts. Part of Made in Scotland showcase.
       MadeInScotlandShowcase.com.
+    access_details: This show is being audio described on 6th August.
     price:
       standard: 9
       ticket_deals:
