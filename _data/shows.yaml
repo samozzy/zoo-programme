@@ -72,6 +72,10 @@ shows:
       in her life, when she is paralysed with fear, they appear, giving her
       inspiration and courage. A heartwarming, life-affirming mix of comedy and
       storytelling about three very unlikely guardian angels
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen. "
     price:
       weekend: 13
       standard: 11
@@ -96,10 +100,7 @@ shows:
         title: ""
         platform: Youtube
       - link: https://vimeo.com/1106154981
-        title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.
+        title: AUDIO INTRODUCTION
     image: /static/3whiteguysnamedjohn_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1749/
@@ -138,6 +139,11 @@ shows:
       true self. Created and performed by Edu Díaz, a Fulbright-awarded artist
       from the Canary Islands, A Drag is Born has won five awards, including
       Best Solo Clown (NYC Fringe) and Best Solo Show (Orlando Fringe).
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen (English
+      and Spanish available). "
     price:
       standard: 12
       concession: 10
@@ -162,12 +168,9 @@ shows:
       - platform: Youtube
         link: https://youtu.be/3daBt0zPMLw?si=6Hs_f2RmfB8_julV
       - link: https://vimeo.com/1106082188
-        title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.
+        title: AUDIO INTRODUCTION (English)
       - link: https://vimeo.com/1106077644
-        title: Audio Introduction (Spanish)
+        title: AUDIO INTRODUCTION (Spanish)
     reviews:
       - {}
     image: /static/adragisborn_343x343.jpg
@@ -292,7 +295,11 @@ shows:
       forced – ultimately – to sing? 'Absurd, eccentric, funny, full of pathos
       and unforced allegory', 'Probably the most bizarre, clever, hilarious and
       weirdly endearing thing I've ever seen on a stage' (Audience reviews).
-    access_details: This show will be audio described on the 5th August.
+    access_details: "This show will be audio described on the 5th August. This year
+      we are working with Extant to help make all our shows as accessible as
+      possible to audiences with visual impairments. As part of this we have
+      asked our companies to record an audio introduction to their show. Please
+      click the link at the bottom of the page to listen. "
     price:
       standard: 12
       concession: 11
@@ -1409,6 +1416,10 @@ shows:
       riot, enter Millie's world where being an outsider has always been the
       norm. Written and performed by Mimi Martin, she's bold, rebellious and
       impossible to resist. 'I can be the foreign devil if they want'.
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen. "
     price:
       standard: 12
       concession: 11
@@ -1429,10 +1440,7 @@ shows:
       - link: https://www.tiktok.com/@youthinflames
         platform: TikTok
       - link: https://vimeo.com/1106194672
-        title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.
+        title: AUDIO INTRODUCTION
     image: /static/youthinflames_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1770/
@@ -1465,6 +1473,10 @@ shows:
       those grieving deaths so painful they upend our worlds. The show is an
       exploration of infant death, working class on working class judgement and
       the strange things that grief makes us do."
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen. "
     price:
       standard: 12
       concession: 11
@@ -1484,10 +1496,7 @@ shows:
       - link: " https://www.instagram.com/bethmull92"
       - link: http://twitter.com/@bethmullen
       - link: https://vimeo.com/1106089358
-        title: This year we are working with Extant to help make all our shows as
-          accessible as possible to audiences with visual impairments. As part
-          of this we have asked our companies to record an audio introduction to
-          their show.  Please click here to listen.
+        title: AUDIO INTRODUCTION
     content_warning_detail: []
     image: /static/aminortheft_343x343.jpg
     age_restricted: false
