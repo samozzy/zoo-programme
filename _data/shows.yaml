@@ -1982,6 +1982,9 @@ shows:
     duration: 1hr10
     title: Chrome Yellow
     age_guidance: 12+
+    links:
+      - link: https://static1.squarespace.com/static/60e412310739b95df33e9a5e/t/6893267966bd0a4f1047e639/1754474106935/VISUAL+STORY+for+CHROME+YELLOW.pdf.
+        title: The Visual Story for Chrome Yellow is now hosted online at this link: 
     image: /static/chromeyellow_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1825/
