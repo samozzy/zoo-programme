@@ -1145,6 +1145,10 @@ shows:
       (AdventuresInTheatreland.com). 'Mmm, defiance!' (Elaine Paige, BBC Radio
       2). 'Evokes a classic theatrical sound... lilting melodies which melt into
       dissonant, menacing lullabies' (TheatreAndTonic.co.uk).
+    access_details: "This year we are working with Extant to help make all our shows
+      as accessible as possible to audiences with visual impairments. As part of
+      this we have asked our companies to record an audio introduction to their
+      show. Please click the link at the bottom of the page to listen. "
     price:
       standard: 14
       concession: 12.5
@@ -1169,6 +1173,8 @@ shows:
         platform: YouTube
       - link: https://www.tiktok.com/@thequeenismadmusical
         platform: TikTok
+      - link: https://vimeo.com/1108110413?share=copy#t=0
+        title: AUDIO INTRODUCTION
     image: /static/the-queen-is-mad-no-text-square-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1763/
