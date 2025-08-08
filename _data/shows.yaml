@@ -1342,6 +1342,9 @@ shows:
       - Contains distressing or potentially  triggering themes
       - Scenes of violence
       - Strong language/swearing
+    video_embeds:
+      - embed_code: https://www.youtube.com/watch?v=hiVpu3asKdA
+        title: Trailer
   - performances:
       - 2025-08-01
       - 2025-08-02
