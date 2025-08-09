@@ -75,7 +75,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106154981). "
     price:
       weekend: 13
       standard: 11
@@ -99,8 +99,6 @@ shows:
       - link: https://www.youtube.com/watch?v=UqbTw0M0Xmg
         title: ""
         platform: Youtube
-      - link: https://vimeo.com/1106154981
-        title: AUDIO INTRODUCTION
     image: /static/3whiteguysnamedjohn_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1749/
@@ -142,8 +140,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen (English
-      and Spanish available). "
+      show. Click to listen to the audio introduction: [English](https://vimeo.com/1106082188) / [Spanish](https://vimeo.com/1106077644)."
     price:
       standard: 12
       concession: 10
@@ -167,10 +164,6 @@ shows:
         link: https://x.com/EduDiazActor
       - platform: Youtube
         link: https://youtu.be/3daBt0zPMLw?si=6Hs_f2RmfB8_julV
-      - link: https://vimeo.com/1106082188
-        title: AUDIO INTRODUCTION (English)
-      - link: https://vimeo.com/1106077644
-        title: AUDIO INTRODUCTION (Spanish)
     reviews:
       - {}
     image: /static/adragisborn_343x343.jpg
@@ -297,8 +290,8 @@ shows:
     access_details: "This show will be audio described on the 5th August. This year
       we are working with Extant to help make all our shows as accessible as
       possible to audiences with visual impairments. As part of this we have
-      asked our companies to record an audio introduction to their show. Please
-      click the link at the bottom of the page to listen. "
+      asked our companies to record an audio introduction to their show. 
+      [Click to listen to the audio introduction](https://vimeo.com/1106493231)."
     price:
       standard: 12
       concession: 11
@@ -321,8 +314,6 @@ shows:
         platform: Instagram
       - link: https://youtu.be/2ze3669zkHY?si=4hpAvlQG1U0SiicE
         platform: YouTube
-      - title: AUDIO INTRODUCTION
-        link: https://vimeo.com/1106493231
     image: /static/dozombiesdreamofundeadsheep_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1751/
@@ -1154,7 +1145,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1108110413)."
     price:
       standard: 14
       concession: 12.5
@@ -1179,8 +1170,6 @@ shows:
         platform: YouTube
       - link: https://www.tiktok.com/@thequeenismadmusical
         platform: TikTok
-      - link: https://vimeo.com/1108110413?share=copy#t=0
-        title: AUDIO INTRODUCTION
     image: /static/the-queen-is-mad-no-text-square-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1763/
@@ -1434,7 +1423,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106194672)."
     price:
       standard: 12
       concession: 11
@@ -1454,8 +1443,6 @@ shows:
         platform: Instagram
       - link: https://www.tiktok.com/@youthinflames
         platform: TikTok
-      - link: https://vimeo.com/1106194672
-        title: AUDIO INTRODUCTION
     image: /static/youthinflames_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1770/
@@ -1491,7 +1478,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106089358)"
     price:
       standard: 12
       concession: 11
@@ -1510,8 +1497,6 @@ shows:
     links:
       - link: " https://www.instagram.com/bethmull92"
       - link: http://twitter.com/@bethmullen
-      - link: https://vimeo.com/1106089358
-        title: AUDIO INTRODUCTION
     content_warning_detail: []
     image: /static/aminortheft_343x343.jpg
     age_restricted: false
@@ -1661,7 +1646,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106100382)."
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -1681,8 +1666,6 @@ shows:
       - link: https://www.facebook.com/m svictoriafirth
       - link: " https://www.instagram.com/msvhf"
       - link: " http://twitter.com/@msvhf"
-      - title: AUDIO INTRODUCTION
-        link: https://vimeo.com/1106100382
     image: /static/batty-final-without-title.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1821/
@@ -1809,7 +1792,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106104233)"
     price:
       standard: 12
       concession: 10
@@ -1827,8 +1810,6 @@ shows:
     age_guidance: 18+
     links:
       - link: https://www.instagram.com/Geor.gemuz
-      - link: https://vimeo.com/1106104233
-        title: AUDIO INTRODUCTION
     image: /static/bigred_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1823/
@@ -1982,8 +1963,8 @@ shows:
       relaxed performances on the 13th and 20th August. This year we are working
       with Extant to help make all our shows as accessible as possible to
       audiences with visual impairments. As part of this we have asked our
-      companies to record an audio introduction to their show. Please click the
-      link at the bottom of the page to listen. "
+      companies to record an audio introduction to their show. 
+      [Click to listen to the audio introduction](https://vimeo.com/1108659248)"
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -1999,8 +1980,6 @@ shows:
     links:
       - link: https://static1.squarespace.com/static/60e412310739b95df33e9a5e/t/6893267966bd0a4f1047e639/1754474106935/VISUAL+STORY+for+CHROME+YELLOW.pdf.
         title: The Visual Story for Chrome Yellow is now hosted online at this link: 
-      - title: AUDIO INTRODUCTION
-        link: https://vimeo.com/1108659248?share=copy
     image: /static/chromeyellow_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1825/
@@ -2044,7 +2023,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106172774)."
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2061,8 +2040,6 @@ shows:
     age_guidance: 14+
     links:
       - link: https://www.instagram.com/couriertheplay
-      - link: https://vimeo.com/1106172774
-        title: AUDIO INTRODUCTION
     image: /static/courier_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1827/
@@ -2216,7 +2193,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1107761766)."
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2233,8 +2210,7 @@ shows:
     title: Medium Dead
     age_guidance: 16+
     links:
-      - link: https://vimeo.com/1107761766?share=copy
-        title: "AUDIO INTRODUCTION "
+      - link: "" 
     content_warning_detail:
       - This show contains references to suicide
       - self harm
@@ -2337,7 +2313,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106421042)."
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -2354,8 +2330,7 @@ shows:
     title: Shell
     age_guidance: 14+
     links:
-      - title: AUDIO INTRODUCTION
-        link: https://vimeo.com/1106421042
+      - link: "" 
     image: /static/shell_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1824/
@@ -2453,7 +2428,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106688272)."
     price:
       standard: 12
       concession: 11
@@ -2474,8 +2449,6 @@ shows:
     links:
       - link: https://www.instagram.com/entendre_entendre
       - link: https://www.facebook.com/brynwoz
-      - link: https://vimeo.com/1106688272
-        title: AUDIO INTRODUCTION
     image: /static/smutwithentendreentendre_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1839/
@@ -2805,7 +2778,7 @@ shows:
     access_details: "This year we are working with Extant to help make all our shows
       as accessible as possible to audiences with visual impairments. As part of
       this we have asked our companies to record an audio introduction to their
-      show. Please click the link at the bottom of the page to listen. "
+      show. [Click to listen to the audio introduction](https://vimeo.com/1106129416)."
     price:
       preview: 10
       weekend: 13
@@ -2820,8 +2793,7 @@ shows:
     title: People We Bury Alive
     age_guidance: 14+
     links:
-      - link: https://vimeo.com/1106129416
-        title: AUDIO INTRODUCTION
+      - link: ""
     image: /static/peopleweburyalive_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1837/
