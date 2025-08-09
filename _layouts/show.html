@@ -101,7 +101,7 @@ use_swiper: true
 					{% unless has_access_details %}
 						<span class="text-muted">Accessible performance details to be confirmed.</span>
 					{% else %}
-						{{ show.access_details }}
+						{{ show.access_details | markdownify }}
 					{% endunless %}
 					<br>{% include text/access-link.html %}
 				</p>
