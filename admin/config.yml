@@ -206,7 +206,7 @@ collections:
                   - captions
                   - relaxed
                   - ad
-              - widget: string
+              - widget: markdown
                 name: access_details
                 required: false
                 label: Access Performance Details
