@@ -1342,9 +1342,6 @@ shows:
       - Contains distressing or potentially  triggering themes
       - Scenes of violence
       - Strong language/swearing
-    video_embeds:
-      - embed_code: https://vimeo.com/1108453744?share=copy
-        title: Trailer
   - performances:
       - 2025-08-01
       - 2025-08-02
@@ -1973,8 +1970,12 @@ shows:
       human need for connection. Chrome Yellow invites audiences to laugh,
       reflect and find comfort in the beautifully chaotic process of figuring
       things out.
-    access_details: This show will include BSL interpretation on 20th August, with
-      relaxed performances on the 13th and 20th August.
+    access_details: "This show will include BSL interpretation on 20th August, with
+      relaxed performances on the 13th and 20th August. This year we are working
+      with Extant to help make all our shows as accessible as possible to
+      audiences with visual impairments. As part of this we have asked our
+      companies to record an audio introduction to their show. Please click the
+      link at the bottom of the page to listen. "
     price:
       ticket_deals:
         - 4th & 5th 2for1
@@ -1990,6 +1991,8 @@ shows:
     links:
       - link: https://static1.squarespace.com/static/60e412310739b95df33e9a5e/t/6893267966bd0a4f1047e639/1754474106935/VISUAL+STORY+for+CHROME+YELLOW.pdf.
         title: The Visual Story for Chrome Yellow is now hosted online at this link: 
+      - title: AUDIO INTRODUCTION
+        link: https://vimeo.com/1108659248?share=copy
     image: /static/chromeyellow_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1825/
@@ -2417,6 +2420,7 @@ shows:
       - 2025-08-05
       - 2025-08-06
       - 2025-08-07
+      - 2025-08-08
       - 2025-08-09
       - 2025-08-10
       - 2025-08-12
