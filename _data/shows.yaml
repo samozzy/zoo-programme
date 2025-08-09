@@ -1742,8 +1742,8 @@ shows:
       ![](/static/enhancemarklogo.jpg)
     access_details: Relaxed performances on 12th and 19th & captioned performances
       on 8th and 14th August. Enhance performance for visually impaired audience
-      members on 12th August with pre-show programme notes and touch tour at
-      4:30pm.
+      members on 12th August with pre-show programme notes (link at the bottom
+      of the page) and touch tour at 4:30pm.
     price:
       standard: 12
       concession: 11
@@ -1761,6 +1761,8 @@ shows:
     age_guidance: 12+
     links:
       - link: https://www.instagram.com/hollylaragifford/
+      - title: PRE-SHOW PROGRAMME NOTES
+        link: https://docs.google.com/document/d/1GLBJojGoZAgcwD5RrSqVsPVbTefxeH1xlNKBAFtCrqw/edit?usp=sharing
     image: /static/biglittlesister_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1822/
