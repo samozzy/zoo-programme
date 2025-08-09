@@ -860,7 +860,8 @@ shows:
       ![](/static/enhancemarklogo.jpg)
     access_details: This show will include BSL interpretation on 10th & 12th August.
       Enhance performance for visually impaired audience members on 13th August
-      with pre-show programme notes and touch tour at 6:15pm.
+      with pre-show programme notes (link at bottom of the page) and touch tour
+      at 6:15pm.
     price:
       standard: 18
       concession: 17
@@ -885,6 +886,8 @@ shows:
         platform: Vimeo
       - link: " https://www.shapercaper.com/smalltownboys"
         title: Show Website
+      - link: https://docs.google.com/document/d/1ouLGI1iaAZd0zKC62ygaRVjnoPNzi5YGHWlozBPm-qI/edit?usp=sharing
+        title: PRE-SHOW PROGRAMME NOTES
     image: /static/small-town-boys-new-.jpg
     age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1764/
