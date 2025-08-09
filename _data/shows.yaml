@@ -440,7 +440,8 @@ shows:
 
       ![](/static/enhancemarklogo.jpg)
     access_details: Enhance performance for visually impaired audience members on
-      12th August, with pre-show programme notes and touch tour at 4:30pm.
+      12th August, with pre-show programme notes (link at the bottom of the
+      page) and touch tour at 4:30pm.
     price:
       standard: 18
       concession: 17
@@ -462,6 +463,8 @@ shows:
       - link: https://youtu.be/qXf5AAaZH0E?si=x9ihrLCBaYUEvVk2
         platform: YouTube
       - {}
+      - link: https://docs.google.com/document/d/1nwO6-5A8GHkw89uqLV2PhgRQGmSKEwpXVUqIz_CakMU/edit?usp=sharing
+        title: PRE-SHOW PROGRAMME NOTES
     image: /static/ithinkitcouldwork_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1756/
