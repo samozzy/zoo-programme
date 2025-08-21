@@ -396,6 +396,9 @@ shows:
       - "Contains references to antisemitism and antisemitic language. "
       - Some strong language
       - loud noise (air raid siren)
+    video_embeds:
+      - embed_code: https://vimeo.com/1111957481?share=copy
+        title: Trailer
   - performances:
       - 2025-08-01
       - 2025-08-02
