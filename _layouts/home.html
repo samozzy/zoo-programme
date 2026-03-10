@@ -15,7 +15,7 @@ layout: default
 <div class="container-fluid bg-zoo-white px-0">
 	<div class="row homepage-banner p-4 mx-0 text-center">
 		<div class="col-auto mb-4 header-title p-2 p-md-4 my-md-auto">
-	        <h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white' extra_class="home-logo" %} 2025</h1>
+	        <h1 class="display-2 mb-0 text-light" id="top-of-content">{% include components/logo-in-title.html logo='white' extra_class="home-logo" %} {{ site.current_season }}</h1>
 		</div>
         {% unless pre_launch %}
 		<div class="col-7 col-md-4 ms-auto text-end my-md-auto p-0">

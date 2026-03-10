@@ -6,20 +6,21 @@ phone:
   box_office: 0131 356 0349
   admin: 0131 356 0912
 description: >- # this means to ignore newlines until "baseurl:"
-  ZOO returns to the Edinburgh Fringe in 2025 with a bigger and better programme than ever before.
+  ZOO returns to the Edinburgh Fringe in 2026 with a bigger and better programme than ever before.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zoofestival.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zoovenues
 github_username: samozzy
 keywords: Theatre, Arts, Fringe, Edinburgh, August
 page_excerpts: true
+current_season: 2026
 dates:
-  start: 2025-08-01
-  end: 2025-08-25
-  launch: 2025-04-02 08:00 # In UTC, but will render wrong in the text as a result... 
+  start: 2026-08-01
+  end: 2026-08-25
+  launch: 2026-04-02 08:00 # In UTC, but will render wrong in the text as a result... 
   launch_offset: 01:00:00 # ... So add an hour offset. site.dates are in site.timezone (UTC), so offset to the timezone the user expects (in our case, BST)
-earliest_time: 2025-08-01 10:00 
-latest_time: 2025-08-01 23:00 
+earliest_time: 2026-08-01 10:00 
+latest_time: 2026-08-01 23:00 
 
 edfringe_available: false
 
