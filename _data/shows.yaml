@@ -41,3 +41,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1753/
     company: Corps In Situ
+  - booking_unavailable: false
+    age_restricted: false
+    title: Test
+    is_draft: true
+    venue: ZOO Southside
