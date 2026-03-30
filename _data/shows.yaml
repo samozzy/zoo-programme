@@ -323,3 +323,65 @@ shows:
     company: DBN Productions
     content_warnings:
       - Strong Language/Swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      'I got rid of all the toxic people and there was no one left.'
+
+      Gail is good at setting boundaries and staying busy until a scary diagnosis forces her to ask for help. But, who can she trust? Her life takes unexpected turns, hilarious and shocking, leading to her participation as patient #13 out of 29 in a clinical study treating cancer survivors with anxiety and depression with magic mushrooms. 
+
+
+      Winner: Progie Theater Award for outstanding progressive plays. Winner: LA Hidden Gems award. 'Magnetic and engaging in her intensity and candor... a masterclass in storytelling' **\*** BroadwayWorld.com).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 14:20
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Patient 13
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/patient13show
+        platform: Facebook
+      - link: https://www.instagram.com/patient13show
+        platform: Instagram
+    image: /static/03-02-2026-164307-5700.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1961
+    company: Gail Thomas / Rhymes with Purple
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Discussions of sex, mental health issues and legal psychedelic drug use
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/ObnFxD4xihY?si=eqDo3IftY36g7Dve"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
