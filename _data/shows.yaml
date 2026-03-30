@@ -753,3 +753,54 @@ shows:
     company: Ontroerend Goed
     video_embeds:
       - embed_code: https://vimeo.com/1116083186?fl=ls&fe=ec
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+    copy_long: >-
+      Sophie Linsmaux and Aurelio Mergola immerse us in four modern fables, from
+      an anniversary party to a hospital, a virtual reality experience to a
+      family reunion. 
+
+
+      Still Life's non-verbal theatre with dark burlesque influences holds audiences captive in intense life experiences, playing between fantasy and hyperrealism to map human flesh from every angle. Told with humour and strangeness, stories of our relationships see flesh battered, bruised, alive and most importantly, embraced.
+    price:
+      standard: 19
+      concession: 17
+      weekend: 20
+      weekend_conc: 18
+    start_time: 10:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: Flesh
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/still_life_cie
+    image: /static/02-24-2026-134233-2196-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1955
+    company: Still Life
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a Sexual Nature
+      - Scenes of Violence
+      - Deals with Death and Depicts Death on Stage
+    video_embeds:
+      - embed_code: <div style="padding:42.86% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/712928503?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+          clipboard-write; encrypted-media; web-share; gyroscope; accelerometer"
+          referrerpolicy="strict-origin-when-cross-origin"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="Teaser  - FLESH - Cie Still Life"></iframe></div><script
+          src="https://player.vimeo.com/api/player.js"></script>
