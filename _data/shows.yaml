@@ -961,3 +961,38 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1952
     company: Circumstances
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    price:
+      standard: 20
+      concession: 15
+      preview: 15
+    start_time: 18:25
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h15m
+    title: EVITA TOO
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1951
+    company: Sh!t Theatre
