@@ -804,3 +804,54 @@ shows:
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
           title="Teaser  - FLESH - Cie Still Life"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      D﻿avid Labi spent years of his life chasing cheap thrills across the
+      globe. Now, David is sober, stuck and staring down his greatest challenge.
+      A baby. And it's his. Amid flying couscous and jets of vomit, David faces
+      the big questions: how do you raise a child while still growing up
+      yourself? How can you break cycles of intergenerational trauma? And what
+      happens if you snort lines of formula milk? 
+
+
+      H﻿ilarious, moving and brutally honest, Fatherload is a look at modern fatherhood - from a man hoping his baby will inherit more than his mistakes.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 11:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h15m
+    title: Fatherload
+    age_guidance: 14+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/biginbelgium4
+    image: /static/03-03-2026-111104-6510-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1954
+    company: David Labi / MARTHA!TENTATIEF
