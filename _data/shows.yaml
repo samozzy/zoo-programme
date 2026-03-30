@@ -447,3 +447,50 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      M.I.S – All Night Long takes measure of the modern man. How is he really
+      doing underneath those woollen socks and comfy sandals? 
+
+
+      In a hard-boiled mix of jackass stunts and slapstick comedy three men get out of their comfort zone to come to grips with their inner beasts; the Latino lover, the pushover, the best buddy – and all the others – in a quiet battle for a man’s right to be himself. A backdrop of wacky film projections and club music frame the characters’ physical endeavours and keep the audience amazed all night long!
+    price:
+      standard: 19
+      concession: 17
+      weekend: 29
+      weekend_conc: 18
+    start_time: 12:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: M.I.S All Night Long
+    age_guidance: 14+
+    links:
+      - title: ""
+        platform: Facebook
+        link: https://www.facebook.com/dongnu/
+      - platform: Instagram
+        link: https://www.instagram.com/dongnudk/
+      - platform: YouTube
+        link: https://www.youtube.com/user/DonGnuDk
+    image: /static/03-03-2026-100240-3532.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1967
+    company: DON GNU
+    content_warnings:
+      - Audience Participation
+      - Nudity
+      - Scenes of Violence
