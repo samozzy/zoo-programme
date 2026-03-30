@@ -855,3 +855,67 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1954
     company: David Labi / MARTHA!TENTATIEF
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Introducing Sarah Jones – 'A masterclass in the love-to-hate character.
+      Think Succession. Think Fleabag, with teeth' (Scotsman). 
+
+
+      A narcissist, compulsive liar and failed art-school hopeful, Sarah is exiled from the family home and stumbles her way through a farcical nightmare of parties, lies and fractured relationships. As her ambition curdles into something darker, she is pushed towards a final, devastating twist. So ask yourself – how far would you go to achieve your dream...? 
+
+
+      'Funny, ferocious and devastatingly controlled, it's an impressive star-is-born debut' **\***(FringeBiscuit.com). 'A tour de force' \*\*\*\*½ (One4Review.co.uk).
+    price:
+      preview: 9
+      standard: 12
+      concession: 10
+      weekend: 13
+    start_time: 16:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Father, Away She Goes
+    age_guidance: 16+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/fatherawayshegoes/
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1953
+    company: Pierpoint Productions
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a Sexual Nature
+      - Scenes of Sexual Violence
+      - Strobe Lighting
+      - Strong Language/Swearing
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/brqFSRvaICE?si=_xCqHu6-FlCB0Fru"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
