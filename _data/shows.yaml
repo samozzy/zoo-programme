@@ -548,3 +548,53 @@ shows:
     company: Third Sister Entertainment
     content_warnings:
       - Audience Participation
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Mere days after the death of Jesus Christ and hell-bent on clearing his
+      name, Judas Iscariot makes his first public appearance on Simona Tonight,
+      an ailing late-night talk show. But 33 AD Judea is a volatile place, and
+      it's not just Judas and Simona whose reputations are on the line, but the
+
+      broadcast TV industry's. Exploring themes of celebrity, betrayal and redemption, Judas Exclusive is a psychedelic channel-changing odyssey across 33 AD Judea through the dying lens of broadcast TV.
+    price:
+      standard: 15
+      concession: 13.5
+      preview: 12
+    start_time: 19:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 55m
+    title: JUDAS EXCLUSIVE
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/moojproductions
+        platform: Instagram
+    image: /static/02-12-2026-153426-7262.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1958
+    company: Will McDowell and MOOJ Productions
+    content_warnings:
+      - Strong Language/Swearing
