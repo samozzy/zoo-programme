@@ -717,3 +717,39 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      A box is mailed to the theatre. The instructions are clear: invite a group
+      of people, on a specific night, at a specific time. Place the box at the
+      centre of the stage. Wait until an audience member opens the box. The show
+      has started.
+
+      Handle with Care is a theatre performance in a box. No actors, no technicians. Just a box. And you. This time, Ontroerend Goed gives you complete control. For an hour, you'll experience something one-off and unrepeatable. Here. Now. Together. No one is watching. Can you create
+
+      something meaningful?
+    price:
+      standard: 17
+    start_time: 13:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h15m
+    title: Handle with Care
+    age_guidance: 12+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/ontroerendgoedOG
+      - platform: Instagram
+        link: https://www.instagram.com/ontroerend_goed
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1968
+    company: Ontroerend Goed
+    video_embeds:
+      - embed_code: https://vimeo.com/1116083186?fl=ls&fe=ec
