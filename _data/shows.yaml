@@ -494,3 +494,57 @@ shows:
       - Audience Participation
       - Nudity
       - Scenes of Violence
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: "This black box is now a bunker. With global apocalypse at the door,
+      Alice and Bee present their contribution to mankind: one last improv show
+      before the world ends. The two best friends-turned-unlikely humanitarians
+      race against time in their desperate attempt to make you laugh. Just
+      ignore the sirens. In the face of intergalactic doom, Last Laugh is a
+      zealous eulogy to live performance. Thankfully, crusaders Alice and Bee
+      have the toolkit to go out with a bang: monologues, trashcan lids,
+      homoeroticism, puppets and – dare they say it – hope."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 21:00
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 50m
+    title: Last Laugh
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/lastlaughplay
+      - platform: TikTok
+        link: https://www.tiktok.com/@lastlaughplay
+    image: /static/03-02-2026-060306-2428.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1959
+    company: Third Sister Entertainment
+    content_warnings:
+      - Audience Participation
