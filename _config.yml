@@ -15,8 +15,8 @@ keywords: Theatre, Arts, Fringe, Edinburgh, August
 page_excerpts: true
 current_season: 2026
 dates:
-  start: 2026-08-01
-  end: 2026-08-25
+  start: 2026-08-07
+  end: 2026-08-31
   launch: 2026-04-01 08:00 # In UTC, but will render wrong in the text as a result... 
   launch_offset: 01:00:00 # ... So add an hour offset. site.dates are in site.timezone (UTC), so offset to the timezone the user expects (in our case, BST)
 earliest_time: 2026-08-01 10:00 
