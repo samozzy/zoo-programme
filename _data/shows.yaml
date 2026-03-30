@@ -598,3 +598,57 @@ shows:
     company: Will McDowell and MOOJ Productions
     content_warnings:
       - Strong Language/Swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Kento the clown missed his grandmother's funeral in Japan due to Covid
+      restrictions. He's trying to recreate the traditional rites, but it keeps
+      going wrong. Can the audience help him achieve closure in this gentle,
+      heartwarming comedy? 
+
+
+      Blending clown and storytelling with Japanese and Okinawan funeral customs, Kento attempts to process 108 of his grandma's memories, along with unresolved thoughts and small, stubborn facts about her life, in a show that is both deeply personal, yet widely relatable. What begins as a failed ceremony becomes a gentle, intimate invitation to laugh, remember and let go.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 8
+    start_time: 17:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Japanese Grandma Funeral
+    age_guidance: 14+
+    links:
+      - title: ""
+        platform: Instagram
+        link: https://www.instagram.com/k ento.nyc/
+    image: /static/02-27-2026-220016-5267.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1957
+    company: Kento Morita
+    content_warnings:
+      - Audience Participation
