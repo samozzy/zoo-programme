@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/css/main.css?cachebust=202603301239">
+    <link rel="stylesheet" href="/css/main.css?cachebust=202603301406">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 
@@ -340,6 +340,64 @@
 			
 			
 
+			
+			<div class="col">
+				<div class="card-programme">
+					<div class="card-header" data-bs-toggle="collapse" data-bs-target="#filter-access" aria-expanded="false" aria-controls="filter-access">
+						<p><span>With these access provisions<i class="ms-2 fa fa-asterisk fa-xs d-none" id="edit-circle-access"></i><i class="ms-2 fa fa-asterisk fa-xs d-none" id="edit-circle-content-warning"></i></span><i class="fa fa-chevron-down fa-fw float-end"></i></p>
+					</div>
+					<div class="collapse" id="filter-access">
+						<div class="card-body">
+							<p class="lead">Access</p>
+							
+								
+								
+								<input type="checkbox" name="filter-access-item" class="btn-check" id="filter-access-relaxed" autocomplete="off" value="relaxed">
+								<label id="btn-access-relaxed" class="btn-filter btn-access" data-zoo_tooltip="Relaxed Performances"
+data-bs-toggle="tooltip" data-bs-placement="bottom" title="Relaxed Performances" for="filter-access-relaxed">
+									
+
+
+
+
+	
+	
+	<img src="/static/access/r.png" alt="Relaxed Performances" class="access-icon" >
+
+									<span class="d-none">Relaxed Performances</span>
+								</label>
+							
+							<p class="ms-1 helper-text text-muted"><i class="fa fa-fw fa-wheelchair"></i>&nbsp;Note: All our venues and spaces are wheelchair accessible.</p>
+							<p class="ms-1 helper-text text-muted"><span class="helper-text">For access information about our venues, please head to the <a href="/access/">access page</a>.</span></p>
+							<hr class="w-100">
+							<p class="lead">Content Warnings</p>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-contains-distressing-or-potentially-triggering-themes" autocomplete="off" value="contains-distressing-or-potentially-triggering-themes" checked>
+								<label id="btn-content-warning-contains-distressing-or-potentially-triggering-themes" class="btn-filter btn-cw" for="filter-content-warning-contains-distressing-or-potentially-triggering-themes">contains distressing or potentially triggering themes</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-features-vivid-movement-and-descriptions-that-may-distress-audiences" autocomplete="off" value="features-vivid-movement-and-descriptions-that-may-distress-audiences" checked>
+								<label id="btn-content-warning-features-vivid-movement-and-descriptions-that-may-distress-audiences" class="btn-filter btn-cw" for="filter-content-warning-features-vivid-movement-and-descriptions-that-may-distress-audiences">features vivid movement and descriptions that may distress audiences</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-scenes-of-violence" autocomplete="off" value="scenes-of-violence" checked>
+								<label id="btn-content-warning-scenes-of-violence" class="btn-filter btn-cw" for="filter-content-warning-scenes-of-violence">scenes of violence</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strobe-lighting" autocomplete="off" value="strobe-lighting" checked>
+								<label id="btn-content-warning-strobe-lighting" class="btn-filter btn-cw" for="filter-content-warning-strobe-lighting">strobe lighting</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-strong-language-swearing" autocomplete="off" value="strong-language-swearing" checked>
+								<label id="btn-content-warning-strong-language-swearing" class="btn-filter btn-cw" for="filter-content-warning-strong-language-swearing">strong language/swearing</label>
+							
+								<input type="checkbox" name="filter-content-warning-item" class="btn-check" id="filter-content-warning-themes-of-self-harm-suicide-addiction-racism-child-loss-and-extreme-violence" autocomplete="off" value="themes-of-self-harm-suicide-addiction-racism-child-loss-and-extreme-violence" checked>
+								<label id="btn-content-warning-themes-of-self-harm-suicide-addiction-racism-child-loss-and-extreme-violence" class="btn-filter btn-cw" for="filter-content-warning-themes-of-self-harm-suicide-addiction-racism-child-loss-and-extreme-violence">themes of self-harm, suicide, addiction, racism, child loss, and extreme violence</label>
+							
+							<p class="helper-text text-muted ms-1 mt-1"><i class="fa fa-info-circle"></i>&nbsp;Select a content warning to <strong>remove</strong> shows with that content warning.</p>
+						</div>
+						<div class="card-footer">
+							<p class="helper-text text-end"><a onclick=clearAccessContentCheckboxes()><i class="fa fa-fw fa-undo"></i>&nbsp;Reset</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 			<!-- Close filters  -->
 			<div class="col w-100 text-center">
