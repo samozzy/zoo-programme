@@ -207,3 +207,67 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: "Surprised by the audience and completely unprepared, two clowns grab
+      the only story everyone knows: Romeo and Juliet. What begins as a funny
+      mission to be understood soon turns into a wild whirlwind of imagination.
+      You don't just watch, you become part of the chaos. This high-speed
+      scramble is a real display of physical skill. But as the laughter peaks,
+      the fun turns into a fierce rebellion – the one that lives inside us all.
+      It's funny until it's not. A provocative, heart-wrenching finale that asks
+      what remains among the ruins. Fearless, absurd and unforgettable."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 11:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Shakespeare x 5
+    age_guidance: 14+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/handtheatre2
+      - platform: Instagram
+        link: https://www.instagram.com/handtheatre/?hl=en
+    image: /static/02-28-2026-142306-1872.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1963
+    company: Hand Theatre
+    content_warnings:
+      - Audience Participation
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/wk_DwwxV8d8?si=qFWzTvXTUUW66osb"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
