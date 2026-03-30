@@ -983,6 +983,15 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
+    copy_long: >-
+      'There is truly nobody out there like Sh!t Theatre' (Time Out).
+
+      The greatest story never told of the first ever female president of a country in the history of the world... whose name is... um... er... 
+
+
+      2 x Fringe First winners Sh!t Theatre travel across Argentina and Spain chasing the story of the record-breaking president, endeavouring to write a musical to match Tim and Andrew's. Truth! Justice! Songs! Wizards!
+
+      And, if you insist, naked roller-skating. **\*** (Stage). **\***(BroadwayWorld.com). **\*** (TheReviewsHub.com). **\***(TheatreAndTonic.co.uk). 'Unnecessary and irrelevant nudity'**\*** (TheSpyInTheStalls.com).
     price:
       standard: 20
       concession: 15
@@ -993,6 +1002,15 @@ shows:
     venue: ZOO Southside
     duration: 1h15m
     title: EVITA TOO
+    links:
+      - platform: Instagram
+        link: ttps://www.instagram.com/judithdimantproductions/
+    image: /static/03-03-2026-153135-6541-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1951
     company: Sh!t Theatre
+    content_warnings:
+      - Audience Participation
+      - Contains distressing or potentially triggering themes
+      - Nudity
+      - Strong Language/Swearing
