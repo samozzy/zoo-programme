@@ -920,3 +920,44 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: Four circus artists move through a shifting world of revolving walls
+      and floating doors. In EXIT, choreographer Piet Van Dycke blends circus
+      and dance into a thrilling physical performance where movement, partner
+      acrobatics and balance form one shared language. With backgrounds in
+      bascule, aerial belts, trapeze and acro-dance, they create a dynamic
+      interplay of trust, risk and transformation. They propel, catch, climb and
+      balance as they search for their own path, yet need one another to keep
+      moving. A powerful, visually striking exploration of independence,
+      connection and fragile balance. Four bodies. One path. No way out alone.
+    price:
+      standard: 19
+      concession: 18
+    start_time: 10:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: EXIT
+    links:
+      - platform: YouTube
+        link: https://vimeo.com/user125286580
+      - link: https://www.instagram.com/circumstances____/
+        platform: https://www.instagram.com/circumstances____/
+    image: /static/02-27-2026-120902-5700-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1952
+    company: Circumstances
