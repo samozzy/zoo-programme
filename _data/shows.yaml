@@ -652,3 +652,68 @@ shows:
     company: Kento Morita
     content_warnings:
       - Audience Participation
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: "A man walks through Kyiv. The city walks through him.
+
+      Blending live performance with documentary video filmed in Ukraine
+      in 2025, this searing solo work is about resistance, exile and the
+      dangerous seduction of violence. As past and present collide – from a 1911
+      assassination to today’s full\x02scale invasion – one artist confronts his
+      own limits: how far would you go for your dream? How much would you risk?
+
+      Urgent, intimate and politically charged, this is theatre that
+      refuses distance. History is not behind us. It is happening now."
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 11:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: If I Had a Gun, I'd Take Them All Down
+    age_guidance: 16+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/teatrtransatlantyk
+      - platform: Instagram
+        link: https://www.instagram.com/ft.trans.atlantyk/
+      - platform: TikTok
+        link: https://www.tiktok.com/@lerubenfeld
+    image: /static/03-03-2026-170738-8969-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1956
+    company: Paul Bargetto, Michael Rubenfeld
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/u_WMxiUoe6Y?si=_CQFfSf5q8SdJkqD"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
