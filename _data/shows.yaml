@@ -99,3 +99,48 @@ shows:
       - Themes of self-harm, suicide, addiction, racism, child loss, and extreme
         violence
       - Features vivid movement and descriptions that may distress audiences
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+    copy_long: "Sound the war-croak, sharpen every claw – the frogs and mice are
+      going to war! A tragedy has struck Breadnibbler, king of the mice, and
+      everyone knows who's to blame: the frogs. Now a battle is coming to the
+      pond, and it's time to pick a side: will you fight for the frogs or the
+      mice? Originally told as an introduction to epic poetry for Ancient Greek
+      children, join our storytellers as they guide you through an interactive
+      adaptation, using traditional storytelling, improvised music and toy-box
+      puppetry."
+    access_details: Relaxed performances available for all scheduled show dates.
+    price:
+      standard: 13
+      concession: 12
+    start_time: 14:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 45m
+    title: The Battle of Frogs and Mice
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/heliconstorytelling
+      - platform: Instagram
+        link: https://www.instagram.com/heliconstorytellers/
+      - platform: Twitter
+        link: https://www.x.com/heliconstories
+    image: /static/02-27-2026-210630-8518.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1944
+    company: Helicon Storytelling
