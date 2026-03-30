@@ -144,3 +144,66 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1944
     company: Helicon Storytelling
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: "Soft Spot is a circus duet for a juggler, a handstand artist,vwooden
+      planks and 300 wine glasses. Everyone has held a wine glass. Everyone has
+      broken one. From childhood curiosity to adult caution, we share a
+      relationship with this fragile everyday object. On stage, two artists
+      carefully
+
+      manipulate, stack and balance a delicate landscape, risking collapse
+      at any moment. The glass becomes partner, obstacle and quiet threat –
+      demanding precision and trust between performers. Each action carries
+      tension; each near\x02collapse asks what might happen next. Unexpected
+      outcomes reveal a playful, precise exploration of our fragile world."
+    price:
+      preview: 12
+      weekend: 20
+      weekend_conc: 18
+      standard: 19
+      concession: 17
+    start_time: 20:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: Soft Spot
+    age_guidance: 8+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/olocompanycircus/
+      - platform: Instagram
+        link: https://www.instagram.com/olo.company/
+    image: /static/02-28-2026-150107-8235.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1964
+    company: OLO Company and Cluster Arts
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/uDYx55g8pmw?si=LPX_J5ljrjv9Wqap"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
