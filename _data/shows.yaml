@@ -1014,3 +1014,53 @@ shows:
       - Contains distressing or potentially triggering themes
       - Nudity
       - Strong Language/Swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+    copy_long: A raw and unflinching contemporary dance work, Everybody's Got a Bomb
+      channels frustration, anger and isolation in a world that feels both hyper
+      connected and profoundly detached. Driven by a rage at conformity and the
+      global suffering we witness daily yet feel powerless to change, the work
+      confronts the fragile line between civility and chaos, control and
+      collapse. Inspired by moments of collective intensity and social rupture,
+      it unfolds as a visceral physical experience. Relentless and deeply
+      personal, the piece becomes both rebellion and release, a meditation on
+      darkness, truth and the bonds holding us together.
+    price:
+      standard: 19
+      concession: 17
+      weekend: 20
+      weekend_conc: 18
+      preview: ""
+    start_time: 12:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: Everybody's Got a Bomb
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/r ileyfitzgeraldproductions
+        platform: Instagram
+    image: /static/03-03-2026-134050-9947-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1950
+    company: Riley Fitzgerald
+    content_warnings:
+      - Strong Language/Swearing
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/VRdb5MvcYNw?si=XcKiUW7pgkmAf5fD"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
