@@ -271,3 +271,55 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      In 2016 an unprecedented wave of fake news exploded across our screens.
+      Public trust was devastated as Brexit, Trump and an ever-powerful far
+      right emerged. The masterminds? A few teens in a former socialist republic
+      that even experts struggle to find on a map: Macedonia? 
+
+
+      Join Nadica, a driven Macedon/Brit on the ground floor of this gold rush who will stop at nothing to build her empire of lies as she defies tech giants, Covid lockdowns and a crumbling economy to champion Britain’s eager and ready supply of Racists, Recessions and Revolutions!
+    price:
+      standard: 12
+      concession: 10
+      weekend_conc: 11
+      weekend: 13
+      preview: 8
+    start_time: 15:55
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Racists, Recessions and Revolutions
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/acistsrecessionsrevolutions
+    image: /static/02-23-2026-181408-2185.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1962
+    company: DBN Productions
+    content_warnings:
+      - Strong Language/Swearing
