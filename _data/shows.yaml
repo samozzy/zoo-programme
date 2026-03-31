@@ -1179,3 +1179,61 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      'Comic timing as impeccable as her playing' (Everything-Theatre.co.uk). 
+
+
+      Genre-blurring jester and cellist Karen Hall peels back the layers of formality leaving you with only the
+
+      humanity and insanity of the artist behind the instrument. And yourself. Featuring Suite Number One in G Major by JS Bach and personal comedic pieces crafted in idiot classes, Karen uses in a healthy dose of pathos tackling identity, expectations and success through the eyes of a fool. 
+
+
+      Winner: FringeReview.co.uk's Edinburgh Fringe 2025 Outstanding Theatre Award.
+    price:
+      standard: 17
+      concession: 15
+    start_time: 13:05
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Delusions and Grandeur
+    age_guidance: 12+
+    links:
+      - link: https://www.youtube.com/@delusionsandgrandeur
+        platform: YouTube
+      - link: https://www.instagram.com/inforthelonghall
+        platform: Instagram
+      - link: https://www.facebook.com/inforthelonghall
+        platform: Facebook
+    image: /static/03-03-2026-084224-1113-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1947
+    company: Karen Hall More Play Productions
+    content_warnings:
+      - Audience Participation
