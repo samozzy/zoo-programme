@@ -1637,3 +1637,60 @@ shows:
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
           title="Andrea Coleman Storytelling"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      P﻿lunge into the desperate world of a young London couple facing the
+      brutal reality of financial struggle. Tired of watching others’ curated
+      success online and frustrated by their own limited social media reach,
+      they decide to chase the elusive dream of fame and fortune by launching an
+      OnlyFans
+
+      account. But as subscribers grow, their connection in reality drops. 
+
+
+      Balancing biting comedy with raw drama, this provocative and unflinching mirror to our times tracks the high costs of monetising intimacy.
+    price:
+      standard: 14
+      concession: 12
+    start_time: 19:20
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: 15 Minutes of Shame
+    age_guidance: 16+
+    links:
+      - link: https://www.instagram.com/15minutesofshameplay
+        platform: Instagram
+    image: /static/02-28-2026-204301-3775-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1939
+    company: majestic disorder
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a Sexual Nature
+      - Strong Language/Swearing
