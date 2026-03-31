@@ -689,11 +689,13 @@ shows:
       centre of the stage. Wait until an audience member opens the box. The show
       has started.
 
+
+
       Handle with Care is a theatre performance in a box. No actors, no technicians. Just a box. And you. This time, Ontroerend Goed gives you complete control. For an hour, you'll experience something one-off and unrepeatable. Here. Now. Together. No one is watching. Can you create
 
       something meaningful?
     price:
-      standard: 17
+      standard: 18
     start_time: 13:30
     booking_unavailable: false
     is_draft: false
@@ -706,11 +708,22 @@ shows:
         link: https://www.facebook.com/ontroerendgoedOG
       - platform: Instagram
         link: https://www.instagram.com/ontroerend_goed
+    image: /static/02-26-2026-134823-9329-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1968
     company: Ontroerend Goed
+    content_warnings:
+      - Audience participation
+      - Audience required to walk or move around during the performance
     video_embeds:
-      - embed_code: https://vimeo.com/1116083186?fl=ls&fe=ec
+      - embed_code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/1116083186?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+          clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="Handle with Care - teaser"></iframe></div><script
+          src="https://player.vimeo.com/api/player.js"></script>
   - performances:
       - 2026-08-07
       - 2026-08-08
