@@ -1064,3 +1064,55 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+    copy_long: >-
+      What would happen if, instead of starting clown school in Paris, you
+      accidentally ended up following a group of Syrian Refugees on their
+      journey to seek asylum in Europe? How would your experience be different
+      from theirs? Dreamgirl is an immersive experience of Norwegian filmmaker
+      and clown
+
+      Karen Houge’s real-life experience following refugees in her mid 20s through storytelling, play, clown, interaction... and a bit of Lego. 
+
+
+      'Profound, playful and compelling' **\*** (InReviewOnline.com). 'Renewed hope for humanity' \*\*\*\*
+
+      (MustSeeTheatre.com).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 16:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h
+    title: Dreamgirl
+    age_guidance: 12+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/karenhouge/?hl=en
+    image: /static/03-04-2026-094344-5894-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1949
+    company: Karen Hogue
+    content_warnings:
+      - Audience Participation
