@@ -490,7 +490,7 @@ shows:
       weekend_conc: 11
     start_time: 21:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 50m
     title: Last Laugh
@@ -542,7 +542,7 @@ shows:
       preview: 12
     start_time: 19:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 55m
     title: JUDAS EXCLUSIVE
@@ -595,7 +595,7 @@ shows:
       preview: 8
     start_time: 17:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Japanese Grandma Funeral
@@ -649,7 +649,7 @@ shows:
       weekend_conc: 11
     start_time: 11:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: If I Had a Gun, I'd Take Them All Down
@@ -696,7 +696,7 @@ shows:
       standard: 17
     start_time: 13:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h15m
     title: Handle with Care
@@ -742,7 +742,7 @@ shows:
       weekend_conc: 18
     start_time: 10:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: Flesh
@@ -807,7 +807,7 @@ shows:
       weekend_conc: 11
     start_time: 11:45
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h15m
     title: Fatherload
@@ -858,7 +858,7 @@ shows:
       weekend: 13
     start_time: 16:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Father, Away She Goes
@@ -911,7 +911,7 @@ shows:
       concession: 18
     start_time: 10:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: EXIT
@@ -961,7 +961,7 @@ shows:
       preview: 15
     start_time: 18:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h15m
     title: EVITA TOO
@@ -1005,7 +1005,7 @@ shows:
       preview: ""
     start_time: 12:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: Everybody's Got a Bomb
@@ -1065,7 +1065,7 @@ shows:
       weekend_conc: 11
     start_time: 16:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: Dreamgirl
