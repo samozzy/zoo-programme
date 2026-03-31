@@ -34,7 +34,7 @@ shows:
       preview: 16
     start_time: 14:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h20m
     title: Woodhill
