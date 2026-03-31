@@ -927,7 +927,6 @@ shows:
       - 2026-08-21
       - 2026-08-22
       - 2026-08-23
-      - 2026-08-24
       - 2026-08-25
       - 2026-08-26
       - 2026-08-27
@@ -1389,3 +1388,67 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong Language/Swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      'What is it about becoming thirty that gives everyone universal permission
+      to offer advice on when you’re going to reproduce?' 
+
+
+      This Offie-nominated play tells the story of Fin, whose world shifts when she unexpectedly falls pregnant, her unconventional career as a zero-hour cycle courier and freelance illustrator suddenly colliding headlong with societal norms and expectations. Untethered + Hinterland bring their
+
+      uniquely collaborative style to Edinburgh with a show that captures the millennial female zeitgeist and holds space for the quietly heavy things that shape us all.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+      preview: 10
+    start_time: 12:45
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Am I Losing My Mind Or Just My Figure?
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/amilosingmymindorjustmyfigure/
+    image: /static/02-16-2026-172114-1856-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1941
+    company: Untethered and Hinterland
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Explores pregnancy loss
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/mPoVQEHLgMg?si=jhVktY5f5Nqbrkw3"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
