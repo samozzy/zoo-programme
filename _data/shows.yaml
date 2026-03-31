@@ -87,7 +87,7 @@ shows:
       concession: 12
     start_time: 14:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 45m
     title: The Battle of Frogs and Mice
