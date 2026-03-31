@@ -367,14 +367,19 @@ shows:
       - 2026-08-30
     copy_long: >-
       OnlyFans for Therapy is a darkly comic solo about trauma, accountability
-      and the absurd  economics of healing. Whilst triggered on holiday, a woman
-      realises the only way to remain a functional member of society is therapy
-      for life.
-
-      Quick maths: 2,599 sessions at £70 each. And that’s without inflation. So who pays: the victim, the perpetrator or the state? 
+      and the absurd  economics of healing. 
 
 
-      A razor-edged exploration of abuse, revenge and survival in a world where recovery comes with a receipt. 'An exceptionally strong and intelligent performance, full of humour' (E-tcetera.be). Part of Big in Belgium.
+      Whilst triggered on holiday, a woman realises the only way to remain a functional member of society is therapy for life. Quick maths: 2,599 sessions at £70 each. And that’s without inflation. So who pays: the victim, the perpetrator or the state? 
+
+
+      A razor-edged exploration of abuse, revenge and survival in a world where recovery comes with a receipt. 
+
+
+      'An exceptionally strong and intelligent performance, full of humour' (E-tcetera.be). 
+
+
+      Part of Big in Belgium.
     price:
       standard: 12
       concession: 10
@@ -392,6 +397,7 @@ shows:
         link: https://www.facebook.com/verona.verbakel/
       - platform: Instagram
         link: https://www.instagram.com/veronaverbakel/
+    image: /static/02-26-2026-193051-7540.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1960
     company: Verona Verbakel
