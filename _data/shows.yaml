@@ -1290,3 +1290,54 @@ shows:
     company: Bellina Logan
     content_warnings:
       - Strong Language/Swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      A hymn to life in the darkest moments – 26 April 1986: Chernobyl nuclear
+      power plant explodes in Ukraine. 
+
+
+      This intimate performance explores the deeply human side of the tragedy - not a reconstruction of events, but of emotions through the memories of Lyudmila, the wife of a firefighter. Her words are drawn from Prayer for Chernobyl by Svetlana Alexievich. Performed by one of Italy's most intense stage actresses, Elena Arvigo, 'a powerhouse performer... a devastatingly beautiful account of love that can overcome everything' **\***(BingeFringe.com). 'An urgent, harrowing, stunningly performed piece for the present age' **\***(BroadwayBaby.com).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 15:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Atomic Tales
+    age_guidance: 12+
+    links:
+      - link: https://www.instagram.com/elena_arvigo
+        platform: Instagram
+    image: /static/02-27-2026-163943-6685-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1943
+    company: Elena Arvigo / Rhymes with Purple
+    content_warnings:
+      - Contains distressing or potentially triggering themes
