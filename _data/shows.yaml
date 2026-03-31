@@ -1341,3 +1341,51 @@ shows:
     company: Elena Arvigo / Rhymes with Purple
     content_warnings:
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Opinions are weapons. Friendship is the casualty. 
+
+
+      Liz and Sam host a theatre podcast. When Sam champions a radical new production, Liz's fury erupts, not from having seen it, but from the sheer possibility of their disagreement. As their civilized world shatters in a storm of jargon and betrayal, the unthinkable happens, as furious voices of Greek tragedy and Shakespeare's figures erupt onto the stage, violently invading and transfiguring their reality. An absurd meta-theatrical tragicomedy from Brazil performed in English where worlds collide, discourse meets myth and theatre fights back.
+    price:
+      standard: 17.5
+      concession: 16.5
+      preview: 11
+    start_time: 18:05
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Argonauts
+    age_guidance: 14+
+    links:
+      - link: https://www.instagram.com/technisbr
+        platform: Instagram
+    image: /static/argonauts.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1942
+    company: Technis
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Strong Language/Swearing
