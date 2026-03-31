@@ -1452,3 +1452,59 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Join a real-life mother and daughter on a road trip from Donegal to
+      southern Italy, as they weave their personal stories with those of Italian
+      immigrants in Northern Ireland.
+
+
+
+      Blending performance, video, archive testimony and live electronic music, the duo meet present-day migrants, activists and strangers along the route, asking who gets to draw the lines between us and them. 
+
+
+      Performed in English, French and Italian with integrated subtitles, Aliens is an 'ambitious, memorable piece that treats familiar themes in new, even alien ways' (Irish Times). A meditation on inheritance, migration and those who live in between: the aliens.
+    price:
+      standard: 19
+      concession: 16
+    start_time: 16:20
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h15m
+    title: Aliens
+    age_guidance: 12+
+    links:
+      - platform: Facebook
+        link: https://www.facebook.com/share/16cK9LPzs2/?mibextid=wwXIfr
+      - platform: Instagram
+        link: https://www.instagram.com/c urious.industries/
+      - link: https://x.com/dumbworldltd?lang=fr
+        platform: Twitter
+    content_warning_detail:
+      - Performed in English French and Italianwithintergratedsubtitles
+    image: /static/03-03-2026-100041-5966-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1940
+    company: Curious Industries and Dumbworld
+    video_embeds:
+      - embed_code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/1085469547?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+          clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="ALIENS_TEASER_SUB_ENG"></iframe></div><script
+          src="https://player.vimeo.com/api/player.js"></script>
