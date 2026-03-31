@@ -1116,3 +1116,66 @@ shows:
     company: Karen Hogue
     content_warnings:
       - Audience Participation
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-17
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      You sit on your front porch at 3am, a gun in one hand, a guitar in the
+      other: what song do you play? 
+
+
+      With original music, dark humour and heart, Down in Colorado is an exploration of the self-destructive impulses that follow us wherever we go. 
+
+
+      After tours in Brighton, Bologna, Genevaand more, the excellent writer, musician and performer
+
+      Gabriel Bird is back in Edinburgh to bring you more honest and powerful storytelling.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 20:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1h
+    title: Down in Colorado
+    links:
+      - link: https://www.instagram.com/gabird95/
+        platform: Instagram
+    image: /static/02-27-2026-120743-2434-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1948
+    company: Fraternal Compagnia
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Strong language/swearing
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/EfncgX6zX8I?si=jZZ6BXyD4IHL6WwP"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
