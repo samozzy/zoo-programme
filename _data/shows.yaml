@@ -924,6 +924,7 @@ shows:
     venue: ZOO Southside
     duration: 1h
     title: EXIT
+    age_guidance: 8+
     links:
       - platform: YouTube
         link: https://vimeo.com/user125286580
