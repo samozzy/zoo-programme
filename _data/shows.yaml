@@ -475,14 +475,13 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
-    copy_long: "This black box is now a bunker. With global apocalypse at the door,
-      Alice and Bee present their contribution to mankind: one last improv show
-      before the world ends. The two best friends-turned-unlikely humanitarians
-      race against time in their desperate attempt to make you laugh. Just
-      ignore the sirens. In the face of intergalactic doom, Last Laugh is a
-      zealous eulogy to live performance. Thankfully, crusaders Alice and Bee
-      have the toolkit to go out with a bang: monologues, trashcan lids,
-      homoeroticism, puppets and – dare they say it – hope."
+    copy_long: >-
+      This black box is now a bunker. With global apocalypse at the door, Alice
+      and Bee present their contribution to mankind: one last improv show before
+      the world ends. 
+
+
+      The two best friends-turned-unlikely humanitarians race against time in their desperate attempt to make you laugh. Just ignore the sirens. In the face of intergalactic doom, Last Laugh is a zealous eulogy to live performance. Thankfully, crusaders Alice and Bee have the toolkit to go out with a bang: monologues, trashcan lids, homoeroticism, puppets and – dare they say it – hope.
     price:
       standard: 12
       concession: 10
