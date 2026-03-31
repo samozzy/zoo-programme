@@ -143,7 +143,7 @@ shows:
       concession: 17
     start_time: 20:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: Soft Spot
@@ -205,7 +205,7 @@ shows:
       weekend_conc: 11
     start_time: 11:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Shakespeare x 5
@@ -267,7 +267,7 @@ shows:
       preview: 8
     start_time: 15:55
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Racists, Recessions and Revolutions
@@ -318,7 +318,7 @@ shows:
       weekend_conc: 11
     start_time: 14:20
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Patient 13
@@ -382,7 +382,7 @@ shows:
       weekend_conc: 11
     start_time: 12:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: Only Fans for Therapy
@@ -431,7 +431,7 @@ shows:
       weekend_conc: 18
     start_time: 12:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1h
     title: M.I.S All Night Long
