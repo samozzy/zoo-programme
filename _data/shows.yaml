@@ -1237,3 +1237,56 @@ shows:
     company: Karen Hall More Play Productions
     content_warnings:
       - Audience Participation
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-17
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Confessions of a Mulatto Love Child is a darkly funny and deeply moving
+      solo storytelling show by Bellina Logan.
+
+      Raised by her acerbic, larger-than-life English mother, Bellina grows up on outrageous stories, cultural collisions, and the relentless command to 'remember your life.' As her mother’s memory fades, the roles reverse and remembering becomes an act of love. With minimal set and rapid character shifts,
+
+      Logan brings over a dozen voices to life in a bold, intimate piece about identity, memory and the enduring bond between mother and daughter.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 10:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1h20m
+    title: Confessions of A Mulatto Love Child
+    age_guidance: 14+
+    links:
+      - link: https://www.facebook.com/bellina.logan/
+        platform: Facebook
+      - link: https://www.instagram.com/bellinamlogan
+        platform: Instagram
+    image: /static/02-27-2026-203842-7256-1-.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:1945
+    company: Bellina Logan
+    content_warnings:
+      - Strong Language/Swearing
