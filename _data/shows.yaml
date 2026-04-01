@@ -39,7 +39,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h20m
+    duration: 1hr20
     title: Woodhill
     age_guidance: 16+
     links:
@@ -93,7 +93,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 45m
+    duration: 45mins
     title: The Battle of Frogs and Mice
     links:
       - platform: Facebook
@@ -146,7 +146,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: Soft Spot
     age_guidance: 8+
     links:
@@ -209,7 +209,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Shakespeare x 5
     age_guidance: 14+
     links:
@@ -271,7 +271,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Racists, Recessions and Revolutions
     age_guidance: 14+
     links:
@@ -330,7 +330,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Patient 13
     age_guidance: 14+
     links:
@@ -399,7 +399,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Only Fans for Therapy
     age_guidance: 14+
     links:
@@ -449,7 +449,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: M.I.S All Night Long
     age_guidance: 14+
     links:
@@ -507,7 +507,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 50m
+    duration: 50mins
     title: Last Laugh
     age_guidance: 14+
     links:
@@ -559,7 +559,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 55m
+    duration: 55mins
     title: JUDAS EXCLUSIVE
     age_guidance: 14+
     links:
@@ -612,7 +612,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Japanese Grandma Funeral
     age_guidance: 14+
     links:
@@ -666,7 +666,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: If I Had a Gun, I'd Take Them All Down
     age_guidance: 16+
     links:
@@ -715,7 +715,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h15m
+    duration: 1hr15mins
     title: Handle with Care
     age_guidance: 12+
     links:
@@ -772,7 +772,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: Flesh
     age_guidance: 14+
     links:
@@ -837,7 +837,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h15m
+    duration: 1hr15mins
     title: Fatherload
     age_guidance: 14+
     links:
@@ -894,7 +894,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Father, Away She Goes
     age_guidance: 16+
     links:
@@ -950,7 +950,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: EXIT
     age_guidance: 8+
     links:
@@ -1009,7 +1009,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h15m
+    duration: 1hr15mins
     title: EVITA TOO
     age_guidance: 12+
     links:
@@ -1052,7 +1052,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: Everybody's Got a Bomb
     age_guidance: 16+
     links:
@@ -1112,7 +1112,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: Dreamgirl
     age_guidance: 12+
     links:
@@ -1167,7 +1167,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Down in Colorado
     links:
       - link: https://www.instagram.com/gabird95/
@@ -1229,7 +1229,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Delusions and Grandeur
     age_guidance: 12+
     links:
@@ -1284,7 +1284,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h20m
+    duration: 1hr20mins
     title: Confessions of A Mulatto Love Child
     age_guidance: 14+
     links:
@@ -1337,7 +1337,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Atomic Tales
     age_guidance: 12+
     links:
@@ -1384,7 +1384,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Argonauts
     age_guidance: 14+
     links:
@@ -1440,7 +1440,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: Am I Losing My Mind Or Just My Figure?
     age_guidance: 14+
     links:
@@ -1514,7 +1514,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h15m
+    duration: 1hr15mins
     title: Aliens
     age_guidance: 12+
     links:
@@ -1581,7 +1581,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: A Dark Line Upstairs
     age_guidance: 4+
     links:
@@ -1643,7 +1643,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: 3 Times I Killed
     age_guidance: 14+
     links:
@@ -1711,7 +1711,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 1h
+    duration: 1hr
     title: 15 Minutes of Shame
     age_guidance: 16+
     links:
@@ -1767,7 +1767,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1h
+    duration: 1hr
     title: "116 Grams: A Play to Lose Weight"
     age_guidance: 16+
     links:
