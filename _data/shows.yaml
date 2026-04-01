@@ -1014,7 +1014,7 @@ shows:
     age_guidance: 12+
     links:
       - platform: Instagram
-        link: ttps://www.instagram.com/judithdimantproductions/
+        link: https://www.instagram.com/judithdimantproductions/
     image: /static/03-03-2026-153135-6541-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1951
