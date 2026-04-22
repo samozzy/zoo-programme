@@ -503,11 +503,11 @@ shows:
       concession: 10
       weekend: 13
       weekend_conc: 11
-    start_time: 21:00
+    start_time: 20:55
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
-    duration: 50mins
+    duration: 1 hour
     title: Last Laugh
     age_guidance: 14+
     links:
