@@ -2490,3 +2490,63 @@ shows:
       - Audience participation
       - Contains distressing or potentially triggernig themes
       - Strong language/swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      This Is How I Got Arrested (after smuggling drugs across the border but
+      never actually getting caught with any drugs) is a tightly structured,
+      fourth wall breaking, hilarious, one-woman
+
+      dark-comedy show. 
+
+
+      Meet Sophie, a working-class youngster, ho takes the phrase 'girls just wanna have fun' a bit too far! What begins as a fast-paced account of her upbringing quickly spirals into a drug-fuelled escapade. Told under the pressure of a ticking timer, lies will unravel, truth will be revealed and mischief will mount into madness.
+    price:
+      standard: 12
+      concession: 11
+      weekend: 13
+      weekend_conc: 12
+      preview: 10
+    start_time: 19:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: This Is How I Got Arrested After Smuggling Drugs Across The Border But
+      Never Actually Getting Caught With Any Drugs
+    age_guidance: 16+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/thisishowigotarrested/
+      - platform: TikTok
+        link: https://www.tiktok.com/@thisishowigotarrested
+    image: /static/thisishowigotarrested_343x343.jpg
+    age_restricted: false
+    company: Azaelia Slade and SLADE Productins
+    content_warnings:
+      - Audience participation
+      - Strong language/swearing
+      - Substance abuse and mention of violence
