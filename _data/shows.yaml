@@ -1995,3 +1995,55 @@ shows:
           (trailer)"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
         title: Trailer
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Wayne Stewart is a theatre-maker who turns big philosophical questions
+      into lived experiments. 
+
+
+      In ASURA, he designs an AI spiritual guide in an attempt to reach enlightenment. Built around routines, structure and self-optimisation, the experiment collapses when illness intervenes, forcing him to begin again from a very different place. 
+
+
+      An offbeat solo performance that moves between humour, reflection and interaction. It prioritises presence over polish, allowing space for unpredictability and genuine exchange. ASURA explores the tension between control and acceptance, asking what remains when the need to optimise
+
+      falls away.
+    price:
+      standard: 12.5
+      concession: 10
+    start_time: 17:55
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: "ASURA: An Enlightenment Experiment"
+    age_guidance: 16+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/waynemstewart
+    image: /static/asuraanenlightenmentexperiment_343x343.jpg
+    age_restricted: false
+    company: Wayne Stewart
+    content_warnings:
+      - Audience participation
+      - Strong language/swearing
