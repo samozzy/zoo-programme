@@ -2550,3 +2550,55 @@ shows:
       - Audience participation
       - Strong language/swearing
       - Substance abuse and mention of violence
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Charlie's sick of his iPhone. His best friend never replies, his mum nags
+      him and everyone else's life looks better than his own. 
+
+
+      Sick of scrolling, for his 27th birthday, he's buying an old-school flip phone. No more five-hour screen time days. That'll fix everything... won't it? 
+
+
+      I Bought a Flip Phone is a hilarious, heartfelt dive into digital burnout, raunchy texts from men, and the feeling of waiting for your life to start. Join Charlie for an hour of hilarity and honesty as he searches for connection and some peace of mind.
+    price:
+      standard: 11
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 15:35
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: I Bought a Flip Phone
+    links:
+      - link: www.instagram.com/panoskandunias
+        platform: Instagram
+    image: /static/iboughtaflipphone_343x343.jpg
+    age_restricted: false
+    company: Peej Productions and Panos Kandunias
+    content_warnings:
+      - Scenes of a sexual nature
+      - Strong language/swearing
