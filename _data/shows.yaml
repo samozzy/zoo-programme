@@ -2105,3 +2105,75 @@ shows:
       - Strong language.swearing
       - Depictions of mental illness
       - Blood
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      A show about holes... and the lengths we go to fill them. 
+
+
+      At fifteen, Michael R Speciàle converted himself to Mormonism – no missionaries required. A closeted gay teenager in the Pacific Northwest, he built an entire belief system to contain
+
+      what he couldn't face. Surprise! It didn't work. Part stand-up, part cabaret, part sermon, part TED Talk, Speciàle transforms the theatre into a queer church of longing, doubt and spectacular failure through musical numbers, radical oversharing, whiteboard theology and of course, Judy
+
+      Garland. 
+
+
+      'An audacious but essential work of art' (WWeek.com). European Premiere.
+    price:
+      standard: 13.5
+      concession: 12.5
+      weekend: 14.5
+      weekend_conc: 13.5
+      preview: 10
+    start_time: 22:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Bottoming for Jesus
+    age_guidance: 18+
+    links:
+      - link: https://www.instagram.com/speciale.mr
+        platform: Instagram
+    image: /static/bottomingforjesus_343x343.jpg
+    age_restricted: false
+    company: Michael R Speciàle
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Audience participation
+      - Scenes of a sexual nature
+      - Strong language/swearing
+      - One loud noise
+      - Explicit discussions of sexuality and religious themes throughout
+    video_embeds:
+      - embed_code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/1153388828?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+          clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="Bottoming for Jesus | Trailer | 2026"></iframe></div><script
+          src="https://player.vimeo.com/api/player.js"></script>
+        title: Trailer
