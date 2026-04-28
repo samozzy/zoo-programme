@@ -1843,3 +1843,49 @@ shows:
     company: Dante Passarelli
     content_warnings:
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: A clown in search of connection and wild delight can't decide whether
+      to face every fear, sing to the night sky or share their talents... so
+      they do it all (most).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 21:30
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1 hour
+    title: Here Comes Almost
+    age_guidance: 16+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/noahrseltzer
+    image: /static/herecomesalmost.jpg
+    age_restricted: false
+    company: Noah Seltzer
+    content_warnings:
+      - Audience Participation
