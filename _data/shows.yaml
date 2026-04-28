@@ -2177,3 +2177,67 @@ shows:
           title="Bottoming for Jesus | Trailer | 2026"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
         title: Trailer
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-18
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      A﻿ fearlessly honest, bitingly witty and unexpectedly uplifting true story
+      of a mother and daughter navigating the realities of caregiving. 
+
+
+      B﻿lindsided when her mother receives a life-changing diagnosis, Danya writes a Facebook post. Waking up to hundreds of responses she realises she isn't alone, and begins to share all the ups,downs, hilarity and heartbreak with her new-found cyber support network.
+
+
+      An award-winning play from Radio Hall of Gamer Danya teele, based on the best-selling book Surviving Alzheimer's with Friends, Facebook and a Really Big Glass of Wine.
+
+
+      '﻿A love letter to caregivers.' (Houston Press)
+    price:
+      standard: 13.5
+      concession: 12.5
+      weekend: 15
+      weekend_conc: 14
+    start_time: 15:15
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr10
+    title: The Woman in the Mirror
+    age_guidance: 12+
+    links:
+      - platform: Facebook
+        link: www.facebook.com/danyasteele
+      - platform: Instagram
+        link: www.instagram.com/danyasteele
+      - platform: Twitter
+        link: www.x.com/danyasteele
+      - platform: YouTube
+        link: www.youtube.com/@danyasteele
+      - platform: TikTok
+        link: www.tiktok.com/@danyasteele
+    image: /static/the-woman-in-the-mirror.jpg
+    age_restricted: false
+    company: Blue Squirrel Productions and Suzanna Rosenthal Productions
+    content_warnings:
+      - Strong language/swearing
+      - Contains distressing or potentially triggering themes
