@@ -2401,3 +2401,92 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-17
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      With the 2026 Mascot Grand National rapidly approaching and her shell-suit
+      sporting dad indisposed, reluctant Ella must fill Eddie The Egg's
+      incredibly big boots in this heartwarming, hilarious story about one
+      extraordinary race for glory. 
+
+
+      Written and performed by Best Solo Performance nominee (The Stagey Place) Claudia Fielding, with direction and music by Anna Rastelli, the pair returns to Edinburgh debuting this wacky comedy about family tradition, legacy and the love of The Game. 
+
+
+      'Fielding is the oddball left field droll hero we all need in our lives' (FringeReview.co.uk). 
+
+
+      'A writer-performer to keep tabs on' (Everything-Theatre.co.uk).
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13
+      weekend_conc: 11
+    start_time: 13:25
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: A Costume Drama
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: www.instagram.com/_claud_creates/
+    image: /static/acostumedrama_343x343.jpg
+    age_restricted: false
+    company: Play the Field Productions
+  - performances:
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      In the name of Russia, Seledka and his new troupe are here to stop the
+      war. His goal? Make sure his soldiers eat sleep bleed Soviet. 
+
+
+      However, his meeting is hijacked by young Ukrainian women recounting tales from the war. Who’s entitled to claim ownership of a country? How different are we from those fighting for their freedom? One-woman show, Seledka, is a political satire written to educate and relate the distant world of Ukraine to audiences who have never had to question what it’s like to live with war. We are more similar than we think.
+    price:
+      standard: 12
+      concession: 10
+      weekend: 13.5
+      weekend_conc: 11
+    start_time: 17:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Seledka
+    age_guidance: 12+
+    image: /static/seledka_343x343.jpg
+    age_restricted: false
+    company: Uliana Klimchuk and Lily Afghani
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggernig themes
+      - Strong language/swearing
