@@ -2241,3 +2241,100 @@ shows:
     content_warnings:
       - Strong language/swearing
       - Contains distressing or potentially triggering themes
+  - performances:
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Circle of Fifths is an immersive theatre experience celebrating life in
+      death. 
+
+
+      The show explores what connects us in times of grief and loss, using film, live music and real-life stories from Butetown, Wales' oldest multicultural community. Director Gavin Porter, film and theatre-maker from Butetown, created this show with musicians and artists from his community. Together, they offer a moment of collective reflection and celebration. 
+
+
+      '\[A] beautiful and moving portrait of a place and its people' \\\\\*(Guardian). 
+
+
+      Selected for Wales in Edinburgh 2026. Originally commissioned by National Theatre Wales.
+    price:
+      standard: 13
+      concession: 11
+      preview: 10
+    start_time: 16:40
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 1hr
+    title: Circle of Fifths
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/gavinporter/
+    image: /static/circleoffifths_343x343.jpg
+    age_restricted: false
+    company: Gavin Porter
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Audience required to walk or move around during the performance
+      - Strong language/swearing
+      - Contains references to death/dying and cancer
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/0zl3MLmvhi8?si=KiAnHUMgHNo2pgA5"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        title: Trailer
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-22
+      - 2026-08-23
+    copy_long: >-
+      Tonight, Amanda Royce is detonating her mayoral campaign in sleepy
+      Coulsdon, and she isn't playing nice. 
+
+
+      This bold, brash and brazen character comedy skewers politics, delivering an audacious, hilarious ride through failure, spicy opinions, hot flushes, and maybe even a revolution? It's crunch time, armed with big promises and even bigger blind spots, Amanda's taking on everything and everyone with zero restraint: fat kids, the poor, loneliness, and those bloody potholes all collide in her chaotic vision to fix broken Britain. Ambition spirals and reality bites, the stakes get higher, and the laughs get harder.
+    price:
+      standard: 13
+      concession: 11
+      weekend: 12
+      weekend_conc: 10
+    start_time: 17:10
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Your Choice Amanda Royce
+    age_guidance: 14+
+    links:
+      - platform: Instagram
+        link: www.instagram.com/yourchoiceamandaroyce
+    image: /static/yourchoiceamanadaroyce_343x343.jpg
+    age_restricted: false
+    company: Rachel Twigg
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+      - Scenes of violence
+      - Outdated, offensive language and attitudes
+      - Suicidal themes
