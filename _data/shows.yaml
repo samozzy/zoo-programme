@@ -2047,3 +2047,61 @@ shows:
     content_warnings:
       - Audience participation
       - Strong language/swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      'There are ants in your drawers. There is food in your microwave. There is
+      blood on the food. There are ants in the blood. They are watching you eat.
+      You have a nosebleed.'
+
+
+
+      Blending absurdist theatre, contemporary dance and creative captioning, HotCat Collective present their new show about loss of control, expectations within domestic settings, and
+
+      what it means to rot in the face of sterilisation. Four dancers and a microwave invite you to embrace chaos despite the prying eyes. Don't hide. Come and see the beautiful colours on your mouldy fork.
+    price:
+      standard: 13
+      concession: 10
+    start_time: 21:35
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    duration: 50mins
+    title: Stop Playing Jacob's Ladder With My Spine
+    age_guidance: 12+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/hotcatcollective/
+      - platform: Twitter
+        link: https://x.com/HotCatColl
+    image: /static/jacob-s-ladder-fringe-image-new.png
+    age_restricted: false
+    company: HotCat Collective
+    content_warnings:
+      - Audience participation
+      - Contains distressing or potentially triggering themes
+      - Strobe lighting
+      - Strong language.swearing
+      - Depictions of mental illness
+      - Blood
