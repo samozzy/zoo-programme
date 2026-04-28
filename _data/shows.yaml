@@ -1829,7 +1829,7 @@ shows:
     booking_unavailable: false
     is_draft: true
     venue: ZOO Playground
-    duration: 1 hour
+    duration: 1 hr
     title: The Last Drop
     age_guidance: 12+
     links:
@@ -1875,7 +1875,7 @@ shows:
     booking_unavailable: false
     is_draft: true
     venue: ZOO Playground
-    duration: 1 hour
+    duration: 1 hr
     title: Here Comes Almost
     age_guidance: 16+
     links:
@@ -1920,7 +1920,7 @@ shows:
     booking_unavailable: false
     is_draft: true
     venue: ZOO Southside
-    duration: 1 hour
+    duration: 1 hr
     title: Strange Tales
     image: /static/strangetales_343x343.jpg
     age_restricted: false
