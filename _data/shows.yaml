@@ -2671,3 +2671,56 @@ shows:
       - Scenes of a sexual nature
       - Strobe lighting
       - Strong language/swearing
+  - performances:
+      - 2026-08-07
+      - 2026-08-08
+      - 2026-08-09
+      - 2026-08-10
+      - 2026-08-11
+      - 2026-08-12
+      - 2026-08-13
+      - 2026-08-14
+      - 2026-08-15
+      - 2026-08-16
+      - 2026-08-18
+      - 2026-08-19
+      - 2026-08-20
+      - 2026-08-21
+      - 2026-08-22
+      - 2026-08-23
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      The canteen is open. Long night ahead. Everything ahead.
+
+      On the motorway, everyone is on their own private journey. But Maeve and Lucy exist on its margins, working night shifts at a service station; a liminal, eerie place to stop for a coffee.
+
+      No one ever comes in. When only one of the friends is given the gift of an extraterrestrial encounter, jealousy leads to a violent meltdown in friendship. A chiller night-drug piss play.
+    price:
+      standard: 12
+      concession: 10.5
+      weekend: 13
+      weekend_conc: 11.5
+    start_time: 16:50
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: Motorway
+    age_guidance: 16+
+    links:
+      - link: www.instagram.com/motorway_real
+        platform: Instagram
+    image: /static/motorway_343x343.jpg
+    age_restricted: false
+    company: Daniel Cuckow and Abigail Sinclair
+    content_warnings:
+      - Contains distressing or potentially triggering themes
+      - Scenes of a sexual nature
+      - Scenes of violence
+      - Strong language/swearing
