@@ -2785,3 +2785,44 @@ shows:
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
         title: Trailer
+  - performances:
+      - 2026-08-24
+      - 2026-08-25
+      - 2026-08-26
+      - 2026-08-27
+      - 2026-08-28
+      - 2026-08-29
+      - 2026-08-30
+    copy_long: >-
+      Luke emerges from a battered suitcase into a surreal strip club run by
+      generations of his own family. Tonight is his debut performance. The only
+      problem? He's always seen himself as the clown, the people-pleasing
+      entertainer, rather than the star. 
+
+
+      Blending clown and character comedy, this strange, visually playful solo show spirals through sketchy characters, surreal transformations and a haunting family voice that undermines his every attempt to perform. As the world becomes increasingly absurd, Luke must decide: step into
+
+      the spotlight – or crawl back inside the suitcase.
+    price:
+      standard: 11
+      concession: 10
+      weekend: 12
+      weekend_conc: 10
+      preview: 8.5
+    start_time: 20:35
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Playground
+    duration: 1hr
+    title: The House of Pitman
+    age_guidance: 16+
+    links:
+      - platform: Instagram
+        link: https://www.instagram.com/lukepitmanactor
+    image: /static/thehouseofpitmans_343x343.jpg
+    age_restricted: false
+    company: Luke Pitman
+    content_warnings:
+      - Audience participation
+      - Scenes of a sexual nature
+      - Strong language/swearing
