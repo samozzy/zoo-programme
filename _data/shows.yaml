@@ -2117,6 +2117,7 @@ shows:
         link: https://x.com/HotCatColl
     image: /static/jacob-s-ladder-fringe-image-new.png
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2022
     company: HotCat Collective
     content_warnings:
       - Audience participation
@@ -2179,6 +2180,7 @@ shows:
         platform: Instagram
     image: /static/bottomingforjesus_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2011
     company: Michael R Speciàle
     content_warnings:
       - Contains distressing or potentially triggering themes
@@ -2257,6 +2259,7 @@ shows:
         link: www.tiktok.com/@danyasteele
     image: /static/the-woman-in-the-mirror.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2027
     company: Blue Squirrel Productions and Suzanna Rosenthal Productions
     content_warnings:
       - Strong language/swearing
