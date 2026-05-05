@@ -2839,6 +2839,7 @@ shows:
         link: https://www.instagram.com/lukepitmanactor
     image: /static/thehouseofpitmans_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2016
     company: Luke Pitman
     content_warnings:
       - Audience participation
