@@ -2627,6 +2627,7 @@ shows:
         platform: Instagram
     image: /static/iboughtaflipphone_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2017
     company: Peej Productions and Panos Kandunias
     content_warnings:
       - Scenes of a sexual nature
