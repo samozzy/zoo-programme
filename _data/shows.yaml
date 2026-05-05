@@ -2681,6 +2681,7 @@ shows:
         link: https://www.tiktok.com/@Catherinetaaffe_
     image: /static/the-only-man-who-won’t-fuck-me-updated.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2020
     company: Catherine Taaffe Productions and Suzanna Rosenthal Productions
     content_warnings:
       - Scenes of a sexual nature
@@ -2733,6 +2734,7 @@ shows:
         platform: Instagram
     image: /static/motorway_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2019
     company: Daniel Cuckow and Abigail Sinclair
     content_warnings:
       - Contains distressing or potentially triggering themes
@@ -2786,6 +2788,7 @@ shows:
         platform: Instagram
     image: /static/when-you-are-a-tick.jpg
     age_restricted: true
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2026
     company: Fair Love Collective
     content_warnings:
       - Audience participation
