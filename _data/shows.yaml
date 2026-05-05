@@ -2355,6 +2355,7 @@ shows:
         link: www.instagram.com/yourchoiceamandaroyce
     image: /static/yourchoiceamanadaroyce_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2028
     company: Rachel Twigg
     content_warnings:
       - Audience participation
@@ -2413,6 +2414,7 @@ shows:
         platform: Instagram
     image: /static/alwayssometimesmaybe_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2009
     company: Michele Stine
     content_warnings:
       - Audience participation
@@ -2480,6 +2482,7 @@ shows:
         link: www.instagram.com/_claud_creates/
     image: /static/acostumedrama_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2013
     company: Play the Field Productions
   - performances:
       - 2026-08-24
