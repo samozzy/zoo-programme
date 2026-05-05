@@ -1852,6 +1852,7 @@ shows:
         link: https://www.instagram.com/teatromanaslaboratorio/
     image: /static/thelastdrop_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2018
     company: Dante Passarelli
     content_warnings:
       - Contains distressing or potentially triggering themes
@@ -1898,6 +1899,7 @@ shows:
         link: https://www.instagram.com/noahrseltzer
     image: /static/herecomesalmost.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2015
     company: Noah Seltzer
     content_warnings:
       - Audience Participation
