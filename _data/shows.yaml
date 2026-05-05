@@ -2512,6 +2512,7 @@ shows:
     age_guidance: 12+
     image: /static/seledka_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2021
     company: Uliana Klimchuk and Lily Afghani
     content_warnings:
       - Audience participation
@@ -2572,6 +2573,7 @@ shows:
         link: https://www.tiktok.com/@thisishowigotarrested
     image: /static/thisishowigotarrested_343x343.jpg
     age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2024
     company: Azaelia Slade and SLADE Productins
     content_warnings:
       - Audience participation
