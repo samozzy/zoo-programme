@@ -2288,11 +2288,11 @@ shows:
       standard: 13
       concession: 11
       preview: 10
-    start_time: 16:40
+    start_time: 16:25
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1hr
+    duration: 1hr15
     title: Circle of Fifths
     age_guidance: 14+
     links:
