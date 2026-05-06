@@ -2503,7 +2503,7 @@ shows:
       concession: 10
       weekend: 13.5
       weekend_conc: 11
-    start_time: 17:50
+    start_time: 17:10
     booking_unavailable: false
     is_draft: false
     venue: ZOO Playground
