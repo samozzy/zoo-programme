@@ -1842,7 +1842,7 @@ shows:
       preview: 8
     start_time: 19:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1 hr
     title: The Last Drop
@@ -1889,7 +1889,7 @@ shows:
       weekend_conc: 11
     start_time: 21:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1 hr
     title: Here Comes Almost
@@ -1932,7 +1932,7 @@ shows:
       preview: ""
     start_time: 16:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1 hr
     title: Strange Tales
@@ -1990,7 +1990,7 @@ shows:
       weekend_conc: 10
     start_time: 10:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: flights for future generations
@@ -2052,7 +2052,7 @@ shows:
       concession: 10
     start_time: 17:55
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: "ASURA: An Enlightenment Experiment"
@@ -2105,7 +2105,7 @@ shows:
       concession: 10
     start_time: 21:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 50mins
     title: Stop Playing Jacob's Ladder With My Spine
@@ -2170,7 +2170,7 @@ shows:
       preview: 10
     start_time: 22:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Bottoming for Jesus
@@ -2241,7 +2241,7 @@ shows:
       weekend_conc: 14
     start_time: 15:15
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr10
     title: The Woman in the Mirror
@@ -2290,7 +2290,7 @@ shows:
       preview: 10
     start_time: 16:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     duration: 1hr
     title: Circle of Fifths
@@ -2345,7 +2345,7 @@ shows:
       weekend_conc: 10
     start_time: 17:10
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Your Choice Amanda Royce
@@ -2404,7 +2404,7 @@ shows:
       weekend_conc: 13
     start_time: 18:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Always, Sometimes, Maybe
@@ -2472,7 +2472,7 @@ shows:
       weekend_conc: 11
     start_time: 13:25
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: A Costume Drama
@@ -2505,7 +2505,7 @@ shows:
       weekend_conc: 11
     start_time: 17:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Seledka
@@ -2560,7 +2560,7 @@ shows:
       preview: 10
     start_time: 19:40
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: This Is How I Got Arrested After Smuggling Drugs Across The Border But
@@ -2618,7 +2618,7 @@ shows:
       weekend_conc: 11
     start_time: 15:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: I Bought a Flip Phone
@@ -2670,7 +2670,7 @@ shows:
       preview: 10
     start_time: 21:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1h
     title: The Only Man Who Won't Fuck Me
@@ -2724,7 +2724,7 @@ shows:
       weekend_conc: 11.5
     start_time: 16:50
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: Motorway
@@ -2776,7 +2776,7 @@ shows:
       preview: 8
     start_time: 20:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: When You Are A Tick
@@ -2829,7 +2829,7 @@ shows:
       preview: 8.5
     start_time: 20:35
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Playground
     duration: 1hr
     title: The House of Pitman
