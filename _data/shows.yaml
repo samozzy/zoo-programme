@@ -2859,7 +2859,7 @@ shows:
       concession: 13
     start_time: 18:00
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     copy_short: ""
     duration: 60mins
