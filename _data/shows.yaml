@@ -2845,3 +2845,26 @@ shows:
       - Audience participation
       - Scenes of a sexual nature
       - Strong language/swearing
+  - performances:
+      - 2026-08-24
+    copy_long: To celebrate 25 years of championing new work, ZOO presents a special
+      showcase of what's next. For one day only, a dynamic collection of
+      emerging, bold and provocative artists take over our biggest stage,
+      sharing fresh ideas and unforgettable performances. This is not a
+      retrospective, but a bold step forward – an opportunity to look ahead to
+      the next 25 years. Discover the voices, visions and creative forces set to
+      shape the future of performance. Full line-up to be announced in June.
+    price:
+      standard: 15
+      concession: 13
+    start_time: 18:00
+    booking_unavailable: false
+    is_draft: true
+    venue: ZOO Southside
+    copy_short: ""
+    duration: 60mins
+    title: What's Next?
+    image: /static/whatsnext_343x343.jpg
+    age_restricted: false
+    ticket_url: https://tickets.zoofestival.co.uk/event/124:2025
+    company: ZOO
