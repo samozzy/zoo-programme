@@ -1654,17 +1654,28 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
-    copy_long: >-
-      P﻿lunge into the desperate world of a young London couple facing the
-      brutal reality of financial struggle. 
+    copy_long: "Why not do OnlyFans?\ 
 
 
-      Tired of watching others’ curated success online and frustrated by their own limited social media reach, they decide to chase the elusive dream of fame and fortune by launching an OnlyFans
+      Plunge into the desperate world of a young London couple facing the
+      brutal reality of financial struggle.
 
-      account. But as subscribers grow, their connection in reality drops. 
+      \r
+
+      \r
+
+      Tired of watching others’ curated success online, they decide to
+      chase the elusive dream of fame and fortune by launching an OnlyFans
+      account. But as subscribers grow, their connection in reality drops.
 
 
-      Balancing biting comedy with raw drama, this provocative and unflinching mirror to our times tracks the high costs of monetising intimacy.
+      \r
+
+      \r
+
+      Balancing biting comedy with raw drama, acclaimed artist Adébayo
+      Bolaji sensationally directs this provocative and unflinching mirror to
+      our times."
     price:
       standard: 14
       concession: 12
@@ -1678,7 +1689,7 @@ shows:
     links:
       - link: https://www.instagram.com/15minutesofshameplay
         platform: Instagram
-    image: /static/02-28-2026-204301-3775-1-.jpg
+    image: /static/15-minutes-of-shame.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1939
     company: majestic disorder
@@ -1686,6 +1697,14 @@ shows:
       - Contains distressing or potentially triggering themes
       - Scenes of a Sexual Nature
       - Strong Language/Swearing
+    video_embeds:
+      - embed_code: <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/c4BPfkLqZeU?si=ZfLar5BzYlgPyJ2M"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
   - performances:
       - 2026-08-07
       - 2026-08-08
