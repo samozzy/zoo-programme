@@ -1183,6 +1183,9 @@ shows:
         platform: Instagram
       - link: https://www.facebook.com/inforthelonghall
         platform: Facebook
+    reviews:
+      - Publisher: Theatre Village
+        quote: "\"she's got serious musical credentials\""
     image: /static/03-03-2026-084224-1113-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1947
