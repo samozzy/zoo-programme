@@ -211,6 +211,13 @@ collections:
                 required: false
                 label: Access Performance Details
                 hint: Eg. Which performances have captions, etc.
+              - name: audio_intro
+                widget: file
+                required: false
+                choose_url: false 
+                media_folder: "/static/audio"
+                label: Audio Introduction
+                hint: Audio introduction file, should be in .wav or .mp3 format
 
               - widget: list
                 name: content_warnings

@@ -128,6 +128,15 @@ use_swiper: true
 		{% elsif show.age_guidance and show.age_guidance != empty %}
 			{% assign has_advisories = true %}
 		{% endif %}
+		{% if show.audio and show.audio != "" and show.audio != empty %}
+			<div class="col-12 mb-2">
+				<h3 class="text-zoo-orange">Audio Introduction</h3>
+				<p>This year we are working with Extant to help make all our shows as accessible as possible to audiences with visual impairments. As part of this we have asked our companies to record an audio introduction to their show. Press play below to listen.</p>
+				<div class="col-12 col-lg-6">
+					<audio controls src="{% link /static/{{  show.audio }} %}"></audio>
+				</div>
+			</div>
+		{%  endif %}
 		{% if has_advisories %}
 			<div class="col-12 col-md-6">
 				{% if show.age_guidance and show.age_guidance != empty %}
