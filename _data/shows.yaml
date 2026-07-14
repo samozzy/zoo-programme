@@ -2754,7 +2754,7 @@ shows:
         platform: Facebook
       - link: https://www.instagram.com/fair_love_collective
         platform: Instagram
-    image: /static/when-you-are-a-tick.jpg
+    image: /static/tick.jpg
     age_restricted: true
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2026
     company: Fair Love Collective
@@ -2764,13 +2764,12 @@ shows:
       - Strong language/swearing
     video_embeds:
       - embed_code: <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/u_BIjS8P304?si=NvaAYmWDDKKwch8_"
+          src="https://www.youtube.com/embed/dwpA8jIueDE?si=2ABVg7tpc6Epk8wo"
           title="YouTube video player" frameborder="0" allow="accelerometer;
           autoplay; clipboard-write; encrypted-media; gyroscope;
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-        title: Trailer
   - performances:
       - 2026-08-24
       - 2026-08-25
