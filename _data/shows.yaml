@@ -194,6 +194,7 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
+    access: null
     copy_long: >-
       Surprised by the audience and completely unprepared, two clowns grab the
       only story everyone knows: Romeo and Juliet. 
@@ -203,6 +204,7 @@ shows:
 
 
       A provocative, heart-wrenching finale that asks what remains among the ruins. Fearless, absurd and unforgettable.
+    access_details: A﻿udio Described performances Wednesday 12 Aug and Wednesday 19 Aug
     price:
       standard: 12
       concession: 10
