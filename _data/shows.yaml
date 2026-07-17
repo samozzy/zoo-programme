@@ -2841,7 +2841,7 @@ shows:
       standard: 15
     start_time: 22:30
     booking_unavailable: false
-    is_draft: true
+    is_draft: false
     venue: ZOO Southside
     copy_short: "Join your favourite galactic gal pals Figs in Wigs for the
       universe's first ever cosmic game show for astrology lovers, bingo wingers
