@@ -1847,9 +1847,12 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
-    copy_long: A clown in search of connection and wild delight can't decide whether
-      to face every fear, sing to the night sky or share their talents... so
-      they do it all (most).
+    copy_long: >-
+      We are in a loneliness epidemic!
+
+      In 2023, the World Health Organization (WHO) declared loneliness a global health threat. In response, they've sent Almost—a hopelessly hopeful clown—to solve it one theatre at a time!
+
+      Through physical comedy, song, dance and audience interaction, Here Comes Almost follows one clown's wildly misguided yet sincere attempts to cure the world of loneliness.
     price:
       standard: 12
       concession: 10
@@ -1865,7 +1868,7 @@ shows:
     links:
       - platform: Instagram
         link: https://www.instagram.com/noahrseltzer
-    image: /static/herecomesalmost.jpg
+    image: /static/here-comes-almost-edfringe-photo-website.jpeg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2015
     company: Noah Seltzer
