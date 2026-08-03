@@ -2600,6 +2600,23 @@ shows:
     links:
       - link: www.instagram.com/panoskandunias
         platform: Instagram
+    reviews:
+      - Publisher: ""
+        quote: "'Following five star runs at Theatre Royal Bath, Oxford Playhouse and
+          HOME.' "
+      - Publisher: North West End
+        quote: “Very funny, very engaging, openly vulnerable and utterly charming.”
+        stars: 5
+      - Publisher: "A Young(Ish) Perspective "
+        quote: “Very funny, very engaging, openly vulnerable and utterly charming.”
+        stars: 5
+      - quote: “A remarkable early career performance… a delight.”
+        stars: 4
+        Publisher: Theatre Reviews North
+      - quote: “Extremely relatable to Gen Z and the comedy really shines through… kept
+          the audience entertained the whole time.”
+        stars: 4
+        Publisher: Manchester Theatres
     image: /static/iboughtaflipphone_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2017
