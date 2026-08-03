@@ -1193,6 +1193,16 @@ shows:
     reviews:
       - Publisher: Theatre Village
         quote: "\"she's got serious musical credentials\""
+      - Publisher: Broadway Baby
+        stars: 5
+        quote: '"Delusions and Grandeur spoke to the artist in many of us and the
+          humanity in all of us." '
+      - quote: '"Hall’s deceptively profound yet entertaining creation had plenty to
+          say"'
+        Publisher: "The Strad Magazine "
+      - quote: '"Her pre-show setup was brilliantly comedic." '
+        stars: 5
+        Publisher: GJD Reviews
     image: /static/03-03-2026-084224-1113-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1947
