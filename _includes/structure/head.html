@@ -24,7 +24,7 @@
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {% endif %}
 
-    {% capture page_title %}{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO25{% endunless %}{% endcapture %}
+    {% capture page_title %}{% if page.logo_in_title %}ZOO{% endif %} {{ page.title | default: site.title | strip }} {% unless page.permalink == '/' %}| ZOO{{ site.current_season}}{% endunless %}{% endcapture %}
     {% capture page_image %}
       {% if page.layout == 'show' %}
         {% if page.image %}{{ page.image }}{% else %}{% link static/img/zoo-placeholder-show.png %}?cachebust={{ site.time | date: "%Y%m%d%H%M"}}{% endif %}
@@ -43,7 +43,7 @@
     <meta property="og:image" content="{{ page_image | prepend: site.baseurl | strip }}" />
     <meta property="og:description" content="{{ page.copy_short | default: page.copy_long | default: page.excerpt | strip_html }}" />
     <meta property="og:url" content="{{ page.permalink }}" />
-    <meta property="og:site_name" content="ZOO 22 Programme" />
+    <meta property="og:site_name" content="ZOO {{ site.current_season }} Programme" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     <meta name="twitter:title" content="{{ page_title | strip }}" />
