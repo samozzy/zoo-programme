@@ -2835,13 +2835,13 @@ shows:
       - Strong language/swearing
   - performances:
       - 2026-08-24
-    copy_long: To celebrate 25 years of championing new work, ZOO presents a special
-      showcase of what's next. For one day only, a dynamic collection of
-      emerging, bold and provocative artists take over our biggest stage,
-      sharing fresh ideas and unforgettable performances. This is not a
-      retrospective, but a bold step forward – an opportunity to look ahead to
-      the next 25 years. Discover the voices, visions and creative forces set to
-      shape the future of performance. Full line-up to be announced in June.
+    copy_long: >-
+      Celebrating 25 years of championing new work, ZOO presents a special
+      showcase of what's next. Bold and provocative artists take over our
+      biggest stage, sharing fresh ideas and unforgettable performances. 
+
+
+      Tough Boys share an extract from their work, BRUTAL. An auto-fictional duet that grapples with faith, loneliness and juvenile hunger. NOT TO BE REPRODUCED's ‘Rules for Safe Lifting’ hilariously explores our relationship with isolation, monotony; all with a little wink and nudge. Dirty Protest presents MY MIX(ed up) TAPE by Katie Payne. Powered by live beats and brutal honesty, it's a riotous story of rage, love, and identity.
     price:
       standard: 15
       concession: 13
@@ -2850,7 +2850,7 @@ shows:
     is_draft: false
     venue: ZOO Southside
     copy_short: ""
-    duration: 60mins
+    duration: 75mins
     title: What's Next?
     image: /static/whatsnext_343x343.jpg
     age_restricted: false
