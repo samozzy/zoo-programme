@@ -1369,7 +1369,8 @@ shows:
     content_warnings:
       - Contains distressing or potentially triggering themes
       - Strong Language/Swearing
-  - performances:
+  - audio_intro: /static/audio/ailmmojmf-audio-descript.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
