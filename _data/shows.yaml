@@ -1657,7 +1657,8 @@ shows:
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
           title="Andrea Coleman Storytelling"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
-  - performances:
+  - audio_intro: /static/audio/15-minutes-of-shame_audio-introductions.m4a
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
