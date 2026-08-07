@@ -236,7 +236,8 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - performances:
+  - audio_intro: /static/audio/rascists-recessions-revolutions-audio-description-zoo-1.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
