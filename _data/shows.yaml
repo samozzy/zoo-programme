@@ -2102,7 +2102,8 @@ shows:
       - Intentional self injury
       - Depictions of and reference to dermatillomania and skin picking
       - "Depictions of vomiting "
-  - performances:
+  - audio_intro: /static/audio/bfj-audio-description.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
