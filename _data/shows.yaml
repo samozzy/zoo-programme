@@ -2360,6 +2360,8 @@ shows:
       - 2026-08-28
       - 2026-08-29
       - 2026-08-30
+    access:
+      - relaxed
     copy_long: >-
       **'...class act in mime and clowning' \*\*\*\*\* (BingeFringe.com).**
 
@@ -2373,6 +2375,7 @@ shows:
       Always, Sometimes, Maybe is a solo clown show about a janitor so lonely she makes her friends out of trash. Using physical comedy and puppetry, this show
 
       is a funny and wild journey into what it means to be alone, and how we find our way back to each other. Lou unexpectedly finds herself with an audience; with nothing but her rubbish and lot of imagination, she tries to find connection.
+    access_details: Relaxed performances available on 12th and 26th of August
     price:
       standard: 13
       concession: 11
