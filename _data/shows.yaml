@@ -2464,7 +2464,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2013
     company: Play the Field Productions
-  - performances:
+  - audio_intro: /static/audio/seledka-audio-intro-.mp3
+    performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
