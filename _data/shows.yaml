@@ -2498,7 +2498,8 @@ shows:
       - Audience participation
       - Contains distressing or potentially triggernig themes
       - Strong language/swearing
-  - performances:
+  - audio_intro: /static/audio/this-is-how-i-got-arrested-audio-introduction-mp3-1-.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
