@@ -1210,7 +1210,8 @@ shows:
     company: Karen Hall More Play Productions
     content_warnings:
       - Audience Participation
-  - performances:
+  - audio_intro: /static/audio/audio-description_confessions-of-a-mulatto-love-child.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1591,8 +1592,7 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - audio_intro: /static/audio/audio-introduction_3-times-i-killed_final.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2103,8 +2103,7 @@ shows:
       - Intentional self injury
       - Depictions of and reference to dermatillomania and skin picking
       - "Depictions of vomiting "
-  - audio_intro: /static/audio/bfj-audio-description.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2243,8 +2242,7 @@ shows:
       - Strong language/swearing
       - Contains distressing or potentially triggering themes
       - Contains flashing lighting
-  - audio_intro: /static/audio/circle-of-fifths.mp3
-    performances:
+  - performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
@@ -2808,7 +2806,8 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - performances:
+  - audio_intro: /static/audio/audio-description-the-house-of-pitman.mp3
+    performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
