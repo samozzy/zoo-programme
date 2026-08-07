@@ -289,7 +289,8 @@ shows:
     company: DBN Productions
     content_warnings:
       - Strong Language/Swearing
-  - performances:
+  - audio_intro: /static/audio/patient-13-audio-introduction-.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
