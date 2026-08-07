@@ -2045,7 +2045,8 @@ shows:
     content_warnings:
       - Audience participation
       - Strong language/swearing
-  - performances:
+  - audio_intro: /static/audio/stop-playing-jacob-s-ladder-with-my-spine-audio-description.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
