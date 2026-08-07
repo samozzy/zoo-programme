@@ -2338,7 +2338,8 @@ shows:
       - Scenes of violence
       - Outdated, offensive language and attitudes
       - Suicidal themes
-  - performances:
+  - audio_intro: /static/audio/always-sometimes-maybe-audio-introduction.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
