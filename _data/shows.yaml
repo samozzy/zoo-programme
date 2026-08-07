@@ -63,7 +63,8 @@ shows:
       - Themes of self-harm, suicide, addiction, racism, child loss, and extreme
         violence
       - Features vivid movement and descriptions that may distress audiences
-  - performances:
+  - audio_intro: /static/audio/frogs-and-mice.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1210,8 +1211,7 @@ shows:
     company: Karen Hall More Play Productions
     content_warnings:
       - Audience Participation
-  - audio_intro: /static/audio/audio-description_confessions-of-a-mulatto-love-child.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1592,7 +1592,8 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - performances:
+  - audio_intro: /static/audio/audio-introduction_3-times-i-killed_final.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1781,8 +1782,7 @@ shows:
       - Nudity
       - Strobe Lighting
       - Contains distressing or potentially triggering themes
-  - audio_intro: /static/audio/the-last-drop-_-access-audio-description.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1882,7 +1882,8 @@ shows:
     company: Noah Seltzer
     content_warnings:
       - Audience Participation
-  - performances:
+  - audio_intro: /static/audio/audio-instruction-strange-t-1.mp3
+    performances:
       - 2026-08-08
       - 2026-08-09
       - 2026-08-10
@@ -2045,8 +2046,7 @@ shows:
     content_warnings:
       - Audience participation
       - Strong language/swearing
-  - audio_intro: /static/audio/stop-playing-jacob-s-ladder-with-my-spine-audio-description.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2105,7 +2105,8 @@ shows:
       - Intentional self injury
       - Depictions of and reference to dermatillomania and skin picking
       - "Depictions of vomiting "
-  - performances:
+  - audio_intro: /static/audio/bfj-audio-description.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2244,7 +2245,8 @@ shows:
       - Strong language/swearing
       - Contains distressing or potentially triggering themes
       - Contains flashing lighting
-  - performances:
+  - audio_intro: /static/audio/circle-of-fifths.mp3
+    performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
@@ -2808,8 +2810,7 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - audio_intro: /static/audio/audio-description-the-house-of-pitman.mp3
-    performances:
+  - performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
