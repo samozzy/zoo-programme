@@ -2172,7 +2172,8 @@ shows:
           title="Bottoming for Jesus | Trailer | 2026"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
         title: Trailer
-  - performances:
+  - audio_intro: /static/audio/zoo-access-twitm.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
