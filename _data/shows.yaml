@@ -63,7 +63,8 @@ shows:
       - Themes of self-harm, suicide, addiction, racism, child loss, and extreme
         violence
       - Features vivid movement and descriptions that may distress audiences
-  - performances:
+  - audio_intro: /static/audio/frogs-and-mice.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -236,7 +237,8 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - performances:
+  - audio_intro: /static/audio/rascists-recessions-revolutions-audio-description-zoo-1.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -288,7 +290,8 @@ shows:
     company: DBN Productions
     content_warnings:
       - Strong Language/Swearing
-  - performances:
+  - audio_intro: /static/audio/patient-13-audio-introduction-.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1434,8 +1437,7 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - audio_intro: /static/audio/aliens-audio-description.mp3
-    performances:
+  - performances:
       - 2026-08-18
       - 2026-08-19
       - 2026-08-20
@@ -1659,7 +1661,7 @@ shows:
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
           title="Andrea Coleman Storytelling"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
-  - audio_intro: /static/audio/15-minutes-of-shame_audio-introductions.mp3
+  - audio_intro: /static/audio/15-minutes-of-shame_audio-introductions.m4a
     performances:
       - 2026-08-07
       - 2026-08-08
@@ -1830,7 +1832,8 @@ shows:
     company: Dante Passarelli
     content_warnings:
       - Contains distressing or potentially triggering themes
-  - performances:
+  - audio_intro: /static/audio/here-comes-almost-audio-introduction.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -1924,7 +1927,8 @@ shows:
           title="Teaser of Strange Tales"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
         title: Trailer
-  - performances:
+  - audio_intro: /static/audio/flightsforfuturegenerations-audio-intro.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2173,7 +2177,8 @@ shows:
           title="Bottoming for Jesus | Trailer | 2026"></iframe></div><script
           src="https://player.vimeo.com/api/player.js"></script>
         title: Trailer
-  - performances:
+  - audio_intro: /static/audio/zoo-access-twitm.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2338,8 +2343,7 @@ shows:
       - Scenes of violence
       - Outdated, offensive language and attitudes
       - Suicidal themes
-  - audio_intro: /static/audio/always-sometimes-maybe-audio-introduction.mp3
-    performances:
+  - performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
@@ -2465,7 +2469,8 @@ shows:
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2013
     company: Play the Field Productions
-  - performances:
+  - audio_intro: /static/audio/seledka-audio-intro-.mp3
+    performances:
       - 2026-08-24
       - 2026-08-25
       - 2026-08-26
@@ -2499,7 +2504,8 @@ shows:
       - Audience participation
       - Contains distressing or potentially triggernig themes
       - Strong language/swearing
-  - performances:
+  - audio_intro: /static/audio/this-is-how-i-got-arrested-audio-introduction-mp3-1-.mp3
+    performances:
       - 2026-08-07
       - 2026-08-08
       - 2026-08-09
