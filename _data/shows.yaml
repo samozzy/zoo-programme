@@ -283,6 +283,10 @@ shows:
     links:
       - platform: Instagram
         link: https://www.instagram.com/acistsrecessionsrevolutions
+    reviews:
+      - stars: 4
+        Publisher: Everything Theatre
+        quote: It’s funny, it’s surreal and it's scarily believable.
     image: /static/racists-recessions-revolutions.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1962
