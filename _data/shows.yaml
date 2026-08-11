@@ -1916,7 +1916,7 @@ shows:
     booking_unavailable: false
     is_draft: false
     venue: ZOO Southside
-    duration: 1 hr
+    duration: 1 hr 10 mins
     title: Strange Tales from Liaozhai
     image: /static/strangetales_343x343.jpg
     age_restricted: false
