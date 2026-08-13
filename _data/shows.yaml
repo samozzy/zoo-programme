@@ -432,7 +432,8 @@ shows:
           picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-  - performances:
+  - audio_intro: /static/audio/m.i.s.-all-night-long-audio-introductions-.mp3
+    performances:
       - 2026-08-18
       - 2026-08-19
       - 2026-08-20
