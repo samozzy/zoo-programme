@@ -1928,6 +1928,10 @@ shows:
     venue: ZOO Southside
     duration: 1 hr 10 mins
     title: Strange Tales from Liaozhai
+    links:
+      - link: https://www.instagram.com/yuerge_dance_theatre/
+        title: Instagram
+        platform: Instagram
     image: /static/strangetales_343x343.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2023
