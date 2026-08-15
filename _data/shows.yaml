@@ -1933,12 +1933,7 @@ shows:
     ticket_url: https://tickets.zoofestival.co.uk/event/124:2023
     company: Yuerge Dance Theatre / Shanghai International Dance Centre
     video_embeds:
-      - embed_code: <iframe title="vimeo-player"
-          src="https://player.vimeo.com/video/1190713251?h=ff81eb55dd"
-          width="640" height="360" frameborder="0"
-          referrerpolicy="strict-origin-when-cross-origin" allow="autoplay;
-          fullscreen; picture-in-picture; clipboard-write; encrypted-media;
-          web-share"   allowfullscreen></iframe>
+      - embed_code: https://vimeo.com/1190713251
         title: Trailer
   - performances:
       - 2026-08-07
