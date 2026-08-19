@@ -805,6 +805,8 @@ shows:
     links:
       - platform: Facebook
         link: https://www.facebook.com/biginbelgium4
+      - link: https://www.instagram.com/davidlabistory
+        platform: Instagram
     image: /static/03-03-2026-111104-6510-1-.jpg
     age_restricted: false
     ticket_url: https://tickets.zoofestival.co.uk/event/124:1954
